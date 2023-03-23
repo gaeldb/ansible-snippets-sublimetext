@@ -1,0 +1,21 @@
+<snippet>
+  <scope>source.ansible,source.yaml</scope>
+  <tabTrigger>block</tabTrigger>
+  <description>Insert a block</description>
+  <content><![CDATA[
+- name: ${1:Description}
+  # ${99:Comment}
+  when: 
+  block:
+  # ${99:Comment}
+    
+  rescue:
+  # ${99:Comment}
+    
+  always:
+  # ${99:Comment}
+    
+$0
+  ]]>
+  </content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <scope>source.ansible,source.yaml</scope>
+  <tabTrigger>playbook with include_vars</tabTrigger>
+  <description>Insert the header of a playbook with include_vars</description>
+  <content><![CDATA[
+---
+# Description
+- name: ${1:Description of playbook}
+  hosts: ${2:all}
+  gather_facts: ${3|true,false|}
+  vars:
+    key: value
+    # Uncomment next lines to use with include_vars
+    # ansible_distro: \"{{ ansible_distribution | lower | replace('\\\"', '') }}\"
+    # ansible_distro_version: \"{{ ansible_distribution_version | lower | replace('/', '_') }}\"
+    # ansible_distro_release: \"{{ ansible_distribution_release | lower }}\"
+    # ansible_distro_major_version: \"{{ ansible_distribution_major_version | lower | replace('/', '_') }}\"
+  tasks:
+    ${0}
+  ]]>
+  </content>
+</snippet>
