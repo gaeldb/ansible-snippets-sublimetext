@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.msk_config</tabTrigger>
+	<description>Manage Amazon MSK cluster configurations</description>
+	<content><![CDATA[
+- name: Manage Amazon MSK cluster configurations
+  msk_config:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      kafka_versions: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_dns</tabTrigger>
+	<description>Manage DNS settings on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS settings on a BIG-IP
+  bigip_device_dns:
+      cache: 
+      ip_version: 
+      name_servers: 
+      provider: 
+      search: 
+      state: 
+]]>
+	</content>
+</snippet>

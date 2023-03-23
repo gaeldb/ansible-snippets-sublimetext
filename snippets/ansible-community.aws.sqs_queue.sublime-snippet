@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sqs_queue</tabTrigger>
+	<description>Creates or deletes AWS SQS queues</description>
+	<content><![CDATA[
+- name: Creates or deletes AWS SQS queues
+  sqs_queue:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      content_based_deduplication: 
+      debug_botocore_endpoint_logs: 
+      delay_seconds: 
+      endpoint_url: 
+      kms_data_key_reuse_period_seconds: 
+      kms_master_key_id: 
+      maximum_message_size: 
+      message_retention_period: 
+      name: 
+      policy: 
+      profile: 
+      purge_tags: 
+      queue_type: 
+      receive_message_wait_time_seconds: 
+      redrive_policy: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      visibility_timeout: 
+]]>
+	</content>
+</snippet>

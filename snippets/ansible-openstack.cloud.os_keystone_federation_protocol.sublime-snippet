@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_keystone_federation_protocol</tabTrigger>
+	<description>manage a federation Protocol</description>
+	<content><![CDATA[
+- name: manage a federation Protocol
+  keystone_federation_protocol:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      idp_id: 
+      interface: 
+      mapping_id: 
+      name: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

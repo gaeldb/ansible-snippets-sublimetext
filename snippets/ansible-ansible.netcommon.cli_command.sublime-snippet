@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.cli_command</tabTrigger>
+	<description>Run a cli command on cli-based network devices</description>
+	<content><![CDATA[
+- name: Run a cli command on cli-based network devices
+  cli_command:
+      answer: 
+      check_all: 
+      command: 
+      newline: 
+      prompt: 
+      sendonly: 
+]]>
+	</content>
+</snippet>

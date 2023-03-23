@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_remote_role</tabTrigger>
+	<description>Manage remote roles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage remote roles on a BIG-IP
+  bigip_remote_role:
+      assigned_role: 
+      attribute_string: 
+      line_order: 
+      name: 
+      partition_access: 
+      provider: 
+      remote_access: 
+      state: 
+      terminal_access: 
+]]>
+	</content>
+</snippet>

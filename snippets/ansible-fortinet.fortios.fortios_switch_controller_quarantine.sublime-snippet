@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_quarantine</tabTrigger>
+	<description>Configure FortiSwitch quarantine support in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch quarantine support in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_quarantine:
+      access_token: 
+      switch_controller_quarantine: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.imgadm</tabTrigger>
+	<description>Manage SmartOS images</description>
+	<content><![CDATA[
+- name: Manage SmartOS images
+  imgadm:
+      force: 
+      pool: 
+      source: 
+      state: 
+      type: 
+      uuid: 
+]]>
+	</content>
+</snippet>

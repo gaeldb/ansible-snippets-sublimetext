@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_sqlserver_facts</tabTrigger>
+	<description>Get SQL Server facts</description>
+	<content><![CDATA[
+- name: Get SQL Server facts
+  azure_rm_sqlserver_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      server_name: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

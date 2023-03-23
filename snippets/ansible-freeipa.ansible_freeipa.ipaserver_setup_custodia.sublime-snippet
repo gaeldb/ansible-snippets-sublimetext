@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_custodia</tabTrigger>
+	<description>Setup custodia</description>
+	<content><![CDATA[
+- name: Setup custodia
+  ipaserver_setup_custodia:
+      hostname: 
+      realm: 
+      setup_ca: 
+]]>
+	</content>
+</snippet>

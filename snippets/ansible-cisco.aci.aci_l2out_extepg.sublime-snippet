@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l2out_extepg</tabTrigger>
+	<description>Manage External Network Instance (L2Out External EPG) objects (l2extInstP).</description>
+	<content><![CDATA[
+- name: Manage External Network Instance (L2Out External EPG) objects (l2extInstP).
+  aci_l2out_extepg:
+      annotation: 
+      certificate_name: 
+      description: 
+      extepg: 
+      host: 
+      l2out: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      preferred_group: 
+      private_key: 
+      qos_class: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>chocolatey.chocolatey.win_chocolatey_feature</tabTrigger>
+	<description>Manages Chocolatey features</description>
+	<content><![CDATA[
+- name: Manages Chocolatey features
+  win_chocolatey_feature:
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

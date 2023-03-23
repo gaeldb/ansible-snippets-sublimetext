@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_fortianalyzer_override_filter</tabTrigger>
+	<description>Override filters for FortiAnalyzer in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Override filters for FortiAnalyzer in Fortinet's FortiOS and FortiGate.
+  fortios_log_fortianalyzer_override_filter:
+      access_token: 
+      log_fortianalyzer_override_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

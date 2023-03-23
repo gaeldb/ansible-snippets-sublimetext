@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_volume</tabTrigger>
+	<description>NetApp Element Software Manage Volumes</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Volumes
+  na_elementsw_volume:
+      access: 
+      account_id: 
+      attributes: 
+      enable512e: 
+      hostname: 
+      name: 
+      password: 
+      qos: 
+      qos_policy_name: 
+      size: 
+      size_unit: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

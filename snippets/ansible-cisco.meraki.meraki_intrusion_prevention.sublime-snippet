@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_intrusion_prevention</tabTrigger>
+	<description>Manage intrustion prevention in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage intrustion prevention in the Meraki cloud
+  meraki_mx_intrusion_prevention:
+      allowed_rules: 
+      auth_key: 
+      host: 
+      ids_rulesets: 
+      internal_error_retry_time: 
+      mode: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      protected_networks: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

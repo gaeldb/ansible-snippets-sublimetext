@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_group_member</tabTrigger>
+	<description>Manages members in a device group</description>
+	<content><![CDATA[
+- name: Manages members in a device group
+  bigip_device_group_member:
+      device_group: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

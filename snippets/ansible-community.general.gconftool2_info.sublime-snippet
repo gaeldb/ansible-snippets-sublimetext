@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gconftool2_info</tabTrigger>
+	<description>Retrieve GConf configurations</description>
+	<content><![CDATA[
+- name: Retrieve GConf configurations
+  gconftool2_info:
+      key: 
+]]>
+	</content>
+</snippet>

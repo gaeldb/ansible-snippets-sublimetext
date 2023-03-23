@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_datastore</tabTrigger>
+	<description>Manage a datastore on ESXi host</description>
+	<content><![CDATA[
+- name: Manage a datastore on ESXi host
+  vmware_host_datastore:
+      datastore_name: 
+      datastore_type: 
+      esxi_hostname: 
+      hostname: 
+      nfs_path: 
+      nfs_ro: 
+      nfs_server: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+      vmfs_device_name: 
+      vmfs_version: 
+]]>
+	</content>
+</snippet>

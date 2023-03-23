@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.checkpoint_session</tabTrigger>
+	<description>Manages session objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages session objects on Check Point over Web Services API
+  checkpoint_session:
+      state: 
+      uid: 
+]]>
+	</content>
+</snippet>

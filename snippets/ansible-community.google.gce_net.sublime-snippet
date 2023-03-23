@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_net</tabTrigger>
+	<description>create/destroy GCE networks and firewall rules</description>
+	<content><![CDATA[
+- name: create/destroy GCE networks and firewall rules
+  gce_net:
+      allowed: 
+      credentials_file: 
+      fwname: 
+      ipv4_range: 
+      mode: 
+      name: 
+      pem_file: 
+      project_id: 
+      service_account_email: 
+      src_range: 
+      src_tags: 
+      state: 
+      subnet_desc: 
+      subnet_name: 
+      subnet_region: 
+      target_tags: 
+]]>
+	</content>
+</snippet>

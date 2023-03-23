@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xenserver_guest</tabTrigger>
+	<description>Manages virtual machines running on Citrix Hypervisor/XenServer host or pool</description>
+	<content><![CDATA[
+- name: Manages virtual machines running on Citrix Hypervisor/XenServer host or pool
+  xenserver_guest:
+      cdrom: 
+      custom_params: 
+      disks: 
+      folder: 
+      force: 
+      hardware: 
+      home_server: 
+      hostname: 
+      is_template: 
+      linked_clone: 
+      name: 
+      name_desc: 
+      networks: 
+      password: 
+      state: 
+      state_change_timeout: 
+      template: 
+      template_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+      wait_for_ip_address: 
+]]>
+	</content>
+</snippet>

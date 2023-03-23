@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.redfish_command</tabTrigger>
+	<description>Manages Out-Of-Band controllers using Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages Out-Of-Band controllers using Redfish APIs
+  redfish_command:
+      account_properties: 
+      auth_token: 
+      baseuri: 
+      boot_next: 
+      boot_override_mode: 
+      bootdevice: 
+      category: 
+      command: 
+      id: 
+      new_password: 
+      new_username: 
+      password: 
+      resource_id: 
+      roleid: 
+      session_uri: 
+      strip_etag_quotes: 
+      timeout: 
+      uefi_target: 
+      update_apply_time: 
+      update_creds: 
+      update_handle: 
+      update_image_uri: 
+      update_protocol: 
+      update_targets: 
+      update_username: 
+      username: 
+      virtual_media: 
+]]>
+	</content>
+</snippet>

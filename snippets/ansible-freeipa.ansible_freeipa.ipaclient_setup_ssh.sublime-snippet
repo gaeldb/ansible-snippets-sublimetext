@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_ssh</tabTrigger>
+	<description>Configure ssh and sshd for IPA client</description>
+	<content><![CDATA[
+- name: Configure ssh and sshd for IPA client
+  ipaclient_setup_ssh:
+      no_ssh: 
+      no_sshd: 
+      servers: 
+      ssh_trust_dns: 
+      sssd: 
+]]>
+	</content>
+</snippet>

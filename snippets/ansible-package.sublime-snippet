@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>package</tabTrigger>
+	<description>Generic OS package manager</description>
+	<content><![CDATA[
+- name: Generic OS package manager
+  package:
+      name: 
+      state: 
+      use: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_export</tabTrigger>
+	<description>export resources from Ansible Tower.</description>
+	<content><![CDATA[
+- name: export resources from Ansible Tower.
+  tower_export:
+      all: 
+      credential_types: 
+      credentials: 
+      inventory: 
+      inventory_sources: 
+      job_templates: 
+      notification_templates: 
+      organizations: 
+      projects: 
+      teams: 
+      tower_config_file: 
+      tower_host: 
+      tower_oauthtoken: 
+      tower_password: 
+      tower_username: 
+      users: 
+      validate_certs: 
+      workflow_job_templates: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_cli_script</tabTrigger>
+	<description>Manage CLI scripts on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage CLI scripts on a BIG-IP
+  bigip_cli_script:
+      content: 
+      description: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

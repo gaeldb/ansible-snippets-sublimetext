@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_cluster</tabTrigger>
+	<description>Create or terminate ECS clusters.</description>
+	<content><![CDATA[
+- name: Create or terminate ECS clusters.
+  ecs_cluster:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delay: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      repeat: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

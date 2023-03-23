@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_server</tabTrigger>
+	<description>Create/Delete Compute Instances from OpenStack</description>
+	<content><![CDATA[
+- name: Create/Delete Compute Instances from OpenStack
+  server:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      auto_ip: 
+      availability_zone: 
+      boot_from_volume: 
+      boot_volume: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      config_drive: 
+      delete_fip: 
+      flavor: 
+      flavor_include: 
+      flavor_ram: 
+      floating_ip_pools: 
+      floating_ips: 
+      image: 
+      image_exclude: 
+      interface: 
+      key_name: 
+      meta: 
+      name: 
+      network: 
+      nics: 
+      region_name: 
+      reuse_ips: 
+      scheduler_hints: 
+      security_groups: 
+      state: 
+      terminate_volume: 
+      timeout: 
+      userdata: 
+      validate_certs: 
+      volume_size: 
+      volumes: 
+      wait: 
+]]>
+	</content>
+</snippet>

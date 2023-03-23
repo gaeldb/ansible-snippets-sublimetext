@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_management_interface</tabTrigger>
+	<description>Configure Meraki management interfaces</description>
+	<content><![CDATA[
+- name: Configure Meraki management interfaces
+  meraki_management_interface:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      serial: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      wan1: 
+      wan2: 
+]]>
+	</content>
+</snippet>

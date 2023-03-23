@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os6.os6_config</tabTrigger>
+	<description>Manage Dell EMC OS6 configuration sections</description>
+	<content><![CDATA[
+- name: Manage Dell EMC OS6 configuration sections
+  os6_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      save: 
+      src: 
+      update: 
+]]>
+	</content>
+</snippet>

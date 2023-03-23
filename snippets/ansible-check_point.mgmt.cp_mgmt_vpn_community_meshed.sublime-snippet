@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_vpn_community_meshed</tabTrigger>
+	<description>Manages vpn-community-meshed objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages vpn-community-meshed objects on Check Point over Web Services API
+  cp_mgmt_vpn_community_meshed:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      encryption_method: 
+      encryption_suite: 
+      gateways: 
+      ignore_errors: 
+      ignore_warnings: 
+      ike_phase_1: 
+      ike_phase_2: 
+      name: 
+      shared_secrets: 
+      state: 
+      tags: 
+      use_shared_secret: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

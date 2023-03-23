@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_vpc</tabTrigger>
+	<description>Manages VPCs on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages VPCs on Apache CloudStack based clouds.
+  cs_vpc:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cidr: 
+      clean_up: 
+      display_text: 
+      domain: 
+      name: 
+      network_domain: 
+      poll_async: 
+      project: 
+      state: 
+      tags: 
+      vpc_offering: 
+      zone: 
+]]>
+	</content>
+</snippet>

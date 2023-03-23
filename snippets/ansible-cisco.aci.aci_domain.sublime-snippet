@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_domain</tabTrigger>
+	<description>Manage physical, virtual, bridged, routed or FC domain profiles (phys:DomP, vmm:DomP, l2ext:DomP, l3ext:DomP, fc:DomP)</description>
+	<content><![CDATA[
+- name: Manage physical, virtual, bridged, routed or FC domain profiles (phys:DomP, vmm:DomP, l2ext:DomP, l3ext:DomP, fc:DomP)
+  aci_domain:
+      annotation: 
+      certificate_name: 
+      domain: 
+      domain_type: 
+      dscp: 
+      encap_mode: 
+      host: 
+      multicast_address: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vm_provider: 
+      vswitch: 
+]]>
+	</content>
+</snippet>

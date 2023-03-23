@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ike_peer</tabTrigger>
+	<description>Manage IPSec IKE Peer configuration on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage IPSec IKE Peer configuration on BIG-IP
+  bigip_ike_peer:
+      description: 
+      name: 
+      partition: 
+      phase1_auth_method: 
+      phase1_cert: 
+      phase1_encryption_algorithm: 
+      phase1_hash_algorithm: 
+      phase1_key: 
+      phase1_lifetime: 
+      phase1_perfect_forward_secrecy: 
+      phase1_verify_peer_cert: 
+      presented_id_type: 
+      presented_id_value: 
+      preshared_key: 
+      provider: 
+      remote_address: 
+      state: 
+      update_password: 
+      verified_id_type: 
+      verified_id_value: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_vlan</tabTrigger>
+	<description>Manage VLANs on VyOS network devices</description>
+	<content><![CDATA[
+- name: Manage VLANs on VyOS network devices
+  vyos_vlan:
+      address: 
+      aggregate: 
+      associated_interfaces: 
+      delay: 
+      interfaces: 
+      name: 
+      provider: 
+      purge: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

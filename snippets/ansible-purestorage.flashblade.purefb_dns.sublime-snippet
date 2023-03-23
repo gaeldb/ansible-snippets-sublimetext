@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_dns</tabTrigger>
+	<description>Configure Pure Storage FlashBlade DNS settings</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashBlade DNS settings
+  purefb_dns:
+      api_token: 
+      domain: 
+      fb_url: 
+      nameservers: 
+      search: 
+      state: 
+]]>
+	</content>
+</snippet>

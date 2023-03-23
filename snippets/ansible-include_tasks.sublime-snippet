@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>include_tasks</tabTrigger>
+	<description>Dynamically include a task list</description>
+	<content><![CDATA[
+- name: Dynamically include a task list
+  include_tasks:
+      apply: 
+      file: 
+      free-form: 
+]]>
+	</content>
+</snippet>

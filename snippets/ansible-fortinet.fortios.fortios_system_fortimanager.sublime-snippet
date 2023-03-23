@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_fortimanager</tabTrigger>
+	<description>Configure FortiManager in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiManager in Fortinet's FortiOS and FortiGate.
+  fortios_system_fortimanager:
+      access_token: 
+      system_fortimanager: 
+      vdom: 
+]]>
+	</content>
+</snippet>

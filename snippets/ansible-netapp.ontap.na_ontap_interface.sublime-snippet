@@ -1,0 +1,44 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_interface</tabTrigger>
+	<description>NetApp ONTAP LIF configuration</description>
+	<content><![CDATA[
+- name: NetApp ONTAP LIF configuration
+  na_ontap_interface:
+      address: 
+      admin_status: 
+      cert_filepath: 
+      current_node: 
+      current_port: 
+      dns_domain_name: 
+      failover_group: 
+      failover_policy: 
+      feature_flags: 
+      firewall_policy: 
+      force_subnet_association: 
+      home_node: 
+      home_port: 
+      hostname: 
+      http_port: 
+      https: 
+      interface_name: 
+      is_auto_revert: 
+      is_dns_update_enabled: 
+      is_ipv4_link_local: 
+      key_filepath: 
+      listen_for_dns_query: 
+      netmask: 
+      ontapi: 
+      password: 
+      protocols: 
+      role: 
+      service_policy: 
+      state: 
+      subnet_name: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

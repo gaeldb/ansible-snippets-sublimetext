@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_lifecycle_hook</tabTrigger>
+	<description>Create, delete or update AWS ASG Lifecycle Hooks</description>
+	<content><![CDATA[
+- name: Create, delete or update AWS ASG Lifecycle Hooks
+  autoscaling_lifecycle_hook:
+      access_key: 
+      autoscaling_group_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      default_result: 
+      endpoint_url: 
+      heartbeat_timeout: 
+      lifecycle_hook_name: 
+      notification_meta_data: 
+      notification_target_arn: 
+      profile: 
+      region: 
+      role_arn: 
+      secret_key: 
+      session_token: 
+      state: 
+      transition: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

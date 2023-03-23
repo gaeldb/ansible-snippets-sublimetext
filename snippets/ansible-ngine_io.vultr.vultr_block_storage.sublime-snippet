@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_block_storage</tabTrigger>
+	<description>Manages block storage volumes on Vultr.</description>
+	<content><![CDATA[
+- name: Manages block storage volumes on Vultr.
+  vultr_block_storage:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      attached_to_SUBID: 
+      live_attachment: 
+      name: 
+      region: 
+      size: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

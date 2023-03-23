@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.grove</tabTrigger>
+	<description>Sends a notification to a grove.io channel</description>
+	<content><![CDATA[
+- name: Sends a notification to a grove.io channel
+  grove:
+      channel_token: 
+      icon_url: 
+      message_content: 
+      service: 
+      url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

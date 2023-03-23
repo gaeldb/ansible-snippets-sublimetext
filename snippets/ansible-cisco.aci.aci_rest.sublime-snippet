@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_rest</tabTrigger>
+	<description>Direct access to the Cisco APIC REST API</description>
+	<content><![CDATA[
+- name: Direct access to the Cisco APIC REST API
+  aci_rest:
+      annotation: 
+      certificate_name: 
+      content: 
+      host: 
+      method: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      path: 
+      port: 
+      private_key: 
+      src: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

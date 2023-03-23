@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_dns_client</tabTrigger>
+	<description>Configures DNS lookup on Windows hosts</description>
+	<content><![CDATA[
+- name: Configures DNS lookup on Windows hosts
+  win_dns_client:
+      adapter_names: 
+      dns_servers: 
+]]>
+	</content>
+</snippet>

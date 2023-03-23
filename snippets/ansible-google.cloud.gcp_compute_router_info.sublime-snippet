@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_router_info</tabTrigger>
+	<description>Gather info for GCP Router</description>
+	<content><![CDATA[
+- name: Gather info for GCP Router
+  gcp_compute_router_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_ipamdnsproviderprofile</tabTrigger>
+	<description>Module for setup of IpamDnsProviderProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of IpamDnsProviderProfile Avi RESTful Object
+  avi_ipamdnsproviderprofile:
+      allocate_ip_in_vrf: 
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      aws_profile: 
+      azure_profile: 
+      controller: 
+      custom_profile: 
+      gcp_profile: 
+      infoblox_profile: 
+      internal_profile: 
+      name: 
+      oci_profile: 
+      openstack_profile: 
+      password: 
+      proxy_configuration: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      tencent_profile: 
+      type: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

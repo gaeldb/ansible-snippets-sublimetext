@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pipx_info</tabTrigger>
+	<description>Rretrieves information about applications installed with pipx</description>
+	<content><![CDATA[
+- name: Rretrieves information about applications installed with pipx
+  pipx_info:
+      executable: 
+      include_deps: 
+      include_injected: 
+      include_raw: 
+      name: 
+]]>
+	</content>
+</snippet>

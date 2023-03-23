@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_test_keytab</tabTrigger>
+	<description>Test if the krb5.keytab on the machine is valid and can be used.</description>
+	<content><![CDATA[
+- name: Test if the krb5.keytab on the machine is valid and can be used.
+  ipaclient_test_keytab:
+      domain: 
+      hostname: 
+      kdc: 
+      kinit_attempts: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

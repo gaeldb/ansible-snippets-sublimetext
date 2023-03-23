@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_url_map</tabTrigger>
+	<description>Creates a GCP RegionUrlMap</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionUrlMap
+  gcp_compute_region_url_map:
+      auth_kind: 
+      default_service: 
+      default_url_redirect: 
+      description: 
+      env_type: 
+      host_rules: 
+      name: 
+      path_matchers: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      tests: 
+]]>
+	</content>
+</snippet>

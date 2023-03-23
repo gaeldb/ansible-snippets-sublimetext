@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_snmp_agent</tabTrigger>
+	<description>Configure the FlashBlade SNMP Agent</description>
+	<content><![CDATA[
+- name: Configure the FlashBlade SNMP Agent
+  purefb_snmp_agent:
+      api_token: 
+      auth_passphrase: 
+      auth_protocol: 
+      community: 
+      fb_url: 
+      privacy_passphrase: 
+      privacy_protocol: 
+      user: 
+      version: 
+]]>
+	</content>
+</snippet>

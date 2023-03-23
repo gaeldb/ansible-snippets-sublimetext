@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_pim_rp_address</tabTrigger>
+	<description>Manages configuration of an PIM static RP address instance.</description>
+	<content><![CDATA[
+- name: Manages configuration of an PIM static RP address instance.
+  nxos_pim_rp_address:
+      bidir: 
+      group_list: 
+      prefix_list: 
+      provider: 
+      route_map: 
+      rp_address: 
+      state: 
+]]>
+	</content>
+</snippet>

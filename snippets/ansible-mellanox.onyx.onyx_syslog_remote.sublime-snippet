@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_syslog_remote</tabTrigger>
+	<description>Configure remote syslog module</description>
+	<content><![CDATA[
+- name: Configure remote syslog module
+  onyx_syslog_remote:
+      enabled: 
+      filter: 
+      filter_str: 
+      host: 
+      port: 
+      trap: 
+      trap_override: 
+]]>
+	</content>
+</snippet>

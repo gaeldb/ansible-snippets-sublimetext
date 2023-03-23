@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_instance_type</tabTrigger>
+	<description>Module to manage Instance Types in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage Instance Types in oVirt/RHV
+  ovirt_instance_type:
+      auth: 
+      ballooning_enabled: 
+      boot_devices: 
+      cpu_cores: 
+      cpu_mode: 
+      cpu_pinning: 
+      cpu_sockets: 
+      cpu_threads: 
+      description: 
+      fetch_nested: 
+      graphical_console: 
+      high_availability: 
+      high_availability_priority: 
+      host: 
+      id: 
+      io_threads: 
+      memory: 
+      memory_guaranteed: 
+      memory_max: 
+      name: 
+      nested_attributes: 
+      nics: 
+      operating_system: 
+      placement_policy: 
+      poll_interval: 
+      rng_bytes: 
+      rng_device: 
+      rng_period: 
+      serial_console: 
+      smartcard_enabled: 
+      soundcard_enabled: 
+      state: 
+      timeout: 
+      usb_support: 
+      virtio_scsi: 
+      wait: 
+      watchdog: 
+]]>
+	</content>
+</snippet>

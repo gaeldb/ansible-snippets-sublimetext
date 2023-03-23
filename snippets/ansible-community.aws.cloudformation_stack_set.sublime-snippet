@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.cloudformation_stack_set</tabTrigger>
+	<description>Manage groups of CloudFormation stacks</description>
+	<content><![CDATA[
+- name: Manage groups of CloudFormation stacks
+  cloudformation_stack_set:
+      access_key: 
+      accounts: 
+      administration_role_arn: 
+      aws_ca_bundle: 
+      aws_config: 
+      capabilities: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      execution_role_name: 
+      failure_tolerance: 
+      name: 
+      parameters: 
+      profile: 
+      purge_stacks: 
+      region: 
+      regions: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      template: 
+      template_body: 
+      template_url: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

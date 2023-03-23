@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.dladm_linkprop</tabTrigger>
+	<description>Manage link properties on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage link properties on Solaris/illumos systems.
+  dladm_linkprop:
+      link: 
+      property: 
+      state: 
+      temporary: 
+      value: 
+]]>
+	</content>
+</snippet>

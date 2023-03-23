@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.api_gateway_domain</tabTrigger>
+	<description>Manage AWS API Gateway custom domains</description>
+	<content><![CDATA[
+- name: Manage AWS API Gateway custom domains
+  api_gateway_domain:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      certificate_arn: 
+      debug_botocore_endpoint_logs: 
+      domain_mappings: 
+      domain_name: 
+      endpoint_type: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      security_policy: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

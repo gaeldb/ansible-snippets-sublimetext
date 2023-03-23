@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.enos.enos_config</tabTrigger>
+	<description>Manage Lenovo ENOS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Lenovo ENOS configuration sections
+  enos_config:
+      admin: 
+      after: 
+      auth_pass: 
+      authorize: 
+      backup: 
+      backup_options: 
+      before: 
+      comment: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      src: 
+]]>
+	</content>
+</snippet>

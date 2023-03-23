@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.nso_query</tabTrigger>
+	<description>Query data from Cisco NSO.</description>
+	<content><![CDATA[
+- name: Query data from Cisco NSO.
+  nso_query:
+      fields: 
+      password: 
+      timeout: 
+      url: 
+      username: 
+      validate_certs: 
+      xpath: 
+]]>
+	</content>
+</snippet>

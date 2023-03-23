@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_remote_cred</tabTrigger>
+	<description>Create, modify and delete FlashBlade object store remote credentials</description>
+	<content><![CDATA[
+- name: Create, modify and delete FlashBlade object store remote credentials
+  purefb_remote_cred:
+      access_key: 
+      api_token: 
+      fb_url: 
+      name: 
+      secret: 
+      state: 
+      target: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_ospf</tabTrigger>
+	<description>Manage OSPF interface policies (ospf:IfPol)</description>
+	<content><![CDATA[
+- name: Manage OSPF interface policies (ospf:IfPol)
+  aci_interface_policy_ospf:
+      annotation: 
+      certificate_name: 
+      controls: 
+      cost: 
+      dead_interval: 
+      description: 
+      hello_interval: 
+      host: 
+      name_alias: 
+      network_type: 
+      ospf: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      prefix_suppression: 
+      priority: 
+      private_key: 
+      retransmit_interval: 
+      state: 
+      tenant: 
+      timeout: 
+      transmit_delay: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

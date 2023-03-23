@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>find</tabTrigger>
+	<description>Return a list of files based on specific criteria</description>
+	<content><![CDATA[
+- name: Return a list of files based on specific criteria
+  find:
+      age: 
+      age_stamp: 
+      contains: 
+      depth: 
+      excludes: 
+      file_type: 
+      follow: 
+      get_checksum: 
+      hidden: 
+      paths: 
+      patterns: 
+      read_whole_file: 
+      recurse: 
+      size: 
+      use_regex: 
+]]>
+	</content>
+</snippet>

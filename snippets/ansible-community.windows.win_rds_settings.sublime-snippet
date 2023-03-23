@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_rds_settings</tabTrigger>
+	<description>Manage main settings of a Remote Desktop Gateway server</description>
+	<content><![CDATA[
+- name: Manage main settings of a Remote Desktop Gateway server
+  win_rds_settings:
+      certificate_hash: 
+      enable_only_messaging_capable_clients: 
+      max_connections: 
+      ssl_bridging: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_storage_default_object_acl</tabTrigger>
+	<description>Creates a GCP DefaultObjectACL</description>
+	<content><![CDATA[
+- name: Creates a GCP DefaultObjectACL
+  gcp_storage_default_object_acl:
+      auth_kind: 
+      bucket: 
+      entity: 
+      env_type: 
+      object: 
+      project: 
+      role: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

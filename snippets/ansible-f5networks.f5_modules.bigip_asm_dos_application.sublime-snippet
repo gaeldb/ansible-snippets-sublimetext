@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_dos_application</tabTrigger>
+	<description>Manage application settings for a DOS profile</description>
+	<content><![CDATA[
+- name: Manage application settings for a DOS profile
+  bigip_asm_dos_application:
+      geolocations: 
+      heavy_urls: 
+      mobile_detection: 
+      partition: 
+      profile: 
+      provider: 
+      rtbh_duration: 
+      rtbh_enable: 
+      scrubbing_duration: 
+      scrubbing_enable: 
+      single_page_application: 
+      state: 
+      trigger_irule: 
+]]>
+	</content>
+</snippet>

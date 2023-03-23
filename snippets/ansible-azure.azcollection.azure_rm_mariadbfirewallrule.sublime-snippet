@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_mariadbfirewallrule</tabTrigger>
+	<description>Manage MariaDB firewall rule instance</description>
+	<content><![CDATA[
+- name: Manage MariaDB firewall rule instance
+  azure_rm_mariadbfirewallrule:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      end_ip_address: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      server_name: 
+      start_ip_address: 
+      state: 
+      subscription_id: 
+      tenant: 
+]]>
+	</content>
+</snippet>

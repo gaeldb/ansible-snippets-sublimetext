@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vtp_domain</tabTrigger>
+	<description>Manages VTP domain configuration.</description>
+	<content><![CDATA[
+- name: Manages VTP domain configuration.
+  nxos_vtp_domain:
+      domain: 
+      provider: 
+]]>
+	</content>
+</snippet>

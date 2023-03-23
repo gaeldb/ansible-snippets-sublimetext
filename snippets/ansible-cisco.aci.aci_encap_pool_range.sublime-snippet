@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_encap_pool_range</tabTrigger>
+	<description>Manage encap ranges assigned to pools (fvns:EncapBlk, fvns:VsanEncapBlk)</description>
+	<content><![CDATA[
+- name: Manage encap ranges assigned to pools (fvns:EncapBlk, fvns:VsanEncapBlk)
+  aci_encap_pool_range:
+      allocation_mode: 
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pool: 
+      pool_allocation_mode: 
+      pool_type: 
+      port: 
+      private_key: 
+      range_end: 
+      range_name: 
+      range_start: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

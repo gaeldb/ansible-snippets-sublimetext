@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.edgeswitch_facts</tabTrigger>
+	<description>Collect facts from remote devices running Edgeswitch</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Edgeswitch
+  edgeswitch_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

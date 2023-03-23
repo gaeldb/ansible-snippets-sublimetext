@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_kernel_manager</tabTrigger>
+	<description>Manage kernel module options on ESXi hosts</description>
+	<content><![CDATA[
+- name: Manage kernel module options on ESXi hosts
+  vmware_host_kernel_manager:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      kernel_module_name: 
+      kernel_module_option: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

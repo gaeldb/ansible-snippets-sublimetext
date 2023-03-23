@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cobbler_sync</tabTrigger>
+	<description>Sync Cobbler</description>
+	<content><![CDATA[
+- name: Sync Cobbler
+  cobbler_sync:
+      host: 
+      password: 
+      port: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

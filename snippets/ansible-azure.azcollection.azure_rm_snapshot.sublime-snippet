@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_snapshot</tabTrigger>
+	<description>Manage Azure Snapshot instance.</description>
+	<content><![CDATA[
+- name: Manage Azure Snapshot instance.
+  azure_rm_snapshot:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      creation_data: 
+      location: 
+      name: 
+      os_type: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

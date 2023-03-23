@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_scale</tabTrigger>
+	<description>Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.</description>
+	<content><![CDATA[
+- name: Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.
+  k8s_scale:
+      api_key: 
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      current_replicas: 
+      host: 
+      kind: 
+      kubeconfig: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      replicas: 
+      resource_definition: 
+      resource_version: 
+      src: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

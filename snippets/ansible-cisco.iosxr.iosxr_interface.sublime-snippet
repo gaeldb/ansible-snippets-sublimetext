@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Interface on Cisco IOS XR network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Interface on Cisco IOS XR network devices
+  iosxr_interface:
+      active: 
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      provider: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

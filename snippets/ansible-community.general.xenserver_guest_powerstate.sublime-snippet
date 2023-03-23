@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xenserver_guest_powerstate</tabTrigger>
+	<description>Manages power states of virtual machines running on Citrix Hypervisor/XenServer host or pool</description>
+	<content><![CDATA[
+- name: Manages power states of virtual machines running on Citrix Hypervisor/XenServer host or pool
+  xenserver_guest_powerstate:
+      hostname: 
+      name: 
+      password: 
+      state: 
+      state_change_timeout: 
+      username: 
+      uuid: 
+      validate_certs: 
+      wait_for_ip_address: 
+]]>
+	</content>
+</snippet>

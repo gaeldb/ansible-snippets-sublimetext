@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_install_os</tabTrigger>
+	<description>Set boot options like boot, kickstart image and issu.</description>
+	<content><![CDATA[
+- name: Set boot options like boot, kickstart image and issu.
+  nxos_install_os:
+      issu: 
+      kickstart_image_file: 
+      provider: 
+      system_image_file: 
+]]>
+	</content>
+</snippet>

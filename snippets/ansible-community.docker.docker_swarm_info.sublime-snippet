@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_swarm_info</tabTrigger>
+	<description>Retrieves facts about Docker Swarm cluster.</description>
+	<content><![CDATA[
+- name: Retrieves facts about Docker Swarm cluster.
+  docker_swarm_info:
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      docker_host: 
+      nodes: 
+      nodes_filters: 
+      services: 
+      services_filters: 
+      ssl_version: 
+      tasks: 
+      tasks_filters: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      unlock_key: 
+      validate_certs: 
+      verbose_output: 
+]]>
+	</content>
+</snippet>

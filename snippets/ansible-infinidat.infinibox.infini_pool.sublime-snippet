@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_pool</tabTrigger>
+	<description>Create, Delete and Modify Pools on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete and Modify Pools on Infinibox
+  infini_pool:
+      compression: 
+      name: 
+      password: 
+      size: 
+      ssd_cache: 
+      state: 
+      system: 
+      user: 
+      vsize: 
+]]>
+	</content>
+</snippet>

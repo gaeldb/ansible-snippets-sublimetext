@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_optional_feature</tabTrigger>
+	<description>Manage optional Windows features</description>
+	<content><![CDATA[
+- name: Manage optional Windows features
+  win_optional_feature:
+      include_parent: 
+      name: 
+      source: 
+      state: 
+]]>
+	</content>
+</snippet>

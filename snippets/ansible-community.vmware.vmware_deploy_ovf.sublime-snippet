@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_deploy_ovf</tabTrigger>
+	<description>Deploys a VMware virtual machine from an OVF or OVA file</description>
+	<content><![CDATA[
+- name: Deploys a VMware virtual machine from an OVF or OVA file
+  vmware_deploy_ovf:
+      allow_duplicates: 
+      cluster: 
+      datacenter: 
+      datastore: 
+      deployment_option: 
+      disk_provisioning: 
+      fail_on_spec_warnings: 
+      folder: 
+      hostname: 
+      inject_ovf_env: 
+      name: 
+      networks: 
+      ovf: 
+      password: 
+      port: 
+      power_on: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      resource_pool: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_for_ip_address: 
+]]>
+	</content>
+</snippet>

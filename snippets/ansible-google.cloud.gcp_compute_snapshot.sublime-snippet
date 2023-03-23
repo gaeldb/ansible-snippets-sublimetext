@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_snapshot</tabTrigger>
+	<description>Creates a GCP Snapshot</description>
+	<content><![CDATA[
+- name: Creates a GCP Snapshot
+  gcp_compute_snapshot:
+      auth_kind: 
+      description: 
+      env_type: 
+      labels: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      snapshot_encryption_key: 
+      source_disk: 
+      source_disk_encryption_key: 
+      state: 
+      storage_locations: 
+      zone: 
+]]>
+	</content>
+</snippet>

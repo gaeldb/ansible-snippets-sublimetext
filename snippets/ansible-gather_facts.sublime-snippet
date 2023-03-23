@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>gather_facts</tabTrigger>
+	<description>Gathers facts about remote hosts</description>
+	<content><![CDATA[
+- name: Gathers facts about remote hosts
+  gather_facts:
+      parallel: 
+]]>
+	</content>
+</snippet>

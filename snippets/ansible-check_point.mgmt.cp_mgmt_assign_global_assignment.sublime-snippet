@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_assign_global_assignment</tabTrigger>
+	<description>assign global assignment on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: assign global assignment on Check Point over Web Services API
+  cp_mgmt_assign_global_assignment:
+      dependent_domains: 
+      details_level: 
+      global_domains: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

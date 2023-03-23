@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_tacacsplus</tabTrigger>
+	<description>Configure TACACS+ server entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure TACACS+ server entries in Fortinet's FortiOS and FortiGate.
+  fortios_user_tacacsplus:
+      access_token: 
+      state: 
+      user_tacacsplus: 
+      vdom: 
+]]>
+	</content>
+</snippet>

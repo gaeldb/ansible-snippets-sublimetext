@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_scheduler</tabTrigger>
+	<description>Adds or removes schedules from proxysql admin interface.</description>
+	<content><![CDATA[
+- name: Adds or removes schedules from proxysql admin interface.
+  proxysql_scheduler:
+      active: 
+      arg1: 
+      arg2: 
+      arg3: 
+      arg4: 
+      arg5: 
+      comment: 
+      config_file: 
+      filename: 
+      force_delete: 
+      interval_ms: 
+      load_to_runtime: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      save_to_disk: 
+      state: 
+]]>
+	</content>
+</snippet>

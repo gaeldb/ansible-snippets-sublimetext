@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_snapmirror_policy</tabTrigger>
+	<description>NetApp ONTAP create, delete or modify SnapMirror policies</description>
+	<content><![CDATA[
+- name: NetApp ONTAP create, delete or modify SnapMirror policies
+  na_ontap_snapmirror_policy:
+      cert_filepath: 
+      comment: 
+      common_snapshot_schedule: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_atime: 
+      is_network_compression_enabled: 
+      keep: 
+      key_filepath: 
+      ontapi: 
+      owner: 
+      password: 
+      policy_name: 
+      policy_type: 
+      prefix: 
+      restart: 
+      schedule: 
+      snapmirror_label: 
+      state: 
+      transfer_priority: 
+      tries: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_oracle</tabTrigger>
+	<description>Manages BIG-IP Oracle monitors</description>
+	<content><![CDATA[
+- name: Manages BIG-IP Oracle monitors
+  bigip_monitor_oracle:
+      app_service: 
+      count: 
+      database: 
+      debug: 
+      description: 
+      interval: 
+      ip: 
+      manual_resume: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      recv: 
+      recv_column: 
+      recv_row: 
+      send: 
+      state: 
+      target_password: 
+      target_username: 
+      time_until_up: 
+      timeout: 
+      up_interval: 
+      update_password: 
+]]>
+	</content>
+</snippet>

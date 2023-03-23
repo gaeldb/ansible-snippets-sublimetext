@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_banner</tabTrigger>
+	<description>Manage multiline banners on Lenovo CNOS devices</description>
+	<content><![CDATA[
+- name: Manage multiline banners on Lenovo CNOS devices
+  cnos_banner:
+      banner: 
+      provider: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

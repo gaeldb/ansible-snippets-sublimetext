@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_dns</tabTrigger>
+	<description>Setup DNS</description>
+	<content><![CDATA[
+- name: Setup DNS
+  ipaserver_setup_dns:
+      dns_ip_addresses: 
+      dns_reverse_zones: 
+      domain: 
+      forward_policy: 
+      forwarders: 
+      hostname: 
+      ip_addresses: 
+      no_dnssec_validation: 
+      realm: 
+      setup_ca: 
+      setup_dns: 
+      zonemgr: 
+]]>
+	</content>
+</snippet>

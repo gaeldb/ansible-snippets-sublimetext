@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_publish</tabTrigger>
+	<description>Publish a message to a RabbitMQ queue.</description>
+	<content><![CDATA[
+- name: Publish a message to a RabbitMQ queue.
+  rabbitmq_publish:
+      auto_delete: 
+      body: 
+      cafile: 
+      certfile: 
+      content_type: 
+      durable: 
+      exchange: 
+      exclusive: 
+      headers: 
+      host: 
+      keyfile: 
+      password: 
+      port: 
+      proto: 
+      queue: 
+      routing_key: 
+      src: 
+      url: 
+      username: 
+      vhost: 
+]]>
+	</content>
+</snippet>

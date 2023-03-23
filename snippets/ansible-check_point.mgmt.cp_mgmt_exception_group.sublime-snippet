@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_exception_group</tabTrigger>
+	<description>Manages exception-group objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages exception-group objects on Check Point over Web Services API
+  cp_mgmt_exception_group:
+      applied_profile: 
+      applied_threat_rules: 
+      apply_on: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

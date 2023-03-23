@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_folder</tabTrigger>
+	<description>Manage Grafana Folders</description>
+	<content><![CDATA[
+- name: Manage Grafana Folders
+  grafana_folder:
+      client_cert: 
+      client_key: 
+      grafana_api_key: 
+      name: 
+      state: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_vpn_tunnel</tabTrigger>
+	<description>Creates a GCP VpnTunnel</description>
+	<content><![CDATA[
+- name: Creates a GCP VpnTunnel
+  gcp_compute_vpn_tunnel:
+      auth_kind: 
+      description: 
+      env_type: 
+      ike_version: 
+      local_traffic_selector: 
+      name: 
+      peer_external_gateway: 
+      peer_external_gateway_interface: 
+      peer_gcp_gateway: 
+      peer_ip: 
+      project: 
+      region: 
+      remote_traffic_selector: 
+      router: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      shared_secret: 
+      state: 
+      target_vpn_gateway: 
+      vpn_gateway: 
+      vpn_gateway_interface: 
+]]>
+	</content>
+</snippet>

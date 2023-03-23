@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_global</tabTrigger>
+	<description>NetApp E-Series manage global settings configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage global settings configuration
+  na_santricity_global:
+      api_password: 
+      api_url: 
+      api_username: 
+      automatic_load_balancing: 
+      cache_block_size: 
+      cache_flush_threshold: 
+      default_host_type: 
+      host_connectivity_reporting: 
+      name: 
+      ssid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

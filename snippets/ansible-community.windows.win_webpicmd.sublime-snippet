@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_webpicmd</tabTrigger>
+	<description>Installs packages using Web Platform Installer command-line</description>
+	<content><![CDATA[
+- name: Installs packages using Web Platform Installer command-line
+  win_webpicmd:
+      name: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_sms_server</tabTrigger>
+	<description>Configure SMS server for sending SMS messages to support user authentication in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure SMS server for sending SMS messages to support user authentication in Fortinet's FortiOS and FortiGate.
+  fortios_system_sms_server:
+      access_token: 
+      state: 
+      system_sms_server: 
+      vdom: 
+]]>
+	</content>
+</snippet>

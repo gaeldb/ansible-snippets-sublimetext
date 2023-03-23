@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_project</tabTrigger>
+	<description>Create/delete a project in Packet host</description>
+	<content><![CDATA[
+- name: Create/delete a project in Packet host
+  packet_project:
+      auth_token: 
+      custom_data: 
+      id: 
+      name: 
+      org_id: 
+      payment_method: 
+      state: 
+]]>
+	</content>
+</snippet>

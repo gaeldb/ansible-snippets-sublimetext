@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_log_destination</tabTrigger>
+	<description>Manages log destinations on a BIG-IP.</description>
+	<content><![CDATA[
+- name: Manages log destinations on a BIG-IP.
+  bigip_log_destination:
+      address: 
+      description: 
+      distribution: 
+      forward_to: 
+      name: 
+      partition: 
+      pool: 
+      pool_settings: 
+      port: 
+      protocol: 
+      provider: 
+      server_ssl_profile: 
+      state: 
+      syslog_format: 
+      syslog_settings: 
+      template_delete_delay: 
+      template_retransmit_interval: 
+      transport_profile: 
+      type: 
+]]>
+	</content>
+</snippet>

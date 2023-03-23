@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_seproperties</tabTrigger>
+	<description>Module for setup of SeProperties Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of SeProperties Avi RESTful Object
+  avi_seproperties:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      password: 
+      se_agent_properties: 
+      se_bootup_properties: 
+      se_runtime_properties: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

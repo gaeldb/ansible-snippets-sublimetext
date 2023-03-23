@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_spamfilter_bwl</tabTrigger>
+	<description>Configure anti-spam black/white list in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure anti-spam black/white list in Fortinet's FortiOS and FortiGate.
+  fortios_spamfilter_bwl:
+      access_token: 
+      spamfilter_bwl: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

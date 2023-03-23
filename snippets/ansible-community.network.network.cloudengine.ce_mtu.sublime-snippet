@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_mtu</tabTrigger>
+	<description>Manages MTU settings on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages MTU settings on HUAWEI CloudEngine switches.
+  ce_mtu:
+      interface: 
+      jumbo_max: 
+      jumbo_min: 
+      mtu: 
+      state: 
+]]>
+	</content>
+</snippet>

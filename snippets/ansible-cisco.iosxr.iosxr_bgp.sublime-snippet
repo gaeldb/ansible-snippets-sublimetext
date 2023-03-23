@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_bgp</tabTrigger>
+	<description>Configure global BGP protocol settings on Cisco IOS-XR</description>
+	<content><![CDATA[
+- name: Configure global BGP protocol settings on Cisco IOS-XR
+  iosxr_bgp:
+      config: 
+      operation: 
+]]>
+	</content>
+</snippet>

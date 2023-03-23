@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ssl_csr</tabTrigger>
+	<description>Create SSL CSR files on the BIG-IP</description>
+	<content><![CDATA[
+- name: Create SSL CSR files on the BIG-IP
+  bigip_ssl_csr:
+      common_name: 
+      dest: 
+      force: 
+      key_name: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

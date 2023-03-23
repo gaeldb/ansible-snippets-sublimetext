@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_identity</tabTrigger>
+	<description>Load Rackspace Cloud Identity</description>
+	<content><![CDATA[
+- name: Load Rackspace Cloud Identity
+  rax_identity:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      identity_type: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.checkpoint_access_rule</tabTrigger>
+	<description>Manages access rules on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages access rules on Check Point over Web Services API
+  checkpoint_access_rule:
+      action: 
+      auto_install_policy: 
+      auto_publish_session: 
+      destination: 
+      enabled: 
+      layer: 
+      name: 
+      policy_package: 
+      position: 
+      source: 
+      state: 
+      targets: 
+]]>
+	</content>
+</snippet>

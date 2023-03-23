@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_domain_controller</tabTrigger>
+	<description>Configure domain controller entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure domain controller entries in Fortinet's FortiOS and FortiGate.
+  fortios_user_domain_controller:
+      access_token: 
+      state: 
+      user_domain_controller: 
+      vdom: 
+]]>
+	</content>
+</snippet>

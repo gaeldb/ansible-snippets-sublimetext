@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rundeck_project</tabTrigger>
+	<description>Manage Rundeck projects</description>
+	<content><![CDATA[
+- name: Manage Rundeck projects
+  rundeck_project:
+      api_version: 
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      http_agent: 
+      name: 
+      state: 
+      token: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_node</tabTrigger>
+	<description>Manages F5 BIG-IP LTM nodes</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM nodes
+  bigip_node:
+      address: 
+      availability_requirements: 
+      connection_limit: 
+      description: 
+      dynamic_ratio: 
+      fqdn: 
+      fqdn_address_type: 
+      fqdn_auto_populate: 
+      fqdn_down_interval: 
+      fqdn_up_interval: 
+      monitor_type: 
+      monitors: 
+      name: 
+      partition: 
+      provider: 
+      quorum: 
+      rate_limit: 
+      ratio: 
+      state: 
+]]>
+	</content>
+</snippet>

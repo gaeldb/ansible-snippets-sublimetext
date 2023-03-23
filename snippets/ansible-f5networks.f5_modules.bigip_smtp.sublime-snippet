@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_smtp</tabTrigger>
+	<description>Manages SMTP settings on the BIG-IP</description>
+	<content><![CDATA[
+- name: Manages SMTP settings on the BIG-IP
+  bigip_smtp:
+      authentication: 
+      encryption: 
+      from_address: 
+      local_host_name: 
+      name: 
+      partition: 
+      provider: 
+      smtp_server: 
+      smtp_server_password: 
+      smtp_server_port: 
+      smtp_server_username: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

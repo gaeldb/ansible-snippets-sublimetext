@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_copy</tabTrigger>
+	<description>Copy data between a file/program and a PostgreSQL table</description>
+	<content><![CDATA[
+- name: Copy data between a file/program and a PostgreSQL table
+  postgresql_copy:
+      ca_cert: 
+      columns: 
+      copy_from: 
+      copy_to: 
+      db: 
+      dst: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      options: 
+      port: 
+      program: 
+      session_role: 
+      src: 
+      ssl_mode: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

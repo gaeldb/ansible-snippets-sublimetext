@@ -1,0 +1,44 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.elb_application_lb</tabTrigger>
+	<description>Manage an Application Load Balancer</description>
+	<content><![CDATA[
+- name: Manage an Application Load Balancer
+  elb_application_lb:
+      access_key: 
+      access_logs_enabled: 
+      access_logs_s3_bucket: 
+      access_logs_s3_prefix: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      deletion_protection: 
+      endpoint_url: 
+      http2: 
+      http_desync_mitigation_mode: 
+      http_drop_invalid_header_fields: 
+      http_x_amzn_tls_version_and_cipher_suite: 
+      http_xff_client_port: 
+      idle_timeout: 
+      ip_address_type: 
+      listeners: 
+      name: 
+      profile: 
+      purge_listeners: 
+      purge_rules: 
+      purge_tags: 
+      region: 
+      scheme: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      waf_fail_open: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

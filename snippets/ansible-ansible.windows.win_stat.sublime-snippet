@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_stat</tabTrigger>
+	<description>Get information about Windows files</description>
+	<content><![CDATA[
+- name: Get information about Windows files
+  win_stat:
+      checksum_algorithm: 
+      follow: 
+      get_checksum: 
+      path: 
+]]>
+	</content>
+</snippet>

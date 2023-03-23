@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.kinesis_stream</tabTrigger>
+	<description>Manage a Kinesis Stream.</description>
+	<content><![CDATA[
+- name: Manage a Kinesis Stream.
+  kinesis_stream:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      encryption_state: 
+      encryption_type: 
+      endpoint_url: 
+      key_id: 
+      name: 
+      profile: 
+      region: 
+      retention_period: 
+      secret_key: 
+      session_token: 
+      shards: 
+      state: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_hostgroup</tabTrigger>
+	<description>NetApp E-Series manage array host groups</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage array host groups
+  netapp_e_hostgroup:
+      api_password: 
+      api_url: 
+      api_username: 
+      hosts: 
+      id: 
+      name: 
+      new_name: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

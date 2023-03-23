@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_ipa_conf</tabTrigger>
+	<description>Configure ipa.conf</description>
+	<content><![CDATA[
+- name: Configure ipa.conf
+  ipaclient_ipa_conf:
+      basedn: 
+      domain: 
+      hostname: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

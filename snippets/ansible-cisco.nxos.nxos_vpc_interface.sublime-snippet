@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vpc_interface</tabTrigger>
+	<description>Manages interface VPC configuration</description>
+	<content><![CDATA[
+- name: Manages interface VPC configuration
+  nxos_vpc_interface:
+      peer_link: 
+      portchannel: 
+      provider: 
+      state: 
+      vpc: 
+]]>
+	</content>
+</snippet>

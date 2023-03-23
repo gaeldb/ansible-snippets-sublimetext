@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.redhat_subscription</tabTrigger>
+	<description>Manage registration and subscriptions to RHSM using the `subscription-manager' command</description>
+	<content><![CDATA[
+- name: Manage registration and subscriptions to RHSM using the `subscription-manager' command
+  redhat_subscription:
+      activationkey: 
+      auto_attach: 
+      consumer_id: 
+      consumer_name: 
+      consumer_type: 
+      environment: 
+      force_register: 
+      org_id: 
+      password: 
+      pool: 
+      pool_ids: 
+      release: 
+      rhsm_baseurl: 
+      rhsm_repo_ca_cert: 
+      server_hostname: 
+      server_insecure: 
+      server_port: 
+      server_prefix: 
+      server_proxy_hostname: 
+      server_proxy_password: 
+      server_proxy_port: 
+      server_proxy_scheme: 
+      server_proxy_user: 
+      state: 
+      syspurpose: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.os10_config</tabTrigger>
+	<description>Manage Dell EMC SmartFabric OS10 configuration sections</description>
+	<content><![CDATA[
+- name: Manage Dell EMC SmartFabric OS10 configuration sections
+  os10_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      save: 
+      src: 
+      update: 
+]]>
+	</content>
+</snippet>

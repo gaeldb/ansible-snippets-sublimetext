@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ssh_local_ca</tabTrigger>
+	<description>SSH proxy local CA in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SSH proxy local CA in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ssh_local_ca:
+      access_token: 
+      firewall_ssh_local_ca: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

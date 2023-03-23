@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_audit_rule</tabTrigger>
+	<description>Adds an audit rule to files, folders, or registry keys</description>
+	<content><![CDATA[
+- name: Adds an audit rule to files, folders, or registry keys
+  win_audit_rule:
+      audit_flags: 
+      inheritance_flags: 
+      path: 
+      propagation_flags: 
+      rights: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

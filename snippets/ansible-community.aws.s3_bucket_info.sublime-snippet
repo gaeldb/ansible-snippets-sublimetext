@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_bucket_info</tabTrigger>
+	<description>Lists S3 buckets in AWS</description>
+	<content><![CDATA[
+- name: Lists S3 buckets in AWS
+  s3_bucket_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket_facts: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      name_filter: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      transform_location: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

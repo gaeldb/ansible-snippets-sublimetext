@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_target_http_proxy</tabTrigger>
+	<description>Creates a GCP RegionTargetHttpProxy</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionTargetHttpProxy
+  gcp_compute_region_target_http_proxy:
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      url_map: 
+]]>
+	</content>
+</snippet>

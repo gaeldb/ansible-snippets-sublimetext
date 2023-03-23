@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.fortimanager.fmgr_fwobj_ippool</tabTrigger>
+	<description>Allows the editing of IP Pool Objects within FortiManager.</description>
+	<content><![CDATA[
+- name: Allows the editing of IP Pool Objects within FortiManager.
+  fmgr_fwobj_ippool:
+      adom: 
+      arp_intf: 
+      arp_reply: 
+      associated_interface: 
+      block_size: 
+      comments: 
+      dynamic_mapping: 
+      dynamic_mapping_arp_intf: 
+      dynamic_mapping_arp_reply: 
+      dynamic_mapping_associated_interface: 
+      dynamic_mapping_block_size: 
+      dynamic_mapping_comments: 
+      dynamic_mapping_endip: 
+      dynamic_mapping_num_blocks_per_user: 
+      dynamic_mapping_pba_timeout: 
+      dynamic_mapping_permit_any_host: 
+      dynamic_mapping_source_endip: 
+      dynamic_mapping_source_startip: 
+      dynamic_mapping_startip: 
+      dynamic_mapping_type: 
+      endip: 
+      mode: 
+      name: 
+      num_blocks_per_user: 
+      pba_timeout: 
+      permit_any_host: 
+      source_endip: 
+      source_startip: 
+      startip: 
+      type: 
+]]>
+	</content>
+</snippet>

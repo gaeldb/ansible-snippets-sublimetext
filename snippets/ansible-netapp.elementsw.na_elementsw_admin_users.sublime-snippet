@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_admin_users</tabTrigger>
+	<description>NetApp Element Software Manage Admin Users</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Admin Users
+  na_elementsw_admin_users:
+      acceptEula: 
+      access: 
+      element_password: 
+      element_username: 
+      hostname: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_alerts</tabTrigger>
+	<description>NetApp E-Series manage email notification settings</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage email notification settings
+  netapp_e_alerts:
+      api_password: 
+      api_url: 
+      api_username: 
+      contact: 
+      log_path: 
+      recipients: 
+      sender: 
+      server: 
+      ssid: 
+      state: 
+      test: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

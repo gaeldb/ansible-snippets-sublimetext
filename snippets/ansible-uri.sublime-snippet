@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>uri</tabTrigger>
+	<description>Interacts with webservices</description>
+	<content><![CDATA[
+- name: Interacts with webservices
+  uri:
+      attributes: 
+      body: 
+      body_format: 
+      ca_path: 
+      client_cert: 
+      client_key: 
+      creates: 
+      dest: 
+      follow_redirects: 
+      force: 
+      force_basic_auth: 
+      group: 
+      headers: 
+      http_agent: 
+      method: 
+      mode: 
+      owner: 
+      remote_src: 
+      removes: 
+      return_content: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      status_code: 
+      timeout: 
+      unix_socket: 
+      unredirected_headers: 
+      unsafe_writes: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

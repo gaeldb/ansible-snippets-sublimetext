@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>user</tabTrigger>
+	<description>Manage user accounts</description>
+	<content><![CDATA[
+- name: Manage user accounts
+  user:
+      append: 
+      authorization: 
+      comment: 
+      create_home: 
+      expires: 
+      force: 
+      generate_ssh_key: 
+      group: 
+      groups: 
+      hidden: 
+      home: 
+      local: 
+      login_class: 
+      move_home: 
+      name: 
+      non_unique: 
+      password: 
+      password_expire_max: 
+      password_expire_min: 
+      password_lock: 
+      profile: 
+      remove: 
+      role: 
+      seuser: 
+      shell: 
+      skeleton: 
+      ssh_key_bits: 
+      ssh_key_comment: 
+      ssh_key_file: 
+      ssh_key_passphrase: 
+      ssh_key_type: 
+      state: 
+      system: 
+      uid: 
+      umask: 
+      update_password: 
+]]>
+	</content>
+</snippet>

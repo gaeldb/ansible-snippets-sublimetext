@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_netstream_global</tabTrigger>
+	<description>Manages global parameters of NetStream on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages global parameters of NetStream on HUAWEI CloudEngine switches.
+  ce_netstream_global:
+      index_switch: 
+      interface: 
+      sampler_direction: 
+      sampler_interval: 
+      state: 
+      statistics_direction: 
+      statistics_record: 
+      type: 
+]]>
+	</content>
+</snippet>

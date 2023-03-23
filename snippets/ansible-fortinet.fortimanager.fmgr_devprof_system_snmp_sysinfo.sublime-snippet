@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_system_snmp_sysinfo</tabTrigger>
+	<description>SNMP system info configuration.</description>
+	<content><![CDATA[
+- name: SNMP system info configuration.
+  fmgr_devprof_system_snmp_sysinfo:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

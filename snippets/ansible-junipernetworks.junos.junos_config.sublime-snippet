@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_config</tabTrigger>
+	<description>Manage configuration on devices running Juniper JUNOS</description>
+	<content><![CDATA[
+- name: Manage configuration on devices running Juniper JUNOS
+  junos_config:
+      backup: 
+      backup_options: 
+      check_commit: 
+      comment: 
+      confirm: 
+      confirm_commit: 
+      lines: 
+      provider: 
+      replace: 
+      rollback: 
+      src: 
+      src_format: 
+      update: 
+      zeroize: 
+]]>
+	</content>
+</snippet>

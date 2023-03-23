@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_access_group_volumes</tabTrigger>
+	<description>NetApp Element Software Add/Remove Volumes to/from Access Group</description>
+	<content><![CDATA[
+- name: NetApp Element Software Add/Remove Volumes to/from Access Group
+  na_elementsw_access_group_volumes:
+      access_group: 
+      account_id: 
+      hostname: 
+      password: 
+      state: 
+      username: 
+      volumes: 
+]]>
+	</content>
+</snippet>

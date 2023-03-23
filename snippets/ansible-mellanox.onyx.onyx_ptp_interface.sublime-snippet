@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_ptp_interface</tabTrigger>
+	<description>Configures PTP on interface</description>
+	<content><![CDATA[
+- name: Configures PTP on interface
+  onyx_ptp_interface:
+      announce_interval: 
+      announce_timeout: 
+      delay_request: 
+      name: 
+      state: 
+      sync_interval: 
+]]>
+	</content>
+</snippet>

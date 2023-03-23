@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabvirtualmachine</tabTrigger>
+	<description>Manage Azure DevTest Lab Virtual Machine instance</description>
+	<content><![CDATA[
+- name: Manage Azure DevTest Lab Virtual Machine instance
+  azure_rm_devtestlabvirtualmachine:
+      ad_user: 
+      adfs_authority_url: 
+      allow_claim: 
+      api_profile: 
+      append_tags: 
+      artifacts: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      disallow_public_ip_address: 
+      expiration_date: 
+      image: 
+      lab_name: 
+      lab_subnet: 
+      name: 
+      notes: 
+      os_type: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      ssh_key: 
+      state: 
+      storage_type: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      user_name: 
+      vm_size: 
+]]>
+	</content>
+</snippet>

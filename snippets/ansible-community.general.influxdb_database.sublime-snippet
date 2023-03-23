@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.influxdb_database</tabTrigger>
+	<description>Manage InfluxDB databases</description>
+	<content><![CDATA[
+- name: Manage InfluxDB databases
+  influxdb_database:
+      database_name: 
+      hostname: 
+      password: 
+      path: 
+      port: 
+      proxies: 
+      retries: 
+      ssl: 
+      state: 
+      timeout: 
+      udp_port: 
+      use_udp: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

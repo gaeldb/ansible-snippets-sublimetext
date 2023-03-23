@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_access_rule</tabTrigger>
+	<description>Manages access-rule objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages access-rule objects on Check Point over Web Services API
+  cp_mgmt_access_rule:
+      action: 
+      action_settings: 
+      auto_publish_session: 
+      comments: 
+      content: 
+      content_direction: 
+      content_negate: 
+      custom_fields: 
+      destination: 
+      destination_negate: 
+      details_level: 
+      enabled: 
+      ignore_errors: 
+      ignore_warnings: 
+      inline_layer: 
+      install_on: 
+      layer: 
+      name: 
+      position: 
+      service: 
+      service_negate: 
+      source: 
+      source_negate: 
+      state: 
+      time: 
+      track: 
+      user_check: 
+      version: 
+      vpn: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

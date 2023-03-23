@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_exception_facts</tabTrigger>
+	<description>Get threat-exception objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get threat-exception objects facts on Check Point over Web Services API
+  cp_mgmt_threat_exception_facts:
+      dereference_group_members: 
+      details_level: 
+      exception_group_name: 
+      exception_group_uid: 
+      filter: 
+      filter_settings: 
+      layer: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      package: 
+      rule_name: 
+      show_membership: 
+      use_object_dictionary: 
+      version: 
+]]>
+	</content>
+</snippet>

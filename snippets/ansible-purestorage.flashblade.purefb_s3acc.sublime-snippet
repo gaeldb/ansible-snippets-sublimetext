@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_s3acc</tabTrigger>
+	<description>Create or delete FlashBlade Object Store accounts</description>
+	<content><![CDATA[
+- name: Create or delete FlashBlade Object Store accounts
+  purefb_s3acc:
+      api_token: 
+      fb_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

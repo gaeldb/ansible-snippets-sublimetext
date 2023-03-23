@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_power_info</tabTrigger>
+	<description>Get the Power Information of a WTI device</description>
+	<content><![CDATA[
+- name: Get the Power Information of a WTI device
+  cpm_power_info:
+      cpm_enddate: 
+      cpm_password: 
+      cpm_startdate: 
+      cpm_url: 
+      cpm_username: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

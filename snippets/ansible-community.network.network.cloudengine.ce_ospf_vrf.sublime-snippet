@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_ospf_vrf</tabTrigger>
+	<description>Manages configuration of an OSPF VPN instance on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages configuration of an OSPF VPN instance on HUAWEI CloudEngine switches.
+  ce_ospf_vrf:
+      bandwidth: 
+      description: 
+      lsaaholdinterval: 
+      lsaainterval: 
+      lsaalflag: 
+      lsaamaxinterval: 
+      lsaastartinterval: 
+      lsaoholdinterval: 
+      lsaointerval: 
+      lsaointervalflag: 
+      lsaomaxinterval: 
+      lsaostartinterval: 
+      ospf: 
+      route_id: 
+      spfholdinterval: 
+      spfinterval: 
+      spfintervalmi: 
+      spfintervaltype: 
+      spfmaxinterval: 
+      spfstartinterval: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

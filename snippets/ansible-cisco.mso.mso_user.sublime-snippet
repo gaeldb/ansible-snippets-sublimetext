@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_user</tabTrigger>
+	<description>Manage users</description>
+	<content><![CDATA[
+- name: Manage users
+  mso_user:
+      account_status: 
+      domain: 
+      email: 
+      first_name: 
+      host: 
+      last_name: 
+      login_domain: 
+      output_level: 
+      password: 
+      phone: 
+      port: 
+      roles: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      user: 
+      user_password: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

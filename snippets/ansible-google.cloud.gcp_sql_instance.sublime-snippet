@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_sql_instance</tabTrigger>
+	<description>Creates a GCP Instance</description>
+	<content><![CDATA[
+- name: Creates a GCP Instance
+  gcp_sql_instance:
+      auth_kind: 
+      backend_type: 
+      connection_name: 
+      database_version: 
+      disk_encryption_configuration: 
+      disk_encryption_status: 
+      env_type: 
+      failover_replica: 
+      instance_type: 
+      ipv6_address: 
+      master_instance_name: 
+      max_disk_size: 
+      name: 
+      project: 
+      region: 
+      replica_configuration: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      settings: 
+      state: 
+]]>
+	</content>
+</snippet>

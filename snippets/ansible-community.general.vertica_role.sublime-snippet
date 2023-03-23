@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vertica_role</tabTrigger>
+	<description>Adds or removes Vertica database roles and assigns roles to them</description>
+	<content><![CDATA[
+- name: Adds or removes Vertica database roles and assigns roles to them
+  vertica_role:
+      assigned_roles: 
+      cluster: 
+      db: 
+      login_password: 
+      login_user: 
+      port: 
+      role: 
+      state: 
+]]>
+	</content>
+</snippet>

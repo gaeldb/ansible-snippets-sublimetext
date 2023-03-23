@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_ha_group</tabTrigger>
+	<description>Manage HA group settings on a BIG-IP system</description>
+	<content><![CDATA[
+- name: Manage HA group settings on a BIG-IP system
+  bigip_device_ha_group:
+      active_bonus: 
+      description: 
+      enable: 
+      name: 
+      pools: 
+      provider: 
+      state: 
+      trunks: 
+]]>
+	</content>
+</snippet>

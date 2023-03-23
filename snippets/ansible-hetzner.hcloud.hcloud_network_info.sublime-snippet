@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_network_info</tabTrigger>
+	<description>Gather info about your Hetzner Cloud networks.</description>
+	<content><![CDATA[
+- name: Gather info about your Hetzner Cloud networks.
+  hcloud_network_info:
+      api_token: 
+      endpoint: 
+      id: 
+      label_selector: 
+      name: 
+]]>
+	</content>
+</snippet>

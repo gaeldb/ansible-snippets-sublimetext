@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>tempfile</tabTrigger>
+	<description>Creates temporary files and directories</description>
+	<content><![CDATA[
+- name: Creates temporary files and directories
+  tempfile:
+      path: 
+      prefix: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

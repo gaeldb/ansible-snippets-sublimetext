@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_shaper_per_ip_shaper</tabTrigger>
+	<description>Configure per-IP traffic shaper in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure per-IP traffic shaper in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_shaper_per_ip_shaper:
+      access_token: 
+      firewall_shaper_per_ip_shaper: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualnetworkpeering</tabTrigger>
+	<description>Manage Azure Virtual Network Peering</description>
+	<content><![CDATA[
+- name: Manage Azure Virtual Network Peering
+  azure_rm_virtualnetworkpeering:
+      ad_user: 
+      adfs_authority_url: 
+      allow_forwarded_traffic: 
+      allow_gateway_transit: 
+      allow_virtual_network_access: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      remote_virtual_network: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tenant: 
+      use_remote_gateways: 
+      virtual_network: 
+]]>
+	</content>
+</snippet>

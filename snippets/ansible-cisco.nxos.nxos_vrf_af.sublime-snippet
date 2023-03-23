@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vrf_af</tabTrigger>
+	<description>Manages VRF AF.</description>
+	<content><![CDATA[
+- name: Manages VRF AF.
+  nxos_vrf_af:
+      afi: 
+      provider: 
+      route_target_both_auto_evpn: 
+      route_targets: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

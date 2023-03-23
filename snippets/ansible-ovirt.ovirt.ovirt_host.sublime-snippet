@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_host</tabTrigger>
+	<description>Module to manage hosts in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage hosts in oVirt/RHV
+  ovirt_host:
+      activate: 
+      address: 
+      auth: 
+      check_upgrade: 
+      cluster: 
+      comment: 
+      fetch_nested: 
+      force: 
+      hosted_engine: 
+      id: 
+      iscsi: 
+      kdump_integration: 
+      kernel_params: 
+      name: 
+      nested_attributes: 
+      override_display: 
+      override_iptables: 
+      password: 
+      poll_interval: 
+      power_management_enabled: 
+      public_key: 
+      reboot_after_upgrade: 
+      spm_priority: 
+      ssh_port: 
+      state: 
+      timeout: 
+      vgpu_placement: 
+      wait: 
+]]>
+	</content>
+</snippet>

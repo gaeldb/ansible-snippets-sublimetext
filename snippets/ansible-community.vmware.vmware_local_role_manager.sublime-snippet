@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_local_role_manager</tabTrigger>
+	<description>Manage local roles on an ESXi host</description>
+	<content><![CDATA[
+- name: Manage local roles on an ESXi host
+  vmware_local_role_manager:
+      action: 
+      force_remove: 
+      hostname: 
+      local_privilege_ids: 
+      local_role_name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

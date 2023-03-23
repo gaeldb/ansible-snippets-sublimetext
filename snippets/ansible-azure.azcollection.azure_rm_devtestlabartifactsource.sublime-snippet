@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabartifactsource</tabTrigger>
+	<description>Manage Azure DevTest Labs Artifacts Source instance</description>
+	<content><![CDATA[
+- name: Manage Azure DevTest Labs Artifacts Source instance
+  azure_rm_devtestlabartifactsource:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      arm_template_folder_path: 
+      auth_source: 
+      branch_ref: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      display_name: 
+      folder_path: 
+      is_enabled: 
+      lab_name: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      security_token: 
+      source_type: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      uri: 
+]]>
+	</content>
+</snippet>

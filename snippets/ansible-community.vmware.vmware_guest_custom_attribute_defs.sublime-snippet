@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_custom_attribute_defs</tabTrigger>
+	<description>Manage custom attributes definitions for virtual machine from VMware</description>
+	<content><![CDATA[
+- name: Manage custom attributes definitions for virtual machine from VMware
+  vmware_guest_custom_attribute_defs:
+      attribute_key: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

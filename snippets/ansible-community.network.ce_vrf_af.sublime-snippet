@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_vrf_af</tabTrigger>
+	<description>Manages VPN instance address family on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages VPN instance address family on HUAWEI CloudEngine switches.
+  ce_vrf_af:
+      evpn: 
+      route_distinguisher: 
+      state: 
+      vpn_target_state: 
+      vpn_target_type: 
+      vpn_target_value: 
+      vrf: 
+      vrf_aftype: 
+]]>
+	</content>
+</snippet>

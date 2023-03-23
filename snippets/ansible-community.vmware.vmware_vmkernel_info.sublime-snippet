@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vmkernel_info</tabTrigger>
+	<description>Gathers VMKernel info about an ESXi host</description>
+	<content><![CDATA[
+- name: Gathers VMKernel info about an ESXi host
+  vmware_vmkernel_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

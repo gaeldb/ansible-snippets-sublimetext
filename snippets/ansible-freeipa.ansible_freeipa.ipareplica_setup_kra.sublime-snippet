@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_kra</tabTrigger>
+	<description>Setup KRA</description>
+	<content><![CDATA[
+- name: Setup KRA
+  ipareplica_setup_kra:
+      _add_to_ipaservers: 
+      _ca_enabled: 
+      _ca_host_name: 
+      _ca_subject: 
+      _kra_enabled: 
+      _kra_host_name: 
+      _subject_base: 
+      _top_dir: 
+      ca_cert_files: 
+      config_master_host_name: 
+      dirman_password: 
+      dirsrv_cert_files: 
+      dm_password: 
+      domain: 
+      force_join: 
+      hostname: 
+      installer_ccache: 
+      ip_addresses: 
+      no_host_dns: 
+      password: 
+      pki_config_override: 
+      realm: 
+      server: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

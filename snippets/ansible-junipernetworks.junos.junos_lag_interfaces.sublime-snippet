@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_lag_interfaces</tabTrigger>
+	<description>Link Aggregation Juniper JUNOS resource module</description>
+	<content><![CDATA[
+- name: Link Aggregation Juniper JUNOS resource module
+  junos_lag_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_mediatype</tabTrigger>
+	<description>Create/Update/Delete Zabbix media types</description>
+	<content><![CDATA[
+- name: Create/Update/Delete Zabbix media types
+  zabbix_mediatype:
+      attempt_interval: 
+      description: 
+      event_menu: 
+      event_menu_name: 
+      event_menu_url: 
+      gsm_modem: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      max_attempts: 
+      max_sessions: 
+      message_templates: 
+      message_text_limit: 
+      name: 
+      password: 
+      process_tags: 
+      script_name: 
+      script_params: 
+      server_url: 
+      smtp_authentication: 
+      smtp_email: 
+      smtp_helo: 
+      smtp_security: 
+      smtp_server: 
+      smtp_server_port: 
+      smtp_verify_host: 
+      smtp_verify_peer: 
+      state: 
+      status: 
+      timeout: 
+      type: 
+      username: 
+      validate_certs: 
+      webhook_params: 
+      webhook_script: 
+      webhook_timeout: 
+]]>
+	</content>
+</snippet>

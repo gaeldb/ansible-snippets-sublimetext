@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.exoscale.exo_dns_domain</tabTrigger>
+	<description>Manages domain records on Exoscale DNS API.</description>
+	<content><![CDATA[
+- name: Manages domain records on Exoscale DNS API.
+  exo_dns_domain:
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      name: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

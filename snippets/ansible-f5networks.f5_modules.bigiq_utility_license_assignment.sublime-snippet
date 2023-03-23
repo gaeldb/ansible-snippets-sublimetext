@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_utility_license_assignment</tabTrigger>
+	<description>Manage utility license assignment on BIG-IPs from a BIG-IQ</description>
+	<content><![CDATA[
+- name: Manage utility license assignment on BIG-IPs from a BIG-IQ
+  bigiq_utility_license_assignment:
+      device: 
+      device_password: 
+      device_port: 
+      device_username: 
+      key: 
+      managed: 
+      offering: 
+      provider: 
+      state: 
+      unit_of_measure: 
+]]>
+	</content>
+</snippet>

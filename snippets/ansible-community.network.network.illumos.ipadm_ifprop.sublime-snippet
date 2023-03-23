@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.ipadm_ifprop</tabTrigger>
+	<description>Manage IP interface properties on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage IP interface properties on Solaris/illumos systems.
+  ipadm_ifprop:
+      interface: 
+      property: 
+      protocol: 
+      state: 
+      temporary: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>service</tabTrigger>
+	<description>Manage services</description>
+	<content><![CDATA[
+- name: Manage services
+  service:
+      arguments: 
+      enabled: 
+      name: 
+      pattern: 
+      runlevel: 
+      sleep: 
+      state: 
+      use: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_netconf</tabTrigger>
+	<description>Run an arbitrary netconf command on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Run an arbitrary netconf command on HUAWEI CloudEngine switches.
+  ce_netconf:
+      cfg_xml: 
+      rpc: 
+]]>
+	</content>
+</snippet>

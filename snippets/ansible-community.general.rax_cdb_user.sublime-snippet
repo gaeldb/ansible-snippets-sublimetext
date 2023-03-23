@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_cdb_user</tabTrigger>
+	<description>Create / delete a Rackspace Cloud Database</description>
+	<content><![CDATA[
+- name: Create / delete a Rackspace Cloud Database
+  rax_cdb_user:
+      api_key: 
+      auth_endpoint: 
+      cdb_id: 
+      credentials: 
+      databases: 
+      db_password: 
+      db_username: 
+      env: 
+      host: 
+      identity_type: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

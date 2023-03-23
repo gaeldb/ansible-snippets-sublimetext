@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_autoupdate_tunneling</tabTrigger>
+	<description>Configure web proxy tunnelling for the FDN in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure web proxy tunnelling for the FDN in Fortinet's FortiOS and FortiGate.
+  fortios_system_autoupdate_tunneling:
+      access_token: 
+      system_autoupdate_tunneling: 
+      vdom: 
+]]>
+	</content>
+</snippet>

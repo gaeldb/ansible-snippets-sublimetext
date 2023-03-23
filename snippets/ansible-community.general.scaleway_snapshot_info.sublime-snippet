@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_snapshot_info</tabTrigger>
+	<description>Gather information about the Scaleway snapshots available</description>
+	<content><![CDATA[
+- name: Gather information about the Scaleway snapshots available
+  scaleway_snapshot_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      query_parameters: 
+      region: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

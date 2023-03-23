@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_log_profile_network</tabTrigger>
+	<description>Configures Network Firewall related settings of the log profile</description>
+	<content><![CDATA[
+- name: Configures Network Firewall related settings of the log profile
+  bigip_firewall_log_profile_network:
+      log_format_delimiter: 
+      log_ip_errors: 
+      log_matches_accept_rule: 
+      log_matches_drop_rule: 
+      log_matches_reject_rule: 
+      log_message_fields: 
+      log_publisher: 
+      log_storage_format: 
+      log_tcp_errors: 
+      log_tcp_events: 
+      log_translation_fields: 
+      partition: 
+      profile_name: 
+      provider: 
+      rate_limit: 
+      state: 
+]]>
+	</content>
+</snippet>

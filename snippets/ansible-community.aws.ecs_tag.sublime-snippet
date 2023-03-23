@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_tag</tabTrigger>
+	<description>create and remove tags on Amazon ECS resources</description>
+	<content><![CDATA[
+- name: create and remove tags on Amazon ECS resources
+  ecs_tag:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster_name: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      purge_tags: 
+      region: 
+      resource: 
+      resource_type: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

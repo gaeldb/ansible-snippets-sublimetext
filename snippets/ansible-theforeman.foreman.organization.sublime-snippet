@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.organization</tabTrigger>
+	<description>Manage Organizations</description>
+	<content><![CDATA[
+- name: Manage Organizations
+  organization:
+      description: 
+      label: 
+      name: 
+      parameters: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

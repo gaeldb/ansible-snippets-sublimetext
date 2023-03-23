@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_secprof_proxy</tabTrigger>
+	<description>Manage proxy security profiles in FortiManager</description>
+	<content><![CDATA[
+- name: Manage proxy security profiles in FortiManager
+  fmgr_secprof_proxy:
+      adom: 
+      header_client_ip: 
+      header_front_end_https: 
+      header_via_request: 
+      header_via_response: 
+      header_x_authenticated_groups: 
+      header_x_authenticated_user: 
+      header_x_forwarded_for: 
+      headers: 
+      headers_action: 
+      headers_content: 
+      headers_name: 
+      log_header_change: 
+      mode: 
+      name: 
+      strip_encoding: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,60 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_test</tabTrigger>
+	<description>IPA server test</description>
+	<content><![CDATA[
+- name: IPA server test
+  ipaserver_test:
+      allow_zone_overlap: 
+      auto_forwarders: 
+      auto_reverse: 
+      ca_cert_files: 
+      ca_subject: 
+      dirsrv_cert_files: 
+      dirsrv_cert_name: 
+      dirsrv_config_file: 
+      dirsrv_pin: 
+      dm_password: 
+      domain: 
+      enable_compat: 
+      external_ca: 
+      external_ca_profile: 
+      external_ca_type: 
+      external_cert_files: 
+      force: 
+      forward_policy: 
+      forwarders: 
+      hostname: 
+      http_cert_files: 
+      http_cert_name: 
+      http_pin: 
+      idmax: 
+      idstart: 
+      master_password: 
+      netbios_name: 
+      no_dnssec_validation: 
+      no_forwarders: 
+      no_host_dns: 
+      no_ntp: 
+      no_pkinit: 
+      no_reverse: 
+      ntp_pool: 
+      ntp_servers: 
+      password: 
+      pki_config_override: 
+      pkinit_cert_files: 
+      pkinit_cert_name: 
+      pkinit_pin: 
+      realm: 
+      reverse_zones: 
+      rid_base: 
+      secondary_rid_base: 
+      setup_adtrust: 
+      setup_dns: 
+      setup_kra: 
+      skip_mem_check: 
+      subject_base: 
+      zonemgr: 
+]]>
+	</content>
+</snippet>

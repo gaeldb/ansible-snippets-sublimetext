@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_lldp</tabTrigger>
+	<description>Manage LLDP configuration on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage LLDP configuration on Mellanox ONYX network devices
+  onyx_lldp:
+      state: 
+]]>
+	</content>
+</snippet>

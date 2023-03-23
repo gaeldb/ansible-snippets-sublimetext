@@ -1,0 +1,50 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_loadbalancer</tabTrigger>
+	<description>Manage Azure load balancers</description>
+	<content><![CDATA[
+- name: Manage Azure load balancers
+  azure_rm_loadbalancer:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      backend_address_pools: 
+      backend_port: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      frontend_ip_configurations: 
+      frontend_port: 
+      idle_timeout: 
+      inbound_nat_pools: 
+      inbound_nat_rules: 
+      load_balancing_rules: 
+      load_distribution: 
+      location: 
+      name: 
+      natpool_backend_port: 
+      natpool_frontend_port_end: 
+      natpool_frontend_port_start: 
+      natpool_protocol: 
+      password: 
+      probe_fail_count: 
+      probe_interval: 
+      probe_port: 
+      probe_protocol: 
+      probe_request_path: 
+      probes: 
+      profile: 
+      protocol: 
+      public_ip_address_name: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

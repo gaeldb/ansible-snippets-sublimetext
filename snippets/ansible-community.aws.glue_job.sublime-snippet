@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.glue_job</tabTrigger>
+	<description>Manage an AWS Glue job</description>
+	<content><![CDATA[
+- name: Manage an AWS Glue job
+  glue_job:
+      access_key: 
+      allocated_capacity: 
+      aws_ca_bundle: 
+      aws_config: 
+      command_name: 
+      command_python_version: 
+      command_script_location: 
+      connections: 
+      debug_botocore_endpoint_logs: 
+      default_arguments: 
+      description: 
+      endpoint_url: 
+      glue_version: 
+      max_concurrent_runs: 
+      max_retries: 
+      name: 
+      number_of_workers: 
+      profile: 
+      purge_tags: 
+      region: 
+      role: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      timeout: 
+      validate_certs: 
+      worker_type: 
+]]>
+	</content>
+</snippet>

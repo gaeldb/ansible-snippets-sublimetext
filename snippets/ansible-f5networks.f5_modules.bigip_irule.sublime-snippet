@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_irule</tabTrigger>
+	<description>Manage iRules across different modules on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage iRules across different modules on a BIG-IP
+  bigip_irule:
+      content: 
+      module: 
+      name: 
+      partition: 
+      provider: 
+      src: 
+      state: 
+]]>
+	</content>
+</snippet>

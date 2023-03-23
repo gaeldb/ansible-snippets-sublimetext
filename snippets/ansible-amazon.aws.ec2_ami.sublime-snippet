@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_ami</tabTrigger>
+	<description>Create or destroy an image (AMI) in EC2</description>
+	<content><![CDATA[
+- name: Create or destroy an image (AMI) in EC2
+  ec2_ami:
+      access_key: 
+      architecture: 
+      aws_ca_bundle: 
+      aws_config: 
+      billing_products: 
+      debug_botocore_endpoint_logs: 
+      delete_snapshot: 
+      description: 
+      device_mapping: 
+      endpoint_url: 
+      enhanced_networking: 
+      image_id: 
+      image_location: 
+      instance_id: 
+      kernel_id: 
+      launch_permissions: 
+      name: 
+      no_reboot: 
+      profile: 
+      purge_tags: 
+      ramdisk_id: 
+      region: 
+      root_device_name: 
+      secret_key: 
+      session_token: 
+      sriov_net_support: 
+      state: 
+      tags: 
+      validate_certs: 
+      virtualization_type: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

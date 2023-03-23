@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ipsec_manualkey</tabTrigger>
+	<description>Configure IPsec manual keys in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPsec manual keys in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ipsec_manualkey:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ipsec_manualkey: 
+]]>
+	</content>
+</snippet>

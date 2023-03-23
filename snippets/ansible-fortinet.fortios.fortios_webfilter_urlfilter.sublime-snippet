@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_urlfilter</tabTrigger>
+	<description>Configure URL filter lists in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure URL filter lists in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_urlfilter:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_urlfilter: 
+]]>
+	</content>
+</snippet>

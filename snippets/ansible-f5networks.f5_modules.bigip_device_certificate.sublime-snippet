@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_certificate</tabTrigger>
+	<description>Manage self-signed device certificates</description>
+	<content><![CDATA[
+- name: Manage self-signed device certificates
+  bigip_device_certificate:
+      add_to_trusted: 
+      cert_name: 
+      days_valid: 
+      force: 
+      issuer: 
+      key_name: 
+      key_size: 
+      new_cert: 
+      provider: 
+]]>
+	</content>
+</snippet>

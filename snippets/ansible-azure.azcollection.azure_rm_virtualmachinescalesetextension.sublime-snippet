@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualmachinescalesetextension</tabTrigger>
+	<description>Manage Azure Virtual Machine Scale Set (VMSS) extensions</description>
+	<content><![CDATA[
+- name: Manage Azure Virtual Machine Scale Set (VMSS) extensions
+  azure_rm_virtualmachinescalesetextension:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      auto_upgrade_minor_version: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      protected_settings: 
+      publisher: 
+      resource_group: 
+      secret: 
+      settings: 
+      state: 
+      subscription_id: 
+      tenant: 
+      type: 
+      type_handler_version: 
+      vmss_name: 
+]]>
+	</content>
+</snippet>

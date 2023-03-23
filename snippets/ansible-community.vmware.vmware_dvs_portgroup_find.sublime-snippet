@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvs_portgroup_find</tabTrigger>
+	<description>Find portgroup(s) in a VMware environment</description>
+	<content><![CDATA[
+- name: Find portgroup(s) in a VMware environment
+  vmware_dvs_portgroup_find:
+      dvswitch: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      show_uplink: 
+      username: 
+      validate_certs: 
+      vlanid: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_config_restore</tabTrigger>
+	<description>Get parameters from WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Get parameters from WTI OOB and PDU devices
+  cpm_config_restore:
+      cpm_filename: 
+      cpm_password: 
+      cpm_path: 
+      cpm_url: 
+      cpm_username: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

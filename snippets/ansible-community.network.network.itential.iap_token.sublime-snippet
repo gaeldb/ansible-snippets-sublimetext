@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.itential.iap_token</tabTrigger>
+	<description>Get token for the Itential Automation Platform</description>
+	<content><![CDATA[
+- name: Get token for the Itential Automation Platform
+  iap_token:
+      https: 
+      iap_fqdn: 
+      iap_port: 
+      password: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_publicipaddress</tabTrigger>
+	<description>Manage Azure Public IP Addresses</description>
+	<content><![CDATA[
+- name: Manage Azure Public IP Addresses
+  azure_rm_publicipaddress:
+      ad_user: 
+      adfs_authority_url: 
+      allocation_method: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      domain_name: 
+      idle_timeout: 
+      ip_tags: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      version: 
+]]>
+	</content>
+</snippet>

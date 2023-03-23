@@ -1,0 +1,10 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xenserver_facts</tabTrigger>
+	<description>Get facts reported on xenserver</description>
+	<content><![CDATA[
+- name: Get facts reported on xenserver
+  xenserver_facts:
+]]>
+	</content>
+</snippet>

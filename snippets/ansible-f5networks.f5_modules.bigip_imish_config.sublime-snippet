@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_imish_config</tabTrigger>
+	<description>Manage BIG-IP advanced routing configuration sections</description>
+	<content><![CDATA[
+- name: Manage BIG-IP advanced routing configuration sections
+  bigip_imish_config:
+      after: 
+      allow_duplicates: 
+      backup: 
+      backup_options: 
+      before: 
+      diff_against: 
+      diff_ignore_lines: 
+      intended_config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      route_domain: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_file_copy</tabTrigger>
+	<description>Manage files in datastores on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage files in datastores on a BIG-IP
+  bigip_file_copy:
+      datastore: 
+      force: 
+      name: 
+      partition: 
+      provider: 
+      source: 
+      state: 
+]]>
+	</content>
+</snippet>

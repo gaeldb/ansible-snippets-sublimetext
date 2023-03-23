@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.network</tabTrigger>
+	<description>Manages networks on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages networks on the cloudscale.ch IaaS service
+  network:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      auto_create_ipv4_subnet: 
+      mtu: 
+      name: 
+      state: 
+      tags: 
+      uuid: 
+      zone: 
+]]>
+	</content>
+</snippet>

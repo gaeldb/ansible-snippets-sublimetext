@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ldap</tabTrigger>
+	<description>NetApp ONTAP LDAP</description>
+	<content><![CDATA[
+- name: NetApp ONTAP LDAP
+  na_ontap_ldap:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      skip_config_validation: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_certgrp</tabTrigger>
+	<description>Manage FlashBlade Certifcate Groups</description>
+	<content><![CDATA[
+- name: Manage FlashBlade Certifcate Groups
+  purefb_certgrp:
+      api_token: 
+      certificates: 
+      fb_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

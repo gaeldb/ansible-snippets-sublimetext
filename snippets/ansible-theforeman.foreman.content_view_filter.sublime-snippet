@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.content_view_filter</tabTrigger>
+	<description>Manage Content View Filters</description>
+	<content><![CDATA[
+- name: Manage Content View Filters
+  content_view_filter:
+      architecture: 
+      content_view: 
+      date_type: 
+      description: 
+      end_date: 
+      errata_id: 
+      filter_state: 
+      filter_type: 
+      inclusion: 
+      max_version: 
+      min_version: 
+      name: 
+      organization: 
+      original_packages: 
+      password: 
+      repositories: 
+      rule_name: 
+      rule_state: 
+      server_url: 
+      start_date: 
+      types: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_storage_bucket_access_control</tabTrigger>
+	<description>Creates a GCP BucketAccessControl</description>
+	<content><![CDATA[
+- name: Creates a GCP BucketAccessControl
+  gcp_storage_bucket_access_control:
+      auth_kind: 
+      bucket: 
+      entity: 
+      env_type: 
+      project: 
+      role: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_ntp</tabTrigger>
+	<description>Setup NTP for IPA client</description>
+	<content><![CDATA[
+- name: Setup NTP for IPA client
+  ipaclient_setup_ntp:
+      domain: 
+      no_ntp: 
+      ntp_pool: 
+      ntp_servers: 
+      on_master: 
+      servers: 
+]]>
+	</content>
+</snippet>

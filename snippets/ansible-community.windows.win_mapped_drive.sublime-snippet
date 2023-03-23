@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_mapped_drive</tabTrigger>
+	<description>Map network drives for users</description>
+	<content><![CDATA[
+- name: Map network drives for users
+  win_mapped_drive:
+      letter: 
+      password: 
+      path: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

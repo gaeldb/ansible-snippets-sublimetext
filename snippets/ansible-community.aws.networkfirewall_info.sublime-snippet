@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.networkfirewall_info</tabTrigger>
+	<description>describe AWS Network Firewall firewalls</description>
+	<content><![CDATA[
+- name: describe AWS Network Firewall firewalls
+  networkfirewall_info:
+      access_key: 
+      arn: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+      vpc_ids: 
+]]>
+	</content>
+</snippet>

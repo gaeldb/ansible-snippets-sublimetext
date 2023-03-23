@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.host_power</tabTrigger>
+	<description>Manage Power State of Hosts</description>
+	<content><![CDATA[
+- name: Manage Power State of Hosts
+  host_power:
+      name: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

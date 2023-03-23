@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.x509_certificate_info</tabTrigger>
+	<description>Provide information of OpenSSL X.509 certificates</description>
+	<content><![CDATA[
+- name: Provide information of OpenSSL X.509 certificates
+  x509_certificate_info:
+      content: 
+      name_encoding: 
+      path: 
+      select_crypto_backend: 
+      valid_at: 
+]]>
+	</content>
+</snippet>

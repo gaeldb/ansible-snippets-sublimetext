@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ipv6_eh_filter</tabTrigger>
+	<description>Configure IPv6 extension header filter in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 extension header filter in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ipv6_eh_filter:
+      access_token: 
+      firewall_ipv6_eh_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

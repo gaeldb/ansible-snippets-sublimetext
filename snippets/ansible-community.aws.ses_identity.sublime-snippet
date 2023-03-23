@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ses_identity</tabTrigger>
+	<description>Manages SES email and domain identity</description>
+	<content><![CDATA[
+- name: Manages SES email and domain identity
+  ses_identity:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bounce_notifications: 
+      complaint_notifications: 
+      debug_botocore_endpoint_logs: 
+      delivery_notifications: 
+      endpoint_url: 
+      feedback_forwarding: 
+      identity: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

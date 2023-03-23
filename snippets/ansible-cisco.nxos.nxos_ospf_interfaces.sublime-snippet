@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ospf_interfaces</tabTrigger>
+	<description>OSPF Interfaces Resource Module.</description>
+	<content><![CDATA[
+- name: OSPF Interfaces Resource Module.
+  nxos_ospf_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

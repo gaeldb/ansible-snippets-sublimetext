@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pacemaker_cluster</tabTrigger>
+	<description>Manage pacemaker clusters</description>
+	<content><![CDATA[
+- name: Manage pacemaker clusters
+  pacemaker_cluster:
+      force: 
+      node: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

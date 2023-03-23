@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_extepg</tabTrigger>
+	<description>Manage External Network Instance Profile (ExtEpg) objects (l3extInstP:instP)</description>
+	<content><![CDATA[
+- name: Manage External Network Instance Profile (ExtEpg) objects (l3extInstP:instP)
+  aci_l3out_extepg:
+      annotation: 
+      certificate_name: 
+      description: 
+      dscp: 
+      extepg: 
+      host: 
+      l3out: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      preferred_group: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

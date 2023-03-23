@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dvm_cmd_discover_device</tabTrigger>
+	<description>Probe a remote device and retrieve its device information and system status.</description>
+	<content><![CDATA[
+- name: Probe a remote device and retrieve its device information and system status.
+  fmgr_dvm_cmd_discover_device:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

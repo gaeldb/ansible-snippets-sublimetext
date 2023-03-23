@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.puppet</tabTrigger>
+	<description>Runs puppet</description>
+	<content><![CDATA[
+- name: Runs puppet
+  puppet:
+      certname: 
+      confdir: 
+      debug: 
+      environment: 
+      execute: 
+      facter_basename: 
+      facts: 
+      logdest: 
+      manifest: 
+      modulepath: 
+      noop: 
+      puppetmaster: 
+      show_diff: 
+      summarize: 
+      tags: 
+      timeout: 
+      use_srv_records: 
+      verbose: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.lightsail_static_ip</tabTrigger>
+	<description>Manage static IP addresses in AWS Lightsail</description>
+	<content><![CDATA[
+- name: Manage static IP addresses in AWS Lightsail
+  lightsail_static_ip:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

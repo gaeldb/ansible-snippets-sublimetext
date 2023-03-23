@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualmachinescalesetinstance</tabTrigger>
+	<description>Get Azure Virtual Machine Scale Set Instance facts</description>
+	<content><![CDATA[
+- name: Get Azure Virtual Machine Scale Set Instance facts
+  azure_rm_virtualmachinescalesetinstance:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      instance_id: 
+      latest_model: 
+      password: 
+      power_state: 
+      profile: 
+      protect_from_scale_in: 
+      protect_from_scale_set_actions: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tenant: 
+      vmss_name: 
+]]>
+	</content>
+</snippet>

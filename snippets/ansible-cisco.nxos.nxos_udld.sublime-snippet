@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_udld</tabTrigger>
+	<description>Manages UDLD global configuration params.</description>
+	<content><![CDATA[
+- name: Manages UDLD global configuration params.
+  nxos_udld:
+      aggressive: 
+      msg_time: 
+      provider: 
+      reset: 
+      state: 
+]]>
+	</content>
+</snippet>

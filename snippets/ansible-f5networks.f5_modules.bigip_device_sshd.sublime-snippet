@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_sshd</tabTrigger>
+	<description>Manage the SSHD settings of a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage the SSHD settings of a BIG-IP
+  bigip_device_sshd:
+      allow: 
+      banner: 
+      banner_text: 
+      inactivity_timeout: 
+      log_level: 
+      login: 
+      port: 
+      provider: 
+]]>
+	</content>
+</snippet>

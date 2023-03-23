@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_message_routing_router</tabTrigger>
+	<description>Manages router profiles for message-routing protocols</description>
+	<content><![CDATA[
+- name: Manages router profiles for message-routing protocols
+  bigip_message_routing_router:
+      description: 
+      ignore_client_port: 
+      inherited_traffic_group: 
+      max_pending_bytes: 
+      max_pending_messages: 
+      max_retries: 
+      mirror: 
+      mirrored_msg_sweeper_interval: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      routes: 
+      state: 
+      traffic_group: 
+      type: 
+      use_local_connection: 
+]]>
+	</content>
+</snippet>

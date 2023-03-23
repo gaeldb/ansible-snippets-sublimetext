@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_disk_filter</tabTrigger>
+	<description>Configure filters for local disk logging. Use these filters to determine the log messages to record according to severity and type in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure filters for local disk logging. Use these filters to determine the log messages to record according to severity and type in Fortinet's FortiOS and FortiGate.
+  fortios_log_disk_filter:
+      access_token: 
+      log_disk_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

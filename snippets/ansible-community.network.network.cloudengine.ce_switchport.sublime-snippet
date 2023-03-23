@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_switchport</tabTrigger>
+	<description>Manages Layer 2 switchport interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages Layer 2 switchport interfaces on HUAWEI CloudEngine switches.
+  ce_switchport:
+      default_vlan: 
+      interface: 
+      mode: 
+      pvid_vlan: 
+      state: 
+      tagged_vlans: 
+      trunk_vlans: 
+      untagged_vlans: 
+]]>
+	</content>
+</snippet>

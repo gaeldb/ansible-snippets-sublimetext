@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_admin</tabTrigger>
+	<description>Add or modify PAN-OS user accounts password.</description>
+	<content><![CDATA[
+- name: Add or modify PAN-OS user accounts password.
+  panos_admin:
+      admin_password: 
+      admin_username: 
+      commit: 
+      ip_address: 
+      password: 
+      role: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_ra</tabTrigger>
+	<description>Enable or Disable Pure Storage FlashBlade Remote Assist</description>
+	<content><![CDATA[
+- name: Enable or Disable Pure Storage FlashBlade Remote Assist
+  purefb_ra:
+      api_token: 
+      fb_url: 
+      state: 
+]]>
+	</content>
+</snippet>

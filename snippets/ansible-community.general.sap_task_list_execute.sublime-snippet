@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sap_task_list_execute</tabTrigger>
+	<description>Perform SAP Task list execution</description>
+	<content><![CDATA[
+- name: Perform SAP Task list execution
+  sap_task_list_execute:
+      client: 
+      conn_password: 
+      conn_username: 
+      host: 
+      sysnr: 
+      task_parameters: 
+      task_settings: 
+      task_skip: 
+      task_to_execute: 
+]]>
+	</content>
+</snippet>

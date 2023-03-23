@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_sflow</tabTrigger>
+	<description>Configure sFlow in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure sFlow in Fortinet's FortiOS and FortiGate.
+  fortios_system_sflow:
+      access_token: 
+      system_sflow: 
+      vdom: 
+]]>
+	</content>
+</snippet>

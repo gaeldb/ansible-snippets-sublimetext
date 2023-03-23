@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vca_vapp</tabTrigger>
+	<description>Manages vCloud Air vApp instances.</description>
+	<content><![CDATA[
+- name: Manages vCloud Air vApp instances.
+  vca_vapp:
+      api_version: 
+      gateway_name: 
+      host: 
+      instance_id: 
+      network_mode: 
+      network_name: 
+      operation: 
+      org: 
+      password: 
+      service_type: 
+      state: 
+      template_name: 
+      username: 
+      validate_certs: 
+      vapp_name: 
+      vdc_name: 
+      vm_cpus: 
+      vm_memory: 
+      vm_name: 
+]]>
+	</content>
+</snippet>

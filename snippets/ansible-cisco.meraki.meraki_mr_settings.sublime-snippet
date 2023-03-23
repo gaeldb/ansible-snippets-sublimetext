@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mr_settings</tabTrigger>
+	<description>Manage general settings for Meraki wireless networks</description>
+	<content><![CDATA[
+- name: Manage general settings for Meraki wireless networks
+  meraki_mr_settings:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      ipv6_bridge_enabled: 
+      led_lights_on: 
+      location_analytics_enabled: 
+      meshing_enabled: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      upgrade_strategy: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

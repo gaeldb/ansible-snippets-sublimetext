@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_trafficmanager</tabTrigger>
+	<description>Manage a Traffic Manager profile.</description>
+	<content><![CDATA[
+- name: Manage a Traffic Manager profile.
+  azure_rm_trafficmanager:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      dns_config: 
+      endpoints: 
+      location: 
+      monitor_config: 
+      name: 
+      password: 
+      profile: 
+      profile_status: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      traffic_routing_method: 
+]]>
+	</content>
+</snippet>

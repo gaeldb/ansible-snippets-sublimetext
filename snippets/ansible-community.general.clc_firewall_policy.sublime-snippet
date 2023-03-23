@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_firewall_policy</tabTrigger>
+	<description>Create/delete/update firewall policies</description>
+	<content><![CDATA[
+- name: Create/delete/update firewall policies
+  clc_firewall_policy:
+      destination: 
+      destination_account_alias: 
+      enabled: 
+      firewall_policy_id: 
+      location: 
+      ports: 
+      source: 
+      source_account_alias: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

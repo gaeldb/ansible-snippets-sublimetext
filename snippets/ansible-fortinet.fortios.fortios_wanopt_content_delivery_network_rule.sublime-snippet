@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_content_delivery_network_rule</tabTrigger>
+	<description>Configure WAN optimization content delivery network rules in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure WAN optimization content delivery network rules in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_content_delivery_network_rule:
+      access_token: 
+      state: 
+      vdom: 
+      wanopt_content_delivery_network_rule: 
+]]>
+	</content>
+</snippet>

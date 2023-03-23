@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_group_facts</tabTrigger>
+	<description>Get group objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get group objects facts on Check Point over Web Services API
+  cp_mgmt_group_facts:
+      dereference_group_members: 
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      show_as_ranges: 
+      show_membership: 
+      version: 
+]]>
+	</content>
+</snippet>

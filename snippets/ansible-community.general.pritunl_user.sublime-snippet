@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pritunl_user</tabTrigger>
+	<description>Manage Pritunl Users using the Pritunl API</description>
+	<content><![CDATA[
+- name: Manage Pritunl Users using the Pritunl API
+  pritunl_user:
+      organization: 
+      pritunl_api_secret: 
+      pritunl_api_token: 
+      pritunl_url: 
+      state: 
+      user_disabled: 
+      user_email: 
+      user_gravatar: 
+      user_groups: 
+      user_mac_addresses: 
+      user_name: 
+      user_type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

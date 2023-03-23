@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.data_pipeline</tabTrigger>
+	<description>Create and manage AWS Datapipelines</description>
+	<content><![CDATA[
+- name: Create and manage AWS Datapipelines
+  data_pipeline:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      name: 
+      objects: 
+      parameters: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      timeout: 
+      validate_certs: 
+      values: 
+]]>
+	</content>
+</snippet>

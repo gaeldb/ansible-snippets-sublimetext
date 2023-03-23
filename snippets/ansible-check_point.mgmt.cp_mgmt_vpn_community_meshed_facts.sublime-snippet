@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_vpn_community_meshed_facts</tabTrigger>
+	<description>Get vpn-community-meshed objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get vpn-community-meshed objects facts on Check Point over Web Services API
+  cp_mgmt_vpn_community_meshed_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      version: 
+]]>
+	</content>
+</snippet>

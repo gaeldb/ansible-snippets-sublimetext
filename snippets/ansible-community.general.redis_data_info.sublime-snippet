@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.redis_data_info</tabTrigger>
+	<description>Get value of key in Redis database</description>
+	<content><![CDATA[
+- name: Get value of key in Redis database
+  redis_data_info:
+      ca_certs: 
+      key: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      tls: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

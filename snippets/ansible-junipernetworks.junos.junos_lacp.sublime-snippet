@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_lacp</tabTrigger>
+	<description>Global Link Aggregation Control Protocol (LACP) Junos resource module</description>
+	<content><![CDATA[
+- name: Global Link Aggregation Control Protocol (LACP) Junos resource module
+  junos_lacp:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

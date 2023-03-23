@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>meta</tabTrigger>
+	<description>Execute Ansible 'actions'</description>
+	<content><![CDATA[
+- name: Execute Ansible 'actions'
+  meta:
+      free_form: 
+]]>
+	</content>
+</snippet>

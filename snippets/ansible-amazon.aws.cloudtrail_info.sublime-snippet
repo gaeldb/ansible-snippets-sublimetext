@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudtrail_info</tabTrigger>
+	<description>Gather information about trails in AWS Cloud Trail.</description>
+	<content><![CDATA[
+- name: Gather information about trails in AWS Cloud Trail.
+  cloudtrail_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      include_shadow_trails: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      trail_names: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

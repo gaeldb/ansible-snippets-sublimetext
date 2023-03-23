@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_trunk</tabTrigger>
+	<description>CLI command to create/delete/modify a trunk.</description>
+	<content><![CDATA[
+- name: CLI command to create/delete/modify a trunk.
+  pn_trunk:
+      pn_broadcast_level: 
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_description: 
+      pn_edge_switch: 
+      pn_egress_rate_limit: 
+      pn_host: 
+      pn_jumbo: 
+      pn_lacp_fallback: 
+      pn_lacp_fallback_timeout: 
+      pn_lacp_mode: 
+      pn_lacp_priority: 
+      pn_lacp_timeout: 
+      pn_loopback: 
+      pn_loopvlans: 
+      pn_mirror_receive: 
+      pn_name: 
+      pn_pause: 
+      pn_port_macaddr: 
+      pn_ports: 
+      pn_routing: 
+      pn_speed: 
+      pn_unknown_mcast_level: 
+      pn_unknown_ucast_level: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.osx_defaults</tabTrigger>
+	<description>Manage macOS user defaults</description>
+	<content><![CDATA[
+- name: Manage macOS user defaults
+  osx_defaults:
+      array_add: 
+      domain: 
+      host: 
+      key: 
+      path: 
+      state: 
+      type: 
+      value: 
+]]>
+	</content>
+</snippet>

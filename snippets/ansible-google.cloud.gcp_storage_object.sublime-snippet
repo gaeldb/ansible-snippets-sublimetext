@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_storage_object</tabTrigger>
+	<description>Creates a GCP Object</description>
+	<content><![CDATA[
+- name: Creates a GCP Object
+  gcp_storage_object:
+      action: 
+      auth_kind: 
+      bucket: 
+      dest: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      src: 
+]]>
+	</content>
+</snippet>

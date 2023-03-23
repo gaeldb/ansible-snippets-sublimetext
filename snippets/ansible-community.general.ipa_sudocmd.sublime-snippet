@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_sudocmd</tabTrigger>
+	<description>Manage FreeIPA sudo command</description>
+	<content><![CDATA[
+- name: Manage FreeIPA sudo command
+  ipa_sudocmd:
+      description: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      state: 
+      sudocmd: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

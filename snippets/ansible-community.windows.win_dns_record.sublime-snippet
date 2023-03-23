@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_dns_record</tabTrigger>
+	<description>Manage Windows Server DNS records</description>
+	<content><![CDATA[
+- name: Manage Windows Server DNS records
+  win_dns_record:
+      computer_name: 
+      name: 
+      port: 
+      priority: 
+      state: 
+      ttl: 
+      type: 
+      value: 
+      weight: 
+      zone: 
+]]>
+	</content>
+</snippet>

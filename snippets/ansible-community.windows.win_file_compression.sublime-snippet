@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_file_compression</tabTrigger>
+	<description>Alters the compression of files and directories on NTFS partitions.</description>
+	<content><![CDATA[
+- name: Alters the compression of files and directories on NTFS partitions.
+  win_file_compression:
+      force: 
+      path: 
+      recurse: 
+      state: 
+]]>
+	</content>
+</snippet>

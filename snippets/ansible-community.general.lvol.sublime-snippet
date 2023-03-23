@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lvol</tabTrigger>
+	<description>Configure LVM logical volumes</description>
+	<content><![CDATA[
+- name: Configure LVM logical volumes
+  lvol:
+      active: 
+      force: 
+      lv: 
+      opts: 
+      pvs: 
+      resizefs: 
+      shrink: 
+      size: 
+      snapshot: 
+      state: 
+      thinpool: 
+      vg: 
+]]>
+	</content>
+</snippet>

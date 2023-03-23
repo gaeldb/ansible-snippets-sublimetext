@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bitbucket_pipeline_key_pair</tabTrigger>
+	<description>Manages Bitbucket pipeline SSH key pair</description>
+	<content><![CDATA[
+- name: Manages Bitbucket pipeline SSH key pair
+  bitbucket_pipeline_key_pair:
+      client_id: 
+      client_secret: 
+      password: 
+      private_key: 
+      public_key: 
+      repository: 
+      state: 
+      user: 
+      workspace: 
+]]>
+	</content>
+</snippet>

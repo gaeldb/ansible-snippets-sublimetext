@@ -1,0 +1,58 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_quota</tabTrigger>
+	<description>Manage OpenStack Quotas</description>
+	<content><![CDATA[
+- name: Manage OpenStack Quotas
+  quota:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      backup_gigabytes: 
+      backups: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      cores: 
+      fixed_ips: 
+      floating_ips: 
+      floatingip: 
+      gigabytes: 
+      gigabytes_types: 
+      injected_file_size: 
+      injected_files: 
+      injected_path_size: 
+      instances: 
+      interface: 
+      key_pairs: 
+      loadbalancer: 
+      name: 
+      network: 
+      per_volume_gigabytes: 
+      pool: 
+      port: 
+      project: 
+      properties: 
+      ram: 
+      rbac_policy: 
+      region_name: 
+      router: 
+      security_group: 
+      security_group_rule: 
+      server_group_members: 
+      server_groups: 
+      snapshots: 
+      snapshots_types: 
+      state: 
+      subnet: 
+      subnetpool: 
+      timeout: 
+      validate_certs: 
+      volumes: 
+      volumes_types: 
+      wait: 
+]]>
+	</content>
+</snippet>

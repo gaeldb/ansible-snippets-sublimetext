@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_config</tabTrigger>
+	<description>Manage Lenovo CNOS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Lenovo CNOS configuration sections
+  cnos_config:
+      admin: 
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      comment: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      replace: 
+      src: 
+]]>
+	</content>
+</snippet>

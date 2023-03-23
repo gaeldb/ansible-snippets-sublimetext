@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.aws.aws_netapp_cvs_snapshots</tabTrigger>
+	<description>NetApp AWS Cloud Volumes Service Manage Snapshots.</description>
+	<content><![CDATA[
+- name: NetApp AWS Cloud Volumes Service Manage Snapshots.
+  aws_netapp_cvs_snapshots:
+      api_key: 
+      api_url: 
+      fileSystemId: 
+      from_name: 
+      name: 
+      region: 
+      secret_key: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

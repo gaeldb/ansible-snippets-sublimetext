@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_cluster</tabTrigger>
+	<description>CLI command to create/delete a cluster.</description>
+	<content><![CDATA[
+- name: CLI command to create/delete a cluster.
+  pn_cluster:
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_cluster_node1: 
+      pn_cluster_node2: 
+      pn_name: 
+      pn_validate: 
+      state: 
+]]>
+	</content>
+</snippet>

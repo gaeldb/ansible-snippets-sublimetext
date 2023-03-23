@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_unix_group</tabTrigger>
+	<description>NetApp ONTAP UNIX Group</description>
+	<content><![CDATA[
+- name: NetApp ONTAP UNIX Group
+  na_ontap_unix_group:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      id: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      skip_name_validation: 
+      state: 
+      use_rest: 
+      username: 
+      users: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

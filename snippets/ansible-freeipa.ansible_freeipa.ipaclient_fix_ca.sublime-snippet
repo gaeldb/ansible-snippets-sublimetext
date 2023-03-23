@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_fix_ca</tabTrigger>
+	<description>Fix IPA ca certificate</description>
+	<content><![CDATA[
+- name: Fix IPA ca certificate
+  ipaclient_fix_ca:
+      allow_repair: 
+      basedn: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

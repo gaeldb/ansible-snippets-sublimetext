@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_lun_copy</tabTrigger>
+	<description>NetApp ONTAP copy LUNs</description>
+	<content><![CDATA[
+- name: NetApp ONTAP copy LUNs
+  na_ontap_lun_copy:
+      cert_filepath: 
+      destination_path: 
+      destination_vserver: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      source_path: 
+      source_vserver: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

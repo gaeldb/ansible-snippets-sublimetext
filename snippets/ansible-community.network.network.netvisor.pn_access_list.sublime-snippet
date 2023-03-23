@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_access_list</tabTrigger>
+	<description>CLI command to create/delete access-list</description>
+	<content><![CDATA[
+- name: CLI command to create/delete access-list
+  pn_access_list:
+      pn_cliswitch: 
+      pn_name: 
+      pn_scope: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vm_info</tabTrigger>
+	<description>Return basic info pertaining to a VMware machine guest</description>
+	<content><![CDATA[
+- name: Return basic info pertaining to a VMware machine guest
+  vmware_vm_info:
+      folder: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      show_attribute: 
+      show_tag: 
+      username: 
+      validate_certs: 
+      vm_type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_user</tabTrigger>
+	<description>Avi User Module</description>
+	<content><![CDATA[
+- name: Avi User Module
+  avi_user:
+      access: 
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      default_tenant_ref: 
+      email: 
+      is_active: 
+      is_superuser: 
+      name: 
+      obj_password: 
+      obj_username: 
+      password: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      user_profile_ref: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>splunk.es.splunk_adaptive_response_notable_event</tabTrigger>
+	<description>Manage Splunk Enterprise Security Notable Event Adaptive Responses</description>
+	<content><![CDATA[
+- name: Manage Splunk Enterprise Security Notable Event Adaptive Responses
+  adaptive_response_notable_event:
+      asset_extraction: 
+      correlation_search_name: 
+      default_owner: 
+      default_status: 
+      description: 
+      drill_down_earliest_offset: 
+      drill_down_latest_offset: 
+      drill_down_name: 
+      drill_down_search: 
+      identity_extraction: 
+      investigation_profiles: 
+      name: 
+      next_steps: 
+      recommended_actions: 
+      security_domain: 
+      severity: 
+      state: 
+]]>
+	</content>
+</snippet>

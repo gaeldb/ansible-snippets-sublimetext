@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_remote_user</tabTrigger>
+	<description>Manages default settings for remote user accounts on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages default settings for remote user accounts on a BIG-IP
+  bigip_remote_user:
+      console_access: 
+      default_partition: 
+      default_role: 
+      description: 
+      provider: 
+]]>
+	</content>
+</snippet>

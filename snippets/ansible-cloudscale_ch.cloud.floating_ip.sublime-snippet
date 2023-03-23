@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.floating_ip</tabTrigger>
+	<description>Manages floating IPs on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages floating IPs on the cloudscale.ch IaaS service
+  floating_ip:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      ip_version: 
+      name: 
+      network: 
+      prefix_length: 
+      region: 
+      reverse_ptr: 
+      server: 
+      state: 
+      tags: 
+      type: 
+]]>
+	</content>
+</snippet>

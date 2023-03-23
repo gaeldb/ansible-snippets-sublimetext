@@ -1,0 +1,58 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_cloud</tabTrigger>
+	<description>Module for setup of Cloud Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of Cloud Avi RESTful Object
+  avi_cloud:
+      api_context: 
+      api_version: 
+      apic_configuration: 
+      apic_mode: 
+      autoscale_polling_interval: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      aws_configuration: 
+      azure_configuration: 
+      cloudstack_configuration: 
+      controller: 
+      custom_tags: 
+      dhcp_enabled: 
+      dns_provider_ref: 
+      docker_configuration: 
+      east_west_dns_provider_ref: 
+      east_west_ipam_provider_ref: 
+      enable_vip_static_routes: 
+      gcp_configuration: 
+      ip6_autocfg_enabled: 
+      ipam_provider_ref: 
+      license_tier: 
+      license_type: 
+      linuxserver_configuration: 
+      mesos_configuration: 
+      mtu: 
+      name: 
+      nsx_configuration: 
+      obj_name_prefix: 
+      openstack_configuration: 
+      oshiftk8s_configuration: 
+      password: 
+      prefer_static_routes: 
+      proxy_configuration: 
+      rancher_configuration: 
+      state: 
+      state_based_dns_registration: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+      vca_configuration: 
+      vcenter_configuration: 
+      vtype: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_org</tabTrigger>
+	<description>Manages UCS Organizations for UCS Manager</description>
+	<content><![CDATA[
+- name: Manages UCS Organizations for UCS Manager
+  ucs_org:
+      delegate_to: 
+      description: 
+      hostname: 
+      org_name: 
+      parent_org_path: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

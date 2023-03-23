@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_global</tabTrigger>
+	<description>Manages global GTM settings</description>
+	<content><![CDATA[
+- name: Manages global GTM settings
+  bigip_gtm_global:
+      provider: 
+      synchronization: 
+      synchronization_group_name: 
+      synchronize_zone_files: 
+]]>
+	</content>
+</snippet>

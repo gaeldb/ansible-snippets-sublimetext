@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_logical_interconnect_group</tabTrigger>
+	<description>Manage OneView Logical Interconnect Group resources</description>
+	<content><![CDATA[
+- name: Manage OneView Logical Interconnect Group resources
+  oneview_logical_interconnect_group:
+      api_version: 
+      config: 
+      data: 
+      hostname: 
+      image_streamer_hostname: 
+      password: 
+      state: 
+      username: 
+      validate_etag: 
+]]>
+	</content>
+</snippet>

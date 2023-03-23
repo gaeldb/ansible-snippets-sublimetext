@@ -1,0 +1,10 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lldp</tabTrigger>
+	<description>Get details reported by lldp</description>
+	<content><![CDATA[
+- name: Get details reported by lldp
+  lldp:
+]]>
+	</content>
+</snippet>

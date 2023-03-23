@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.iso_extract</tabTrigger>
+	<description>Extract files from an ISO image</description>
+	<content><![CDATA[
+- name: Extract files from an ISO image
+  iso_extract:
+      dest: 
+      executable: 
+      files: 
+      force: 
+      image: 
+]]>
+	</content>
+</snippet>

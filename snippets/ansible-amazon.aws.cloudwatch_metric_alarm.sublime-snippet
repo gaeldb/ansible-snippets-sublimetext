@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatch_metric_alarm</tabTrigger>
+	<description>Create/update or delete AWS CloudWatch 'metric alarms'</description>
+	<content><![CDATA[
+- name: Create/update or delete AWS CloudWatch 'metric alarms'
+  cloudwatch_metric_alarm:
+      access_key: 
+      alarm_actions: 
+      aws_ca_bundle: 
+      aws_config: 
+      comparison: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      dimensions: 
+      endpoint_url: 
+      evaluation_periods: 
+      insufficient_data_actions: 
+      metric: 
+      name: 
+      namespace: 
+      ok_actions: 
+      period: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      statistic: 
+      threshold: 
+      treat_missing_data: 
+      unit: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mr_l3_firewall</tabTrigger>
+	<description>Manage MR access point layer 3 firewalls in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage MR access point layer 3 firewalls in the Meraki cloud
+  meraki_mr_l3_firewall:
+      allow_lan_access: 
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      number: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      rules: 
+      ssid_name: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_cpu_mgmt_class</tabTrigger>
+	<description>CLI command to modify cpu-mgmt-class</description>
+	<content><![CDATA[
+- name: CLI command to modify cpu-mgmt-class
+  pn_cpu_mgmt_class:
+      pn_burst_size: 
+      pn_cliswitch: 
+      pn_name: 
+      pn_rate_limit: 
+      state: 
+]]>
+	</content>
+</snippet>

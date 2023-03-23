@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_message_routing_route</tabTrigger>
+	<description>Manages static routes for routing message protocol messages</description>
+	<content><![CDATA[
+- name: Manages static routes for routing message protocol messages
+  bigip_message_routing_route:
+      description: 
+      dst_address: 
+      name: 
+      partition: 
+      peer_selection_mode: 
+      peers: 
+      provider: 
+      src_address: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

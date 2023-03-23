@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_ironic</tabTrigger>
+	<description>Create/Delete Bare Metal Resources from OpenStack</description>
+	<content><![CDATA[
+- name: Create/Delete Bare Metal Resources from OpenStack
+  baremetal_node:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      chassis_uuid: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      driver: 
+      driver_info: 
+      interface: 
+      ironic_url: 
+      name: 
+      nics: 
+      properties: 
+      region_name: 
+      skip_update_of_masked_password: 
+      state: 
+      timeout: 
+      uuid: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

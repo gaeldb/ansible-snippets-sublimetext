@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_queue</tabTrigger>
+	<description>Manage rabbitMQ queues</description>
+	<content><![CDATA[
+- name: Manage rabbitMQ queues
+  rabbitmq_queue:
+      arguments: 
+      auto_delete: 
+      auto_expires: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      dead_letter_exchange: 
+      dead_letter_routing_key: 
+      durable: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_protocol: 
+      login_user: 
+      max_length: 
+      max_priority: 
+      message_ttl: 
+      name: 
+      state: 
+      vhost: 
+]]>
+	</content>
+</snippet>

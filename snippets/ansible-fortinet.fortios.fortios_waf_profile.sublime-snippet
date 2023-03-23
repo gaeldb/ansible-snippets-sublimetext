@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_waf_profile</tabTrigger>
+	<description>Web application firewall configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Web application firewall configuration in Fortinet's FortiOS and FortiGate.
+  fortios_waf_profile:
+      access_token: 
+      state: 
+      vdom: 
+      waf_profile: 
+]]>
+	</content>
+</snippet>

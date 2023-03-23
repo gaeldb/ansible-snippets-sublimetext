@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_mysql_users</tabTrigger>
+	<description>Adds or removes mysql users from proxysql admin interface.</description>
+	<content><![CDATA[
+- name: Adds or removes mysql users from proxysql admin interface.
+  proxysql_mysql_users:
+      active: 
+      backend: 
+      config_file: 
+      default_hostgroup: 
+      default_schema: 
+      encrypt_password: 
+      encryption_method: 
+      fast_forward: 
+      frontend: 
+      load_to_runtime: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      max_connections: 
+      password: 
+      save_to_disk: 
+      state: 
+      transaction_persistent: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.terraform</tabTrigger>
+	<description>Manages a Terraform deployment (and plans)</description>
+	<content><![CDATA[
+- name: Manages a Terraform deployment (and plans)
+  terraform:
+      backend_config: 
+      backend_config_files: 
+      binary_path: 
+      check_destroy: 
+      complex_vars: 
+      force_init: 
+      init_reconfigure: 
+      lock: 
+      lock_timeout: 
+      overwrite_init: 
+      parallelism: 
+      plan_file: 
+      plugin_paths: 
+      project_path: 
+      provider_upgrade: 
+      purge_workspace: 
+      state: 
+      state_file: 
+      targets: 
+      variables: 
+      variables_files: 
+      workspace: 
+]]>
+	</content>
+</snippet>

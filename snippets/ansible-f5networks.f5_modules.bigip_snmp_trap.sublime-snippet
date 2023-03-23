@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_snmp_trap</tabTrigger>
+	<description>Manipulate SNMP trap information on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manipulate SNMP trap information on a BIG-IP
+  bigip_snmp_trap:
+      community: 
+      destination: 
+      name: 
+      network: 
+      partition: 
+      port: 
+      provider: 
+      snmp_version: 
+      state: 
+]]>
+	</content>
+</snippet>

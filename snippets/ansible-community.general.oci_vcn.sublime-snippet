@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oci_vcn</tabTrigger>
+	<description>Manage Virtual Cloud Networks(VCN) in OCI</description>
+	<content><![CDATA[
+- name: Manage Virtual Cloud Networks(VCN) in OCI
+  oci_vcn:
+      api_user: 
+      api_user_fingerprint: 
+      api_user_key_file: 
+      api_user_key_pass_phrase: 
+      auth_type: 
+      cidr_block: 
+      compartment_id: 
+      config_file_location: 
+      config_profile_name: 
+      defined_tags: 
+      display_name: 
+      dns_label: 
+      force_create: 
+      freeform_tags: 
+      key_by: 
+      region: 
+      state: 
+      tenancy: 
+      vcn_id: 
+      wait: 
+      wait_timeout: 
+      wait_until: 
+]]>
+	</content>
+</snippet>

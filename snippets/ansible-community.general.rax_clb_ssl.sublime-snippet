@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_clb_ssl</tabTrigger>
+	<description>Manage SSL termination for a Rackspace Cloud Load Balancer</description>
+	<content><![CDATA[
+- name: Manage SSL termination for a Rackspace Cloud Load Balancer
+  rax_clb_ssl:
+      api_key: 
+      auth_endpoint: 
+      certificate: 
+      credentials: 
+      enabled: 
+      env: 
+      https_redirect: 
+      identity_type: 
+      intermediate_certificate: 
+      loadbalancer: 
+      private_key: 
+      region: 
+      secure_port: 
+      secure_traffic_only: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

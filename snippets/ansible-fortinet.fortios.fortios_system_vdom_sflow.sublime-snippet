@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vdom_sflow</tabTrigger>
+	<description>Configure sFlow per VDOM to add or change the IP address and UDP port that FortiGate sFlow agents in this VDOM use to send sFlow datagrams to an sFlow collector in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure sFlow per VDOM to add or change the IP address and UDP port that FortiGate sFlow agents in this VDOM use to send sFlow datagrams to an sFlow collector in Fortinet's FortiOS and FortiGate.
+  fortios_system_vdom_sflow:
+      access_token: 
+      system_vdom_sflow: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ssh_setting</tabTrigger>
+	<description>SSH proxy settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SSH proxy settings in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ssh_setting:
+      access_token: 
+      firewall_ssh_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_export_client</tabTrigger>
+	<description>Create, Delete or Modify NFS Client(s) for existing exports on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete or Modify NFS Client(s) for existing exports on Infinibox
+  infini_export_client:
+      access_mode: 
+      client: 
+      export: 
+      no_root_squash: 
+      password: 
+      state: 
+      system: 
+      user: 
+]]>
+	</content>
+</snippet>

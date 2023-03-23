@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_rest</tabTrigger>
+	<description>Direct access to the Cisco MSO REST API</description>
+	<content><![CDATA[
+- name: Direct access to the Cisco MSO REST API
+  mso_rest:
+      content: 
+      host: 
+      login_domain: 
+      method: 
+      output_level: 
+      password: 
+      path: 
+      port: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

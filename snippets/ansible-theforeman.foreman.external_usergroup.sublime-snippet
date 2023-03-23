@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.external_usergroup</tabTrigger>
+	<description>Manage External User Groups</description>
+	<content><![CDATA[
+- name: Manage External User Groups
+  external_usergroup:
+      auth_source: 
+      name: 
+      password: 
+      server_url: 
+      state: 
+      usergroup: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

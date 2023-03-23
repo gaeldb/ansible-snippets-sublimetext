@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.skydive.skydive_edge</tabTrigger>
+	<description>Module to add edges to Skydive topology</description>
+	<content><![CDATA[
+- name: Module to add edges to Skydive topology
+  skydive_edge:
+      child_node: 
+      host: 
+      metadata: 
+      parent_node: 
+      provider: 
+      relation_type: 
+      state: 
+]]>
+	</content>
+</snippet>

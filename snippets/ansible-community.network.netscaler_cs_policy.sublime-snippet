@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.netscaler_cs_policy</tabTrigger>
+	<description>Manage content switching policy</description>
+	<content><![CDATA[
+- name: Manage content switching policy
+  netscaler_cs_policy:
+      action: 
+      domain: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      policyname: 
+      rule: 
+      save_config: 
+      state: 
+      url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

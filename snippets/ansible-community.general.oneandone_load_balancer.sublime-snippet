@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneandone_load_balancer</tabTrigger>
+	<description>Configure 1&1 load balancer</description>
+	<content><![CDATA[
+- name: Configure 1&1 load balancer
+  oneandone_load_balancer:
+      add_rules: 
+      add_server_ips: 
+      api_url: 
+      auth_token: 
+      datacenter: 
+      description: 
+      health_check_interval: 
+      health_check_parse: 
+      health_check_path: 
+      health_check_test: 
+      load_balancer: 
+      method: 
+      name: 
+      persistence: 
+      persistence_time: 
+      remove_rules: 
+      remove_server_ips: 
+      rules: 
+      state: 
+      wait: 
+      wait_interval: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

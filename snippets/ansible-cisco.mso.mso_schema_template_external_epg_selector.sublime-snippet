@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_external_epg_selector</tabTrigger>
+	<description>Manage External EPG selector in schema templates</description>
+	<content><![CDATA[
+- name: Manage External EPG selector in schema templates
+  mso_schema_template_external_epg_selector:
+      expressions: 
+      external_epg: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      selector: 
+      state: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

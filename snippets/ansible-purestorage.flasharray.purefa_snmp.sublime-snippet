@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_snmp</tabTrigger>
+	<description>Configure FlashArray SNMP Managers</description>
+	<content><![CDATA[
+- name: Configure FlashArray SNMP Managers
+  purefa_snmp:
+      api_token: 
+      auth_passphrase: 
+      auth_protocol: 
+      community: 
+      fa_url: 
+      host: 
+      name: 
+      notification: 
+      privacy_passphrase: 
+      privacy_protocol: 
+      state: 
+      user: 
+      version: 
+]]>
+	</content>
+</snippet>

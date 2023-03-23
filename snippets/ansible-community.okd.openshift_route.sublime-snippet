@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.okd.openshift_route</tabTrigger>
+	<description>Expose a Service as an OpenShift Route.</description>
+	<content><![CDATA[
+- name: Expose a Service as an OpenShift Route.
+  openshift_route:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      force: 
+      host: 
+      hostname: 
+      kubeconfig: 
+      labels: 
+      name: 
+      namespace: 
+      password: 
+      path: 
+      persist_config: 
+      port: 
+      proxy: 
+      service: 
+      state: 
+      termination: 
+      tls: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_condition: 
+      wait_sleep: 
+      wait_timeout: 
+      wildcard_policy: 
+]]>
+	</content>
+</snippet>

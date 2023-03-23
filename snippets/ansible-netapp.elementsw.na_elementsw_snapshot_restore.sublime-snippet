@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_snapshot_restore</tabTrigger>
+	<description>NetApp Element Software Restore Snapshot</description>
+	<content><![CDATA[
+- name: NetApp Element Software Restore Snapshot
+  na_elementsw_snapshot_restore:
+      account_id: 
+      dest_volume_name: 
+      hostname: 
+      password: 
+      src_snapshot_id: 
+      src_volume_id: 
+      username: 
+]]>
+	</content>
+</snippet>

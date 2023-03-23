@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_traffic_type</tabTrigger>
+	<description>Manages traffic types on CloudStack Physical Networks</description>
+	<content><![CDATA[
+- name: Manages traffic types on CloudStack Physical Networks
+  cs_traffic_type:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      hyperv_networklabel: 
+      isolation_method: 
+      kvm_networklabel: 
+      ovm3_networklabel: 
+      physical_network: 
+      poll_async: 
+      state: 
+      traffic_type: 
+      vlan: 
+      vmware_networklabel: 
+      xen_networklabel: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_leaf_profile</tabTrigger>
+	<description>Manage fabric interface policy leaf profiles (infra:AccPortP)</description>
+	<content><![CDATA[
+- name: Manage fabric interface policy leaf profiles (infra:AccPortP)
+  aci_interface_policy_leaf_profile:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      interface_profile: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      type: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

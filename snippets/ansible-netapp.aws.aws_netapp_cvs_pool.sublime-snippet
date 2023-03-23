@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.aws.aws_netapp_cvs_pool</tabTrigger>
+	<description>NetApp AWS Cloud Volumes Service Manage Pools.</description>
+	<content><![CDATA[
+- name: NetApp AWS Cloud Volumes Service Manage Pools.
+  aws_netapp_cvs_pool:
+      api_key: 
+      api_url: 
+      from_name: 
+      name: 
+      region: 
+      secret_key: 
+      serviceLevel: 
+      sizeInBytes: 
+      state: 
+      validate_certs: 
+      vendorID: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>command</tabTrigger>
+	<description>Execute commands on targets</description>
+	<content><![CDATA[
+- name: Execute commands on targets
+  command:
+      argv: 
+      chdir: 
+      cmd: 
+      creates: 
+      free_form: 
+      removes: 
+      stdin: 
+      stdin_add_newline: 
+      strip_empty_ends: 
+      warn: 
+]]>
+	</content>
+</snippet>

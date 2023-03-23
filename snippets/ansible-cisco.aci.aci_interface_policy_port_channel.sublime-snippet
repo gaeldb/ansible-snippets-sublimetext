@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_port_channel</tabTrigger>
+	<description>Manage port channel interface policies (lacp:LagPol)</description>
+	<content><![CDATA[
+- name: Manage port channel interface policies (lacp:LagPol)
+  aci_interface_policy_port_channel:
+      annotation: 
+      certificate_name: 
+      description: 
+      fast_select: 
+      graceful_convergence: 
+      host: 
+      load_defer: 
+      max_links: 
+      min_links: 
+      mode: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      port_channel: 
+      private_key: 
+      state: 
+      suspend_individual: 
+      symmetric_hash: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

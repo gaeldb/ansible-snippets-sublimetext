@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_proxy_exception</tabTrigger>
+	<description>Create, update or destroy reverse_proxy exception entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy reverse_proxy exception entry in Sophos UTM
+  utm_proxy_exception:
+      headers: 
+      name: 
+      op: 
+      path: 
+      skip_custom_threats_filters: 
+      skip_threats_filter_categories: 
+      skipav: 
+      skipbadclients: 
+      skipcookie: 
+      skipform: 
+      skipform_missingtoken: 
+      skiphtmlrewrite: 
+      skiptft: 
+      skipurl: 
+      source: 
+      state: 
+      status: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

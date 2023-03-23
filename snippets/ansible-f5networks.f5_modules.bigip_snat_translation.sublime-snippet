@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_snat_translation</tabTrigger>
+	<description>Manage SNAT translations on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage SNAT translations on a BIG-IP
+  bigip_snat_translation:
+      address: 
+      arp: 
+      connection_limit: 
+      description: 
+      ip_idle_timeout: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+      tcp_idle_timeout: 
+      traffic_group: 
+      udp_idle_timeout: 
+]]>
+	</content>
+</snippet>

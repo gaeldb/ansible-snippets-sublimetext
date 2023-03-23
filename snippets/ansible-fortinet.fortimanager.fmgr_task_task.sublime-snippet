@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_task_task</tabTrigger>
+	<description>Read-only table containing the 10000 most recent tasks of the system. This table can be used for tracking non-blocking tasks initiated b...</description>
+	<content><![CDATA[
+- name: Read-only table containing the 10000 most recent tasks of the system. This table can be used for tracking non-blocking tasks initiated b...
+  fmgr_task_task:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

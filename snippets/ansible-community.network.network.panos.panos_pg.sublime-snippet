@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_pg</tabTrigger>
+	<description>create a security profiles group</description>
+	<content><![CDATA[
+- name: create a security profiles group
+  panos_pg:
+      commit: 
+      data_filtering: 
+      file_blocking: 
+      ip_address: 
+      password: 
+      pg_name: 
+      spyware: 
+      url_filtering: 
+      username: 
+      virus: 
+      vulnerability: 
+      wildfire: 
+]]>
+	</content>
+</snippet>

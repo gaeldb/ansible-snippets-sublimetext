@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_file_directory_policy</tabTrigger>
+	<description>NetApp ONTAP create, delete, or modify vserver security file-directory policy</description>
+	<content><![CDATA[
+- name: NetApp ONTAP create, delete, or modify vserver security file-directory policy
+  na_ontap_file_directory_policy:
+      access_control: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_broken_symlinks: 
+      key_filepath: 
+      ntfs_mode: 
+      ntfs_sd: 
+      ontapi: 
+      password: 
+      path: 
+      policy_name: 
+      security_type: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

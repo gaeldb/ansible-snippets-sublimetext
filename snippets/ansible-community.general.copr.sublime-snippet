@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.copr</tabTrigger>
+	<description>Manage one of the Copr repositories</description>
+	<content><![CDATA[
+- name: Manage one of the Copr repositories
+  copr:
+      chroot: 
+      host: 
+      name: 
+      protocol: 
+      state: 
+]]>
+	</content>
+</snippet>

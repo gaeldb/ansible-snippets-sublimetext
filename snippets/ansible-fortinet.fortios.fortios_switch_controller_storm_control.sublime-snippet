@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_storm_control</tabTrigger>
+	<description>Configure FortiSwitch storm control in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch storm control in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_storm_control:
+      access_token: 
+      switch_controller_storm_control: 
+      vdom: 
+]]>
+	</content>
+</snippet>

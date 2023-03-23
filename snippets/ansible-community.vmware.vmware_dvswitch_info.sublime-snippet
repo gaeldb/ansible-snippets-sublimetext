@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvswitch_info</tabTrigger>
+	<description>Gathers info dvswitch configurations</description>
+	<content><![CDATA[
+- name: Gathers info dvswitch configurations
+  vmware_dvswitch_info:
+      folder: 
+      hostname: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      switch_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

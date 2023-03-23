@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.idrac_redfish_info</tabTrigger>
+	<description>Gather PowerEdge server information through iDRAC using Redfish APIs</description>
+	<content><![CDATA[
+- name: Gather PowerEdge server information through iDRAC using Redfish APIs
+  idrac_redfish_info:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      password: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>git</tabTrigger>
+	<description>Deploy software (or files) from git checkouts</description>
+	<content><![CDATA[
+- name: Deploy software (or files) from git checkouts
+  git:
+      accept_hostkey: 
+      accept_newhostkey: 
+      archive: 
+      archive_prefix: 
+      bare: 
+      clone: 
+      depth: 
+      dest: 
+      executable: 
+      force: 
+      gpg_whitelist: 
+      key_file: 
+      recursive: 
+      reference: 
+      refspec: 
+      remote: 
+      repo: 
+      separate_git_dir: 
+      single_branch: 
+      ssh_opts: 
+      track_submodules: 
+      umask: 
+      update: 
+      verify_commit: 
+      version: 
+]]>
+	</content>
+</snippet>

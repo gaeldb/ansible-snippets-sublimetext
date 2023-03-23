@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_forwarding_rule_info</tabTrigger>
+	<description>Gather info for GCP ForwardingRule</description>
+	<content><![CDATA[
+- name: Gather info for GCP ForwardingRule
+  gcp_compute_forwarding_rule_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

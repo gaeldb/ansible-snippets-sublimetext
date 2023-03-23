@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_organization_info</tabTrigger>
+	<description>Gather information about the Scaleway organizations available</description>
+	<content><![CDATA[
+- name: Gather information about the Scaleway organizations available
+  scaleway_organization_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      query_parameters: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

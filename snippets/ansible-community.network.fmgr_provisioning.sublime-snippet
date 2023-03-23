@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.fmgr_provisioning</tabTrigger>
+	<description>Provision devices via FortiMananger</description>
+	<content><![CDATA[
+- name: Provision devices via FortiMananger
+  fmgr_provisioning:
+      adom: 
+      description: 
+      group: 
+      host: 
+      minor_release: 
+      name: 
+      os_type: 
+      os_version: 
+      password: 
+      patch_release: 
+      platform: 
+      policy_package: 
+      serial: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

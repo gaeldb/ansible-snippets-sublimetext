@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_ips_global</tabTrigger>
+	<description>Configure IPS global parameter in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS global parameter in Fortinet's FortiOS and FortiGate.
+  fortios_ips_global:
+      access_token: 
+      ips_global: 
+      vdom: 
+]]>
+	</content>
+</snippet>

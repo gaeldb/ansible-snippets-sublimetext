@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_bgp</tabTrigger>
+	<description>Configures BGP on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Configures BGP on Mellanox ONYX network devices
+  onyx_bgp:
+      as_number: 
+      ecmp_bestpath: 
+      evpn: 
+      fast_external_fallover: 
+      max_paths: 
+      neighbors: 
+      networks: 
+      purge: 
+      router_id: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

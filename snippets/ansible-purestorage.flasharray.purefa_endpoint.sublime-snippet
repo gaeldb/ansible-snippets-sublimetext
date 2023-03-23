@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_endpoint</tabTrigger>
+	<description>Manage VMware protocol-endpoints on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage VMware protocol-endpoints on Pure Storage FlashArrays
+  purefa_endpoint:
+      api_token: 
+      eradicate: 
+      fa_url: 
+      hgroup: 
+      host: 
+      name: 
+      rename: 
+      state: 
+]]>
+	</content>
+</snippet>

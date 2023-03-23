@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_lineinfile</tabTrigger>
+	<description>Ensure a particular line is in a file, or replace an existing line using a back-referenced regular expression</description>
+	<content><![CDATA[
+- name: Ensure a particular line is in a file, or replace an existing line using a back-referenced regular expression
+  win_lineinfile:
+      backrefs: 
+      backup: 
+      create: 
+      encoding: 
+      insertafter: 
+      insertbefore: 
+      line: 
+      newline: 
+      path: 
+      regex: 
+      state: 
+      validate: 
+]]>
+	</content>
+</snippet>

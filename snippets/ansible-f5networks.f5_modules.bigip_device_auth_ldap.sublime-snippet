@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_auth_ldap</tabTrigger>
+	<description>Manage LDAP device authentication settings on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage LDAP device authentication settings on BIG-IP
+  bigip_device_auth_ldap:
+      bind_dn: 
+      bind_password: 
+      ca_cert: 
+      check_member_attr: 
+      client_cert: 
+      client_key: 
+      fallback_to_local: 
+      login_ldap_attr: 
+      port: 
+      provider: 
+      remote_directory_tree: 
+      scope: 
+      servers: 
+      ssl: 
+      state: 
+      update_password: 
+      use_for_auth: 
+      user_template: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

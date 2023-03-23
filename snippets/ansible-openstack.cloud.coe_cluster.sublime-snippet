@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.coe_cluster</tabTrigger>
+	<description>Add/Remove COE cluster from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Remove COE cluster from OpenStack Cloud
+  coe_cluster:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      cluster_template_id: 
+      discovery_url: 
+      docker_volume_size: 
+      flavor_id: 
+      interface: 
+      keypair: 
+      labels: 
+      master_count: 
+      master_flavor_id: 
+      name: 
+      node_count: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

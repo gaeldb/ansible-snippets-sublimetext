@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.netconf_config</tabTrigger>
+	<description>netconf device configuration</description>
+	<content><![CDATA[
+- name: netconf device configuration
+  netconf_config:
+      backup: 
+      backup_options: 
+      commit: 
+      confirm: 
+      confirm_commit: 
+      content: 
+      default_operation: 
+      delete: 
+      error_option: 
+      format: 
+      get_filter: 
+      host: 
+      hostkey_verify: 
+      lock: 
+      look_for_keys: 
+      password: 
+      port: 
+      save: 
+      source_datastore: 
+      src: 
+      ssh_keyfile: 
+      target: 
+      timeout: 
+      username: 
+      validate: 
+]]>
+	</content>
+</snippet>

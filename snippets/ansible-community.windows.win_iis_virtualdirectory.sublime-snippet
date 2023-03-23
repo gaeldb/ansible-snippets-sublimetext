@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_iis_virtualdirectory</tabTrigger>
+	<description>Configures a virtual directory in IIS</description>
+	<content><![CDATA[
+- name: Configures a virtual directory in IIS
+  win_iis_virtualdirectory:
+      application: 
+      name: 
+      physical_path: 
+      site: 
+      state: 
+]]>
+	</content>
+</snippet>

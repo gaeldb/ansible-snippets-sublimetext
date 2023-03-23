@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_ping</tabTrigger>
+	<description>Tests reachability using ping from Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Tests reachability using ping from Ruckus ICX 7000 series switches
+  icx_ping:
+      count: 
+      dest: 
+      size: 
+      source: 
+      state: 
+      timeout: 
+      ttl: 
+      vrf: 
+]]>
+	</content>
+</snippet>

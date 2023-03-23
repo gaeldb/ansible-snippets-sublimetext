@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gunicorn</tabTrigger>
+	<description>Run gunicorn with various settings</description>
+	<content><![CDATA[
+- name: Run gunicorn with various settings
+  gunicorn:
+      app: 
+      chdir: 
+      config: 
+      pid: 
+      user: 
+      venv: 
+      worker: 
+]]>
+	</content>
+</snippet>

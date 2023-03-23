@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_info_center_log</tabTrigger>
+	<description>Manages information center log configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages information center log configuration on HUAWEI CloudEngine switches.
+  ce_info_center_log:
+      channel_id: 
+      log_buff_enable: 
+      log_buff_size: 
+      log_enable: 
+      log_level: 
+      log_time_stamp: 
+      module_name: 
+      state: 
+]]>
+	</content>
+</snippet>

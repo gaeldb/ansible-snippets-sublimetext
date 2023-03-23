@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_addrgrp</tabTrigger>
+	<description>Configure IPv4 address groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv4 address groups in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_addrgrp:
+      access_token: 
+      firewall_addrgrp: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

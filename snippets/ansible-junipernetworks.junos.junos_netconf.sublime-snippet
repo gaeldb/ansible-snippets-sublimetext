@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_netconf</tabTrigger>
+	<description>Configures the Junos Netconf system service</description>
+	<content><![CDATA[
+- name: Configures the Junos Netconf system service
+  junos_netconf:
+      netconf_port: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

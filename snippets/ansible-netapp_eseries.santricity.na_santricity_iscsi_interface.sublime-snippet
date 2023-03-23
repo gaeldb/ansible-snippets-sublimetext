@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_iscsi_interface</tabTrigger>
+	<description>NetApp E-Series manage iSCSI interface configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage iSCSI interface configuration
+  na_santricity_iscsi_interface:
+      address: 
+      api_password: 
+      api_url: 
+      api_username: 
+      config_method: 
+      controller: 
+      gateway: 
+      mtu: 
+      port: 
+      ssid: 
+      state: 
+      subnet_mask: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_pg</tabTrigger>
+	<description>Manage protection groups on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage protection groups on Pure Storage FlashArrays
+  purefa_pg:
+      api_token: 
+      enabled: 
+      eradicate: 
+      fa_url: 
+      host: 
+      hostgroup: 
+      pgroup: 
+      state: 
+      target: 
+      volume: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_exchange</tabTrigger>
+	<description>Manage rabbitMQ exchanges</description>
+	<content><![CDATA[
+- name: Manage rabbitMQ exchanges
+  rabbitmq_exchange:
+      arguments: 
+      auto_delete: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      durable: 
+      exchange_type: 
+      internal: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_protocol: 
+      login_user: 
+      name: 
+      state: 
+      vhost: 
+]]>
+	</content>
+</snippet>

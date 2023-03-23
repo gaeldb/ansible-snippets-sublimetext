@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.hardware_model</tabTrigger>
+	<description>Manage Hardware Models</description>
+	<content><![CDATA[
+- name: Manage Hardware Models
+  hardware_model:
+      hardware_model: 
+      info: 
+      name: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+      vendor_class: 
+]]>
+	</content>
+</snippet>

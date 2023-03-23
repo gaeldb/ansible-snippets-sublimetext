@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.fortimanager.fmgr_device_group</tabTrigger>
+	<description>Alter FortiManager device groups.</description>
+	<content><![CDATA[
+- name: Alter FortiManager device groups.
+  fmgr_device_group:
+      adom: 
+      grp_desc: 
+      grp_members: 
+      grp_name: 
+      mode: 
+      vdom: 
+]]>
+	</content>
+</snippet>

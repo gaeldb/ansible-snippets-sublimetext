@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_link_monitor</tabTrigger>
+	<description>Configure Link Health Monitor in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Link Health Monitor in Fortinet's FortiOS and FortiGate.
+  fortios_system_link_monitor:
+      access_token: 
+      state: 
+      system_link_monitor: 
+      vdom: 
+]]>
+	</content>
+</snippet>

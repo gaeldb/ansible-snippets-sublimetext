@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipwcli_dns</tabTrigger>
+	<description>Manage DNS Records for Ericsson IPWorks via ipwcli</description>
+	<content><![CDATA[
+- name: Manage DNS Records for Ericsson IPWorks via ipwcli
+  ipwcli_dns:
+      address: 
+      container: 
+      dnsname: 
+      flags: 
+      order: 
+      password: 
+      port: 
+      preference: 
+      priority: 
+      replacement: 
+      service: 
+      state: 
+      target: 
+      ttl: 
+      type: 
+      username: 
+      weight: 
+]]>
+	</content>
+</snippet>

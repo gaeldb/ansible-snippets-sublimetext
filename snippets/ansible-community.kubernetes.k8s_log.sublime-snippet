@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_log</tabTrigger>
+	<description>Fetch logs from Kubernetes resources</description>
+	<content><![CDATA[
+- name: Fetch logs from Kubernetes resources
+  k8s_log:
+      api_key: 
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      container: 
+      context: 
+      host: 
+      kind: 
+      kubeconfig: 
+      label_selectors: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

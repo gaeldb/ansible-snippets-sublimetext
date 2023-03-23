@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_sslkeyandcertificate</tabTrigger>
+	<description>Module for setup of SSLKeyAndCertificate Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of SSLKeyAndCertificate Avi RESTful Object
+  avi_sslkeyandcertificate:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      ca_certs: 
+      certificate: 
+      certificate_base64: 
+      certificate_management_profile_ref: 
+      controller: 
+      created_by: 
+      dynamic_params: 
+      enckey_base64: 
+      enckey_name: 
+      format: 
+      hardwaresecuritymodulegroup_ref: 
+      key: 
+      key_base64: 
+      key_params: 
+      key_passphrase: 
+      name: 
+      password: 
+      state: 
+      status: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      type: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

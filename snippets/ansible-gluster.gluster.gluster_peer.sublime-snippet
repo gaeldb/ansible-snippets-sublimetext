@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>gluster.gluster.gluster_peer</tabTrigger>
+	<description>Attach/Detach peers to/from the cluster</description>
+	<content><![CDATA[
+- name: Attach/Detach peers to/from the cluster
+  gluster_peer:
+      force: 
+      nodes: 
+      state: 
+]]>
+	</content>
+</snippet>

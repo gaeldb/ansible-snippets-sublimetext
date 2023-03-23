@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.serverless</tabTrigger>
+	<description>Manages a Serverless Framework project</description>
+	<content><![CDATA[
+- name: Manages a Serverless Framework project
+  serverless:
+      deploy: 
+      force: 
+      region: 
+      serverless_bin_path: 
+      service_path: 
+      stage: 
+      state: 
+      verbose: 
+]]>
+	</content>
+</snippet>

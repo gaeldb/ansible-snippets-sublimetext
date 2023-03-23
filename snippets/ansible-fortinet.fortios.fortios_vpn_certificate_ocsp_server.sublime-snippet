@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_certificate_ocsp_server</tabTrigger>
+	<description>OCSP server configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: OCSP server configuration in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_certificate_ocsp_server:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_certificate_ocsp_server: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.floating_ip</tabTrigger>
+	<description>Add/Remove floating IP from an instance</description>
+	<content><![CDATA[
+- name: Add/Remove floating IP from an instance
+  floating_ip:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      fixed_address: 
+      floating_ip_address: 
+      interface: 
+      nat_destination: 
+      network: 
+      purge: 
+      region_name: 
+      reuse: 
+      server: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

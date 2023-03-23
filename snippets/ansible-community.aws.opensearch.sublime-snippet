@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.opensearch</tabTrigger>
+	<description>Creates OpenSearch or ElasticSearch domain</description>
+	<content><![CDATA[
+- name: Creates OpenSearch or ElasticSearch domain
+  opensearch:
+      access_key: 
+      access_policies: 
+      advanced_security_options: 
+      allow_intermediate_upgrades: 
+      auto_tune_options: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster_config: 
+      cognito_options: 
+      debug_botocore_endpoint_logs: 
+      domain_endpoint_options: 
+      domain_name: 
+      ebs_options: 
+      encryption_at_rest_options: 
+      endpoint_url: 
+      engine_version: 
+      node_to_node_encryption_options: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      snapshot_options: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_options: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

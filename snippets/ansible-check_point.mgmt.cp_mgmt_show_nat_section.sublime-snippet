@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_show_nat_section</tabTrigger>
+	<description>Retrieve existing object using object name or uid.</description>
+	<content><![CDATA[
+- name: Retrieve existing object using object name or uid.
+  cp_mgmt_show_nat_section:
+      details_level: 
+      name: 
+      package: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

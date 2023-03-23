@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_vol</tabTrigger>
+	<description>Create, Delete or Modify volumes on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete or Modify volumes on Infinibox
+  infini_vol:
+      name: 
+      parent_volume_name: 
+      password: 
+      pool: 
+      size: 
+      snapshot_lock_expires_at: 
+      snapshot_lock_only: 
+      state: 
+      system: 
+      thin_provision: 
+      user: 
+      volume_type: 
+]]>
+	</content>
+</snippet>

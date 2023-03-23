@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ospf</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manages configuration of an ospf instance.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manages configuration of an ospf instance.
+  nxos_ospf:
+      ospf: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

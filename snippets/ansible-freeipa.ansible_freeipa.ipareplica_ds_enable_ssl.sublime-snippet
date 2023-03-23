@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_ds_enable_ssl</tabTrigger>
+	<description>DS enable SSL</description>
+	<content><![CDATA[
+- name: DS enable SSL
+  ipareplica_ds_enable_ssl:
+      _ca_enabled: 
+      _ca_file: 
+      _dirsrv_pkcs12_info: 
+      _pkinit_pkcs12_info: 
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      dirman_password: 
+      dirsrv_config_file: 
+      ds_ca_subject: 
+      no_pkinit: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

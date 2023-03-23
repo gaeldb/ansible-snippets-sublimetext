@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_vlag</tabTrigger>
+	<description>CLI command to create/delete/modify vlag.</description>
+	<content><![CDATA[
+- name: CLI command to create/delete/modify vlag.
+  pn_vlag:
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_failover_action: 
+      pn_lacp_fallback: 
+      pn_lacp_fallback_timeout: 
+      pn_lacp_mode: 
+      pn_lacp_timeout: 
+      pn_mode: 
+      pn_name: 
+      pn_peer_port: 
+      pn_peer_switch: 
+      pn_port: 
+      state: 
+]]>
+	</content>
+</snippet>

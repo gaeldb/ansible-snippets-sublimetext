@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.deploy_helper</tabTrigger>
+	<description>Manages some of the steps common in deploying projects</description>
+	<content><![CDATA[
+- name: Manages some of the steps common in deploying projects
+  deploy_helper:
+      attributes: 
+      clean: 
+      current_path: 
+      group: 
+      keep_releases: 
+      mode: 
+      owner: 
+      path: 
+      release: 
+      releases_path: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      shared_path: 
+      state: 
+      unfinished_filename: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

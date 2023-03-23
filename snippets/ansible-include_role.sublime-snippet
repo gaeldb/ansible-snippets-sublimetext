@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>include_role</tabTrigger>
+	<description>Load and execute a role</description>
+	<content><![CDATA[
+- name: Load and execute a role
+  include_role:
+      allow_duplicates: 
+      apply: 
+      defaults_from: 
+      handlers_from: 
+      name: 
+      public: 
+      rolespec_validate: 
+      tasks_from: 
+      vars_from: 
+]]>
+	</content>
+</snippet>

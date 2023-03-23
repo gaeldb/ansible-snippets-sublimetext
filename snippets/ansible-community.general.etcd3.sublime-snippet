@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.etcd3</tabTrigger>
+	<description>Set or delete key value pairs from an etcd3 cluster</description>
+	<content><![CDATA[
+- name: Set or delete key value pairs from an etcd3 cluster
+  etcd3:
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      host: 
+      key: 
+      password: 
+      port: 
+      state: 
+      timeout: 
+      user: 
+      value: 
+]]>
+	</content>
+</snippet>

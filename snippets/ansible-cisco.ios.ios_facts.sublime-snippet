@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_facts</tabTrigger>
+	<description>Collect facts from remote devices running Cisco IOS</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Cisco IOS
+  ios_facts:
+      gather_network_resources: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

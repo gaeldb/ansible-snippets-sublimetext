@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.acme_certificate</tabTrigger>
+	<description>Create SSL/TLS certificates with the ACME protocol</description>
+	<content><![CDATA[
+- name: Create SSL/TLS certificates with the ACME protocol
+  acme_certificate:
+      account_email: 
+      account_key_content: 
+      account_key_passphrase: 
+      account_key_src: 
+      account_uri: 
+      acme_directory: 
+      acme_version: 
+      agreement: 
+      chain_dest: 
+      challenge: 
+      csr: 
+      csr_content: 
+      data: 
+      deactivate_authzs: 
+      dest: 
+      force: 
+      fullchain_dest: 
+      modify_account: 
+      remaining_days: 
+      request_timeout: 
+      retrieve_all_alternates: 
+      select_chain: 
+      select_crypto_backend: 
+      terms_agreed: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

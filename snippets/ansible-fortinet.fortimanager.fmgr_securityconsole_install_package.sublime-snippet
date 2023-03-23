@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_securityconsole_install_package</tabTrigger>
+	<description>Copy and install a policy package to devices.</description>
+	<content><![CDATA[
+- name: Copy and install a policy package to devices.
+  fmgr_securityconsole_install_package:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

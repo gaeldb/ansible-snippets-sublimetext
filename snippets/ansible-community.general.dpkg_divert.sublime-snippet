@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dpkg_divert</tabTrigger>
+	<description>Override a debian package's version of a file</description>
+	<content><![CDATA[
+- name: Override a debian package's version of a file
+  dpkg_divert:
+      divert: 
+      force: 
+      holder: 
+      path: 
+      rename: 
+      state: 
+]]>
+	</content>
+</snippet>

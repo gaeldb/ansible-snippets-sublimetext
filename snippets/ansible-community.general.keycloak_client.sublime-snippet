@@ -1,0 +1,62 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_client</tabTrigger>
+	<description>Allows administration of Keycloak clients via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak clients via Keycloak API
+  keycloak_client:
+      admin_url: 
+      always_display_in_console: 
+      attributes: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      authentication_flow_binding_overrides: 
+      authorization_services_enabled: 
+      authorization_settings: 
+      base_url: 
+      bearer_only: 
+      client_authenticator_type: 
+      client_id: 
+      client_template: 
+      connection_timeout: 
+      consent_required: 
+      default_client_scopes: 
+      default_roles: 
+      description: 
+      direct_access_grants_enabled: 
+      enabled: 
+      frontchannel_logout: 
+      full_scope_allowed: 
+      http_agent: 
+      id: 
+      implicit_flow_enabled: 
+      name: 
+      node_re_registration_timeout: 
+      not_before: 
+      optional_client_scopes: 
+      protocol: 
+      protocol_mappers: 
+      public_client: 
+      realm: 
+      redirect_uris: 
+      registered_nodes: 
+      registration_access_token: 
+      root_url: 
+      secret: 
+      service_accounts_enabled: 
+      standard_flow_enabled: 
+      state: 
+      surrogate_auth_required: 
+      token: 
+      use_template_config: 
+      use_template_mappers: 
+      use_template_scope: 
+      validate_certs: 
+      web_origins: 
+]]>
+	</content>
+</snippet>

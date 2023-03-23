@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.honeybadger_deployment</tabTrigger>
+	<description>Notify Honeybadger.io about app deployments</description>
+	<content><![CDATA[
+- name: Notify Honeybadger.io about app deployments
+  honeybadger_deployment:
+      environment: 
+      repo: 
+      revision: 
+      token: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

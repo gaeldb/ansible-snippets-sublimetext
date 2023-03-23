@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_snmp_traphosts</tabTrigger>
+	<description>NetApp ONTAP SNMP traphosts.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP SNMP traphosts.
+  na_ontap_snmp_traphosts:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ip_address: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

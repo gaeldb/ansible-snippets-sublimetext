@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneandone_server</tabTrigger>
+	<description>Create, destroy, start, stop, and reboot a 1&1 Host server</description>
+	<content><![CDATA[
+- name: Create, destroy, start, stop, and reboot a 1&1 Host server
+  oneandone_server:
+      api_url: 
+      appliance: 
+      auth_token: 
+      auto_increment: 
+      cores_per_processor: 
+      count: 
+      datacenter: 
+      description: 
+      firewall_policy: 
+      fixed_instance_size: 
+      hdds: 
+      hostname: 
+      load_balancer: 
+      monitoring_policy: 
+      private_network: 
+      ram: 
+      server: 
+      server_type: 
+      ssh_key: 
+      state: 
+      vcore: 
+      wait: 
+      wait_interval: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

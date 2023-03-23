@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_volume</tabTrigger>
+	<description>Create/delete a volume in Packet host</description>
+	<content><![CDATA[
+- name: Create/delete a volume in Packet host
+  packet_volume:
+      auth_token: 
+      billing_cycle: 
+      description: 
+      facility: 
+      id: 
+      locked: 
+      name: 
+      plan: 
+      project_id: 
+      size: 
+      snapshot_policy: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_firmware_policy</tabTrigger>
+	<description>This creates a firmware policy</description>
+	<content><![CDATA[
+- name: This creates a firmware policy
+  aci_firmware_policy:
+      annotation: 
+      certificate_name: 
+      host: 
+      ignoreCompat: 
+      name: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

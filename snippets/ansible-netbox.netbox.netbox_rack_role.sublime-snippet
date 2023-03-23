@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_rack_role</tabTrigger>
+	<description>Create, update or delete racks roles within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete racks roles within Netbox
+  netbox_rack_role:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

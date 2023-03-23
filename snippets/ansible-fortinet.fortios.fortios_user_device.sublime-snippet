@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_device</tabTrigger>
+	<description>Configure devices in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure devices in Fortinet's FortiOS and FortiGate.
+  fortios_user_device:
+      access_token: 
+      state: 
+      user_device: 
+      vdom: 
+]]>
+	</content>
+</snippet>

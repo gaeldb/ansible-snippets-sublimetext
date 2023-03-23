@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_dns</tabTrigger>
+	<description>Manage DNS monitors on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS monitors on a BIG-IP
+  bigip_monitor_dns:
+      accept_rcode: 
+      adaptive: 
+      adaptive_limit: 
+      allowed_divergence_type: 
+      allowed_divergence_value: 
+      answer_section_contains: 
+      description: 
+      interval: 
+      ip: 
+      manual_resume: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      query_name: 
+      query_type: 
+      receive: 
+      reverse: 
+      sampling_timespan: 
+      state: 
+      time_until_up: 
+      timeout: 
+      transparent: 
+      up_interval: 
+]]>
+	</content>
+</snippet>

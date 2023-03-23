@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ipsec_forticlient</tabTrigger>
+	<description>Configure FortiClient policy realm in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiClient policy realm in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ipsec_forticlient:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ipsec_forticlient: 
+]]>
+	</content>
+</snippet>

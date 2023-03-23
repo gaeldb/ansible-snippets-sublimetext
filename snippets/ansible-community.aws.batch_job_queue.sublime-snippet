@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.batch_job_queue</tabTrigger>
+	<description>Manage AWS Batch Job Queues</description>
+	<content><![CDATA[
+- name: Manage AWS Batch Job Queues
+  batch_job_queue:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      compute_environment_order: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      job_queue_name: 
+      job_queue_state: 
+      priority: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

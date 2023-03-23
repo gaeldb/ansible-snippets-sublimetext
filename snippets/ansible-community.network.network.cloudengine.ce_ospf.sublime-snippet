@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_ospf</tabTrigger>
+	<description>Manages configuration of an OSPF instance on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages configuration of an OSPF instance on HUAWEI CloudEngine switches.
+  ce_ospf:
+      addr: 
+      area: 
+      auth_key_id: 
+      auth_mode: 
+      auth_text_md5: 
+      auth_text_simple: 
+      mask: 
+      max_load_balance: 
+      nexthop_addr: 
+      nexthop_weight: 
+      process_id: 
+      state: 
+]]>
+	</content>
+</snippet>

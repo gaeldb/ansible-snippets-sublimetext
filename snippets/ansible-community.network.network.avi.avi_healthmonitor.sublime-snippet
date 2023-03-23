@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_healthmonitor</tabTrigger>
+	<description>Module for setup of HealthMonitor Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of HealthMonitor Avi RESTful Object
+  avi_healthmonitor:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      dns_monitor: 
+      external_monitor: 
+      failed_checks: 
+      http_monitor: 
+      https_monitor: 
+      is_federated: 
+      monitor_port: 
+      name: 
+      password: 
+      radius_monitor: 
+      receive_timeout: 
+      send_interval: 
+      sip_monitor: 
+      state: 
+      successful_checks: 
+      tcp_monitor: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      type: 
+      udp_monitor: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

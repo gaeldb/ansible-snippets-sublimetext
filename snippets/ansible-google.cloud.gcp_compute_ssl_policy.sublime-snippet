@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_ssl_policy</tabTrigger>
+	<description>Creates a GCP SslPolicy</description>
+	<content><![CDATA[
+- name: Creates a GCP SslPolicy
+  gcp_compute_ssl_policy:
+      auth_kind: 
+      custom_features: 
+      description: 
+      env_type: 
+      min_tls_version: 
+      name: 
+      profile: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

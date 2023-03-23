@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_system</tabTrigger>
+	<description>Configure system-wide switch controller settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure system-wide switch controller settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_system:
+      access_token: 
+      switch_controller_system: 
+      vdom: 
+]]>
+	</content>
+</snippet>

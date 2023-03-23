@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_active_directory</tabTrigger>
+	<description>NetApp ONTAP configure active directory</description>
+	<content><![CDATA[
+- name: NetApp ONTAP configure active directory
+  na_ontap_active_directory:
+      account_name: 
+      admin_password: 
+      admin_username: 
+      cert_filepath: 
+      domain: 
+      feature_flags: 
+      force_account_overwrite: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      organizational_unit: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_template_info</tabTrigger>
+	<description>Gather information about Zabbix template</description>
+	<content><![CDATA[
+- name: Gather information about Zabbix template
+  zabbix_template_info:
+      format: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      omit_date: 
+      server_url: 
+      template_name: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

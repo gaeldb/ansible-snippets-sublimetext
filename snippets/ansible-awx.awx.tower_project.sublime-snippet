@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_project</tabTrigger>
+	<description>create, update, or destroy Ansible Tower projects</description>
+	<content><![CDATA[
+- name: create, update, or destroy Ansible Tower projects
+  tower_project:
+      allow_override: 
+      custom_virtualenv: 
+      description: 
+      job_timeout: 
+      local_path: 
+      name: 
+      notification_templates_error: 
+      notification_templates_started: 
+      notification_templates_success: 
+      organization: 
+      scm_branch: 
+      scm_clean: 
+      scm_credential: 
+      scm_delete_on_update: 
+      scm_refspec: 
+      scm_type: 
+      scm_update_cache_timeout: 
+      scm_update_on_launch: 
+      scm_url: 
+      state: 
+      tower_config_file: 
+      tower_host: 
+      tower_oauthtoken: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

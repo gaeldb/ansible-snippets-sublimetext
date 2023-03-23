@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_monitor_firepass</tabTrigger>
+	<description>Manages F5 BIG-IP GTM FirePass monitors</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP GTM FirePass monitors
+  bigip_gtm_monitor_firepass:
+      cipher_list: 
+      concurrency_limit: 
+      ignore_down_response: 
+      interval: 
+      ip: 
+      max_load_average: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      probe_timeout: 
+      provider: 
+      state: 
+      target_password: 
+      target_username: 
+      timeout: 
+      update_password: 
+]]>
+	</content>
+</snippet>

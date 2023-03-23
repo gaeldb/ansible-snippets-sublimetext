@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_network_acl</tabTrigger>
+	<description>Manages network access control lists (ACL) on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages network access control lists (ACL) on Apache CloudStack based clouds.
+  cs_network_acl:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      description: 
+      domain: 
+      name: 
+      poll_async: 
+      project: 
+      state: 
+      vpc: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_mariadbconfiguration</tabTrigger>
+	<description>Manage Configuration instance</description>
+	<content><![CDATA[
+- name: Manage Configuration instance
+  azure_rm_mariadbconfiguration:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      server_name: 
+      state: 
+      subscription_id: 
+      tenant: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_xml</tabTrigger>
+	<description>Manages XML file content on Windows hosts</description>
+	<content><![CDATA[
+- name: Manages XML file content on Windows hosts
+  win_xml:
+      attribute: 
+      backup: 
+      count: 
+      fragment: 
+      path: 
+      state: 
+      type: 
+      xpath: 
+]]>
+	</content>
+</snippet>

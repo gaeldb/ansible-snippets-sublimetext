@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_logging_metric</tabTrigger>
+	<description>Creates a GCP Metric</description>
+	<content><![CDATA[
+- name: Creates a GCP Metric
+  gcp_logging_metric:
+      auth_kind: 
+      bucket_options: 
+      description: 
+      env_type: 
+      filter: 
+      label_extractors: 
+      metric_descriptor: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      value_extractor: 
+]]>
+	</content>
+</snippet>

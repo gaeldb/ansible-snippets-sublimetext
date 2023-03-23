@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_mac_pool</tabTrigger>
+	<description>Module to manage MAC pools in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage MAC pools in oVirt/RHV
+  ovirt_mac_pool:
+      allow_duplicates: 
+      auth: 
+      description: 
+      fetch_nested: 
+      id: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      ranges: 
+      state: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

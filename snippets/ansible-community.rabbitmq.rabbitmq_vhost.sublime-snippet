@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_vhost</tabTrigger>
+	<description>Manage the state of a virtual host in RabbitMQ</description>
+	<content><![CDATA[
+- name: Manage the state of a virtual host in RabbitMQ
+  rabbitmq_vhost:
+      name: 
+      node: 
+      state: 
+      tracing: 
+]]>
+	</content>
+</snippet>

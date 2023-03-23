@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_acl_inheritance</tabTrigger>
+	<description>Change ACL inheritance</description>
+	<content><![CDATA[
+- name: Change ACL inheritance
+  win_acl_inheritance:
+      path: 
+      reorganize: 
+      state: 
+]]>
+	</content>
+</snippet>

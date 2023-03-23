@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_install_policy</tabTrigger>
+	<description>install policy on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: install policy on Check Point over Web Services API
+  cp_mgmt_install_policy:
+      access: 
+      desktop_security: 
+      install_on_all_cluster_members_or_fail: 
+      policy_package: 
+      prepare_only: 
+      qos: 
+      revision: 
+      targets: 
+      threat_prevention: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

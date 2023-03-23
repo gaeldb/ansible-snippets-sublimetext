@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_robocopy</tabTrigger>
+	<description>Synchronizes the contents of two directories using Robocopy</description>
+	<content><![CDATA[
+- name: Synchronizes the contents of two directories using Robocopy
+  win_robocopy:
+      dest: 
+      flags: 
+      purge: 
+      recurse: 
+      src: 
+]]>
+	</content>
+</snippet>

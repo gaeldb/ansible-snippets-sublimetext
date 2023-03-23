@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_portset</tabTrigger>
+	<description>NetApp ONTAP Create/Delete portset</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Create/Delete portset
+  na_ontap_portset:
+      cert_filepath: 
+      feature_flags: 
+      force: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      ports: 
+      state: 
+      type: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

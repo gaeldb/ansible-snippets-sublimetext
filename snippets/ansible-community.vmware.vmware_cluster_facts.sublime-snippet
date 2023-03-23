@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_cluster_facts</tabTrigger>
+	<description>Gather info about clusters available in given vCenter</description>
+	<content><![CDATA[
+- name: Gather info about clusters available in given vCenter
+  vmware_cluster_info:
+      cluster_name: 
+      datacenter: 
+      hostname: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      show_tag: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

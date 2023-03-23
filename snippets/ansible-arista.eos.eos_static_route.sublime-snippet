@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_static_route</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage static IP routes on Arista EOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage static IP routes on Arista EOS network devices
+  eos_static_route:
+      address: 
+      admin_distance: 
+      aggregate: 
+      next_hop: 
+      provider: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

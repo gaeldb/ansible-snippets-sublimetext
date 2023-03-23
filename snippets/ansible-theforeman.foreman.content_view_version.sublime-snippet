@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.content_view_version</tabTrigger>
+	<description>Manage Content View Versions</description>
+	<content><![CDATA[
+- name: Manage Content View Versions
+  content_view_version:
+      content_view: 
+      current_lifecycle_environment: 
+      description: 
+      force_promote: 
+      force_yum_metadata_regeneration: 
+      lifecycle_environments: 
+      organization: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

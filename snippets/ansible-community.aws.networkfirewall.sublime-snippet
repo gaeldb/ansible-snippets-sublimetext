@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.networkfirewall</tabTrigger>
+	<description>manage AWS Network Firewall firewalls</description>
+	<content><![CDATA[
+- name: manage AWS Network Firewall firewalls
+  networkfirewall:
+      access_key: 
+      arn: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delete_protection: 
+      description: 
+      endpoint_url: 
+      name: 
+      policy: 
+      policy_change_protection: 
+      profile: 
+      purge_subnets: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnet_change_protection: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

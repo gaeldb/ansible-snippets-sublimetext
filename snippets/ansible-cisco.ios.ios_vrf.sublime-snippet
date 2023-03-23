@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_vrf</tabTrigger>
+	<description>Manage the collection of VRF definitions on Cisco IOS devices</description>
+	<content><![CDATA[
+- name: Manage the collection of VRF definitions on Cisco IOS devices
+  ios_vrf:
+      associated_interfaces: 
+      delay: 
+      description: 
+      interfaces: 
+      name: 
+      provider: 
+      purge: 
+      rd: 
+      route_both: 
+      route_both_ipv4: 
+      route_both_ipv6: 
+      route_export: 
+      route_export_ipv4: 
+      route_export_ipv6: 
+      route_import: 
+      route_import_ipv4: 
+      route_import_ipv6: 
+      state: 
+      vrfs: 
+]]>
+	</content>
+</snippet>

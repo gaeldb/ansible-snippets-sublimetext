@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.psexec</tabTrigger>
+	<description>Runs commands on a remote Windows host based on the PsExec model</description>
+	<content><![CDATA[
+- name: Runs commands on a remote Windows host based on the PsExec model
+  psexec:
+      arguments: 
+      asynchronous: 
+      connection_password: 
+      connection_timeout: 
+      connection_username: 
+      encrypt: 
+      executable: 
+      hostname: 
+      integrity_level: 
+      interactive: 
+      interactive_session: 
+      load_profile: 
+      port: 
+      priority: 
+      process_password: 
+      process_timeout: 
+      process_username: 
+      show_ui_on_logon_screen: 
+      stdin: 
+      working_directory: 
+]]>
+	</content>
+</snippet>

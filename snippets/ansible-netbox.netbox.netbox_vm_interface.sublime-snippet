@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_vm_interface</tabTrigger>
+	<description>Creates or removes interfaces from virtual machines in Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes interfaces from virtual machines in Netbox
+  netbox_vm_interface:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

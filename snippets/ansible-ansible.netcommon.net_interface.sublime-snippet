@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Interface on network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Interface on network devices
+  net_interface:
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      purge: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

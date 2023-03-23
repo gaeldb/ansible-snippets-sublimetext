@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_epg_to_contract_master</tabTrigger>
+	<description>Manage End Point Group (EPG) contract master relationships (fv:RsSecInherited)</description>
+	<content><![CDATA[
+- name: Manage End Point Group (EPG) contract master relationships (fv:RsSecInherited)
+  aci_epg_to_contract_master:
+      annotation: 
+      ap: 
+      certificate_name: 
+      contract_master_ap: 
+      contract_master_epg: 
+      epg: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

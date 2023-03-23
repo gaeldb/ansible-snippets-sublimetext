@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_switch_log</tabTrigger>
+	<description>Configure FortiSwitch logging (logs are transferred to and inserted into FortiGate event log) in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch logging (logs are transferred to and inserted into FortiGate event log) in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_switch_log:
+      access_token: 
+      switch_controller_switch_log: 
+      vdom: 
+]]>
+	</content>
+</snippet>

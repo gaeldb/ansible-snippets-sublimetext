@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mattermost</tabTrigger>
+	<description>Send Mattermost notifications</description>
+	<content><![CDATA[
+- name: Send Mattermost notifications
+  mattermost:
+      api_key: 
+      attachments: 
+      channel: 
+      icon_url: 
+      text: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

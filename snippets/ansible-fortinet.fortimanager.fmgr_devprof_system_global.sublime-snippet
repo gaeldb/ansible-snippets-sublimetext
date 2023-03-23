@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_system_global</tabTrigger>
+	<description>Configure global attributes.</description>
+	<content><![CDATA[
+- name: Configure global attributes.
+  fmgr_devprof_system_global:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

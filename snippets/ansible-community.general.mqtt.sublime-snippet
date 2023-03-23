@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mqtt</tabTrigger>
+	<description>Publish a message on an MQTT topic for the IoT</description>
+	<content><![CDATA[
+- name: Publish a message on an MQTT topic for the IoT
+  mqtt:
+      ca_cert: 
+      client_cert: 
+      client_id: 
+      client_key: 
+      password: 
+      payload: 
+      port: 
+      qos: 
+      retain: 
+      server: 
+      tls_version: 
+      topic: 
+      username: 
+]]>
+	</content>
+</snippet>

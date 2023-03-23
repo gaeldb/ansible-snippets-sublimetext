@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_node</tabTrigger>
+	<description>Manage Docker Swarm node</description>
+	<content><![CDATA[
+- name: Manage Docker Swarm node
+  docker_node:
+      api_version: 
+      availability: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      docker_host: 
+      hostname: 
+      labels: 
+      labels_state: 
+      labels_to_remove: 
+      role: 
+      ssl_version: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

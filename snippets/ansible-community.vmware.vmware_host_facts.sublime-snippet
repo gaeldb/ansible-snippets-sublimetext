@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_facts</tabTrigger>
+	<description>Gathers facts about remote ESXi hostsystem</description>
+	<content><![CDATA[
+- name: Gathers facts about remote ESXi hostsystem
+  vmware_host_facts:
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      show_tag: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

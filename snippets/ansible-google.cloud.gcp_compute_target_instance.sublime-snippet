@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_target_instance</tabTrigger>
+	<description>Creates a GCP TargetInstance</description>
+	<content><![CDATA[
+- name: Creates a GCP TargetInstance
+  gcp_compute_target_instance:
+      auth_kind: 
+      description: 
+      env_type: 
+      instance: 
+      name: 
+      nat_policy: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

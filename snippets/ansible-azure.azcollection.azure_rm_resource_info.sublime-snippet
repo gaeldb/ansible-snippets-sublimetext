@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_resource_info</tabTrigger>
+	<description>Generic facts of Azure resources</description>
+	<content><![CDATA[
+- name: Generic facts of Azure resources
+  azure_rm_resource_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      api_version: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      provider: 
+      resource_group: 
+      resource_name: 
+      resource_type: 
+      secret: 
+      subresource: 
+      subscription_id: 
+      tenant: 
+      url: 
+]]>
+	</content>
+</snippet>

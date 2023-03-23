@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ipv6_neighbor_cache</tabTrigger>
+	<description>Configure IPv6 neighbor cache table in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 neighbor cache table in Fortinet's FortiOS and FortiGate.
+  fortios_system_ipv6_neighbor_cache:
+      access_token: 
+      state: 
+      system_ipv6_neighbor_cache: 
+      vdom: 
+]]>
+	</content>
+</snippet>

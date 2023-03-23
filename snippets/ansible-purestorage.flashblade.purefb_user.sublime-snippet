@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_user</tabTrigger>
+	<description>Modify FlashBlade local user account password</description>
+	<content><![CDATA[
+- name: Modify FlashBlade local user account password
+  purefb_user:
+      api_token: 
+      fb_url: 
+      name: 
+      old_password: 
+      password: 
+]]>
+	</content>
+</snippet>

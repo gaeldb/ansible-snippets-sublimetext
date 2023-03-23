@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipadnsforwardzone</tabTrigger>
+	<description>Manage FreeIPA DNS Forwarder Zones</description>
+	<content><![CDATA[
+- name: Manage FreeIPA DNS Forwarder Zones
+  ipadnsforwardzone:
+      action: 
+      forwarders: 
+      forwardpolicy: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      permission: 
+      skip_overlap_check: 
+      state: 
+]]>
+	</content>
+</snippet>

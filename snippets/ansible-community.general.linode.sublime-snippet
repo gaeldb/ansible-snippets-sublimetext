@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.linode</tabTrigger>
+	<description>Manage instances on the Linode Public Cloud</description>
+	<content><![CDATA[
+- name: Manage instances on the Linode Public Cloud
+  linode:
+      additional_disks: 
+      alert_bwin_enabled: 
+      alert_bwin_threshold: 
+      alert_bwout_enabled: 
+      alert_bwout_threshold: 
+      alert_bwquota_enabled: 
+      alert_bwquota_threshold: 
+      alert_cpu_enabled: 
+      alert_cpu_threshold: 
+      alert_diskio_enabled: 
+      alert_diskio_threshold: 
+      api_key: 
+      backupweeklyday: 
+      backupwindow: 
+      datacenter: 
+      displaygroup: 
+      distribution: 
+      kernel_id: 
+      linode_id: 
+      name: 
+      password: 
+      payment_term: 
+      plan: 
+      private_ip: 
+      ssh_pub_key: 
+      state: 
+      swap: 
+      wait: 
+      wait_timeout: 
+      watchdog: 
+]]>
+	</content>
+</snippet>

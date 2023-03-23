@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_backupconfiguration</tabTrigger>
+	<description>Module for setup of BackupConfiguration Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of BackupConfiguration Avi RESTful Object
+  avi_backupconfiguration:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      aws_access_key: 
+      aws_bucket_id: 
+      aws_secret_access: 
+      backup_file_prefix: 
+      backup_passphrase: 
+      controller: 
+      maximum_backups_stored: 
+      name: 
+      password: 
+      remote_directory: 
+      remote_hostname: 
+      save_local: 
+      ssh_user_ref: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      upload_to_remote_host: 
+      upload_to_s3: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

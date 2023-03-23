@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_static_routes</tabTrigger>
+	<description>Static routes resource module</description>
+	<content><![CDATA[
+- name: Static routes resource module
+  nxos_static_routes:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

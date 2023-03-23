@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_system</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage the system attributes on network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage the system attributes on network devices
+  net_system:
+      domain_name: 
+      domain_search: 
+      hostname: 
+      lookup_source: 
+      name_servers: 
+      state: 
+]]>
+	</content>
+</snippet>

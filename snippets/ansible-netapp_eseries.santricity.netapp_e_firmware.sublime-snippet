@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_firmware</tabTrigger>
+	<description>NetApp E-Series manage firmware.</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage firmware.
+  netapp_e_firmware:
+      api_password: 
+      api_url: 
+      api_username: 
+      firmware: 
+      ignore_health_check: 
+      nvsram: 
+      ssid: 
+      validate_certs: 
+      wait_for_completion: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.matrix</tabTrigger>
+	<description>Send notifications to matrix</description>
+	<content><![CDATA[
+- name: Send notifications to matrix
+  matrix:
+      hs_url: 
+      msg_html: 
+      msg_plain: 
+      password: 
+      room_id: 
+      token: 
+      user_id: 
+]]>
+	</content>
+</snippet>

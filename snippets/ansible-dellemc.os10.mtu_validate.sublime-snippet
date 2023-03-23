@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.mtu_validate</tabTrigger>
+	<description>Validate the MTU value for lldp neighbors</description>
+	<content><![CDATA[
+- name: Validate the MTU value for lldp neighbors
+  mtu_validate:
+      show_ip_intf_brief: 
+      show_lldp_neighbors_list: 
+      show_system_network_summary: 
+]]>
+	</content>
+</snippet>

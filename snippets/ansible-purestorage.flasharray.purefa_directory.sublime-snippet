@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_directory</tabTrigger>
+	<description>Manage FlashArray File System Directories</description>
+	<content><![CDATA[
+- name: Manage FlashArray File System Directories
+  purefa_directory:
+      api_token: 
+      fa_url: 
+      filesystem: 
+      name: 
+      path: 
+      rename: 
+      state: 
+]]>
+	</content>
+</snippet>

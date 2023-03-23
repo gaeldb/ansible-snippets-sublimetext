@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_stp_port</tabTrigger>
+	<description>CLI command to modify stp-port.</description>
+	<content><![CDATA[
+- name: CLI command to modify stp-port.
+  pn_stp_port:
+      pn_block: 
+      pn_bpdu_guard: 
+      pn_cliswitch: 
+      pn_cost: 
+      pn_edge: 
+      pn_filter: 
+      pn_port: 
+      pn_priority: 
+      pn_root_guard: 
+      state: 
+]]>
+	</content>
+</snippet>

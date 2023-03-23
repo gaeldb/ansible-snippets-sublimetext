@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_contract</tabTrigger>
+	<description>Manage contract resources (vz:BrCP)</description>
+	<content><![CDATA[
+- name: Manage contract resources (vz:BrCP)
+  aci_contract:
+      annotation: 
+      certificate_name: 
+      contract: 
+      description: 
+      dscp: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      priority: 
+      private_key: 
+      scope: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_otpd</tabTrigger>
+	<description>Setup OTPD</description>
+	<content><![CDATA[
+- name: Setup OTPD
+  ipaserver_setup_otpd:
+      hostname: 
+      realm: 
+      setup_ca: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_profile_protocol_options</tabTrigger>
+	<description>Configure protocol options in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure protocol options in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_profile_protocol_options:
+      access_token: 
+      firewall_profile_protocol_options: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

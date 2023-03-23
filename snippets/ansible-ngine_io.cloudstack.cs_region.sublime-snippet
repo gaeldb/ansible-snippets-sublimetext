@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_region</tabTrigger>
+	<description>Manages regions on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages regions on Apache CloudStack based clouds.
+  cs_region:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      endpoint: 
+      id: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

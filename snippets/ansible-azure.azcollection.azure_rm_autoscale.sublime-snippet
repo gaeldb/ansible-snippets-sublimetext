@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_autoscale</tabTrigger>
+	<description>Manage Azure autoscale setting</description>
+	<content><![CDATA[
+- name: Manage Azure autoscale setting
+  azure_rm_autoscale:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      enabled: 
+      location: 
+      name: 
+      notifications: 
+      password: 
+      profile: 
+      profiles: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      target: 
+      tenant: 
+]]>
+	</content>
+</snippet>

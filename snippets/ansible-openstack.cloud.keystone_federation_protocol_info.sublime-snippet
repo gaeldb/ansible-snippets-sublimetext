@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.keystone_federation_protocol_info</tabTrigger>
+	<description>get information about federation Protocols</description>
+	<content><![CDATA[
+- name: get information about federation Protocols
+  keystone_federation_protocol_info:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      idp_id: 
+      interface: 
+      name: 
+      region_name: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.influxdb_retention_policy</tabTrigger>
+	<description>Manage InfluxDB retention policies</description>
+	<content><![CDATA[
+- name: Manage InfluxDB retention policies
+  influxdb_retention_policy:
+      database_name: 
+      default: 
+      duration: 
+      hostname: 
+      password: 
+      path: 
+      policy_name: 
+      port: 
+      proxies: 
+      replication: 
+      retries: 
+      shard_group_duration: 
+      ssl: 
+      state: 
+      timeout: 
+      udp_port: 
+      use_udp: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

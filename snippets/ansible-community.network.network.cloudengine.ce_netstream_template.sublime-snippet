@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_netstream_template</tabTrigger>
+	<description>Manages NetStream template configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages NetStream template configuration on HUAWEI CloudEngine switches.
+  ce_netstream_template:
+      collect_counter: 
+      collect_interface: 
+      description: 
+      match: 
+      record_name: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.directconnect_virtual_interface</tabTrigger>
+	<description>Manage Direct Connect virtual interfaces</description>
+	<content><![CDATA[
+- name: Manage Direct Connect virtual interfaces
+  directconnect_virtual_interface:
+      access_key: 
+      address_type: 
+      amazon_address: 
+      authentication_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bgp_asn: 
+      cidr: 
+      customer_address: 
+      debug_botocore_endpoint_logs: 
+      direct_connect_gateway_id: 
+      endpoint_url: 
+      id_to_associate: 
+      name: 
+      profile: 
+      public: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      virtual_gateway_id: 
+      virtual_interface_id: 
+      vlan: 
+]]>
+	</content>
+</snippet>

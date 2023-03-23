@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox_user_info</tabTrigger>
+	<description>Retrieve information about one or more Proxmox VE users</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more Proxmox VE users
+  proxmox_user_info:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      domain: 
+      user: 
+      userid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

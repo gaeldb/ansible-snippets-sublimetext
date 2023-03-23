@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_efficiency_policy</tabTrigger>
+	<description>NetApp ONTAP manage efficiency policies (sis policies)</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage efficiency policies (sis policies)
+  na_ontap_efficiency_policy:
+      cert_filepath: 
+      changelog_threshold_percent: 
+      comment: 
+      duration: 
+      enabled: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      policy_name: 
+      policy_type: 
+      qos_policy: 
+      schedule: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

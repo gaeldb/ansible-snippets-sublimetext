@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_resource_policy</tabTrigger>
+	<description>Creates a GCP ResourcePolicy</description>
+	<content><![CDATA[
+- name: Creates a GCP ResourcePolicy
+  gcp_compute_resource_policy:
+      auth_kind: 
+      env_type: 
+      group_placement_policy: 
+      name: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      snapshot_schedule_policy: 
+      state: 
+]]>
+	</content>
+</snippet>

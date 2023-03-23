@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_user</tabTrigger>
+	<description>Create/update/delete Zabbix users</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix users
+  zabbix_user:
+      after_login_url: 
+      alias: 
+      autologin: 
+      autologout: 
+      http_login_password: 
+      http_login_user: 
+      lang: 
+      login_password: 
+      login_user: 
+      name: 
+      override_passwd: 
+      passwd: 
+      refresh: 
+      role_name: 
+      rows_per_page: 
+      server_url: 
+      state: 
+      surname: 
+      theme: 
+      timeout: 
+      timezone: 
+      type: 
+      user_medias: 
+      usrgrps: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

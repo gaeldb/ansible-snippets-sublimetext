@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.iparole</tabTrigger>
+	<description>Manage FreeIPA role</description>
+	<content><![CDATA[
+- name: Manage FreeIPA role
+  iparole:
+      action: 
+      description: 
+      group: 
+      host: 
+      hostgroup: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      privilege: 
+      rename: 
+      service: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

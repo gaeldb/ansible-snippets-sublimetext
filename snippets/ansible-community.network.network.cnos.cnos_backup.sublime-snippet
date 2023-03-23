@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_backup</tabTrigger>
+	<description>Backup the current running or startup configuration to a remote server on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Backup the current running or startup configuration to a remote server on devices running Lenovo CNOS
+  cnos_backup:
+      configType: 
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      protocol: 
+      rcpath: 
+      rcserverip: 
+      serverpassword: 
+      serverusername: 
+      username: 
+]]>
+	</content>
+</snippet>

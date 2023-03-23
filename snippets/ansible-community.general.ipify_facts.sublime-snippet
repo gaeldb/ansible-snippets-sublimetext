@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipify_facts</tabTrigger>
+	<description>Retrieve the public IP of your internet gateway</description>
+	<content><![CDATA[
+- name: Retrieve the public IP of your internet gateway
+  ipify_facts:
+      api_url: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

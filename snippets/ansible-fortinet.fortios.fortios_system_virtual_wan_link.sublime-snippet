@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_virtual_wan_link</tabTrigger>
+	<description>Configure redundant internet connections using SD-WAN (formerly virtual WAN link) in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure redundant internet connections using SD-WAN (formerly virtual WAN link) in Fortinet's FortiOS and FortiGate.
+  fortios_system_virtual_wan_link:
+      access_token: 
+      system_virtual_wan_link: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_snmp_target_host</tabTrigger>
+	<description>Manages SNMP target host configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages SNMP target host configuration on HUAWEI CloudEngine switches.
+  ce_snmp_target_host:
+      address: 
+      connect_port: 
+      host_name: 
+      interface_name: 
+      is_public_net: 
+      notify_type: 
+      recv_port: 
+      security_level: 
+      security_model: 
+      security_name: 
+      security_name_v3: 
+      version: 
+      vpn_name: 
+]]>
+	</content>
+</snippet>

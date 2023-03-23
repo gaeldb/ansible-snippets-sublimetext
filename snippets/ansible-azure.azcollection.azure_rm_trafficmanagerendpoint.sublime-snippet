@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_trafficmanagerendpoint</tabTrigger>
+	<description>Manage Azure Traffic Manager endpoint</description>
+	<content><![CDATA[
+- name: Manage Azure Traffic Manager endpoint
+  azure_rm_trafficmanagerendpoint:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      enabled: 
+      geo_mapping: 
+      location: 
+      min_child_endpoints: 
+      name: 
+      password: 
+      priority: 
+      profile: 
+      profile_name: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      target: 
+      target_resource_id: 
+      tenant: 
+      type: 
+      weight: 
+]]>
+	</content>
+</snippet>

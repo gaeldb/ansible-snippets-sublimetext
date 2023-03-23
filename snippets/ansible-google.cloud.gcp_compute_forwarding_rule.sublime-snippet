@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_forwarding_rule</tabTrigger>
+	<description>Creates a GCP ForwardingRule</description>
+	<content><![CDATA[
+- name: Creates a GCP ForwardingRule
+  gcp_compute_forwarding_rule:
+      all_ports: 
+      allow_global_access: 
+      auth_kind: 
+      backend_service: 
+      description: 
+      env_type: 
+      ip_address: 
+      ip_protocol: 
+      is_mirroring_collector: 
+      load_balancing_scheme: 
+      name: 
+      network: 
+      network_tier: 
+      port_range: 
+      ports: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      service_label: 
+      state: 
+      subnetwork: 
+      target: 
+]]>
+	</content>
+</snippet>

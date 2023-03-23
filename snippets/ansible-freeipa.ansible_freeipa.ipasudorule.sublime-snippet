@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipasudorule</tabTrigger>
+	<description>Manage FreeIPA sudo rules</description>
+	<content><![CDATA[
+- name: Manage FreeIPA sudo rules
+  ipasudorule:
+      action: 
+      allow_sudocmd: 
+      allow_sudocmdgroup: 
+      cmdcategory: 
+      deny_sudocmd: 
+      deny_sudocmdgroup: 
+      description: 
+      group: 
+      host: 
+      hostcategory: 
+      hostgroup: 
+      hostmask: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      nomembers: 
+      order: 
+      runasgroup: 
+      runasgroupcategory: 
+      runasuser: 
+      runasusercategory: 
+      state: 
+      sudooption: 
+      user: 
+      usercategory: 
+]]>
+	</content>
+</snippet>

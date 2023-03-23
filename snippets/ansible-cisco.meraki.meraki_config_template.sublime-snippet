@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_config_template</tabTrigger>
+	<description>Manage configuration templates in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage configuration templates in the Meraki cloud
+  meraki_config_template:
+      auth_key: 
+      auto_bind: 
+      config_template: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

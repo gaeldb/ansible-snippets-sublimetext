@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_cluster_config</tabTrigger>
+	<description>Configure Element SW Cluster</description>
+	<content><![CDATA[
+- name: Configure Element SW Cluster
+  na_elementsw_cluster_config:
+      enable_virtual_volumes: 
+      encryption_at_rest: 
+      hostname: 
+      modify_cluster_full_threshold: 
+      password: 
+      set_ntp_info: 
+      username: 
+]]>
+	</content>
+</snippet>

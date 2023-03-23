@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_system</tabTrigger>
+	<description>Manage the system attributes on Cisco IOS XR devices</description>
+	<content><![CDATA[
+- name: Manage the system attributes on Cisco IOS XR devices
+  iosxr_system:
+      domain_name: 
+      domain_search: 
+      hostname: 
+      lookup_enabled: 
+      lookup_source: 
+      name_servers: 
+      provider: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

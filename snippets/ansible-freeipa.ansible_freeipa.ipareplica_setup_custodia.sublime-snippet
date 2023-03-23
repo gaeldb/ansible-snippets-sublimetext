@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_custodia</tabTrigger>
+	<description>Setup custodia</description>
+	<content><![CDATA[
+- name: Setup custodia
+  ipareplica_setup_custodia:
+      _ca_enabled: 
+      _ca_file: 
+      _kra_enabled: 
+      _kra_host_name: 
+      _pkinit_pkcs12_info: 
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      dirman_password: 
+      no_pkinit: 
+      no_ui_redirect: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

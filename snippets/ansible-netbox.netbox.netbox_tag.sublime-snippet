@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_tag</tabTrigger>
+	<description>Creates or removes tags from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes tags from Netbox
+  netbox_tag:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

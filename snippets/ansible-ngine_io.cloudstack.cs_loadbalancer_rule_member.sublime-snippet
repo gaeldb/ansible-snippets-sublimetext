@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_loadbalancer_rule_member</tabTrigger>
+	<description>Manages load balancer rule members on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages load balancer rule members on Apache CloudStack based clouds.
+  cs_loadbalancer_rule_member:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      ip_address: 
+      name: 
+      poll_async: 
+      project: 
+      state: 
+      vms: 
+      zone: 
+]]>
+	</content>
+</snippet>

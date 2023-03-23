@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_proxy_auth_profile</tabTrigger>
+	<description>Create, update or destroy reverse_proxy auth_profile entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy reverse_proxy auth_profile entry in Sophos UTM
+  utm_proxy_auth_profile:
+      aaa: 
+      backend_mode: 
+      backend_strip_basic_auth: 
+      backend_user_prefix: 
+      backend_user_suffix: 
+      basic_prompt: 
+      comment: 
+      frontend_cookie: 
+      frontend_cookie_secret: 
+      frontend_form: 
+      frontend_form_template: 
+      frontend_login: 
+      frontend_logout: 
+      frontend_mode: 
+      frontend_realm: 
+      frontend_session_allow_persistency: 
+      frontend_session_lifetime: 
+      frontend_session_lifetime_limited: 
+      frontend_session_lifetime_scope: 
+      frontend_session_timeout: 
+      frontend_session_timeout_enabled: 
+      frontend_session_timeout_scope: 
+      headers: 
+      logout_delegation_urls: 
+      logout_mode: 
+      name: 
+      redirect_to_requested_url: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

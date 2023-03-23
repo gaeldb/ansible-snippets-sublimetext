@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_system_option_info</tabTrigger>
+	<description>Retrieve information about one oVirt/RHV system options.</description>
+	<content><![CDATA[
+- name: Retrieve information about one oVirt/RHV system options.
+  ovirt_system_option_info:
+      auth: 
+      fetch_nested: 
+      name: 
+      nested_attributes: 
+      version: 
+]]>
+	</content>
+</snippet>

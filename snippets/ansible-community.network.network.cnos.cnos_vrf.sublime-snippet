@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_vrf</tabTrigger>
+	<description>Manage VRFs on Lenovo CNOS network devices</description>
+	<content><![CDATA[
+- name: Manage VRFs on Lenovo CNOS network devices
+  cnos_vrf:
+      aggregate: 
+      associated_interfaces: 
+      delay: 
+      interfaces: 
+      name: 
+      purge: 
+      rd: 
+      state: 
+]]>
+	</content>
+</snippet>

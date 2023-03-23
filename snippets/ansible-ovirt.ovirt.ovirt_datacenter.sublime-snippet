@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_datacenter</tabTrigger>
+	<description>Module to manage data centers in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage data centers in oVirt/RHV
+  ovirt_datacenter:
+      auth: 
+      comment: 
+      compatibility_version: 
+      description: 
+      fetch_nested: 
+      force: 
+      id: 
+      iscsi_bonds: 
+      local: 
+      mac_pool: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      quota_mode: 
+      state: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

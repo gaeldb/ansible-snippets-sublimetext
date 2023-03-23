@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sts_assume_role</tabTrigger>
+	<description>Assume a role using AWS Security Token Service and obtain temporary credentials</description>
+	<content><![CDATA[
+- name: Assume a role using AWS Security Token Service and obtain temporary credentials
+  sts_assume_role:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      duration_seconds: 
+      endpoint_url: 
+      external_id: 
+      mfa_serial_number: 
+      mfa_token: 
+      policy: 
+      profile: 
+      region: 
+      role_arn: 
+      role_session_name: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

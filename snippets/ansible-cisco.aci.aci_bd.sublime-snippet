@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_bd</tabTrigger>
+	<description>Manage Bridge Domains (BD) objects (fv:BD)</description>
+	<content><![CDATA[
+- name: Manage Bridge Domains (BD) objects (fv:BD)
+  aci_bd:
+      annotation: 
+      arp_flooding: 
+      bd: 
+      bd_type: 
+      certificate_name: 
+      description: 
+      enable_multicast: 
+      enable_routing: 
+      endpoint_clear: 
+      endpoint_move_detect: 
+      endpoint_retention_action: 
+      endpoint_retention_policy: 
+      host: 
+      igmp_snoop_policy: 
+      ip_learning: 
+      ipv6_nd_policy: 
+      l2_unknown_unicast: 
+      l3_unknown_multicast: 
+      limit_ip_learn: 
+      mac_address: 
+      multi_dest: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

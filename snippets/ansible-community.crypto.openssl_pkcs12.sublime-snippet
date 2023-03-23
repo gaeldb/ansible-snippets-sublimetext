@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_pkcs12</tabTrigger>
+	<description>Generate OpenSSL PKCS </description>
+	<content><![CDATA[
+- name: Generate OpenSSL PKCS 
+  openssl_pkcs12:
+      action: 
+      attributes: 
+      backup: 
+      certificate_path: 
+      encryption_level: 
+      force: 
+      friendly_name: 
+      group: 
+      iter_size: 
+      maciter_size: 
+      mode: 
+      other_certificates: 
+      other_certificates_parse_all: 
+      owner: 
+      passphrase: 
+      path: 
+      privatekey_content: 
+      privatekey_passphrase: 
+      privatekey_path: 
+      return_content: 
+      select_crypto_backend: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      state: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

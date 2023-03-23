@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_system</tabTrigger>
+	<description>Run `set system` commands on VyOS devices</description>
+	<content><![CDATA[
+- name: Run `set system` commands on VyOS devices
+  vyos_system:
+      domain_name: 
+      domain_search: 
+      host_name: 
+      name_server: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

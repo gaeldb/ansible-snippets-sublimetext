@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_address</tabTrigger>
+	<description>Configure IPv4 addresses in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv4 addresses in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_address:
+      access_token: 
+      firewall_address: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

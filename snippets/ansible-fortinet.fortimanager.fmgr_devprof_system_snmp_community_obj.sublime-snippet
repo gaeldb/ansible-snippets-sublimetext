@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_system_snmp_community_obj</tabTrigger>
+	<description>SNMP community configuration.</description>
+	<content><![CDATA[
+- name: SNMP community configuration.
+  fmgr_devprof_system_snmp_community_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

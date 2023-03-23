@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.influxdb_query</tabTrigger>
+	<description>Query data points from InfluxDB</description>
+	<content><![CDATA[
+- name: Query data points from InfluxDB
+  influxdb_query:
+      database_name: 
+      hostname: 
+      password: 
+      path: 
+      port: 
+      proxies: 
+      query: 
+      retries: 
+      ssl: 
+      timeout: 
+      udp_port: 
+      use_udp: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

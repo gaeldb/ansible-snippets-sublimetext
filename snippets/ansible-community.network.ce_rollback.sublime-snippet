@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_rollback</tabTrigger>
+	<description>Set a checkpoint or rollback to a checkpoint on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Set a checkpoint or rollback to a checkpoint on HUAWEI CloudEngine switches.
+  ce_rollback:
+      action: 
+      commit_id: 
+      filename: 
+      label: 
+      last: 
+      oldest: 
+]]>
+	</content>
+</snippet>

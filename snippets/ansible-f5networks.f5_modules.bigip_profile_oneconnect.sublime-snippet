@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_oneconnect</tabTrigger>
+	<description>Manage OneConnect profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage OneConnect profiles on a BIG-IP
+  bigip_profile_oneconnect:
+      description: 
+      idle_timeout_override: 
+      limit_type: 
+      maximum_age: 
+      maximum_reuse: 
+      maximum_size: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      share_pools: 
+      source_mask: 
+      state: 
+]]>
+	</content>
+</snippet>

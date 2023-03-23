@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_files</tabTrigger>
+	<description>Manipulate Rackspace Cloud Files Containers</description>
+	<content><![CDATA[
+- name: Manipulate Rackspace Cloud Files Containers
+  rax_files:
+      api_key: 
+      auth_endpoint: 
+      clear_meta: 
+      container: 
+      credentials: 
+      env: 
+      identity_type: 
+      meta: 
+      private: 
+      public: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      ttl: 
+      type: 
+      username: 
+      validate_certs: 
+      web_error: 
+      web_index: 
+]]>
+	</content>
+</snippet>

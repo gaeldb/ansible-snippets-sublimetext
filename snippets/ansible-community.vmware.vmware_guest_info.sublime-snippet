@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_info</tabTrigger>
+	<description>Gather info about a single VM</description>
+	<content><![CDATA[
+- name: Gather info about a single VM
+  vmware_guest_info:
+      datacenter: 
+      folder: 
+      hostname: 
+      moid: 
+      name: 
+      name_match: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      tag_details: 
+      tags: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

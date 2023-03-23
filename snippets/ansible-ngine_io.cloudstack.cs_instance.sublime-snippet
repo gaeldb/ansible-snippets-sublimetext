@@ -1,0 +1,51 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_instance</tabTrigger>
+	<description>Manages instances and virtual machines on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages instances and virtual machines on Apache CloudStack based clouds.
+  cs_instance:
+      account: 
+      affinity_groups: 
+      allow_root_disk_shrink: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cpu: 
+      cpu_speed: 
+      details: 
+      disk_offering: 
+      disk_size: 
+      display_name: 
+      domain: 
+      force: 
+      group: 
+      host: 
+      hypervisor: 
+      ip6_address: 
+      ip_address: 
+      ip_to_networks: 
+      iso: 
+      keyboard: 
+      memory: 
+      name: 
+      networks: 
+      poll_async: 
+      project: 
+      root_disk_size: 
+      security_groups: 
+      service_offering: 
+      ssh_key: 
+      state: 
+      tags: 
+      template: 
+      template_filter: 
+      user_data: 
+      zone: 
+]]>
+	</content>
+</snippet>

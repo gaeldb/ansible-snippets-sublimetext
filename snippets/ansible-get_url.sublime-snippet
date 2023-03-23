@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>get_url</tabTrigger>
+	<description>Downloads files from HTTP, HTTPS, or FTP to node</description>
+	<content><![CDATA[
+- name: Downloads files from HTTP, HTTPS, or FTP to node
+  get_url:
+      attributes: 
+      backup: 
+      checksum: 
+      client_cert: 
+      client_key: 
+      dest: 
+      force: 
+      force_basic_auth: 
+      group: 
+      headers: 
+      http_agent: 
+      mode: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      sha256sum: 
+      timeout: 
+      tmp_dest: 
+      unredirected_headers: 
+      unsafe_writes: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

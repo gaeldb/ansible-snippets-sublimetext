@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaautomember</tabTrigger>
+	<description>Add and delete FreeIPA Auto Membership Rules.</description>
+	<content><![CDATA[
+- name: Add and delete FreeIPA Auto Membership Rules.
+  ipaautomember:
+      action: 
+      automember_type: 
+      default_group: 
+      description: 
+      exclusive: 
+      hosts: 
+      inclusive: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      no_wait: 
+      state: 
+      users: 
+]]>
+	</content>
+</snippet>

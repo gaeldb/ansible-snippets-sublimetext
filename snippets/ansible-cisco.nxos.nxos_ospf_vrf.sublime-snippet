@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ospf_vrf</tabTrigger>
+	<description>(deprecated, removed after 2022-10-01)Manages a VRF for an OSPF router.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-10-01)Manages a VRF for an OSPF router.
+  nxos_ospf_vrf:
+      auto_cost: 
+      bfd: 
+      default_metric: 
+      log_adjacency: 
+      ospf: 
+      passive_interface: 
+      provider: 
+      router_id: 
+      state: 
+      timer_throttle_lsa_hold: 
+      timer_throttle_lsa_max: 
+      timer_throttle_lsa_start: 
+      timer_throttle_spf_hold: 
+      timer_throttle_spf_max: 
+      timer_throttle_spf_start: 
+      vrf: 
+]]>
+	</content>
+</snippet>

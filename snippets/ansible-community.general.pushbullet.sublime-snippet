@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pushbullet</tabTrigger>
+	<description>Sends notifications to Pushbullet</description>
+	<content><![CDATA[
+- name: Sends notifications to Pushbullet
+  pushbullet:
+      api_key: 
+      body: 
+      channel: 
+      device: 
+      push_type: 
+      title: 
+      url: 
+]]>
+	</content>
+</snippet>

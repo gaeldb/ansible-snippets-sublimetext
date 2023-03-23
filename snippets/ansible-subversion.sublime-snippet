@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>subversion</tabTrigger>
+	<description>Deploys a subversion repository</description>
+	<content><![CDATA[
+- name: Deploys a subversion repository
+  subversion:
+      checkout: 
+      dest: 
+      executable: 
+      export: 
+      force: 
+      in_place: 
+      password: 
+      repo: 
+      revision: 
+      switch: 
+      update: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pmem</tabTrigger>
+	<description>Configure Intel Optane Persistent Memory modules</description>
+	<content><![CDATA[
+- name: Configure Intel Optane Persistent Memory modules
+  pmem:
+      appdirect: 
+      appdirect_interleaved: 
+      memorymode: 
+      namespace: 
+      namespace_append: 
+      reserved: 
+      socket: 
+]]>
+	</content>
+</snippet>

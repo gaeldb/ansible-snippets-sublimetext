@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_file_copy</tabTrigger>
+	<description>Copy a file to a remote NXOS device.</description>
+	<content><![CDATA[
+- name: Copy a file to a remote NXOS device.
+  nxos_file_copy:
+      connect_ssh_port: 
+      file_pull: 
+      file_pull_compact: 
+      file_pull_kstack: 
+      file_pull_protocol: 
+      file_pull_timeout: 
+      file_system: 
+      local_file: 
+      local_file_directory: 
+      provider: 
+      remote_file: 
+      remote_scp_server: 
+      remote_scp_server_password: 
+      remote_scp_server_user: 
+      vrf: 
+]]>
+	</content>
+</snippet>

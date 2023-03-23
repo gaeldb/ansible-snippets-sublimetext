@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.wiring_validate</tabTrigger>
+	<description>Validate the wiring based on the planned wiring details</description>
+	<content><![CDATA[
+- name: Validate the wiring based on the planned wiring details
+  wiring_validate:
+      planned_neighbors: 
+      show_lldp_neighbors_list: 
+      show_system_network_summary: 
+]]>
+	</content>
+</snippet>

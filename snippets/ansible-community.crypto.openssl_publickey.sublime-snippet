@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_publickey</tabTrigger>
+	<description>Generate an OpenSSL public key from its private key.</description>
+	<content><![CDATA[
+- name: Generate an OpenSSL public key from its private key.
+  openssl_publickey:
+      attributes: 
+      backup: 
+      force: 
+      format: 
+      group: 
+      mode: 
+      owner: 
+      path: 
+      privatekey_content: 
+      privatekey_passphrase: 
+      privatekey_path: 
+      return_content: 
+      select_crypto_backend: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

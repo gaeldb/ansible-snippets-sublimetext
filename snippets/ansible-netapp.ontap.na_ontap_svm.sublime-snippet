@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_svm</tabTrigger>
+	<description>NetApp ONTAP SVM</description>
+	<content><![CDATA[
+- name: NetApp ONTAP SVM
+  na_ontap_svm:
+      aggr_list: 
+      allowed_protocols: 
+      cert_filepath: 
+      comment: 
+      feature_flags: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      ipspace: 
+      key_filepath: 
+      language: 
+      name: 
+      ontapi: 
+      password: 
+      root_volume: 
+      root_volume_aggregate: 
+      root_volume_security_style: 
+      snapshot_policy: 
+      state: 
+      subtype: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipahbacrule</tabTrigger>
+	<description>Manage FreeIPA HBAC rules</description>
+	<content><![CDATA[
+- name: Manage FreeIPA HBAC rules
+  ipahbacrule:
+      action: 
+      description: 
+      group: 
+      hbacsvc: 
+      hbacsvcgroup: 
+      host: 
+      hostcategory: 
+      hostgroup: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      nomembers: 
+      servicecategory: 
+      state: 
+      user: 
+      usercategory: 
+]]>
+	</content>
+</snippet>

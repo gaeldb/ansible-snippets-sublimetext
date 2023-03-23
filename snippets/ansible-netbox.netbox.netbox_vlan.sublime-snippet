@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_vlan</tabTrigger>
+	<description>Create, update or delete vlans within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete vlans within Netbox
+  netbox_vlan:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

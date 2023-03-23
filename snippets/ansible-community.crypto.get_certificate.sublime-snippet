@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.get_certificate</tabTrigger>
+	<description>Get a certificate from a host:port</description>
+	<content><![CDATA[
+- name: Get a certificate from a host:port
+  get_certificate:
+      ca_cert: 
+      host: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      select_crypto_backend: 
+      server_name: 
+      starttls: 
+      timeout: 
+]]>
+	</content>
+</snippet>

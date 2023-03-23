@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_policy6</tabTrigger>
+	<description>Configure IPv6 routing policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 routing policies in Fortinet's FortiOS and FortiGate.
+  fortios_router_policy6:
+      access_token: 
+      router_policy6: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

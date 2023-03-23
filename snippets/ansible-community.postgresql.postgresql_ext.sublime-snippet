@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_ext</tabTrigger>
+	<description>Add or remove PostgreSQL extensions from a database</description>
+	<content><![CDATA[
+- name: Add or remove PostgreSQL extensions from a database
+  postgresql_ext:
+      ca_cert: 
+      cascade: 
+      db: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      port: 
+      schema: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      trust_input: 
+      version: 
+]]>
+	</content>
+</snippet>

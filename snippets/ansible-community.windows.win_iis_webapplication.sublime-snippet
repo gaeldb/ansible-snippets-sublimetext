@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_iis_webapplication</tabTrigger>
+	<description>Configures IIS web applications</description>
+	<content><![CDATA[
+- name: Configures IIS web applications
+  win_iis_webapplication:
+      application_pool: 
+      connect_as: 
+      name: 
+      password: 
+      physical_path: 
+      site: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

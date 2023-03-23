@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.libvirt.virt</tabTrigger>
+	<description>Manages virtual machines supported by libvirt</description>
+	<content><![CDATA[
+- name: Manages virtual machines supported by libvirt
+  virt:
+      autostart: 
+      command: 
+      name: 
+      state: 
+      uri: 
+      xml: 
+]]>
+	</content>
+</snippet>

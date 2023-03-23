@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_net_subnet</tabTrigger>
+	<description>NetApp ONTAP Create, delete, modify network subnets.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Create, delete, modify network subnets.
+  na_ontap_net_subnet:
+      broadcast_domain: 
+      cert_filepath: 
+      feature_flags: 
+      from_name: 
+      gateway: 
+      hostname: 
+      http_port: 
+      https: 
+      ip_ranges: 
+      ipspace: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      state: 
+      subnet: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

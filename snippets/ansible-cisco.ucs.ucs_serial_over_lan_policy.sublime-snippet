@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_serial_over_lan_policy</tabTrigger>
+	<description>Manages UCS Serial Over Lan Policies on UCS Manager</description>
+	<content><![CDATA[
+- name: Manages UCS Serial Over Lan Policies on UCS Manager
+  ucs_serial_over_lan_policy:
+      admin_state: 
+      description: 
+      hostname: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      speed: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

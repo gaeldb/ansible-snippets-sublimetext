@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gcpubsub</tabTrigger>
+	<description>Create and Delete Topics/Subscriptions, Publish and pull messages on PubSub</description>
+	<content><![CDATA[
+- name: Create and Delete Topics/Subscriptions, Publish and pull messages on PubSub
+  gcpubsub:
+      credentials_file: 
+      project_id: 
+      publish: 
+      service_account_email: 
+      state: 
+      subscription: 
+      topic: 
+]]>
+	</content>
+</snippet>

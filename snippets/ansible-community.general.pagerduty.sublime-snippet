@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pagerduty</tabTrigger>
+	<description>Create PagerDuty maintenance windows</description>
+	<content><![CDATA[
+- name: Create PagerDuty maintenance windows
+  pagerduty:
+      desc: 
+      hours: 
+      minutes: 
+      name: 
+      requester_id: 
+      service: 
+      state: 
+      token: 
+      user: 
+      validate_certs: 
+      window_id: 
+]]>
+	</content>
+</snippet>

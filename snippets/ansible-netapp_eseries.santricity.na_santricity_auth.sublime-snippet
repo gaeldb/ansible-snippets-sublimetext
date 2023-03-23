@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_auth</tabTrigger>
+	<description>NetApp E-Series set or update the password for a storage array device or SANtricity Web Services Proxy.</description>
+	<content><![CDATA[
+- name: NetApp E-Series set or update the password for a storage array device or SANtricity Web Services Proxy.
+  na_santricity_auth:
+      api_password: 
+      api_url: 
+      api_username: 
+      current_admin_password: 
+      minimum_password_length: 
+      password: 
+      ssid: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

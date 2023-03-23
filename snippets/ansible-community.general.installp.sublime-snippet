@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.installp</tabTrigger>
+	<description>Manage packages on AIX</description>
+	<content><![CDATA[
+- name: Manage packages on AIX
+  installp:
+      accept_license: 
+      name: 
+      repository_path: 
+      state: 
+]]>
+	</content>
+</snippet>

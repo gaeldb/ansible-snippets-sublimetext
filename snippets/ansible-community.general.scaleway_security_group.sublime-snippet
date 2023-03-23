@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_security_group</tabTrigger>
+	<description>Scaleway Security Group management module</description>
+	<content><![CDATA[
+- name: Scaleway Security Group management module
+  scaleway_security_group:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      description: 
+      inbound_default_policy: 
+      name: 
+      organization: 
+      organization_default: 
+      outbound_default_policy: 
+      query_parameters: 
+      region: 
+      state: 
+      stateful: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

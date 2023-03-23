@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_quotas</tabTrigger>
+	<description>NetApp ONTAP Quotas</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Quotas
+  na_ontap_quotas:
+      activate_quota_on_change: 
+      cert_filepath: 
+      disk_limit: 
+      feature_flags: 
+      file_limit: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      perform_user_mapping: 
+      policy: 
+      qtree: 
+      quota_target: 
+      set_quota_status: 
+      soft_disk_limit: 
+      soft_file_limit: 
+      state: 
+      threshold: 
+      type: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volume: 
+      vserver: 
+]]>
+	</content>
+</snippet>

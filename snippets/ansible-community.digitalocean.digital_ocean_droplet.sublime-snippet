@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_droplet</tabTrigger>
+	<description>Create and delete a DigitalOcean droplet</description>
+	<content><![CDATA[
+- name: Create and delete a DigitalOcean droplet
+  digital_ocean_droplet:
+      backups: 
+      id: 
+      image: 
+      ipv6: 
+      monitoring: 
+      name: 
+      oauth_token: 
+      private_networking: 
+      region: 
+      size: 
+      ssh_keys: 
+      state: 
+      tags: 
+      unique_name: 
+      user_data: 
+      volumes: 
+      vpc_uuid: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

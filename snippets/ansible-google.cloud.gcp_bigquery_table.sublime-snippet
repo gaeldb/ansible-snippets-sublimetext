@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_bigquery_table</tabTrigger>
+	<description>Creates a GCP Table</description>
+	<content><![CDATA[
+- name: Creates a GCP Table
+  gcp_bigquery_table:
+      auth_kind: 
+      clustering: 
+      dataset: 
+      description: 
+      encryption_configuration: 
+      env_type: 
+      expiration_time: 
+      external_data_configuration: 
+      friendly_name: 
+      labels: 
+      name: 
+      num_rows: 
+      project: 
+      schema: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      table_reference: 
+      time_partitioning: 
+      view: 
+]]>
+	</content>
+</snippet>

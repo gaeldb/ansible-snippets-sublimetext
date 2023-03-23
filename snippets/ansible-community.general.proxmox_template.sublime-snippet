@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox_template</tabTrigger>
+	<description>Management of OS templates in Proxmox VE cluster</description>
+	<content><![CDATA[
+- name: Management of OS templates in Proxmox VE cluster
+  proxmox_template:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      content_type: 
+      force: 
+      node: 
+      src: 
+      state: 
+      storage: 
+      template: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

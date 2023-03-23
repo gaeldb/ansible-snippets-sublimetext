@@ -1,0 +1,9 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_facts</tabTrigger>
+	<description></description>
+	<content><![CDATA[
+
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_cluster</tabTrigger>
+	<description>NetApp Element Software Create Cluster</description>
+	<content><![CDATA[
+- name: NetApp Element Software Create Cluster
+  na_elementsw_cluster:
+      accept_eula: 
+      attributes: 
+      cluster_admin_password: 
+      cluster_admin_username: 
+      encryption: 
+      fail_if_cluster_already_exists_with_larger_ensemble: 
+      hostname: 
+      management_virtual_ip: 
+      nodes: 
+      order_number: 
+      password: 
+      replica_count: 
+      serial_number: 
+      storage_virtual_ip: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

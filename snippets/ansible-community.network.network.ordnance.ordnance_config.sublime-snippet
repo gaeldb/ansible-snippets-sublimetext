@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.ordnance.ordnance_config</tabTrigger>
+	<description>Manage Ordnance configuration sections</description>
+	<content><![CDATA[
+- name: Manage Ordnance configuration sections
+  ordnance_config:
+      after: 
+      backup: 
+      before: 
+      config: 
+      defaults: 
+      lines: 
+      match: 
+      multiline_delimiter: 
+      parents: 
+      replace: 
+      save: 
+      src: 
+]]>
+	</content>
+</snippet>

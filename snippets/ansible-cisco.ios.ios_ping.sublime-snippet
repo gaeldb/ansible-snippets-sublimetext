@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_ping</tabTrigger>
+	<description>Tests reachability using ping from Cisco IOS network devices</description>
+	<content><![CDATA[
+- name: Tests reachability using ping from Cisco IOS network devices
+  ios_ping:
+      count: 
+      dest: 
+      df_bit: 
+      provider: 
+      size: 
+      source: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

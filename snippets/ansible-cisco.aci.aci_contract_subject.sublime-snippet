@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_contract_subject</tabTrigger>
+	<description>Manage initial Contract Subjects (vz:Subj)</description>
+	<content><![CDATA[
+- name: Manage initial Contract Subjects (vz:Subj)
+  aci_contract_subject:
+      annotation: 
+      certificate_name: 
+      consumer_match: 
+      contract: 
+      description: 
+      dscp: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      priority: 
+      private_key: 
+      provider_match: 
+      reverse_filter: 
+      state: 
+      subject: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

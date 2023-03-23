@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.memset_zone</tabTrigger>
+	<description>Creates and deletes Memset DNS zones</description>
+	<content><![CDATA[
+- name: Creates and deletes Memset DNS zones
+  memset_zone:
+      api_key: 
+      force: 
+      name: 
+      state: 
+      ttl: 
+]]>
+	</content>
+</snippet>

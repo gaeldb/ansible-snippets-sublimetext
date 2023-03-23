@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_oplog</tabTrigger>
+	<description>Resizes the MongoDB oplog.</description>
+	<content><![CDATA[
+- name: Resizes the MongoDB oplog.
+  mongodb_oplog:
+      auth_mechanism: 
+      compact: 
+      connection_options: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      oplog_size_mb: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      ver: 
+]]>
+	</content>
+</snippet>

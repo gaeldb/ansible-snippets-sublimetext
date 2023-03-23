@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.iam_access_key</tabTrigger>
+	<description>Manage AWS IAM User access keys</description>
+	<content><![CDATA[
+- name: Manage AWS IAM User access keys
+  iam_access_key:
+      access_key: 
+      active: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      id: 
+      profile: 
+      region: 
+      rotate_keys: 
+      secret_key: 
+      session_token: 
+      state: 
+      user_name: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_lldp_settings</tabTrigger>
+	<description>Configure FortiSwitch LLDP settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch LLDP settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_lldp_settings:
+      access_token: 
+      switch_controller_lldp_settings: 
+      vdom: 
+]]>
+	</content>
+</snippet>

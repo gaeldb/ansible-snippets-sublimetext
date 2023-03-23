@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vserver_peer</tabTrigger>
+	<description>NetApp ONTAP Vserver peering</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Vserver peering
+  na_ontap_vserver_peer:
+      applications: 
+      cert_filepath: 
+      dest_hostname: 
+      dest_password: 
+      dest_username: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      peer_cluster: 
+      peer_vserver: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_target</tabTrigger>
+	<description>Manage remote S3-capable targets for a FlashBlade</description>
+	<content><![CDATA[
+- name: Manage remote S3-capable targets for a FlashBlade
+  purefb_target:
+      address: 
+      api_token: 
+      fb_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elasticache_parameter_group</tabTrigger>
+	<description>Manage cache parameter groups in Amazon ElastiCache.</description>
+	<content><![CDATA[
+- name: Manage cache parameter groups in Amazon ElastiCache.
+  elasticache_parameter_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      group_family: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      values: 
+]]>
+	</content>
+</snippet>

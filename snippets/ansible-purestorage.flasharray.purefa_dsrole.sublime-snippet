@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_dsrole</tabTrigger>
+	<description>Configure FlashArray Directory Service Roles</description>
+	<content><![CDATA[
+- name: Configure FlashArray Directory Service Roles
+  purefa_dsrole:
+      api_token: 
+      fa_url: 
+      group: 
+      group_base: 
+      role: 
+      state: 
+]]>
+	</content>
+</snippet>

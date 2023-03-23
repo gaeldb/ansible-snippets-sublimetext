@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatchlogs_log_group_info</tabTrigger>
+	<description>Get information about log_group in CloudWatchLogs</description>
+	<content><![CDATA[
+- name: Get information about log_group in CloudWatchLogs
+  cloudwatchlogs_log_group_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      log_group_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

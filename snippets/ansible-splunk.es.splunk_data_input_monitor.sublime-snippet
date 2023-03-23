@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>splunk.es.splunk_data_input_monitor</tabTrigger>
+	<description>Manage Splunk Data Inputs of type Monitor</description>
+	<content><![CDATA[
+- name: Manage Splunk Data Inputs of type Monitor
+  data_input_monitor:
+      blacklist: 
+      check_index: 
+      check_path: 
+      crc_salt: 
+      disabled: 
+      followTail: 
+      host: 
+      host_regex: 
+      host_segment: 
+      ignore_older_than: 
+      index: 
+      name: 
+      recursive: 
+      rename_source: 
+      sourcetype: 
+      state: 
+      time_before_close: 
+      whitelist: 
+]]>
+	</content>
+</snippet>

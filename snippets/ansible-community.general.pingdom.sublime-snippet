@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pingdom</tabTrigger>
+	<description>Pause/unpause Pingdom alerts</description>
+	<content><![CDATA[
+- name: Pause/unpause Pingdom alerts
+  pingdom:
+      checkid: 
+      key: 
+      passwd: 
+      state: 
+      uid: 
+]]>
+	</content>
+</snippet>

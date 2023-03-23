@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_fortisandbox</tabTrigger>
+	<description>Configure FortiSandbox in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSandbox in Fortinet's FortiOS and FortiGate.
+  fortios_system_fortisandbox:
+      access_token: 
+      system_fortisandbox: 
+      vdom: 
+]]>
+	</content>
+</snippet>

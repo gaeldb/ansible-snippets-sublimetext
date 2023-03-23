@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_cluster_vsan</tabTrigger>
+	<description>Manages virtual storage area network (vSAN) configuration on VMware vSphere clusters</description>
+	<content><![CDATA[
+- name: Manages virtual storage area network (vSAN) configuration on VMware vSphere clusters
+  vmware_cluster_vsan:
+      advanced_options: 
+      cluster_name: 
+      datacenter: 
+      enable_vsan: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+      vsan_auto_claim_storage: 
+]]>
+	</content>
+</snippet>

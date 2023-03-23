@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.slackpkg</tabTrigger>
+	<description>Package manager for Slackware >= 12.2</description>
+	<content><![CDATA[
+- name: Package manager for Slackware >= 12.2
+  slackpkg:
+      name: 
+      state: 
+      update_cache: 
+]]>
+	</content>
+</snippet>

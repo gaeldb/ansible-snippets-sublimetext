@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.zfs_facts</tabTrigger>
+	<description>Gather facts about ZFS datasets</description>
+	<content><![CDATA[
+- name: Gather facts about ZFS datasets
+  zfs_facts:
+      depth: 
+      name: 
+      parsable: 
+      properties: 
+      recurse: 
+      type: 
+]]>
+	</content>
+</snippet>

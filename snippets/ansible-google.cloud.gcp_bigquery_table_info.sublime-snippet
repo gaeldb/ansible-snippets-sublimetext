@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_bigquery_table_info</tabTrigger>
+	<description>Gather info for GCP Table</description>
+	<content><![CDATA[
+- name: Gather info for GCP Table
+  gcp_bigquery_table_info:
+      auth_kind: 
+      dataset: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

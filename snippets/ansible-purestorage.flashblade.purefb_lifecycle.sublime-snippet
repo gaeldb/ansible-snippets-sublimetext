@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_lifecycle</tabTrigger>
+	<description>Manage FlashBlade object lifecycles</description>
+	<content><![CDATA[
+- name: Manage FlashBlade object lifecycles
+  purefb_lifecycle:
+      api_token: 
+      bucket: 
+      enabled: 
+      fb_url: 
+      keep_for: 
+      name: 
+      prefix: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_instance</tabTrigger>
+	<description>Creates a GCP Instance</description>
+	<content><![CDATA[
+- name: Creates a GCP Instance
+  gcp_compute_instance:
+      auth_kind: 
+      can_ip_forward: 
+      deletion_protection: 
+      disks: 
+      env_type: 
+      guest_accelerators: 
+      hostname: 
+      labels: 
+      machine_type: 
+      metadata: 
+      min_cpu_platform: 
+      name: 
+      network_interfaces: 
+      project: 
+      scheduling: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      service_accounts: 
+      shielded_instance_config: 
+      state: 
+      status: 
+      tags: 
+      zone: 
+]]>
+	</content>
+</snippet>

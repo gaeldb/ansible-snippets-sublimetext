@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.aix_filesystem</tabTrigger>
+	<description>Configure LVM and NFS file systems for AIX</description>
+	<content><![CDATA[
+- name: Configure LVM and NFS file systems for AIX
+  aix_filesystem:
+      account_subsystem: 
+      attributes: 
+      auto_mount: 
+      device: 
+      filesystem: 
+      fs_type: 
+      mount_group: 
+      nfs_server: 
+      permissions: 
+      rm_mount_point: 
+      size: 
+      state: 
+      vg: 
+]]>
+	</content>
+</snippet>

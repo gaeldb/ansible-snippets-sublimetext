@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_virtual_machine</tabTrigger>
+	<description>Create, update or delete virtual_machines within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete virtual_machines within Netbox
+  netbox_virtual_machine:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

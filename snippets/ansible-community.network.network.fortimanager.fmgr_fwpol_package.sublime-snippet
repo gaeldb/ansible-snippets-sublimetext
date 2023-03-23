@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.fortimanager.fmgr_fwpol_package</tabTrigger>
+	<description>Manages FortiManager Firewall Policies Packages.</description>
+	<content><![CDATA[
+- name: Manages FortiManager Firewall Policies Packages.
+  fmgr_fwpol_package:
+      adom: 
+      central_nat: 
+      fwpolicy6_implicit_log: 
+      fwpolicy_implicit_log: 
+      inspection_mode: 
+      mode: 
+      name: 
+      ngfw_mode: 
+      object_type: 
+      package_folder: 
+      parent_folder: 
+      scope_members: 
+      scope_members_vdom: 
+      ssl_ssh_profile: 
+]]>
+	</content>
+</snippet>

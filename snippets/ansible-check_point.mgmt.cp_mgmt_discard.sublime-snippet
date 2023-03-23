@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_discard</tabTrigger>
+	<description>All changes done by user are discarded and removed from database.</description>
+	<content><![CDATA[
+- name: All changes done by user are discarded and removed from database.
+  cp_mgmt_discard:
+      uid: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

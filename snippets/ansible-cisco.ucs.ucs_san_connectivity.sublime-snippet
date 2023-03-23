@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_san_connectivity</tabTrigger>
+	<description>Configures SAN Connectivity Policies on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures SAN Connectivity Policies on Cisco UCS Manager
+  ucs_san_connectivity:
+      description: 
+      hostname: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vhba_list: 
+      wwnn_pool: 
+]]>
+	</content>
+</snippet>

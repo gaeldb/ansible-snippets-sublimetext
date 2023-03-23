@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.apconos.apconos_command</tabTrigger>
+	<description>Run arbitrary commands on APCON devices</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on APCON devices
+  apconos_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.wafv2_resources_info</tabTrigger>
+	<description>wafv2_resources_info</description>
+	<content><![CDATA[
+- name: wafv2_resources_info
+  wafv2_resources_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      scope: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

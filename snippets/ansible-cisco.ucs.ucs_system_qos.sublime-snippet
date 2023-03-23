@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_system_qos</tabTrigger>
+	<description>Configures system QoS settings</description>
+	<content><![CDATA[
+- name: Configures system QoS settings
+  ucs_system_qos:
+      admin_state: 
+      cos: 
+      drop: 
+      hostname: 
+      mtu: 
+      multicast_optimize: 
+      password: 
+      port: 
+      priority: 
+      proxy: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      weight: 
+]]>
+	</content>
+</snippet>

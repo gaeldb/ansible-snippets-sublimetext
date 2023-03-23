@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_qtree</tabTrigger>
+	<description>NetApp ONTAP manage qtrees</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage qtrees
+  na_ontap_qtree:
+      cert_filepath: 
+      export_policy: 
+      feature_flags: 
+      flexvol_name: 
+      force_delete: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      oplocks: 
+      password: 
+      security_style: 
+      state: 
+      time_out: 
+      unix_permissions: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+      wait_for_completion: 
+]]>
+	</content>
+</snippet>

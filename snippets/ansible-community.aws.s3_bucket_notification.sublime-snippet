@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_bucket_notification</tabTrigger>
+	<description>Creates, updates or deletes S3 Bucket notifications targeting Lambda functions, SNS or SQS.</description>
+	<content><![CDATA[
+- name: Creates, updates or deletes S3 Bucket notifications targeting Lambda functions, SNS or SQS.
+  s3_bucket_notification:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket_name: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      event_name: 
+      events: 
+      lambda_alias: 
+      lambda_function_arn: 
+      lambda_version: 
+      prefix: 
+      profile: 
+      queue_arn: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      suffix: 
+      topic_arn: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

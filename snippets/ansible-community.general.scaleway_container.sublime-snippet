@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_container</tabTrigger>
+	<description>Scaleway Container management</description>
+	<content><![CDATA[
+- name: Scaleway Container management
+  scaleway_container:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      container_timeout: 
+      description: 
+      environment_variables: 
+      max_concurrency: 
+      max_scale: 
+      memory_limit: 
+      min_scale: 
+      name: 
+      namespace_id: 
+      port: 
+      privacy: 
+      protocol: 
+      query_parameters: 
+      redeploy: 
+      region: 
+      registry_image: 
+      secret_environment_variables: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_sleep_time: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

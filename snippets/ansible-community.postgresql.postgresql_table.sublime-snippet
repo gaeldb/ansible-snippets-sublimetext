@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_table</tabTrigger>
+	<description>Create, drop, or modify a PostgreSQL table</description>
+	<content><![CDATA[
+- name: Create, drop, or modify a PostgreSQL table
+  postgresql_table:
+      ca_cert: 
+      cascade: 
+      columns: 
+      db: 
+      including: 
+      like: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      owner: 
+      port: 
+      rename: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      storage_params: 
+      table: 
+      tablespace: 
+      truncate: 
+      trust_input: 
+      unlogged: 
+]]>
+	</content>
+</snippet>

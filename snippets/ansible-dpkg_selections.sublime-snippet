@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dpkg_selections</tabTrigger>
+	<description>Dpkg package selection selections</description>
+	<content><![CDATA[
+- name: Dpkg package selection selections
+  dpkg_selections:
+      name: 
+      selection: 
+]]>
+	</content>
+</snippet>

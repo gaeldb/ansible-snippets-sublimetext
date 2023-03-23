@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_proxy_location</tabTrigger>
+	<description>Create, update or destroy reverse_proxy location entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy reverse_proxy location entry in Sophos UTM
+  utm_proxy_location:
+      access_control: 
+      allowed_networks: 
+      auth_profile: 
+      backend: 
+      be_path: 
+      comment: 
+      denied_networks: 
+      headers: 
+      hot_standby: 
+      name: 
+      path: 
+      state: 
+      status: 
+      stickysession_id: 
+      stickysession_status: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+      websocket_passthrough: 
+]]>
+	</content>
+</snippet>

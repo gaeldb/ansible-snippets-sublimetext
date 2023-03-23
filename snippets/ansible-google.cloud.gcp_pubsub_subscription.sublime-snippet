@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_pubsub_subscription</tabTrigger>
+	<description>Creates a GCP Subscription</description>
+	<content><![CDATA[
+- name: Creates a GCP Subscription
+  gcp_pubsub_subscription:
+      ack_deadline_seconds: 
+      auth_kind: 
+      dead_letter_policy: 
+      enable_message_ordering: 
+      env_type: 
+      expiration_policy: 
+      filter: 
+      labels: 
+      message_retention_duration: 
+      name: 
+      project: 
+      push_config: 
+      retain_acked_messages: 
+      retry_policy: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      topic: 
+]]>
+	</content>
+</snippet>

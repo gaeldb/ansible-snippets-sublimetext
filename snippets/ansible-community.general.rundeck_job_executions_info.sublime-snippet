@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rundeck_job_executions_info</tabTrigger>
+	<description>Query executions for a Rundeck job</description>
+	<content><![CDATA[
+- name: Query executions for a Rundeck job
+  rundeck_job_executions_info:
+      api_token: 
+      api_version: 
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      http_agent: 
+      job_id: 
+      max: 
+      offset: 
+      status: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

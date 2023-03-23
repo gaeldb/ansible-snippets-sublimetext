@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sensu_client</tabTrigger>
+	<description>Manages Sensu client configuration</description>
+	<content><![CDATA[
+- name: Manages Sensu client configuration
+  sensu_client:
+      address: 
+      chef: 
+      deregister: 
+      deregistration: 
+      ec2: 
+      keepalive: 
+      keepalives: 
+      name: 
+      puppet: 
+      redact: 
+      registration: 
+      safe_mode: 
+      servicenow: 
+      socket: 
+      state: 
+      subscriptions: 
+]]>
+	</content>
+</snippet>

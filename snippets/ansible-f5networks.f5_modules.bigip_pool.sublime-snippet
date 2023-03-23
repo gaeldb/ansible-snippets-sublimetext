@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_pool</tabTrigger>
+	<description>Manages F5 BIG-IP LTM pools</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM pools
+  bigip_pool:
+      aggregate: 
+      description: 
+      lb_method: 
+      metadata: 
+      monitor_type: 
+      monitors: 
+      name: 
+      partition: 
+      priority_group_activation: 
+      provider: 
+      quorum: 
+      replace_all_with: 
+      reselect_tries: 
+      service_down_action: 
+      slow_ramp_time: 
+      state: 
+]]>
+	</content>
+</snippet>

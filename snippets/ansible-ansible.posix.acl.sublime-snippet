@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.acl</tabTrigger>
+	<description>Set and retrieve file ACL information.</description>
+	<content><![CDATA[
+- name: Set and retrieve file ACL information.
+  acl:
+      default: 
+      entity: 
+      entry: 
+      etype: 
+      follow: 
+      path: 
+      permissions: 
+      recalculate_mask: 
+      recursive: 
+      state: 
+      use_nfsv4_acls: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_workflow_launch</tabTrigger>
+	<description>Run a workflow in Ansible Tower</description>
+	<content><![CDATA[
+- name: Run a workflow in Ansible Tower
+  tower_workflow_launch:
+      extra_vars: 
+      interval: 
+      inventory: 
+      limit: 
+      name: 
+      organization: 
+      scm_branch: 
+      timeout: 
+      tower_config_file: 
+      tower_host: 
+      tower_oauthtoken: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

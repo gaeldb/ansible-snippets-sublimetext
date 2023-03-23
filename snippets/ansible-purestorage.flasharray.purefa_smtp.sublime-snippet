@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_smtp</tabTrigger>
+	<description>Configure FlashArray SMTP settings</description>
+	<content><![CDATA[
+- name: Configure FlashArray SMTP settings
+  purefa_smtp:
+      api_token: 
+      fa_url: 
+      password: 
+      relay_host: 
+      sender_domain: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

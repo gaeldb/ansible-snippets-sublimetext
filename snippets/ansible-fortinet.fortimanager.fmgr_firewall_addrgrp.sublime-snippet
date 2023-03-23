@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_firewall_addrgrp</tabTrigger>
+	<description>Configure IPv4 address groups.</description>
+	<content><![CDATA[
+- name: Configure IPv4 address groups.
+  fmgr_firewall_addrgrp:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

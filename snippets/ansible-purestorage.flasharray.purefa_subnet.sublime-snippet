@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_subnet</tabTrigger>
+	<description>Manage network subnets in a Pure Storage FlashArray</description>
+	<content><![CDATA[
+- name: Manage network subnets in a Pure Storage FlashArray
+  purefa_subnet:
+      api_token: 
+      enabled: 
+      fa_url: 
+      gateway: 
+      mtu: 
+      name: 
+      prefix: 
+      state: 
+      vlan: 
+]]>
+	</content>
+</snippet>

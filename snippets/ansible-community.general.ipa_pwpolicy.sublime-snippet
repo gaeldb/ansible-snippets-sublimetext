@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_pwpolicy</tabTrigger>
+	<description>Manage FreeIPA password policies</description>
+	<content><![CDATA[
+- name: Manage FreeIPA password policies
+  ipa_pwpolicy:
+      failinterval: 
+      group: 
+      historylength: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      lockouttime: 
+      maxfailcount: 
+      maxpwdlife: 
+      minclasses: 
+      minlength: 
+      minpwdlife: 
+      priority: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

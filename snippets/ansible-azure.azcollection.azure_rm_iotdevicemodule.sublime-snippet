@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_iotdevicemodule</tabTrigger>
+	<description>Manage Azure IoT hub device module</description>
+	<content><![CDATA[
+- name: Manage Azure IoT hub device module
+  azure_rm_iotdevicemodule:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_method: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      desired: 
+      device: 
+      hub: 
+      hub_policy_key: 
+      hub_policy_name: 
+      name: 
+      password: 
+      primary_key: 
+      profile: 
+      secondary_key: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      twin_tags: 
+]]>
+	</content>
+</snippet>

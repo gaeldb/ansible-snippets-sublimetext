@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.redshift_subnet_group</tabTrigger>
+	<description>manage Redshift cluster subnet groups</description>
+	<content><![CDATA[
+- name: manage Redshift cluster subnet groups
+  redshift_subnet_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnets: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

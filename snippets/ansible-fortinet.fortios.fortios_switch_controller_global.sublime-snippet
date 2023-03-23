@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_global</tabTrigger>
+	<description>Configure FortiSwitch global settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch global settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_global:
+      access_token: 
+      switch_controller_global: 
+      vdom: 
+]]>
+	</content>
+</snippet>

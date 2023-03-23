@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_bgp</tabTrigger>
+	<description>Manage BGP resources and attributes on devices running CNOS</description>
+	<content><![CDATA[
+- name: Manage BGP resources and attributes on devices running CNOS
+  cnos_bgp:
+      asNum: 
+      bgpArg1: 
+      bgpArg2: 
+      bgpArg3: 
+      bgpArg4: 
+      bgpArg5: 
+      bgpArg6: 
+      bgpArg7: 
+      bgpArg8: 
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

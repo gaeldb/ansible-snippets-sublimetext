@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.usergroup</tabTrigger>
+	<description>Manage User Groups</description>
+	<content><![CDATA[
+- name: Manage User Groups
+  usergroup:
+      admin: 
+      name: 
+      password: 
+      roles: 
+      server_url: 
+      state: 
+      updated_name: 
+      usergroups: 
+      username: 
+      users: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

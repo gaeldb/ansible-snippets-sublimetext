@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_backup</tabTrigger>
+	<description>NetApp Element Software Create Backups</description>
+	<content><![CDATA[
+- name: NetApp Element Software Create Backups
+  na_elementsw_backup:
+      dest_hostname: 
+      dest_password: 
+      dest_username: 
+      dest_volume_id: 
+      format: 
+      hostname: 
+      password: 
+      script: 
+      script_parameters: 
+      src_volume_id: 
+      username: 
+]]>
+	</content>
+</snippet>

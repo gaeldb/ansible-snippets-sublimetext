@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_policy</tabTrigger>
+	<description>Manage FlashBlade policies</description>
+	<content><![CDATA[
+- name: Manage FlashBlade policies
+  purefb_policy:
+      api_token: 
+      at: 
+      enabled: 
+      every: 
+      fb_url: 
+      filesystem: 
+      keep_for: 
+      name: 
+      replica_link: 
+      state: 
+      timezone: 
+]]>
+	</content>
+</snippet>

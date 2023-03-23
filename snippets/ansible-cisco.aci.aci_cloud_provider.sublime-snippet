@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_cloud_provider</tabTrigger>
+	<description>Query Cloud Provider information (cloud:ProvP)</description>
+	<content><![CDATA[
+- name: Query Cloud Provider information (cloud:ProvP)
+  aci_cloud_provider:
+      annotation: 
+      certificate_name: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

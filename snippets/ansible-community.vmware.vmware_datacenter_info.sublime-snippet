@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_datacenter_info</tabTrigger>
+	<description>Gather information about VMware vSphere Datacenters</description>
+	<content><![CDATA[
+- name: Gather information about VMware vSphere Datacenters
+  vmware_datacenter_info:
+      datacenter: 
+      hostname: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      show_tag: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

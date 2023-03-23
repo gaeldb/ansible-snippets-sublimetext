@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_network_monitor_settings</tabTrigger>
+	<description>Configure network monitor settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure network monitor settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_network_monitor_settings:
+      access_token: 
+      switch_controller_network_monitor_settings: 
+      vdom: 
+]]>
+	</content>
+</snippet>

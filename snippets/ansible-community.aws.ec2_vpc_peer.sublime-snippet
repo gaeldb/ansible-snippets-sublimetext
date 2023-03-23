@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_peer</tabTrigger>
+	<description>create, delete, accept, and reject VPC peering connections between two VPCs.</description>
+	<content><![CDATA[
+- name: create, delete, accept, and reject VPC peering connections between two VPCs.
+  ec2_vpc_peer:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      peer_owner_id: 
+      peer_region: 
+      peer_vpc_id: 
+      peering_id: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+      wait: 
+]]>
+	</content>
+</snippet>

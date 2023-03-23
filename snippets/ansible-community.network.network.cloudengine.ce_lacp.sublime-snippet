@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_lacp</tabTrigger>
+	<description>Manages Eth-Trunk interfaces on HUAWEI CloudEngine switches</description>
+	<content><![CDATA[
+- name: Manages Eth-Trunk interfaces on HUAWEI CloudEngine switches
+  ce_lacp:
+      collector_delay: 
+      fast_timeout: 
+      global_priority: 
+      max_active_linknumber: 
+      mixed_rate_link_enable: 
+      mode: 
+      port_id_extension_enable: 
+      preempt_delay: 
+      preempt_enable: 
+      priority: 
+      select: 
+      state: 
+      state_flapping: 
+      system_id: 
+      timeout_type: 
+      trunk_id: 
+      unexpected_mac_disable: 
+]]>
+	</content>
+</snippet>

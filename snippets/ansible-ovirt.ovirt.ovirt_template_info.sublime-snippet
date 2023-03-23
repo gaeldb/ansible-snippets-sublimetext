@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_template_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV templates</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV templates
+  ovirt_template_info:
+      auth: 
+      fetch_nested: 
+      nested_attributes: 
+      pattern: 
+]]>
+	</content>
+</snippet>

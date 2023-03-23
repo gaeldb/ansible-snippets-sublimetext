@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.profitbricks_volume</tabTrigger>
+	<description>Create or destroy a volume</description>
+	<content><![CDATA[
+- name: Create or destroy a volume
+  profitbricks_volume:
+      auto_increment: 
+      bus: 
+      count: 
+      datacenter: 
+      disk_type: 
+      image: 
+      image_password: 
+      instance_ids: 
+      licence_type: 
+      name: 
+      server: 
+      size: 
+      ssh_keys: 
+      state: 
+      subscription_password: 
+      subscription_user: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

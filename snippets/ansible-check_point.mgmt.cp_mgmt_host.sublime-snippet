@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_host</tabTrigger>
+	<description>Manages host objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages host objects on Check Point over Web Services API
+  cp_mgmt_host:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      host_servers: 
+      ignore_errors: 
+      ignore_warnings: 
+      interfaces: 
+      ip_address: 
+      ipv4_address: 
+      ipv6_address: 
+      name: 
+      nat_settings: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

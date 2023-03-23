@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ippool6</tabTrigger>
+	<description>Configure IPv6 IP pools in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 IP pools in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ippool6:
+      access_token: 
+      firewall_ippool6: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

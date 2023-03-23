@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.opkg</tabTrigger>
+	<description>Package manager for OpenWrt</description>
+	<content><![CDATA[
+- name: Package manager for OpenWrt
+  opkg:
+      force: 
+      name: 
+      state: 
+      update_cache: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pulp_repo</tabTrigger>
+	<description>Add or remove Pulp repos from a remote host</description>
+	<content><![CDATA[
+- name: Add or remove Pulp repos from a remote host
+  pulp_repo:
+      add_export_distributor: 
+      client_cert: 
+      client_key: 
+      feed: 
+      feed_ca_cert: 
+      feed_client_cert: 
+      feed_client_key: 
+      force: 
+      force_basic_auth: 
+      generate_sqlite: 
+      http_agent: 
+      name: 
+      proxy_host: 
+      proxy_password: 
+      proxy_port: 
+      proxy_username: 
+      publish_distributor: 
+      pulp_host: 
+      relative_url: 
+      repo_type: 
+      repoview: 
+      serve_http: 
+      serve_https: 
+      state: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+      wait_for_completion: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vserver_cifs_security</tabTrigger>
+	<description>NetApp ONTAP vserver CIFS security modification</description>
+	<content><![CDATA[
+- name: NetApp ONTAP vserver CIFS security modification
+  na_ontap_vserver_cifs_security:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      is_aes_encryption_enabled: 
+      is_password_complexity_required: 
+      is_signing_required: 
+      is_smb_encryption_required: 
+      kerberos_clock_skew: 
+      kerberos_kdc_timeout: 
+      kerberos_renew_age: 
+      kerberos_ticket_age: 
+      key_filepath: 
+      lm_compatibility_level: 
+      ontapi: 
+      password: 
+      referral_enabled_for_ad_ldap: 
+      session_security_for_ad_ldap: 
+      smb1_enabled_for_dc_connections: 
+      smb2_enabled_for_dc_connections: 
+      use_rest: 
+      use_start_tls_for_ad_ldap: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

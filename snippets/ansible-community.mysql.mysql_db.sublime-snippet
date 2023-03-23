@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mysql.mysql_db</tabTrigger>
+	<description>Add or remove MySQL databases from a remote host</description>
+	<content><![CDATA[
+- name: Add or remove MySQL databases from a remote host
+  mysql_db:
+      ca_cert: 
+      check_hostname: 
+      check_implicit_admin: 
+      client_cert: 
+      client_key: 
+      collation: 
+      config_file: 
+      config_overrides_defaults: 
+      connect_timeout: 
+      dump_extra_args: 
+      encoding: 
+      force: 
+      hex_blob: 
+      ignore_tables: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      master_data: 
+      name: 
+      quick: 
+      restrict_config_file: 
+      single_transaction: 
+      skip_lock_tables: 
+      state: 
+      target: 
+      unsafe_login_password: 
+      use_shell: 
+]]>
+	</content>
+</snippet>

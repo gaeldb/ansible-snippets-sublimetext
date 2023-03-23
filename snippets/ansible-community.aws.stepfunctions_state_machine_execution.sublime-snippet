@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.stepfunctions_state_machine_execution</tabTrigger>
+	<description>Start or stop execution of an AWS Step Functions state machine</description>
+	<content><![CDATA[
+- name: Start or stop execution of an AWS Step Functions state machine
+  stepfunctions_state_machine_execution:
+      access_key: 
+      action: 
+      aws_ca_bundle: 
+      aws_config: 
+      cause: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      error: 
+      execution_arn: 
+      execution_input: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state_machine_arn: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

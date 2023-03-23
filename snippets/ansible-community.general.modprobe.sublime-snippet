@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.modprobe</tabTrigger>
+	<description>Load or unload kernel modules</description>
+	<content><![CDATA[
+- name: Load or unload kernel modules
+  modprobe:
+      name: 
+      params: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_snmp</tabTrigger>
+	<description>Manages SNMP general configurations on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manages SNMP general configurations on Mellanox ONYX network devices
+  onyx_snmp:
+      communities_enabled: 
+      contact_name: 
+      engine_id_reset: 
+      location: 
+      multi_communities_enabled: 
+      notify_community: 
+      notify_enabled: 
+      notify_event: 
+      notify_port: 
+      notify_send_test: 
+      snmp_communities: 
+      snmp_permissions: 
+      state_enabled: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>blockinfile</tabTrigger>
+	<description>Insert/update/remove a text block surrounded by marker lines</description>
+	<content><![CDATA[
+- name: Insert/update/remove a text block surrounded by marker lines
+  blockinfile:
+      attributes: 
+      backup: 
+      block: 
+      create: 
+      group: 
+      insertafter: 
+      insertbefore: 
+      marker: 
+      marker_begin: 
+      marker_end: 
+      mode: 
+      owner: 
+      path: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+      validate: 
+]]>
+	</content>
+</snippet>

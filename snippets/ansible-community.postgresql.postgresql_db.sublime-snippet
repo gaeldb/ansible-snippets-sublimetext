@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_db</tabTrigger>
+	<description>Add or remove PostgreSQL databases from a remote host</description>
+	<content><![CDATA[
+- name: Add or remove PostgreSQL databases from a remote host
+  postgresql_db:
+      ca_cert: 
+      conn_limit: 
+      dump_extra_args: 
+      encoding: 
+      lc_collate: 
+      lc_ctype: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      maintenance_db: 
+      name: 
+      owner: 
+      port: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      tablespace: 
+      target: 
+      target_opts: 
+      template: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

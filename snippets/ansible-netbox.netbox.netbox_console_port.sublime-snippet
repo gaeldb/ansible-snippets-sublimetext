@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_console_port</tabTrigger>
+	<description>Create, update or delete console ports within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete console ports within Netbox
+  netbox_console_port:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

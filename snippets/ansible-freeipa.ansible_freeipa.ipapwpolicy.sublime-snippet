@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipapwpolicy</tabTrigger>
+	<description>Manage FreeIPA pwpolicies</description>
+	<content><![CDATA[
+- name: Manage FreeIPA pwpolicies
+  ipapwpolicy:
+      dictcheck: 
+      failinterval: 
+      gracelimit: 
+      history: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      lockouttime: 
+      maxfail: 
+      maxlife: 
+      maxrepeat: 
+      maxsequence: 
+      minclasses: 
+      minlength: 
+      minlife: 
+      name: 
+      priority: 
+      state: 
+      usercheck: 
+]]>
+	</content>
+</snippet>

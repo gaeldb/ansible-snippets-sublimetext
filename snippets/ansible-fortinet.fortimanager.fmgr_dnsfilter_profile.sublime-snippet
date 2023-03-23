@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dnsfilter_profile</tabTrigger>
+	<description>Configure DNS domain filter profiles.</description>
+	<content><![CDATA[
+- name: Configure DNS domain filter profiles.
+  fmgr_dnsfilter_profile:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

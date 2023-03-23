@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubevirt.kubevirt_pvc</tabTrigger>
+	<description>Manage PVCs on Kubernetes</description>
+	<content><![CDATA[
+- name: Manage PVCs on Kubernetes
+  kubevirt_pvc:
+      access_modes: 
+      annotations: 
+      api_key: 
+      ca_cert: 
+      cdi_source: 
+      client_cert: 
+      client_key: 
+      context: 
+      force: 
+      host: 
+      kubeconfig: 
+      labels: 
+      merge_type: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      resource_definition: 
+      selector: 
+      size: 
+      state: 
+      storage_class_name: 
+      username: 
+      validate_certs: 
+      volume_mode: 
+      volume_name: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

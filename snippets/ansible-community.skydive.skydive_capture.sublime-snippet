@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.skydive.skydive_capture</tabTrigger>
+	<description>Module which manages flow capture on interfaces</description>
+	<content><![CDATA[
+- name: Module which manages flow capture on interfaces
+  skydive_capture:
+      capture_name: 
+      description: 
+      extra_tcp_metric: 
+      interface_name: 
+      ip_defrag: 
+      layer_key_mode: 
+      provider: 
+      query: 
+      reassemble_tcp: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

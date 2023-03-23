@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_syslogd_override_setting</tabTrigger>
+	<description>Override settings for remote syslog server in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Override settings for remote syslog server in Fortinet's FortiOS and FortiGate.
+  fortios_log_syslogd_override_setting:
+      access_token: 
+      log_syslogd_override_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

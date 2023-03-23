@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_cluster_sync</tabTrigger>
+	<description>Configure FortiGate Session Life Support Protocol (FGSP) session synchronization in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGate Session Life Support Protocol (FGSP) session synchronization in Fortinet's FortiOS and FortiGate.
+  fortios_system_cluster_sync:
+      access_token: 
+      state: 
+      system_cluster_sync: 
+      vdom: 
+]]>
+	</content>
+</snippet>

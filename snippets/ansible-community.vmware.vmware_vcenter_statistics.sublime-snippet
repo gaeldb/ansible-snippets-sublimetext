@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vcenter_statistics</tabTrigger>
+	<description>Configures statistics on a vCenter server</description>
+	<content><![CDATA[
+- name: Configures statistics on a vCenter server
+  vmware_vcenter_statistics:
+      hostname: 
+      interval_past_day: 
+      interval_past_month: 
+      interval_past_week: 
+      interval_past_year: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

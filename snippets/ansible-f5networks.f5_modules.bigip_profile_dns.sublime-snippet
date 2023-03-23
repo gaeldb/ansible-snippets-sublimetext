@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_dns</tabTrigger>
+	<description>Manage DNS profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS profiles on a BIG-IP
+  bigip_profile_dns:
+      cache_name: 
+      enable_cache: 
+      enable_dns_express: 
+      enable_dns_firewall: 
+      enable_dnssec: 
+      enable_gtm: 
+      enable_zone_transfer: 
+      name: 
+      parent: 
+      partition: 
+      process_recursion_desired: 
+      provider: 
+      state: 
+      unhandled_query_action: 
+      use_local_bind: 
+]]>
+	</content>
+</snippet>

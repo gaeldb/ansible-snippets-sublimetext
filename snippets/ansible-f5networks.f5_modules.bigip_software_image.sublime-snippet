@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_software_image</tabTrigger>
+	<description>Manage software images on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage software images on a BIG-IP
+  bigip_software_image:
+      force: 
+      image: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

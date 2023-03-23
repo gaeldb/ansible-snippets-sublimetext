@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.certificate_complete_chain</tabTrigger>
+	<description>Complete certificate chain given a set of untrusted and root certificates</description>
+	<content><![CDATA[
+- name: Complete certificate chain given a set of untrusted and root certificates
+  certificate_complete_chain:
+      input_chain: 
+      intermediate_certificates: 
+      root_certificates: 
+]]>
+	</content>
+</snippet>

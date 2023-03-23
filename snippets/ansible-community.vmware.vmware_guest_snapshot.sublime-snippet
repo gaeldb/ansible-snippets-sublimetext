@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_snapshot</tabTrigger>
+	<description>Manages virtual machines snapshots in vCenter</description>
+	<content><![CDATA[
+- name: Manages virtual machines snapshots in vCenter
+  vmware_guest_snapshot:
+      datacenter: 
+      description: 
+      folder: 
+      hostname: 
+      memory_dump: 
+      moid: 
+      name: 
+      name_match: 
+      new_description: 
+      new_snapshot_name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      quiesce: 
+      remove_children: 
+      snapshot_name: 
+      state: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_kerberos_realm</tabTrigger>
+	<description>NetApp ONTAP vserver nfs kerberos realm</description>
+	<content><![CDATA[
+- name: NetApp ONTAP vserver nfs kerberos realm
+  na_ontap_kerberos_realm:
+      ad_server_ip: 
+      ad_server_name: 
+      admin_server_ip: 
+      admin_server_port: 
+      cert_filepath: 
+      clock_skew: 
+      comment: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      kdc_ip: 
+      kdc_port: 
+      kdc_vendor: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      pw_server_ip: 
+      pw_server_port: 
+      realm: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

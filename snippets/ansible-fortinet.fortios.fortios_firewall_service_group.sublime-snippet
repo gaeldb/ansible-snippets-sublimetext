@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_service_group</tabTrigger>
+	<description>Configure service groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure service groups in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_service_group:
+      access_token: 
+      firewall_service_group: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

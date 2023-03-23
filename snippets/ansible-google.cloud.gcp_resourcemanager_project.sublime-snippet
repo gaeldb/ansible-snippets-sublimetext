@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_resourcemanager_project</tabTrigger>
+	<description>Creates a GCP Project</description>
+	<content><![CDATA[
+- name: Creates a GCP Project
+  gcp_resourcemanager_project:
+      auth_kind: 
+      env_type: 
+      id: 
+      labels: 
+      name: 
+      parent: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

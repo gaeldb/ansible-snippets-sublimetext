@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_compute</tabTrigger>
+	<description>Scaleway compute management module</description>
+	<content><![CDATA[
+- name: Scaleway compute management module
+  scaleway_compute:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      commercial_type: 
+      enable_ipv6: 
+      image: 
+      name: 
+      organization: 
+      project: 
+      public_ip: 
+      query_parameters: 
+      region: 
+      security_group: 
+      state: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_sleep_time: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

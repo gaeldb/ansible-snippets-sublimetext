@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_mon_alarm</tabTrigger>
+	<description>Create or delete a Rackspace Cloud Monitoring alarm</description>
+	<content><![CDATA[
+- name: Create or delete a Rackspace Cloud Monitoring alarm
+  rax_mon_alarm:
+      api_key: 
+      auth_endpoint: 
+      check_id: 
+      credentials: 
+      criteria: 
+      disabled: 
+      entity_id: 
+      env: 
+      identity_type: 
+      label: 
+      metadata: 
+      notification_plan_id: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

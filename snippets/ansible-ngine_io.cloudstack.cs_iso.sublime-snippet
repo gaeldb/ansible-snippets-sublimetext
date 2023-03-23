@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_iso</tabTrigger>
+	<description>Manages ISO images on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages ISO images on Apache CloudStack based clouds.
+  cs_iso:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      bootable: 
+      checksum: 
+      cross_zones: 
+      display_text: 
+      domain: 
+      is_dynamically_scalable: 
+      is_featured: 
+      is_public: 
+      is_ready: 
+      iso_filter: 
+      name: 
+      os_type: 
+      poll_async: 
+      project: 
+      state: 
+      tags: 
+      url: 
+      zone: 
+]]>
+	</content>
+</snippet>

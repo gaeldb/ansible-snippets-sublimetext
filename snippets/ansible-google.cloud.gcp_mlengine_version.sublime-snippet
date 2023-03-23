@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_mlengine_version</tabTrigger>
+	<description>Creates a GCP Version</description>
+	<content><![CDATA[
+- name: Creates a GCP Version
+  gcp_mlengine_version:
+      auth_kind: 
+      auto_scaling: 
+      deployment_uri: 
+      description: 
+      env_type: 
+      framework: 
+      is_default: 
+      labels: 
+      machine_type: 
+      manual_scaling: 
+      model: 
+      name: 
+      prediction_class: 
+      project: 
+      python_version: 
+      runtime_version: 
+      scopes: 
+      service_account: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

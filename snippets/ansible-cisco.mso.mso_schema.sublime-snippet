@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema</tabTrigger>
+	<description>Manage schemas</description>
+	<content><![CDATA[
+- name: Manage schemas
+  mso_schema:
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

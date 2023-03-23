@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_autosupport</tabTrigger>
+	<description>NetApp ONTAP Autosupport</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Autosupport
+  na_ontap_autosupport:
+      cert_filepath: 
+      feature_flags: 
+      from_address: 
+      hostname: 
+      hostname_in_subject: 
+      http_port: 
+      https: 
+      key_filepath: 
+      mail_hosts: 
+      node_name: 
+      noteto: 
+      ontapi: 
+      partner_addresses: 
+      password: 
+      post_url: 
+      proxy_url: 
+      state: 
+      support: 
+      to_addresses: 
+      transport: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

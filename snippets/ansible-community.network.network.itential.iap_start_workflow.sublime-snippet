@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.itential.iap_start_workflow</tabTrigger>
+	<description>Start a workflow in the Itential Automation Platform</description>
+	<content><![CDATA[
+- name: Start a workflow in the Itential Automation Platform
+  iap_start_workflow:
+      description: 
+      https: 
+      iap_fqdn: 
+      iap_port: 
+      token_key: 
+      validate_certs: 
+      variables: 
+      workflow_name: 
+]]>
+	</content>
+</snippet>

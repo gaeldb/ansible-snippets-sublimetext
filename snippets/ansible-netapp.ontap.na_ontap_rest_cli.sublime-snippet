@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_rest_cli</tabTrigger>
+	<description>NetApp ONTAP Run any cli command, the username provided needs to have console login permission.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Run any cli command, the username provided needs to have console login permission.
+  na_ontap_rest_cli:
+      body: 
+      cert_filepath: 
+      command: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      params: 
+      password: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      verb: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_settings</tabTrigger>
+	<description>Configure WAN optimization settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure WAN optimization settings in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_settings:
+      access_token: 
+      vdom: 
+      wanopt_settings: 
+]]>
+	</content>
+</snippet>

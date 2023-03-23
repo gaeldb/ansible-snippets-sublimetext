@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_command</tabTrigger>
+	<description>Run arbitrary commands on Cisco ASA devices</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on Cisco ASA devices
+  asa_command:
+      authorize: 
+      commands: 
+      context: 
+      interval: 
+      match: 
+      passwords: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

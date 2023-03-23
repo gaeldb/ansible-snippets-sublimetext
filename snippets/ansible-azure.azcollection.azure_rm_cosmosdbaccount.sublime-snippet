@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_cosmosdbaccount</tabTrigger>
+	<description>Manage Azure Database Account instance</description>
+	<content><![CDATA[
+- name: Manage Azure Database Account instance
+  azure_rm_cosmosdbaccount:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      consistency_policy: 
+      database_account_offer_type: 
+      enable_automatic_failover: 
+      enable_cassandra: 
+      enable_gremlin: 
+      enable_multiple_write_locations: 
+      enable_table: 
+      geo_rep_locations: 
+      ip_range_filter: 
+      is_virtual_network_filter_enabled: 
+      kind: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      virtual_network_rules: 
+]]>
+	</content>
+</snippet>

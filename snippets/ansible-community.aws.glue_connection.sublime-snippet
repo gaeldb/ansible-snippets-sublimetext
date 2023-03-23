@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.glue_connection</tabTrigger>
+	<description>Manage an AWS Glue connection</description>
+	<content><![CDATA[
+- name: Manage an AWS Glue connection
+  glue_connection:
+      access_key: 
+      availability_zone: 
+      aws_ca_bundle: 
+      aws_config: 
+      catalog_id: 
+      connection_properties: 
+      connection_type: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      match_criteria: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      state: 
+      subnet_id: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

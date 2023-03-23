@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_user</tabTrigger>
+	<description>Create, modify or delete FlashArray local user account</description>
+	<content><![CDATA[
+- name: Create, modify or delete FlashArray local user account
+  purefa_user:
+      api: 
+      api_token: 
+      fa_url: 
+      name: 
+      old_password: 
+      password: 
+      role: 
+      state: 
+]]>
+	</content>
+</snippet>

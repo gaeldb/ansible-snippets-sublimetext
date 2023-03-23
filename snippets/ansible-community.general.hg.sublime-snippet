@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hg</tabTrigger>
+	<description>Manages Mercurial (hg) repositories</description>
+	<content><![CDATA[
+- name: Manages Mercurial (hg) repositories
+  hg:
+      clone: 
+      dest: 
+      executable: 
+      force: 
+      purge: 
+      repo: 
+      revision: 
+      update: 
+]]>
+	</content>
+</snippet>

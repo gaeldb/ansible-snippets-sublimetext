@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.server_info</tabTrigger>
+	<description>Retrieve information about one or more compute instances</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more compute instances
+  server_info:
+      all_projects: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      detailed: 
+      filters: 
+      interface: 
+      region_name: 
+      server: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

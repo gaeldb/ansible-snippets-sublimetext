@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_instance_info</tabTrigger>
+	<description>Gathering information from the API of instances from Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Gathering information from the API of instances from Apache CloudStack based clouds.
+  cs_instance_info:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      name: 
+      project: 
+]]>
+	</content>
+</snippet>

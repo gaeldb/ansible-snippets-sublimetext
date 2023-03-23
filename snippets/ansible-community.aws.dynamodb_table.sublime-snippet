@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.dynamodb_table</tabTrigger>
+	<description>Create, update or delete AWS Dynamo DB tables</description>
+	<content><![CDATA[
+- name: Create, update or delete AWS Dynamo DB tables
+  dynamodb_table:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      billing_mode: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      hash_key_name: 
+      hash_key_type: 
+      indexes: 
+      name: 
+      profile: 
+      purge_tags: 
+      range_key_name: 
+      range_key_type: 
+      read_capacity: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      table_class: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+      write_capacity: 
+]]>
+	</content>
+</snippet>

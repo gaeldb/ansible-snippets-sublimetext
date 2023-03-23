@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_snapshot_images</tabTrigger>
+	<description>NetApp E-Series create and delete snapshot images</description>
+	<content><![CDATA[
+- name: NetApp E-Series create and delete snapshot images
+  netapp_e_snapshot_images:
+      api_password: 
+      api_url: 
+      api_username: 
+      snapshot_group: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

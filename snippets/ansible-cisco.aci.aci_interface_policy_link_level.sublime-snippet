@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_link_level</tabTrigger>
+	<description>Manage Link Level interface policies (fabric:HIfPol)</description>
+	<content><![CDATA[
+- name: Manage Link Level interface policies (fabric:HIfPol)
+  aci_interface_policy_link_level:
+      annotation: 
+      auto_negotiation: 
+      certificate_name: 
+      description: 
+      forwarding_error_correction: 
+      host: 
+      link_debounce_interval: 
+      link_level_policy: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      speed: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

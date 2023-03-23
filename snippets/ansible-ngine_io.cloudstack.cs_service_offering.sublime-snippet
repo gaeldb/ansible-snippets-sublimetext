@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_service_offering</tabTrigger>
+	<description>Manages service offerings on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages service offerings on Apache CloudStack based clouds.
+  cs_service_offering:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cpu_number: 
+      cpu_speed: 
+      deployment_planner: 
+      disk_bytes_read_rate: 
+      disk_bytes_write_rate: 
+      disk_iops_max: 
+      disk_iops_min: 
+      disk_iops_read_rate: 
+      disk_iops_write_rate: 
+      display_text: 
+      domain: 
+      host_tags: 
+      hypervisor_snapshot_reserve: 
+      is_customized: 
+      is_iops_customized: 
+      is_system: 
+      is_volatile: 
+      limit_cpu_usage: 
+      memory: 
+      name: 
+      network_rate: 
+      offer_ha: 
+      provisioning_type: 
+      service_offering_details: 
+      state: 
+      storage_tags: 
+      storage_type: 
+      system_vm_type: 
+]]>
+	</content>
+</snippet>

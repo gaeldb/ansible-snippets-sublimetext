@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vpc</tabTrigger>
+	<description>Manages global VPC configuration</description>
+	<content><![CDATA[
+- name: Manages global VPC configuration
+  nxos_vpc:
+      auto_recovery: 
+      auto_recovery_reload_delay: 
+      delay_restore: 
+      delay_restore_interface_vlan: 
+      delay_restore_orphan_port: 
+      domain: 
+      peer_gw: 
+      pkl_dest: 
+      pkl_src: 
+      pkl_vrf: 
+      provider: 
+      role_priority: 
+      state: 
+      system_priority: 
+]]>
+	</content>
+</snippet>

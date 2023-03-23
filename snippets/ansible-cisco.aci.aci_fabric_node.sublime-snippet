@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_fabric_node</tabTrigger>
+	<description>Manage Fabric Node Members (fabric:NodeIdentP)</description>
+	<content><![CDATA[
+- name: Manage Fabric Node Members (fabric:NodeIdentP)
+  aci_fabric_node:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      node_id: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pod_id: 
+      port: 
+      private_key: 
+      role: 
+      serial: 
+      state: 
+      switch: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

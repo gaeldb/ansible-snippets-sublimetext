@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ssh_host_key</tabTrigger>
+	<description>SSH proxy host public keys in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SSH proxy host public keys in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ssh_host_key:
+      access_token: 
+      firewall_ssh_host_key: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

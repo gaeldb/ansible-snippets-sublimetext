@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_vm_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV virtual machines</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV virtual machines
+  ovirt_vm_info:
+      all_content: 
+      auth: 
+      case_sensitive: 
+      current_cd: 
+      fetch_nested: 
+      max: 
+      nested_attributes: 
+      next_run: 
+      pattern: 
+]]>
+	</content>
+</snippet>

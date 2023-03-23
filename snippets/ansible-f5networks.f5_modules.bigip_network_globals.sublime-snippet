@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_network_globals</tabTrigger>
+	<description>Manage network global settings on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage network global settings on BIG-IP
+  bigip_network_globals:
+      dag: 
+      lldp: 
+      multicast: 
+      provider: 
+      self_allow: 
+      stp: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_og</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage object groups on a Cisco ASA</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage object groups on a Cisco ASA
+  asa_og:
+      description: 
+      group_object: 
+      group_type: 
+      host_ip: 
+      ip_mask: 
+      name: 
+      port_eq: 
+      port_range: 
+      protocol: 
+      service_cfg: 
+      state: 
+]]>
+	</content>
+</snippet>

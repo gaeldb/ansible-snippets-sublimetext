@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_identity_provider</tabTrigger>
+	<description>Allows administration of Keycloak identity providers via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak identity providers via Keycloak API
+  keycloak_identity_provider:
+      add_read_token_role_on_create: 
+      alias: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      authenticate_by_default: 
+      config: 
+      connection_timeout: 
+      display_name: 
+      enabled: 
+      first_broker_login_flow_alias: 
+      http_agent: 
+      link_only: 
+      mappers: 
+      post_broker_login_flow_alias: 
+      provider_id: 
+      realm: 
+      state: 
+      store_token: 
+      token: 
+      trust_email: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

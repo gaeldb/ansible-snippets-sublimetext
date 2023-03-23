@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.offense_action</tabTrigger>
+	<description>Take action on a QRadar Offense</description>
+	<content><![CDATA[
+- name: Take action on a QRadar Offense
+  offense_action:
+      assigned_to: 
+      closing_reason: 
+      closing_reason_id: 
+      follow_up: 
+      id: 
+      protected: 
+      status: 
+]]>
+	</content>
+</snippet>

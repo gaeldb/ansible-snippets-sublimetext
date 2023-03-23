@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_ftp</tabTrigger>
+	<description>Manages FTP profiles</description>
+	<content><![CDATA[
+- name: Manages FTP profiles
+  bigip_profile_ftp:
+      allow_ftps: 
+      description: 
+      inherit_parent_profile: 
+      log_profile: 
+      log_publisher: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      security: 
+      state: 
+      translate_extended: 
+]]>
+	</content>
+</snippet>

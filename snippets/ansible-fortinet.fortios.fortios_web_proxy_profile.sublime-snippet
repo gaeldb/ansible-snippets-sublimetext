@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_web_proxy_profile</tabTrigger>
+	<description>Configure web proxy profiles in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure web proxy profiles in Fortinet's FortiOS and FortiGate.
+  fortios_web_proxy_profile:
+      access_token: 
+      state: 
+      vdom: 
+      web_proxy_profile: 
+]]>
+	</content>
+</snippet>

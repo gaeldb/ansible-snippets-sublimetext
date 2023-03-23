@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_device_bay</tabTrigger>
+	<description>Create, update or delete device bays within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete device bays within Netbox
+  netbox_device_bay:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

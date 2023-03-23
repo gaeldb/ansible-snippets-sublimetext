@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.one_service</tabTrigger>
+	<description>Deploy and manage OpenNebula services</description>
+	<content><![CDATA[
+- name: Deploy and manage OpenNebula services
+  one_service:
+      api_password: 
+      api_url: 
+      api_username: 
+      cardinality: 
+      custom_attrs: 
+      force: 
+      group_id: 
+      mode: 
+      owner_id: 
+      role: 
+      service_id: 
+      service_name: 
+      state: 
+      template_id: 
+      template_name: 
+      unique: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

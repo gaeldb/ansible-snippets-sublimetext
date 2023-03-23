@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_acceptance</tabTrigger>
+	<description>Manage the host acceptance level of an ESXi host</description>
+	<content><![CDATA[
+- name: Manage the host acceptance level of an ESXi host
+  vmware_host_acceptance:
+      acceptance_level: 
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

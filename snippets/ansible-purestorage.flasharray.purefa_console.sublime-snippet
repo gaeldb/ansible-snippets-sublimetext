@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_console</tabTrigger>
+	<description>Enable or Disable Pure Storage FlashArray Console Lock</description>
+	<content><![CDATA[
+- name: Enable or Disable Pure Storage FlashArray Console Lock
+  purefa_console:
+      api_token: 
+      fa_url: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_system</tabTrigger>
+	<description>Query the ACI system information (top:System)</description>
+	<content><![CDATA[
+- name: Query the ACI system information (top:System)
+  aci_system:
+      annotation: 
+      certificate_name: 
+      host: 
+      id: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.rds_snapshot_info</tabTrigger>
+	<description>obtain information about one or more RDS snapshots</description>
+	<content><![CDATA[
+- name: obtain information about one or more RDS snapshots
+  rds_snapshot_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      db_cluster_identifier: 
+      db_cluster_snapshot_identifier: 
+      db_instance_identifier: 
+      db_snapshot_identifier: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      snapshot_type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_alert</tabTrigger>
+	<description>Configure Pure Storage FlashArray alert email settings</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashArray alert email settings
+  purefa_alert:
+      address: 
+      api_token: 
+      enabled: 
+      fa_url: 
+      state: 
+]]>
+	</content>
+</snippet>

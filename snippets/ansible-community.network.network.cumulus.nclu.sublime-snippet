@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cumulus.nclu</tabTrigger>
+	<description>Configure network interfaces using NCLU</description>
+	<content><![CDATA[
+- name: Configure network interfaces using NCLU
+  nclu:
+      abort: 
+      atomic: 
+      commands: 
+      commit: 
+      description: 
+      template: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_broadcast_domain_ports</tabTrigger>
+	<description>NetApp ONTAP manage broadcast domain ports</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage broadcast domain ports
+  na_ontap_broadcast_domain_ports:
+      broadcast_domain: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ipspace: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      ports: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os9.os9_facts</tabTrigger>
+	<description>Collect facts from remote devices running Dell EMC Networking OS9</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Dell EMC Networking OS9
+  os9_facts:
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

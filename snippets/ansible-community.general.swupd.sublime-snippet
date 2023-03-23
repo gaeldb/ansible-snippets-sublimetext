@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.swupd</tabTrigger>
+	<description>Manages updates and bundles in ClearLinux systems</description>
+	<content><![CDATA[
+- name: Manages updates and bundles in ClearLinux systems
+  swupd:
+      contenturl: 
+      format: 
+      manifest: 
+      name: 
+      state: 
+      update: 
+      url: 
+      verify: 
+      versionurl: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_cloudbuild_trigger</tabTrigger>
+	<description>Creates a GCP Trigger</description>
+	<content><![CDATA[
+- name: Creates a GCP Trigger
+  gcp_cloudbuild_trigger:
+      auth_kind: 
+      build: 
+      description: 
+      disabled: 
+      env_type: 
+      filename: 
+      github: 
+      id: 
+      ignored_files: 
+      included_files: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      substitutions: 
+      tags: 
+      trigger_template: 
+]]>
+	</content>
+</snippet>

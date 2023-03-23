@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_monitor_bigip</tabTrigger>
+	<description>Manages F5 BIG-IP GTM BIG-IP monitors</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP GTM BIG-IP monitors
+  bigip_gtm_monitor_bigip:
+      aggregate_dynamic_ratios: 
+      ignore_down_response: 
+      interval: 
+      ip: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

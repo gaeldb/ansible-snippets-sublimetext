@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_drs_group_info</tabTrigger>
+	<description>Gathers info about DRS VM/Host groups on the given cluster</description>
+	<content><![CDATA[
+- name: Gathers info about DRS VM/Host groups on the given cluster
+  vmware_drs_group_info:
+      cluster_name: 
+      datacenter: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

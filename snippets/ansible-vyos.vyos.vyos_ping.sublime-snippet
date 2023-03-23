@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_ping</tabTrigger>
+	<description>Tests reachability using ping from VyOS network devices</description>
+	<content><![CDATA[
+- name: Tests reachability using ping from VyOS network devices
+  vyos_ping:
+      count: 
+      dest: 
+      interval: 
+      provider: 
+      size: 
+      source: 
+      state: 
+      ttl: 
+]]>
+	</content>
+</snippet>

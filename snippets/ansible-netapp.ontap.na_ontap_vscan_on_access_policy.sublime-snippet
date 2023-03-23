@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vscan_on_access_policy</tabTrigger>
+	<description>NetApp ONTAP Vscan on access policy configuration.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Vscan on access policy configuration.
+  na_ontap_vscan_on_access_policy:
+      cert_filepath: 
+      feature_flags: 
+      file_ext_to_exclude: 
+      file_ext_to_include: 
+      filters: 
+      hostname: 
+      http_port: 
+      https: 
+      is_scan_mandatory: 
+      key_filepath: 
+      max_file_size: 
+      ontapi: 
+      password: 
+      paths_to_exclude: 
+      policy_name: 
+      policy_status: 
+      scan_files_with_no_ext: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

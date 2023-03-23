@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_acls</tabTrigger>
+	<description>ACLs resource module</description>
+	<content><![CDATA[
+- name: ACLs resource module
+  junos_acls:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

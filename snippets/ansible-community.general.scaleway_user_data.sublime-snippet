@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_user_data</tabTrigger>
+	<description>Scaleway user_data management module</description>
+	<content><![CDATA[
+- name: Scaleway user_data management module
+  scaleway_user_data:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      query_parameters: 
+      region: 
+      server_id: 
+      user_data: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

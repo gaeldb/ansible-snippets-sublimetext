@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_udp</tabTrigger>
+	<description>Manages F5 BIG-IP LTM UDP monitors</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM UDP monitors
+  bigip_monitor_udp:
+      description: 
+      interval: 
+      ip: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      receive: 
+      receive_disable: 
+      send: 
+      state: 
+      time_until_up: 
+      timeout: 
+]]>
+	</content>
+</snippet>

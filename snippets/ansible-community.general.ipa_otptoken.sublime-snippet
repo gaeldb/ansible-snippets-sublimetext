@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_otptoken</tabTrigger>
+	<description>Manage FreeIPA OTPs</description>
+	<content><![CDATA[
+- name: Manage FreeIPA OTPs
+  ipa_otptoken:
+      algorithm: 
+      counter: 
+      description: 
+      digits: 
+      enabled: 
+      interval: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      model: 
+      newuniqueid: 
+      notafter: 
+      notbefore: 
+      offset: 
+      otptype: 
+      owner: 
+      secretkey: 
+      serial: 
+      state: 
+      uniqueid: 
+      validate_certs: 
+      vendor: 
+]]>
+	</content>
+</snippet>

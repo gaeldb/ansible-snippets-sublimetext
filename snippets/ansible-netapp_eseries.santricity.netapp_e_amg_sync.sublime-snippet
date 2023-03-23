@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_amg_sync</tabTrigger>
+	<description>NetApp E-Series conduct synchronization actions on asynchronous mirror groups.</description>
+	<content><![CDATA[
+- name: NetApp E-Series conduct synchronization actions on asynchronous mirror groups.
+  netapp_e_amg_sync:
+      api_password: 
+      api_url: 
+      api_username: 
+      delete_recovery_point: 
+      name: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

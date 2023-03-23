@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_listener</tabTrigger>
+	<description>Add/Delete a listener for a load balancer from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete a listener for a load balancer from OpenStack Cloud
+  lb_listener:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      loadbalancer: 
+      name: 
+      protocol: 
+      protocol_port: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_static_route</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage static IP routes on network appliances (routers, switches et. al.)</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage static IP routes on network appliances (routers, switches et. al.)
+  net_static_route:
+      admin_distance: 
+      aggregate: 
+      mask: 
+      next_hop: 
+      prefix: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

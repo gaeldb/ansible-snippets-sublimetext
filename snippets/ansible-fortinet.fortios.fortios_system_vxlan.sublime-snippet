@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vxlan</tabTrigger>
+	<description>Configure VXLAN devices in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure VXLAN devices in Fortinet's FortiOS and FortiGate.
+  fortios_system_vxlan:
+      access_token: 
+      state: 
+      system_vxlan: 
+      vdom: 
+]]>
+	</content>
+</snippet>

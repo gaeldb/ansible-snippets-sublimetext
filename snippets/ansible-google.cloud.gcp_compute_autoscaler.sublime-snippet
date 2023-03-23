@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_autoscaler</tabTrigger>
+	<description>Creates a GCP Autoscaler</description>
+	<content><![CDATA[
+- name: Creates a GCP Autoscaler
+  gcp_compute_autoscaler:
+      auth_kind: 
+      autoscaling_policy: 
+      description: 
+      env_type: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      target: 
+      zone: 
+]]>
+	</content>
+</snippet>

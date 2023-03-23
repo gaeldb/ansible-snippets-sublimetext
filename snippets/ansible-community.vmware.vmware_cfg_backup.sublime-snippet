@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_cfg_backup</tabTrigger>
+	<description>Backup / Restore / Reset ESXi host configuration</description>
+	<content><![CDATA[
+- name: Backup / Restore / Reset ESXi host configuration
+  vmware_cfg_backup:
+      dest: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      src: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

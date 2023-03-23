@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_http</tabTrigger>
+	<description>Setup HTTP</description>
+	<content><![CDATA[
+- name: Setup HTTP
+  ipareplica_setup_http:
+      _ca_enabled: 
+      _ca_file: 
+      _http_pkcs12_info: 
+      _top_dir: 
+      ccache: 
+      config_ca_host_name: 
+      config_master_host_name: 
+      dirman_password: 
+      no_pkinit: 
+      no_ui_redirect: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

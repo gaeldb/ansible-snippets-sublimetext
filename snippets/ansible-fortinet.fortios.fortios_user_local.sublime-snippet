@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_local</tabTrigger>
+	<description>Configure local users in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure local users in Fortinet's FortiOS and FortiGate.
+  fortios_user_local:
+      access_token: 
+      state: 
+      user_local: 
+      vdom: 
+]]>
+	</content>
+</snippet>

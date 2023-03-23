@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_nis</tabTrigger>
+	<description>Setup NIS for IPA client</description>
+	<content><![CDATA[
+- name: Setup NIS for IPA client
+  ipaclient_setup_nis:
+      domain: 
+      nisdomain: 
+]]>
+	</content>
+</snippet>

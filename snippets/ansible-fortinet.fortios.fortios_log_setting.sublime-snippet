@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_setting</tabTrigger>
+	<description>Configure general log settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure general log settings in Fortinet's FortiOS and FortiGate.
+  fortios_log_setting:
+      access_token: 
+      log_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

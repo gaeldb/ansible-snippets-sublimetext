@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_query</tabTrigger>
+	<description>Run PostgreSQL queries</description>
+	<content><![CDATA[
+- name: Run PostgreSQL queries
+  postgresql_query:
+      as_single_query: 
+      autocommit: 
+      ca_cert: 
+      db: 
+      encoding: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      named_args: 
+      path_to_script: 
+      port: 
+      positional_args: 
+      query: 
+      search_path: 
+      session_role: 
+      ssl_mode: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.snap</tabTrigger>
+	<description>Manages snaps</description>
+	<content><![CDATA[
+- name: Manages snaps
+  snap:
+      channel: 
+      classic: 
+      name: 
+      options: 
+      state: 
+]]>
+	</content>
+</snippet>

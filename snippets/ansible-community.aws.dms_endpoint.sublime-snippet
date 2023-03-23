@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.dms_endpoint</tabTrigger>
+	<description>Creates or destroys a data migration services endpoint</description>
+	<content><![CDATA[
+- name: Creates or destroys a data migration services endpoint
+  dms_endpoint:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      certificatearn: 
+      databasename: 
+      debug_botocore_endpoint_logs: 
+      dmstransfersettings: 
+      dynamodbsettings: 
+      elasticsearchsettings: 
+      endpoint_url: 
+      endpointidentifier: 
+      endpointtype: 
+      enginename: 
+      externaltabledefinition: 
+      extraconnectionattributes: 
+      kinesissettings: 
+      kmskeyid: 
+      mongodbsettings: 
+      password: 
+      port: 
+      profile: 
+      purge_tags: 
+      region: 
+      retries: 
+      s3settings: 
+      secret_key: 
+      servername: 
+      serviceaccessrolearn: 
+      session_token: 
+      sslmode: 
+      state: 
+      tags: 
+      timeout: 
+      username: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

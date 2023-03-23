@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openvswitch.openvswitch.openvswitch_port</tabTrigger>
+	<description>Manage Open vSwitch ports</description>
+	<content><![CDATA[
+- name: Manage Open vSwitch ports
+  openvswitch_port:
+      bridge: 
+      external_ids: 
+      port: 
+      set: 
+      state: 
+      tag: 
+      timeout: 
+]]>
+	</content>
+</snippet>

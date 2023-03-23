@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_server_info</tabTrigger>
+	<description>Gather information about the Scaleway servers available</description>
+	<content><![CDATA[
+- name: Gather information about the Scaleway servers available
+  scaleway_server_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      query_parameters: 
+      region: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

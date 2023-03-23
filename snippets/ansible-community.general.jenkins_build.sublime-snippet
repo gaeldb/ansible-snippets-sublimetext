@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jenkins_build</tabTrigger>
+	<description>Manage jenkins builds</description>
+	<content><![CDATA[
+- name: Manage jenkins builds
+  jenkins_build:
+      args: 
+      build_number: 
+      name: 
+      password: 
+      state: 
+      token: 
+      url: 
+      user: 
+]]>
+	</content>
+</snippet>

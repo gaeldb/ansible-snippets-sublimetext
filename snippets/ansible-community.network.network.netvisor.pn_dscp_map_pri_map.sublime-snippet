@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_dscp_map_pri_map</tabTrigger>
+	<description>CLI command to modify dscp-map-pri-map</description>
+	<content><![CDATA[
+- name: CLI command to modify dscp-map-pri-map
+  pn_dscp_map_pri_map:
+      pn_cliswitch: 
+      pn_dsmap: 
+      pn_name: 
+      pn_pri: 
+      state: 
+]]>
+	</content>
+</snippet>

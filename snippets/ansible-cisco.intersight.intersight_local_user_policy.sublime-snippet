@@ -1,0 +1,9 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_local_user_policy</tabTrigger>
+	<description></description>
+	<content><![CDATA[
+
+]]>
+	</content>
+</snippet>

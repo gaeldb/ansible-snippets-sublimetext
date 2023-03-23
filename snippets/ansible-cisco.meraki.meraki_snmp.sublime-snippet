@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_snmp</tabTrigger>
+	<description>Manage organizations in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage organizations in the Meraki cloud
+  meraki_snmp:
+      access: 
+      auth_key: 
+      community_string: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      peer_ips: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      users: 
+      v2c_enabled: 
+      v3_auth_mode: 
+      v3_auth_pass: 
+      v3_enabled: 
+      v3_priv_mode: 
+      v3_priv_pass: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

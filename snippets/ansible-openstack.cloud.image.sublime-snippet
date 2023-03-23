@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.image</tabTrigger>
+	<description>Add/Delete images from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete images from OpenStack Cloud
+  image:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      checksum: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      container_format: 
+      disk_format: 
+      filename: 
+      id: 
+      interface: 
+      is_public: 
+      kernel: 
+      min_disk: 
+      min_ram: 
+      name: 
+      owner: 
+      properties: 
+      protected: 
+      ramdisk: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      volume: 
+      wait: 
+]]>
+	</content>
+</snippet>

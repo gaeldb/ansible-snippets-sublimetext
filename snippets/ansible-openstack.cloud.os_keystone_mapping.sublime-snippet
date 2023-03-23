@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_keystone_mapping</tabTrigger>
+	<description>Manage a federation mapping</description>
+	<content><![CDATA[
+- name: Manage a federation mapping
+  federation_mapping:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      name: 
+      region_name: 
+      rules: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

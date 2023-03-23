@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_remote_syslog</tabTrigger>
+	<description>Manipulate remote syslog settings on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manipulate remote syslog settings on a BIG-IP
+  bigip_remote_syslog:
+      local_ip: 
+      name: 
+      provider: 
+      remote_host: 
+      remote_port: 
+      state: 
+]]>
+	</content>
+</snippet>

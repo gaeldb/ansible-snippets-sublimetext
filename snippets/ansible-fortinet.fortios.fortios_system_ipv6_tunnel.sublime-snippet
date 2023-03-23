@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ipv6_tunnel</tabTrigger>
+	<description>Configure IPv6/IPv4 in IPv6 tunnel in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6/IPv4 in IPv6 tunnel in Fortinet's FortiOS and FortiGate.
+  fortios_system_ipv6_tunnel:
+      access_token: 
+      state: 
+      system_ipv6_tunnel: 
+      vdom: 
+]]>
+	</content>
+</snippet>

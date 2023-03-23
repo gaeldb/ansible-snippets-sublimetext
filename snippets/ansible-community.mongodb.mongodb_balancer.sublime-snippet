@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_balancer</tabTrigger>
+	<description>Manages the MongoDB Sharded Cluster Balancer.</description>
+	<content><![CDATA[
+- name: Manages the MongoDB Sharded Cluster Balancer.
+  mongodb_balancer:
+      auth_mechanism: 
+      autosplit: 
+      chunksize: 
+      connection_options: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      mongos_process: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      state: 
+      window: 
+]]>
+	</content>
+</snippet>

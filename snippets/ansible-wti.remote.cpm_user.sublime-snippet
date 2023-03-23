@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_user</tabTrigger>
+	<description>Get various status and parameters from WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Get various status and parameters from WTI OOB and PDU devices
+  cpm_user:
+      cpm_action: 
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      use_https: 
+      use_proxy: 
+      user_accessapi: 
+      user_accesslevel: 
+      user_accessmonitor: 
+      user_accessoutbound: 
+      user_accessserial: 
+      user_accessssh: 
+      user_accessweb: 
+      user_callbackphone: 
+      user_groupaccess: 
+      user_name: 
+      user_pass: 
+      user_plugaccess: 
+      user_portaccess: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

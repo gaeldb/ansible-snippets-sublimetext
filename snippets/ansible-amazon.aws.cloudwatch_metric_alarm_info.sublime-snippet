@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatch_metric_alarm_info</tabTrigger>
+	<description>Gather information about the alarms for the specified metric</description>
+	<content><![CDATA[
+- name: Gather information about the alarms for the specified metric
+  cloudwatch_metric_alarm_info:
+      access_key: 
+      action_prefix: 
+      alarm_name_prefix: 
+      alarm_names: 
+      alarm_type: 
+      aws_ca_bundle: 
+      aws_config: 
+      children_of_alarm_name: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      parents_of_alarm_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state_value: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

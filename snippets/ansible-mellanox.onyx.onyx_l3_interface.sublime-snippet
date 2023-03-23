@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_l3_interface</tabTrigger>
+	<description>Manage L3 interfaces on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage L3 interfaces on Mellanox ONYX network devices
+  onyx_l3_interface:
+      aggregate: 
+      ipv4: 
+      ipv6: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

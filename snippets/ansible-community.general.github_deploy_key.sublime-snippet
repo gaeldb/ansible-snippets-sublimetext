@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.github_deploy_key</tabTrigger>
+	<description>Manages deploy keys for GitHub repositories</description>
+	<content><![CDATA[
+- name: Manages deploy keys for GitHub repositories
+  github_deploy_key:
+      force: 
+      github_url: 
+      key: 
+      name: 
+      otp: 
+      owner: 
+      password: 
+      read_only: 
+      repo: 
+      state: 
+      token: 
+      username: 
+]]>
+	</content>
+</snippet>

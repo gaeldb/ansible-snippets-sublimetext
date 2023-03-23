@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_function_namespace_info</tabTrigger>
+	<description>Retrieve information on Scaleway Function namespace</description>
+	<content><![CDATA[
+- name: Retrieve information on Scaleway Function namespace
+  scaleway_function_namespace_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      name: 
+      project_id: 
+      query_parameters: 
+      region: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

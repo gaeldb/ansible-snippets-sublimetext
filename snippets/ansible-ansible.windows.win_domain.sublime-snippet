@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_domain</tabTrigger>
+	<description>Ensures the existence of a Windows domain</description>
+	<content><![CDATA[
+- name: Ensures the existence of a Windows domain
+  win_domain:
+      create_dns_delegation: 
+      database_path: 
+      dns_domain_name: 
+      domain_mode: 
+      domain_netbios_name: 
+      forest_mode: 
+      install_dns: 
+      log_path: 
+      safe_mode_password: 
+      sysvol_path: 
+]]>
+	</content>
+</snippet>

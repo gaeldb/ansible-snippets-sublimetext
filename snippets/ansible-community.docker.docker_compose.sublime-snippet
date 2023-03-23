@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_compose</tabTrigger>
+	<description>Manage multi-container Docker applications with Docker Compose.</description>
+	<content><![CDATA[
+- name: Manage multi-container Docker applications with Docker Compose.
+  docker_compose:
+      api_version: 
+      build: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      definition: 
+      dependencies: 
+      docker_host: 
+      files: 
+      hostname_check: 
+      nocache: 
+      project_name: 
+      project_src: 
+      pull: 
+      recreate: 
+      remove_images: 
+      remove_orphans: 
+      remove_volumes: 
+      restarted: 
+      scale: 
+      services: 
+      ssl_version: 
+      state: 
+      stopped: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

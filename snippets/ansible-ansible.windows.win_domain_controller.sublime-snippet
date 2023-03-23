@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_domain_controller</tabTrigger>
+	<description>Manage domain controller/member server state for a Windows host</description>
+	<content><![CDATA[
+- name: Manage domain controller/member server state for a Windows host
+  win_domain_controller:
+      database_path: 
+      dns_domain_name: 
+      domain_admin_password: 
+      domain_admin_user: 
+      domain_log_path: 
+      install_dns: 
+      install_media_path: 
+      local_admin_password: 
+      log_path: 
+      read_only: 
+      safe_mode_password: 
+      site_name: 
+      state: 
+      sysvol_path: 
+]]>
+	</content>
+</snippet>

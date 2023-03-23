@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_lacp</tabTrigger>
+	<description>LACP resource module</description>
+	<content><![CDATA[
+- name: LACP resource module
+  ios_lacp:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

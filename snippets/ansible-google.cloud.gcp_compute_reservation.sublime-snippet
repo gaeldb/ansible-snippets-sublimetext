@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_reservation</tabTrigger>
+	<description>Creates a GCP Reservation</description>
+	<content><![CDATA[
+- name: Creates a GCP Reservation
+  gcp_compute_reservation:
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      specific_reservation: 
+      specific_reservation_required: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_vlan</tabTrigger>
+	<description>Manage VLANs on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage VLANs on Mellanox ONYX network devices
+  onyx_vlan:
+      aggregate: 
+      name: 
+      purge: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

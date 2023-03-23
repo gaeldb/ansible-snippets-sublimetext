@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_acl</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manages access list entries for ACLs.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manages access list entries for ACLs.
+  nxos_acl:
+      ack: 
+      action: 
+      dest: 
+      dest_port1: 
+      dest_port2: 
+      dest_port_op: 
+      dscp: 
+      established: 
+      fin: 
+      fragments: 
+      log: 
+      name: 
+      precedence: 
+      proto: 
+      provider: 
+      psh: 
+      remark: 
+      rst: 
+      seq: 
+      src: 
+      src_port1: 
+      src_port2: 
+      src_port_op: 
+      state: 
+      syn: 
+      time_range: 
+      urg: 
+]]>
+	</content>
+</snippet>

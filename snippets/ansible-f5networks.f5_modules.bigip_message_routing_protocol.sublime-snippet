@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_message_routing_protocol</tabTrigger>
+	<description>Manage the generic message parser profile.</description>
+	<content><![CDATA[
+- name: Manage the generic message parser profile.
+  bigip_message_routing_protocol:
+      description: 
+      disable_parser: 
+      max_egress_buffer: 
+      max_msg_size: 
+      msg_terminator: 
+      name: 
+      no_response: 
+      parent: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

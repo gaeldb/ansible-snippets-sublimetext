@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sorcery</tabTrigger>
+	<description>Package manager for Source Mage GNU/Linux</description>
+	<content><![CDATA[
+- name: Package manager for Source Mage GNU/Linux
+  sorcery:
+      cache_valid_time: 
+      depends: 
+      name: 
+      state: 
+      update: 
+      update_cache: 
+]]>
+	</content>
+</snippet>

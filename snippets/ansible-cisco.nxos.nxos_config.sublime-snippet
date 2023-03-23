@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_config</tabTrigger>
+	<description>Manage Cisco NXOS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Cisco NXOS configuration sections
+  nxos_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      defaults: 
+      diff_against: 
+      diff_ignore_lines: 
+      intended_config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      replace_src: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

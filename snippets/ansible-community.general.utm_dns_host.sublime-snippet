@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_dns_host</tabTrigger>
+	<description>Create, update or destroy dns entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy dns entry in Sophos UTM
+  utm_dns_host:
+      address: 
+      address6: 
+      comment: 
+      headers: 
+      hostname: 
+      interface: 
+      name: 
+      resolved: 
+      resolved6: 
+      state: 
+      timeout: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

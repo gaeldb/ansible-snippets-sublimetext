@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.aruba.aruba_config</tabTrigger>
+	<description>Manage Aruba configuration sections</description>
+	<content><![CDATA[
+- name: Manage Aruba configuration sections
+  aruba_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      diff_against: 
+      diff_ignore_lines: 
+      encrypt: 
+      intended_config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

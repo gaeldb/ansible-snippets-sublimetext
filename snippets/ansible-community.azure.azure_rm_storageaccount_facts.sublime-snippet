@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_storageaccount_facts</tabTrigger>
+	<description>Get storage account facts</description>
+	<content><![CDATA[
+- name: Get storage account facts
+  azure_rm_storageaccount_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      show_blob_cors: 
+      show_connection_string: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

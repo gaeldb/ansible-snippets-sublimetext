@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_service</tabTrigger>
+	<description>Manage FreeIPA service</description>
+	<content><![CDATA[
+- name: Manage FreeIPA service
+  ipa_service:
+      force: 
+      hosts: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      krbcanonicalname: 
+      skip_host_check: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

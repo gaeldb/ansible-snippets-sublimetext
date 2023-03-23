@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>reboot</tabTrigger>
+	<description>Reboot a machine</description>
+	<content><![CDATA[
+- name: Reboot a machine
+  reboot:
+      boot_time_command: 
+      connect_timeout: 
+      msg: 
+      post_reboot_delay: 
+      pre_reboot_delay: 
+      reboot_command: 
+      reboot_timeout: 
+      search_paths: 
+      test_command: 
+]]>
+	</content>
+</snippet>

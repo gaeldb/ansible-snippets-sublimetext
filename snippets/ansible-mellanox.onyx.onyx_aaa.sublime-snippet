@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_aaa</tabTrigger>
+	<description>Configures AAA parameters</description>
+	<content><![CDATA[
+- name: Configures AAA parameters
+  onyx_aaa:
+      auth_default_user: 
+      auth_fallback_enabled: 
+      auth_order: 
+      tacacs_accounting_enabled: 
+]]>
+	</content>
+</snippet>

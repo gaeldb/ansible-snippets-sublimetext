@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_launch_template</tabTrigger>
+	<description>Manage EC2 launch templates</description>
+	<content><![CDATA[
+- name: Manage EC2 launch templates
+  ec2_launch_template:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      block_device_mappings: 
+      cpu_options: 
+      credit_specification: 
+      debug_botocore_endpoint_logs: 
+      default_version: 
+      disable_api_termination: 
+      ebs_optimized: 
+      elastic_gpu_specifications: 
+      endpoint_url: 
+      iam_instance_profile: 
+      image_id: 
+      instance_initiated_shutdown_behavior: 
+      instance_market_options: 
+      instance_type: 
+      kernel_id: 
+      key_name: 
+      metadata_options: 
+      monitoring: 
+      network_interfaces: 
+      placement: 
+      profile: 
+      ram_disk_id: 
+      region: 
+      secret_key: 
+      security_group_ids: 
+      security_groups: 
+      session_token: 
+      source_version: 
+      state: 
+      tags: 
+      template_id: 
+      template_name: 
+      user_data: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

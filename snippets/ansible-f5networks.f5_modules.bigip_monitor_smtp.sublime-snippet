@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_smtp</tabTrigger>
+	<description>Manage SMTP monitors on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage SMTP monitors on a BIG-IP
+  bigip_monitor_smtp:
+      app_service: 
+      debug: 
+      description: 
+      domain: 
+      interval: 
+      ip: 
+      manual_resume: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      state: 
+      time_until_up: 
+      timeout: 
+      up_interval: 
+]]>
+	</content>
+</snippet>

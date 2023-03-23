@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_save</tabTrigger>
+	<description>Save the running configuration as the startup configuration on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Save the running configuration as the startup configuration on devices running Lenovo CNOS
+  cnos_save:
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualnetworkpeering_info</tabTrigger>
+	<description>Get facts of Azure Virtual Network Peering</description>
+	<content><![CDATA[
+- name: Get facts of Azure Virtual Network Peering
+  azure_rm_virtualnetworkpeering_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tenant: 
+      virtual_network: 
+]]>
+	</content>
+</snippet>

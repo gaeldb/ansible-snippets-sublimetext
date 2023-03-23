@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.exos.exos_command</tabTrigger>
+	<description>Run commands on remote devices running Extreme EXOS</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Extreme EXOS
+  exos_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_lldp_interface</tabTrigger>
+	<description>Manage LLDP interfaces configuration on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage LLDP interfaces configuration on Mellanox ONYX network devices
+  onyx_lldp_interface:
+      aggregate: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

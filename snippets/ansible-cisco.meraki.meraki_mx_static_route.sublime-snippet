@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_static_route</tabTrigger>
+	<description>Manage static routes in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage static routes in the Meraki cloud
+  meraki_mx_static_route:
+      auth_key: 
+      enabled: 
+      fixed_ip_assignments: 
+      gateway_ip: 
+      host: 
+      internal_error_retry_time: 
+      name: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      reserved_ip_ranges: 
+      route_id: 
+      state: 
+      subnet: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

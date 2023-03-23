@@ -1,0 +1,61 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_secprof_wanopt</tabTrigger>
+	<description>WAN optimization</description>
+	<content><![CDATA[
+- name: WAN optimization
+  fmgr_secprof_wanopt:
+      adom: 
+      auth_group: 
+      cifs: 
+      cifs_byte_caching: 
+      cifs_log_traffic: 
+      cifs_port: 
+      cifs_prefer_chunking: 
+      cifs_secure_tunnel: 
+      cifs_status: 
+      cifs_tunnel_sharing: 
+      comments: 
+      ftp: 
+      ftp_byte_caching: 
+      ftp_log_traffic: 
+      ftp_port: 
+      ftp_prefer_chunking: 
+      ftp_secure_tunnel: 
+      ftp_status: 
+      ftp_tunnel_sharing: 
+      http: 
+      http_byte_caching: 
+      http_log_traffic: 
+      http_port: 
+      http_prefer_chunking: 
+      http_secure_tunnel: 
+      http_ssl: 
+      http_ssl_port: 
+      http_status: 
+      http_tunnel_non_http: 
+      http_tunnel_sharing: 
+      http_unknown_http_version: 
+      mapi: 
+      mapi_byte_caching: 
+      mapi_log_traffic: 
+      mapi_port: 
+      mapi_secure_tunnel: 
+      mapi_status: 
+      mapi_tunnel_sharing: 
+      mode: 
+      name: 
+      tcp: 
+      tcp_byte_caching: 
+      tcp_byte_caching_opt: 
+      tcp_log_traffic: 
+      tcp_port: 
+      tcp_secure_tunnel: 
+      tcp_ssl: 
+      tcp_ssl_port: 
+      tcp_status: 
+      tcp_tunnel_sharing: 
+      transparent: 
+]]>
+	</content>
+</snippet>

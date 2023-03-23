@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_epg</tabTrigger>
+	<description>Manage End Point Groups (EPG) objects (fv:AEPg)</description>
+	<content><![CDATA[
+- name: Manage End Point Groups (EPG) objects (fv:AEPg)
+  aci_epg:
+      annotation: 
+      ap: 
+      bd: 
+      certificate_name: 
+      description: 
+      epg: 
+      fwd_control: 
+      host: 
+      intra_epg_isolation: 
+      monitoring_policy: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      preferred_group: 
+      priority: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

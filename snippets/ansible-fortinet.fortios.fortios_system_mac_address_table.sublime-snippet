@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_mac_address_table</tabTrigger>
+	<description>Configure MAC address tables in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure MAC address tables in Fortinet's FortiOS and FortiGate.
+  fortios_system_mac_address_table:
+      access_token: 
+      state: 
+      system_mac_address_table: 
+      vdom: 
+]]>
+	</content>
+</snippet>

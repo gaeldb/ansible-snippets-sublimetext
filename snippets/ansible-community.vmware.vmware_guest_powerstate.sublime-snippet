@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_powerstate</tabTrigger>
+	<description>Manages power states of virtual machines in vCenter</description>
+	<content><![CDATA[
+- name: Manages power states of virtual machines in vCenter
+  vmware_guest_powerstate:
+      folder: 
+      force: 
+      hostname: 
+      moid: 
+      name: 
+      name_match: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      schedule_task_description: 
+      schedule_task_enabled: 
+      schedule_task_name: 
+      scheduled_at: 
+      state: 
+      state_change_timeout: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.msk_cluster</tabTrigger>
+	<description>Manage Amazon MSK clusters</description>
+	<content><![CDATA[
+- name: Manage Amazon MSK clusters
+  msk_cluster:
+      access_key: 
+      authentication: 
+      aws_ca_bundle: 
+      aws_config: 
+      configuration_arn: 
+      configuration_revision: 
+      debug_botocore_endpoint_logs: 
+      ebs_volume_size: 
+      encryption: 
+      endpoint_url: 
+      enhanced_monitoring: 
+      instance_type: 
+      logging: 
+      name: 
+      nodes: 
+      open_monitoring: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      version: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

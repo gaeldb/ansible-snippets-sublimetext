@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_ds</tabTrigger>
+	<description>Setup DS</description>
+	<content><![CDATA[
+- name: Setup DS
+  ipareplica_setup_ds:
+      _add_to_ipaservers: 
+      _ca_enabled: 
+      _ca_subject: 
+      _dirsrv_pkcs12_info: 
+      _subject_base: 
+      _top_dir: 
+      ca_cert_files: 
+      ccache: 
+      config_ca_host_name: 
+      config_ips: 
+      config_master_host_name: 
+      config_setup_ca: 
+      dirman_password: 
+      dirsrv_cert_files: 
+      dirsrv_config_file: 
+      dm_password: 
+      domain: 
+      force_join: 
+      hostname: 
+      installer_ccache: 
+      ip_addresses: 
+      no_host_dns: 
+      no_pkinit: 
+      password: 
+      realm: 
+      server: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

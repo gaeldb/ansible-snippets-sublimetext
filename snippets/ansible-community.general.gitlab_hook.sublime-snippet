@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_hook</tabTrigger>
+	<description>Manages GitLab project hooks</description>
+	<content><![CDATA[
+- name: Manages GitLab project hooks
+  gitlab_hook:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      hook_url: 
+      hook_validate_certs: 
+      issues_events: 
+      job_events: 
+      merge_requests_events: 
+      note_events: 
+      pipeline_events: 
+      project: 
+      push_events: 
+      push_events_branch_filter: 
+      state: 
+      tag_push_events: 
+      token: 
+      validate_certs: 
+      wiki_page_events: 
+]]>
+	</content>
+</snippet>

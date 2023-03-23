@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_command</tabTrigger>
+	<description>Run TMSH and BASH commands on F5 devices</description>
+	<content><![CDATA[
+- name: Run TMSH and BASH commands on F5 devices
+  bigip_command:
+      chdir: 
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+      warn: 
+]]>
+	</content>
+</snippet>

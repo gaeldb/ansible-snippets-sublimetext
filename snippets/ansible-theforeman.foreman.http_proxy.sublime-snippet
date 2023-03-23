@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.http_proxy</tabTrigger>
+	<description>Manage HTTP Proxies</description>
+	<content><![CDATA[
+- name: Manage HTTP Proxies
+  http_proxy:
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      proxy_password: 
+      proxy_username: 
+      server_url: 
+      state: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_network</tabTrigger>
+	<description>Manage networks in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage networks in the Meraki cloud
+  meraki_network:
+      auth_key: 
+      enable_vlans: 
+      host: 
+      internal_error_retry_time: 
+      local_status_page_enabled: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      remote_status_page_enabled: 
+      state: 
+      tags: 
+      timeout: 
+      timezone: 
+      type: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

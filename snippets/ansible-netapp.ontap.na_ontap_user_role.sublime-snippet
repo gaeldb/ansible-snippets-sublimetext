@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_user_role</tabTrigger>
+	<description>NetApp ONTAP user role configuration and management</description>
+	<content><![CDATA[
+- name: NetApp ONTAP user role configuration and management
+  na_ontap_user_role:
+      access_level: 
+      cert_filepath: 
+      command_directory_name: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      query: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

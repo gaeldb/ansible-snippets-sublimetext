@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rhn_channel</tabTrigger>
+	<description>Adds or removes Red Hat software channels</description>
+	<content><![CDATA[
+- name: Adds or removes Red Hat software channels
+  rhn_channel:
+      name: 
+      password: 
+      state: 
+      sysname: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

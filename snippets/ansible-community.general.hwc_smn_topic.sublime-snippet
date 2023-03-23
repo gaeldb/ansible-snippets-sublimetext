@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_smn_topic</tabTrigger>
+	<description>Creates a resource of SMNTopic in Huaweicloud Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of SMNTopic in Huaweicloud Cloud
+  hwc_smn_topic:
+      display_name: 
+      domain: 
+      id: 
+      identity_endpoint: 
+      name: 
+      password: 
+      project: 
+      region: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

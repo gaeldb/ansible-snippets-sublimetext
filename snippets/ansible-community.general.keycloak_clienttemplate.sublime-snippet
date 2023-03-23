@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_clienttemplate</tabTrigger>
+	<description>Allows administration of Keycloak client templates via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak client templates via Keycloak API
+  keycloak_clienttemplate:
+      attributes: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      connection_timeout: 
+      description: 
+      full_scope_allowed: 
+      http_agent: 
+      id: 
+      name: 
+      protocol: 
+      protocol_mappers: 
+      realm: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

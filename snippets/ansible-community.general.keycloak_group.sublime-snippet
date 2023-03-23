@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_group</tabTrigger>
+	<description>Allows administration of Keycloak groups via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak groups via Keycloak API
+  keycloak_group:
+      attributes: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      connection_timeout: 
+      http_agent: 
+      id: 
+      name: 
+      realm: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

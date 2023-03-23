@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>replace</tabTrigger>
+	<description>Replace all instances of a particular string in a file using a back-referenced regular expression</description>
+	<content><![CDATA[
+- name: Replace all instances of a particular string in a file using a back-referenced regular expression
+  replace:
+      after: 
+      attributes: 
+      backup: 
+      before: 
+      encoding: 
+      group: 
+      mode: 
+      others: 
+      owner: 
+      path: 
+      regexp: 
+      replace: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      unsafe_writes: 
+      validate: 
+]]>
+	</content>
+</snippet>

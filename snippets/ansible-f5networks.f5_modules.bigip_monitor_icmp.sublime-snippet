@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_icmp</tabTrigger>
+	<description>Manages F5 BIG-IP LTM ICMP monitors</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM ICMP monitors
+  bigip_monitor_icmp:
+      adaptive: 
+      adaptive_limit: 
+      allowed_divergence_type: 
+      allowed_divergence_value: 
+      app_service: 
+      description: 
+      interval: 
+      ip: 
+      manual_resume: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      sampling_timespan: 
+      state: 
+      time_until_up: 
+      timeout: 
+      transparent: 
+      up_interval: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vscan_scanner_pool</tabTrigger>
+	<description>NetApp ONTAP Vscan Scanner Pools Configuration.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Vscan Scanner Pools Configuration.
+  na_ontap_vscan_scanner_pool:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      hostnames: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      privileged_users: 
+      scanner_policy: 
+      scanner_pool: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

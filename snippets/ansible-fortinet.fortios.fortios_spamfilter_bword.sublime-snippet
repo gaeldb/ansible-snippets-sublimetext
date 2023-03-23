@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_spamfilter_bword</tabTrigger>
+	<description>Configure AntiSpam banned word list in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure AntiSpam banned word list in Fortinet's FortiOS and FortiGate.
+  fortios_spamfilter_bword:
+      access_token: 
+      spamfilter_bword: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

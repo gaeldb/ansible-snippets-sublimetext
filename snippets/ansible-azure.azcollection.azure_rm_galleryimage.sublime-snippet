@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_galleryimage</tabTrigger>
+	<description>Manage Azure SIG Image instance</description>
+	<content><![CDATA[
+- name: Manage Azure SIG Image instance
+  azure_rm_galleryimage:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      description: 
+      disallowed: 
+      end_of_life_date: 
+      eula: 
+      gallery_name: 
+      identifier: 
+      location: 
+      name: 
+      os_state: 
+      os_type: 
+      password: 
+      privacy_statement_uri: 
+      profile: 
+      purchase_plan: 
+      recommended: 
+      release_note_uri: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

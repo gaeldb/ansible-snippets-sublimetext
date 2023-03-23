@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_vpc_security_group</tabTrigger>
+	<description>Creates a resource of Vpc/SecurityGroup in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Vpc/SecurityGroup in Huawei Cloud
+  hwc_vpc_security_group:
+      domain: 
+      enterprise_project_id: 
+      id: 
+      identity_endpoint: 
+      name: 
+      password: 
+      project: 
+      region: 
+      state: 
+      user: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

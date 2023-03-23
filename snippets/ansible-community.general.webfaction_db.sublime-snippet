@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.webfaction_db</tabTrigger>
+	<description>Add or remove a database on Webfaction</description>
+	<content><![CDATA[
+- name: Add or remove a database on Webfaction
+  webfaction_db:
+      login_name: 
+      login_password: 
+      machine: 
+      name: 
+      password: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

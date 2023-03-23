@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_time</tabTrigger>
+	<description>Manages time objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages time objects on Check Point over Web Services API
+  cp_mgmt_time:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      end: 
+      end_never: 
+      groups: 
+      hours_ranges: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      recurrence: 
+      start: 
+      start_now: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_exception</tabTrigger>
+	<description>Manages threat-exception objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages threat-exception objects on Check Point over Web Services API
+  cp_mgmt_threat_exception:
+      action: 
+      auto_publish_session: 
+      comments: 
+      destination: 
+      destination_negate: 
+      details_level: 
+      enabled: 
+      exception_group_name: 
+      exception_group_uid: 
+      ignore_errors: 
+      ignore_warnings: 
+      install_on: 
+      layer: 
+      name: 
+      position: 
+      protected_scope: 
+      protected_scope_negate: 
+      protection_or_site: 
+      rule_name: 
+      service: 
+      service_negate: 
+      source: 
+      source_negate: 
+      state: 
+      track: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

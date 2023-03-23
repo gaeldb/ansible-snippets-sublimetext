@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vm_host_drs_rule</tabTrigger>
+	<description>Creates vm/host group in a given cluster</description>
+	<content><![CDATA[
+- name: Creates vm/host group in a given cluster
+  vmware_vm_host_drs_rule:
+      affinity_rule: 
+      cluster_name: 
+      datacenter: 
+      drs_rule_name: 
+      enabled: 
+      host_group_name: 
+      hostname: 
+      mandatory: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+      vm_group_name: 
+]]>
+	</content>
+</snippet>

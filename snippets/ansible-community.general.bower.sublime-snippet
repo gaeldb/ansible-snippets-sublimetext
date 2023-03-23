@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bower</tabTrigger>
+	<description>Manage bower packages with bower</description>
+	<content><![CDATA[
+- name: Manage bower packages with bower
+  bower:
+      name: 
+      offline: 
+      path: 
+      production: 
+      relative_execpath: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

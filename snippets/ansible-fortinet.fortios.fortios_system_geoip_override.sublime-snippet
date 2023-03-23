@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_geoip_override</tabTrigger>
+	<description>Configure geographical location mapping for IP address(es) to override mappings from FortiGuard in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure geographical location mapping for IP address(es) to override mappings from FortiGuard in Fortinet's FortiOS and FortiGate.
+  fortios_system_geoip_override:
+      access_token: 
+      state: 
+      system_geoip_override: 
+      vdom: 
+]]>
+	</content>
+</snippet>

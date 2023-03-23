@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.atomic_image</tabTrigger>
+	<description>Manage the container images on the atomic host platform</description>
+	<content><![CDATA[
+- name: Manage the container images on the atomic host platform
+  atomic_image:
+      backend: 
+      name: 
+      started: 
+      state: 
+]]>
+	</content>
+</snippet>

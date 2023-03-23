@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_disk_offering</tabTrigger>
+	<description>Manages disk offerings on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages disk offerings on Apache CloudStack based clouds.
+  cs_disk_offering:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      bytes_read_rate: 
+      bytes_write_rate: 
+      customized: 
+      disk_size: 
+      display_offering: 
+      display_text: 
+      domain: 
+      hypervisor_snapshot_reserve: 
+      iops_max: 
+      iops_min: 
+      iops_read_rate: 
+      iops_write_rate: 
+      name: 
+      provisioning_type: 
+      state: 
+      storage_tags: 
+      storage_type: 
+]]>
+	</content>
+</snippet>

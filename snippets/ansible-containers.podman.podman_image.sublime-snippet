@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_image</tabTrigger>
+	<description>Pull images for use by podman</description>
+	<content><![CDATA[
+- name: Pull images for use by podman
+  podman_image:
+      auth_file: 
+      build: 
+      ca_cert_dir: 
+      executable: 
+      force: 
+      name: 
+      password: 
+      path: 
+      pull: 
+      push: 
+      push_args: 
+      state: 
+      tag: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

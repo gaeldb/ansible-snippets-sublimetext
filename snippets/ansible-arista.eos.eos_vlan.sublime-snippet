@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_vlan</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage VLANs on Arista EOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage VLANs on Arista EOS network devices
+  eos_vlan:
+      aggregate: 
+      associated_interfaces: 
+      delay: 
+      interfaces: 
+      name: 
+      provider: 
+      purge: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

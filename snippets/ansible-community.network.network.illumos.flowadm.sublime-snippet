@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.flowadm</tabTrigger>
+	<description>Manage bandwidth resource control and priority for protocols, services and zones on Solaris/illumos systems</description>
+	<content><![CDATA[
+- name: Manage bandwidth resource control and priority for protocols, services and zones on Solaris/illumos systems
+  flowadm:
+      dsfield: 
+      link: 
+      local_ip: 
+      local_port: 
+      maxbw: 
+      name: 
+      priority: 
+      remote_ip: 
+      state: 
+      temporary: 
+      transport: 
+]]>
+	</content>
+</snippet>

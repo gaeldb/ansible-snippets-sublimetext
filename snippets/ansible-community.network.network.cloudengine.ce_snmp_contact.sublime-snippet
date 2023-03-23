@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_snmp_contact</tabTrigger>
+	<description>Manages SNMP contact configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages SNMP contact configuration on HUAWEI CloudEngine switches.
+  ce_snmp_contact:
+      contact: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_client_ssl</tabTrigger>
+	<description>Manages client SSL profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages client SSL profiles on a BIG-IP
+  bigip_profile_client_ssl:
+      advertised_cert_authority: 
+      allow_expired_crl: 
+      allow_non_ssl: 
+      cache_size: 
+      cache_timeout: 
+      cert_auth_depth: 
+      cert_key_chain: 
+      cipher_group: 
+      ciphers: 
+      client_auth_crl: 
+      client_auth_frequency: 
+      client_certificate: 
+      name: 
+      options: 
+      parent: 
+      partition: 
+      provider: 
+      renegotiation: 
+      retain_certificate: 
+      secure_renegotiation: 
+      server_name: 
+      sni_default: 
+      sni_require: 
+      state: 
+      strict_resume: 
+      trusted_cert_authority: 
+]]>
+	</content>
+</snippet>

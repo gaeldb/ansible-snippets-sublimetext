@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_ospf6</tabTrigger>
+	<description>Configure IPv6 OSPF in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 OSPF in Fortinet's FortiOS and FortiGate.
+  fortios_router_ospf6:
+      access_token: 
+      router_ospf6: 
+      vdom: 
+]]>
+	</content>
+</snippet>

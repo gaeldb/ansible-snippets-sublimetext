@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_route</tabTrigger>
+	<description>Add or remove a static route</description>
+	<content><![CDATA[
+- name: Add or remove a static route
+  win_route:
+      destination: 
+      gateway: 
+      metric: 
+      state: 
+]]>
+	</content>
+</snippet>

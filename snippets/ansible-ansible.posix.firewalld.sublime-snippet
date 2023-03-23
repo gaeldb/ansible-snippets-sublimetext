@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.firewalld</tabTrigger>
+	<description>Manage arbitrary ports/services with firewalld</description>
+	<content><![CDATA[
+- name: Manage arbitrary ports/services with firewalld
+  firewalld:
+      icmp_block: 
+      icmp_block_inversion: 
+      immediate: 
+      interface: 
+      masquerade: 
+      offline: 
+      permanent: 
+      port: 
+      port_forward: 
+      rich_rule: 
+      service: 
+      source: 
+      state: 
+      target: 
+      timeout: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_image_store</tabTrigger>
+	<description>Manages CloudStack Image Stores.</description>
+	<content><![CDATA[
+- name: Manages CloudStack Image Stores.
+  cs_image_store:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      force_recreate: 
+      name: 
+      provider: 
+      state: 
+      url: 
+      zone: 
+]]>
+	</content>
+</snippet>

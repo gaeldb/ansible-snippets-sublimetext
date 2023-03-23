@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneandone_private_network</tabTrigger>
+	<description>Configure 1&1 private networking</description>
+	<content><![CDATA[
+- name: Configure 1&1 private networking
+  oneandone_private_network:
+      add_members: 
+      api_url: 
+      auth_token: 
+      datacenter: 
+      description: 
+      name: 
+      network_address: 
+      private_network: 
+      remove_members: 
+      state: 
+      subnet_mask: 
+      wait: 
+      wait_interval: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

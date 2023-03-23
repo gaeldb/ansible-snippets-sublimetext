@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_ds</tabTrigger>
+	<description>Configure FlashBlade Directory Service</description>
+	<content><![CDATA[
+- name: Configure FlashBlade Directory Service
+  purefb_ds:
+      api_token: 
+      base_dn: 
+      bind_password: 
+      bind_user: 
+      dstype: 
+      enable: 
+      fb_url: 
+      join_ou: 
+      nis_domain: 
+      nis_servers: 
+      state: 
+      uri: 
+]]>
+	</content>
+</snippet>

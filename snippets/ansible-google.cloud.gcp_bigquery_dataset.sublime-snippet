@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_bigquery_dataset</tabTrigger>
+	<description>Creates a GCP Dataset</description>
+	<content><![CDATA[
+- name: Creates a GCP Dataset
+  gcp_bigquery_dataset:
+      access: 
+      auth_kind: 
+      dataset_reference: 
+      default_encryption_configuration: 
+      default_partition_expiration_ms: 
+      default_table_expiration_ms: 
+      description: 
+      env_type: 
+      friendly_name: 
+      labels: 
+      location: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

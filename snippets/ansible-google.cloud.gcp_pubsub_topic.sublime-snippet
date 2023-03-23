@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_pubsub_topic</tabTrigger>
+	<description>Creates a GCP Topic</description>
+	<content><![CDATA[
+- name: Creates a GCP Topic
+  gcp_pubsub_topic:
+      auth_kind: 
+      env_type: 
+      kms_key_name: 
+      labels: 
+      message_storage_policy: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

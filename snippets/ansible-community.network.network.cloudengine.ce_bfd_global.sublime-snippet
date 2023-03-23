@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_bfd_global</tabTrigger>
+	<description>Manages BFD global configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages BFD global configuration on HUAWEI CloudEngine devices.
+  ce_bfd_global:
+      bfd_enable: 
+      damp_init_wait_time: 
+      damp_max_wait_time: 
+      damp_second_wait_time: 
+      default_ip: 
+      delay_up_time: 
+      state: 
+      tos_exp_dynamic: 
+      tos_exp_static: 
+]]>
+	</content>
+</snippet>

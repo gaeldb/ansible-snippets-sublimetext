@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.opensearch_info</tabTrigger>
+	<description>obtain information about one or more OpenSearch or ElasticSearch domain</description>
+	<content><![CDATA[
+- name: obtain information about one or more OpenSearch or ElasticSearch domain
+  opensearch_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      domain_name: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

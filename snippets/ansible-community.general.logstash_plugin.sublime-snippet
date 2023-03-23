@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.logstash_plugin</tabTrigger>
+	<description>Manage Logstash plugins</description>
+	<content><![CDATA[
+- name: Manage Logstash plugins
+  logstash_plugin:
+      name: 
+      plugin_bin: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

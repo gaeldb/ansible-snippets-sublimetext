@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_syslog</tabTrigger>
+	<description>NetApp E-Series manage syslog settings</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage syslog settings
+  na_santricity_syslog:
+      address: 
+      api_password: 
+      api_url: 
+      api_username: 
+      components: 
+      port: 
+      protocol: 
+      ssid: 
+      state: 
+      test: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

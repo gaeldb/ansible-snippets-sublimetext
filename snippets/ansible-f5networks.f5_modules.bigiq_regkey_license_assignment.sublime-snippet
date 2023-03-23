@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_regkey_license_assignment</tabTrigger>
+	<description>Manage regkey license assignment on BIG-IPs from a BIG-IQ</description>
+	<content><![CDATA[
+- name: Manage regkey license assignment on BIG-IPs from a BIG-IQ
+  bigiq_regkey_license_assignment:
+      device: 
+      device_password: 
+      device_port: 
+      device_username: 
+      key: 
+      managed: 
+      pool: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

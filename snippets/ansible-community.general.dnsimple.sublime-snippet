@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dnsimple</tabTrigger>
+	<description>Interface with dnsimple.com (a DNS hosting service)</description>
+	<content><![CDATA[
+- name: Interface with dnsimple.com (a DNS hosting service)
+  dnsimple:
+      account_api_token: 
+      account_email: 
+      domain: 
+      priority: 
+      record: 
+      record_ids: 
+      sandbox: 
+      solo: 
+      state: 
+      ttl: 
+      type: 
+      value: 
+]]>
+	</content>
+</snippet>

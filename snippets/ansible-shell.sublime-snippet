@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>shell</tabTrigger>
+	<description>Execute shell commands on targets</description>
+	<content><![CDATA[
+- name: Execute shell commands on targets
+  shell:
+      chdir: 
+      cmd: 
+      creates: 
+      executable: 
+      free_form: 
+      removes: 
+      stdin: 
+      stdin_add_newline: 
+      warn: 
+]]>
+	</content>
+</snippet>

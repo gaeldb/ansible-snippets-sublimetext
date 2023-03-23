@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_load_balancer_network</tabTrigger>
+	<description>Manage the relationship between Hetzner Cloud Networks and Load Balancers</description>
+	<content><![CDATA[
+- name: Manage the relationship between Hetzner Cloud Networks and Load Balancers
+  hcloud_load_balancer_network:
+      api_token: 
+      endpoint: 
+      ip: 
+      load_balancer: 
+      network: 
+      state: 
+]]>
+	</content>
+</snippet>

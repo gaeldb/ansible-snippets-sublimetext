@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_override</tabTrigger>
+	<description>Configure FortiGuard Web Filter administrative overrides in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGuard Web Filter administrative overrides in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_override:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_override: 
+]]>
+	</content>
+</snippet>

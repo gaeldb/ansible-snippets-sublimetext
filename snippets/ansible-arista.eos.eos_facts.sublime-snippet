@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_facts</tabTrigger>
+	<description>Collect facts from remote devices running Arista EOS</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Arista EOS
+  eos_facts:
+      gather_network_resources: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_ironic_inspect</tabTrigger>
+	<description>Explicitly triggers baremetal node introspection in ironic.</description>
+	<content><![CDATA[
+- name: Explicitly triggers baremetal node introspection in ironic.
+  baremetal_inspect:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      ironic_url: 
+      mac: 
+      name: 
+      region_name: 
+      timeout: 
+      uuid: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

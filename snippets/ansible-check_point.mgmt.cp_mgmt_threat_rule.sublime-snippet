@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_rule</tabTrigger>
+	<description>Manages threat-rule objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages threat-rule objects on Check Point over Web Services API
+  cp_mgmt_threat_rule:
+      action: 
+      auto_publish_session: 
+      comments: 
+      destination: 
+      destination_negate: 
+      details_level: 
+      enabled: 
+      ignore_errors: 
+      ignore_warnings: 
+      install_on: 
+      layer: 
+      name: 
+      position: 
+      protected_scope: 
+      protected_scope_negate: 
+      service: 
+      service_negate: 
+      source: 
+      source_negate: 
+      state: 
+      track: 
+      track_settings: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

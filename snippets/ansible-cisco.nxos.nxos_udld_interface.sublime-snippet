@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_udld_interface</tabTrigger>
+	<description>Manages UDLD interface configuration params.</description>
+	<content><![CDATA[
+- name: Manages UDLD interface configuration params.
+  nxos_udld_interface:
+      interface: 
+      mode: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

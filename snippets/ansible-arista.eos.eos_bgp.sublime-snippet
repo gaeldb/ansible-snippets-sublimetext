@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_bgp</tabTrigger>
+	<description>(deprecated, removed after 2023-01-29) Configure global BGP protocol settings on Arista EOS.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2023-01-29) Configure global BGP protocol settings on Arista EOS.
+  eos_bgp:
+      config: 
+      operation: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.rds_subnet_group</tabTrigger>
+	<description>manage RDS database subnet groups</description>
+	<content><![CDATA[
+- name: manage RDS database subnet groups
+  rds_subnet_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

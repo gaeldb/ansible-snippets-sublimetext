@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_location</tabTrigger>
+	<description>Manages SNMP location information.</description>
+	<content><![CDATA[
+- name: Manages SNMP location information.
+  nxos_snmp_location:
+      location: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

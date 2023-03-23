@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.nso.nso_config</tabTrigger>
+	<description>Manage Cisco NSO configuration and service synchronization.</description>
+	<content><![CDATA[
+- name: Manage Cisco NSO configuration and service synchronization.
+  nso_config:
+      data: 
+      password: 
+      timeout: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

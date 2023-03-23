@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.volume_snapshot_info</tabTrigger>
+	<description>Get volume snapshots</description>
+	<content><![CDATA[
+- name: Get volume snapshots
+  volume_snapshot_info:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      details: 
+      interface: 
+      name: 
+      region_name: 
+      status: 
+      timeout: 
+      validate_certs: 
+      volume: 
+      wait: 
+]]>
+	</content>
+</snippet>

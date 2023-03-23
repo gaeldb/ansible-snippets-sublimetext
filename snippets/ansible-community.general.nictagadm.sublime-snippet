@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nictagadm</tabTrigger>
+	<description>Manage nic tags on SmartOS systems</description>
+	<content><![CDATA[
+- name: Manage nic tags on SmartOS systems
+  nictagadm:
+      etherstub: 
+      force: 
+      mac: 
+      mtu: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

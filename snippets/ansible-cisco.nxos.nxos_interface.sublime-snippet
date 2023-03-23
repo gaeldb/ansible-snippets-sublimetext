@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manages physical attributes of interfaces.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manages physical attributes of interfaces.
+  nxos_interface:
+      admin_state: 
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      fabric_forwarding_anycast_gateway: 
+      interface_type: 
+      ip_forward: 
+      mode: 
+      mtu: 
+      name: 
+      neighbors: 
+      provider: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

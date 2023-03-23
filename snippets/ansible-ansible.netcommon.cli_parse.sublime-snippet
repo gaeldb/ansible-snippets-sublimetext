@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.cli_parse</tabTrigger>
+	<description>Parse cli output or text using a variety of parsers</description>
+	<content><![CDATA[
+- name: Parse cli output or text using a variety of parsers
+  cli_parse:
+      command: 
+      parser: 
+      set_fact: 
+      text: 
+]]>
+	</content>
+</snippet>

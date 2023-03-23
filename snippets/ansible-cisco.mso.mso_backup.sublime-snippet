@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_backup</tabTrigger>
+	<description>Manages backups</description>
+	<content><![CDATA[
+- name: Manages backups
+  mso_backup:
+      backup: 
+      description: 
+      destination: 
+      host: 
+      location_type: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      remote_location: 
+      remote_path: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

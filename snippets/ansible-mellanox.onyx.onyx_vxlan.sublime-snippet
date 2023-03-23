@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_vxlan</tabTrigger>
+	<description>Configures Vxlan</description>
+	<content><![CDATA[
+- name: Configures Vxlan
+  onyx_vxlan:
+      arp_suppression: 
+      bgp: 
+      loopback_id: 
+      mlag_tunnel_ip: 
+      nve_id: 
+      vni_vlan_list: 
+]]>
+	</content>
+</snippet>

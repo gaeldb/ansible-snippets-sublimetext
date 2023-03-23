@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_logging</tabTrigger>
+	<description>Manage logging on network devices</description>
+	<content><![CDATA[
+- name: Manage logging on network devices
+  eos_logging:
+      aggregate: 
+      dest: 
+      facility: 
+      level: 
+      name: 
+      provider: 
+      size: 
+      state: 
+]]>
+	</content>
+</snippet>

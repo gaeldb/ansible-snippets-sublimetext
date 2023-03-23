@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_dhcp_option</tabTrigger>
+	<description>Manages DHCP Options, and can ensure the DHCP options for the given VPC match what's requested</description>
+	<content><![CDATA[
+- name: Manages DHCP Options, and can ensure the DHCP options for the given VPC match what's requested
+  ec2_vpc_dhcp_option:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delete_old: 
+      dhcp_options_id: 
+      dns_servers: 
+      domain_name: 
+      endpoint_url: 
+      inherit_existing: 
+      netbios_name_servers: 
+      netbios_node_type: 
+      ntp_servers: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

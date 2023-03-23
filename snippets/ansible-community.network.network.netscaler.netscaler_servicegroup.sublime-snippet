@@ -1,0 +1,52 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_servicegroup</tabTrigger>
+	<description>Manage service group configuration in Netscaler</description>
+	<content><![CDATA[
+- name: Manage service group configuration in Netscaler
+  netscaler_servicegroup:
+      appflowlog: 
+      autoscale: 
+      cacheable: 
+      cachetype: 
+      cip: 
+      cipheader: 
+      cka: 
+      clttimeout: 
+      cmp: 
+      comment: 
+      disabled: 
+      downstateflush: 
+      graceful: 
+      healthmonitor: 
+      httpprofilename: 
+      maxbandwidth: 
+      maxclient: 
+      maxreq: 
+      memberport: 
+      monitorbindings: 
+      monthreshold: 
+      netprofile: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      pathmonitor: 
+      pathmonitorindv: 
+      rtspsessionidremap: 
+      save_config: 
+      servicegroupname: 
+      servicemembers: 
+      servicetype: 
+      sp: 
+      state: 
+      svrtimeout: 
+      tcpb: 
+      tcpprofilename: 
+      useproxyport: 
+      usip: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

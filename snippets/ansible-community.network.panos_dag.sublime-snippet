@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_dag</tabTrigger>
+	<description>create a dynamic address group</description>
+	<content><![CDATA[
+- name: create a dynamic address group
+  panos_dag:
+      commit: 
+      dag_filter: 
+      dag_name: 
+      ip_address: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

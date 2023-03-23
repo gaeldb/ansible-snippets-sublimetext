@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pkgng</tabTrigger>
+	<description>Package manager for FreeBSD >= 9.0</description>
+	<content><![CDATA[
+- name: Package manager for FreeBSD >= 9.0
+  pkgng:
+      annotation: 
+      autoremove: 
+      cached: 
+      chroot: 
+      ignore_osver: 
+      jail: 
+      name: 
+      pkgsite: 
+      rootdir: 
+      state: 
+]]>
+	</content>
+</snippet>

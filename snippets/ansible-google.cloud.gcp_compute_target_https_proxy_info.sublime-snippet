@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_target_https_proxy_info</tabTrigger>
+	<description>Gather info for GCP TargetHttpsProxy</description>
+	<content><![CDATA[
+- name: Gather info for GCP TargetHttpsProxy
+  gcp_compute_target_https_proxy_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

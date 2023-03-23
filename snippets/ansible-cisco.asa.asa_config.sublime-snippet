@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_config</tabTrigger>
+	<description>Manage configuration sections on Cisco ASA devices</description>
+	<content><![CDATA[
+- name: Manage configuration sections on Cisco ASA devices
+  asa_config:
+      after: 
+      authorize: 
+      backup: 
+      backup_options: 
+      before: 
+      config: 
+      context: 
+      defaults: 
+      lines: 
+      match: 
+      parents: 
+      passwords: 
+      provider: 
+      replace: 
+      save: 
+      src: 
+]]>
+	</content>
+</snippet>

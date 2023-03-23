@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_appserviceplan</tabTrigger>
+	<description>Manage App Service Plan</description>
+	<content><![CDATA[
+- name: Manage App Service Plan
+  azure_rm_appserviceplan:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      is_linux: 
+      location: 
+      name: 
+      number_of_workers: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

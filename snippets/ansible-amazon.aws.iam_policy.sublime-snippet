@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.iam_policy</tabTrigger>
+	<description>Manage inline IAM policies for users, groups, and roles</description>
+	<content><![CDATA[
+- name: Manage inline IAM policies for users, groups, and roles
+  iam_policy:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      iam_name: 
+      iam_type: 
+      policy_json: 
+      policy_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      skip_duplicates: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

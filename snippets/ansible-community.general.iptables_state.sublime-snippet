@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.iptables_state</tabTrigger>
+	<description>Save iptables state into a file or restore it from a file</description>
+	<content><![CDATA[
+- name: Save iptables state into a file or restore it from a file
+  iptables_state:
+      counters: 
+      ip_version: 
+      modprobe: 
+      noflush: 
+      path: 
+      state: 
+      table: 
+      wait: 
+]]>
+	</content>
+</snippet>

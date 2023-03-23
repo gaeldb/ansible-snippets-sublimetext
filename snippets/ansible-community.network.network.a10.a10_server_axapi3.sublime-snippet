@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.a10.a10_server_axapi3</tabTrigger>
+	<description>Manage A10 Networks AX/SoftAX/Thunder/vThunder devices</description>
+	<content><![CDATA[
+- name: Manage A10 Networks AX/SoftAX/Thunder/vThunder devices
+  a10_server_axapi3:
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      host: 
+      http_agent: 
+      operation: 
+      password: 
+      server_ip: 
+      server_name: 
+      server_ports: 
+      server_status: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      username: 
+      validate_certs: 
+      write_config: 
+]]>
+	</content>
+</snippet>

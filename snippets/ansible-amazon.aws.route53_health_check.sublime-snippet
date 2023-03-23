@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.route53_health_check</tabTrigger>
+	<description>Manage health-checks in Amazons Route53 DNS service</description>
+	<content><![CDATA[
+- name: Manage health-checks in Amazons Route53 DNS service
+  route53_health_check:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      disabled: 
+      endpoint_url: 
+      failure_threshold: 
+      fqdn: 
+      health_check_id: 
+      health_check_name: 
+      ip_address: 
+      port: 
+      profile: 
+      purge_tags: 
+      region: 
+      request_interval: 
+      resource_path: 
+      secret_key: 
+      session_token: 
+      state: 
+      string_match: 
+      tags: 
+      type: 
+      use_unique_names: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

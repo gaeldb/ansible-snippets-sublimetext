@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cron</tabTrigger>
+	<description>Manage cron.d and crontab entries</description>
+	<content><![CDATA[
+- name: Manage cron.d and crontab entries
+  cron:
+      backup: 
+      cron_file: 
+      day: 
+      disabled: 
+      env: 
+      hour: 
+      insertafter: 
+      insertbefore: 
+      job: 
+      minute: 
+      month: 
+      name: 
+      special_time: 
+      state: 
+      user: 
+      weekday: 
+]]>
+	</content>
+</snippet>

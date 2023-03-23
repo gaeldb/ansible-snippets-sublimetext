@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_acl</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage access-lists on a Cisco ASA</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage access-lists on a Cisco ASA
+  asa_acl:
+      after: 
+      authorize: 
+      before: 
+      config: 
+      context: 
+      force: 
+      lines: 
+      match: 
+      passwords: 
+      provider: 
+      replace: 
+]]>
+	</content>
+</snippet>

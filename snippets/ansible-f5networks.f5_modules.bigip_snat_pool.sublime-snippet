@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_snat_pool</tabTrigger>
+	<description>Manage SNAT pools on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage SNAT pools on a BIG-IP
+  bigip_snat_pool:
+      description: 
+      members: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

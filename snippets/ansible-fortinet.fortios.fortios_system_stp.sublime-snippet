@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_stp</tabTrigger>
+	<description>Configure Spanning Tree Protocol (STP) in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Spanning Tree Protocol (STP) in Fortinet's FortiOS and FortiGate.
+  fortios_system_stp:
+      access_token: 
+      system_stp: 
+      vdom: 
+]]>
+	</content>
+</snippet>

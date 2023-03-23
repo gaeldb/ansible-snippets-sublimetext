@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Interface on VyOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Interface on VyOS network devices
+  vyos_interface:
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      neighbors: 
+      provider: 
+      speed: 
+      state: 
+]]>
+	</content>
+</snippet>

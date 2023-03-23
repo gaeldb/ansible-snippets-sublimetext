@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipanetgroup</tabTrigger>
+	<description>NIS entities can be stored in netgroups.</description>
+	<content><![CDATA[
+- name: NIS entities can be stored in netgroups.
+  ipanetgroup:
+      action: 
+      delete_continue: 
+      description: 
+      group: 
+      host: 
+      hostgroup: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      netgroup: 
+      nisdomain: 
+      nomembers: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>import_playbook</tabTrigger>
+	<description>Import a playbook</description>
+	<content><![CDATA[
+- name: Import a playbook
+  import_playbook:
+      free-form: 
+]]>
+	</content>
+</snippet>

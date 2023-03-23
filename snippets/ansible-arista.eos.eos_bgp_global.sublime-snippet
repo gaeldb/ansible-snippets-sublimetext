@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_bgp_global</tabTrigger>
+	<description>Manages BGP global resource module</description>
+	<content><![CDATA[
+- name: Manages BGP global resource module
+  eos_bgp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

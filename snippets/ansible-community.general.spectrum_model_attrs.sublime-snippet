@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.spectrum_model_attrs</tabTrigger>
+	<description>Enforce a model's attributes in CA Spectrum</description>
+	<content><![CDATA[
+- name: Enforce a model's attributes in CA Spectrum
+  spectrum_model_attrs:
+      attributes: 
+      name: 
+      type: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

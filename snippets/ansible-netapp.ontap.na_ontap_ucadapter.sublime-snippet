@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ucadapter</tabTrigger>
+	<description>NetApp ONTAP UC adapter configuration</description>
+	<content><![CDATA[
+- name: NetApp ONTAP UC adapter configuration
+  na_ontap_ucadapter:
+      adapter_name: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      mode: 
+      node_name: 
+      ontapi: 
+      pair_adapters: 
+      password: 
+      state: 
+      type: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

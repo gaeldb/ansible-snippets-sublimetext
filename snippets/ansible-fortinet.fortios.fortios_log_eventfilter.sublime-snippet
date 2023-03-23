@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_eventfilter</tabTrigger>
+	<description>Configure log event filters in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure log event filters in Fortinet's FortiOS and FortiGate.
+  fortios_log_eventfilter:
+      access_token: 
+      log_eventfilter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

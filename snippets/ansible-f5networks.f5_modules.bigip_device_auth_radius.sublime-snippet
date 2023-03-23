@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_auth_radius</tabTrigger>
+	<description>Manages RADIUS auth configuration on a BIG-IP device</description>
+	<content><![CDATA[
+- name: Manages RADIUS auth configuration on a BIG-IP device
+  bigip_device_auth_radius:
+      accounting_bug: 
+      fallback_to_local: 
+      provider: 
+      retries: 
+      servers: 
+      service_type: 
+      state: 
+      use_for_auth: 
+]]>
+	</content>
+</snippet>

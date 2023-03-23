@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_mon_notification_plan</tabTrigger>
+	<description>Create or delete a Rackspace Cloud Monitoring notification plan.</description>
+	<content><![CDATA[
+- name: Create or delete a Rackspace Cloud Monitoring notification plan.
+  rax_mon_notification_plan:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      critical_state: 
+      env: 
+      identity_type: 
+      label: 
+      ok_state: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+      warning_state: 
+]]>
+	</content>
+</snippet>

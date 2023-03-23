@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.config_aggregation_authorization</tabTrigger>
+	<description>Manage cross-account AWS Config authorizations</description>
+	<content><![CDATA[
+- name: Manage cross-account AWS Config authorizations
+  config_aggregation_authorization:
+      access_key: 
+      authorized_account_id: 
+      authorized_aws_region: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

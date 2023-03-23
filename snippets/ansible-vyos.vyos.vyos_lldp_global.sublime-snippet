@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_lldp_global</tabTrigger>
+	<description>LLDP global resource module</description>
+	<content><![CDATA[
+- name: LLDP global resource module
+  vyos_lldp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

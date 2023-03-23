@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.fmgr_query</tabTrigger>
+	<description>Query FortiManager data objects for use in Ansible workflows.</description>
+	<content><![CDATA[
+- name: Query FortiManager data objects for use in Ansible workflows.
+  fmgr_query:
+      adom: 
+      custom_dict: 
+      custom_endpoint: 
+      device_ip: 
+      device_serial: 
+      device_unique_name: 
+      nodes: 
+      object: 
+      task_id: 
+]]>
+	</content>
+</snippet>

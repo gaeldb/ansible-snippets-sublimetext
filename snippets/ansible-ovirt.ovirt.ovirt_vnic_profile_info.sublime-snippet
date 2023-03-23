@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_vnic_profile_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV vnic profiles</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV vnic profiles
+  ovirt_vnic_profile_info:
+      auth: 
+      fetch_nested: 
+      max: 
+      name: 
+      nested_attributes: 
+]]>
+	</content>
+</snippet>

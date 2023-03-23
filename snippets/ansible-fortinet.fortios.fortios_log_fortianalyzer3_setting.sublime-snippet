@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_fortianalyzer3_setting</tabTrigger>
+	<description>Global FortiAnalyzer settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Global FortiAnalyzer settings in Fortinet's FortiOS and FortiGate.
+  fortios_log_fortianalyzer3_setting:
+      access_token: 
+      log_fortianalyzer3_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

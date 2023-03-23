@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_banner</tabTrigger>
+	<description>Manage multiline banners on Cisco NXOS devices</description>
+	<content><![CDATA[
+- name: Manage multiline banners on Cisco NXOS devices
+  nxos_banner:
+      banner: 
+      provider: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ttl_policy</tabTrigger>
+	<description>Configure TTL policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure TTL policies in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ttl_policy:
+      access_token: 
+      firewall_ttl_policy: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_restart_kdc</tabTrigger>
+	<description>Restart KDC</description>
+	<content><![CDATA[
+- name: Restart KDC
+  ipareplica_restart_kdc:
+      _ca_file: 
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      dirman_password: 
+      no_pkinit: 
+      no_ui_redirect: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

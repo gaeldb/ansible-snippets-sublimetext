@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_snmp</tabTrigger>
+	<description>Configures the Windows SNMP service</description>
+	<content><![CDATA[
+- name: Configures the Windows SNMP service
+  win_snmp:
+      action: 
+      community_strings: 
+      permitted_managers: 
+]]>
+	</content>
+</snippet>

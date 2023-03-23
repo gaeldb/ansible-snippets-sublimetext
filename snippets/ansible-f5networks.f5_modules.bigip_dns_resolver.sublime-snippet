@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_dns_resolver</tabTrigger>
+	<description>Manage DNS resolvers on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS resolvers on a BIG-IP
+  bigip_dns_resolver:
+      answer_default_zones: 
+      cache_size: 
+      name: 
+      partition: 
+      provider: 
+      randomize_query_case: 
+      route_domain: 
+      state: 
+      use_ipv4: 
+      use_ipv6: 
+      use_tcp: 
+      use_udp: 
+]]>
+	</content>
+</snippet>

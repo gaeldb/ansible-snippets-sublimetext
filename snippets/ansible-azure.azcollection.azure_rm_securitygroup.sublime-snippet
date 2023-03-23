@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_securitygroup</tabTrigger>
+	<description>Manage Azure network security groups</description>
+	<content><![CDATA[
+- name: Manage Azure network security groups
+  azure_rm_securitygroup:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      default_rules: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      purge_default_rules: 
+      purge_rules: 
+      resource_group: 
+      rules: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

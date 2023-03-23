@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_policy_signature_set</tabTrigger>
+	<description>Manages Signature Sets on an ASM policy</description>
+	<content><![CDATA[
+- name: Manages Signature Sets on an ASM policy
+  bigip_asm_policy_signature_set:
+      alarm: 
+      block: 
+      learn: 
+      name: 
+      partition: 
+      policy_name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

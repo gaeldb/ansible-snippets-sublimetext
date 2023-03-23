@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xcc_redfish_command</tabTrigger>
+	<description>Manages Lenovo Out-Of-Band controllers using Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages Lenovo Out-Of-Band controllers using Redfish APIs
+  xcc_redfish_command:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      password: 
+      request_body: 
+      resource_id: 
+      resource_uri: 
+      timeout: 
+      username: 
+      virtual_media: 
+]]>
+	</content>
+</snippet>

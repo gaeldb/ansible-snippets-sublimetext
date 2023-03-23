@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_authprofile</tabTrigger>
+	<description>Module for setup of AuthProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of AuthProfile Avi RESTful Object
+  avi_authprofile:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      http: 
+      ldap: 
+      name: 
+      pa_agent_ref: 
+      password: 
+      saml: 
+      state: 
+      tacacs_plus: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      type: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

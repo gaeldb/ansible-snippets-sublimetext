@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_keystone_endpoint</tabTrigger>
+	<description>Manage OpenStack Identity service endpoints</description>
+	<content><![CDATA[
+- name: Manage OpenStack Identity service endpoints
+  endpoint:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      enabled: 
+      endpoint_interface: 
+      interface: 
+      region: 
+      region_name: 
+      service: 
+      state: 
+      timeout: 
+      url: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

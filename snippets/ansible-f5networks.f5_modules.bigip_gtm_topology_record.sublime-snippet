@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_topology_record</tabTrigger>
+	<description>Manages GTM Topology Records</description>
+	<content><![CDATA[
+- name: Manages GTM Topology Records
+  bigip_gtm_topology_record:
+      destination: 
+      partition: 
+      provider: 
+      source: 
+      state: 
+      weight: 
+]]>
+	</content>
+</snippet>

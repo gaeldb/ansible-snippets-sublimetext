@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_aaa_user_certificate</tabTrigger>
+	<description>Manage AAA user certificates (aaa:UserCert)</description>
+	<content><![CDATA[
+- name: Manage AAA user certificates (aaa:UserCert)
+  aci_aaa_user_certificate:
+      aaa_user: 
+      aaa_user_type: 
+      annotation: 
+      certificate: 
+      certificate_name: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

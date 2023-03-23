@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_object</tabTrigger>
+	<description>create/read/update/delete object in PAN-OS or Panorama</description>
+	<content><![CDATA[
+- name: create/read/update/delete object in PAN-OS or Panorama
+  panos_object:
+      address: 
+      address_type: 
+      addressgroup: 
+      addressobject: 
+      api_key: 
+      color: 
+      description: 
+      destination_port: 
+      devicegroup: 
+      dynamic_value: 
+      ip_address: 
+      operation: 
+      password: 
+      protocol: 
+      servicegroup: 
+      serviceobject: 
+      services: 
+      source_port: 
+      static_value: 
+      tag_name: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_http2</tabTrigger>
+	<description>Manage HTTP2 profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage HTTP2 profiles on a BIG-IP
+  bigip_profile_http2:
+      activation_modes: 
+      description: 
+      enforce_tls_requirements: 
+      frame_size: 
+      header_table_size: 
+      idle_timeout: 
+      insert_header: 
+      insert_header_name: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      receive_window: 
+      state: 
+      streams: 
+      write_size: 
+]]>
+	</content>
+</snippet>

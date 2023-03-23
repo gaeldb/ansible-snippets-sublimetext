@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_bgp_address_family</tabTrigger>
+	<description>Manages BGP address family resource module</description>
+	<content><![CDATA[
+- name: Manages BGP address family resource module
+  eos_bgp_address_family:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

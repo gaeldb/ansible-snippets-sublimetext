@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_uninstall_software_package</tabTrigger>
+	<description>Uninstalls the software package from target machines.</description>
+	<content><![CDATA[
+- name: Uninstalls the software package from target machines.
+  cp_mgmt_uninstall_software_package:
+      cluster_installation_settings: 
+      concurrency_limit: 
+      name: 
+      targets: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

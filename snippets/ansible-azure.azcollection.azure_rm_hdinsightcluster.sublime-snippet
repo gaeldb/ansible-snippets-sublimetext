@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_hdinsightcluster</tabTrigger>
+	<description>Manage Azure HDInsight Cluster instance</description>
+	<content><![CDATA[
+- name: Manage Azure HDInsight Cluster instance
+  azure_rm_hdinsightcluster:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      cluster_definition: 
+      cluster_version: 
+      compute_profile_roles: 
+      location: 
+      name: 
+      os_type: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      storage_accounts: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      tier: 
+]]>
+	</content>
+</snippet>

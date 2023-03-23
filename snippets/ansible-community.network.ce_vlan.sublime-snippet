@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_vlan</tabTrigger>
+	<description>Manages VLAN resources and attributes on Huawei CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages VLAN resources and attributes on Huawei CloudEngine switches.
+  ce_vlan:
+      description: 
+      name: 
+      state: 
+      vlan_id: 
+      vlan_range: 
+]]>
+	</content>
+</snippet>

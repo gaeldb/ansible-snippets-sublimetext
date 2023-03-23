@@ -1,0 +1,57 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_pssession_configuration</tabTrigger>
+	<description>Manage PSSession Configurations</description>
+	<content><![CDATA[
+- name: Manage PSSession Configurations
+  win_pssession_configuration:
+      access_mode: 
+      alias_definitions: 
+      assemblies_to_load: 
+      async_poll: 
+      async_timeout: 
+      author: 
+      company_name: 
+      copyright: 
+      description: 
+      environment_variables: 
+      execution_policy: 
+      formats_to_process: 
+      function_definitions: 
+      group_managed_service_account: 
+      guid: 
+      language_mode: 
+      lenient_config_fields: 
+      maximum_received_data_size_per_command_mb: 
+      maximum_received_object_size_mb: 
+      modules_to_import: 
+      mount_user_drive: 
+      name: 
+      powershell_version: 
+      processor_architecure: 
+      required_groups: 
+      role_definitions: 
+      run_as_credential_password: 
+      run_as_credential_username: 
+      run_as_virtual_account: 
+      run_as_virtual_account_groups: 
+      schema_version: 
+      scripts_to_process: 
+      security_descriptor_sddl: 
+      session_type: 
+      startup_script: 
+      state: 
+      thread_apartment_state: 
+      thread_options: 
+      transcript_directory: 
+      types_to_process: 
+      use_shared_process: 
+      user_drive_maximum_size: 
+      variable_definitions: 
+      visible_aliases: 
+      visible_cmdlets: 
+      visible_external_commands: 
+      visible_functions: 
+]]>
+	</content>
+</snippet>

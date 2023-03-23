@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_actiongroupconfig</tabTrigger>
+	<description>Module for setup of ActionGroupConfig Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of ActionGroupConfig Avi RESTful Object
+  avi_actiongroupconfig:
+      action_script_config_ref: 
+      api_context: 
+      api_version: 
+      autoscale_trigger_notification: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      email_config_ref: 
+      external_only: 
+      level: 
+      name: 
+      password: 
+      snmp_trap_profile_ref: 
+      state: 
+      syslog_config_ref: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_health_check</tabTrigger>
+	<description>Creates a GCP RegionHealthCheck</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionHealthCheck
+  gcp_compute_region_health_check:
+      auth_kind: 
+      check_interval_sec: 
+      description: 
+      env_type: 
+      grpc_health_check: 
+      healthy_threshold: 
+      http2_health_check: 
+      http_health_check: 
+      https_health_check: 
+      name: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      ssl_health_check: 
+      state: 
+      tcp_health_check: 
+      timeout_sec: 
+      type: 
+      unhealthy_threshold: 
+]]>
+	</content>
+</snippet>

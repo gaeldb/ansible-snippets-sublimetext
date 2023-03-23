@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_pppoe_interface</tabTrigger>
+	<description>Configure the PPPoE interfaces in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure the PPPoE interfaces in Fortinet's FortiOS and FortiGate.
+  fortios_system_pppoe_interface:
+      access_token: 
+      state: 
+      system_pppoe_interface: 
+      vdom: 
+]]>
+	</content>
+</snippet>

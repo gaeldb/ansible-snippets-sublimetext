@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_port_config</tabTrigger>
+	<description>CLI command to modify port-config</description>
+	<content><![CDATA[
+- name: CLI command to modify port-config
+  pn_port_config:
+      pn_allowed_tpid: 
+      pn_autoneg: 
+      pn_cliswitch: 
+      pn_crc_check_enable: 
+      pn_defer_bringup: 
+      pn_description: 
+      pn_dscp_map: 
+      pn_edge_switch: 
+      pn_egress_rate_limit: 
+      pn_enable: 
+      pn_eth_mode: 
+      pn_fabric_guard: 
+      pn_host_enable: 
+      pn_intf: 
+      pn_jumbo: 
+      pn_lacp_priority: 
+      pn_local_switching: 
+      pn_loop_vlans: 
+      pn_loopback: 
+      pn_mirror_only: 
+      pn_pause: 
+      pn_port: 
+      pn_port_mac_address: 
+      pn_reflect: 
+      pn_routing: 
+      pn_send_port: 
+      pn_speed: 
+      pn_vxlan_termination: 
+      state: 
+]]>
+	</content>
+</snippet>

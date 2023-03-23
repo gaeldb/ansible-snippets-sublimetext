@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_kra</tabTrigger>
+	<description>Setup KRA</description>
+	<content><![CDATA[
+- name: Setup KRA
+  ipaserver_setup_kra:
+      dm_password: 
+      hostname: 
+      pki_config_override: 
+      realm: 
+      setup_ca: 
+      setup_kra: 
+]]>
+	</content>
+</snippet>

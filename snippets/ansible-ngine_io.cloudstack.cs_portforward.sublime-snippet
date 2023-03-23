@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_portforward</tabTrigger>
+	<description>Manages port forwarding rules on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages port forwarding rules on Apache CloudStack based clouds.
+  cs_portforward:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      ip_address: 
+      network: 
+      open_firewall: 
+      poll_async: 
+      private_end_port: 
+      private_port: 
+      project: 
+      protocol: 
+      public_end_port: 
+      public_port: 
+      state: 
+      tags: 
+      vm: 
+      vm_guest_ip: 
+      vpc: 
+      zone: 
+]]>
+	</content>
+</snippet>

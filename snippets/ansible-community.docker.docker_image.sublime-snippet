@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_image</tabTrigger>
+	<description>Manage docker images.</description>
+	<content><![CDATA[
+- name: Manage docker images.
+  docker_image:
+      api_version: 
+      archive_path: 
+      build: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      docker_host: 
+      force_absent: 
+      force_source: 
+      force_tag: 
+      load_path: 
+      name: 
+      push: 
+      repository: 
+      source: 
+      ssl_version: 
+      state: 
+      tag: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

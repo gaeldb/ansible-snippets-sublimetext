@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_zone</tabTrigger>
+	<description>Manages zones on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages zones on Apache CloudStack based clouds.
+  cs_zone:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      dhcp_provider: 
+      dns1: 
+      dns1_ipv6: 
+      dns2: 
+      dns2_ipv6: 
+      domain: 
+      guest_cidr_address: 
+      id: 
+      internal_dns1: 
+      internal_dns2: 
+      local_storage_enabled: 
+      name: 
+      network_domain: 
+      network_type: 
+      securitygroups_enabled: 
+      state: 
+]]>
+	</content>
+</snippet>

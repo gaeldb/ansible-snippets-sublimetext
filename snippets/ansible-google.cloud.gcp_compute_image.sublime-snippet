@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_image</tabTrigger>
+	<description>Creates a GCP Image</description>
+	<content><![CDATA[
+- name: Creates a GCP Image
+  gcp_compute_image:
+      auth_kind: 
+      description: 
+      disk_size_gb: 
+      env_type: 
+      family: 
+      guest_os_features: 
+      image_encryption_key: 
+      labels: 
+      licenses: 
+      name: 
+      project: 
+      raw_disk: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      source_disk: 
+      source_disk_encryption_key: 
+      source_disk_id: 
+      source_image: 
+      source_snapshot: 
+      source_type: 
+      state: 
+]]>
+	</content>
+</snippet>

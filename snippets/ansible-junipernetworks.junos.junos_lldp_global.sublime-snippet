@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_lldp_global</tabTrigger>
+	<description>LLDP resource module</description>
+	<content><![CDATA[
+- name: LLDP resource module
+  junos_lldp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

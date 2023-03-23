@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_manage_config</tabTrigger>
+	<description>Writes the proxysql configuration settings between layers.</description>
+	<content><![CDATA[
+- name: Writes the proxysql configuration settings between layers.
+  proxysql_manage_config:
+      action: 
+      config_file: 
+      config_layer: 
+      config_settings: 
+      direction: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_central_management</tabTrigger>
+	<description>Configure central management in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure central management in Fortinet's FortiOS and FortiGate.
+  fortios_system_central_management:
+      access_token: 
+      system_central_management: 
+      vdom: 
+]]>
+	</content>
+</snippet>

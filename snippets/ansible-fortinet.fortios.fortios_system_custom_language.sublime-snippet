@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_custom_language</tabTrigger>
+	<description>Configure custom languages in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure custom languages in Fortinet's FortiOS and FortiGate.
+  fortios_system_custom_language:
+      access_token: 
+      state: 
+      system_custom_language: 
+      vdom: 
+]]>
+	</content>
+</snippet>

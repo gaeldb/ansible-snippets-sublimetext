@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_toast</tabTrigger>
+	<description>Sends Toast windows notification to logged in users on Windows 10 or later hosts</description>
+	<content><![CDATA[
+- name: Sends Toast windows notification to logged in users on Windows 10 or later hosts
+  win_toast:
+      expire: 
+      group: 
+      msg: 
+      popup: 
+      tag: 
+      title: 
+]]>
+	</content>
+</snippet>

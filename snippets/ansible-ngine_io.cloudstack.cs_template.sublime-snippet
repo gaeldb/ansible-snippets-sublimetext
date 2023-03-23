@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_template</tabTrigger>
+	<description>Manages templates on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages templates on Apache CloudStack based clouds.
+  cs_template:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      bits: 
+      checksum: 
+      cross_zones: 
+      details: 
+      display_text: 
+      domain: 
+      format: 
+      hypervisor: 
+      is_dynamically_scalable: 
+      is_extractable: 
+      is_featured: 
+      is_public: 
+      is_routing: 
+      mode: 
+      name: 
+      os_type: 
+      password_enabled: 
+      poll_async: 
+      project: 
+      requires_hvm: 
+      snapshot: 
+      sshkey_enabled: 
+      state: 
+      tags: 
+      template_filter: 
+      template_find_options: 
+      template_tag: 
+      url: 
+      vm: 
+      zone: 
+]]>
+	</content>
+</snippet>

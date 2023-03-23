@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_command</tabTrigger>
+	<description>Run arbitrary commands on Lenovo CNOS devices</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on Lenovo CNOS devices
+  cnos_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

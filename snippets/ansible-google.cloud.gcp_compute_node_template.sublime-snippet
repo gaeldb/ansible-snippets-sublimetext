@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_node_template</tabTrigger>
+	<description>Creates a GCP NodeTemplate</description>
+	<content><![CDATA[
+- name: Creates a GCP NodeTemplate
+  gcp_compute_node_template:
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      node_affinity_labels: 
+      node_type: 
+      node_type_flexibility: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

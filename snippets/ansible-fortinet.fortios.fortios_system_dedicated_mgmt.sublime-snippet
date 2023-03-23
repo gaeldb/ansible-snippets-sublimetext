@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_dedicated_mgmt</tabTrigger>
+	<description>Configure dedicated management in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure dedicated management in Fortinet's FortiOS and FortiGate.
+  fortios_system_dedicated_mgmt:
+      access_token: 
+      system_dedicated_mgmt: 
+      vdom: 
+]]>
+	</content>
+</snippet>

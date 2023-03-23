@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ntp</tabTrigger>
+	<description>NetApp ONTAP NTP server</description>
+	<content><![CDATA[
+- name: NetApp ONTAP NTP server
+  na_ontap_ntp:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      server_name: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

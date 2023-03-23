@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.subnet</tabTrigger>
+	<description>Add/Remove subnet to an OpenStack network</description>
+	<content><![CDATA[
+- name: Add/Remove subnet to an OpenStack network
+  subnet:
+      allocation_pool_end: 
+      allocation_pool_start: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      cidr: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      dns_nameservers: 
+      enable_dhcp: 
+      extra_specs: 
+      gateway_ip: 
+      host_routes: 
+      interface: 
+      ip_version: 
+      ipv6_address_mode: 
+      ipv6_ra_mode: 
+      name: 
+      network_name: 
+      no_gateway_ip: 
+      project: 
+      region_name: 
+      state: 
+      timeout: 
+      use_default_subnetpool: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

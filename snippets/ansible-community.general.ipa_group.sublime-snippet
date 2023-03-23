@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_group</tabTrigger>
+	<description>Manage FreeIPA group</description>
+	<content><![CDATA[
+- name: Manage FreeIPA group
+  ipa_group:
+      append: 
+      cn: 
+      description: 
+      external: 
+      gidnumber: 
+      group: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      nonposix: 
+      state: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

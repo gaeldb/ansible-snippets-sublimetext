@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.lambda_event</tabTrigger>
+	<description>Creates, updates or deletes AWS Lambda function event mappings</description>
+	<content><![CDATA[
+- name: Creates, updates or deletes AWS Lambda function event mappings
+  lambda_event:
+      access_key: 
+      alias: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      event_source: 
+      lambda_function_arn: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      source_params: 
+      state: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

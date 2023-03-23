@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.glue_crawler</tabTrigger>
+	<description>Manage an AWS Glue crawler</description>
+	<content><![CDATA[
+- name: Manage an AWS Glue crawler
+  glue_crawler:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      database_name: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      name: 
+      profile: 
+      purge_tags: 
+      recrawl_policy: 
+      region: 
+      role: 
+      schema_change_policy: 
+      secret_key: 
+      session_token: 
+      state: 
+      table_prefix: 
+      tags: 
+      targets: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

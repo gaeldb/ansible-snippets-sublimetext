@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_map</tabTrigger>
+	<description>Create and Delete mapping of a volume to a host on Infinibox</description>
+	<content><![CDATA[
+- name: Create and Delete mapping of a volume to a host on Infinibox
+  infini_map:
+      host: 
+      password: 
+      state: 
+      system: 
+      user: 
+      volume: 
+]]>
+	</content>
+</snippet>

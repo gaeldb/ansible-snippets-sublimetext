@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_ptp_global</tabTrigger>
+	<description>Configures PTP Global parameters</description>
+	<content><![CDATA[
+- name: Configures PTP Global parameters
+  onyx_ptp_global:
+      domain: 
+      ntp_state: 
+      primary_priority: 
+      ptp_state: 
+      secondary_priority: 
+]]>
+	</content>
+</snippet>

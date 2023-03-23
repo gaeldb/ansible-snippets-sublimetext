@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.aruba.aruba_command</tabTrigger>
+	<description>Run commands on remote devices running Aruba Mobility Controller</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Aruba Mobility Controller
+  aruba_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

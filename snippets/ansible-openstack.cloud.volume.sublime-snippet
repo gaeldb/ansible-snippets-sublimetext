@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.volume</tabTrigger>
+	<description>Create/Delete Cinder Volumes</description>
+	<content><![CDATA[
+- name: Create/Delete Cinder Volumes
+  volume:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      bootable: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      display_description: 
+      display_name: 
+      image: 
+      interface: 
+      metadata: 
+      region_name: 
+      scheduler_hints: 
+      size: 
+      snapshot_id: 
+      state: 
+      timeout: 
+      validate_certs: 
+      volume: 
+      volume_type: 
+      wait: 
+]]>
+	</content>
+</snippet>

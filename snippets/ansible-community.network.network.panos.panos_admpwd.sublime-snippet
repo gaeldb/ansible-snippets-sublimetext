@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_admpwd</tabTrigger>
+	<description>change admin password of PAN-OS device using SSH with SSH key</description>
+	<content><![CDATA[
+- name: change admin password of PAN-OS device using SSH with SSH key
+  panos_admpwd:
+      ip_address: 
+      key_filename: 
+      newpassword: 
+      username: 
+]]>
+	</content>
+</snippet>

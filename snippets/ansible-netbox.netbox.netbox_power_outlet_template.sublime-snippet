@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_power_outlet_template</tabTrigger>
+	<description>Create, update or delete power outlet templates within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete power outlet templates within Netbox
+  netbox_power_outlet_template:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

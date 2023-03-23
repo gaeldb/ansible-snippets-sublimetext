@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_logging</tabTrigger>
+	<description>Manage logging facility of an s3 bucket in AWS</description>
+	<content><![CDATA[
+- name: Manage logging facility of an s3 bucket in AWS
+  s3_logging:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      target_bucket: 
+      target_prefix: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

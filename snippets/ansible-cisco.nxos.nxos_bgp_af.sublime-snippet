@@ -1,0 +1,44 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_bgp_af</tabTrigger>
+	<description>Manages BGP Address-family configuration.</description>
+	<content><![CDATA[
+- name: Manages BGP Address-family configuration.
+  nxos_bgp_af:
+      additional_paths_install: 
+      additional_paths_receive: 
+      additional_paths_selection: 
+      additional_paths_send: 
+      advertise_l2vpn_evpn: 
+      afi: 
+      asn: 
+      client_to_client: 
+      dampen_igp_metric: 
+      dampening_half_time: 
+      dampening_max_suppress_time: 
+      dampening_reuse_time: 
+      dampening_routemap: 
+      dampening_state: 
+      dampening_suppress_time: 
+      default_information_originate: 
+      default_metric: 
+      distance_ebgp: 
+      distance_ibgp: 
+      distance_local: 
+      inject_map: 
+      maximum_paths: 
+      maximum_paths_ibgp: 
+      networks: 
+      next_hop_route_map: 
+      provider: 
+      redistribute: 
+      retain_route_target: 
+      safi: 
+      state: 
+      suppress_inactive: 
+      table_map: 
+      table_map_filter: 
+      vrf: 
+]]>
+	</content>
+</snippet>

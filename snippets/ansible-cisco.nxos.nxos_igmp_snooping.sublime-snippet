@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_igmp_snooping</tabTrigger>
+	<description>Manages IGMP snooping global configuration.</description>
+	<content><![CDATA[
+- name: Manages IGMP snooping global configuration.
+  nxos_igmp_snooping:
+      group_timeout: 
+      link_local_grp_supp: 
+      provider: 
+      report_supp: 
+      snooping: 
+      state: 
+      v3_report_supp: 
+]]>
+	</content>
+</snippet>

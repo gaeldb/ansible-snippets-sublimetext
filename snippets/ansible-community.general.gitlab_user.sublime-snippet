@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_user</tabTrigger>
+	<description>Creates/updates/deletes/blocks/unblocks GitLab Users</description>
+	<content><![CDATA[
+- name: Creates/updates/deletes/blocks/unblocks GitLab Users
+  gitlab_user:
+      access_level: 
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      confirm: 
+      email: 
+      external: 
+      group: 
+      identities: 
+      isadmin: 
+      name: 
+      overwrite_identities: 
+      password: 
+      reset_password: 
+      sshkey_expires_at: 
+      sshkey_file: 
+      sshkey_name: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

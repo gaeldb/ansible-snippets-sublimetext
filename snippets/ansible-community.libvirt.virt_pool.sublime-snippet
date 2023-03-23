@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.libvirt.virt_pool</tabTrigger>
+	<description>Manage libvirt storage pools</description>
+	<content><![CDATA[
+- name: Manage libvirt storage pools
+  virt_pool:
+      autostart: 
+      command: 
+      mode: 
+      name: 
+      state: 
+      uri: 
+      xml: 
+]]>
+	</content>
+</snippet>

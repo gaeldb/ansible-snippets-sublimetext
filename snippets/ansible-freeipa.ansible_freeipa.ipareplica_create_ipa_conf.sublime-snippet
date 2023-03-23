@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_create_ipa_conf</tabTrigger>
+	<description>Create ipa.conf</description>
+	<content><![CDATA[
+- name: Create ipa.conf
+  ipareplica_create_ipa_conf:
+      _add_to_ipaservers: 
+      _ca_enabled: 
+      _ca_subject: 
+      _subject_base: 
+      _top_dir: 
+      ca_cert_files: 
+      ccache: 
+      config_ca_host_name: 
+      config_master_host_name: 
+      dirman_password: 
+      dirsrv_cert_files: 
+      dm_password: 
+      domain: 
+      force_join: 
+      hostname: 
+      installer_ccache: 
+      ip_addresses: 
+      master: 
+      no_host_dns: 
+      password: 
+      realm: 
+      server: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_nat_rule_facts</tabTrigger>
+	<description>Get nat-rule objects facts on Checkpoint over Web Services API</description>
+	<content><![CDATA[
+- name: Get nat-rule objects facts on Checkpoint over Web Services API
+  cp_mgmt_nat_rule_facts:
+      dereference_group_members: 
+      details_level: 
+      filter: 
+      filter_settings: 
+      limit: 
+      offset: 
+      order: 
+      package: 
+      rule_number: 
+      show_membership: 
+      use_object_dictionary: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_ip_subnet</tabTrigger>
+	<description>Assign IP subnet to a bare metal server</description>
+	<content><![CDATA[
+- name: Assign IP subnet to a bare metal server
+  packet_ip_subnet:
+      auth_token: 
+      cidr: 
+      device_count: 
+      device_id: 
+      hostname: 
+      project_id: 
+      state: 
+]]>
+	</content>
+</snippet>

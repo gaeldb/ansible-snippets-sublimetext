@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_hotfix</tabTrigger>
+	<description>Install and uninstalls Windows hotfixes</description>
+	<content><![CDATA[
+- name: Install and uninstalls Windows hotfixes
+  win_hotfix:
+      hotfix_identifier: 
+      hotfix_kb: 
+      source: 
+      state: 
+]]>
+	</content>
+</snippet>

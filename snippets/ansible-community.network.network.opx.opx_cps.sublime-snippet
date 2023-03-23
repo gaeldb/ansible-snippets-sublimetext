@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.opx.opx_cps</tabTrigger>
+	<description>CPS operations on networking device running Openswitch (OPX)</description>
+	<content><![CDATA[
+- name: CPS operations on networking device running Openswitch (OPX)
+  opx_cps:
+      attr_data: 
+      attr_type: 
+      commit_event: 
+      db: 
+      module_name: 
+      operation: 
+      qualifier: 
+]]>
+	</content>
+</snippet>

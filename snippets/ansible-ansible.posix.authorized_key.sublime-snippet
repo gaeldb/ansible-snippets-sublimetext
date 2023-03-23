@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.authorized_key</tabTrigger>
+	<description>Adds or removes an SSH authorized key</description>
+	<content><![CDATA[
+- name: Adds or removes an SSH authorized key
+  authorized_key:
+      comment: 
+      exclusive: 
+      follow: 
+      key: 
+      key_options: 
+      manage_dir: 
+      path: 
+      state: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pritunl_user_info</tabTrigger>
+	<description>List Pritunl Users using the Pritunl API</description>
+	<content><![CDATA[
+- name: List Pritunl Users using the Pritunl API
+  pritunl_user_info:
+      organization: 
+      pritunl_api_secret: 
+      pritunl_api_token: 
+      pritunl_url: 
+      user_name: 
+      user_type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

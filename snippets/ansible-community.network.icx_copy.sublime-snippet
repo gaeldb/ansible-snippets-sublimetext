@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.icx_copy</tabTrigger>
+	<description>Transfer files from or to remote Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Transfer files from or to remote Ruckus ICX 7000 series switches
+  icx_copy:
+      download: 
+      protocol: 
+      public_key: 
+      remote_filename: 
+      remote_pass: 
+      remote_port: 
+      remote_server: 
+      remote_user: 
+      upload: 
+]]>
+	</content>
+</snippet>

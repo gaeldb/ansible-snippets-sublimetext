@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_snap</tabTrigger>
+	<description>Manage filesystem snapshots on Pure Storage FlashBlades</description>
+	<content><![CDATA[
+- name: Manage filesystem snapshots on Pure Storage FlashBlades
+  purefb_snap:
+      api_token: 
+      eradicate: 
+      fb_url: 
+      name: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

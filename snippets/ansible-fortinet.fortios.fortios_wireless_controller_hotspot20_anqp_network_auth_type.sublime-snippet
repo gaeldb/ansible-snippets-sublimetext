@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_hotspot20_anqp_network_auth_type</tabTrigger>
+	<description>Configure network authentication type in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure network authentication type in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_hotspot20_anqp_network_auth_type:
+      access_token: 
+      state: 
+      vdom: 
+      wireless_controller_hotspot20_anqp_network_auth_type: 
+]]>
+	</content>
+</snippet>

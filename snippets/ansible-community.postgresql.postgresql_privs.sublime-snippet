@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_privs</tabTrigger>
+	<description>Grant or revoke privileges on PostgreSQL database objects</description>
+	<content><![CDATA[
+- name: Grant or revoke privileges on PostgreSQL database objects
+  postgresql_privs:
+      ca_cert: 
+      database: 
+      fail_on_role: 
+      grant_option: 
+      host: 
+      login: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      objs: 
+      password: 
+      port: 
+      privs: 
+      roles: 
+      schema: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      target_roles: 
+      trust_input: 
+      type: 
+      unix_socket: 
+      usage_on_types: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_connect</tabTrigger>
+	<description>Manage replication connections between two FlashArrays</description>
+	<content><![CDATA[
+- name: Manage replication connections between two FlashArrays
+  purefa_connect:
+      api_token: 
+      connection: 
+      fa_url: 
+      state: 
+      target_api: 
+      target_url: 
+      transport: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_secprof_profile_group</tabTrigger>
+	<description>Manage security profiles within FortiManager</description>
+	<content><![CDATA[
+- name: Manage security profiles within FortiManager
+  fmgr_secprof_profile_group:
+      adom: 
+      application_list: 
+      av_profile: 
+      dlp_sensor: 
+      dnsfilter_profile: 
+      icap_profile: 
+      ips_sensor: 
+      mms_profile: 
+      mode: 
+      name: 
+      profile_protocol_options: 
+      spamfilter_profile: 
+      ssh_filter_profile: 
+      ssl_ssh_profile: 
+      voip_profile: 
+      waf_profile: 
+      webfilter_profile: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_pfc_interface</tabTrigger>
+	<description>Manage priority flow control on ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage priority flow control on ONYX network devices
+  onyx_pfc_interface:
+      aggregate: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

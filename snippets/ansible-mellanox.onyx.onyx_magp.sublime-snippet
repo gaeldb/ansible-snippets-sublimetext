@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_magp</tabTrigger>
+	<description>Manage MAGP protocol on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage MAGP protocol on Mellanox ONYX network devices
+  onyx_magp:
+      interface: 
+      magp_id: 
+      router_ip: 
+      router_mac: 
+      state: 
+]]>
+	</content>
+</snippet>

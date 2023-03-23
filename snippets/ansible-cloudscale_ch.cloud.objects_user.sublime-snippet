@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.objects_user</tabTrigger>
+	<description>Manages objects users on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages objects users on the cloudscale.ch IaaS service
+  objects_user:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      display_name: 
+      id: 
+      state: 
+      tags: 
+]]>
+	</content>
+</snippet>

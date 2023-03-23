@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sensu_check</tabTrigger>
+	<description>Manage Sensu checks</description>
+	<content><![CDATA[
+- name: Manage Sensu checks
+  sensu_check:
+      aggregate: 
+      backup: 
+      command: 
+      custom: 
+      dependencies: 
+      handle: 
+      handlers: 
+      high_flap_threshold: 
+      interval: 
+      low_flap_threshold: 
+      metric: 
+      name: 
+      occurrences: 
+      path: 
+      publish: 
+      refresh: 
+      source: 
+      standalone: 
+      state: 
+      subdue_begin: 
+      subdue_end: 
+      subscribers: 
+      timeout: 
+      ttl: 
+]]>
+	</content>
+</snippet>

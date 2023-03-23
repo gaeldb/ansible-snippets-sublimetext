@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.maven_artifact</tabTrigger>
+	<description>Downloads an Artifact from a Maven Repository</description>
+	<content><![CDATA[
+- name: Downloads an Artifact from a Maven Repository
+  maven_artifact:
+      artifact_id: 
+      attributes: 
+      checksum_alg: 
+      classifier: 
+      client_cert: 
+      client_key: 
+      dest: 
+      directory_mode: 
+      extension: 
+      force_basic_auth: 
+      group: 
+      group_id: 
+      headers: 
+      keep_name: 
+      mode: 
+      owner: 
+      password: 
+      repository_url: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      timeout: 
+      unredirected_headers: 
+      unsafe_writes: 
+      username: 
+      validate_certs: 
+      verify_checksum: 
+      version: 
+      version_by_spec: 
+]]>
+	</content>
+</snippet>

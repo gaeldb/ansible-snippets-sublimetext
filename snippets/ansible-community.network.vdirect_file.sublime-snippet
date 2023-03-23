@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.vdirect_file</tabTrigger>
+	<description>Uploads a new or updates an existing runnable file into Radware vDirect server</description>
+	<content><![CDATA[
+- name: Uploads a new or updates an existing runnable file into Radware vDirect server
+  vdirect_file:
+      file_name: 
+      validate_certs: 
+      vdirect_http_port: 
+      vdirect_https_port: 
+      vdirect_ip: 
+      vdirect_password: 
+      vdirect_secondary_ip: 
+      vdirect_timeout: 
+      vdirect_use_ssl: 
+      vdirect_user: 
+      vdirect_wait: 
+]]>
+	</content>
+</snippet>

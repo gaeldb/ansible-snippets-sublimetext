@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_name_service_switch</tabTrigger>
+	<description>NetApp ONTAP Manage name service switch</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage name service switch
+  na_ontap_name_service_switch:
+      cert_filepath: 
+      database_type: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      sources: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

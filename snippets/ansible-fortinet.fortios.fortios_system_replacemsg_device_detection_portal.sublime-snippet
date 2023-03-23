@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_replacemsg_device_detection_portal</tabTrigger>
+	<description>Replacement messages in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Replacement messages in Fortinet's FortiOS and FortiGate.
+  fortios_system_replacemsg_device_detection_portal:
+      access_token: 
+      state: 
+      system_replacemsg_device_detection_portal: 
+      vdom: 
+]]>
+	</content>
+</snippet>

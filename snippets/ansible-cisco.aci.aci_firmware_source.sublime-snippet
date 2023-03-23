@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_firmware_source</tabTrigger>
+	<description>Manage firmware image sources (firmware:OSource)</description>
+	<content><![CDATA[
+- name: Manage firmware image sources (firmware:OSource)
+  aci_firmware_source:
+      annotation: 
+      certificate_name: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      polling_interval: 
+      port: 
+      private_key: 
+      source: 
+      state: 
+      timeout: 
+      url: 
+      url_password: 
+      url_protocol: 
+      url_username: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

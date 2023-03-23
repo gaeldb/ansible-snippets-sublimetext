@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_fortianalyzer2_filter</tabTrigger>
+	<description>Filters for FortiAnalyzer in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Filters for FortiAnalyzer in Fortinet's FortiOS and FortiGate.
+  fortios_log_fortianalyzer2_filter:
+      access_token: 
+      log_fortianalyzer2_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

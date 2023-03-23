@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_project_info</tabTrigger>
+	<description>Retrieve information about one or more OpenStack projects</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more OpenStack projects
+  project_info:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      domain: 
+      filters: 
+      interface: 
+      name: 
+      region_name: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

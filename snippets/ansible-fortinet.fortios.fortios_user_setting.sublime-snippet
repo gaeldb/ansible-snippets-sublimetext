@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_setting</tabTrigger>
+	<description>Configure user authentication setting in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure user authentication setting in Fortinet's FortiOS and FortiGate.
+  fortios_user_setting:
+      access_token: 
+      user_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

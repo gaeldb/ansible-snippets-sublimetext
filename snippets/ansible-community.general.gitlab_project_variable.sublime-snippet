@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_project_variable</tabTrigger>
+	<description>Creates/updates/deletes GitLab Projects Variables</description>
+	<content><![CDATA[
+- name: Creates/updates/deletes GitLab Projects Variables
+  gitlab_project_variable:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      project: 
+      purge: 
+      state: 
+      validate_certs: 
+      variables: 
+      vars: 
+]]>
+	</content>
+</snippet>

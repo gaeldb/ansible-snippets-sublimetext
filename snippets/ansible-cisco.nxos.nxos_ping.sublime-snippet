@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ping</tabTrigger>
+	<description>Tests reachability using ping from Nexus switch.</description>
+	<content><![CDATA[
+- name: Tests reachability using ping from Nexus switch.
+  nxos_ping:
+      count: 
+      dest: 
+      provider: 
+      source: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

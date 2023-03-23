@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.vlt_validate</tabTrigger>
+	<description>Validate the vlt info, raise an error if peer is not in up state</description>
+	<content><![CDATA[
+- name: Validate the vlt info, raise an error if peer is not in up state
+  vlt_validate:
+      intended_vlt_pairs: 
+      show_system_network_summary: 
+      show_vlt: 
+]]>
+	</content>
+</snippet>

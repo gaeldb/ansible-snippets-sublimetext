@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_vsvip</tabTrigger>
+	<description>Module for setup of VsVip Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of VsVip Avi RESTful Object
+  avi_vsvip:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_ref: 
+      controller: 
+      dns_info: 
+      east_west_placement: 
+      name: 
+      password: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      use_standard_alb: 
+      username: 
+      uuid: 
+      vip: 
+      vrf_context_ref: 
+      vsvip_cloud_config_cksum: 
+]]>
+	</content>
+</snippet>

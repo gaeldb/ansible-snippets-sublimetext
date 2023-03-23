@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ntp_auth</tabTrigger>
+	<description>Manages NTP authentication.</description>
+	<content><![CDATA[
+- name: Manages NTP authentication.
+  nxos_ntp_auth:
+      auth_type: 
+      authentication: 
+      key_id: 
+      md5string: 
+      provider: 
+      state: 
+      trusted_key: 
+]]>
+	</content>
+</snippet>

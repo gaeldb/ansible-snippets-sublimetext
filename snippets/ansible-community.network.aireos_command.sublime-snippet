@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.aireos_command</tabTrigger>
+	<description>Run commands on remote devices running Cisco WLC</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Cisco WLC
+  aireos_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_uri</tabTrigger>
+	<description>Interacts with webservices</description>
+	<content><![CDATA[
+- name: Interacts with webservices
+  win_uri:
+      body: 
+      client_cert: 
+      client_cert_password: 
+      content_type: 
+      creates: 
+      dest: 
+      follow_redirects: 
+      force_basic_auth: 
+      headers: 
+      http_agent: 
+      maximum_redirection: 
+      proxy_password: 
+      proxy_url: 
+      proxy_use_default_credential: 
+      proxy_username: 
+      removes: 
+      return_content: 
+      status_code: 
+      url: 
+      url_method: 
+      url_password: 
+      url_timeout: 
+      url_username: 
+      use_default_credential: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

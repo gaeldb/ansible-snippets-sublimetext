@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_startup_script</tabTrigger>
+	<description>Manages startup scripts on Vultr.</description>
+	<content><![CDATA[
+- name: Manages startup scripts on Vultr.
+  vultr_startup_script:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      name: 
+      script: 
+      script_type: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

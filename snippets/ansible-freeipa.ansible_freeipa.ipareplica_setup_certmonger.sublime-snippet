@@ -1,0 +1,9 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_certmonger</tabTrigger>
+	<description></description>
+	<content><![CDATA[
+
+]]>
+	</content>
+</snippet>

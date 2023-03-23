@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.dms_replication_subnet_group</tabTrigger>
+	<description>creates or destroys a data migration services subnet group</description>
+	<content><![CDATA[
+- name: creates or destroys a data migration services subnet group
+  dms_replication_subnet_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      identifier: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnet_ids: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

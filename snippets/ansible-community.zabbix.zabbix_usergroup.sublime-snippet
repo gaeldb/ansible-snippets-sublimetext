@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_usergroup</tabTrigger>
+	<description>Create/delete/update Zabbix user groups</description>
+	<content><![CDATA[
+- name: Create/delete/update Zabbix user groups
+  zabbix_usergroup:
+      debug_mode: 
+      gui_access: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      name: 
+      rights: 
+      server_url: 
+      state: 
+      status: 
+      tag_filters: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

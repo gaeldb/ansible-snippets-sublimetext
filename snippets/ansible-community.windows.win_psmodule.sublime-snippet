@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psmodule</tabTrigger>
+	<description>Adds or removes a Windows PowerShell module</description>
+	<content><![CDATA[
+- name: Adds or removes a Windows PowerShell module
+  win_psmodule:
+      allow_clobber: 
+      allow_prerelease: 
+      maximum_version: 
+      minimum_version: 
+      name: 
+      repository: 
+      required_version: 
+      skip_publisher_check: 
+      state: 
+      url: 
+]]>
+	</content>
+</snippet>

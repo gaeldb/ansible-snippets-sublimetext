@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_logout</tabTrigger>
+	<description>Log out of a container registry using podman</description>
+	<content><![CDATA[
+- name: Log out of a container registry using podman
+  podman_logout:
+      all: 
+      authfile: 
+      executable: 
+      ignore_docker_credentials: 
+      registry: 
+]]>
+	</content>
+</snippet>

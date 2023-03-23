@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_software_update</tabTrigger>
+	<description>NetApp ONTAP Update Software</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Update Software
+  na_ontap_software_update:
+      cert_filepath: 
+      download_only: 
+      feature_flags: 
+      force_update: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_validation_warning: 
+      key_filepath: 
+      nodes: 
+      ontapi: 
+      package_url: 
+      package_version: 
+      password: 
+      stabilize_minutes: 
+      state: 
+      timeout: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_replication_hostgroups</tabTrigger>
+	<description>Manages replication hostgroups using the proxysql admin interface.</description>
+	<content><![CDATA[
+- name: Manages replication hostgroups using the proxysql admin interface.
+  proxysql_replication_hostgroups:
+      comment: 
+      config_file: 
+      load_to_runtime: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      reader_hostgroup: 
+      save_to_disk: 
+      state: 
+      writer_hostgroup: 
+]]>
+	</content>
+</snippet>

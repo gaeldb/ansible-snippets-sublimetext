@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dimensiondata_network</tabTrigger>
+	<description>Create, update, and delete MCP 1.0 & 2.0 networks</description>
+	<content><![CDATA[
+- name: Create, update, and delete MCP 1.0 & 2.0 networks
+  dimensiondata_network:
+      description: 
+      location: 
+      mcp_password: 
+      mcp_user: 
+      name: 
+      region: 
+      service_plan: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_poll_interval: 
+      wait_time: 
+]]>
+	</content>
+</snippet>

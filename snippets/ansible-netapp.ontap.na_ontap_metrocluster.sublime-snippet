@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_metrocluster</tabTrigger>
+	<description>NetApp ONTAP set up a MetroCluster</description>
+	<content><![CDATA[
+- name: NetApp ONTAP set up a MetroCluster
+  na_ontap_metrocluster:
+      cert_filepath: 
+      dr_pairs: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      partner_cluster_name: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

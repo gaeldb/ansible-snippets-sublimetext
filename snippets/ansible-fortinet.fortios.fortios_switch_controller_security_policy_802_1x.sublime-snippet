@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_security_policy_802_1x</tabTrigger>
+	<description>Configure 802.1x MAC Authentication Bypass (MAB) policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure 802.1x MAC Authentication Bypass (MAB) policies in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_security_policy_802_1x:
+      access_token: 
+      state: 
+      switch_controller_security_policy_802_1x: 
+      vdom: 
+]]>
+	</content>
+</snippet>

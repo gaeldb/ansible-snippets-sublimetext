@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_sssd</tabTrigger>
+	<description>Setup sssd for IPA client</description>
+	<content><![CDATA[
+- name: Setup sssd for IPA client
+  ipaclient_setup_sssd:
+      all_ip_addresses: 
+      domain: 
+      enable_dns_updates: 
+      fixed_primary: 
+      hostname: 
+      no_krb5_offline_passwords: 
+      no_ssh: 
+      no_sshd: 
+      no_sudo: 
+      on_master: 
+      permit: 
+      preserve_sssd: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.federation_mapping_info</tabTrigger>
+	<description>Get the information about the available federation mappings</description>
+	<content><![CDATA[
+- name: Get the information about the available federation mappings
+  federation_mapping_info:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      name: 
+      region_name: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

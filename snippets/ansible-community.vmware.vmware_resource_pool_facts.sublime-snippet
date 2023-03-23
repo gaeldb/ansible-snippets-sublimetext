@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_resource_pool_facts</tabTrigger>
+	<description>Gathers facts about resource pool information</description>
+	<content><![CDATA[
+- name: Gathers facts about resource pool information
+  vmware_resource_pool_facts:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_privatekey_convert</tabTrigger>
+	<description>Convert OpenSSL private keys</description>
+	<content><![CDATA[
+- name: Convert OpenSSL private keys
+  openssl_privatekey_convert:
+      attributes: 
+      backup: 
+      dest_passphrase: 
+      dest_path: 
+      format: 
+      group: 
+      mode: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src_content: 
+      src_passphrase: 
+      src_path: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

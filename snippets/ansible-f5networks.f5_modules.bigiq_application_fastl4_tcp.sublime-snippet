@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_application_fastl4_tcp</tabTrigger>
+	<description>Manages BIG-IQ FastL4 TCP applications</description>
+	<content><![CDATA[
+- name: Manages BIG-IQ FastL4 TCP applications
+  bigiq_application_fastl4_tcp:
+      add_analytics: 
+      description: 
+      inbound_virtual: 
+      name: 
+      provider: 
+      servers: 
+      service_environment: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

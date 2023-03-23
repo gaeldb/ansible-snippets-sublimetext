@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_info</tabTrigger>
+	<description>Gather information about Intersight</description>
+	<content><![CDATA[
+- name: Gather information about Intersight
+  intersight_info:
+      api_key_id: 
+      api_private_key: 
+      api_uri: 
+      server_names: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

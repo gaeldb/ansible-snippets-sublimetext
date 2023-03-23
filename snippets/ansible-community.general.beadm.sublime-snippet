@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.beadm</tabTrigger>
+	<description>Manage ZFS boot environments on FreeBSD/Solaris/illumos systems</description>
+	<content><![CDATA[
+- name: Manage ZFS boot environments on FreeBSD/Solaris/illumos systems
+  beadm:
+      description: 
+      force: 
+      mountpoint: 
+      name: 
+      options: 
+      snapshot: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_prefix_list6</tabTrigger>
+	<description>Configure IPv6 prefix lists in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 prefix lists in Fortinet's FortiOS and FortiGate.
+  fortios_router_prefix_list6:
+      access_token: 
+      router_prefix_list6: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

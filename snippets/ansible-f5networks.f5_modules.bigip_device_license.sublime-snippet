@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_license</tabTrigger>
+	<description>Manage license installation and activation on BIG-IP devices</description>
+	<content><![CDATA[
+- name: Manage license installation and activation on BIG-IP devices
+  bigip_device_license:
+      accept_eula: 
+      addon_keys: 
+      force: 
+      license_key: 
+      license_server: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

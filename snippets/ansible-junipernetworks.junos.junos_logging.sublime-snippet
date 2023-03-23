@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_logging</tabTrigger>
+	<description>Manage logging on network devices</description>
+	<content><![CDATA[
+- name: Manage logging on network devices
+  junos_logging:
+      active: 
+      aggregate: 
+      dest: 
+      facility: 
+      files: 
+      level: 
+      name: 
+      provider: 
+      rotate_frequency: 
+      size: 
+      state: 
+]]>
+	</content>
+</snippet>

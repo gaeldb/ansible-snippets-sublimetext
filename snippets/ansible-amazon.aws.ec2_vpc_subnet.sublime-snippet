@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_subnet</tabTrigger>
+	<description>Manage subnets in AWS virtual private clouds</description>
+	<content><![CDATA[
+- name: Manage subnets in AWS virtual private clouds
+  ec2_vpc_subnet:
+      access_key: 
+      assign_instances_ipv6: 
+      aws_ca_bundle: 
+      aws_config: 
+      az: 
+      cidr: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      ipv6_cidr: 
+      map_public: 
+      outpost_arn: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

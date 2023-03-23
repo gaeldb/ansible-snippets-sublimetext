@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_verify_software_package</tabTrigger>
+	<description>Verifies the software package on target machines.</description>
+	<content><![CDATA[
+- name: Verifies the software package on target machines.
+  cp_mgmt_verify_software_package:
+      concurrency_limit: 
+      download_package: 
+      download_package_from: 
+      name: 
+      targets: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

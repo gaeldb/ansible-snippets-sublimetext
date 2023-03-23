@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox_nic</tabTrigger>
+	<description>Management of a NIC of a Qemu(KVM) VM in a Proxmox VE cluster</description>
+	<content><![CDATA[
+- name: Management of a NIC of a Qemu(KVM) VM in a Proxmox VE cluster
+  proxmox_nic:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      bridge: 
+      firewall: 
+      interface: 
+      link_down: 
+      mac: 
+      model: 
+      mtu: 
+      name: 
+      queues: 
+      rate: 
+      state: 
+      tag: 
+      trunks: 
+      validate_certs: 
+      vmid: 
+]]>
+	</content>
+</snippet>

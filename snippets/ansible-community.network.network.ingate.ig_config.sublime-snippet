@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.ingate.ig_config</tabTrigger>
+	<description>Manage the configuration database on an Ingate SBC.</description>
+	<content><![CDATA[
+- name: Manage the configuration database on an Ingate SBC.
+  ig_config:
+      add: 
+      client: 
+      columns: 
+      delete: 
+      download: 
+      factory: 
+      filename: 
+      get: 
+      modify: 
+      no_response: 
+      path: 
+      return_rowid: 
+      revert: 
+      rowid: 
+      store: 
+      store_download: 
+      table: 
+]]>
+	</content>
+</snippet>

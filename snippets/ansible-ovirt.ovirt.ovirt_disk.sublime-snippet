@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_disk</tabTrigger>
+	<description>Module to manage Virtual Machine and floating disks in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage Virtual Machine and floating disks in oVirt/RHV
+  ovirt_disk:
+      activate: 
+      auth: 
+      backup: 
+      bootable: 
+      content_type: 
+      description: 
+      download_image_path: 
+      fetch_nested: 
+      force: 
+      format: 
+      host: 
+      id: 
+      image_provider: 
+      interface: 
+      logical_unit: 
+      name: 
+      nested_attributes: 
+      openstack_volume_type: 
+      pass_discard: 
+      poll_interval: 
+      profile: 
+      propagate_errors: 
+      quota_id: 
+      scsi_passthrough: 
+      shareable: 
+      size: 
+      sparse: 
+      sparsify: 
+      state: 
+      storage_domain: 
+      storage_domains: 
+      timeout: 
+      upload_image_path: 
+      uses_scsi_reservation: 
+      vm_id: 
+      vm_name: 
+      wait: 
+      wipe_after_delete: 
+]]>
+	</content>
+</snippet>

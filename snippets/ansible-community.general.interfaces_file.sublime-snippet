@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.interfaces_file</tabTrigger>
+	<description>Tweak settings in /etc/network/interfaces files</description>
+	<content><![CDATA[
+- name: Tweak settings in /etc/network/interfaces files
+  interfaces_file:
+      address_family: 
+      attributes: 
+      backup: 
+      dest: 
+      group: 
+      iface: 
+      mode: 
+      option: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+      value: 
+]]>
+	</content>
+</snippet>

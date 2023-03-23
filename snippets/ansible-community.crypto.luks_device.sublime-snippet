@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.luks_device</tabTrigger>
+	<description>Manage encrypted (LUKS) devices</description>
+	<content><![CDATA[
+- name: Manage encrypted (LUKS) devices
+  luks_device:
+      cipher: 
+      device: 
+      force_remove_last_key: 
+      hash: 
+      keyfile: 
+      keysize: 
+      label: 
+      name: 
+      new_keyfile: 
+      new_passphrase: 
+      passphrase: 
+      pbkdf: 
+      perf_no_read_workqueue: 
+      perf_no_write_workqueue: 
+      perf_same_cpu_crypt: 
+      perf_submit_from_crypt_cpus: 
+      persistent: 
+      remove_keyfile: 
+      remove_passphrase: 
+      sector_size: 
+      state: 
+      type: 
+      uuid: 
+]]>
+	</content>
+</snippet>

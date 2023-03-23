@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.openbsd_pkg</tabTrigger>
+	<description>Manage packages on OpenBSD</description>
+	<content><![CDATA[
+- name: Manage packages on OpenBSD
+  openbsd_pkg:
+      build: 
+      clean: 
+      name: 
+      ports_dir: 
+      quick: 
+      snapshot: 
+      state: 
+]]>
+	</content>
+</snippet>

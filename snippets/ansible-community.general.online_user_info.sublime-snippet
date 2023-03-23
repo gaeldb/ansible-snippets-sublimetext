@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.online_user_info</tabTrigger>
+	<description>Gather information about Online user</description>
+	<content><![CDATA[
+- name: Gather information about Online user
+  online_user_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_port_security</tabTrigger>
+	<description>Manage port security (l2:PortSecurityPol)</description>
+	<content><![CDATA[
+- name: Manage port security (l2:PortSecurityPol)
+  aci_interface_policy_port_security:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      max_end_points: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      port_security: 
+      port_security_timeout: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

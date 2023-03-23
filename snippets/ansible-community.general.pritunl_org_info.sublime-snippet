@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pritunl_org_info</tabTrigger>
+	<description>List Pritunl Organizations using the Pritunl API</description>
+	<content><![CDATA[
+- name: List Pritunl Organizations using the Pritunl API
+  pritunl_org_info:
+      organization: 
+      pritunl_api_secret: 
+      pritunl_api_token: 
+      pritunl_url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

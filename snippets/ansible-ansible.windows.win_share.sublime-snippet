@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_share</tabTrigger>
+	<description>Manage Windows shares</description>
+	<content><![CDATA[
+- name: Manage Windows shares
+  win_share:
+      caching_mode: 
+      change: 
+      deny: 
+      description: 
+      encrypt: 
+      full: 
+      list: 
+      name: 
+      path: 
+      read: 
+      rule_action: 
+      state: 
+]]>
+	</content>
+</snippet>

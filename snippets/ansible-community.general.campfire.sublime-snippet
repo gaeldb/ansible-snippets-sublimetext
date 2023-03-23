@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.campfire</tabTrigger>
+	<description>Send a message to Campfire</description>
+	<content><![CDATA[
+- name: Send a message to Campfire
+  campfire:
+      msg: 
+      notify: 
+      room: 
+      subscription: 
+      token: 
+]]>
+	</content>
+</snippet>

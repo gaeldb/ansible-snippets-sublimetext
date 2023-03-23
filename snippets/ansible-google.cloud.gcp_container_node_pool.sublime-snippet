@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_container_node_pool</tabTrigger>
+	<description>Creates a GCP NodePool</description>
+	<content><![CDATA[
+- name: Creates a GCP NodePool
+  gcp_container_node_pool:
+      auth_kind: 
+      autoscaling: 
+      cluster: 
+      conditions: 
+      config: 
+      env_type: 
+      initial_node_count: 
+      location: 
+      management: 
+      max_pods_constraint: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

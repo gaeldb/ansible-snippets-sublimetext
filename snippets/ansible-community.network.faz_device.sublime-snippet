@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.faz_device</tabTrigger>
+	<description>Add or remove device</description>
+	<content><![CDATA[
+- name: Add or remove device
+  faz_device:
+      adom: 
+      device_ip: 
+      device_password: 
+      device_serial: 
+      device_unique_name: 
+      device_username: 
+      faz_quota: 
+      mgmt_mode: 
+      mode: 
+      os_minor_vers: 
+      os_type: 
+      os_ver: 
+      platform_str: 
+]]>
+	</content>
+</snippet>

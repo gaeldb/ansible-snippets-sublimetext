@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_evpn_vni</tabTrigger>
+	<description>Manages Cisco EVPN VXLAN Network Identifier (VNI).</description>
+	<content><![CDATA[
+- name: Manages Cisco EVPN VXLAN Network Identifier (VNI).
+  nxos_evpn_vni:
+      provider: 
+      route_distinguisher: 
+      route_target_both: 
+      route_target_export: 
+      route_target_import: 
+      state: 
+      vni: 
+]]>
+	</content>
+</snippet>

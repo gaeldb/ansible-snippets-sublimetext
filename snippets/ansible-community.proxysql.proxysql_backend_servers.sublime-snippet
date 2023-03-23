@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_backend_servers</tabTrigger>
+	<description>Adds or removes mysql hosts from proxysql admin interface.</description>
+	<content><![CDATA[
+- name: Adds or removes mysql hosts from proxysql admin interface.
+  proxysql_backend_servers:
+      comment: 
+      compression: 
+      config_file: 
+      hostgroup_id: 
+      hostname: 
+      load_to_runtime: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      max_connections: 
+      max_latency_ms: 
+      max_replication_lag: 
+      port: 
+      save_to_disk: 
+      state: 
+      status: 
+      use_ssl: 
+      weight: 
+]]>
+	</content>
+</snippet>

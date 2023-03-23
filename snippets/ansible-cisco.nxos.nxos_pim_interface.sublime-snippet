@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_pim_interface</tabTrigger>
+	<description>Manages PIM interface configuration.</description>
+	<content><![CDATA[
+- name: Manages PIM interface configuration.
+  nxos_pim_interface:
+      bfd: 
+      border: 
+      dr_prio: 
+      hello_auth_key: 
+      hello_interval: 
+      interface: 
+      jp_policy_in: 
+      jp_policy_out: 
+      jp_type_in: 
+      jp_type_out: 
+      neighbor_policy: 
+      neighbor_type: 
+      provider: 
+      sparse: 
+      state: 
+]]>
+	</content>
+</snippet>

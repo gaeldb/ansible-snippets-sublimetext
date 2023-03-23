@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_queue</tabTrigger>
+	<description>Create / delete a queue in Rackspace Public Cloud</description>
+	<content><![CDATA[
+- name: Create / delete a queue in Rackspace Public Cloud
+  rax_queue:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      identity_type: 
+      name: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_show_software_package_details</tabTrigger>
+	<description>Gets the software package information from the cloud.</description>
+	<content><![CDATA[
+- name: Gets the software package information from the cloud.
+  cp_mgmt_show_software_package_details:
+      name: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pacman</tabTrigger>
+	<description>Manage packages with `pacman'</description>
+	<content><![CDATA[
+- name: Manage packages with `pacman'
+  pacman:
+      executable: 
+      extra_args: 
+      force: 
+      name: 
+      reason: 
+      reason_for: 
+      remove_nosave: 
+      state: 
+      update_cache: 
+      update_cache_extra_args: 
+      upgrade: 
+      upgrade_extra_args: 
+]]>
+	</content>
+</snippet>

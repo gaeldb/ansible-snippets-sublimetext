@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dnsimple_info</tabTrigger>
+	<description>Pull basic info from DNSimple API</description>
+	<content><![CDATA[
+- name: Pull basic info from DNSimple API
+  dnsimple_info:
+      account_id: 
+      api_key: 
+      name: 
+      record: 
+      sandbox: 
+]]>
+	</content>
+</snippet>

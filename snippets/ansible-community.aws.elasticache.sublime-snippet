@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elasticache</tabTrigger>
+	<description>Manage cache clusters in Amazon ElastiCache</description>
+	<content><![CDATA[
+- name: Manage cache clusters in Amazon ElastiCache
+  elasticache:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cache_engine_version: 
+      cache_parameter_group: 
+      cache_port: 
+      cache_security_groups: 
+      cache_subnet_group: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      engine: 
+      hard_modify: 
+      name: 
+      node_type: 
+      num_nodes: 
+      profile: 
+      region: 
+      secret_key: 
+      security_group_ids: 
+      session_token: 
+      state: 
+      validate_certs: 
+      wait: 
+      zone: 
+]]>
+	</content>
+</snippet>

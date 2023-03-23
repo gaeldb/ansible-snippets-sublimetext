@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.content_upload</tabTrigger>
+	<description>Upload content to a repository</description>
+	<content><![CDATA[
+- name: Upload content to a repository
+  content_upload:
+      organization: 
+      password: 
+      product: 
+      repository: 
+      server_url: 
+      src: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

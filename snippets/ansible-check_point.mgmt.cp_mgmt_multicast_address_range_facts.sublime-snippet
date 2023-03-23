@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_multicast_address_range_facts</tabTrigger>
+	<description>Get multicast-address-range objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get multicast-address-range objects facts on Check Point over Web Services API
+  cp_mgmt_multicast_address_range_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      show_membership: 
+      version: 
+]]>
+	</content>
+</snippet>

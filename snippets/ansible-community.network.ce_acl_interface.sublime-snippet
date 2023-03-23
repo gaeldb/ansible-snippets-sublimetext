@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_acl_interface</tabTrigger>
+	<description>Manages applying ACLs to interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages applying ACLs to interfaces on HUAWEI CloudEngine switches.
+  ce_acl_interface:
+      acl_name: 
+      direction: 
+      interface: 
+      state: 
+]]>
+	</content>
+</snippet>

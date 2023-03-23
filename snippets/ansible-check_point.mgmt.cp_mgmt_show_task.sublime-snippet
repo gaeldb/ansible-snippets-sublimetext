@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_show_task</tabTrigger>
+	<description>Show task progress and details.</description>
+	<content><![CDATA[
+- name: Show task progress and details.
+  cp_mgmt_show_task:
+      details_level: 
+      task_id: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

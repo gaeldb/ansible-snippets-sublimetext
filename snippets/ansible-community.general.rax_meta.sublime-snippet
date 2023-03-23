@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_meta</tabTrigger>
+	<description>Manipulate metadata for Rackspace Cloud Servers</description>
+	<content><![CDATA[
+- name: Manipulate metadata for Rackspace Cloud Servers
+  rax_meta:
+      address: 
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      id: 
+      identity_type: 
+      meta: 
+      name: 
+      region: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

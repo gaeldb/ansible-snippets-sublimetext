@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.github_webhook</tabTrigger>
+	<description>Manage GitHub webhooks</description>
+	<content><![CDATA[
+- name: Manage GitHub webhooks
+  github_webhook:
+      active: 
+      content_type: 
+      events: 
+      github_url: 
+      insecure_ssl: 
+      password: 
+      repository: 
+      secret: 
+      state: 
+      token: 
+      url: 
+      user: 
+]]>
+	</content>
+</snippet>

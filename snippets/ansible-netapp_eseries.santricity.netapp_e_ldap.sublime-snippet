@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_ldap</tabTrigger>
+	<description>NetApp E-Series manage LDAP integration to use for authentication</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage LDAP integration to use for authentication
+  netapp_e_ldap:
+      api_password: 
+      api_url: 
+      api_username: 
+      attributes: 
+      identifier: 
+      log_path: 
+      name: 
+      password: 
+      role_mappings: 
+      search_base: 
+      server: 
+      ssid: 
+      state: 
+      user_attribute: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabenvironment_info</tabTrigger>
+	<description>Get Azure Environment facts</description>
+	<content><![CDATA[
+- name: Get Azure Environment facts
+  azure_rm_devtestlabenvironment_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      lab_name: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      user_name: 
+]]>
+	</content>
+</snippet>

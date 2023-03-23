@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nsupdate</tabTrigger>
+	<description>Manage DNS records</description>
+	<content><![CDATA[
+- name: Manage DNS records
+  nsupdate:
+      key_algorithm: 
+      key_name: 
+      key_secret: 
+      port: 
+      protocol: 
+      record: 
+      server: 
+      state: 
+      ttl: 
+      type: 
+      value: 
+      zone: 
+]]>
+	</content>
+</snippet>

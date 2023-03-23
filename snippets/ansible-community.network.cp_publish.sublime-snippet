@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cp_publish</tabTrigger>
+	<description>All the changes done by this user will be seen by all users only after publish is called.</description>
+	<content><![CDATA[
+- name: All the changes done by this user will be seen by all users only after publish is called.
+  cp_publish:
+      uid: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

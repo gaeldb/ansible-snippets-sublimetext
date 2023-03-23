@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_ospfv3</tabTrigger>
+	<description>OSPFV3 resource module</description>
+	<content><![CDATA[
+- name: OSPFV3 resource module
+  vyos_ospfv3:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

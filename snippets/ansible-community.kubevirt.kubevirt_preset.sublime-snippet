@@ -1,0 +1,54 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubevirt.kubevirt_preset</tabTrigger>
+	<description>Manage KubeVirt virtual machine presets</description>
+	<content><![CDATA[
+- name: Manage KubeVirt virtual machine presets
+  kubevirt_preset:
+      affinity: 
+      anti_affinity: 
+      api_key: 
+      bootloader: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud_init_nocloud: 
+      context: 
+      cpu_cores: 
+      cpu_features: 
+      cpu_limit: 
+      cpu_model: 
+      cpu_shares: 
+      disks: 
+      force: 
+      headless: 
+      host: 
+      hostname: 
+      hugepage_size: 
+      interfaces: 
+      kubeconfig: 
+      labels: 
+      machine_type: 
+      memory: 
+      memory_limit: 
+      merge_type: 
+      name: 
+      namespace: 
+      node_affinity: 
+      password: 
+      persist_config: 
+      proxy: 
+      resource_definition: 
+      selector: 
+      smbios_uuid: 
+      state: 
+      subdomain: 
+      tablets: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_sleep: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

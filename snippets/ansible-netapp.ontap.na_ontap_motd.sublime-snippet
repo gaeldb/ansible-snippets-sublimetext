@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_motd</tabTrigger>
+	<description>Setup motd</description>
+	<content><![CDATA[
+- name: Setup motd
+  na_ontap_motd:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      motd_message: 
+      ontapi: 
+      password: 
+      show_cluster_motd: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

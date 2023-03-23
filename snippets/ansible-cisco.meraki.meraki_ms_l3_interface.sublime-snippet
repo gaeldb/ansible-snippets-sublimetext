@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ms_l3_interface</tabTrigger>
+	<description>Manage routed interfaces on MS switches</description>
+	<content><![CDATA[
+- name: Manage routed interfaces on MS switches
+  meraki_ms_l3_interface:
+      auth_key: 
+      default_gateway: 
+      host: 
+      interface_id: 
+      interface_ip: 
+      internal_error_retry_time: 
+      multicast_routing: 
+      name: 
+      org_id: 
+      org_name: 
+      ospf_settings: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      serial: 
+      state: 
+      subnet: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

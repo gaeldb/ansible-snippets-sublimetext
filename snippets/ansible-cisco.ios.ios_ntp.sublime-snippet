@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_ntp</tabTrigger>
+	<description>Manages core NTP configuration.</description>
+	<content><![CDATA[
+- name: Manages core NTP configuration.
+  ios_ntp:
+      acl: 
+      auth: 
+      auth_key: 
+      key_id: 
+      logging: 
+      provider: 
+      server: 
+      source_int: 
+      state: 
+]]>
+	</content>
+</snippet>

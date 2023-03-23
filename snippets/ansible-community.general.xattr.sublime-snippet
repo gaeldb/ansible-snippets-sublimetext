@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xattr</tabTrigger>
+	<description>Manage user defined extended attributes</description>
+	<content><![CDATA[
+- name: Manage user defined extended attributes
+  xattr:
+      follow: 
+      key: 
+      namespace: 
+      path: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

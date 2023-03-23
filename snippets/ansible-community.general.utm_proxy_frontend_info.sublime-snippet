@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_proxy_frontend_info</tabTrigger>
+	<description>Create, update or destroy reverse_proxy frontend entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy reverse_proxy frontend entry in Sophos UTM
+  utm_proxy_frontend_info:
+      headers: 
+      name: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.identity_domain</tabTrigger>
+	<description>Manage OpenStack Identity Domains</description>
+	<content><![CDATA[
+- name: Manage OpenStack Identity Domains
+  identity_domain:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      enabled: 
+      interface: 
+      name: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

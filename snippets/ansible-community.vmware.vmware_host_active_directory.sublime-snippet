@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_active_directory</tabTrigger>
+	<description>Joins an ESXi host system to an Active Directory domain or leaves it</description>
+	<content><![CDATA[
+- name: Joins an ESXi host system to an Active Directory domain or leaves it
+  vmware_host_active_directory:
+      ad_domain: 
+      ad_password: 
+      ad_state: 
+      ad_user: 
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

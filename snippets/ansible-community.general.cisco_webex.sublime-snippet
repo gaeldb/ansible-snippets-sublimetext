@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cisco_webex</tabTrigger>
+	<description>Send a message to a Cisco Webex Teams Room or Individual</description>
+	<content><![CDATA[
+- name: Send a message to a Cisco Webex Teams Room or Individual
+  cisco_webex:
+      msg: 
+      msg_type: 
+      personal_token: 
+      recipient_id: 
+      recipient_type: 
+]]>
+	</content>
+</snippet>

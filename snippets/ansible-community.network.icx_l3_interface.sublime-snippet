@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.icx_l3_interface</tabTrigger>
+	<description>Manage Layer-3 interfaces on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage Layer-3 interfaces on Ruckus ICX 7000 series switches
+  icx_l3_interface:
+      aggregate: 
+      check_running_config: 
+      ipv4: 
+      ipv6: 
+      mode: 
+      name: 
+      replace: 
+      secondary: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_apm_acl</tabTrigger>
+	<description>Manage user-defined APM ACLs</description>
+	<content><![CDATA[
+- name: Manage user-defined APM ACLs
+  bigip_apm_acl:
+      acl_order: 
+      description: 
+      entries: 
+      name: 
+      partition: 
+      path_match_case: 
+      provider: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

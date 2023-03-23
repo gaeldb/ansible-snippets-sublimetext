@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_wildcard</tabTrigger>
+	<description>Manages wildcard objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages wildcard objects on Check Point over Web Services API
+  cp_mgmt_wildcard:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      ipv4_address: 
+      ipv4_mask_wildcard: 
+      ipv6_address: 
+      ipv6_mask_wildcard: 
+      name: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

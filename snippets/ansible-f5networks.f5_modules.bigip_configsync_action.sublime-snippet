@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_configsync_action</tabTrigger>
+	<description>Perform different actions related to config-sync</description>
+	<content><![CDATA[
+- name: Perform different actions related to config-sync
+  bigip_configsync_action:
+      device_group: 
+      overwrite_config: 
+      provider: 
+      sync_device_to_group: 
+      sync_group_to_device: 
+]]>
+	</content>
+</snippet>

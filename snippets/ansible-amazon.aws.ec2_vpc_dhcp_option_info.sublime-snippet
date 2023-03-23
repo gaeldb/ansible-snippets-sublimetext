@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_dhcp_option_info</tabTrigger>
+	<description>Gather information about DHCP options sets in AWS</description>
+	<content><![CDATA[
+- name: Gather information about DHCP options sets in AWS
+  ec2_vpc_dhcp_option_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      dhcp_options_ids: 
+      dry_run: 
+      endpoint_url: 
+      filters: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

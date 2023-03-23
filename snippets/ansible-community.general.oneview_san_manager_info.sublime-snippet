@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_san_manager_info</tabTrigger>
+	<description>Retrieve information about one or more of the OneView SAN Managers</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more of the OneView SAN Managers
+  oneview_san_manager_info:
+      api_version: 
+      config: 
+      hostname: 
+      image_streamer_hostname: 
+      params: 
+      password: 
+      provider_display_name: 
+      username: 
+]]>
+	</content>
+</snippet>

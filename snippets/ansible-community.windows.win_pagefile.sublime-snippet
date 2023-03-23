@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_pagefile</tabTrigger>
+	<description>Query or change pagefile configuration</description>
+	<content><![CDATA[
+- name: Query or change pagefile configuration
+  win_pagefile:
+      automatic: 
+      drive: 
+      initial_size: 
+      maximum_size: 
+      override: 
+      remove_all: 
+      state: 
+      system_managed: 
+      test_path: 
+]]>
+	</content>
+</snippet>

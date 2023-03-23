@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.architecture</tabTrigger>
+	<description>Manage Architectures</description>
+	<content><![CDATA[
+- name: Manage Architectures
+  architecture:
+      name: 
+      operatingsystems: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.acm_certificate_info</tabTrigger>
+	<description>Retrieve certificate information from AWS Certificate Manager service</description>
+	<content><![CDATA[
+- name: Retrieve certificate information from AWS Certificate Manager service
+  acm_certificate_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      certificate_arn: 
+      debug_botocore_endpoint_logs: 
+      domain_name: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      statuses: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gc_storage</tabTrigger>
+	<description>This module manages objects/buckets in Google Cloud Storage.</description>
+	<content><![CDATA[
+- name: This module manages objects/buckets in Google Cloud Storage.
+  gc_storage:
+      bucket: 
+      dest: 
+      expiration: 
+      gs_access_key: 
+      gs_secret_key: 
+      headers: 
+      mode: 
+      object: 
+      overwrite: 
+      permission: 
+      region: 
+      src: 
+      versioning: 
+]]>
+	</content>
+</snippet>

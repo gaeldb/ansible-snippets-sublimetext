@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_lldp</tabTrigger>
+	<description>Manage LLDP configuration on Arista EOS network devices</description>
+	<content><![CDATA[
+- name: Manage LLDP configuration on Arista EOS network devices
+  eos_lldp:
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

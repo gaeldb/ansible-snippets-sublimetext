@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.route53_info</tabTrigger>
+	<description>Retrieves route53 details using AWS methods</description>
+	<content><![CDATA[
+- name: Retrieves route53 details using AWS methods
+  route53_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      change_id: 
+      debug_botocore_endpoint_logs: 
+      delegation_set_id: 
+      dns_name: 
+      endpoint_url: 
+      health_check_id: 
+      health_check_method: 
+      hosted_zone_id: 
+      hosted_zone_method: 
+      max_items: 
+      next_marker: 
+      profile: 
+      query: 
+      region: 
+      resource_id: 
+      secret_key: 
+      session_token: 
+      start_record_name: 
+      type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

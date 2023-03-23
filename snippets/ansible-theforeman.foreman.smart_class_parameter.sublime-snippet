@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.smart_class_parameter</tabTrigger>
+	<description>Manage Smart Class Parameters</description>
+	<content><![CDATA[
+- name: Manage Smart Class Parameters
+  smart_class_parameter:
+      avoid_duplicates: 
+      default_value: 
+      description: 
+      hidden_value: 
+      merge_default: 
+      merge_overrides: 
+      omit: 
+      override: 
+      override_value_order: 
+      override_values: 
+      parameter: 
+      parameter_type: 
+      password: 
+      puppetclass_name: 
+      required: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+      validator_rule: 
+      validator_type: 
+]]>
+	</content>
+</snippet>

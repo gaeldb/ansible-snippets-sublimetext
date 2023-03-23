@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_cdnprofile</tabTrigger>
+	<description>Manage a Azure CDN profile</description>
+	<content><![CDATA[
+- name: Manage a Azure CDN profile
+  azure_rm_cdnprofile:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

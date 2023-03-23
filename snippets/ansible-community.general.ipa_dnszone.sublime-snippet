@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_dnszone</tabTrigger>
+	<description>Manage FreeIPA DNS Zones</description>
+	<content><![CDATA[
+- name: Manage FreeIPA DNS Zones
+  ipa_dnszone:
+      allowsyncptr: 
+      dynamicupdate: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      state: 
+      validate_certs: 
+      zone_name: 
+]]>
+	</content>
+</snippet>

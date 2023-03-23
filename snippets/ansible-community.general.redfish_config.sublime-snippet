@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.redfish_config</tabTrigger>
+	<description>Manages Out-Of-Band controllers using Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages Out-Of-Band controllers using Redfish APIs
+  redfish_config:
+      auth_token: 
+      baseuri: 
+      bios_attributes: 
+      boot_order: 
+      category: 
+      command: 
+      hostinterface_config: 
+      hostinterface_id: 
+      network_protocols: 
+      nic_addr: 
+      nic_config: 
+      password: 
+      resource_id: 
+      sessions_config: 
+      strip_etag_quotes: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

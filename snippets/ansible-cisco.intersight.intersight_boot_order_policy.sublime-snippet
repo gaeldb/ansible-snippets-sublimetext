@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_boot_order_policy</tabTrigger>
+	<description>Boot Order policy configuration for Cisco Intersight</description>
+	<content><![CDATA[
+- name: Boot Order policy configuration for Cisco Intersight
+  intersight_boot_order_policy:
+      api_key_id: 
+      api_private_key: 
+      api_uri: 
+      boot_devices: 
+      configured_boot_mode: 
+      description: 
+      name: 
+      organization: 
+      state: 
+      tags: 
+      uefi_enable_secure_boot: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

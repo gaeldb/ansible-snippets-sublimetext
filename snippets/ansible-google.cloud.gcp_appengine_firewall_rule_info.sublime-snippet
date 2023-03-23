@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_appengine_firewall_rule_info</tabTrigger>
+	<description>Gather info for GCP FirewallRule</description>
+	<content><![CDATA[
+- name: Gather info for GCP FirewallRule
+  gcp_appengine_firewall_rule_info:
+      auth_kind: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

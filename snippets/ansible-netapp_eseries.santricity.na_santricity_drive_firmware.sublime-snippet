@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_drive_firmware</tabTrigger>
+	<description>NetApp E-Series manage drive firmware</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage drive firmware
+  na_santricity_drive_firmware:
+      api_password: 
+      api_url: 
+      api_username: 
+      firmware: 
+      ignore_inaccessible_drives: 
+      ssid: 
+      upgrade_drives_online: 
+      validate_certs: 
+      wait_for_completion: 
+]]>
+	</content>
+</snippet>

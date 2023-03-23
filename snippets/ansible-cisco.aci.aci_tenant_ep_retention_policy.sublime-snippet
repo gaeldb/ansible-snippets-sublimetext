@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_tenant_ep_retention_policy</tabTrigger>
+	<description>Manage End Point (EP) retention protocol policies (fv:EpRetPol)</description>
+	<content><![CDATA[
+- name: Manage End Point (EP) retention protocol policies (fv:EpRetPol)
+  aci_tenant_ep_retention_policy:
+      annotation: 
+      bounce_age: 
+      bounce_trigger: 
+      certificate_name: 
+      description: 
+      epr_policy: 
+      hold_interval: 
+      host: 
+      local_ep_interval: 
+      move_frequency: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      remote_ep_interval: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

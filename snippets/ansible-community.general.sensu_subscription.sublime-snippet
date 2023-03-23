@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sensu_subscription</tabTrigger>
+	<description>Manage Sensu subscriptions</description>
+	<content><![CDATA[
+- name: Manage Sensu subscriptions
+  sensu_subscription:
+      backup: 
+      name: 
+      path: 
+      state: 
+]]>
+	</content>
+</snippet>

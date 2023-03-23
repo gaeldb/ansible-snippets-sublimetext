@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_application_site_category</tabTrigger>
+	<description>Manages application-site-category objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages application-site-category objects on Check Point over Web Services API
+  cp_mgmt_application_site_category:
+      auto_publish_session: 
+      color: 
+      comments: 
+      description: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

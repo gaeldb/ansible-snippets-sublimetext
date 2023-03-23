@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_interface</tabTrigger>
+	<description>Module to manage BIG-IP physical interfaces.</description>
+	<content><![CDATA[
+- name: Module to manage BIG-IP physical interfaces.
+  bigip_interface:
+      bundle: 
+      bundle_speed: 
+      description: 
+      enabled: 
+      flow_control: 
+      force_gigabit_fiber: 
+      forward_error_correction: 
+      lldp_admin: 
+      lldp_tlvmap: 
+      media_fixed: 
+      media_sfp: 
+      name: 
+      port_fwd_mode: 
+      prefer_port: 
+      provider: 
+      sflow: 
+      stp: 
+      stp_auto_edge_port: 
+      stp_edge_port: 
+      stp_link_type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jabber</tabTrigger>
+	<description>Send a message to jabber user or chat room</description>
+	<content><![CDATA[
+- name: Send a message to jabber user or chat room
+  jabber:
+      encoding: 
+      host: 
+      msg: 
+      password: 
+      port: 
+      to: 
+      user: 
+]]>
+	</content>
+</snippet>

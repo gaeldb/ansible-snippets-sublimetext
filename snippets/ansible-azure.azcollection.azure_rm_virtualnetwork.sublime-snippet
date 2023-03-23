@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualnetwork</tabTrigger>
+	<description>Manage Azure virtual networks</description>
+	<content><![CDATA[
+- name: Manage Azure virtual networks
+  azure_rm_virtualnetwork:
+      ad_user: 
+      address_prefixes_cidr: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      dns_servers: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      purge_address_prefixes: 
+      purge_dns_servers: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

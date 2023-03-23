@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_config</tabTrigger>
+	<description>Manage Mellanox ONYX configuration sections</description>
+	<content><![CDATA[
+- name: Manage Mellanox ONYX configuration sections
+  onyx_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      replace: 
+      save: 
+      src: 
+]]>
+	</content>
+</snippet>

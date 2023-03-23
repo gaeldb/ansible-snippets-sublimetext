@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_disk_info</tabTrigger>
+	<description>Gathers information about disks attached to given ESXi host/s.</description>
+	<content><![CDATA[
+- name: Gathers information about disks attached to given ESXi host/s.
+  vmware_host_disk_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

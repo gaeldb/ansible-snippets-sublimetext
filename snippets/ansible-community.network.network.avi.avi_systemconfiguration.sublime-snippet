@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_systemconfiguration</tabTrigger>
+	<description>Module for setup of SystemConfiguration Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of SystemConfiguration Avi RESTful Object
+  avi_systemconfiguration:
+      admin_auth_configuration: 
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      default_license_tier: 
+      dns_configuration: 
+      dns_virtualservice_refs: 
+      docker_mode: 
+      email_configuration: 
+      global_tenant_config: 
+      linux_configuration: 
+      mgmt_ip_access_control: 
+      ntp_configuration: 
+      password: 
+      portal_configuration: 
+      proxy_configuration: 
+      secure_channel_configuration: 
+      snmp_configuration: 
+      ssh_ciphers: 
+      ssh_hmacs: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+      welcome_workflow_complete: 
+]]>
+	</content>
+</snippet>

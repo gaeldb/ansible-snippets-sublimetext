@@ -1,0 +1,55 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.autoscaling_group</tabTrigger>
+	<description>Create or delete AWS AutoScaling Groups (ASGs)</description>
+	<content><![CDATA[
+- name: Create or delete AWS AutoScaling Groups (ASGs)
+  autoscaling_group:
+      access_key: 
+      availability_zones: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      decrement_desired_capacity: 
+      default_cooldown: 
+      desired_capacity: 
+      detach_instances: 
+      endpoint_url: 
+      health_check_period: 
+      health_check_type: 
+      launch_config_name: 
+      launch_template: 
+      lc_check: 
+      load_balancers: 
+      lt_check: 
+      max_instance_lifetime: 
+      max_size: 
+      metrics_collection: 
+      metrics_granularity: 
+      metrics_list: 
+      min_size: 
+      mixed_instances_policy: 
+      name: 
+      notification_topic: 
+      notification_types: 
+      placement_group: 
+      profile: 
+      purge_tags: 
+      region: 
+      replace_all_instances: 
+      replace_batch_size: 
+      replace_instances: 
+      secret_key: 
+      session_token: 
+      state: 
+      suspend_processes: 
+      tags: 
+      target_group_arns: 
+      termination_policies: 
+      validate_certs: 
+      vpc_zone_identifier: 
+      wait_for_instances: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

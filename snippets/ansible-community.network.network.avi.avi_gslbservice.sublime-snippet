@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_gslbservice</tabTrigger>
+	<description>Module for setup of GslbService Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of GslbService Avi RESTful Object
+  avi_gslbservice:
+      api_context: 
+      api_version: 
+      application_persistence_profile_ref: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      controller_health_status_enabled: 
+      created_by: 
+      description: 
+      domain_names: 
+      down_response: 
+      enabled: 
+      groups: 
+      health_monitor_refs: 
+      health_monitor_scope: 
+      hm_off: 
+      is_federated: 
+      min_members: 
+      name: 
+      num_dns_ip: 
+      password: 
+      pool_algorithm: 
+      site_persistence_enabled: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      ttl: 
+      url: 
+      use_edns_client_subnet: 
+      username: 
+      uuid: 
+      wildcard_match: 
+]]>
+	</content>
+</snippet>

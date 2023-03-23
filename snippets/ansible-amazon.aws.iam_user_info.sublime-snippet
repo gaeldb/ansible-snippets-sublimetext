@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.iam_user_info</tabTrigger>
+	<description>Gather IAM user(s) facts in AWS</description>
+	<content><![CDATA[
+- name: Gather IAM user(s) facts in AWS
+  iam_user_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      group: 
+      name: 
+      path: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

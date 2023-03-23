@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.linode_v4</tabTrigger>
+	<description>Manage instances on the Linode cloud</description>
+	<content><![CDATA[
+- name: Manage instances on the Linode cloud
+  linode_v4:
+      access_token: 
+      authorized_keys: 
+      group: 
+      image: 
+      label: 
+      private_ip: 
+      region: 
+      root_pass: 
+      stackscript_data: 
+      stackscript_id: 
+      state: 
+      tags: 
+      type: 
+]]>
+	</content>
+</snippet>

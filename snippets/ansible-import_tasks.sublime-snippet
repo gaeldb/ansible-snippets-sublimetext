@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>import_tasks</tabTrigger>
+	<description>Import a task list</description>
+	<content><![CDATA[
+- name: Import a task list
+  import_tasks:
+      free-form: 
+]]>
+	</content>
+</snippet>

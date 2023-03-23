@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_dsrole</tabTrigger>
+	<description>Configure FlashBlade  Management Directory Service Roles</description>
+	<content><![CDATA[
+- name: Configure FlashBlade  Management Directory Service Roles
+  purefb_dsrole:
+      api_token: 
+      fb_url: 
+      group: 
+      group_base: 
+      role: 
+      state: 
+]]>
+	</content>
+</snippet>

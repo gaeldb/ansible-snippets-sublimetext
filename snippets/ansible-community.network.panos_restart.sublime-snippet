@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_restart</tabTrigger>
+	<description>restart a device</description>
+	<content><![CDATA[
+- name: restart a device
+  panos_restart:
+      ip_address: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

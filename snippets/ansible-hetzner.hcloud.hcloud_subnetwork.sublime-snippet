@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_subnetwork</tabTrigger>
+	<description>Manage cloud subnetworks on the Hetzner Cloud.</description>
+	<content><![CDATA[
+- name: Manage cloud subnetworks on the Hetzner Cloud.
+  hcloud_subnetwork:
+      api_token: 
+      endpoint: 
+      ip_range: 
+      network: 
+      network_zone: 
+      state: 
+      type: 
+      vswitch_id: 
+]]>
+	</content>
+</snippet>

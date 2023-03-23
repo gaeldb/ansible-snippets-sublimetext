@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_network</tabTrigger>
+	<description>Manage network interfaces in a Pure Storage FlashBlade</description>
+	<content><![CDATA[
+- name: Manage network interfaces in a Pure Storage FlashBlade
+  purefb_network:
+      address: 
+      api_token: 
+      fb_url: 
+      itype: 
+      name: 
+      services: 
+      state: 
+]]>
+	</content>
+</snippet>

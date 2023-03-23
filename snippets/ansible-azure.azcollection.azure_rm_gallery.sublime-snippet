@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_gallery</tabTrigger>
+	<description>Manage Azure Shared Image Gallery instance</description>
+	<content><![CDATA[
+- name: Manage Azure Shared Image Gallery instance
+  azure_rm_gallery:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      description: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_package</tabTrigger>
+	<description>Manages package objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages package objects on Check Point over Web Services API
+  cp_mgmt_package:
+      access: 
+      access_layers: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      desktop_security: 
+      details_level: 
+      ignore_errors: 
+      ignore_warnings: 
+      installation_targets: 
+      name: 
+      qos: 
+      qos_policy_type: 
+      state: 
+      tags: 
+      threat_layers: 
+      threat_prevention: 
+      version: 
+      vpn_traditional_mode: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

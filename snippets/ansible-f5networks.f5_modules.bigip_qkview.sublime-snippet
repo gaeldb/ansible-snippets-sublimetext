@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_qkview</tabTrigger>
+	<description>Manage QKviews on the device</description>
+	<content><![CDATA[
+- name: Manage QKviews on the device
+  bigip_qkview:
+      asm_request_log: 
+      complete_information: 
+      dest: 
+      exclude: 
+      exclude_core: 
+      filename: 
+      force: 
+      max_file_size: 
+      provider: 
+]]>
+	</content>
+</snippet>

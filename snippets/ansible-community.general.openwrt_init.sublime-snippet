@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.openwrt_init</tabTrigger>
+	<description>Manage services on OpenWrt</description>
+	<content><![CDATA[
+- name: Manage services on OpenWrt
+  openwrt_init:
+      enabled: 
+      name: 
+      pattern: 
+      state: 
+]]>
+	</content>
+</snippet>

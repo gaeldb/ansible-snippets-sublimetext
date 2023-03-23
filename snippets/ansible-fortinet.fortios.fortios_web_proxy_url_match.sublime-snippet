@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_web_proxy_url_match</tabTrigger>
+	<description>Exempt URLs from web proxy forwarding and caching in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Exempt URLs from web proxy forwarding and caching in Fortinet's FortiOS and FortiGate.
+  fortios_web_proxy_url_match:
+      access_token: 
+      state: 
+      vdom: 
+      web_proxy_url_match: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ipip_tunnel</tabTrigger>
+	<description>Configure IP in IP Tunneling in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IP in IP Tunneling in Fortinet's FortiOS and FortiGate.
+  fortios_system_ipip_tunnel:
+      access_token: 
+      state: 
+      system_ipip_tunnel: 
+      vdom: 
+]]>
+	</content>
+</snippet>

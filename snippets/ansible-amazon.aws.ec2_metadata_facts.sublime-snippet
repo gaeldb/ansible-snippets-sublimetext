@@ -1,0 +1,9 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_metadata_facts</tabTrigger>
+	<description></description>
+	<content><![CDATA[
+
+]]>
+	</content>
+</snippet>

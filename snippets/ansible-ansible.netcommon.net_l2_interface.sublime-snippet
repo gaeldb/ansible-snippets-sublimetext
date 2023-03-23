@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_l2_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Layer-2 interface on network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Layer-2 interface on network devices
+  net_l2_interface:
+      access_vlan: 
+      aggregate: 
+      mode: 
+      name: 
+      native_vlan: 
+      state: 
+      trunk_allowed_vlans: 
+      trunk_vlans: 
+]]>
+	</content>
+</snippet>

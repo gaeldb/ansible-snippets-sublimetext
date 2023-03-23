@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_content_library_info</tabTrigger>
+	<description>Gather information about VMWare Content Library</description>
+	<content><![CDATA[
+- name: Gather information about VMWare Content Library
+  vmware_content_library_info:
+      hostname: 
+      library_id: 
+      password: 
+      port: 
+      protocol: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

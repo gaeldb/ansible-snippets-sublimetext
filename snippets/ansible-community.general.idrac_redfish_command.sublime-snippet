@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.idrac_redfish_command</tabTrigger>
+	<description>Manages Out-Of-Band controllers using iDRAC OEM Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages Out-Of-Band controllers using iDRAC OEM Redfish APIs
+  idrac_redfish_command:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      password: 
+      resource_id: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

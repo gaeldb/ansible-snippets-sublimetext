@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_applicationpersistenceprofile</tabTrigger>
+	<description>Module for setup of ApplicationPersistenceProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of ApplicationPersistenceProfile Avi RESTful Object
+  avi_applicationpersistenceprofile:
+      api_context: 
+      api_version: 
+      app_cookie_persistence_profile: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      hdr_persistence_profile: 
+      http_cookie_persistence_profile: 
+      ip_persistence_profile: 
+      is_federated: 
+      name: 
+      password: 
+      persistence_type: 
+      server_hm_down_recovery: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

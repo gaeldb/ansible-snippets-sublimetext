@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_lan_connectivity</tabTrigger>
+	<description>Configures LAN Connectivity Policies on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures LAN Connectivity Policies on Cisco UCS Manager
+  ucs_lan_connectivity:
+      description: 
+      hostname: 
+      iscsi_vnic_list: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vnic_list: 
+]]>
+	</content>
+</snippet>

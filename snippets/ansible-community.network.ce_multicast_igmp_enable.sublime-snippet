@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_multicast_igmp_enable</tabTrigger>
+	<description>Manages multicast igmp enable configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages multicast igmp enable configuration on HUAWEI CloudEngine switches.
+  ce_multicast_igmp_enable:
+      aftype: 
+      features: 
+      igmp: 
+      proxy: 
+      state: 
+      version: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

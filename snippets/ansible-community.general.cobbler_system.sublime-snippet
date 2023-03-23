@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cobbler_system</tabTrigger>
+	<description>Manage system objects in Cobbler</description>
+	<content><![CDATA[
+- name: Manage system objects in Cobbler
+  cobbler_system:
+      host: 
+      interfaces: 
+      name: 
+      password: 
+      port: 
+      properties: 
+      state: 
+      sync: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

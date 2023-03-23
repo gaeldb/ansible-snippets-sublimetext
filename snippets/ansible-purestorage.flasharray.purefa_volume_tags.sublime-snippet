@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_volume_tags</tabTrigger>
+	<description>Manage volume tags on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage volume tags on Pure Storage FlashArrays
+  purefa_volume_tags:
+      api_token: 
+      copyable: 
+      fa_url: 
+      kvp: 
+      name: 
+      namespace: 
+      state: 
+]]>
+	</content>
+</snippet>

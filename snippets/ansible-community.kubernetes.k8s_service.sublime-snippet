@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_service</tabTrigger>
+	<description>Manage Services on Kubernetes</description>
+	<content><![CDATA[
+- name: Manage Services on Kubernetes
+  k8s_service:
+      api_key: 
+      apply: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      force: 
+      host: 
+      kubeconfig: 
+      merge_type: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      ports: 
+      proxy: 
+      resource_definition: 
+      selector: 
+      src: 
+      state: 
+      type: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

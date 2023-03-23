@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_metrics_configuration</tabTrigger>
+	<description>Manage s3 bucket metrics configuration in AWS</description>
+	<content><![CDATA[
+- name: Manage s3 bucket metrics configuration in AWS
+  s3_metrics_configuration:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket_name: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filter_prefix: 
+      filter_tags: 
+      id: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

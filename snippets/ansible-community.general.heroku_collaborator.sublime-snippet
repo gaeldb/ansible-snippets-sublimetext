@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.heroku_collaborator</tabTrigger>
+	<description>Add or delete app collaborators on Heroku</description>
+	<content><![CDATA[
+- name: Add or delete app collaborators on Heroku
+  heroku_collaborator:
+      api_key: 
+      apps: 
+      state: 
+      suppress_invitation: 
+      user: 
+]]>
+	</content>
+</snippet>

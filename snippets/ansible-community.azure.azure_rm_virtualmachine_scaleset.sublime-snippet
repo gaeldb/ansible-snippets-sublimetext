@@ -1,0 +1,58 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_virtualmachine_scaleset</tabTrigger>
+	<description>Manage Azure virtual machine scale sets</description>
+	<content><![CDATA[
+- name: Manage Azure virtual machine scale sets
+  azure_rm_virtualmachinescaleset:
+      ad_user: 
+      adfs_authority_url: 
+      admin_password: 
+      admin_username: 
+      api_profile: 
+      append_tags: 
+      application_gateway: 
+      auth_source: 
+      capacity: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      custom_data: 
+      data_disks: 
+      enable_accelerated_networking: 
+      image: 
+      load_balancer: 
+      location: 
+      managed_disk_type: 
+      name: 
+      os_disk_caching: 
+      os_type: 
+      overprovision: 
+      password: 
+      plan: 
+      priority: 
+      profile: 
+      remove_on_absent: 
+      resource_group: 
+      scale_in_policy: 
+      secret: 
+      security_group: 
+      short_hostname: 
+      single_placement_group: 
+      ssh_password_enabled: 
+      ssh_public_keys: 
+      state: 
+      subnet_name: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      terminate_event_timeout_minutes: 
+      tier: 
+      upgrade_policy: 
+      virtual_network_name: 
+      virtual_network_resource_group: 
+      vm_size: 
+      zones: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_advanced_settings</tabTrigger>
+	<description>Manage BIG-IP system ASM advanced settings</description>
+	<content><![CDATA[
+- name: Manage BIG-IP system ASM advanced settings
+  bigip_asm_advanced_settings:
+      name: 
+      provider: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

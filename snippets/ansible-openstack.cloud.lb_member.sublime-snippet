@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.lb_member</tabTrigger>
+	<description>Add/Delete a member for a pool in load balancer from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete a member for a pool in load balancer from OpenStack Cloud
+  lb_member:
+      address: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      name: 
+      pool: 
+      protocol_port: 
+      region_name: 
+      state: 
+      subnet_id: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

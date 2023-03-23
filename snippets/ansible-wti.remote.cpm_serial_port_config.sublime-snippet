@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_serial_port_config</tabTrigger>
+	<description>Set Serial port parameters in WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Set Serial port parameters in WTI OOB and PDU devices
+  cpm_serial_port_config:
+      baud: 
+      break_allow: 
+      cmd: 
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      echo: 
+      handshake: 
+      logoff: 
+      mode: 
+      parity: 
+      port: 
+      portname: 
+      seq: 
+      stopbits: 
+      tout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

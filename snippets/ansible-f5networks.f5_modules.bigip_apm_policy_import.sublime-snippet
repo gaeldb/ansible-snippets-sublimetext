@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_apm_policy_import</tabTrigger>
+	<description>Manage BIG-IP APM policy or APM access profile imports</description>
+	<content><![CDATA[
+- name: Manage BIG-IP APM policy or APM access profile imports
+  bigip_apm_policy_import:
+      force: 
+      name: 
+      partition: 
+      provider: 
+      reuse_objects: 
+      source: 
+      type: 
+]]>
+	</content>
+</snippet>

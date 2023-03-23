@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_pool_member</tabTrigger>
+	<description>Manages F5 BIG-IP LTM pool members</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM pool members
+  bigip_pool_member:
+      address: 
+      aggregate: 
+      availability_requirements: 
+      connection_limit: 
+      description: 
+      fqdn: 
+      fqdn_auto_populate: 
+      ip_encapsulation: 
+      monitors: 
+      name: 
+      partition: 
+      pool: 
+      port: 
+      preserve_node: 
+      priority_group: 
+      provider: 
+      rate_limit: 
+      ratio: 
+      replace_all_with: 
+      reuse_nodes: 
+      state: 
+]]>
+	</content>
+</snippet>

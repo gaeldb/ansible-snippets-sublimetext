@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.codebuild_project</tabTrigger>
+	<description>Create or delete an AWS CodeBuild project</description>
+	<content><![CDATA[
+- name: Create or delete an AWS CodeBuild project
+  codebuild_project:
+      access_key: 
+      artifacts: 
+      aws_ca_bundle: 
+      aws_config: 
+      cache: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      encryption_key: 
+      endpoint_url: 
+      environment: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      resource_tags: 
+      secret_key: 
+      service_role: 
+      session_token: 
+      source: 
+      state: 
+      tags: 
+      timeout_in_minutes: 
+      validate_certs: 
+      vpc_config: 
+]]>
+	</content>
+</snippet>

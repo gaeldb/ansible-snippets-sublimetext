@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_bfd</tabTrigger>
+	<description>Configures BFD parameters</description>
+	<content><![CDATA[
+- name: Configures BFD parameters
+  onyx_bfd:
+      interval_min_rx: 
+      interval_multiplier: 
+      interval_transmit_rate: 
+      iproute_mask_length: 
+      iproute_network_prefix: 
+      iproute_next_hop: 
+      shutdown: 
+      vrf: 
+]]>
+	</content>
+</snippet>

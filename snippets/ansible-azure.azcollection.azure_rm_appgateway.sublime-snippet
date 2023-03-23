@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_appgateway</tabTrigger>
+	<description>Manage Application Gateway instance</description>
+	<content><![CDATA[
+- name: Manage Application Gateway instance
+  azure_rm_appgateway:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      authentication_certificates: 
+      backend_address_pools: 
+      backend_http_settings_collection: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      frontend_ip_configurations: 
+      frontend_ports: 
+      gateway_ip_configurations: 
+      http_listeners: 
+      location: 
+      name: 
+      password: 
+      probes: 
+      profile: 
+      redirect_configurations: 
+      request_routing_rules: 
+      resource_group: 
+      secret: 
+      sku: 
+      ssl_certificates: 
+      ssl_policy: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

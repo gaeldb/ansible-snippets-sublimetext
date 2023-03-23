@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.eks_fargate_profile</tabTrigger>
+	<description>Manage EKS Fargate Profile</description>
+	<content><![CDATA[
+- name: Manage EKS Fargate Profile
+  eks_fargate_profile:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster_name: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      role_arn: 
+      secret_key: 
+      selectors: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

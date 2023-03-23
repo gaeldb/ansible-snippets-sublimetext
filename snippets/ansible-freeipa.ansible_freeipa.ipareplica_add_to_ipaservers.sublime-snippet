@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_add_to_ipaservers</tabTrigger>
+	<description>Add to ipaservers</description>
+	<content><![CDATA[
+- name: Add to ipaservers
+  ipareplica_add_to_ipaservers:
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      installer_ccache: 
+      setup_kra: 
+]]>
+	</content>
+</snippet>

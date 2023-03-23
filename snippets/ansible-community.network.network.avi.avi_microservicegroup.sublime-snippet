@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_microservicegroup</tabTrigger>
+	<description>Module for setup of MicroServiceGroup Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of MicroServiceGroup Avi RESTful Object
+  avi_microservicegroup:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      created_by: 
+      description: 
+      name: 
+      password: 
+      service_refs: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

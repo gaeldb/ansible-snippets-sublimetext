@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_recoveryservicesvault</tabTrigger>
+	<description>Create and Delete Azure Recovery Services vault</description>
+	<content><![CDATA[
+- name: Create and Delete Azure Recovery Services vault
+  azure_rm_recoveryservicesvault:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

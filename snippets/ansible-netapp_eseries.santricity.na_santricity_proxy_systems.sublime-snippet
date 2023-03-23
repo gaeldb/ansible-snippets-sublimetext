@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_proxy_systems</tabTrigger>
+	<description>NetApp E-Series manage SANtricity web services proxy storage arrays</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage SANtricity web services proxy storage arrays
+  na_santricity_proxy_systems:
+      accept_certificate: 
+      add_discovered_systems: 
+      api_password: 
+      api_url: 
+      api_username: 
+      password: 
+      subnet_mask: 
+      systems: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

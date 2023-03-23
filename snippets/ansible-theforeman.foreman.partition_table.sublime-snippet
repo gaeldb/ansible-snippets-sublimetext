@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.partition_table</tabTrigger>
+	<description>Manage Partition Table Templates</description>
+	<content><![CDATA[
+- name: Manage Partition Table Templates
+  partition_table:
+      file_name: 
+      layout: 
+      locations: 
+      locked: 
+      name: 
+      organizations: 
+      os_family: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

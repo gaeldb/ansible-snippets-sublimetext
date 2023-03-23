@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.exos_l2_interfaces</tabTrigger>
+	<description>Manage L2 interfaces on Extreme Networks EXOS devices.</description>
+	<content><![CDATA[
+- name: Manage L2 interfaces on Extreme Networks EXOS devices.
+  exos_l2_interfaces:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

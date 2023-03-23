@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_wait_for_condition</tabTrigger>
+	<description>NetApp ONTAP wait_for_condition.  Loop over a get status request until a condition is met.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP wait_for_condition.  Loop over a get status request until a condition is met.
+  na_ontap_wait_for_condition:
+      attributes: 
+      cert_filepath: 
+      conditions: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      polling_interval: 
+      state: 
+      timeout: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

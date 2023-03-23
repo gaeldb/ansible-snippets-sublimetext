@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_taboo_contract</tabTrigger>
+	<description>Manage taboo contracts (vz:BrCP)</description>
+	<content><![CDATA[
+- name: Manage taboo contracts (vz:BrCP)
+  aci_taboo_contract:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      scope: 
+      state: 
+      taboo_contract: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_snapshot_schedule</tabTrigger>
+	<description>NetApp Element Software Snapshot Schedules</description>
+	<content><![CDATA[
+- name: NetApp Element Software Snapshot Schedules
+  na_elementsw_snapshot_schedule:
+      account_id: 
+      days_of_month_hours: 
+      days_of_month_minutes: 
+      days_of_month_monthdays: 
+      days_of_week_hours: 
+      days_of_week_minutes: 
+      days_of_week_weekdays: 
+      hostname: 
+      name: 
+      password: 
+      paused: 
+      recurring: 
+      retention: 
+      schedule_type: 
+      snapshot_name: 
+      starting_date: 
+      state: 
+      time_interval_days: 
+      time_interval_hours: 
+      time_interval_minutes: 
+      username: 
+      volumes: 
+]]>
+	</content>
+</snippet>

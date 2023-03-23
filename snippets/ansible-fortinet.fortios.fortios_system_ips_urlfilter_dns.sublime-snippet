@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ips_urlfilter_dns</tabTrigger>
+	<description>Configure IPS URL filter DNS servers in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS URL filter DNS servers in Fortinet's FortiOS and FortiGate.
+  fortios_system_ips_urlfilter_dns:
+      access_token: 
+      state: 
+      system_ips_urlfilter_dns: 
+      vdom: 
+]]>
+	</content>
+</snippet>

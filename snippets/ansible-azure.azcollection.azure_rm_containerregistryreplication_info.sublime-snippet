@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_containerregistryreplication_info</tabTrigger>
+	<description>Get Replication facts.</description>
+	<content><![CDATA[
+- name: Get Replication facts.
+  azure_rm_containerregistryreplication_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      registry_name: 
+      replication_name: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tenant: 
+]]>
+	</content>
+</snippet>

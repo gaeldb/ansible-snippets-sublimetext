@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>set_fact</tabTrigger>
+	<description>Set host variable(s) and fact(s).</description>
+	<content><![CDATA[
+- name: Set host variable(s) and fact(s).
+  set_fact:
+      cacheable: 
+      key_value: 
+]]>
+	</content>
+</snippet>

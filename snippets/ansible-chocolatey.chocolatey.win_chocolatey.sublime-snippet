@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>chocolatey.chocolatey.win_chocolatey</tabTrigger>
+	<description>Manage packages using chocolatey</description>
+	<content><![CDATA[
+- name: Manage packages using chocolatey
+  win_chocolatey:
+      allow_empty_checksums: 
+      allow_multiple: 
+      allow_prerelease: 
+      architecture: 
+      force: 
+      ignore_checksums: 
+      ignore_dependencies: 
+      install_args: 
+      name: 
+      override_args: 
+      package_params: 
+      pinned: 
+      proxy_password: 
+      proxy_url: 
+      proxy_username: 
+      skip_scripts: 
+      source: 
+      source_password: 
+      source_username: 
+      state: 
+      timeout: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

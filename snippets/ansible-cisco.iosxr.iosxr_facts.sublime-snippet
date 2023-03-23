@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_facts</tabTrigger>
+	<description>Get facts about iosxr devices.</description>
+	<content><![CDATA[
+- name: Get facts about iosxr devices.
+  iosxr_facts:
+      gather_network_resources: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ibm_sa_vol</tabTrigger>
+	<description>Handle volumes on IBM Spectrum Accelerate Family storage systems</description>
+	<content><![CDATA[
+- name: Handle volumes on IBM Spectrum Accelerate Family storage systems
+  ibm_sa_vol:
+      endpoints: 
+      password: 
+      pool: 
+      size: 
+      state: 
+      username: 
+      vol: 
+]]>
+	</content>
+</snippet>

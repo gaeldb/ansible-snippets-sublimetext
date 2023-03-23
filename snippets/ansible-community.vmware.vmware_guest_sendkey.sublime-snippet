@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_sendkey</tabTrigger>
+	<description>Send USB HID codes to the Virtual Machine's keyboard.</description>
+	<content><![CDATA[
+- name: Send USB HID codes to the Virtual Machine's keyboard.
+  vmware_guest_sendkey:
+      cluster: 
+      datacenter: 
+      esxi_hostname: 
+      folder: 
+      hostname: 
+      keys_send: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      sleep_time: 
+      string_send: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

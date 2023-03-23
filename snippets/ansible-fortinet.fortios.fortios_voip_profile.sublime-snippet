@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_voip_profile</tabTrigger>
+	<description>Configure VoIP profiles in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure VoIP profiles in Fortinet's FortiOS and FortiGate.
+  fortios_voip_profile:
+      access_token: 
+      state: 
+      vdom: 
+      voip_profile: 
+]]>
+	</content>
+</snippet>

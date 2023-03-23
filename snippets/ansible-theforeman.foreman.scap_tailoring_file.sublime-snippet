@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.scap_tailoring_file</tabTrigger>
+	<description>Manage SCAP Tailoring Files</description>
+	<content><![CDATA[
+- name: Manage SCAP Tailoring Files
+  scap_tailoring_file:
+      locations: 
+      name: 
+      organizations: 
+      original_filename: 
+      password: 
+      scap_file: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

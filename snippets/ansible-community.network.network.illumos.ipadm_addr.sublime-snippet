@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.ipadm_addr</tabTrigger>
+	<description>Manage IP addresses on an interface on Solaris/illumos systems</description>
+	<content><![CDATA[
+- name: Manage IP addresses on an interface on Solaris/illumos systems
+  ipadm_addr:
+      address: 
+      addrobj: 
+      addrtype: 
+      state: 
+      temporary: 
+      wait: 
+]]>
+	</content>
+</snippet>

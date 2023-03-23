@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_nat</tabTrigger>
+	<description>Manage NAT rules in Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage NAT rules in Meraki cloud
+  meraki_mx_nat:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      one_to_many: 
+      one_to_one: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      port_forwarding: 
+      rate_limit_retry_time: 
+      state: 
+      subset: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

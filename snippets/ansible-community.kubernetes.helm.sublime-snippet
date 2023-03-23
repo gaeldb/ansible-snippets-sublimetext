@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.helm</tabTrigger>
+	<description>Manages Kubernetes packages with the Helm package manager</description>
+	<content><![CDATA[
+- name: Manages Kubernetes packages with the Helm package manager
+  helm:
+      atomic: 
+      binary_path: 
+      chart_ref: 
+      chart_repo_url: 
+      chart_version: 
+      context: 
+      create_namespace: 
+      disable_hook: 
+      force: 
+      kubeconfig: 
+      purge: 
+      release_name: 
+      release_namespace: 
+      release_state: 
+      release_values: 
+      replace: 
+      update_repo_cache: 
+      values_files: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

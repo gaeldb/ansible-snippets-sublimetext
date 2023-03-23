@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vca_nat</tabTrigger>
+	<description>add remove nat rules in a gateway  in a vca</description>
+	<content><![CDATA[
+- name: add remove nat rules in a gateway  in a vca
+  vca_nat:
+      api_version: 
+      gateway_name: 
+      host: 
+      instance_id: 
+      nat_rules: 
+      org: 
+      password: 
+      purge_rules: 
+      service_type: 
+      state: 
+      username: 
+      validate_certs: 
+      vdc_name: 
+]]>
+	</content>
+</snippet>

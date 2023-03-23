@@ -1,0 +1,53 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.fortimanager.fmgr_secprof_spam</tabTrigger>
+	<description>spam filter profile for FMG</description>
+	<content><![CDATA[
+- name: spam filter profile for FMG
+  fmgr_secprof_spam:
+      adom: 
+      comment: 
+      external: 
+      flow_based: 
+      gmail: 
+      gmail_log: 
+      imap: 
+      imap_action: 
+      imap_log: 
+      imap_tag_msg: 
+      imap_tag_type: 
+      mapi: 
+      mapi_action: 
+      mapi_log: 
+      mode: 
+      msn_hotmail: 
+      msn_hotmail_log: 
+      name: 
+      options: 
+      pop3: 
+      pop3_action: 
+      pop3_log: 
+      pop3_tag_msg: 
+      pop3_tag_type: 
+      replacemsg_group: 
+      smtp: 
+      smtp_action: 
+      smtp_hdrip: 
+      smtp_local_override: 
+      smtp_log: 
+      smtp_tag_msg: 
+      smtp_tag_type: 
+      spam_bwl_table: 
+      spam_bword_table: 
+      spam_bword_threshold: 
+      spam_filtering: 
+      spam_iptrust_table: 
+      spam_log: 
+      spam_log_fortiguard_response: 
+      spam_mheader_table: 
+      spam_rbl_table: 
+      yahoo_mail: 
+      yahoo_mail_log: 
+]]>
+	</content>
+</snippet>

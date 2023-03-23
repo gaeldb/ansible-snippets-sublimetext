@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_nat_gateway</tabTrigger>
+	<description>Manage AWS VPC NAT Gateways</description>
+	<content><![CDATA[
+- name: Manage AWS VPC NAT Gateways
+  ec2_vpc_nat_gateway:
+      access_key: 
+      allocation_id: 
+      aws_ca_bundle: 
+      aws_config: 
+      client_token: 
+      debug_botocore_endpoint_logs: 
+      eip_address: 
+      endpoint_url: 
+      if_exist_do_not_create: 
+      nat_gateway_id: 
+      profile: 
+      purge_tags: 
+      region: 
+      release_eip: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnet_id: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

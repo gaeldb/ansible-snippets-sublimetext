@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_kms_crypto_key_info</tabTrigger>
+	<description>Gather info for GCP CryptoKey</description>
+	<content><![CDATA[
+- name: Gather info for GCP CryptoKey
+  gcp_kms_crypto_key_info:
+      auth_kind: 
+      env_type: 
+      key_ring: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_networkinterface</tabTrigger>
+	<description>Manage Azure network interfaces</description>
+	<content><![CDATA[
+- name: Manage Azure network interfaces
+  azure_rm_networkinterface:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      create_with_security_group: 
+      dns_servers: 
+      enable_accelerated_networking: 
+      enable_ip_forwarding: 
+      ip_configurations: 
+      location: 
+      name: 
+      open_ports: 
+      os_type: 
+      password: 
+      private_ip_address: 
+      private_ip_allocation_method: 
+      profile: 
+      public_ip: 
+      public_ip_address_name: 
+      public_ip_allocation_method: 
+      resource_group: 
+      secret: 
+      security_group: 
+      state: 
+      subnet_name: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      virtual_network: 
+]]>
+	</content>
+</snippet>

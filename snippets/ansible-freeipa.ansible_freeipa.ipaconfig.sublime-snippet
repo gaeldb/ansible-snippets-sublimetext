@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaconfig</tabTrigger>
+	<description>Modify IPA global config options</description>
+	<content><![CDATA[
+- name: Modify IPA global config options
+  ipaconfig:
+      add_sids: 
+      ca_renewal_master_server: 
+      configstring: 
+      defaultgroup: 
+      defaultshell: 
+      domain_resolution_order: 
+      emaildomain: 
+      enable_migration: 
+      enable_sid: 
+      groupobjectclasses: 
+      groupsearch: 
+      homedirectory: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      maxhostname: 
+      maxusername: 
+      netbios_name: 
+      pac_type: 
+      pwdexpnotify: 
+      searchrecordslimit: 
+      searchtimelimit: 
+      selinuxusermapdefault: 
+      selinuxusermaporder: 
+      user_auth_type: 
+      userobjectclasses: 
+      usersearch: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_external_provider</tabTrigger>
+	<description>Module to manage external providers in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage external providers in oVirt/RHV
+  ovirt_external_provider:
+      auth: 
+      authentication_keys: 
+      authentication_url: 
+      data_center: 
+      description: 
+      fetch_nested: 
+      name: 
+      nested_attributes: 
+      network_type: 
+      password: 
+      poll_interval: 
+      read_only: 
+      state: 
+      tenant_name: 
+      timeout: 
+      type: 
+      url: 
+      username: 
+      wait: 
+]]>
+	</content>
+</snippet>

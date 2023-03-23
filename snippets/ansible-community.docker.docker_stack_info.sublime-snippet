@@ -1,0 +1,9 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_stack_info</tabTrigger>
+	<description></description>
+	<content><![CDATA[
+
+]]>
+	</content>
+</snippet>

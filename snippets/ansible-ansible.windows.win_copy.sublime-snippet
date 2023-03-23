@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_copy</tabTrigger>
+	<description>Copies files to remote locations on windows hosts</description>
+	<content><![CDATA[
+- name: Copies files to remote locations on windows hosts
+  win_copy:
+      backup: 
+      content: 
+      decrypt: 
+      dest: 
+      force: 
+      local_follow: 
+      remote_src: 
+      src: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_automation_trigger</tabTrigger>
+	<description>Trigger for automation stitches in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Trigger for automation stitches in Fortinet's FortiOS and FortiGate.
+  fortios_system_automation_trigger:
+      access_token: 
+      state: 
+      system_automation_trigger: 
+      vdom: 
+]]>
+	</content>
+</snippet>

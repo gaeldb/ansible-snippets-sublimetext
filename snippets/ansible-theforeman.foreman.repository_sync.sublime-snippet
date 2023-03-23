@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.repository_sync</tabTrigger>
+	<description>Sync a Repository or Product</description>
+	<content><![CDATA[
+- name: Sync a Repository or Product
+  repository_sync:
+      organization: 
+      password: 
+      product: 
+      repository: 
+      server_url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

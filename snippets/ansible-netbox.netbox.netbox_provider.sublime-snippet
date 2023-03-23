@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_provider</tabTrigger>
+	<description>Create, update or delete providers within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete providers within Netbox
+  netbox_provider:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

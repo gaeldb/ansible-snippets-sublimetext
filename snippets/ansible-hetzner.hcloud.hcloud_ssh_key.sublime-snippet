@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_ssh_key</tabTrigger>
+	<description>Create and manage ssh keys on the Hetzner Cloud.</description>
+	<content><![CDATA[
+- name: Create and manage ssh keys on the Hetzner Cloud.
+  hcloud_ssh_key:
+      api_token: 
+      endpoint: 
+      fingerprint: 
+      id: 
+      labels: 
+      name: 
+      public_key: 
+      state: 
+]]>
+	</content>
+</snippet>

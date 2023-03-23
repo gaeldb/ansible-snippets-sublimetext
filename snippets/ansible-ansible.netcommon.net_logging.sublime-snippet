@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_logging</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage logging on network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage logging on network devices
+  net_logging:
+      aggregate: 
+      dest: 
+      facility: 
+      level: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

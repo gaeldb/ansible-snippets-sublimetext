@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.netcup_dns</tabTrigger>
+	<description>Manage Netcup DNS records</description>
+	<content><![CDATA[
+- name: Manage Netcup DNS records
+  netcup_dns:
+      api_key: 
+      api_password: 
+      customer_id: 
+      domain: 
+      priority: 
+      record: 
+      solo: 
+      state: 
+      timeout: 
+      type: 
+      value: 
+]]>
+	</content>
+</snippet>

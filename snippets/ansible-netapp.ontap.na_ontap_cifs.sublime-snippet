@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cifs</tabTrigger>
+	<description>NetApp ONTAP Manage cifs-share</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage cifs-share
+  na_ontap_cifs:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      path: 
+      share_name: 
+      share_properties: 
+      state: 
+      symlink_properties: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vscan_fileop_profile: 
+      vserver: 
+]]>
+	</content>
+</snippet>

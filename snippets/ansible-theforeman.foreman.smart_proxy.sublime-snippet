@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.smart_proxy</tabTrigger>
+	<description>Manage Smart Proxies</description>
+	<content><![CDATA[
+- name: Manage Smart Proxies
+  smart_proxy:
+      download_policy: 
+      lifecycle_environments: 
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      server_url: 
+      state: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

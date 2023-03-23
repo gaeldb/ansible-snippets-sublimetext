@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.java_cert</tabTrigger>
+	<description>Uses keytool to import/remove certificate to/from java keystore (cacerts)</description>
+	<content><![CDATA[
+- name: Uses keytool to import/remove certificate to/from java keystore (cacerts)
+  java_cert:
+      cert_alias: 
+      cert_path: 
+      cert_port: 
+      cert_url: 
+      executable: 
+      keystore_create: 
+      keystore_pass: 
+      keystore_path: 
+      keystore_type: 
+      pkcs12_alias: 
+      pkcs12_password: 
+      pkcs12_path: 
+      state: 
+      trust_cacert: 
+]]>
+	</content>
+</snippet>

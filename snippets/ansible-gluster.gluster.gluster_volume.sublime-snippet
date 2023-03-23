@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>gluster.gluster.gluster_volume</tabTrigger>
+	<description>Manage GlusterFS volumes</description>
+	<content><![CDATA[
+- name: Manage GlusterFS volumes
+  gluster_volume:
+      arbiters: 
+      bricks: 
+      cluster: 
+      directory: 
+      disperses: 
+      force: 
+      host: 
+      name: 
+      options: 
+      quota: 
+      rebalance: 
+      redundancies: 
+      replicas: 
+      start_on_create: 
+      state: 
+      stripes: 
+      transport: 
+]]>
+	</content>
+</snippet>

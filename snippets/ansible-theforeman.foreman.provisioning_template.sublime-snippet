@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.provisioning_template</tabTrigger>
+	<description>Manage Provisioning Templates</description>
+	<content><![CDATA[
+- name: Manage Provisioning Templates
+  provisioning_template:
+      audit_comment: 
+      file_name: 
+      kind: 
+      locations: 
+      locked: 
+      name: 
+      operatingsystems: 
+      organizations: 
+      password: 
+      server_url: 
+      state: 
+      template: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

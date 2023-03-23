@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_asup</tabTrigger>
+	<description>NetApp E-Series manage auto-support settings</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage auto-support settings
+  na_santricity_asup:
+      active: 
+      api_password: 
+      api_url: 
+      api_username: 
+      days: 
+      email: 
+      end: 
+      maintenance_duration: 
+      maintenance_emails: 
+      method: 
+      proxy: 
+      routing_type: 
+      ssid: 
+      start: 
+      state: 
+      validate: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

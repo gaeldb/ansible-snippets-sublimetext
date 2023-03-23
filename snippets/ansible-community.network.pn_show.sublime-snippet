@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_show</tabTrigger>
+	<description>Run show commands on nvOS device.</description>
+	<content><![CDATA[
+- name: Run show commands on nvOS device.
+  pn_show:
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_command: 
+      pn_options: 
+      pn_parameters: 
+]]>
+	</content>
+</snippet>

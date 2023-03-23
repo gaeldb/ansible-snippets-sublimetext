@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_enable_ipa</tabTrigger>
+	<description>Enable IPA</description>
+	<content><![CDATA[
+- name: Enable IPA
+  ipaserver_enable_ipa:
+      hostname: 
+      setup_ca: 
+      setup_dns: 
+]]>
+	</content>
+</snippet>

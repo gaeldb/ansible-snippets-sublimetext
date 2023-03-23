@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_dos_vector</tabTrigger>
+	<description>Manage attack vector configuration in an AFM DoS profile</description>
+	<content><![CDATA[
+- name: Manage attack vector configuration in an AFM DoS profile
+  bigip_firewall_dos_vector:
+      allow_advertisement: 
+      attack_ceiling: 
+      attack_floor: 
+      auto_blacklist: 
+      bad_actor_detection: 
+      blacklist_detection_seconds: 
+      blacklist_duration: 
+      detection_threshold_eps: 
+      detection_threshold_percent: 
+      mitigation_threshold_eps: 
+      name: 
+      partition: 
+      per_source_ip_detection_threshold: 
+      per_source_ip_mitigation_threshold: 
+      profile: 
+      provider: 
+      simulate_auto_threshold: 
+      state: 
+      threshold_mode: 
+]]>
+	</content>
+</snippet>

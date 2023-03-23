@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_evpn_global</tabTrigger>
+	<description>Handles the EVPN control plane for VXLAN.</description>
+	<content><![CDATA[
+- name: Handles the EVPN control plane for VXLAN.
+  nxos_evpn_global:
+      nv_overlay_evpn: 
+      provider: 
+]]>
+	</content>
+</snippet>

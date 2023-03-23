@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_branch</tabTrigger>
+	<description>Create or delete a branch</description>
+	<content><![CDATA[
+- name: Create or delete a branch
+  gitlab_branch:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      branch: 
+      project: 
+      ref_branch: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

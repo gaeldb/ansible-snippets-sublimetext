@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_sriov</tabTrigger>
+	<description>Manage SR-IOV settings on host</description>
+	<content><![CDATA[
+- name: Manage SR-IOV settings on host
+  vmware_host_sriov:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      num_virt_func: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      sriov_on: 
+      username: 
+      validate_certs: 
+      vmnic: 
+]]>
+	</content>
+</snippet>

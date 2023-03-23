@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_add_nat_rule</tabTrigger>
+	<description>Create new object.</description>
+	<content><![CDATA[
+- name: Create new object.
+  cp_mgmt_add_nat_rule:
+      comments: 
+      details_level: 
+      enabled: 
+      ignore_errors: 
+      ignore_warnings: 
+      install_on: 
+      method: 
+      original_destination: 
+      original_service: 
+      original_source: 
+      package: 
+      position: 
+      translated_destination: 
+      translated_service: 
+      translated_source: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

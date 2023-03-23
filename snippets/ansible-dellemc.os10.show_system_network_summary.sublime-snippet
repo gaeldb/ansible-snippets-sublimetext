@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.show_system_network_summary</tabTrigger>
+	<description>Operations for show_system_network output in json/yaml format.</description>
+	<content><![CDATA[
+- name: Operations for show_system_network output in json/yaml format.
+  show_system_network_summary:
+      cli_responses: 
+      output_type: 
+]]>
+	</content>
+</snippet>

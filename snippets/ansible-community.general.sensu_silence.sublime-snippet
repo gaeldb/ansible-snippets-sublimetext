@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sensu_silence</tabTrigger>
+	<description>Manage Sensu silence entries</description>
+	<content><![CDATA[
+- name: Manage Sensu silence entries
+  sensu_silence:
+      check: 
+      creator: 
+      expire: 
+      expire_on_resolve: 
+      reason: 
+      state: 
+      subscription: 
+      url: 
+]]>
+	</content>
+</snippet>

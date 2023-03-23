@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gandi_livedns</tabTrigger>
+	<description>Manage Gandi LiveDNS records</description>
+	<content><![CDATA[
+- name: Manage Gandi LiveDNS records
+  gandi_livedns:
+      api_key: 
+      domain: 
+      record: 
+      state: 
+      ttl: 
+      type: 
+      values: 
+]]>
+	</content>
+</snippet>

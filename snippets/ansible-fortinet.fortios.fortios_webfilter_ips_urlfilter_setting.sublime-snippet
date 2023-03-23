@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_ips_urlfilter_setting</tabTrigger>
+	<description>Configure IPS URL filter settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS URL filter settings in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_ips_urlfilter_setting:
+      access_token: 
+      vdom: 
+      webfilter_ips_urlfilter_setting: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.qradar_log_source_management</tabTrigger>
+	<description>Manage Log Sources in QRadar</description>
+	<content><![CDATA[
+- name: Manage Log Sources in QRadar
+  log_source_management:
+      description: 
+      identifier: 
+      name: 
+      protocol_type_id: 
+      state: 
+      type_id: 
+      type_name: 
+]]>
+	</content>
+</snippet>

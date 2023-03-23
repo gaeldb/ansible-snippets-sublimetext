@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_snapshot</tabTrigger>
+	<description>Create or destroy snapshots for GCE storage volumes</description>
+	<content><![CDATA[
+- name: Create or destroy snapshots for GCE storage volumes
+  gce_snapshot:
+      credentials_file: 
+      disks: 
+      instance_name: 
+      project_id: 
+      service_account_email: 
+      snapshot_name: 
+      state: 
+]]>
+	</content>
+</snippet>

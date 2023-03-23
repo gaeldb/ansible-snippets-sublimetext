@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_vrf_contract</tabTrigger>
+	<description>Manage vrf contracts in schema templates</description>
+	<content><![CDATA[
+- name: Manage vrf contracts in schema templates
+  mso_schema_template_vrf_contract:
+      contract: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      state: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

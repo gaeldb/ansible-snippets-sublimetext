@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_ca_host_key_cert</tabTrigger>
+	<description>Create, update or destroy ca host_key_cert entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy ca host_key_cert entry in Sophos UTM
+  utm_ca_host_key_cert:
+      ca: 
+      certificate: 
+      comment: 
+      encrypted: 
+      headers: 
+      key: 
+      meta: 
+      name: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

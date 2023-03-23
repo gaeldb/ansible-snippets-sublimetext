@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fetch</tabTrigger>
+	<description>Fetch files from remote nodes</description>
+	<content><![CDATA[
+- name: Fetch files from remote nodes
+  fetch:
+      dest: 
+      fail_on_missing: 
+      flat: 
+      src: 
+      validate_checksum: 
+]]>
+	</content>
+</snippet>

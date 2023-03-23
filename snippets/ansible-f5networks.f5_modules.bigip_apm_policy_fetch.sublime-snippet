@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_apm_policy_fetch</tabTrigger>
+	<description>Exports the APM policy or APM access profile from remote nodes.</description>
+	<content><![CDATA[
+- name: Exports the APM policy or APM access profile from remote nodes.
+  bigip_apm_policy_fetch:
+      dest: 
+      file: 
+      force: 
+      name: 
+      partition: 
+      provider: 
+      type: 
+]]>
+	</content>
+</snippet>

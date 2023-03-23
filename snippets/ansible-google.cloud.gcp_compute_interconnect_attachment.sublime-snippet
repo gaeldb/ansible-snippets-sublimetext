@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_interconnect_attachment</tabTrigger>
+	<description>Creates a GCP InterconnectAttachment</description>
+	<content><![CDATA[
+- name: Creates a GCP InterconnectAttachment
+  gcp_compute_interconnect_attachment:
+      admin_enabled: 
+      auth_kind: 
+      bandwidth: 
+      candidate_subnets: 
+      description: 
+      edge_availability_domain: 
+      env_type: 
+      interconnect: 
+      name: 
+      project: 
+      region: 
+      router: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      type: 
+      vlan_tag8021q: 
+]]>
+	</content>
+</snippet>

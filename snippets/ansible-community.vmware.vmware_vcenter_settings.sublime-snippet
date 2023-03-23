@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vcenter_settings</tabTrigger>
+	<description>Configures general settings on a vCenter server</description>
+	<content><![CDATA[
+- name: Configures general settings on a vCenter server
+  vmware_vcenter_settings:
+      database: 
+      hostname: 
+      logging_options: 
+      mail: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      runtime_settings: 
+      snmp_receivers: 
+      timeout_settings: 
+      user_directory: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

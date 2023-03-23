@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nso.nso_show</tabTrigger>
+	<description>Displays data from Cisco NSO.</description>
+	<content><![CDATA[
+- name: Displays data from Cisco NSO.
+  nso_show:
+      operational: 
+      password: 
+      path: 
+      timeout: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

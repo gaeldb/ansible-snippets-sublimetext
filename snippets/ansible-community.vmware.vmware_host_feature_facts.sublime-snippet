@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_feature_facts</tabTrigger>
+	<description>Gathers facts about an ESXi host's feature capability information</description>
+	<content><![CDATA[
+- name: Gathers facts about an ESXi host's feature capability information
+  vmware_host_feature_facts:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

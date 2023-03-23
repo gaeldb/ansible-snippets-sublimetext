@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_vxlan_tunnel</tabTrigger>
+	<description>Manages VXLAN tunnel configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages VXLAN tunnel configuration on HUAWEI CloudEngine devices.
+  ce_vxlan_tunnel:
+      bridge_domain_id: 
+      nve_mode: 
+      nve_name: 
+      peer_list_ip: 
+      protocol_type: 
+      source_ip: 
+      state: 
+      vni_id: 
+]]>
+	</content>
+</snippet>

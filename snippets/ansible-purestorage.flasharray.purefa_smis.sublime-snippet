@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_smis</tabTrigger>
+	<description>Enable or disable FlashArray SMI-S features</description>
+	<content><![CDATA[
+- name: Enable or disable FlashArray SMI-S features
+  purefa_smis:
+      api_token: 
+      fa_url: 
+      slp: 
+      smis: 
+]]>
+	</content>
+</snippet>

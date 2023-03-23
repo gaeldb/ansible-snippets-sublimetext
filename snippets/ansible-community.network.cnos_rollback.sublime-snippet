@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_rollback</tabTrigger>
+	<description>Roll back the running or startup configuration from a remote server on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Roll back the running or startup configuration from a remote server on devices running Lenovo CNOS
+  cnos_rollback:
+      configType: 
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      protocol: 
+      rcpath: 
+      rcserverip: 
+      serverpassword: 
+      serverusername: 
+      username: 
+]]>
+	</content>
+</snippet>

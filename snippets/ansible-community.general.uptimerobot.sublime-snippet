@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.uptimerobot</tabTrigger>
+	<description>Pause and start Uptime Robot monitoring</description>
+	<content><![CDATA[
+- name: Pause and start Uptime Robot monitoring
+  uptimerobot:
+      apikey: 
+      monitorid: 
+      state: 
+]]>
+	</content>
+</snippet>

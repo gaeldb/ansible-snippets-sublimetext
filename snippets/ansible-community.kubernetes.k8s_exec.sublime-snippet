@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_exec</tabTrigger>
+	<description>Execute command in Pod</description>
+	<content><![CDATA[
+- name: Execute command in Pod
+  k8s_exec:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      command: 
+      container: 
+      context: 
+      host: 
+      kubeconfig: 
+      namespace: 
+      password: 
+      persist_config: 
+      pod: 
+      proxy: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

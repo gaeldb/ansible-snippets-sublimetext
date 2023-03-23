@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.snap_alias</tabTrigger>
+	<description>Manages snap aliases</description>
+	<content><![CDATA[
+- name: Manages snap aliases
+  snap_alias:
+      alias: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

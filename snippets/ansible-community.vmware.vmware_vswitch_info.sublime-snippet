@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vswitch_info</tabTrigger>
+	<description>Gathers info about an ESXi host's vswitch configurations</description>
+	<content><![CDATA[
+- name: Gathers info about an ESXi host's vswitch configurations
+  vmware_vswitch_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

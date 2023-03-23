@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_network</tabTrigger>
+	<description>Manage network interfaces in a Pure Storage FlashArray</description>
+	<content><![CDATA[
+- name: Manage network interfaces in a Pure Storage FlashArray
+  purefa_network:
+      address: 
+      api_token: 
+      fa_url: 
+      gateway: 
+      mtu: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

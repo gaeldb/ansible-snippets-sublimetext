@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ssh_config</tabTrigger>
+	<description>Manage SSH config for user</description>
+	<content><![CDATA[
+- name: Manage SSH config for user
+  ssh_config:
+      forward_agent: 
+      group: 
+      host: 
+      host_key_algorithms: 
+      hostname: 
+      identity_file: 
+      port: 
+      proxycommand: 
+      remote_user: 
+      ssh_config_file: 
+      state: 
+      strict_host_key_checking: 
+      user: 
+      user_known_hosts_file: 
+]]>
+	</content>
+</snippet>

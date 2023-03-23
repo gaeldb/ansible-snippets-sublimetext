@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hpilo_boot</tabTrigger>
+	<description>Boot system using specific media through HP iLO interface</description>
+	<content><![CDATA[
+- name: Boot system using specific media through HP iLO interface
+  hpilo_boot:
+      force: 
+      host: 
+      image: 
+      login: 
+      media: 
+      password: 
+      ssl_version: 
+      state: 
+]]>
+	</content>
+</snippet>

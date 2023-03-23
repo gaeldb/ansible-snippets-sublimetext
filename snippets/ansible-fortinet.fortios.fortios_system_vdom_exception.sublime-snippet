@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vdom_exception</tabTrigger>
+	<description>Global configuration objects that can be configured independently for all VDOMs or for the defined VDOM scope in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Global configuration objects that can be configured independently for all VDOMs or for the defined VDOM scope in Fortinet's FortiOS and FortiGate.
+  fortios_system_vdom_exception:
+      access_token: 
+      state: 
+      system_vdom_exception: 
+      vdom: 
+]]>
+	</content>
+</snippet>

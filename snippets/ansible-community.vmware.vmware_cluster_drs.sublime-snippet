@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_cluster_drs</tabTrigger>
+	<description>Manage Distributed Resource Scheduler (DRS) on VMware vSphere clusters</description>
+	<content><![CDATA[
+- name: Manage Distributed Resource Scheduler (DRS) on VMware vSphere clusters
+  vmware_cluster_drs:
+      advanced_settings: 
+      cluster_name: 
+      datacenter: 
+      drs_default_vm_behavior: 
+      drs_enable_vm_behavior_overrides: 
+      drs_vmotion_rate: 
+      enable_drs: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

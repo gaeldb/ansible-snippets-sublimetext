@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.s3_object</tabTrigger>
+	<description>Manage objects in S3</description>
+	<content><![CDATA[
+- name: Manage objects in S3
+  s3_object:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket: 
+      ceph: 
+      content: 
+      content_base64: 
+      copy_src: 
+      debug_botocore_endpoint_logs: 
+      dest: 
+      dualstack: 
+      encrypt: 
+      encryption_kms_key_id: 
+      encryption_mode: 
+      endpoint_url: 
+      expiry: 
+      headers: 
+      ignore_nonexistent_bucket: 
+      marker: 
+      max_keys: 
+      metadata: 
+      mode: 
+      object: 
+      overwrite: 
+      permission: 
+      prefix: 
+      profile: 
+      purge_tags: 
+      region: 
+      retries: 
+      secret_key: 
+      session_token: 
+      sig_v4: 
+      src: 
+      tags: 
+      validate_bucket_name: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_connect</tabTrigger>
+	<description>Manage replication connections between two FlashBlades</description>
+	<content><![CDATA[
+- name: Manage replication connections between two FlashBlades
+  purefb_connect:
+      api_token: 
+      encrypted: 
+      fb_url: 
+      state: 
+      target_api: 
+      target_url: 
+]]>
+	</content>
+</snippet>

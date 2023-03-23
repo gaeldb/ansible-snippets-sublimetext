@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_runtimeconfig_variable</tabTrigger>
+	<description>Creates a GCP Variable</description>
+	<content><![CDATA[
+- name: Creates a GCP Variable
+  gcp_runtimeconfig_variable:
+      auth_kind: 
+      config: 
+      env_type: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      text: 
+      value: 
+]]>
+	</content>
+</snippet>

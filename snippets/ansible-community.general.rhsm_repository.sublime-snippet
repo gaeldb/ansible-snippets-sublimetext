@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rhsm_repository</tabTrigger>
+	<description>Manage RHSM repositories using the subscription-manager command</description>
+	<content><![CDATA[
+- name: Manage RHSM repositories using the subscription-manager command
+  rhsm_repository:
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

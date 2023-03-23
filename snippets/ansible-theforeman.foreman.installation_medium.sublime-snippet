@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.installation_medium</tabTrigger>
+	<description>Manage Installation Media</description>
+	<content><![CDATA[
+- name: Manage Installation Media
+  installation_medium:
+      locations: 
+      name: 
+      operatingsystems: 
+      organizations: 
+      os_family: 
+      password: 
+      path: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

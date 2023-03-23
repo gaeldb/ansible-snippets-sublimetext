@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_policy_rule</tabTrigger>
+	<description>Manage LTM policy rules on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage LTM policy rules on a BIG-IP
+  bigip_policy_rule:
+      actions: 
+      conditions: 
+      description: 
+      name: 
+      partition: 
+      policy: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

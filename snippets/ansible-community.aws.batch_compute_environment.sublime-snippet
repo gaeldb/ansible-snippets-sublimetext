@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.batch_compute_environment</tabTrigger>
+	<description>Manage AWS Batch Compute Environments</description>
+	<content><![CDATA[
+- name: Manage AWS Batch Compute Environments
+  batch_compute_environment:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bid_percentage: 
+      compute_environment_name: 
+      compute_environment_state: 
+      compute_resource_type: 
+      debug_botocore_endpoint_logs: 
+      desiredv_cpus: 
+      ec2_key_pair: 
+      endpoint_url: 
+      image_id: 
+      instance_role: 
+      instance_types: 
+      maxv_cpus: 
+      minv_cpus: 
+      profile: 
+      region: 
+      secret_key: 
+      security_group_ids: 
+      service_role: 
+      session_token: 
+      spot_iam_fleet_role: 
+      state: 
+      subnets: 
+      tags: 
+      type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_ospf</tabTrigger>
+	<description>CLI command to add/remove ospf protocol to a vRouter.</description>
+	<content><![CDATA[
+- name: CLI command to add/remove ospf protocol to a vRouter.
+  pn_ospf:
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_network_ip: 
+      pn_ospf_area: 
+      pn_vrouter_name: 
+      state: 
+]]>
+	</content>
+</snippet>

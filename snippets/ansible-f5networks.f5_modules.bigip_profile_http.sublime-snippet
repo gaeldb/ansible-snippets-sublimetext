@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_http</tabTrigger>
+	<description>Manage HTTP profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage HTTP profiles on a BIG-IP
+  bigip_profile_http:
+      accept_xff: 
+      description: 
+      dns_resolver: 
+      encrypt_cookie_secret: 
+      encrypt_cookies: 
+      enforcement: 
+      fallback_host: 
+      fallback_status_codes: 
+      header_erase: 
+      header_insert: 
+      hsts_mode: 
+      include_subdomains: 
+      insert_xforwarded_for: 
+      maximum_age: 
+      name: 
+      oneconnect_transformations: 
+      parent: 
+      partition: 
+      provider: 
+      proxy_type: 
+      redirect_rewrite: 
+      request_chunking: 
+      response_chunking: 
+      server_agent_name: 
+      sflow: 
+      state: 
+      update_password: 
+      xff_alternative_names: 
+]]>
+	</content>
+</snippet>

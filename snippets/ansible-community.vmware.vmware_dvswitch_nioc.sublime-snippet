@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvswitch_nioc</tabTrigger>
+	<description>Manage distributed switch Network IO Control</description>
+	<content><![CDATA[
+- name: Manage distributed switch Network IO Control
+  vmware_dvswitch_nioc:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      resources: 
+      state: 
+      switch: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

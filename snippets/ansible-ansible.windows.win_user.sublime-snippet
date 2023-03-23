@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_user</tabTrigger>
+	<description>Manages local Windows user accounts</description>
+	<content><![CDATA[
+- name: Manages local Windows user accounts
+  win_user:
+      account_disabled: 
+      account_locked: 
+      description: 
+      fullname: 
+      groups: 
+      groups_action: 
+      home_directory: 
+      login_script: 
+      name: 
+      password: 
+      password_expired: 
+      password_never_expires: 
+      profile: 
+      state: 
+      update_password: 
+      user_cannot_change_password: 
+]]>
+	</content>
+</snippet>

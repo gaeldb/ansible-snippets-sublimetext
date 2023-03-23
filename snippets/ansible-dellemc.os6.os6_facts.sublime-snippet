@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os6.os6_facts</tabTrigger>
+	<description>Collect facts from devices running Dell EMC OS6</description>
+	<content><![CDATA[
+- name: Collect facts from devices running Dell EMC OS6
+  os6_facts:
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

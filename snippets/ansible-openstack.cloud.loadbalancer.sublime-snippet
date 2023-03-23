@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.loadbalancer</tabTrigger>
+	<description>Add/Delete load balancer from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete load balancer from OpenStack Cloud
+  loadbalancer:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      auto_public_ip: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      delete_public_ip: 
+      flavor: 
+      interface: 
+      listeners: 
+      name: 
+      public_ip_address: 
+      public_network: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      vip_address: 
+      vip_network: 
+      vip_port: 
+      vip_subnet: 
+      wait: 
+]]>
+	</content>
+</snippet>

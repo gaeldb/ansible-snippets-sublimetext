@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.edgeos_config</tabTrigger>
+	<description>Manage EdgeOS configuration on remote device</description>
+	<content><![CDATA[
+- name: Manage EdgeOS configuration on remote device
+  edgeos_config:
+      backup: 
+      backup_options: 
+      comment: 
+      config: 
+      lines: 
+      match: 
+      save: 
+      src: 
+]]>
+	</content>
+</snippet>

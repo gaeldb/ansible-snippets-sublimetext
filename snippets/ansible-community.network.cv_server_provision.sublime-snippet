@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cv_server_provision</tabTrigger>
+	<description>Provision server port by applying or removing template configuration to an Arista CloudVision Portal configlet that is applied to a switch.</description>
+	<content><![CDATA[
+- name: Provision server port by applying or removing template configuration to an Arista CloudVision Portal configlet that is applied to a switch.
+  cv_server_provision:
+      action: 
+      auto_run: 
+      host: 
+      password: 
+      port: 
+      port_vlan: 
+      protocol: 
+      server_name: 
+      switch_name: 
+      switch_port: 
+      template: 
+      username: 
+]]>
+	</content>
+</snippet>

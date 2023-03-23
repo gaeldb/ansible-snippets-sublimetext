@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabartifactsource_info</tabTrigger>
+	<description>Get Azure DevTest Lab Artifact Source facts</description>
+	<content><![CDATA[
+- name: Get Azure DevTest Lab Artifact Source facts
+  azure_rm_devtestlabartifactsource_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      lab_name: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

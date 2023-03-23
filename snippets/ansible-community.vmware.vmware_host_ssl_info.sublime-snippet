@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_ssl_info</tabTrigger>
+	<description>Gather info of ESXi host system about SSL</description>
+	<content><![CDATA[
+- name: Gather info of ESXi host system about SSL
+  vmware_host_ssl_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

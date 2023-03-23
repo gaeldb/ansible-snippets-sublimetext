@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cloudflare_dns</tabTrigger>
+	<description>Manage Cloudflare DNS records</description>
+	<content><![CDATA[
+- name: Manage Cloudflare DNS records
+  cloudflare_dns:
+      account_api_key: 
+      account_email: 
+      algorithm: 
+      api_token: 
+      cert_usage: 
+      hash_type: 
+      key_tag: 
+      port: 
+      priority: 
+      proto: 
+      proxied: 
+      record: 
+      selector: 
+      service: 
+      solo: 
+      state: 
+      timeout: 
+      ttl: 
+      type: 
+      value: 
+      weight: 
+      zone: 
+]]>
+	</content>
+</snippet>

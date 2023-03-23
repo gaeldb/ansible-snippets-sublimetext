@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.typetalk</tabTrigger>
+	<description>Send a message to typetalk</description>
+	<content><![CDATA[
+- name: Send a message to typetalk
+  typetalk:
+      client_id: 
+      client_secret: 
+      msg: 
+      topic: 
+]]>
+	</content>
+</snippet>

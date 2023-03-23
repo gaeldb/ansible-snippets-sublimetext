@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_route</tabTrigger>
+	<description>Creates a GCP Route</description>
+	<content><![CDATA[
+- name: Creates a GCP Route
+  gcp_compute_route:
+      auth_kind: 
+      description: 
+      dest_range: 
+      env_type: 
+      name: 
+      network: 
+      next_hop_gateway: 
+      next_hop_ilb: 
+      next_hop_instance: 
+      next_hop_ip: 
+      next_hop_vpn_tunnel: 
+      priority: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      tags: 
+]]>
+	</content>
+</snippet>

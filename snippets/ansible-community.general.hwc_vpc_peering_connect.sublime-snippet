@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_vpc_peering_connect</tabTrigger>
+	<description>Creates a resource of Vpc/PeeringConnect in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Vpc/PeeringConnect in Huawei Cloud
+  hwc_vpc_peering_connect:
+      description: 
+      domain: 
+      id: 
+      identity_endpoint: 
+      local_vpc_id: 
+      name: 
+      password: 
+      peering_vpc: 
+      project: 
+      region: 
+      state: 
+      timeouts: 
+      user: 
+]]>
+	</content>
+</snippet>

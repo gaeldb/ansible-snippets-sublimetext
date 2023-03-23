@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_service</tabTrigger>
+	<description>Create, terminate, start or stop a service in ECS</description>
+	<content><![CDATA[
+- name: Create, terminate, start or stop a service in ECS
+  ecs_service:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      capacity_provider_strategy: 
+      client_token: 
+      cluster: 
+      debug_botocore_endpoint_logs: 
+      delay: 
+      deployment_configuration: 
+      deployment_controller: 
+      desired_count: 
+      endpoint_url: 
+      force_deletion: 
+      force_new_deployment: 
+      health_check_grace_period_seconds: 
+      launch_type: 
+      load_balancers: 
+      name: 
+      network_configuration: 
+      placement_constraints: 
+      placement_strategy: 
+      platform_version: 
+      profile: 
+      propagate_tags: 
+      region: 
+      repeat: 
+      role: 
+      scheduling_strategy: 
+      secret_key: 
+      service_registries: 
+      session_token: 
+      state: 
+      tags: 
+      task_definition: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

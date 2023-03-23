@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pear</tabTrigger>
+	<description>Manage pear/pecl packages</description>
+	<content><![CDATA[
+- name: Manage pear/pecl packages
+  pear:
+      executable: 
+      name: 
+      prompts: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_endpoint_control_forticlient_ems</tabTrigger>
+	<description>Configure FortiClient Enterprise Management Server (EMS) entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiClient Enterprise Management Server (EMS) entries in Fortinet's FortiOS and FortiGate.
+  fortios_endpoint_control_forticlient_ems:
+      access_token: 
+      endpoint_control_forticlient_ems: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

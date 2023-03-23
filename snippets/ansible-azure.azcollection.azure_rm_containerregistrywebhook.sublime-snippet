@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_containerregistrywebhook</tabTrigger>
+	<description>Manage Webhook instance.</description>
+	<content><![CDATA[
+- name: Manage Webhook instance.
+  azure_rm_containerregistrywebhook:
+      actions: 
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      custom_headers: 
+      location: 
+      password: 
+      profile: 
+      registry_name: 
+      resource_group: 
+      scope: 
+      secret: 
+      service_uri: 
+      status: 
+      subscription_id: 
+      tenant: 
+      webhook_name: 
+]]>
+	</content>
+</snippet>

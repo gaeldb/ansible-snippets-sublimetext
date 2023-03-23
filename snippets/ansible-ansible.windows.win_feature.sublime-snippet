@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_feature</tabTrigger>
+	<description>Installs and uninstalls Windows Features on Windows Server</description>
+	<content><![CDATA[
+- name: Installs and uninstalls Windows Features on Windows Server
+  win_feature:
+      include_management_tools: 
+      include_sub_features: 
+      name: 
+      source: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_site_to_site_vpn</tabTrigger>
+	<description>Manage AutoVPN connections in Meraki</description>
+	<content><![CDATA[
+- name: Manage AutoVPN connections in Meraki
+  meraki_mx_site_to_site_vpn:
+      auth_key: 
+      host: 
+      hubs: 
+      internal_error_retry_time: 
+      mode: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      subnets: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

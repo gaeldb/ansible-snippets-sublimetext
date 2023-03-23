@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_dlp_filepattern</tabTrigger>
+	<description>Configure file patterns used by DLP blocking in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure file patterns used by DLP blocking in Fortinet's FortiOS and FortiGate.
+  fortios_dlp_filepattern:
+      access_token: 
+      dlp_filepattern: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,51 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elb_target_group</tabTrigger>
+	<description>Manage a target group for an Application or Network load balancer</description>
+	<content><![CDATA[
+- name: Manage a target group for an Application or Network load balancer
+  elb_target_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      deregistration_connection_termination: 
+      deregistration_delay_timeout: 
+      endpoint_url: 
+      health_check_interval: 
+      health_check_path: 
+      health_check_port: 
+      health_check_protocol: 
+      health_check_timeout: 
+      healthy_threshold_count: 
+      load_balancing_algorithm_type: 
+      modify_targets: 
+      name: 
+      port: 
+      preserve_client_ip_enabled: 
+      profile: 
+      protocol: 
+      protocol_version: 
+      proxy_protocol_v2_enabled: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      stickiness_app_cookie_duration: 
+      stickiness_app_cookie_name: 
+      stickiness_enabled: 
+      stickiness_lb_cookie_duration: 
+      stickiness_type: 
+      successful_response_codes: 
+      tags: 
+      target_type: 
+      targets: 
+      unhealthy_threshold_count: 
+      validate_certs: 
+      vpc_id: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

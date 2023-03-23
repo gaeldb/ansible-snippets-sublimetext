@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipavault</tabTrigger>
+	<description>Manage vaults and secret vaults.</description>
+	<content><![CDATA[
+- name: Manage vaults and secret vaults.
+  ipavault:
+      action: 
+      data: 
+      description: 
+      groups: 
+      in: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      new_password: 
+      new_password_file: 
+      out: 
+      ownergroups: 
+      owners: 
+      ownerservices: 
+      password: 
+      password_file: 
+      private_key: 
+      private_key_file: 
+      service: 
+      services: 
+      shared: 
+      state: 
+      username: 
+      users: 
+      vault_public_key: 
+      vault_public_key_file: 
+      vault_salt: 
+      vault_type: 
+]]>
+	</content>
+</snippet>

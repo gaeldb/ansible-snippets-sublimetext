@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.netscaler_server</tabTrigger>
+	<description>Manage server configuration</description>
+	<content><![CDATA[
+- name: Manage server configuration
+  netscaler_server:
+      comment: 
+      delay: 
+      disabled: 
+      domain: 
+      domainresolveretry: 
+      graceful: 
+      ipaddress: 
+      ipv6address: 
+      name: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      save_config: 
+      state: 
+      td: 
+      translationip: 
+      translationmask: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

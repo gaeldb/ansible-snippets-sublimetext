@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaidrange</tabTrigger>
+	<description>Manage FreeIPA idrange</description>
+	<content><![CDATA[
+- name: Manage FreeIPA idrange
+  ipaidrange:
+      auto_private_groups: 
+      base_id: 
+      delete_continue: 
+      dom_name: 
+      dom_sid: 
+      idrange_type: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      range_size: 
+      rid_base: 
+      secondary_rid_base: 
+      state: 
+]]>
+	</content>
+</snippet>

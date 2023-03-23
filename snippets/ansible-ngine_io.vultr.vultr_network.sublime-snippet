@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_network</tabTrigger>
+	<description>Manages networks on Vultr.</description>
+	<content><![CDATA[
+- name: Manages networks on Vultr.
+  vultr_network:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      cidr: 
+      name: 
+      region: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

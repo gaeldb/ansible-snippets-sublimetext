@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elb_target</tabTrigger>
+	<description>Manage a target in a target group</description>
+	<content><![CDATA[
+- name: Manage a target in a target group
+  elb_target:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      deregister_unused: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      target_az: 
+      target_group_arn: 
+      target_group_name: 
+      target_id: 
+      target_port: 
+      target_status: 
+      target_status_timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

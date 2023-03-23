@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_policy</tabTrigger>
+	<description>Manage FlashArray File System Policies</description>
+	<content><![CDATA[
+- name: Manage FlashArray File System Policies
+  purefa_policy:
+      api_token: 
+      client: 
+      enabled: 
+      fa_url: 
+      name: 
+      nfs_access: 
+      nfs_permission: 
+      policy: 
+      rename: 
+      smb_anon_allowed: 
+      smb_encrypt: 
+      snap_at: 
+      snap_client_name: 
+      snap_every: 
+      snap_keep_for: 
+      state: 
+]]>
+	</content>
+</snippet>

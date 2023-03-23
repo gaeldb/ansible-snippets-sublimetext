@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_mlag_vip</tabTrigger>
+	<description>Configures MLAG VIP on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Configures MLAG VIP on Mellanox ONYX network devices
+  onyx_mlag_vip:
+      delay: 
+      group_name: 
+      ipaddress: 
+      mac_address: 
+      state: 
+]]>
+	</content>
+</snippet>

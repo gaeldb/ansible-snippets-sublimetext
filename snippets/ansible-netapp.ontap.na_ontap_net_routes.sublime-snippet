@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_net_routes</tabTrigger>
+	<description>NetApp ONTAP network routes</description>
+	<content><![CDATA[
+- name: NetApp ONTAP network routes
+  na_ontap_net_routes:
+      cert_filepath: 
+      destination: 
+      feature_flags: 
+      from_destination: 
+      from_gateway: 
+      from_metric: 
+      gateway: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      metric: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

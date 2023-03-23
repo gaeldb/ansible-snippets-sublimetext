@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_dnsrecordset_info</tabTrigger>
+	<description>Get DNS Record Set facts</description>
+	<content><![CDATA[
+- name: Get DNS Record Set facts
+  azure_rm_dnsrecordset_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      record_type: 
+      relative_name: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      top: 
+      zone_name: 
+]]>
+	</content>
+</snippet>

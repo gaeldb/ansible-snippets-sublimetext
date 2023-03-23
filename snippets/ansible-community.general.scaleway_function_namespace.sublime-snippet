@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_function_namespace</tabTrigger>
+	<description>Scaleway Function namespace management</description>
+	<content><![CDATA[
+- name: Scaleway Function namespace management
+  scaleway_function_namespace:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      description: 
+      environment_variables: 
+      name: 
+      project_id: 
+      query_parameters: 
+      region: 
+      secret_environment_variables: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_sleep_time: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

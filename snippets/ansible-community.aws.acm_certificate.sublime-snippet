@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.acm_certificate</tabTrigger>
+	<description>Upload and delete certificates in the AWS Certificate Manager service</description>
+	<content><![CDATA[
+- name: Upload and delete certificates in the AWS Certificate Manager service
+  acm_certificate:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      certificate: 
+      certificate_arn: 
+      certificate_chain: 
+      debug_botocore_endpoint_logs: 
+      domain_name: 
+      endpoint_url: 
+      name_tag: 
+      private_key: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

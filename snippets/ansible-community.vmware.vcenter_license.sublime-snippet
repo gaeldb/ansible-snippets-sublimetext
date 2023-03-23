@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vcenter_license</tabTrigger>
+	<description>Manage VMware vCenter license keys</description>
+	<content><![CDATA[
+- name: Manage VMware vCenter license keys
+  vcenter_license:
+      cluster_name: 
+      datacenter: 
+      esxi_hostname: 
+      hostname: 
+      labels: 
+      license: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

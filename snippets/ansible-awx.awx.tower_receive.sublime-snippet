@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_receive</tabTrigger>
+	<description>Receive assets from Ansible Tower.</description>
+	<content><![CDATA[
+- name: Receive assets from Ansible Tower.
+  tower_receive:
+      all: 
+      credential: 
+      credential_type: 
+      inventory: 
+      inventory_script: 
+      job_template: 
+      notification_template: 
+      organization: 
+      project: 
+      team: 
+      tower_config_file: 
+      tower_host: 
+      tower_password: 
+      tower_username: 
+      user: 
+      validate_certs: 
+      workflow: 
+]]>
+	</content>
+</snippet>

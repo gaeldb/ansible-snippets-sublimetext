@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_storageblob</tabTrigger>
+	<description>Manage blob containers and blob objects</description>
+	<content><![CDATA[
+- name: Manage blob containers and blob objects
+  azure_rm_storageblob:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      batch_upload_dst: 
+      batch_upload_src: 
+      blob: 
+      blob_type: 
+      cache_control: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      container: 
+      content_disposition: 
+      content_encoding: 
+      content_language: 
+      content_md5: 
+      content_type: 
+      dest: 
+      force: 
+      password: 
+      profile: 
+      public_access: 
+      resource_group: 
+      secret: 
+      src: 
+      state: 
+      storage_account_name: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

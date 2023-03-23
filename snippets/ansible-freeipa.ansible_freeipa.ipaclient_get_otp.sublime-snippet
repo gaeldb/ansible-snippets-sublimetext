@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_get_otp</tabTrigger>
+	<description>Get OTP for host enrollment</description>
+	<content><![CDATA[
+- name: Get OTP for host enrollment
+  ipaclient_get_otp:
+      hostname: 
+      ipaadmin_keytab: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+]]>
+	</content>
+</snippet>

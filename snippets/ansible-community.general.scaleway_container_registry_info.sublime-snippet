@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_container_registry_info</tabTrigger>
+	<description>Scaleway Container registry info module</description>
+	<content><![CDATA[
+- name: Scaleway Container registry info module
+  scaleway_container_registry_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      name: 
+      project_id: 
+      query_parameters: 
+      region: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

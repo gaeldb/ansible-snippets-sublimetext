@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_query</tabTrigger>
+	<description>Queries UCS Manager objects by class or distinguished name</description>
+	<content><![CDATA[
+- name: Queries UCS Manager objects by class or distinguished name
+  ucs_query:
+      class_ids: 
+      delegate_to: 
+      distinguished_names: 
+      hostname: 
+      password: 
+      port: 
+      proxy: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

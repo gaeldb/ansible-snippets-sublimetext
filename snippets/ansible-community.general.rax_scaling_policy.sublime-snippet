@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_scaling_policy</tabTrigger>
+	<description>Manipulate Rackspace Cloud Autoscale Scaling Policy</description>
+	<content><![CDATA[
+- name: Manipulate Rackspace Cloud Autoscale Scaling Policy
+  rax_scaling_policy:
+      api_key: 
+      at: 
+      auth_endpoint: 
+      change: 
+      cooldown: 
+      credentials: 
+      cron: 
+      desired_capacity: 
+      env: 
+      identity_type: 
+      is_percent: 
+      name: 
+      policy_type: 
+      region: 
+      scaling_group: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

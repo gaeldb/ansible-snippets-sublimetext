@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_bgp_global</tabTrigger>
+	<description>BGP Global resource module.</description>
+	<content><![CDATA[
+- name: BGP Global resource module.
+  nxos_bgp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

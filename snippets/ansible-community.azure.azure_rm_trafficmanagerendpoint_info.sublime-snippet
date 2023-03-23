@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_trafficmanagerendpoint_info</tabTrigger>
+	<description>Get Azure Traffic Manager endpoint facts</description>
+	<content><![CDATA[
+- name: Get Azure Traffic Manager endpoint facts
+  azure_rm_trafficmanagerendpoint_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      profile_name: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tenant: 
+      type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.routeros_facts</tabTrigger>
+	<description>Collect facts from remote devices running MikroTik RouterOS</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running MikroTik RouterOS
+  routeros_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

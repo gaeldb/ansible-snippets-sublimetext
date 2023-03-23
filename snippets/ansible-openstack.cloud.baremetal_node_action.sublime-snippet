@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.baremetal_node_action</tabTrigger>
+	<description>Activate/Deactivate Bare Metal Resources from OpenStack</description>
+	<content><![CDATA[
+- name: Activate/Deactivate Bare Metal Resources from OpenStack
+  baremetal_node_action:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      config_drive: 
+      deploy: 
+      instance_info: 
+      interface: 
+      ironic_url: 
+      maintenance: 
+      maintenance_reason: 
+      name: 
+      power: 
+      region_name: 
+      state: 
+      timeout: 
+      uuid: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

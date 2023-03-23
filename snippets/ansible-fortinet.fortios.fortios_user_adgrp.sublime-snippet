@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_adgrp</tabTrigger>
+	<description>Configure FSSO groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FSSO groups in Fortinet's FortiOS and FortiGate.
+  fortios_user_adgrp:
+      access_token: 
+      state: 
+      user_adgrp: 
+      vdom: 
+]]>
+	</content>
+</snippet>

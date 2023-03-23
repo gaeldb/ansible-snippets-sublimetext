@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vdom_dns</tabTrigger>
+	<description>Configure DNS servers for a non-management VDOM in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DNS servers for a non-management VDOM in Fortinet's FortiOS and FortiGate.
+  fortios_system_vdom_dns:
+      access_token: 
+      system_vdom_dns: 
+      vdom: 
+]]>
+	</content>
+</snippet>

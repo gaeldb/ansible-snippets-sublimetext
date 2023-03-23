@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_igmp</tabTrigger>
+	<description>Configures IGMP global parameters</description>
+	<content><![CDATA[
+- name: Configures IGMP global parameters
+  onyx_igmp:
+      default_version: 
+      last_member_query_interval: 
+      mrouter_timeout: 
+      port_purge_timeout: 
+      proxy_reporting: 
+      report_suppression_interval: 
+      state: 
+      unregistered_multicast: 
+]]>
+	</content>
+</snippet>

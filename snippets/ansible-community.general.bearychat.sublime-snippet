@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bearychat</tabTrigger>
+	<description>Send BearyChat notifications</description>
+	<content><![CDATA[
+- name: Send BearyChat notifications
+  bearychat:
+      attachments: 
+      channel: 
+      markdown: 
+      text: 
+      url: 
+]]>
+	</content>
+</snippet>

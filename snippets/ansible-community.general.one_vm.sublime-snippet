@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.one_vm</tabTrigger>
+	<description>Creates or terminates OpenNebula instances</description>
+	<content><![CDATA[
+- name: Creates or terminates OpenNebula instances
+  one_vm:
+      api_password: 
+      api_url: 
+      api_username: 
+      attributes: 
+      count: 
+      count_attributes: 
+      count_labels: 
+      cpu: 
+      datastore_id: 
+      datastore_name: 
+      disk_saveas: 
+      disk_size: 
+      exact_count: 
+      group_id: 
+      hard: 
+      instance_ids: 
+      labels: 
+      memory: 
+      mode: 
+      networks: 
+      owner_id: 
+      persistent: 
+      state: 
+      template_id: 
+      template_name: 
+      vcpu: 
+      vm_start_on_hold: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_vpn_connection</tabTrigger>
+	<description>Manages site-to-site VPN connections on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages site-to-site VPN connections on Apache CloudStack based clouds.
+  cs_vpn_connection:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      force: 
+      passive: 
+      poll_async: 
+      project: 
+      state: 
+      vpc: 
+      vpn_customer_gateway: 
+      zone: 
+]]>
+	</content>
+</snippet>

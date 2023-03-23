@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_endpoint_control_client</tabTrigger>
+	<description>Configure endpoint control client lists in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure endpoint control client lists in Fortinet's FortiOS and FortiGate.
+  fortios_endpoint_control_client:
+      access_token: 
+      endpoint_control_client: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

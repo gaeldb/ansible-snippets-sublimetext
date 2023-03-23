@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubevirt.kubevirt_template</tabTrigger>
+	<description>Manage KubeVirt templates</description>
+	<content><![CDATA[
+- name: Manage KubeVirt templates
+  kubevirt_template:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      default_disk: 
+      default_network: 
+      default_nic: 
+      default_volume: 
+      description: 
+      display_name: 
+      documentation_url: 
+      editable: 
+      force: 
+      host: 
+      icon_class: 
+      kubeconfig: 
+      long_description: 
+      merge_type: 
+      name: 
+      namespace: 
+      objects: 
+      parameters: 
+      password: 
+      persist_config: 
+      provider_display_name: 
+      proxy: 
+      state: 
+      support_url: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

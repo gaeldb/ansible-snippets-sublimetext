@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_role</tabTrigger>
+	<description>Manages user roles on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages user roles on Apache CloudStack based clouds.
+  cs_role:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      description: 
+      name: 
+      role_type: 
+      state: 
+      uuid: 
+]]>
+	</content>
+</snippet>

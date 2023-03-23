@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_lldp_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage LLDP interfaces configuration on VyOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage LLDP interfaces configuration on VyOS network devices
+  vyos_lldp_interface:
+      aggregate: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

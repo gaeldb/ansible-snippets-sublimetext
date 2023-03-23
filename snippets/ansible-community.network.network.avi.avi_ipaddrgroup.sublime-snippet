@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_ipaddrgroup</tabTrigger>
+	<description>Module for setup of IpAddrGroup Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of IpAddrGroup Avi RESTful Object
+  avi_ipaddrgroup:
+      addrs: 
+      api_context: 
+      api_version: 
+      apic_epg_name: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      country_codes: 
+      description: 
+      ip_ports: 
+      marathon_app_name: 
+      marathon_service_port: 
+      name: 
+      password: 
+      prefixes: 
+      ranges: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

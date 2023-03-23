@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_mgtconfig</tabTrigger>
+	<description>configure management settings of device</description>
+	<content><![CDATA[
+- name: configure management settings of device
+  panos_mgtconfig:
+      commit: 
+      dns_server_primary: 
+      dns_server_secondary: 
+      ip_address: 
+      panorama_primary: 
+      panorama_secondary: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

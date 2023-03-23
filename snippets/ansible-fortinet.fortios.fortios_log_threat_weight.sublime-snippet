@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_threat_weight</tabTrigger>
+	<description>Configure threat weight settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure threat weight settings in Fortinet's FortiOS and FortiGate.
+  fortios_log_threat_weight:
+      access_token: 
+      log_threat_weight: 
+      vdom: 
+]]>
+	</content>
+</snippet>

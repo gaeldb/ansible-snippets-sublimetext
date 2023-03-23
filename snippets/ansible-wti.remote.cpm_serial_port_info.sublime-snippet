@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_serial_port_info</tabTrigger>
+	<description>Get Serial port parameters in WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Get Serial port parameters in WTI OOB and PDU devices
+  cpm_serial_port_info:
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      port: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

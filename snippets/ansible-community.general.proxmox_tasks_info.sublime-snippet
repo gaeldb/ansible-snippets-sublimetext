@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox_tasks_info</tabTrigger>
+	<description>Retrieve information about one or more Proxmox VE tasks</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more Proxmox VE tasks
+  proxmox_tasks_info:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      node: 
+      task: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

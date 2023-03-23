@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_ntp</tabTrigger>
+	<description>Manages core NTP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages core NTP configuration on HUAWEI CloudEngine switches.
+  ce_ntp:
+      is_preferred: 
+      key_id: 
+      peer: 
+      server: 
+      source_int: 
+      state: 
+      vpn_name: 
+]]>
+	</content>
+</snippet>

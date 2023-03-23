@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>import_role</tabTrigger>
+	<description>Import a role into a play</description>
+	<content><![CDATA[
+- name: Import a role into a play
+  import_role:
+      allow_duplicates: 
+      defaults_from: 
+      handlers_from: 
+      name: 
+      rolespec_validate: 
+      tasks_from: 
+      vars_from: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_scheduling_policy_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt scheduling policies</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt scheduling policies
+  ovirt_scheduling_policy_info:
+      auth: 
+      fetch_nested: 
+      id: 
+      name: 
+      nested_attributes: 
+]]>
+	</content>
+</snippet>

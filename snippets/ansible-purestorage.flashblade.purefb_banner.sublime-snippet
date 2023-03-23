@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_banner</tabTrigger>
+	<description>Configure Pure Storage FlashBlade GUI and SSH MOTD message</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashBlade GUI and SSH MOTD message
+  purefb_banner:
+      api_token: 
+      banner: 
+      fb_url: 
+      state: 
+]]>
+	</content>
+</snippet>

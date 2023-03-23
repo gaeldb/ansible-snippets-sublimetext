@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_role</tabTrigger>
+	<description>Module to manage roles in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage roles in oVirt/RHV
+  ovirt_role:
+      administrative: 
+      auth: 
+      description: 
+      fetch_nested: 
+      id: 
+      name: 
+      nested_attributes: 
+      permits: 
+      poll_interval: 
+      state: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

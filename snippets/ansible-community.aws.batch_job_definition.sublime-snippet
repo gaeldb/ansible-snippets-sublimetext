@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.batch_job_definition</tabTrigger>
+	<description>Manage AWS Batch Job Definitions</description>
+	<content><![CDATA[
+- name: Manage AWS Batch Job Definitions
+  batch_job_definition:
+      access_key: 
+      attempts: 
+      aws_ca_bundle: 
+      aws_config: 
+      command: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      environment: 
+      image: 
+      job_definition_arn: 
+      job_definition_name: 
+      job_role_arn: 
+      memory: 
+      mount_points: 
+      parameters: 
+      privileged: 
+      profile: 
+      readonly_root_filesystem: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      type: 
+      ulimits: 
+      user: 
+      validate_certs: 
+      vcpus: 
+      volumes: 
+]]>
+	</content>
+</snippet>

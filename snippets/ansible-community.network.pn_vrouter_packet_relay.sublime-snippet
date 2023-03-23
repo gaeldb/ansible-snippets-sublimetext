@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_vrouter_packet_relay</tabTrigger>
+	<description>CLI command to add/remove vrouter-packet-relay</description>
+	<content><![CDATA[
+- name: CLI command to add/remove vrouter-packet-relay
+  pn_vrouter_packet_relay:
+      pn_cliswitch: 
+      pn_forward_ip: 
+      pn_forward_proto: 
+      pn_nic: 
+      pn_vrouter_name: 
+      state: 
+]]>
+	</content>
+</snippet>

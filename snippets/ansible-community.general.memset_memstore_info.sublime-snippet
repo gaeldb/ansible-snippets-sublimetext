@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.memset_memstore_info</tabTrigger>
+	<description>Retrieve Memstore product usage information</description>
+	<content><![CDATA[
+- name: Retrieve Memstore product usage information
+  memset_memstore_info:
+      api_key: 
+      name: 
+]]>
+	</content>
+</snippet>

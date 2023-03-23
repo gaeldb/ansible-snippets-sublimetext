@@ -1,0 +1,61 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_swarm_service</tabTrigger>
+	<description>docker swarm service</description>
+	<content><![CDATA[
+- name: docker swarm service
+  docker_swarm_service:
+      api_version: 
+      args: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      command: 
+      configs: 
+      container_labels: 
+      debug: 
+      dns: 
+      dns_options: 
+      dns_search: 
+      docker_host: 
+      endpoint_mode: 
+      env: 
+      env_files: 
+      force_update: 
+      groups: 
+      healthcheck: 
+      hostname: 
+      hosts: 
+      image: 
+      init: 
+      labels: 
+      limits: 
+      logging: 
+      mode: 
+      mounts: 
+      name: 
+      networks: 
+      placement: 
+      publish: 
+      read_only: 
+      replicas: 
+      reservations: 
+      resolve_image: 
+      restart_config: 
+      rollback_config: 
+      secrets: 
+      ssl_version: 
+      state: 
+      stop_grace_period: 
+      stop_signal: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      tty: 
+      update_config: 
+      user: 
+      validate_certs: 
+      working_dir: 
+]]>
+	</content>
+</snippet>

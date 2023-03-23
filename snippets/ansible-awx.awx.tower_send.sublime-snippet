@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_send</tabTrigger>
+	<description>Send assets to Ansible Tower.</description>
+	<content><![CDATA[
+- name: Send assets to Ansible Tower.
+  tower_send:
+      assets: 
+      files: 
+      password_management: 
+      prevent: 
+      tower_config_file: 
+      tower_host: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

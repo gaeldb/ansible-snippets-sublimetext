@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_info</tabTrigger>
+	<description>Collect information from Pure Storage FlashArray</description>
+	<content><![CDATA[
+- name: Collect information from Pure Storage FlashArray
+  purefa_info:
+      api_token: 
+      fa_url: 
+      gather_subset: 
+]]>
+	</content>
+</snippet>

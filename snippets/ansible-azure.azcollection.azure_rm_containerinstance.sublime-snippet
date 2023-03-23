@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_containerinstance</tabTrigger>
+	<description>Manage an Azure Container Instance</description>
+	<content><![CDATA[
+- name: Manage an Azure Container Instance
+  azure_rm_containerinstance:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      containers: 
+      dns_name_label: 
+      force_update: 
+      ip_address: 
+      location: 
+      name: 
+      os_type: 
+      password: 
+      ports: 
+      profile: 
+      registry_login_server: 
+      registry_password: 
+      registry_username: 
+      resource_group: 
+      restart_policy: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

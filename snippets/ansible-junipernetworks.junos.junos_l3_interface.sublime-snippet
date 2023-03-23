@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_l3_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage L3 interfaces on Juniper JUNOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage L3 interfaces on Juniper JUNOS network devices
+  junos_l3_interface:
+      active: 
+      aggregate: 
+      filter6_input: 
+      filter6_output: 
+      filter_input: 
+      filter_output: 
+      ipv4: 
+      ipv6: 
+      name: 
+      provider: 
+      state: 
+      unit: 
+]]>
+	</content>
+</snippet>

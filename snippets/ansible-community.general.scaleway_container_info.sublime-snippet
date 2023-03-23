@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_container_info</tabTrigger>
+	<description>Retrieve information on Scaleway Container</description>
+	<content><![CDATA[
+- name: Retrieve information on Scaleway Container
+  scaleway_container_info:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      name: 
+      namespace_id: 
+      query_parameters: 
+      region: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

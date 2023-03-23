@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatchlogs_log_group</tabTrigger>
+	<description>create or delete log_group in CloudWatchLogs</description>
+	<content><![CDATA[
+- name: create or delete log_group in CloudWatchLogs
+  cloudwatchlogs_log_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      kms_key_id: 
+      log_group_name: 
+      overwrite: 
+      profile: 
+      purge_retention_policy: 
+      purge_tags: 
+      region: 
+      retention: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

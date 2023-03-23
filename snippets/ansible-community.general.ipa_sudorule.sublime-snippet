@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_sudorule</tabTrigger>
+	<description>Manage FreeIPA sudo rule</description>
+	<content><![CDATA[
+- name: Manage FreeIPA sudo rule
+  ipa_sudorule:
+      cmd: 
+      cmdcategory: 
+      cmdgroup: 
+      cn: 
+      description: 
+      host: 
+      hostcategory: 
+      hostgroup: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      runasextusers: 
+      runasgroupcategory: 
+      runasusercategory: 
+      state: 
+      sudoopt: 
+      user: 
+      usercategory: 
+      usergroup: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

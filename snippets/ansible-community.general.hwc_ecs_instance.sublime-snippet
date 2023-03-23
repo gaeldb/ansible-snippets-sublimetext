@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_ecs_instance</tabTrigger>
+	<description>Creates a resource of Ecs/Instance in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Ecs/Instance in Huawei Cloud
+  hwc_ecs_instance:
+      admin_pass: 
+      availability_zone: 
+      data_volumes: 
+      description: 
+      domain: 
+      eip_id: 
+      enable_auto_recovery: 
+      enterprise_project_id: 
+      flavor_name: 
+      id: 
+      identity_endpoint: 
+      image_id: 
+      name: 
+      nics: 
+      password: 
+      project: 
+      region: 
+      root_volume: 
+      security_groups: 
+      server_metadata: 
+      server_tags: 
+      ssh_key_name: 
+      state: 
+      timeouts: 
+      user: 
+      user_data: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.odbc</tabTrigger>
+	<description>Execute SQL via ODBC</description>
+	<content><![CDATA[
+- name: Execute SQL via ODBC
+  odbc:
+      commit: 
+      dsn: 
+      params: 
+      query: 
+]]>
+	</content>
+</snippet>

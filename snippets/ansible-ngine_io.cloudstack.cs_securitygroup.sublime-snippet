@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_securitygroup</tabTrigger>
+	<description>Manages security groups on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages security groups on Apache CloudStack based clouds.
+  cs_securitygroup:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      description: 
+      domain: 
+      name: 
+      project: 
+      state: 
+]]>
+	</content>
+</snippet>

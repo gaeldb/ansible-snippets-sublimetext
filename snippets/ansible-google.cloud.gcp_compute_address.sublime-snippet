@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_address</tabTrigger>
+	<description>Creates a GCP Address</description>
+	<content><![CDATA[
+- name: Creates a GCP Address
+  gcp_compute_address:
+      address: 
+      address_type: 
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      network_tier: 
+      project: 
+      purpose: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      subnetwork: 
+]]>
+	</content>
+</snippet>

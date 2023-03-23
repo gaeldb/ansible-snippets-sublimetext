@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_volume_clone</tabTrigger>
+	<description>NetApp ONTAP manage volume clones.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage volume clones.
+  na_ontap_volume_clone:
+      cert_filepath: 
+      feature_flags: 
+      gid: 
+      hostname: 
+      http_port: 
+      https: 
+      junction_path: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      parent_snapshot: 
+      parent_volume: 
+      parent_vserver: 
+      password: 
+      qos_policy_group_name: 
+      space_reserve: 
+      split: 
+      state: 
+      uid: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volume_type: 
+      vserver: 
+]]>
+	</content>
+</snippet>

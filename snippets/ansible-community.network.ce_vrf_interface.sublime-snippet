@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_vrf_interface</tabTrigger>
+	<description>Manages interface specific VPN configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages interface specific VPN configuration on HUAWEI CloudEngine switches.
+  ce_vrf_interface:
+      state: 
+      vpn_interface: 
+      vrf: 
+]]>
+	</content>
+</snippet>

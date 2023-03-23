@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.profitbricks</tabTrigger>
+	<description>Create, destroy, start, stop, and reboot a ProfitBricks virtual machine</description>
+	<content><![CDATA[
+- name: Create, destroy, start, stop, and reboot a ProfitBricks virtual machine
+  profitbricks:
+      assign_public_ip: 
+      auto_increment: 
+      bus: 
+      cores: 
+      count: 
+      cpu_family: 
+      datacenter: 
+      disk_type: 
+      image: 
+      image_password: 
+      instance_ids: 
+      lan: 
+      location: 
+      name: 
+      ram: 
+      remove_boot_volume: 
+      ssh_keys: 
+      state: 
+      subscription_password: 
+      subscription_user: 
+      volume_size: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

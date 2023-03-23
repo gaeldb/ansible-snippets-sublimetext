@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_static_route</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage static IP routes on Vyatta VyOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage static IP routes on Vyatta VyOS network devices
+  vyos_static_route:
+      admin_distance: 
+      aggregate: 
+      mask: 
+      next_hop: 
+      prefix: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

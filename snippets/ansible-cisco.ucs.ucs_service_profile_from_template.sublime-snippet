@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_service_profile_from_template</tabTrigger>
+	<description>Configures Service Profiles from templates on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures Service Profiles from templates on Cisco UCS Manager
+  ucs_service_profile_from_template:
+      hostname: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      power_state: 
+      proxy: 
+      source_template: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      user_label: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_sqlserver</tabTrigger>
+	<description>Manage SQL Server instance</description>
+	<content><![CDATA[
+- name: Manage SQL Server instance
+  azure_rm_sqlserver:
+      ad_user: 
+      adfs_authority_url: 
+      admin_password: 
+      admin_username: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      identity: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      version: 
+]]>
+	</content>
+</snippet>

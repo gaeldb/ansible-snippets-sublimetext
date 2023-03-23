@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_application_http</tabTrigger>
+	<description>Manages BIG-IQ HTTP applications</description>
+	<content><![CDATA[
+- name: Manages BIG-IQ HTTP applications
+  bigiq_application_http:
+      add_analytics: 
+      description: 
+      inbound_virtual: 
+      name: 
+      provider: 
+      servers: 
+      service_environment: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

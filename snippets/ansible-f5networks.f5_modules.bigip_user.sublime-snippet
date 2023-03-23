@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_user</tabTrigger>
+	<description>Manage user accounts and user attributes on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage user accounts and user attributes on a BIG-IP
+  bigip_user:
+      full_name: 
+      partition: 
+      partition_access: 
+      password_credential: 
+      provider: 
+      shell: 
+      state: 
+      update_password: 
+      username_credential: 
+]]>
+	</content>
+</snippet>

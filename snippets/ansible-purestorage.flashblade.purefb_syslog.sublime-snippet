@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_syslog</tabTrigger>
+	<description>Configure Pure Storage FlashBlade syslog settings</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashBlade syslog settings
+  purefb_syslog:
+      address: 
+      api_token: 
+      fb_url: 
+      name: 
+      port: 
+      protocol: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_hostname</tabTrigger>
+	<description>Manage the hostname of a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage the hostname of a BIG-IP
+  bigip_hostname:
+      hostname: 
+      provider: 
+]]>
+	</content>
+</snippet>

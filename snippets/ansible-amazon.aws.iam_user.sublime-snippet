@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.iam_user</tabTrigger>
+	<description>Manage AWS IAM users</description>
+	<content><![CDATA[
+- name: Manage AWS IAM users
+  iam_user:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      managed_policies: 
+      name: 
+      password: 
+      password_reset_required: 
+      profile: 
+      purge_policies: 
+      purge_tags: 
+      region: 
+      remove_password: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      update_password: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

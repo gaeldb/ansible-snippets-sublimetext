@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_publicip</tabTrigger>
+	<description>Add and Delete public ips on servers in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Add and Delete public ips on servers in CenturyLink Cloud
+  clc_publicip:
+      ports: 
+      protocol: 
+      server_ids: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

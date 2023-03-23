@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openvswitch.openvswitch.openvswitch_bridge</tabTrigger>
+	<description>Manage Open vSwitch bridges</description>
+	<content><![CDATA[
+- name: Manage Open vSwitch bridges
+  openvswitch_bridge:
+      bridge: 
+      external_ids: 
+      fail_mode: 
+      parent: 
+      set: 
+      state: 
+      timeout: 
+      vlan: 
+]]>
+	</content>
+</snippet>

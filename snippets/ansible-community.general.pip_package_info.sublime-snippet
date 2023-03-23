@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pip_package_info</tabTrigger>
+	<description>Pip package information</description>
+	<content><![CDATA[
+- name: Pip package information
+  pip_package_info:
+      clients: 
+]]>
+	</content>
+</snippet>

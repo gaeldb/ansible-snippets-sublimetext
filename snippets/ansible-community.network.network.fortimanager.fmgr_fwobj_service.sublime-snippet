@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.fortimanager.fmgr_fwobj_service</tabTrigger>
+	<description>Manages FortiManager Firewall Service Objects.</description>
+	<content><![CDATA[
+- name: Manages FortiManager Firewall Service Objects.
+  fmgr_fwobj_service:
+      adom: 
+      app_category: 
+      app_service_type: 
+      application: 
+      category: 
+      check_reset_range: 
+      color: 
+      comment: 
+      custom_type: 
+      explicit_proxy: 
+      fqdn: 
+      group_member: 
+      group_name: 
+      icmp_code: 
+      icmp_type: 
+      iprange: 
+      mode: 
+      name: 
+      object_type: 
+      protocol: 
+      protocol_number: 
+      sctp_portrange: 
+      session_ttl: 
+      tcp_halfclose_timer: 
+      tcp_halfopen_timer: 
+      tcp_portrange: 
+      tcp_timewait_timer: 
+      udp_idle_timer: 
+      udp_portrange: 
+      visibility: 
+]]>
+	</content>
+</snippet>

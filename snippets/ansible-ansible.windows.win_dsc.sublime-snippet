@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_dsc</tabTrigger>
+	<description>Invokes a PowerShell DSC configuration</description>
+	<content><![CDATA[
+- name: Invokes a PowerShell DSC configuration
+  win_dsc:
+      free_form: 
+      module_version: 
+      resource_name: 
+]]>
+	</content>
+</snippet>

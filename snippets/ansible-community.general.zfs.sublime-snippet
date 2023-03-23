@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.zfs</tabTrigger>
+	<description>Manage zfs</description>
+	<content><![CDATA[
+- name: Manage zfs
+  zfs:
+      extra_zfs_properties: 
+      name: 
+      origin: 
+      state: 
+]]>
+	</content>
+</snippet>

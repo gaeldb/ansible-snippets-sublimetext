@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_banner</tabTrigger>
+	<description>Manage multiline banners on Arista EOS devices</description>
+	<content><![CDATA[
+- name: Manage multiline banners on Arista EOS devices
+  eos_banner:
+      banner: 
+      provider: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

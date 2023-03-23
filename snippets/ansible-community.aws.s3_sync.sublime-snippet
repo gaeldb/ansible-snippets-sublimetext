@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_sync</tabTrigger>
+	<description>Efficiently upload multiple files to S3</description>
+	<content><![CDATA[
+- name: Efficiently upload multiple files to S3
+  s3_sync:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket: 
+      cache_control: 
+      debug_botocore_endpoint_logs: 
+      delete: 
+      endpoint_url: 
+      exclude: 
+      file_change_strategy: 
+      file_root: 
+      include: 
+      key_prefix: 
+      mime_map: 
+      mode: 
+      permission: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      storage_class: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

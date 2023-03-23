@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_add_data_center_object</tabTrigger>
+	<description>Imports a Data Center Object from a Data Center Server.<br> Data Center Object represents an object in the cloud environment.</description>
+	<content><![CDATA[
+- name: Imports a Data Center Object from a Data Center Server.<br> Data Center Object represents an object in the cloud environment.
+  cp_mgmt_add_data_center_object:
+      color: 
+      comments: 
+      data_center_name: 
+      data_center_uid: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      tags: 
+      uid_in_data_center: 
+      uri: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

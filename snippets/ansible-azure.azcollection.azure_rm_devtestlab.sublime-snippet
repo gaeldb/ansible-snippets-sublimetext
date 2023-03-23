@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlab</tabTrigger>
+	<description>Manage Azure DevTest Lab instance</description>
+	<content><![CDATA[
+- name: Manage Azure DevTest Lab instance
+  azure_rm_devtestlab:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      name: 
+      password: 
+      premium_data_disks: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      storage_type: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

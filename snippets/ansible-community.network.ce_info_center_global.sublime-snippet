@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_info_center_global</tabTrigger>
+	<description>Manages outputting logs on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages outputting logs on HUAWEI CloudEngine switches.
+  ce_info_center_global:
+      channel_cfg_name: 
+      channel_id: 
+      channel_name: 
+      channel_out_direct: 
+      facility: 
+      filter_feature_name: 
+      filter_log_name: 
+      info_center_enable: 
+      ip_type: 
+      is_default_vpn: 
+      level: 
+      logfile_max_num: 
+      logfile_max_size: 
+      packet_priority: 
+      server_domain: 
+      server_ip: 
+      server_port: 
+      source_ip: 
+      ssl_policy_name: 
+      state: 
+      suppress_enable: 
+      timestamp: 
+      transport_mode: 
+      vrf_name: 
+]]>
+	</content>
+</snippet>

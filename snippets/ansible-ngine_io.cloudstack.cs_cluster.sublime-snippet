@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_cluster</tabTrigger>
+	<description>Manages host clusters on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages host clusters on Apache CloudStack based clouds.
+  cs_cluster:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cluster_type: 
+      guest_vswitch_name: 
+      guest_vswitch_type: 
+      hypervisor: 
+      name: 
+      ovm3_cluster: 
+      ovm3_pool: 
+      ovm3_vip: 
+      password: 
+      pod: 
+      public_vswitch_name: 
+      public_vswitch_type: 
+      state: 
+      url: 
+      username: 
+      vms_ip_address: 
+      vms_password: 
+      vms_username: 
+      zone: 
+]]>
+	</content>
+</snippet>

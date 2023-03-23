@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_radius</tabTrigger>
+	<description>Configure RADIUS server entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure RADIUS server entries in Fortinet's FortiOS and FortiGate.
+  fortios_user_radius:
+      access_token: 
+      state: 
+      user_radius: 
+      vdom: 
+]]>
+	</content>
+</snippet>

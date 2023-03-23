@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cifs_server</tabTrigger>
+	<description>NetApp ONTAP CIFS server configuration</description>
+	<content><![CDATA[
+- name: NetApp ONTAP CIFS server configuration
+  na_ontap_cifs_server:
+      admin_password: 
+      admin_user_name: 
+      cert_filepath: 
+      domain: 
+      feature_flags: 
+      force: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      ou: 
+      password: 
+      service_state: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+      workgroup: 
+]]>
+	</content>
+</snippet>

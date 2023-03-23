@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_filestore_instance_info</tabTrigger>
+	<description>Gather info for GCP Instance</description>
+	<content><![CDATA[
+- name: Gather info for GCP Instance
+  gcp_filestore_instance_info:
+      auth_kind: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      zone: 
+]]>
+	</content>
+</snippet>

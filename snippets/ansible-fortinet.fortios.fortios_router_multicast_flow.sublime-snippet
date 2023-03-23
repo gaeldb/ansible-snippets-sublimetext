@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_multicast_flow</tabTrigger>
+	<description>Configure multicast-flow in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure multicast-flow in Fortinet's FortiOS and FortiGate.
+  fortios_router_multicast_flow:
+      access_token: 
+      router_multicast_flow: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

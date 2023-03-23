@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_group</tabTrigger>
+	<description>Manage device groups on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage device groups on a BIG-IP
+  bigip_device_group:
+      auto_sync: 
+      description: 
+      full_sync: 
+      max_incremental_sync_size: 
+      name: 
+      network_failover: 
+      provider: 
+      save_on_auto_sync: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

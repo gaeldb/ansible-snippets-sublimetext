@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.aix_lvg</tabTrigger>
+	<description>Manage LVM volume groups on AIX</description>
+	<content><![CDATA[
+- name: Manage LVM volume groups on AIX
+  aix_lvg:
+      force: 
+      pp_size: 
+      pvs: 
+      state: 
+      vg: 
+      vg_type: 
+]]>
+	</content>
+</snippet>

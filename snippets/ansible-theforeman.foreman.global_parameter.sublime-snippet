@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.global_parameter</tabTrigger>
+	<description>Manage Global Parameters</description>
+	<content><![CDATA[
+- name: Manage Global Parameters
+  global_parameter:
+      hidden_value: 
+      name: 
+      parameter_type: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+      value: 
+]]>
+	</content>
+</snippet>

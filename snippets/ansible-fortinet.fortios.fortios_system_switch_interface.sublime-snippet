@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_switch_interface</tabTrigger>
+	<description>Configure software switch interfaces by grouping physical and WiFi interfaces in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure software switch interfaces by grouping physical and WiFi interfaces in Fortinet's FortiOS and FortiGate.
+  fortios_system_switch_interface:
+      access_token: 
+      state: 
+      system_switch_interface: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,51 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ssid</tabTrigger>
+	<description>Manage wireless SSIDs in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage wireless SSIDs in the Meraki cloud
+  meraki_mr_ssid:
+      ap_tags_vlan_ids: 
+      auth_key: 
+      auth_mode: 
+      band_selection: 
+      concentrator_network_id: 
+      default_vlan_id: 
+      enabled: 
+      encryption_mode: 
+      host: 
+      internal_error_retry_time: 
+      ip_assignment_mode: 
+      min_bitrate: 
+      name: 
+      net_id: 
+      net_name: 
+      number: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      per_client_bandwidth_limit_down: 
+      per_client_bandwidth_limit_up: 
+      psk: 
+      radius_accounting_enabled: 
+      radius_accounting_servers: 
+      radius_coa_enabled: 
+      radius_failover_policy: 
+      radius_load_balancing_policy: 
+      radius_servers: 
+      rate_limit_retry_time: 
+      splash_page: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      use_vlan_tagging: 
+      validate_certs: 
+      vlan_id: 
+      walled_garden_enabled: 
+      walled_garden_ranges: 
+      wpa_encryption_mode: 
+]]>
+	</content>
+</snippet>

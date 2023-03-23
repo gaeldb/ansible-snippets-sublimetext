@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_krb</tabTrigger>
+	<description>Setup KRB</description>
+	<content><![CDATA[
+- name: Setup KRB
+  ipaserver_setup_krb:
+      _pkinit_pkcs12_info: 
+      auto_forwarders: 
+      ca_subject: 
+      dm_password: 
+      domain: 
+      external_cert_files: 
+      hostname: 
+      idmax: 
+      idstart: 
+      ip_addresses: 
+      master_password: 
+      no_hbac_allow: 
+      no_host_dns: 
+      no_pkinit: 
+      no_reverse: 
+      password: 
+      realm: 
+      reverse_zones: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

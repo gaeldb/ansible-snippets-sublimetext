@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_dlp_fp_doc_source</tabTrigger>
+	<description>Create a DLP fingerprint database by allowing the FortiGate to access a file server containing files from which to create fingerprints in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Create a DLP fingerprint database by allowing the FortiGate to access a file server containing files from which to create fingerprints in Fortinet's FortiOS and FortiGate.
+  fortios_dlp_fp_doc_source:
+      access_token: 
+      dlp_fp_doc_source: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

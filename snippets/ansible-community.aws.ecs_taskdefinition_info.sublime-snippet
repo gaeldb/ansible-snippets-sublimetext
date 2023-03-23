@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_taskdefinition_info</tabTrigger>
+	<description>Describe a task definition in ECS</description>
+	<content><![CDATA[
+- name: Describe a task definition in ECS
+  ecs_taskdefinition_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      task_definition: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

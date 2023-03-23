@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_dns_cache_resolver</tabTrigger>
+	<description>Manage DNS resolver cache configuration on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS resolver cache configuration on a BIG-IP
+  bigip_dns_cache_resolver:
+      answer_default_zones: 
+      forward_zones: 
+      name: 
+      partition: 
+      provider: 
+      route_domain: 
+      state: 
+]]>
+	</content>
+</snippet>

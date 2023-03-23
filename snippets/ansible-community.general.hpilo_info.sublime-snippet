@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hpilo_info</tabTrigger>
+	<description>Gather information through an HP iLO interface</description>
+	<content><![CDATA[
+- name: Gather information through an HP iLO interface
+  hpilo_info:
+      host: 
+      login: 
+      password: 
+      ssl_version: 
+]]>
+	</content>
+</snippet>

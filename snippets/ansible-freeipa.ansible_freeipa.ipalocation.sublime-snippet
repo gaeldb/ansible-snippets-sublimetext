@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipalocation</tabTrigger>
+	<description>Manage FreeIPA location</description>
+	<content><![CDATA[
+- name: Manage FreeIPA location
+  ipalocation:
+      description: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

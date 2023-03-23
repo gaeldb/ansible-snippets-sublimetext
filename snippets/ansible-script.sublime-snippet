@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>script</tabTrigger>
+	<description>Runs a local script on a remote node after transferring it</description>
+	<content><![CDATA[
+- name: Runs a local script on a remote node after transferring it
+  script:
+      chdir: 
+      cmd: 
+      creates: 
+      decrypt: 
+      executable: 
+      free_form: 
+      removes: 
+]]>
+	</content>
+</snippet>

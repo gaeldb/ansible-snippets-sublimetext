@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_inventory</tabTrigger>
+	<description>create, update, or destroy Ansible Tower inventory.</description>
+	<content><![CDATA[
+- name: create, update, or destroy Ansible Tower inventory.
+  tower_inventory:
+      description: 
+      host_filter: 
+      kind: 
+      name: 
+      organization: 
+      state: 
+      tower_config_file: 
+      tower_host: 
+      tower_oauthtoken: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+      variables: 
+]]>
+	</content>
+</snippet>

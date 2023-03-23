@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_certificate_crl</tabTrigger>
+	<description>Certificate Revocation List as a PEM file in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Certificate Revocation List as a PEM file in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_certificate_crl:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_certificate_crl: 
+]]>
+	</content>
+</snippet>

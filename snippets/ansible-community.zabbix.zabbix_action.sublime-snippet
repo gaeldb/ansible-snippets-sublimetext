@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_action</tabTrigger>
+	<description>Create/Delete/Update Zabbix actions</description>
+	<content><![CDATA[
+- name: Create/Delete/Update Zabbix actions
+  zabbix_action:
+      acknowledge_default_message: 
+      acknowledge_default_subject: 
+      acknowledge_operations: 
+      conditions: 
+      default_message: 
+      default_subject: 
+      esc_period: 
+      eval_type: 
+      event_source: 
+      formula: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      name: 
+      operations: 
+      pause_in_maintenance: 
+      recovery_default_message: 
+      recovery_default_subject: 
+      recovery_operations: 
+      server_url: 
+      state: 
+      status: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

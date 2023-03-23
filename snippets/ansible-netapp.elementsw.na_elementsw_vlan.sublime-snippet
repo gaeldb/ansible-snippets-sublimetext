@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_vlan</tabTrigger>
+	<description>NetApp Element Software Manage VLAN</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage VLAN
+  na_elementsw_vlan:
+      address_blocks: 
+      attributes: 
+      gateway: 
+      hostname: 
+      name: 
+      namespace: 
+      netmask: 
+      password: 
+      state: 
+      svip: 
+      username: 
+      vlan_tag: 
+]]>
+	</content>
+</snippet>

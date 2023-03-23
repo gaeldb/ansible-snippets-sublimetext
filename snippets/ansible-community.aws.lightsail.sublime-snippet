@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.lightsail</tabTrigger>
+	<description>Manage instances in AWS Lightsail</description>
+	<content><![CDATA[
+- name: Manage instances in AWS Lightsail
+  lightsail:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      blueprint_id: 
+      bundle_id: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      key_pair_name: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      user_data: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+      zone: 
+]]>
+	</content>
+</snippet>

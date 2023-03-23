@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_auth</tabTrigger>
+	<description>Authenticate to Kubernetes clusters which require an explicit login step</description>
+	<content><![CDATA[
+- name: Authenticate to Kubernetes clusters which require an explicit login step
+  k8s_auth:
+      api_key: 
+      ca_cert: 
+      host: 
+      password: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

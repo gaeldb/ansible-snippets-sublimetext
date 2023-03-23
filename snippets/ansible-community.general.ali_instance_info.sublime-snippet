@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ali_instance_info</tabTrigger>
+	<description>Gather information on instances of Alibaba Cloud ECS</description>
+	<content><![CDATA[
+- name: Gather information on instances of Alibaba Cloud ECS
+  ali_instance_info:
+      alicloud_access_key: 
+      alicloud_assume_role: 
+      alicloud_assume_role_arn: 
+      alicloud_assume_role_session_expiration: 
+      alicloud_assume_role_session_name: 
+      alicloud_region: 
+      alicloud_secret_key: 
+      alicloud_security_token: 
+      ecs_role_name: 
+      filters: 
+      name_prefix: 
+      profile: 
+      shared_credentials_file: 
+      tags: 
+]]>
+	</content>
+</snippet>

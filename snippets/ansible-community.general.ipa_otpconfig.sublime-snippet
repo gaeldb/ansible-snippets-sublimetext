@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_otpconfig</tabTrigger>
+	<description>Manage FreeIPA OTP Configuration Settings</description>
+	<content><![CDATA[
+- name: Manage FreeIPA OTP Configuration Settings
+  ipa_otpconfig:
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      ipatokenhotpauthwindow: 
+      ipatokenhotpsyncwindow: 
+      ipatokentotpauthwindow: 
+      ipatokentotpsyncwindow: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

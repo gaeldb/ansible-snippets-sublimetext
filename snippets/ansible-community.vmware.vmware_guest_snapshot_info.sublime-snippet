@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_snapshot_info</tabTrigger>
+	<description>Gather info about virtual machine's snapshots in vCenter</description>
+	<content><![CDATA[
+- name: Gather info about virtual machine's snapshots in vCenter
+  vmware_guest_snapshot_info:
+      datacenter: 
+      folder: 
+      hostname: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

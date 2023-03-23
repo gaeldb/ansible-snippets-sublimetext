@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.catapult</tabTrigger>
+	<description>Send a sms / mms using the catapult bandwidth api</description>
+	<content><![CDATA[
+- name: Send a sms / mms using the catapult bandwidth api
+  catapult:
+      api_secret: 
+      api_token: 
+      dest: 
+      media: 
+      msg: 
+      src: 
+      user_id: 
+]]>
+	</content>
+</snippet>

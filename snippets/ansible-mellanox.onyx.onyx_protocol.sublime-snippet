@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_protocol</tabTrigger>
+	<description>Enables/Disables protocols on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Enables/Disables protocols on Mellanox ONYX network devices
+  onyx_protocol:
+      bfd: 
+      bgp: 
+      dcb_pfc: 
+      igmp_snooping: 
+      ip_l3: 
+      ip_routing: 
+      lacp: 
+      lldp: 
+      magp: 
+      mlag: 
+      nve: 
+      ospf: 
+      spanning_tree: 
+]]>
+	</content>
+</snippet>

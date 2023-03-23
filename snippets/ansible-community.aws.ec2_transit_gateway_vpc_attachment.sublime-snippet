@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_transit_gateway_vpc_attachment</tabTrigger>
+	<description>Create and delete AWS Transit Gateway VPC attachments</description>
+	<content><![CDATA[
+- name: Create and delete AWS Transit Gateway VPC attachments
+  ec2_transit_gateway_vpc_attachment:
+      access_key: 
+      appliance_mode_support: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      dns_support: 
+      endpoint_url: 
+      id: 
+      ipv6_support: 
+      name: 
+      profile: 
+      purge_subnets: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      transit_gateway: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

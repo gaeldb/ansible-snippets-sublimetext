@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_index</tabTrigger>
+	<description>Creates or drops indexes on MongoDB collections.</description>
+	<content><![CDATA[
+- name: Creates or drops indexes on MongoDB collections.
+  mongodb_index:
+      auth_mechanism: 
+      connection_options: 
+      indexes: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      replica_set: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+]]>
+	</content>
+</snippet>

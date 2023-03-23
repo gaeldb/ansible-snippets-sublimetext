@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_igmp_vlan</tabTrigger>
+	<description>Configures IGMP Vlan parameters</description>
+	<content><![CDATA[
+- name: Configures IGMP Vlan parameters
+  onyx_igmp_vlan:
+      mrouter: 
+      querier: 
+      state: 
+      static_groups: 
+      version: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

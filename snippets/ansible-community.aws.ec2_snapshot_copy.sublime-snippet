@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_snapshot_copy</tabTrigger>
+	<description>Copies an EC2 snapshot and returns the new Snapshot ID</description>
+	<content><![CDATA[
+- name: Copies an EC2 snapshot and returns the new Snapshot ID
+  ec2_snapshot_copy:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      encrypted: 
+      endpoint_url: 
+      kms_key_id: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      source_region: 
+      source_snapshot_id: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

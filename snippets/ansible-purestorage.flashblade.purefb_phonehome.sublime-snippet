@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_phonehome</tabTrigger>
+	<description>Enable or Disable Pure Storage FlashBlade Phone Home</description>
+	<content><![CDATA[
+- name: Enable or Disable Pure Storage FlashBlade Phone Home
+  purefb_phonehome:
+      api_token: 
+      fb_url: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.elasticsearch_plugin</tabTrigger>
+	<description>Manage Elasticsearch plugins</description>
+	<content><![CDATA[
+- name: Manage Elasticsearch plugins
+  elasticsearch_plugin:
+      force: 
+      name: 
+      plugin_bin: 
+      plugin_dir: 
+      proxy_host: 
+      proxy_port: 
+      src: 
+      state: 
+      timeout: 
+      url: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.elb_application_lb_info</tabTrigger>
+	<description>Gather information about Application Load Balancers in AWS</description>
+	<content><![CDATA[
+- name: Gather information about Application Load Balancers in AWS
+  elb_application_lb_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      load_balancer_arns: 
+      names: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

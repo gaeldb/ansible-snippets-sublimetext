@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_dlp_sensor</tabTrigger>
+	<description>Configure DLP sensors in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DLP sensors in Fortinet's FortiOS and FortiGate.
+  fortios_dlp_sensor:
+      access_token: 
+      dlp_sensor: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

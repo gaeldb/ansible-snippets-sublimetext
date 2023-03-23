@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xfconf_info</tabTrigger>
+	<description>Retrieve XFCE4 configurations</description>
+	<content><![CDATA[
+- name: Retrieve XFCE4 configurations
+  xfconf_info:
+      channel: 
+      property: 
+]]>
+	</content>
+</snippet>

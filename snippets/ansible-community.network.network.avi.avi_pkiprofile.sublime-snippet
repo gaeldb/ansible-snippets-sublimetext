@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_pkiprofile</tabTrigger>
+	<description>Module for setup of PKIProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of PKIProfile Avi RESTful Object
+  avi_pkiprofile:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      ca_certs: 
+      controller: 
+      created_by: 
+      crl_check: 
+      crls: 
+      ignore_peer_chain: 
+      is_federated: 
+      name: 
+      password: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+      validate_only_leaf_crl: 
+]]>
+	</content>
+</snippet>

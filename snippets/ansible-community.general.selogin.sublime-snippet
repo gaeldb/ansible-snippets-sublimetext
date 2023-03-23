@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.selogin</tabTrigger>
+	<description>Manages linux user to SELinux user mapping</description>
+	<content><![CDATA[
+- name: Manages linux user to SELinux user mapping
+  selogin:
+      ignore_selinux_state: 
+      login: 
+      reload: 
+      selevel: 
+      seuser: 
+      state: 
+]]>
+	</content>
+</snippet>

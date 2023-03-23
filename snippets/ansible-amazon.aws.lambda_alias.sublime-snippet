@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.lambda_alias</tabTrigger>
+	<description>Creates, updates or deletes AWS Lambda function aliases</description>
+	<content><![CDATA[
+- name: Creates, updates or deletes AWS Lambda function aliases
+  lambda_alias:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      function_name: 
+      function_version: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

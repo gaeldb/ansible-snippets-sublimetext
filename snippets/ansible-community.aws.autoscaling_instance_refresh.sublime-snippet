@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_instance_refresh</tabTrigger>
+	<description>Start or cancel an EC2 Auto Scaling Group (ASG) instance refresh in AWS</description>
+	<content><![CDATA[
+- name: Start or cancel an EC2 Auto Scaling Group (ASG) instance refresh in AWS
+  autoscaling_instance_refresh:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      preferences: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      strategy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

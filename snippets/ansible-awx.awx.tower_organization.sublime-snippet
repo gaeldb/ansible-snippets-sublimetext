@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_organization</tabTrigger>
+	<description>create, update, or destroy Ansible Tower organizations</description>
+	<content><![CDATA[
+- name: create, update, or destroy Ansible Tower organizations
+  tower_organization:
+      custom_virtualenv: 
+      description: 
+      max_hosts: 
+      name: 
+      notification_templates_approvals: 
+      notification_templates_error: 
+      notification_templates_started: 
+      notification_templates_success: 
+      state: 
+      tower_config_file: 
+      tower_host: 
+      tower_oauthtoken: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

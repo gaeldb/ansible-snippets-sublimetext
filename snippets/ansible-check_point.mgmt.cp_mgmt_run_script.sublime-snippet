@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_run_script</tabTrigger>
+	<description>Executes the script on a given list of targets.</description>
+	<content><![CDATA[
+- name: Executes the script on a given list of targets.
+  cp_mgmt_run_script:
+      args: 
+      comments: 
+      script: 
+      script_name: 
+      targets: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

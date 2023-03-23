@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_user_info</tabTrigger>
+	<description>Get information about the Vultr user available.</description>
+	<content><![CDATA[
+- name: Get information about the Vultr user available.
+  vultr_user_info:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

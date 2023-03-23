@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.facter</tabTrigger>
+	<description>Runs the discovery program `facter' on the remote system</description>
+	<content><![CDATA[
+- name: Runs the discovery program `facter' on the remote system
+  facter:
+      arguments: 
+]]>
+	</content>
+</snippet>

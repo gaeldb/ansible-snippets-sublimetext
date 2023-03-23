@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.emc_vnx_sg_member</tabTrigger>
+	<description>Manage storage group member on EMC VNX</description>
+	<content><![CDATA[
+- name: Manage storage group member on EMC VNX
+  emc_vnx_sg_member:
+      lunid: 
+      name: 
+      sp_address: 
+      sp_password: 
+      sp_user: 
+      state: 
+]]>
+	</content>
+</snippet>

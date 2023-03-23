@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_ds</tabTrigger>
+	<description>Configure directory server</description>
+	<content><![CDATA[
+- name: Configure directory server
+  ipaserver_setup_ds:
+      _dirsrv_pkcs12_info: 
+      ca_subject: 
+      dirsrv_cert_files: 
+      dirsrv_config_file: 
+      dm_password: 
+      domain: 
+      external_cert_files: 
+      hostname: 
+      idmax: 
+      idstart: 
+      no_hbac_allow: 
+      no_pkinit: 
+      password: 
+      realm: 
+      setup_ca: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

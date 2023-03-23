@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatchevent_rule</tabTrigger>
+	<description>Manage CloudWatch Event rules and targets</description>
+	<content><![CDATA[
+- name: Manage CloudWatch Event rules and targets
+  cloudwatchevent_rule:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      event_pattern: 
+      name: 
+      profile: 
+      region: 
+      role_arn: 
+      schedule_expression: 
+      secret_key: 
+      session_token: 
+      state: 
+      targets: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_info</tabTrigger>
+	<description>Collect information from F5 BIG-IP devices</description>
+	<content><![CDATA[
+- name: Collect information from F5 BIG-IP devices
+  bigip_device_info:
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_contract_filter</tabTrigger>
+	<description>Manage contract filters in schema templates</description>
+	<content><![CDATA[
+- name: Manage contract filters in schema templates
+  mso_schema_template_contract_filter:
+      contract: 
+      contract_display_name: 
+      contract_filter_type: 
+      contract_scope: 
+      filter: 
+      filter_directives: 
+      filter_schema: 
+      filter_template: 
+      filter_type: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      state: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_ping</tabTrigger>
+	<description>A windows version of the classic ping module</description>
+	<content><![CDATA[
+- name: A windows version of the classic ping module
+  win_ping:
+      data: 
+]]>
+	</content>
+</snippet>

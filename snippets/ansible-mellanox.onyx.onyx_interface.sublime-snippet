@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_interface</tabTrigger>
+	<description>Manage Interfaces on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage Interfaces on Mellanox ONYX network devices
+  onyx_interface:
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      purge: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

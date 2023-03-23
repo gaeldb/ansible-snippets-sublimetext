@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_aksversion_facts</tabTrigger>
+	<description>Get available kubernetes versions supported by Azure Kubernetes Service</description>
+	<content><![CDATA[
+- name: Get available kubernetes versions supported by Azure Kubernetes Service
+  azure_rm_aksversion_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      password: 
+      profile: 
+      secret: 
+      subscription_id: 
+      tenant: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_extender_controller_extender</tabTrigger>
+	<description>Extender controller configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Extender controller configuration in Fortinet's FortiOS and FortiGate.
+  fortios_extender_controller_extender:
+      access_token: 
+      extender_controller_extender: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

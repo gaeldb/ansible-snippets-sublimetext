@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.memset_dns_reload</tabTrigger>
+	<description>Request reload of Memset's DNS infrastructure,</description>
+	<content><![CDATA[
+- name: Request reload of Memset's DNS infrastructure,
+  memset_dns_reload:
+      api_key: 
+      poll: 
+]]>
+	</content>
+</snippet>

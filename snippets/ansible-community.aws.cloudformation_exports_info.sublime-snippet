@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.cloudformation_exports_info</tabTrigger>
+	<description>Read a value from CloudFormation Exports</description>
+	<content><![CDATA[
+- name: Read a value from CloudFormation Exports
+  cloudformation_exports_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

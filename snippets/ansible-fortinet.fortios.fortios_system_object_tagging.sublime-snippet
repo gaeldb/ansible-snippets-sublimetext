@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_object_tagging</tabTrigger>
+	<description>Configure object tagging in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure object tagging in Fortinet's FortiOS and FortiGate.
+  fortios_system_object_tagging:
+      access_token: 
+      state: 
+      system_object_tagging: 
+      vdom: 
+]]>
+	</content>
+</snippet>

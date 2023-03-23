@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.qradar_rule</tabTrigger>
+	<description>Manage state of QRadar Rules, with filter options</description>
+	<content><![CDATA[
+- name: Manage state of QRadar Rules, with filter options
+  rule:
+      id: 
+      name: 
+      owner: 
+      state: 
+]]>
+	</content>
+</snippet>

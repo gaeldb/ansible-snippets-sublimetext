@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_community</tabTrigger>
+	<description>Manages SNMP community configs.</description>
+	<content><![CDATA[
+- name: Manages SNMP community configs.
+  nxos_snmp_community:
+      access: 
+      acl: 
+      community: 
+      group: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

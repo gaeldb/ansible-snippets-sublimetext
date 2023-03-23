@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_static_routes</tabTrigger>
+	<description>Manage Static routes object (l3ext:ipRouteP)</description>
+	<content><![CDATA[
+- name: Manage Static routes object (l3ext:ipRouteP)
+  aci_l3out_static_routes:
+      annotation: 
+      bfd: 
+      certificate_name: 
+      description: 
+      host: 
+      l3out: 
+      logical_node: 
+      name_alias: 
+      node_id: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pod_id: 
+      port: 
+      preference: 
+      prefix: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      track_policy: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

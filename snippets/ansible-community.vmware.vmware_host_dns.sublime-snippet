@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_dns</tabTrigger>
+	<description>Manage DNS configuration of an ESXi host system</description>
+	<content><![CDATA[
+- name: Manage DNS configuration of an ESXi host system
+  vmware_host_dns:
+      cluster_name: 
+      device: 
+      dns_servers: 
+      domain: 
+      esxi_hostname: 
+      host_name: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      search_domains: 
+      type: 
+      username: 
+      validate_certs: 
+      verbose: 
+]]>
+	</content>
+</snippet>

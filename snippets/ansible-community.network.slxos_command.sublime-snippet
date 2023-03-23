@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.slxos_command</tabTrigger>
+	<description>Run commands on remote devices running Extreme Networks SLX-OS</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Extreme Networks SLX-OS
+  slxos_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

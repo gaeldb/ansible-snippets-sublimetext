@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_server</tabTrigger>
+	<description>Create, Delete, Start and Stop servers in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Create, Delete, Start and Stop servers in CenturyLink Cloud
+  clc_server:
+      add_public_ip: 
+      additional_disks: 
+      alert_policy_id: 
+      alert_policy_name: 
+      alias: 
+      anti_affinity_policy_id: 
+      anti_affinity_policy_name: 
+      configuration_id: 
+      count: 
+      count_group: 
+      cpu: 
+      cpu_autoscale_policy_id: 
+      custom_fields: 
+      description: 
+      exact_count: 
+      group: 
+      ip_address: 
+      location: 
+      managed_os: 
+      memory: 
+      name: 
+      network_id: 
+      os_type: 
+      packages: 
+      password: 
+      primary_dns: 
+      public_ip_ports: 
+      public_ip_protocol: 
+      secondary_dns: 
+      server_ids: 
+      source_server_password: 
+      state: 
+      storage_type: 
+      template: 
+      ttl: 
+      type: 
+      wait: 
+]]>
+	</content>
+</snippet>

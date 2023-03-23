@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_registration_forticare</tabTrigger>
+	<description>Add a FortiCare license in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Add a FortiCare license in Fortinet's FortiOS and FortiGate.
+  fortios_registration_forticare:
+      host: 
+      https: 
+      password: 
+      registration_forticare: 
+      ssl_verify: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

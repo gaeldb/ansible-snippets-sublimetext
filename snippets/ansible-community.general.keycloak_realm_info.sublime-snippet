@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_realm_info</tabTrigger>
+	<description>Allows obtaining Keycloak realm public information via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows obtaining Keycloak realm public information via Keycloak API
+  keycloak_realm_info:
+      auth_keycloak_url: 
+      realm: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

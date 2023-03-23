@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_registrationdefinition</tabTrigger>
+	<description>Manage Azure RegistrationDefinition instance</description>
+	<content><![CDATA[
+- name: Manage Azure RegistrationDefinition instance
+  azure_rm_registrationdefinition:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      plan: 
+      profile: 
+      properties: 
+      registration_definition_id: 
+      scope: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

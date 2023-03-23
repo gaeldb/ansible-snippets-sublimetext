@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.timezone</tabTrigger>
+	<description>Configure timezone setting</description>
+	<content><![CDATA[
+- name: Configure timezone setting
+  timezone:
+      hwclock: 
+      name: 
+]]>
+	</content>
+</snippet>

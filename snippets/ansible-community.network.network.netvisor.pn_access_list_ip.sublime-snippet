@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_access_list_ip</tabTrigger>
+	<description>CLI command to add/remove access-list-ip</description>
+	<content><![CDATA[
+- name: CLI command to add/remove access-list-ip
+  pn_access_list_ip:
+      pn_cliswitch: 
+      pn_ip: 
+      pn_name: 
+      state: 
+]]>
+	</content>
+</snippet>

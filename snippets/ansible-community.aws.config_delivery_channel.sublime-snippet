@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.config_delivery_channel</tabTrigger>
+	<description>Manage AWS Config delivery channels</description>
+	<content><![CDATA[
+- name: Manage AWS Config delivery channels
+  config_delivery_channel:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delivery_frequency: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      s3_bucket: 
+      s3_prefix: 
+      secret_key: 
+      session_token: 
+      sns_topic_arn: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

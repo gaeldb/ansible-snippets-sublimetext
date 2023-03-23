@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_netstream_aging</tabTrigger>
+	<description>Manages timeout mode of NetStream on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages timeout mode of NetStream on HUAWEI CloudEngine switches.
+  ce_netstream_aging:
+      manual_slot: 
+      state: 
+      timeout_interval: 
+      timeout_type: 
+      type: 
+]]>
+	</content>
+</snippet>

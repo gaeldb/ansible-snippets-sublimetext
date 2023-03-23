@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ssm_parameter</tabTrigger>
+	<description>Manage key-value pairs in AWS Systems Manager Parameter Store</description>
+	<content><![CDATA[
+- name: Manage key-value pairs in AWS Systems Manager Parameter Store
+  ssm_parameter:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      decryption: 
+      description: 
+      endpoint_url: 
+      key_id: 
+      name: 
+      overwrite_value: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      string_type: 
+      tier: 
+      validate_certs: 
+      value: 
+]]>
+	</content>
+</snippet>

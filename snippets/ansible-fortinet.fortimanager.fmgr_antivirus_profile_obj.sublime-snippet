@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_antivirus_profile_obj</tabTrigger>
+	<description>Configure AntiVirus profiles.</description>
+	<content><![CDATA[
+- name: Configure AntiVirus profiles.
+  fmgr_antivirus_profile_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

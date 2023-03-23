@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_session_helper</tabTrigger>
+	<description>Configure session helper in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure session helper in Fortinet's FortiOS and FortiGate.
+  fortios_system_session_helper:
+      access_token: 
+      state: 
+      system_session_helper: 
+      vdom: 
+]]>
+	</content>
+</snippet>

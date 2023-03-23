@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_vrouter_loopback_interface</tabTrigger>
+	<description>CLI command to add/remove vrouter-loopback-interface</description>
+	<content><![CDATA[
+- name: CLI command to add/remove vrouter-loopback-interface
+  pn_vrouter_loopback_interface:
+      pn_cliswitch: 
+      pn_index: 
+      pn_ip: 
+      pn_vrouter_name: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_access_port_block_to_access_port</tabTrigger>
+	<description>Manage port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:PortBlk)</description>
+	<content><![CDATA[
+- name: Manage port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:PortBlk)
+  aci_access_port_block_to_access_port:
+      access_port_selector: 
+      annotation: 
+      certificate_name: 
+      from_card: 
+      from_port: 
+      host: 
+      interface_profile: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      port_blk: 
+      port_blk_description: 
+      private_key: 
+      state: 
+      timeout: 
+      to_card: 
+      to_port: 
+      type: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

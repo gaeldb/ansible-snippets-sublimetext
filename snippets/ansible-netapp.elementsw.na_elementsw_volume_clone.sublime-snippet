@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_volume_clone</tabTrigger>
+	<description>NetApp Element Software Create Volume Clone</description>
+	<content><![CDATA[
+- name: NetApp Element Software Create Volume Clone
+  na_elementsw_volume_clone:
+      access: 
+      account_id: 
+      attributes: 
+      hostname: 
+      name: 
+      password: 
+      size: 
+      size_unit: 
+      src_snapshot_id: 
+      src_volume_id: 
+      username: 
+]]>
+	</content>
+</snippet>

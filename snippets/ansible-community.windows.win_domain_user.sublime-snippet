@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_domain_user</tabTrigger>
+	<description>Manages Windows Active Directory user accounts</description>
+	<content><![CDATA[
+- name: Manages Windows Active Directory user accounts
+  win_domain_user:
+      account_locked: 
+      attributes: 
+      city: 
+      company: 
+      country: 
+      description: 
+      domain_password: 
+      domain_server: 
+      domain_username: 
+      email: 
+      enabled: 
+      firstname: 
+      groups: 
+      groups_action: 
+      identity: 
+      name: 
+      password: 
+      password_expired: 
+      password_never_expires: 
+      path: 
+      postal_code: 
+      state: 
+      state_province: 
+      street: 
+      surname: 
+      update_password: 
+      upn: 
+      user_cannot_change_password: 
+]]>
+	</content>
+</snippet>

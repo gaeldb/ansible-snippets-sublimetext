@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_network_info</tabTrigger>
+	<description>Gather information about the Vultr networks available.</description>
+	<content><![CDATA[
+- name: Gather information about the Vultr networks available.
+  vultr_network_info:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

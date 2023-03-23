@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_user</tabTrigger>
+	<description>Create, Delete and Modify a User on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete and Modify a User on Infinibox
+  infini_user:
+      password: 
+      state: 
+      system: 
+      user: 
+      user_email: 
+      user_enabled: 
+      user_name: 
+      user_password: 
+      user_pool: 
+      user_role: 
+]]>
+	</content>
+</snippet>

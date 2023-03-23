@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.svr4pkg</tabTrigger>
+	<description>Manage Solaris SVR4 packages</description>
+	<content><![CDATA[
+- name: Manage Solaris SVR4 packages
+  svr4pkg:
+      category: 
+      name: 
+      proxy: 
+      response_file: 
+      src: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

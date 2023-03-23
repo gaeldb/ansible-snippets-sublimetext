@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_zapit</tabTrigger>
+	<description>NetApp ONTAP Run any ZAPI on ONTAP</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Run any ZAPI on ONTAP
+  na_ontap_zapit:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+      zapi: 
+]]>
+	</content>
+</snippet>

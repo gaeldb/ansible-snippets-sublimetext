@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.helm_info</tabTrigger>
+	<description>Get information from Helm package deployed inside the cluster</description>
+	<content><![CDATA[
+- name: Get information from Helm package deployed inside the cluster
+  helm_info:
+      binary_path: 
+      context: 
+      kubeconfig: 
+      release_name: 
+      release_namespace: 
+]]>
+	</content>
+</snippet>

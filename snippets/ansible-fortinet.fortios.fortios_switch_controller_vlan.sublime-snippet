@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_vlan</tabTrigger>
+	<description>Configure VLANs for switch controller in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure VLANs for switch controller in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_vlan:
+      access_token: 
+      state: 
+      switch_controller_vlan: 
+      vdom: 
+]]>
+	</content>
+</snippet>

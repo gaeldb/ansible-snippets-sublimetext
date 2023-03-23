@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_pod</tabTrigger>
+	<description>Manage AC pods in Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage AC pods in Pure Storage FlashArrays
+  purefa_pod:
+      api_token: 
+      eradicate: 
+      fa_url: 
+      failover: 
+      mediator: 
+      name: 
+      promote: 
+      quiesce: 
+      state: 
+      stretch: 
+      target: 
+      undo: 
+]]>
+	</content>
+</snippet>

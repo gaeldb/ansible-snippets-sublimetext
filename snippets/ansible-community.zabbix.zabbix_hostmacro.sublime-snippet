@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_hostmacro</tabTrigger>
+	<description>Create/update/delete Zabbix host macros</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix host macros
+  zabbix_hostmacro:
+      force: 
+      host_name: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      macro_name: 
+      macro_value: 
+      server_url: 
+      state: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

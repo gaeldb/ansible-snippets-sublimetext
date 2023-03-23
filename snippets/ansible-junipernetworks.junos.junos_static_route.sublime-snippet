@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_static_route</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage static IP routes on Juniper JUNOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage static IP routes on Juniper JUNOS network devices
+  junos_static_route:
+      active: 
+      address: 
+      aggregate: 
+      next_hop: 
+      preference: 
+      provider: 
+      qualified_next_hop: 
+      qualified_preference: 
+      state: 
+]]>
+	</content>
+</snippet>

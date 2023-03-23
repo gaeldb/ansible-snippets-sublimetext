@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_device_interface_template</tabTrigger>
+	<description>Creates or removes interfaces on devices from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes interfaces on devices from Netbox
+  netbox_device_interface_template:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

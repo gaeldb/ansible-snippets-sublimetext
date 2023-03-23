@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_containers</tabTrigger>
+	<description>Manage podman containers in a batch</description>
+	<content><![CDATA[
+- name: Manage podman containers in a batch
+  podman_containers:
+      containers: 
+      debug: 
+]]>
+	</content>
+</snippet>

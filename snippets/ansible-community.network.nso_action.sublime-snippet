@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.nso_action</tabTrigger>
+	<description>Executes Cisco NSO actions and verifies output.</description>
+	<content><![CDATA[
+- name: Executes Cisco NSO actions and verifies output.
+  nso_action:
+      input: 
+      output_invalid: 
+      output_required: 
+      password: 
+      path: 
+      timeout: 
+      url: 
+      username: 
+      validate_certs: 
+      validate_strict: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.selinux_permissive</tabTrigger>
+	<description>Change permissive domain in SELinux policy</description>
+	<content><![CDATA[
+- name: Change permissive domain in SELinux policy
+  selinux_permissive:
+      domain: 
+      no_reload: 
+      permissive: 
+      store: 
+]]>
+	</content>
+</snippet>

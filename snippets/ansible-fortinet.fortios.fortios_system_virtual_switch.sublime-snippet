@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_virtual_switch</tabTrigger>
+	<description>Configure virtual hardware switch interfaces in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure virtual hardware switch interfaces in Fortinet's FortiOS and FortiGate.
+  fortios_system_virtual_switch:
+      access_token: 
+      state: 
+      system_virtual_switch: 
+      vdom: 
+]]>
+	</content>
+</snippet>

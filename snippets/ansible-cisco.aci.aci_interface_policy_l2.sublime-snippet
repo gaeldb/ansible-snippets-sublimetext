@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_l2</tabTrigger>
+	<description>Manage Layer 2 interface policies (l2:IfPol)</description>
+	<content><![CDATA[
+- name: Manage Layer 2 interface policies (l2:IfPol)
+  aci_interface_policy_l2:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      l2_policy: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      qinq: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vepa: 
+      vlan_scope: 
+]]>
+	</content>
+</snippet>

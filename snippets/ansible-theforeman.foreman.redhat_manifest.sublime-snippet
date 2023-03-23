@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.redhat_manifest</tabTrigger>
+	<description>Interact with a Red Hat Satellite Subscription Manifest</description>
+	<content><![CDATA[
+- name: Interact with a Red Hat Satellite Subscription Manifest
+  redhat_manifest:
+      content_access_mode: 
+      name: 
+      password: 
+      path: 
+      pool_id: 
+      pool_state: 
+      portal: 
+      quantity: 
+      state: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

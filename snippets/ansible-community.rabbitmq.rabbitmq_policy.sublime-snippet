@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_policy</tabTrigger>
+	<description>Manage the state of policies in RabbitMQ</description>
+	<content><![CDATA[
+- name: Manage the state of policies in RabbitMQ
+  rabbitmq_policy:
+      apply_to: 
+      name: 
+      node: 
+      pattern: 
+      priority: 
+      state: 
+      tags: 
+      vhost: 
+]]>
+	</content>
+</snippet>

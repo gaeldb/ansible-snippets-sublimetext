@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.dynamodb_ttl</tabTrigger>
+	<description>Set TTL for a given DynamoDB table</description>
+	<content><![CDATA[
+- name: Set TTL for a given DynamoDB table
+  dynamodb_ttl:
+      access_key: 
+      attribute_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      table_name: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

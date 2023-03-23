@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_interfaces</tabTrigger>
+	<description>Interfaces resource module</description>
+	<content><![CDATA[
+- name: Interfaces resource module
+  iosxr_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

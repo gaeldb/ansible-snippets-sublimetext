@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_fm</tabTrigger>
+	<description>Configure FM in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FM in Fortinet's FortiOS and FortiGate.
+  fortios_system_fm:
+      access_token: 
+      system_fm: 
+      vdom: 
+]]>
+	</content>
+</snippet>

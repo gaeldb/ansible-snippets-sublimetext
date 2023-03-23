@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_telemetry</tabTrigger>
+	<description>TELEMETRY resource module</description>
+	<content><![CDATA[
+- name: TELEMETRY resource module
+  nxos_telemetry:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

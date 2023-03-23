@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_mlengine_model_info</tabTrigger>
+	<description>Gather info for GCP Model</description>
+	<content><![CDATA[
+- name: Gather info for GCP Model
+  gcp_mlengine_model_info:
+      auth_kind: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

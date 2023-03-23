@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_node</tabTrigger>
+	<description>NetApp Element Software Node Operation</description>
+	<content><![CDATA[
+- name: NetApp Element Software Node Operation
+  na_elementsw_node:
+      cluster_name: 
+      hostname: 
+      node_ids: 
+      password: 
+      preset_only: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

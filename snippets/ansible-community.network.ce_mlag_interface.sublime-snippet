@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_mlag_interface</tabTrigger>
+	<description>Manages MLAG interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages MLAG interfaces on HUAWEI CloudEngine switches.
+  ce_mlag_interface:
+      dfs_group_id: 
+      eth_trunk_id: 
+      interface: 
+      mlag_error_down: 
+      mlag_id: 
+      mlag_priority_id: 
+      mlag_system_id: 
+      state: 
+]]>
+	</content>
+</snippet>

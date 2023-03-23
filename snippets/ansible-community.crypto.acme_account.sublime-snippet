@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.acme_account</tabTrigger>
+	<description>Create, modify or delete ACME accounts</description>
+	<content><![CDATA[
+- name: Create, modify or delete ACME accounts
+  acme_account:
+      account_key_content: 
+      account_key_passphrase: 
+      account_key_src: 
+      account_uri: 
+      acme_directory: 
+      acme_version: 
+      allow_creation: 
+      contact: 
+      external_account_binding: 
+      new_account_key_content: 
+      new_account_key_passphrase: 
+      new_account_key_src: 
+      request_timeout: 
+      select_crypto_backend: 
+      state: 
+      terms_agreed: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

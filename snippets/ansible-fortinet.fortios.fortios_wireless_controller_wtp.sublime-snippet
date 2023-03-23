@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_wtp</tabTrigger>
+	<description>Configure Wireless Termination Points (WTPs), that is, FortiAPs or APs to be managed by FortiGate in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Wireless Termination Points (WTPs), that is, FortiAPs or APs to be managed by FortiGate in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_wtp:
+      access_token: 
+      state: 
+      vdom: 
+      wireless_controller_wtp: 
+]]>
+	</content>
+</snippet>

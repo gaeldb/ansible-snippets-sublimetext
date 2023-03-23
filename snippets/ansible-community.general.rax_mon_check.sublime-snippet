@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_mon_check</tabTrigger>
+	<description>Create or delete a Rackspace Cloud Monitoring check for an existing entity.</description>
+	<content><![CDATA[
+- name: Create or delete a Rackspace Cloud Monitoring check for an existing entity.
+  rax_mon_check:
+      api_key: 
+      auth_endpoint: 
+      check_type: 
+      credentials: 
+      details: 
+      disabled: 
+      entity_id: 
+      env: 
+      identity_type: 
+      label: 
+      metadata: 
+      monitoring_zones_poll: 
+      period: 
+      region: 
+      state: 
+      target_alias: 
+      target_hostname: 
+      tenant_id: 
+      tenant_name: 
+      timeout: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

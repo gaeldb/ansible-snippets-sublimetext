@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_security_key_manager</tabTrigger>
+	<description>NetApp ONTAP security key manager.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP security key manager.
+  na_ontap_security_key_manager:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ip_address: 
+      key_filepath: 
+      node: 
+      ontapi: 
+      password: 
+      state: 
+      tcp_port: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

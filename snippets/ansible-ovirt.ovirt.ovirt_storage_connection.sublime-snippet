@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_storage_connection</tabTrigger>
+	<description>Module to manage storage connections in oVirt</description>
+	<content><![CDATA[
+- name: Module to manage storage connections in oVirt
+  ovirt_storage_connection:
+      address: 
+      auth: 
+      fetch_nested: 
+      force: 
+      id: 
+      mount_options: 
+      nested_attributes: 
+      nfs_retrans: 
+      nfs_timeout: 
+      nfs_version: 
+      password: 
+      path: 
+      poll_interval: 
+      port: 
+      state: 
+      storage: 
+      target: 
+      timeout: 
+      type: 
+      username: 
+      vfs_type: 
+      wait: 
+]]>
+	</content>
+</snippet>

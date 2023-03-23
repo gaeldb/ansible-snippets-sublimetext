@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>splunk.es.splunk_correlation_search</tabTrigger>
+	<description>Manage Splunk Enterprise Security Correlation Searches</description>
+	<content><![CDATA[
+- name: Manage Splunk Enterprise Security Correlation Searches
+  correlation_search:
+      app: 
+      cron_schedule: 
+      description: 
+      name: 
+      schedule_priority: 
+      schedule_window: 
+      scheduling: 
+      search: 
+      state: 
+      suppress_alerts: 
+      throttle_fields_to_group_by: 
+      throttle_window_duration: 
+      time_earliest: 
+      time_latest: 
+      trigger_alert_when: 
+      trigger_alert_when_condition: 
+      trigger_alert_when_value: 
+      ui_dispatch_context: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_endpoint_service_info</tabTrigger>
+	<description>Retrieves AWS VPC endpoint service details</description>
+	<content><![CDATA[
+- name: Retrieves AWS VPC endpoint service details
+  ec2_vpc_endpoint_service_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filters: 
+      profile: 
+      region: 
+      secret_key: 
+      service_names: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

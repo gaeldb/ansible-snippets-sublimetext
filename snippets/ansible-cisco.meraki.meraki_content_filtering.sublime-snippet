@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_content_filtering</tabTrigger>
+	<description>Edit Meraki MX content filtering policies</description>
+	<content><![CDATA[
+- name: Edit Meraki MX content filtering policies
+  meraki_mx_content_filtering:
+      allowed_urls: 
+      auth_key: 
+      blocked_categories: 
+      blocked_urls: 
+      category_list_size: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      subset: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

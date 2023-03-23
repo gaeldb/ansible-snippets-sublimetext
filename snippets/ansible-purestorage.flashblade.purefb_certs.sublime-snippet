@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_certs</tabTrigger>
+	<description>Manage FlashBlade SSL Certifcates</description>
+	<content><![CDATA[
+- name: Manage FlashBlade SSL Certifcates
+  purefb_certs:
+      api_token: 
+      contents: 
+      fb_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

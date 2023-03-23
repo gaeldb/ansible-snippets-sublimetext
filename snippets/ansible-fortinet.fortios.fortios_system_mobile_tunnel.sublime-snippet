@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_mobile_tunnel</tabTrigger>
+	<description>Configure Mobile tunnels, an implementation of Network Mobility (NEMO) extensions for Mobile IPv4 RFC5177 in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Mobile tunnels, an implementation of Network Mobility (NEMO) extensions for Mobile IPv4 RFC5177 in Fortinet's FortiOS and FortiGate.
+  fortios_system_mobile_tunnel:
+      access_token: 
+      state: 
+      system_mobile_tunnel: 
+      vdom: 
+]]>
+	</content>
+</snippet>

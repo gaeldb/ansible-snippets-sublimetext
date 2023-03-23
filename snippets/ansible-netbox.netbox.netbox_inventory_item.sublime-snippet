@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_inventory_item</tabTrigger>
+	<description>Creates or removes inventory items from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes inventory items from Netbox
+  netbox_inventory_item:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

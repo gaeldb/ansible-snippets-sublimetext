@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_redis_instance</tabTrigger>
+	<description>Creates a GCP Instance</description>
+	<content><![CDATA[
+- name: Creates a GCP Instance
+  gcp_redis_instance:
+      alternative_location_id: 
+      auth_enabled: 
+      auth_kind: 
+      authorized_network: 
+      connect_mode: 
+      display_name: 
+      env_type: 
+      labels: 
+      location_id: 
+      memory_size_gb: 
+      name: 
+      project: 
+      redis_configs: 
+      redis_version: 
+      region: 
+      reserved_ip_range: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      tier: 
+]]>
+	</content>
+</snippet>

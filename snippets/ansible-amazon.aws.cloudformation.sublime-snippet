@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudformation</tabTrigger>
+	<description>Create or delete an AWS CloudFormation stack</description>
+	<content><![CDATA[
+- name: Create or delete an AWS CloudFormation stack
+  cloudformation:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      backoff_delay: 
+      backoff_max_delay: 
+      backoff_retries: 
+      capabilities: 
+      changeset_name: 
+      create_changeset: 
+      create_timeout: 
+      debug_botocore_endpoint_logs: 
+      disable_rollback: 
+      endpoint_url: 
+      events_limit: 
+      notification_arns: 
+      on_create_failure: 
+      profile: 
+      region: 
+      role_arn: 
+      secret_key: 
+      session_token: 
+      stack_name: 
+      stack_policy: 
+      stack_policy_body: 
+      stack_policy_on_update_body: 
+      state: 
+      tags: 
+      template: 
+      template_body: 
+      template_parameters: 
+      template_url: 
+      termination_protection: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

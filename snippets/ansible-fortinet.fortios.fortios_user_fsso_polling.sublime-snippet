@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_fsso_polling</tabTrigger>
+	<description>Configure FSSO active directory servers for polling mode in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FSSO active directory servers for polling mode in Fortinet's FortiOS and FortiGate.
+  fortios_user_fsso_polling:
+      access_token: 
+      state: 
+      user_fsso_polling: 
+      vdom: 
+]]>
+	</content>
+</snippet>

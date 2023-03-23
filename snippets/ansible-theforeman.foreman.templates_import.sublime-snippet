@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.templates_import</tabTrigger>
+	<description>Sync Templates from a repository</description>
+	<content><![CDATA[
+- name: Sync Templates from a repository
+  templates_import:
+      associate: 
+      branch: 
+      dirname: 
+      filter: 
+      force: 
+      locations: 
+      lock: 
+      negate: 
+      organizations: 
+      password: 
+      prefix: 
+      repo: 
+      server_url: 
+      username: 
+      validate_certs: 
+      verbose: 
+]]>
+	</content>
+</snippet>

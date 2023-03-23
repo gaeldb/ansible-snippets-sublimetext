@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.exos.exos_facts</tabTrigger>
+	<description>Collect facts from devices running Extreme EXOS</description>
+	<content><![CDATA[
+- name: Collect facts from devices running Extreme EXOS
+  exos_facts:
+      gather_network_resources: 
+      gather_subset: 
+]]>
+	</content>
+</snippet>

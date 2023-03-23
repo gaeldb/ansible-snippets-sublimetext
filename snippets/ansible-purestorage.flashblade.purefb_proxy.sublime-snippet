@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_proxy</tabTrigger>
+	<description>Configure FlashBlade phonehome HTTPs proxy settings</description>
+	<content><![CDATA[
+- name: Configure FlashBlade phonehome HTTPs proxy settings
+  purefb_proxy:
+      api_token: 
+      fb_url: 
+      host: 
+      port: 
+      state: 
+]]>
+	</content>
+</snippet>

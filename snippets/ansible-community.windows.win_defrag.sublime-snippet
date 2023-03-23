@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_defrag</tabTrigger>
+	<description>Consolidate fragmented files on local volumes</description>
+	<content><![CDATA[
+- name: Consolidate fragmented files on local volumes
+  win_defrag:
+      exclude_volumes: 
+      freespace_consolidation: 
+      include_volumes: 
+      parallel: 
+      priority: 
+]]>
+	</content>
+</snippet>

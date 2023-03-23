@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_policy_manage</tabTrigger>
+	<description>Manage BIG-IP ASM policies</description>
+	<content><![CDATA[
+- name: Manage BIG-IP ASM policies
+  bigip_asm_policy_manage:
+      active: 
+      apply: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+      template: 
+]]>
+	</content>
+</snippet>

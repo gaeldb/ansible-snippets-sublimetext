@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_wait_for_process</tabTrigger>
+	<description>Waits for a process to exist or not exist before continuing.</description>
+	<content><![CDATA[
+- name: Waits for a process to exist or not exist before continuing.
+  win_wait_for_process:
+      owner: 
+      pid: 
+      post_wait_delay: 
+      pre_wait_delay: 
+      process_min_count: 
+      process_name_exact: 
+      process_name_pattern: 
+      sleep: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

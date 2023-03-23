@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.subnet</tabTrigger>
+	<description>Manages subnets on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages subnets on the cloudscale.ch IaaS service
+  subnet:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      cidr: 
+      dns_servers: 
+      gateway_address: 
+      network: 
+      reset: 
+      state: 
+      tags: 
+      uuid: 
+]]>
+	</content>
+</snippet>

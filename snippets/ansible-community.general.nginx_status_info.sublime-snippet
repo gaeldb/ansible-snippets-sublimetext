@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nginx_status_info</tabTrigger>
+	<description>Retrieve information on nginx status</description>
+	<content><![CDATA[
+- name: Retrieve information on nginx status
+  nginx_status_info:
+      timeout: 
+      url: 
+]]>
+	</content>
+</snippet>

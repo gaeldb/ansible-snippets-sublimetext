@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_subca</tabTrigger>
+	<description>Manage FreeIPA Lightweight Sub Certificate Authorities</description>
+	<content><![CDATA[
+- name: Manage FreeIPA Lightweight Sub Certificate Authorities
+  ipa_subca:
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      state: 
+      subca_desc: 
+      subca_name: 
+      subca_subject: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

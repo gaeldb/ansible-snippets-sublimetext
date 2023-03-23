@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ssl_ocsp</tabTrigger>
+	<description>Manage OCSP configurations on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage OCSP configurations on BIG-IP
+  bigip_ssl_ocsp:
+      cache_error_timeout: 
+      cache_timeout: 
+      certificate: 
+      clock_skew: 
+      connection_timeout: 
+      connections_limit: 
+      dns_resolver: 
+      hash_algorithm: 
+      key: 
+      name: 
+      partition: 
+      passphrase: 
+      provider: 
+      proxy_server_pool: 
+      responder_url: 
+      route_domain: 
+      state: 
+      status_age: 
+      strict_responder_checking: 
+      trusted_responders: 
+      update_password: 
+]]>
+	</content>
+</snippet>

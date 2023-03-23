@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.idrac_redfish_config</tabTrigger>
+	<description>Manages servers through iDRAC using Dell Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages servers through iDRAC using Dell Redfish APIs
+  idrac_redfish_config:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      manager_attributes: 
+      password: 
+      resource_id: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

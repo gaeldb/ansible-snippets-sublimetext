@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_proxy_drive_firmware_upload</tabTrigger>
+	<description>NetApp E-Series manage proxy drive firmware files</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage proxy drive firmware files
+  na_santricity_proxy_drive_firmware_upload:
+      api_password: 
+      api_url: 
+      api_username: 
+      firmware: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

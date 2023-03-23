@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.wafv2_rule_group</tabTrigger>
+	<description>wafv2_web_acl</description>
+	<content><![CDATA[
+- name: wafv2_web_acl
+  wafv2_rule_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      capacity: 
+      cloudwatch_metrics: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      metric_name: 
+      name: 
+      profile: 
+      purge_rules: 
+      purge_tags: 
+      region: 
+      rules: 
+      sampled_requests: 
+      scope: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

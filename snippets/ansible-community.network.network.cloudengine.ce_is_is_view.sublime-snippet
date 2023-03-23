@@ -1,0 +1,62 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_is_is_view</tabTrigger>
+	<description>Manages isis view configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages isis view configuration on HUAWEI CloudEngine devices.
+  ce_is_is_view:
+      aclnum_or_name: 
+      allow_filter: 
+      allow_up_down: 
+      autocostenable: 
+      autocostenablecompatible: 
+      avoid_learning: 
+      bfd_min_rx: 
+      bfd_min_tx: 
+      bfd_multiplier_num: 
+      cost: 
+      cost_type: 
+      coststyle: 
+      defaultmode: 
+      description: 
+      enablelevel1tolevel2: 
+      export_aclnumorname: 
+      export_ipprefix: 
+      export_policytype: 
+      export_processid: 
+      export_protocol: 
+      export_routepolicyname: 
+      import_aclnumorname: 
+      import_cost: 
+      import_ipprefix: 
+      import_route_policy: 
+      import_routepolicy_name: 
+      import_routepolicyname: 
+      import_tag: 
+      impotr_leveltype: 
+      inheritcost: 
+      instance_id: 
+      ip_address: 
+      ip_prefix_name: 
+      islevel: 
+      level_type: 
+      max_load: 
+      mode_routepolicyname: 
+      mode_tag: 
+      netentity: 
+      penetration_direct: 
+      permitibgp: 
+      preference_value: 
+      processid: 
+      protocol: 
+      relaxspfLimit: 
+      route_policy_name: 
+      state: 
+      stdbandwidth: 
+      stdlevel1cost: 
+      stdlevel2cost: 
+      tag: 
+      weight: 
+]]>
+	</content>
+</snippet>

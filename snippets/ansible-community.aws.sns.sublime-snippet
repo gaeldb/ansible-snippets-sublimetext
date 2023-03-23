@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sns</tabTrigger>
+	<description>Send Amazon Simple Notification Service messages</description>
+	<content><![CDATA[
+- name: Send Amazon Simple Notification Service messages
+  sns:
+      access_key: 
+      application: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      email: 
+      email_json: 
+      endpoint_url: 
+      http: 
+      https: 
+      lambda: 
+      message_attributes: 
+      message_structure: 
+      msg: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      sms: 
+      sqs: 
+      subject: 
+      topic: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

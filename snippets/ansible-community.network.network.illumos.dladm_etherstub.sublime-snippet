@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.dladm_etherstub</tabTrigger>
+	<description>Manage etherstubs on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage etherstubs on Solaris/illumos systems.
+  dladm_etherstub:
+      name: 
+      state: 
+      temporary: 
+]]>
+	</content>
+</snippet>

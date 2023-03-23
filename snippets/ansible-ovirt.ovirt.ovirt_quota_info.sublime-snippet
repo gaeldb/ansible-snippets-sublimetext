@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_quota_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV quotas</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV quotas
+  ovirt_quota_info:
+      auth: 
+      data_center: 
+      fetch_nested: 
+      name: 
+      nested_attributes: 
+]]>
+	</content>
+</snippet>

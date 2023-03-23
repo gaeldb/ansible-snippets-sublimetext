@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elb_network_lb</tabTrigger>
+	<description>Manage a Network Load Balancer</description>
+	<content><![CDATA[
+- name: Manage a Network Load Balancer
+  elb_network_lb:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cross_zone_load_balancing: 
+      debug_botocore_endpoint_logs: 
+      deletion_protection: 
+      endpoint_url: 
+      ip_address_type: 
+      listeners: 
+      name: 
+      profile: 
+      purge_listeners: 
+      purge_tags: 
+      region: 
+      scheme: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnet_mappings: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

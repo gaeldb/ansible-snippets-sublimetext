@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_nacl</tabTrigger>
+	<description>create and delete Network ACLs</description>
+	<content><![CDATA[
+- name: create and delete Network ACLs
+  ec2_vpc_nacl:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      egress: 
+      endpoint_url: 
+      ingress: 
+      nacl_id: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_volume_attachment</tabTrigger>
+	<description>Attach/detach a volume to a device in the Packet host</description>
+	<content><![CDATA[
+- name: Attach/detach a volume to a device in the Packet host
+  packet_volume_attachment:
+      auth_token: 
+      device: 
+      project_id: 
+      state: 
+      volume: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_linkagg</tabTrigger>
+	<description>Manage link aggregation groups on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage link aggregation groups on Ruckus ICX 7000 series switches
+  icx_linkagg:
+      aggregate: 
+      check_running_config: 
+      group: 
+      members: 
+      mode: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

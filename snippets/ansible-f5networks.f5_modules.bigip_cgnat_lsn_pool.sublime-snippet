@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_cgnat_lsn_pool</tabTrigger>
+	<description>Manage CGNAT LSN Pools</description>
+	<content><![CDATA[
+- name: Manage CGNAT LSN Pools
+  bigip_cgnat_lsn_pool:
+      backup_members: 
+      client_conn_limit: 
+      description: 
+      egress_interfaces: 
+      egress_intf_enabled: 
+      harpin_mode: 
+      icmp_echo: 
+      inbound_connections: 
+      log_profile: 
+      log_publisher: 
+      members: 
+      mode: 
+      name: 
+      partition: 
+      pba_block_idle_timeout: 
+      pba_block_lifetime: 
+      pba_block_size: 
+      pba_client_block_limit: 
+      pba_zombie_timeout: 
+      persistence_mode: 
+      persistence_timeout: 
+      port_range_high: 
+      port_range_low: 
+      provider: 
+      route_advertisement: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ldap_attrs</tabTrigger>
+	<description>Add or remove multiple LDAP attribute values</description>
+	<content><![CDATA[
+- name: Add or remove multiple LDAP attribute values
+  ldap_attrs:
+      attributes: 
+      bind_dn: 
+      bind_pw: 
+      dn: 
+      ordered: 
+      referrals_chasing: 
+      sasl_class: 
+      server_uri: 
+      start_tls: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

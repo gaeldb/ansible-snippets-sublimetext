@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.redshift_cross_region_snapshots</tabTrigger>
+	<description>Manage Redshift Cross Region Snapshots</description>
+	<content><![CDATA[
+- name: Manage Redshift Cross Region Snapshots
+  redshift_cross_region_snapshots:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster_name: 
+      debug_botocore_endpoint_logs: 
+      destination_region: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      snapshot_copy_grant: 
+      snapshot_retention_period: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

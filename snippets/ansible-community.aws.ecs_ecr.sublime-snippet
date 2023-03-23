@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_ecr</tabTrigger>
+	<description>Manage Elastic Container Registry repositories</description>
+	<content><![CDATA[
+- name: Manage Elastic Container Registry repositories
+  ecs_ecr:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      force_absent: 
+      force_set_policy: 
+      image_tag_mutability: 
+      lifecycle_policy: 
+      name: 
+      policy: 
+      profile: 
+      purge_lifecycle_policy: 
+      purge_policy: 
+      region: 
+      registry_id: 
+      scan_on_push: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

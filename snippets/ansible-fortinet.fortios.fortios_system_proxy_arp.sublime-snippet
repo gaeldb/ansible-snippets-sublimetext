@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_proxy_arp</tabTrigger>
+	<description>Configure proxy-ARP in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure proxy-ARP in Fortinet's FortiOS and FortiGate.
+  fortios_system_proxy_arp:
+      access_token: 
+      state: 
+      system_proxy_arp: 
+      vdom: 
+]]>
+	</content>
+</snippet>

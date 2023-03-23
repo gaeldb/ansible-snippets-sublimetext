@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_user</tabTrigger>
+	<description>Manage the aggregate of local users on Cisco IOS XR device</description>
+	<content><![CDATA[
+- name: Manage the aggregate of local users on Cisco IOS XR device
+  iosxr_user:
+      admin: 
+      aggregate: 
+      configured_password: 
+      group: 
+      groups: 
+      name: 
+      provider: 
+      public_key: 
+      public_key_contents: 
+      purge: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

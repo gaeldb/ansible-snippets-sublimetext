@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.realm</tabTrigger>
+	<description>Manage Realms</description>
+	<content><![CDATA[
+- name: Manage Realms
+  realm:
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      realm_proxy: 
+      realm_type: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

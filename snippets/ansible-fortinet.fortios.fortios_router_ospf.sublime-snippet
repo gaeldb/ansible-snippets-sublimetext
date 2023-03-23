@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_ospf</tabTrigger>
+	<description>Configure OSPF in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure OSPF in Fortinet's FortiOS and FortiGate.
+  fortios_router_ospf:
+      access_token: 
+      router_ospf: 
+      vdom: 
+]]>
+	</content>
+</snippet>

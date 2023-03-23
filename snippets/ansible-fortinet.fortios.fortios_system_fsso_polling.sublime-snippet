@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_fsso_polling</tabTrigger>
+	<description>Configure Fortinet Single Sign On (FSSO) server in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Fortinet Single Sign On (FSSO) server in Fortinet's FortiOS and FortiGate.
+  fortios_system_fsso_polling:
+      access_token: 
+      system_fsso_polling: 
+      vdom: 
+]]>
+	</content>
+</snippet>

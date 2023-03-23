@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sns_topic</tabTrigger>
+	<description>Manages AWS SNS topics and subscriptions</description>
+	<content><![CDATA[
+- name: Manages AWS SNS topics and subscriptions
+  sns_topic:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delivery_policy: 
+      display_name: 
+      endpoint_url: 
+      name: 
+      policy: 
+      profile: 
+      purge_subscriptions: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      subscriptions: 
+      topic_type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

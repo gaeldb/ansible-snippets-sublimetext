@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_firmware_upgrade</tabTrigger>
+	<description>NetApp ONTAP firmware upgrade for SP, shelf, ACP, and disk.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP firmware upgrade for SP, shelf, ACP, and disk.
+  na_ontap_firmware_upgrade:
+      cert_filepath: 
+      clear_logs: 
+      disk_fw: 
+      fail_on_502_error: 
+      feature_flags: 
+      firmware_type: 
+      force_disruptive_update: 
+      hostname: 
+      http_port: 
+      https: 
+      install_baseline_image: 
+      key_filepath: 
+      node: 
+      ontapi: 
+      package: 
+      package_url: 
+      password: 
+      reboot_sp: 
+      rename_package: 
+      replace_package: 
+      shelf_module_fw: 
+      state: 
+      update_type: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

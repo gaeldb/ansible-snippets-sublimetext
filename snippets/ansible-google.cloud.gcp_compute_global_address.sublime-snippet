@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_global_address</tabTrigger>
+	<description>Creates a GCP GlobalAddress</description>
+	<content><![CDATA[
+- name: Creates a GCP GlobalAddress
+  gcp_compute_global_address:
+      address: 
+      address_type: 
+      auth_kind: 
+      description: 
+      env_type: 
+      ip_version: 
+      name: 
+      network: 
+      prefix_length: 
+      project: 
+      purpose: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

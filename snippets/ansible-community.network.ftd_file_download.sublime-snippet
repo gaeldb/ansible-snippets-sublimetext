@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ftd_file_download</tabTrigger>
+	<description>Downloads files from Cisco FTD devices over HTTP(S)</description>
+	<content><![CDATA[
+- name: Downloads files from Cisco FTD devices over HTTP(S)
+  ftd_file_download:
+      destination: 
+      operation: 
+      path_params: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>assert</tabTrigger>
+	<description>Asserts given expressions are true</description>
+	<content><![CDATA[
+- name: Asserts given expressions are true
+  assert:
+      fail_msg: 
+      quiet: 
+      success_msg: 
+      that: 
+]]>
+	</content>
+</snippet>

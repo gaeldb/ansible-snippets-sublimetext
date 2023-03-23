@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.acme_account_info</tabTrigger>
+	<description>Retrieves information on ACME accounts</description>
+	<content><![CDATA[
+- name: Retrieves information on ACME accounts
+  acme_account_info:
+      account_key_content: 
+      account_key_passphrase: 
+      account_key_src: 
+      account_uri: 
+      acme_directory: 
+      acme_version: 
+      request_timeout: 
+      retrieve_orders: 
+      select_crypto_backend: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

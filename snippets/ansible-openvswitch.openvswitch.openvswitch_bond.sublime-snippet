@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openvswitch.openvswitch.openvswitch_bond</tabTrigger>
+	<description>Manage Open vSwitch bonds</description>
+	<content><![CDATA[
+- name: Manage Open vSwitch bonds
+  openvswitch_bond:
+      bond_downdelay: 
+      bond_mode: 
+      bond_updelay: 
+      bridge: 
+      external_ids: 
+      interfaces: 
+      lacp: 
+      other_config: 
+      port: 
+      set: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

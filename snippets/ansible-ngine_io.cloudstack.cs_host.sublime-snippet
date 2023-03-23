@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_host</tabTrigger>
+	<description>Manages hosts on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages hosts on Apache CloudStack based clouds.
+  cs_host:
+      allocation_state: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cluster: 
+      host_tags: 
+      hypervisor: 
+      name: 
+      password: 
+      pod: 
+      state: 
+      url: 
+      username: 
+      zone: 
+]]>
+	</content>
+</snippet>

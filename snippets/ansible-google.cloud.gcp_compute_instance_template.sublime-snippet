@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_instance_template</tabTrigger>
+	<description>Creates a GCP InstanceTemplate</description>
+	<content><![CDATA[
+- name: Creates a GCP InstanceTemplate
+  gcp_compute_instance_template:
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      project: 
+      properties: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

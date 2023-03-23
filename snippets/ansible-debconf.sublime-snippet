@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>debconf</tabTrigger>
+	<description>Configure a .deb package</description>
+	<content><![CDATA[
+- name: Configure a .deb package
+  debconf:
+      name: 
+      question: 
+      unseen: 
+      value: 
+      vtype: 
+]]>
+	</content>
+</snippet>

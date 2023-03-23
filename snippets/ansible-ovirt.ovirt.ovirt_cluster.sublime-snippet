@@ -1,0 +1,61 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_cluster</tabTrigger>
+	<description>Module to manage clusters in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage clusters in oVirt/RHV
+  ovirt_cluster:
+      auth: 
+      ballooning: 
+      comment: 
+      compatibility_version: 
+      cpu_arch: 
+      cpu_type: 
+      data_center: 
+      description: 
+      external_network_providers: 
+      fence_connectivity_threshold: 
+      fence_enabled: 
+      fence_skip_if_connectivity_broken: 
+      fence_skip_if_gluster_bricks_up: 
+      fence_skip_if_gluster_quorum_not_met: 
+      fence_skip_if_sd_active: 
+      fetch_nested: 
+      firewall_type: 
+      gluster: 
+      gluster_tuned_profile: 
+      ha_reservation: 
+      host_reason: 
+      id: 
+      ksm: 
+      ksm_numa: 
+      mac_pool: 
+      memory_policy: 
+      migration_auto_converge: 
+      migration_bandwidth: 
+      migration_bandwidth_limit: 
+      migration_compressed: 
+      migration_encrypted: 
+      migration_policy: 
+      name: 
+      nested_attributes: 
+      network: 
+      poll_interval: 
+      resilience_policy: 
+      rng_sources: 
+      scheduling_policy: 
+      scheduling_policy_properties: 
+      serial_policy: 
+      serial_policy_value: 
+      spice_proxy: 
+      state: 
+      switch_type: 
+      threads_as_cores: 
+      timeout: 
+      trusted_service: 
+      virt: 
+      vm_reason: 
+      wait: 
+]]>
+	</content>
+</snippet>

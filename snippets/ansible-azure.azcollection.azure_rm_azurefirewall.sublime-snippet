@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_azurefirewall</tabTrigger>
+	<description>Manage Azure Firewall instance</description>
+	<content><![CDATA[
+- name: Manage Azure Firewall instance
+  azure_rm_azurefirewall:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      application_rule_collections: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      ip_configurations: 
+      location: 
+      name: 
+      nat_rule_collections: 
+      network_rule_collections: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

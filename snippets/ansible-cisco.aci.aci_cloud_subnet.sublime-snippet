@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_cloud_subnet</tabTrigger>
+	<description>Manage Cloud Subnet (cloud:Subnet)</description>
+	<content><![CDATA[
+- name: Manage Cloud Subnet (cloud:Subnet)
+  aci_cloud_subnet:
+      address: 
+      annotation: 
+      availability_zone: 
+      certificate_name: 
+      cidr: 
+      cloud_context_profile: 
+      description: 
+      host: 
+      name: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vnet_gateway: 
+]]>
+	</content>
+</snippet>

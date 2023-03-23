@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_keypair</tabTrigger>
+	<description>Create a keypair for use with Rackspace Cloud Servers</description>
+	<content><![CDATA[
+- name: Create a keypair for use with Rackspace Cloud Servers
+  rax_keypair:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      identity_type: 
+      name: 
+      public_key: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

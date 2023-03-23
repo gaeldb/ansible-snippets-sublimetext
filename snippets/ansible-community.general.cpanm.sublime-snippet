@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cpanm</tabTrigger>
+	<description>Manages Perl library dependencies</description>
+	<content><![CDATA[
+- name: Manages Perl library dependencies
+  cpanm:
+      executable: 
+      from_path: 
+      installdeps: 
+      locallib: 
+      mirror: 
+      mirror_only: 
+      mode: 
+      name: 
+      name_check: 
+      notest: 
+      version: 
+]]>
+	</content>
+</snippet>

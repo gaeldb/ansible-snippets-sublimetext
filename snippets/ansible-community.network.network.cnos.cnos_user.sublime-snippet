@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_user</tabTrigger>
+	<description>Manage the collection of local users on Lenovo CNOS devices</description>
+	<content><![CDATA[
+- name: Manage the collection of local users on Lenovo CNOS devices
+  cnos_user:
+      aggregate: 
+      configured_password: 
+      name: 
+      purge: 
+      role: 
+      sshkey: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

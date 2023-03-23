@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_securitygroup_rule</tabTrigger>
+	<description>Manages security group rules on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages security group rules on Apache CloudStack based clouds.
+  cs_securitygroup_rule:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cidr: 
+      end_port: 
+      icmp_code: 
+      icmp_type: 
+      poll_async: 
+      project: 
+      protocol: 
+      security_group: 
+      start_port: 
+      state: 
+      type: 
+      user_security_group: 
+]]>
+	</content>
+</snippet>

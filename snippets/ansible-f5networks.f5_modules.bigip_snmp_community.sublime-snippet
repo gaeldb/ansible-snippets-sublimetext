@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_snmp_community</tabTrigger>
+	<description>Manages SNMP communities on a BIG-IP.</description>
+	<content><![CDATA[
+- name: Manages SNMP communities on a BIG-IP.
+  bigip_snmp_community:
+      access: 
+      community: 
+      ip_version: 
+      name: 
+      oid: 
+      partition: 
+      port: 
+      provider: 
+      snmp_auth_password: 
+      snmp_auth_protocol: 
+      snmp_privacy_password: 
+      snmp_privacy_protocol: 
+      snmp_username: 
+      source: 
+      state: 
+      update_password: 
+      version: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.newrelic_deployment</tabTrigger>
+	<description>Notify New Relic about app deployments</description>
+	<content><![CDATA[
+- name: Notify New Relic about app deployments
+  newrelic_deployment:
+      app_name: 
+      application_id: 
+      appname: 
+      changelog: 
+      description: 
+      environment: 
+      revision: 
+      token: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

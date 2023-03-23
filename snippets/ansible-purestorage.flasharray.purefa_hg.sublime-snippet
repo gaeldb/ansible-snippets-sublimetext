@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_hg</tabTrigger>
+	<description>Manage hostgroups on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage hostgroups on Pure Storage FlashArrays
+  purefa_hg:
+      api_token: 
+      fa_url: 
+      host: 
+      hostgroup: 
+      lun: 
+      state: 
+      volume: 
+]]>
+	</content>
+</snippet>

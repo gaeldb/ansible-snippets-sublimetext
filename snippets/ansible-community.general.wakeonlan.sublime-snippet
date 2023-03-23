@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.wakeonlan</tabTrigger>
+	<description>Send a magic Wake-on-LAN (WoL) broadcast packet</description>
+	<content><![CDATA[
+- name: Send a magic Wake-on-LAN (WoL) broadcast packet
+  wakeonlan:
+      broadcast: 
+      mac: 
+      port: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_syslogd_filter</tabTrigger>
+	<description>Filters for remote system server in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Filters for remote system server in Fortinet's FortiOS and FortiGate.
+  fortios_log_syslogd_filter:
+      access_token: 
+      log_syslogd_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

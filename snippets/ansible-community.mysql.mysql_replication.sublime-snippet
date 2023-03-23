@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mysql.mysql_replication</tabTrigger>
+	<description>Manage MySQL replication</description>
+	<content><![CDATA[
+- name: Manage MySQL replication
+  mysql_replication:
+      ca_cert: 
+      channel: 
+      check_hostname: 
+      client_cert: 
+      client_key: 
+      config_file: 
+      connect_timeout: 
+      connection_name: 
+      fail_on_error: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      master_auto_position: 
+      master_connect_retry: 
+      master_delay: 
+      master_host: 
+      master_log_file: 
+      master_log_pos: 
+      master_password: 
+      master_port: 
+      master_ssl: 
+      master_ssl_ca: 
+      master_ssl_capath: 
+      master_ssl_cert: 
+      master_ssl_cipher: 
+      master_ssl_key: 
+      master_use_gtid: 
+      master_user: 
+      mode: 
+      relay_log_file: 
+      relay_log_pos: 
+]]>
+	</content>
+</snippet>

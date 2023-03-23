@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.snmp_facts</tabTrigger>
+	<description>Retrieve facts for a device using SNMP</description>
+	<content><![CDATA[
+- name: Retrieve facts for a device using SNMP
+  snmp_facts:
+      authkey: 
+      community: 
+      host: 
+      integrity: 
+      level: 
+      privacy: 
+      privkey: 
+      retries: 
+      timeout: 
+      username: 
+      version: 
+]]>
+	</content>
+</snippet>

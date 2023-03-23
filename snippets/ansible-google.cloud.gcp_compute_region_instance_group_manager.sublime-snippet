@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_instance_group_manager</tabTrigger>
+	<description>Creates a GCP RegionInstanceGroupManager</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionInstanceGroupManager
+  gcp_compute_region_instance_group_manager:
+      auth_kind: 
+      auto_healing_policies: 
+      base_instance_name: 
+      description: 
+      env_type: 
+      instance_template: 
+      name: 
+      named_ports: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      target_pools: 
+      target_size: 
+]]>
+	</content>
+</snippet>

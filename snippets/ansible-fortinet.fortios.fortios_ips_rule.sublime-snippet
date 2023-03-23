@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_ips_rule</tabTrigger>
+	<description>Configure IPS rules in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS rules in Fortinet's FortiOS and FortiGate.
+  fortios_ips_rule:
+      access_token: 
+      ips_rule: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

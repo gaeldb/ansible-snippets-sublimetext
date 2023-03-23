@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sts_session_token</tabTrigger>
+	<description>Obtain a session token from the AWS Security Token Service</description>
+	<content><![CDATA[
+- name: Obtain a session token from the AWS Security Token Service
+  sts_session_token:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      duration_seconds: 
+      endpoint_url: 
+      mfa_serial_number: 
+      mfa_token: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

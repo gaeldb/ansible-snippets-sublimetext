@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_overlay_global</tabTrigger>
+	<description>Configures anycast gateway MAC of the switch.</description>
+	<content><![CDATA[
+- name: Configures anycast gateway MAC of the switch.
+  nxos_overlay_global:
+      anycast_gateway_mac: 
+      provider: 
+]]>
+	</content>
+</snippet>

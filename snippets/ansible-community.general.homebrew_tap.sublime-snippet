@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.homebrew_tap</tabTrigger>
+	<description>Tap a Homebrew repository</description>
+	<content><![CDATA[
+- name: Tap a Homebrew repository
+  homebrew_tap:
+      name: 
+      path: 
+      state: 
+      url: 
+]]>
+	</content>
+</snippet>

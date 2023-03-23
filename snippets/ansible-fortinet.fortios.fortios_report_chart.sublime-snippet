@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_report_chart</tabTrigger>
+	<description>Report chart widget configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Report chart widget configuration in Fortinet's FortiOS and FortiGate.
+  fortios_report_chart:
+      access_token: 
+      report_chart: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

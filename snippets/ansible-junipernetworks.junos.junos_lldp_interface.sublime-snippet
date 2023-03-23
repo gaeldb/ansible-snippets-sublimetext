@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_lldp_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage LLDP interfaces configuration on Juniper JUNOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage LLDP interfaces configuration on Juniper JUNOS network devices
+  junos_lldp_interface:
+      active: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_dhcp_lease</tabTrigger>
+	<description>Manage Windows Server DHCP Leases</description>
+	<content><![CDATA[
+- name: Manage Windows Server DHCP Leases
+  win_dhcp_lease:
+      description: 
+      dns_hostname: 
+      dns_regtype: 
+      duration: 
+      ip: 
+      mac: 
+      reservation_name: 
+      scope_id: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

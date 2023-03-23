@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_instance_group_manager</tabTrigger>
+	<description>Creates a GCP InstanceGroupManager</description>
+	<content><![CDATA[
+- name: Creates a GCP InstanceGroupManager
+  gcp_compute_instance_group_manager:
+      auth_kind: 
+      base_instance_name: 
+      description: 
+      env_type: 
+      instance_template: 
+      name: 
+      named_ports: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      target_pools: 
+      target_size: 
+      zone: 
+]]>
+	</content>
+</snippet>

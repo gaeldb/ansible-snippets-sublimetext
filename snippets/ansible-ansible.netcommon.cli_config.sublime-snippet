@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.cli_config</tabTrigger>
+	<description>Push text based configuration to network devices over network_cli</description>
+	<content><![CDATA[
+- name: Push text based configuration to network devices over network_cli
+  cli_config:
+      backup: 
+      backup_options: 
+      commit: 
+      commit_comment: 
+      config: 
+      defaults: 
+      diff_ignore_lines: 
+      diff_match: 
+      diff_replace: 
+      multiline_delimiter: 
+      replace: 
+      rollback: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pam_limits</tabTrigger>
+	<description>Modify Linux PAM limits</description>
+	<content><![CDATA[
+- name: Modify Linux PAM limits
+  pam_limits:
+      backup: 
+      comment: 
+      dest: 
+      domain: 
+      limit_item: 
+      limit_type: 
+      use_max: 
+      use_min: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_certificate_info</tabTrigger>
+	<description>Get information on certificates from a Windows Certificate Store</description>
+	<content><![CDATA[
+- name: Get information on certificates from a Windows Certificate Store
+  win_certificate_info:
+      store_location: 
+      store_name: 
+      thumbprint: 
+]]>
+	</content>
+</snippet>

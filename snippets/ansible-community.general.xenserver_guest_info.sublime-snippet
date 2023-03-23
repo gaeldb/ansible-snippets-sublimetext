@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xenserver_guest_info</tabTrigger>
+	<description>Gathers information for virtual machines running on Citrix Hypervisor/XenServer host or pool</description>
+	<content><![CDATA[
+- name: Gathers information for virtual machines running on Citrix Hypervisor/XenServer host or pool
+  xenserver_guest_info:
+      hostname: 
+      name: 
+      password: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

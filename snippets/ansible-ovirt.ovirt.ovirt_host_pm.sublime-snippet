@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_host_pm</tabTrigger>
+	<description>Module to manage power management of hosts in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage power management of hosts in oVirt/RHV
+  ovirt_host_pm:
+      address: 
+      auth: 
+      encrypt_options: 
+      fetch_nested: 
+      name: 
+      nested_attributes: 
+      options: 
+      order: 
+      password: 
+      poll_interval: 
+      port: 
+      state: 
+      timeout: 
+      type: 
+      username: 
+      wait: 
+]]>
+	</content>
+</snippet>

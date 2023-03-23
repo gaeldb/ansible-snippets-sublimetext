@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_info</tabTrigger>
+	<description>Describe Kubernetes (K8s) objects</description>
+	<content><![CDATA[
+- name: Describe Kubernetes (K8s) objects
+  k8s_info:
+      api_key: 
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      field_selectors: 
+      host: 
+      kind: 
+      kubeconfig: 
+      label_selectors: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_condition: 
+      wait_sleep: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.voss.voss_config</tabTrigger>
+	<description>Manage Extreme VOSS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Extreme VOSS configuration sections
+  voss_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      defaults: 
+      diff_against: 
+      diff_ignore_lines: 
+      intended_config: 
+      lines: 
+      match: 
+      parents: 
+      replace: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

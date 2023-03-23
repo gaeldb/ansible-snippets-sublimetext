@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sefcontext</tabTrigger>
+	<description>Manages SELinux file context mapping definitions</description>
+	<content><![CDATA[
+- name: Manages SELinux file context mapping definitions
+  sefcontext:
+      ftype: 
+      ignore_selinux_state: 
+      reload: 
+      selevel: 
+      setype: 
+      seuser: 
+      state: 
+      target: 
+]]>
+	</content>
+</snippet>

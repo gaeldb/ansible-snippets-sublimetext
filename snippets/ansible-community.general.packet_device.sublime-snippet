@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_device</tabTrigger>
+	<description>Manage a bare metal server in the Packet Host</description>
+	<content><![CDATA[
+- name: Manage a bare metal server in the Packet Host
+  packet_device:
+      always_pxe: 
+      auth_token: 
+      count: 
+      count_offset: 
+      device_ids: 
+      facility: 
+      features: 
+      hostnames: 
+      ipxe_script_url: 
+      locked: 
+      operating_system: 
+      plan: 
+      project_id: 
+      state: 
+      tags: 
+      user_data: 
+      wait_for_public_IPv: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

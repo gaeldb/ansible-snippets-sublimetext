@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_project_access</tabTrigger>
+	<description>Manage OpenStack compute flavors access</description>
+	<content><![CDATA[
+- name: Manage OpenStack compute flavors access
+  project_access:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      region_name: 
+      resource_name: 
+      resource_type: 
+      state: 
+      target_project_id: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

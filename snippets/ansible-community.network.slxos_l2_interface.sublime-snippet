@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.slxos_l2_interface</tabTrigger>
+	<description>Manage Layer-2 interface on Extreme Networks SLX-OS devices.</description>
+	<content><![CDATA[
+- name: Manage Layer-2 interface on Extreme Networks SLX-OS devices.
+  slxos_l2_interface:
+      access_vlan: 
+      aggregate: 
+      mode: 
+      name: 
+      native_vlan: 
+      state: 
+      trunk_allowed_vlans: 
+      trunk_vlans: 
+]]>
+	</content>
+</snippet>

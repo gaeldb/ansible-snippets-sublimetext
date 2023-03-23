@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_ospf</tabTrigger>
+	<description>Manage OSPF protocol on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage OSPF protocol on Mellanox ONYX network devices
+  onyx_ospf:
+      interfaces: 
+      ospf: 
+      router_id: 
+      state: 
+]]>
+	</content>
+</snippet>

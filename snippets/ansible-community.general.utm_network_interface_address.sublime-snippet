@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_network_interface_address</tabTrigger>
+	<description>Create, update or destroy network/interface_address object</description>
+	<content><![CDATA[
+- name: Create, update or destroy network/interface_address object
+  utm_network_interface_address:
+      address: 
+      address6: 
+      comment: 
+      headers: 
+      name: 
+      resolved: 
+      resolved6: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

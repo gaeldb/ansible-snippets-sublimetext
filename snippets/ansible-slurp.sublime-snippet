@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>slurp</tabTrigger>
+	<description>Slurps a file from remote nodes</description>
+	<content><![CDATA[
+- name: Slurps a file from remote nodes
+  slurp:
+      src: 
+]]>
+	</content>
+</snippet>

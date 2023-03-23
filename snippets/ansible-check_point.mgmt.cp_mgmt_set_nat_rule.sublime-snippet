@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_set_nat_rule</tabTrigger>
+	<description>Edit existing object using object name or uid.</description>
+	<content><![CDATA[
+- name: Edit existing object using object name or uid.
+  cp_mgmt_set_nat_rule:
+      comments: 
+      details_level: 
+      enabled: 
+      ignore_errors: 
+      ignore_warnings: 
+      install_on: 
+      method: 
+      new_position: 
+      original_destination: 
+      original_service: 
+      original_source: 
+      package: 
+      rule_number: 
+      translated_destination: 
+      translated_service: 
+      translated_source: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

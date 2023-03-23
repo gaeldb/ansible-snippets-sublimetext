@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_ripng</tabTrigger>
+	<description>Configure RIPng in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure RIPng in Fortinet's FortiOS and FortiGate.
+  fortios_router_ripng:
+      access_token: 
+      router_ripng: 
+      vdom: 
+]]>
+	</content>
+</snippet>

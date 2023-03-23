@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_lacp_interfaces</tabTrigger>
+	<description>LACP interfaces resource module</description>
+	<content><![CDATA[
+- name: LACP interfaces resource module
+  iosxr_lacp_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

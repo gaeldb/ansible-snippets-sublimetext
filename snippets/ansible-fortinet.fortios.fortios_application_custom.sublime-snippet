@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_application_custom</tabTrigger>
+	<description>Configure custom application signatures in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure custom application signatures in Fortinet's FortiOS and FortiGate.
+  fortios_application_custom:
+      access_token: 
+      application_custom: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

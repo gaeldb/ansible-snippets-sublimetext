@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_linkagg</tabTrigger>
+	<description>Manage link aggregation groups on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage link aggregation groups on Mellanox ONYX network devices
+  onyx_linkagg:
+      aggregate: 
+      members: 
+      mode: 
+      name: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_instance_nic</tabTrigger>
+	<description>Manages NICs of an instance on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages NICs of an instance on Apache CloudStack based clouds.
+  cs_instance_nic:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      ip_address: 
+      network: 
+      poll_async: 
+      project: 
+      state: 
+      vm: 
+      vpc: 
+      zone: 
+]]>
+	</content>
+</snippet>

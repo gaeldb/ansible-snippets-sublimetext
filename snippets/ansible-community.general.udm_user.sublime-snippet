@@ -1,0 +1,59 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.udm_user</tabTrigger>
+	<description>Manage posix users on a univention corporate server</description>
+	<content><![CDATA[
+- name: Manage posix users on a univention corporate server
+  udm_user:
+      birthday: 
+      city: 
+      country: 
+      department_number: 
+      description: 
+      display_name: 
+      email: 
+      employee_number: 
+      employee_type: 
+      firstname: 
+      gecos: 
+      groups: 
+      home_share: 
+      home_share_path: 
+      home_telephone_number: 
+      homedrive: 
+      lastname: 
+      mail_alternative_address: 
+      mail_home_server: 
+      mail_primary_address: 
+      mobile_telephone_number: 
+      organisation: 
+      ou: 
+      overridePWHistory: 
+      overridePWLength: 
+      pager_telephonenumber: 
+      password: 
+      phone: 
+      position: 
+      postcode: 
+      primary_group: 
+      profilepath: 
+      pwd_change_next_login: 
+      room_number: 
+      samba_privileges: 
+      samba_user_workstations: 
+      sambahome: 
+      scriptpath: 
+      secretary: 
+      serviceprovider: 
+      shell: 
+      state: 
+      street: 
+      subpath: 
+      title: 
+      unixhome: 
+      update_password: 
+      userexpiry: 
+      username: 
+]]>
+	</content>
+</snippet>

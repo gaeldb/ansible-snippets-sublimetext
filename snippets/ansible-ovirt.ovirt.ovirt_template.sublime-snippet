@@ -1,0 +1,53 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_template</tabTrigger>
+	<description>Module to manage virtual machine templates in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage virtual machine templates in oVirt/RHV
+  ovirt_template:
+      allow_partial_import: 
+      auth: 
+      ballooning_enabled: 
+      clone_name: 
+      clone_permissions: 
+      cloud_init: 
+      cloud_init_nics: 
+      cluster: 
+      cluster_mappings: 
+      cpu_profile: 
+      description: 
+      domain_mappings: 
+      exclusive: 
+      export_domain: 
+      fetch_nested: 
+      id: 
+      image_disk: 
+      image_provider: 
+      io_threads: 
+      memory: 
+      memory_guaranteed: 
+      memory_max: 
+      name: 
+      nested_attributes: 
+      nics: 
+      operating_system: 
+      poll_interval: 
+      role_mappings: 
+      seal: 
+      smartcard_enabled: 
+      soundcard_enabled: 
+      sso: 
+      state: 
+      storage_domain: 
+      sysprep: 
+      template_image_disk_name: 
+      timeout: 
+      timezone: 
+      usb_support: 
+      version: 
+      vm: 
+      vnic_profile_mappings: 
+      wait: 
+]]>
+	</content>
+</snippet>

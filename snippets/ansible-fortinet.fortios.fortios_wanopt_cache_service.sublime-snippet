@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_cache_service</tabTrigger>
+	<description>Designate cache-service for wan-optimization and webcache in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Designate cache-service for wan-optimization and webcache in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_cache_service:
+      access_token: 
+      vdom: 
+      wanopt_cache_service: 
+]]>
+	</content>
+</snippet>

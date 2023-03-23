@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_vpc_private_ip</tabTrigger>
+	<description>Creates a resource of Vpc/PrivateIP in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Vpc/PrivateIP in Huawei Cloud
+  hwc_vpc_private_ip:
+      domain: 
+      id: 
+      identity_endpoint: 
+      ip_address: 
+      password: 
+      project: 
+      region: 
+      state: 
+      subnet_id: 
+      user: 
+]]>
+	</content>
+</snippet>

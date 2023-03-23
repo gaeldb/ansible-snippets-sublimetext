@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_is_is_instance</tabTrigger>
+	<description>Manages isis process id configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages isis process id configuration on HUAWEI CloudEngine devices.
+  ce_is_is_instance:
+      instance_id: 
+      state: 
+      vpn_name: 
+]]>
+	</content>
+</snippet>

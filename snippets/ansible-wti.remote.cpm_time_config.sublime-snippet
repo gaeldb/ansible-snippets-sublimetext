@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_time_config</tabTrigger>
+	<description>Set Time/Date parameters in WTI OOB and PDU devices.</description>
+	<content><![CDATA[
+- name: Set Time/Date parameters in WTI OOB and PDU devices.
+  cpm_time_config:
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      date: 
+      ipv4address: 
+      ipv6address: 
+      ntpenable: 
+      time: 
+      timeout: 
+      timezone: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_environment</tabTrigger>
+	<description>Modify environment variables on windows hosts</description>
+	<content><![CDATA[
+- name: Modify environment variables on windows hosts
+  win_environment:
+      level: 
+      name: 
+      state: 
+      value: 
+      variables: 
+]]>
+	</content>
+</snippet>

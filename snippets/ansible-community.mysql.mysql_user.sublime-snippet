@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mysql.mysql_user</tabTrigger>
+	<description>Adds or removes a user from a MySQL database</description>
+	<content><![CDATA[
+- name: Adds or removes a user from a MySQL database
+  mysql_user:
+      append_privs: 
+      ca_cert: 
+      check_hostname: 
+      check_implicit_admin: 
+      client_cert: 
+      client_key: 
+      config_file: 
+      connect_timeout: 
+      encrypted: 
+      host: 
+      host_all: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      password: 
+      plugin: 
+      plugin_auth_string: 
+      plugin_hash_string: 
+      priv: 
+      resource_limits: 
+      sql_log_bin: 
+      state: 
+      tls_requires: 
+      update_password: 
+]]>
+	</content>
+</snippet>

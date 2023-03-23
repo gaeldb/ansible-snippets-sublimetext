@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.proxysql.proxysql_query_rules</tabTrigger>
+	<description>Modifies query rules using the proxysql admin interface.</description>
+	<content><![CDATA[
+- name: Modifies query rules using the proxysql admin interface.
+  proxysql_query_rules:
+      active: 
+      apply: 
+      cache_ttl: 
+      client_addr: 
+      comment: 
+      config_file: 
+      delay: 
+      destination_hostgroup: 
+      digest: 
+      error_msg: 
+      flagIN: 
+      flagOUT: 
+      force_delete: 
+      load_to_runtime: 
+      log: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      match_digest: 
+      match_pattern: 
+      mirror_flagOUT: 
+      mirror_hostgroup: 
+      negate_match_pattern: 
+      proxy_addr: 
+      proxy_port: 
+      replace_pattern: 
+      retries: 
+      rule_id: 
+      save_to_disk: 
+      schemaname: 
+      state: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

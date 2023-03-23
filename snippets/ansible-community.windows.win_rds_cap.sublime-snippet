@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_rds_cap</tabTrigger>
+	<description>Manage Connection Authorization Policies (CAP) on a Remote Desktop Gateway server</description>
+	<content><![CDATA[
+- name: Manage Connection Authorization Policies (CAP) on a Remote Desktop Gateway server
+  win_rds_cap:
+      allow_only_sdrts_servers: 
+      auth_method: 
+      computer_groups: 
+      idle_timeout: 
+      name: 
+      order: 
+      redirect_clipboard: 
+      redirect_drives: 
+      redirect_pnp: 
+      redirect_printers: 
+      redirect_serial: 
+      session_timeout: 
+      session_timeout_action: 
+      state: 
+      user_groups: 
+]]>
+	</content>
+</snippet>

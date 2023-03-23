@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_query_rules</tabTrigger>
+	<description>PANOS module that allows search for security rules in PANW NGFW devices.</description>
+	<content><![CDATA[
+- name: PANOS module that allows search for security rules in PANW NGFW devices.
+  panos_query_rules:
+      api_key: 
+      application: 
+      destination_ip: 
+      destination_port: 
+      destination_zone: 
+      devicegroup: 
+      ip_address: 
+      password: 
+      protocol: 
+      source_ip: 
+      source_port: 
+      source_zone: 
+      tag_name: 
+      username: 
+]]>
+	</content>
+</snippet>

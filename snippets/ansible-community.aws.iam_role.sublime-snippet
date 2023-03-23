@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.iam_role</tabTrigger>
+	<description>Manage AWS IAM roles</description>
+	<content><![CDATA[
+- name: Manage AWS IAM roles
+  iam_role:
+      access_key: 
+      assume_role_policy_document: 
+      aws_ca_bundle: 
+      aws_config: 
+      boundary: 
+      create_instance_profile: 
+      debug_botocore_endpoint_logs: 
+      delete_instance_profile: 
+      description: 
+      endpoint_url: 
+      managed_policies: 
+      max_session_duration: 
+      name: 
+      path: 
+      profile: 
+      purge_policies: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

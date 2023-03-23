@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_l2_interface</tabTrigger>
+	<description>Manage Layer-2 interface on Lenovo CNOS devices.</description>
+	<content><![CDATA[
+- name: Manage Layer-2 interface on Lenovo CNOS devices.
+  cnos_l2_interface:
+      access_vlan: 
+      aggregate: 
+      mode: 
+      name: 
+      native_vlan: 
+      provider: 
+      state: 
+      trunk_allowed_vlans: 
+      trunk_vlans: 
+]]>
+	</content>
+</snippet>

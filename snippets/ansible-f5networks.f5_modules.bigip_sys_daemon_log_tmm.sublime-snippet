@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_sys_daemon_log_tmm</tabTrigger>
+	<description>Manage BIG-IP tmm daemon log settings</description>
+	<content><![CDATA[
+- name: Manage BIG-IP tmm daemon log settings
+  bigip_sys_daemon_log_tmm:
+      arp_log_level: 
+      http_compression_log_level: 
+      http_log_level: 
+      ip_log_level: 
+      irule_log_level: 
+      layer4_log_level: 
+      net_log_level: 
+      os_log_level: 
+      provider: 
+      pva_log_level: 
+      ssl_log_level: 
+      state: 
+]]>
+	</content>
+</snippet>

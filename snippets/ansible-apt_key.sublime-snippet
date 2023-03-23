@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>apt_key</tabTrigger>
+	<description>Add or remove an apt key</description>
+	<content><![CDATA[
+- name: Add or remove an apt key
+  apt_key:
+      data: 
+      file: 
+      id: 
+      keyring: 
+      keyserver: 
+      state: 
+      url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

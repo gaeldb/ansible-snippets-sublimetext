@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_complete_lifecycle_action</tabTrigger>
+	<description>Completes the lifecycle action of an instance</description>
+	<content><![CDATA[
+- name: Completes the lifecycle action of an instance
+  autoscaling_complete_lifecycle_action:
+      access_key: 
+      asg_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      instance_id: 
+      lifecycle_action_result: 
+      lifecycle_hook_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_pod</tabTrigger>
+	<description>Manages pods on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages pods on Apache CloudStack based clouds.
+  cs_pod:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      end_ip: 
+      gateway: 
+      id: 
+      name: 
+      netmask: 
+      start_ip: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

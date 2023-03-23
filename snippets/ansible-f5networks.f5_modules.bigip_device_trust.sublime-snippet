@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_trust</tabTrigger>
+	<description>Manage the trust relationships between BIG-IPs</description>
+	<content><![CDATA[
+- name: Manage the trust relationships between BIG-IPs
+  bigip_device_trust:
+      peer_hostname: 
+      peer_password: 
+      peer_server: 
+      peer_user: 
+      provider: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

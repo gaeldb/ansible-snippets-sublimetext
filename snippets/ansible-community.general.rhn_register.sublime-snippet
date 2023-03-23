@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rhn_register</tabTrigger>
+	<description>Manage Red Hat Network registration using the `rhnreg_ks' command</description>
+	<content><![CDATA[
+- name: Manage Red Hat Network registration using the `rhnreg_ks' command
+  rhn_register:
+      activationkey: 
+      ca_cert: 
+      channels: 
+      enable_eus: 
+      force: 
+      nopackages: 
+      password: 
+      profilename: 
+      server_url: 
+      state: 
+      systemorgid: 
+      username: 
+]]>
+	</content>
+</snippet>

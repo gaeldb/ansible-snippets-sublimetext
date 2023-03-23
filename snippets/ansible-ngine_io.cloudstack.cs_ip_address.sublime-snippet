@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_ip_address</tabTrigger>
+	<description>Manages public IP address associations on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages public IP address associations on Apache CloudStack based clouds.
+  cs_ip_address:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      ip_address: 
+      network: 
+      poll_async: 
+      project: 
+      state: 
+      tags: 
+      vpc: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_user</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage the aggregate of local users on network device</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage the aggregate of local users on network device
+  net_user:
+      aggregate: 
+      configured_password: 
+      name: 
+      nopassword: 
+      privilege: 
+      purge: 
+      role: 
+      sshkey: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

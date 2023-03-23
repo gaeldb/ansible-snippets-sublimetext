@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.federation_idp</tabTrigger>
+	<description>manage a federation Identity Provider</description>
+	<content><![CDATA[
+- name: manage a federation Identity Provider
+  federation_idp:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      domain_id: 
+      enabled: 
+      interface: 
+      name: 
+      region_name: 
+      remote_ids: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

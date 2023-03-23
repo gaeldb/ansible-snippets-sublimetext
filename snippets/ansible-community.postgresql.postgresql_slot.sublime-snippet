@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_slot</tabTrigger>
+	<description>Add or remove replication slots from a PostgreSQL database</description>
+	<content><![CDATA[
+- name: Add or remove replication slots from a PostgreSQL database
+  postgresql_slot:
+      ca_cert: 
+      db: 
+      immediately_reserve: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      output_plugin: 
+      port: 
+      session_role: 
+      slot_type: 
+      ssl_mode: 
+      state: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>chocolatey.chocolatey.win_chocolatey_config</tabTrigger>
+	<description>Manages Chocolatey config settings</description>
+	<content><![CDATA[
+- name: Manages Chocolatey config settings
+  win_chocolatey_config:
+      name: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

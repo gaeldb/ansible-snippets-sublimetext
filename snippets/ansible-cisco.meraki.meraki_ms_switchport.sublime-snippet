@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ms_switchport</tabTrigger>
+	<description>Manage switchports on a switch in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage switchports on a switch in the Meraki cloud
+  meraki_ms_switchport:
+      access_policy_number: 
+      access_policy_type: 
+      allowed_vlans: 
+      auth_key: 
+      enabled: 
+      host: 
+      internal_error_retry_time: 
+      isolation_enabled: 
+      link_negotiation: 
+      name: 
+      number: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      poe_enabled: 
+      rate_limit_retry_time: 
+      rstp_enabled: 
+      serial: 
+      state: 
+      stp_guard: 
+      tags: 
+      timeout: 
+      type: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      vlan: 
+      voice_vlan: 
+]]>
+	</content>
+</snippet>

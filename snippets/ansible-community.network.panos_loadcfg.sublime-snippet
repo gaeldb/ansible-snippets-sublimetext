@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_loadcfg</tabTrigger>
+	<description>load configuration on PAN-OS device</description>
+	<content><![CDATA[
+- name: load configuration on PAN-OS device
+  panos_loadcfg:
+      commit: 
+      file: 
+      ip_address: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

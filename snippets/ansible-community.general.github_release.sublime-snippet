@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.github_release</tabTrigger>
+	<description>Interact with GitHub Releases</description>
+	<content><![CDATA[
+- name: Interact with GitHub Releases
+  github_release:
+      action: 
+      body: 
+      draft: 
+      name: 
+      password: 
+      prerelease: 
+      repo: 
+      tag: 
+      target: 
+      token: 
+      user: 
+]]>
+	</content>
+</snippet>

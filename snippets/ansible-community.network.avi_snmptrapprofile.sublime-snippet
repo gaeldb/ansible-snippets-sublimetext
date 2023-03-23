@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_snmptrapprofile</tabTrigger>
+	<description>Module for setup of SnmpTrapProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of SnmpTrapProfile Avi RESTful Object
+  avi_snmptrapprofile:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      name: 
+      password: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      trap_servers: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

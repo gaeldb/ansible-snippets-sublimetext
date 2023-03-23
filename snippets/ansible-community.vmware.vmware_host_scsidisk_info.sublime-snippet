@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_scsidisk_info</tabTrigger>
+	<description>Gather information about SCSI disk attached to the given ESXi</description>
+	<content><![CDATA[
+- name: Gather information about SCSI disk attached to the given ESXi
+  vmware_host_scsidisk_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

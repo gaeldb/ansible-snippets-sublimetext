@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_info</tabTrigger>
+	<description>NetApp Element Software Info</description>
+	<content><![CDATA[
+- name: NetApp Element Software Info
+  na_elementsw_info:
+      fail_on_error: 
+      fail_on_key_not_found: 
+      fail_on_record_not_found: 
+      filter: 
+      gather_subsets: 
+      hostname: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

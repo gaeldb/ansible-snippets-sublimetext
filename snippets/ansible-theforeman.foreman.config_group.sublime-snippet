@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.config_group</tabTrigger>
+	<description>Manage (Puppet) Config Groups</description>
+	<content><![CDATA[
+- name: Manage (Puppet) Config Groups
+  config_group:
+      name: 
+      password: 
+      puppetclasses: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

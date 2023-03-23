@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_host</tabTrigger>
+	<description>Manage FreeIPA host</description>
+	<content><![CDATA[
+- name: Manage FreeIPA host
+  ipa_host:
+      description: 
+      force: 
+      fqdn: 
+      ip_address: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      mac_address: 
+      ns_hardware_platform: 
+      ns_host_location: 
+      ns_os_version: 
+      random_password: 
+      state: 
+      update_dns: 
+      user_certificate: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

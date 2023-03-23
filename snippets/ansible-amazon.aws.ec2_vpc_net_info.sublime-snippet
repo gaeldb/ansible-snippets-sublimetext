@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_net_info</tabTrigger>
+	<description>Gather information about ec2 VPCs in AWS</description>
+	<content><![CDATA[
+- name: Gather information about ec2 VPCs in AWS
+  ec2_vpc_net_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filters: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+      vpc_ids: 
+]]>
+	</content>
+</snippet>

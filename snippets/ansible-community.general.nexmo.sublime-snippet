@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nexmo</tabTrigger>
+	<description>Send a SMS via nexmo</description>
+	<content><![CDATA[
+- name: Send a SMS via nexmo
+  nexmo:
+      api_key: 
+      api_secret: 
+      client_cert: 
+      client_key: 
+      dest: 
+      force: 
+      force_basic_auth: 
+      http_agent: 
+      msg: 
+      src: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

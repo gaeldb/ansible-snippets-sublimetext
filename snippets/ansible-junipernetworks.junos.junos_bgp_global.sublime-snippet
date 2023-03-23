@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_bgp_global</tabTrigger>
+	<description>Manages BGP Global configuration on devices running Juniper JUNOS.</description>
+	<content><![CDATA[
+- name: Manages BGP Global configuration on devices running Juniper JUNOS.
+  junos_bgp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

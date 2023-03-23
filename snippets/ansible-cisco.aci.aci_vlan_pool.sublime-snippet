@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_vlan_pool</tabTrigger>
+	<description>Manage VLAN pools (fvns:VlanInstP)</description>
+	<content><![CDATA[
+- name: Manage VLAN pools (fvns:VlanInstP)
+  aci_vlan_pool:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pool: 
+      pool_allocation_mode: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

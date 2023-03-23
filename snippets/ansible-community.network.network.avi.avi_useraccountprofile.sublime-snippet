@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_useraccountprofile</tabTrigger>
+	<description>Module for setup of UserAccountProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of UserAccountProfile Avi RESTful Object
+  avi_useraccountprofile:
+      account_lock_timeout: 
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      credentials_timeout_threshold: 
+      max_concurrent_sessions: 
+      max_login_failure_count: 
+      max_password_history_count: 
+      name: 
+      password: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

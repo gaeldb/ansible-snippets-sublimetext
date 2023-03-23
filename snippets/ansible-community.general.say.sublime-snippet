@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.say</tabTrigger>
+	<description>Makes a computer to speak</description>
+	<content><![CDATA[
+- name: Makes a computer to speak
+  say:
+      msg: 
+      voice: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_rabbitmq_plugin</tabTrigger>
+	<description>Manage RabbitMQ plugins</description>
+	<content><![CDATA[
+- name: Manage RabbitMQ plugins
+  win_rabbitmq_plugin:
+      names: 
+      new_only: 
+      prefix: 
+      state: 
+]]>
+	</content>
+</snippet>

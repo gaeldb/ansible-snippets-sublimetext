@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_is_is_interface</tabTrigger>
+	<description>Manages isis interface configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages isis interface configuration on HUAWEI CloudEngine devices.
+  ce_is_is_interface:
+      bfdblocken: 
+      bfdstaticen: 
+      ifname: 
+      instance_id: 
+      level1cost: 
+      level1dispriority: 
+      level2cost: 
+      level2dispriority: 
+      leveltype: 
+      p2pnegotiationmode: 
+      p2ppeeripignore: 
+      ppposicpcheckenable: 
+      silentcost: 
+      silentenable: 
+      snpacheck: 
+      state: 
+      typep2penable: 
+]]>
+	</content>
+</snippet>

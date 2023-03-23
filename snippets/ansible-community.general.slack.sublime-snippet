@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.slack</tabTrigger>
+	<description>Send Slack notifications</description>
+	<content><![CDATA[
+- name: Send Slack notifications
+  slack:
+      attachments: 
+      blocks: 
+      channel: 
+      color: 
+      domain: 
+      icon_emoji: 
+      icon_url: 
+      link_names: 
+      message_id: 
+      msg: 
+      parse: 
+      prepend_hash: 
+      thread_id: 
+      token: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

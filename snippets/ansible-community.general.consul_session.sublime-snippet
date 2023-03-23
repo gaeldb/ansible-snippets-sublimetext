@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.consul_session</tabTrigger>
+	<description>Manipulate consul sessions</description>
+	<content><![CDATA[
+- name: Manipulate consul sessions
+  consul_session:
+      behavior: 
+      checks: 
+      datacenter: 
+      delay: 
+      host: 
+      id: 
+      name: 
+      node: 
+      port: 
+      scheme: 
+      state: 
+      token: 
+      ttl: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

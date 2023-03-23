@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_persistence_src_addr</tabTrigger>
+	<description>Manage source address persistence profiles</description>
+	<content><![CDATA[
+- name: Manage source address persistence profiles
+  bigip_profile_persistence_src_addr:
+      entry_timeout: 
+      hash_algorithm: 
+      mask: 
+      match_across_pools: 
+      match_across_services: 
+      match_across_virtuals: 
+      mirror: 
+      name: 
+      override_connection_limit: 
+      parent: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

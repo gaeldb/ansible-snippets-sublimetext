@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_firewall_interfaces</tabTrigger>
+	<description>FIREWALL interfaces resource module</description>
+	<content><![CDATA[
+- name: FIREWALL interfaces resource module
+  vyos_firewall_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

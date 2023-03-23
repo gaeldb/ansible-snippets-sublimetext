@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_ntp</tabTrigger>
+	<description>Manage NTP servers on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage NTP servers on a BIG-IP
+  bigip_device_ntp:
+      ntp_servers: 
+      provider: 
+      state: 
+      timezone: 
+]]>
+	</content>
+</snippet>

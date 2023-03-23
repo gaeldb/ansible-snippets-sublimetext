@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.netscaler_ssl_certkey</tabTrigger>
+	<description>Manage ssl certificate keys.</description>
+	<content><![CDATA[
+- name: Manage ssl certificate keys.
+  netscaler_ssl_certkey:
+      cert: 
+      certkey: 
+      expirymonitor: 
+      inform: 
+      key: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      notificationperiod: 
+      nsip: 
+      passplain: 
+      password: 
+      save_config: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_controller</tabTrigger>
+	<description>Manage disk or USB controllers related to virtual machine in given vCenter infrastructure</description>
+	<content><![CDATA[
+- name: Manage disk or USB controllers related to virtual machine in given vCenter infrastructure
+  vmware_guest_controller:
+      controllers: 
+      datacenter: 
+      folder: 
+      gather_disk_controller_facts: 
+      hostname: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      sleep_time: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ucs</tabTrigger>
+	<description>Manage upload, installation, and removal of UCS files</description>
+	<content><![CDATA[
+- name: Manage upload, installation, and removal of UCS files
+  bigip_ucs:
+      force: 
+      include_chassis_level_config: 
+      no_license: 
+      no_platform_check: 
+      passphrase: 
+      provider: 
+      reset_trust: 
+      state: 
+      ucs: 
+]]>
+	</content>
+</snippet>

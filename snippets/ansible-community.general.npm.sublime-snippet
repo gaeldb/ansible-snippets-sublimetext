@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.npm</tabTrigger>
+	<description>Manage node.js packages with npm</description>
+	<content><![CDATA[
+- name: Manage node.js packages with npm
+  npm:
+      ci: 
+      executable: 
+      global: 
+      ignore_scripts: 
+      name: 
+      no_bin_links: 
+      no_optional: 
+      path: 
+      production: 
+      registry: 
+      state: 
+      unsafe_perm: 
+      version: 
+]]>
+	</content>
+</snippet>

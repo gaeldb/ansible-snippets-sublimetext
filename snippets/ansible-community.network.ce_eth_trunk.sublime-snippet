@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_eth_trunk</tabTrigger>
+	<description>Manages Eth-Trunk interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages Eth-Trunk interfaces on HUAWEI CloudEngine switches.
+  ce_eth_trunk:
+      force: 
+      hash_type: 
+      members: 
+      min_links: 
+      mode: 
+      state: 
+      trunk_id: 
+]]>
+	</content>
+</snippet>

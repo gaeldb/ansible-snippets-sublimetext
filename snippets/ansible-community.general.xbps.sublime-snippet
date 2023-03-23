@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xbps</tabTrigger>
+	<description>Manage packages with XBPS</description>
+	<content><![CDATA[
+- name: Manage packages with XBPS
+  xbps:
+      name: 
+      recurse: 
+      state: 
+      update_cache: 
+      upgrade: 
+      upgrade_xbps: 
+]]>
+	</content>
+</snippet>

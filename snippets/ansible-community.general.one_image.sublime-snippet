@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.one_image</tabTrigger>
+	<description>Manages OpenNebula images</description>
+	<content><![CDATA[
+- name: Manages OpenNebula images
+  one_image:
+      api_password: 
+      api_url: 
+      api_username: 
+      enabled: 
+      id: 
+      name: 
+      new_name: 
+      state: 
+]]>
+	</content>
+</snippet>

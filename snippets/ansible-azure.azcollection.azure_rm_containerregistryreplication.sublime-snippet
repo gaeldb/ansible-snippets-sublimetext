@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_containerregistryreplication</tabTrigger>
+	<description>Manage Replication instance.</description>
+	<content><![CDATA[
+- name: Manage Replication instance.
+  azure_rm_containerregistryreplication:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      password: 
+      profile: 
+      registry_name: 
+      replication: 
+      replication_name: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tenant: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_label</tabTrigger>
+	<description>Manage labels</description>
+	<content><![CDATA[
+- name: Manage labels
+  mso_label:
+      host: 
+      label: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      state: 
+      timeout: 
+      type: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

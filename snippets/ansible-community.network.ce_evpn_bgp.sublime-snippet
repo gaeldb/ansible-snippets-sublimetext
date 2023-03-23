@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_evpn_bgp</tabTrigger>
+	<description>Manages BGP EVPN configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages BGP EVPN configuration on HUAWEI CloudEngine switches.
+  ce_evpn_bgp:
+      advertise_l2vpn_evpn: 
+      advertise_router_type: 
+      as_number: 
+      bgp_instance: 
+      peer_address: 
+      peer_enable: 
+      peer_group_name: 
+      state: 
+      vpn_name: 
+]]>
+	</content>
+</snippet>

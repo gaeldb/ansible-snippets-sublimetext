@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.bcf_switch</tabTrigger>
+	<description>Create and remove a bcf switch.</description>
+	<content><![CDATA[
+- name: Create and remove a bcf switch.
+  bcf_switch:
+      access_token: 
+      controller: 
+      fabric_role: 
+      leaf_group: 
+      mac: 
+      name: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

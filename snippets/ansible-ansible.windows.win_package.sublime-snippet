@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_package</tabTrigger>
+	<description>Installs/uninstalls an installable package</description>
+	<content><![CDATA[
+- name: Installs/uninstalls an installable package
+  win_package:
+      arguments: 
+      chdir: 
+      client_cert: 
+      client_cert_password: 
+      creates_path: 
+      creates_service: 
+      creates_version: 
+      expected_return_code: 
+      follow_redirects: 
+      force_basic_auth: 
+      headers: 
+      http_agent: 
+      log_path: 
+      maximum_redirection: 
+      password: 
+      path: 
+      product_id: 
+      provider: 
+      proxy_password: 
+      proxy_url: 
+      proxy_use_default_credential: 
+      proxy_username: 
+      state: 
+      url_method: 
+      url_password: 
+      url_timeout: 
+      url_username: 
+      use_default_credential: 
+      use_proxy: 
+      username: 
+      validate_certs: 
+      wait_for_children: 
+]]>
+	</content>
+</snippet>

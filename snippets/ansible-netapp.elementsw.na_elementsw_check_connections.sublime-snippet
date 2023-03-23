@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_check_connections</tabTrigger>
+	<description>NetApp Element Software Check connectivity to MVIP and SVIP.</description>
+	<content><![CDATA[
+- name: NetApp Element Software Check connectivity to MVIP and SVIP.
+  na_elementsw_check_connections:
+      hostname: 
+      mvip: 
+      password: 
+      skip: 
+      svip: 
+      username: 
+]]>
+	</content>
+</snippet>

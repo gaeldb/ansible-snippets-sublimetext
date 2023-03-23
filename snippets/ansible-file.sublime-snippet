@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>file</tabTrigger>
+	<description>Manage files and file properties</description>
+	<content><![CDATA[
+- name: Manage files and file properties
+  file:
+      access_time: 
+      access_time_format: 
+      attributes: 
+      follow: 
+      force: 
+      group: 
+      mode: 
+      modification_time: 
+      modification_time_format: 
+      owner: 
+      path: 
+      recurse: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      state: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

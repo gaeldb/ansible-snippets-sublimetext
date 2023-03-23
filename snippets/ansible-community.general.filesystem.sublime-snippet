@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.filesystem</tabTrigger>
+	<description>Makes a filesystem</description>
+	<content><![CDATA[
+- name: Makes a filesystem
+  filesystem:
+      dev: 
+      force: 
+      fstype: 
+      opts: 
+      resizefs: 
+      state: 
+]]>
+	</content>
+</snippet>

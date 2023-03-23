@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_lte_modem</tabTrigger>
+	<description>Configure USB LTE/WIMAX devices in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure USB LTE/WIMAX devices in Fortinet's FortiOS and FortiGate.
+  fortios_system_lte_modem:
+      access_token: 
+      system_lte_modem: 
+      vdom: 
+]]>
+	</content>
+</snippet>

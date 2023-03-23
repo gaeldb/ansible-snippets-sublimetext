@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_blueprint_package</tabTrigger>
+	<description>Deploys a blue print package on a set of servers in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Deploys a blue print package on a set of servers in CenturyLink Cloud
+  clc_blueprint_package:
+      package_id: 
+      package_params: 
+      server_ids: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

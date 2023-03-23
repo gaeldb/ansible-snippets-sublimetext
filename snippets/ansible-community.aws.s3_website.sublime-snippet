@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_website</tabTrigger>
+	<description>Configure an s3 bucket as a website</description>
+	<content><![CDATA[
+- name: Configure an s3 bucket as a website
+  s3_website:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      error_key: 
+      name: 
+      profile: 
+      redirect_all_requests: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      suffix: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

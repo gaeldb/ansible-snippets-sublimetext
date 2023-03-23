@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_extepg_to_contract</tabTrigger>
+	<description>Bind Contracts to External End Point Groups (EPGs)</description>
+	<content><![CDATA[
+- name: Bind Contracts to External End Point Groups (EPGs)
+  aci_l3out_extepg_to_contract:
+      annotation: 
+      certificate_name: 
+      contract: 
+      contract_type: 
+      extepg: 
+      host: 
+      l3out: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      priority: 
+      private_key: 
+      provider_match: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

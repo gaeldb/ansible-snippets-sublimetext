@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_disks</tabTrigger>
+	<description>NetApp ONTAP Assign disks to nodes</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Assign disks to nodes
+  na_ontap_disks:
+      cert_filepath: 
+      disk_count: 
+      disk_type: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      node: 
+      ontapi: 
+      password: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

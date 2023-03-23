@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_vmsnapshot</tabTrigger>
+	<description>Manages VM snapshots on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages VM snapshots on Apache CloudStack based clouds.
+  cs_vmsnapshot:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      description: 
+      domain: 
+      name: 
+      poll_async: 
+      project: 
+      snapshot_memory: 
+      state: 
+      tags: 
+      vm: 
+      zone: 
+]]>
+	</content>
+</snippet>

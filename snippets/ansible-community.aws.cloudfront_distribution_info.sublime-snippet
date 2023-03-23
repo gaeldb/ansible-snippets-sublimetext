@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.cloudfront_distribution_info</tabTrigger>
+	<description>Obtain facts about an AWS CloudFront distribution</description>
+	<content><![CDATA[
+- name: Obtain facts about an AWS CloudFront distribution
+  cloudfront_distribution_info:
+      access_key: 
+      all_lists: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      distribution: 
+      distribution_config: 
+      distribution_id: 
+      domain_name_alias: 
+      endpoint_url: 
+      invalidation: 
+      invalidation_id: 
+      list_distributions: 
+      list_distributions_by_web_acl_id: 
+      list_invalidations: 
+      list_origin_access_identities: 
+      list_streaming_distributions: 
+      origin_access_identity: 
+      origin_access_identity_config: 
+      origin_access_identity_id: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      streaming_distribution: 
+      streaming_distribution_config: 
+      summary: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

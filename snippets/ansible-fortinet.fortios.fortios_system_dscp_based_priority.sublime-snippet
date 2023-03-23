@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_dscp_based_priority</tabTrigger>
+	<description>Configure DSCP based priority table in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DSCP based priority table in Fortinet's FortiOS and FortiGate.
+  fortios_system_dscp_based_priority:
+      access_token: 
+      state: 
+      system_dscp_based_priority: 
+      vdom: 
+]]>
+	</content>
+</snippet>

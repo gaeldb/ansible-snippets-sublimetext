@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_ftgd_local_cat</tabTrigger>
+	<description>Configure FortiGuard Web Filter local categories in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGuard Web Filter local categories in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_ftgd_local_cat:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_ftgd_local_cat: 
+]]>
+	</content>
+</snippet>

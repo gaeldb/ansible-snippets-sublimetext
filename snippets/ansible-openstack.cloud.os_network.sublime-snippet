@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_network</tabTrigger>
+	<description>Creates/removes networks from OpenStack</description>
+	<content><![CDATA[
+- name: Creates/removes networks from OpenStack
+  network:
+      admin_state_up: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      dns_domain: 
+      external: 
+      interface: 
+      mtu_size: 
+      name: 
+      port_security_enabled: 
+      project: 
+      provider_network_type: 
+      provider_physical_network: 
+      provider_segmentation_id: 
+      region_name: 
+      shared: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

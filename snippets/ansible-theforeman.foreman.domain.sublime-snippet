@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.domain</tabTrigger>
+	<description>Manage Domains</description>
+	<content><![CDATA[
+- name: Manage Domains
+  domain:
+      description: 
+      dns_proxy: 
+      locations: 
+      name: 
+      organizations: 
+      parameters: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

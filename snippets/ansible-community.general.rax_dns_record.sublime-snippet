@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_dns_record</tabTrigger>
+	<description>Manage DNS records on Rackspace Cloud DNS</description>
+	<content><![CDATA[
+- name: Manage DNS records on Rackspace Cloud DNS
+  rax_dns_record:
+      api_key: 
+      auth_endpoint: 
+      comment: 
+      credentials: 
+      data: 
+      domain: 
+      env: 
+      identity_type: 
+      loadbalancer: 
+      name: 
+      overwrite: 
+      priority: 
+      region: 
+      server: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      ttl: 
+      type: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

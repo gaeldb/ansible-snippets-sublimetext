@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_port_list</tabTrigger>
+	<description>Manage port lists on BIG-IP AFM</description>
+	<content><![CDATA[
+- name: Manage port lists on BIG-IP AFM
+  bigip_firewall_port_list:
+      description: 
+      name: 
+      partition: 
+      port_lists: 
+      port_ranges: 
+      ports: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

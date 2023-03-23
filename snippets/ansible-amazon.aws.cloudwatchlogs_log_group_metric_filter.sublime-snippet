@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudwatchlogs_log_group_metric_filter</tabTrigger>
+	<description>Manage CloudWatch log group metric filter</description>
+	<content><![CDATA[
+- name: Manage CloudWatch log group metric filter
+  cloudwatchlogs_log_group_metric_filter:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filter_name: 
+      filter_pattern: 
+      log_group_name: 
+      metric_transformation: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_webapp</tabTrigger>
+	<description>Manage Web App instances</description>
+	<content><![CDATA[
+- name: Manage Web App instances
+  azure_rm_webapp:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      app_settings: 
+      app_state: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_affinity_enabled: 
+      client_id: 
+      cloud_environment: 
+      container_settings: 
+      deployment_source: 
+      dns_registration: 
+      frameworks: 
+      https_only: 
+      location: 
+      name: 
+      password: 
+      plan: 
+      profile: 
+      purge_app_settings: 
+      resource_group: 
+      scm_type: 
+      secret: 
+      skip_custom_domain_verification: 
+      startup_file: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      ttl_in_seconds: 
+]]>
+	</content>
+</snippet>

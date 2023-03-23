@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_bfd_session</tabTrigger>
+	<description>Manages BFD session configuration on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages BFD session configuration on HUAWEI CloudEngine devices.
+  ce_bfd_session:
+      addr_type: 
+      create_type: 
+      dest_addr: 
+      local_discr: 
+      out_if_name: 
+      remote_discr: 
+      session_name: 
+      src_addr: 
+      state: 
+      use_default_ip: 
+      vrf_name: 
+]]>
+	</content>
+</snippet>

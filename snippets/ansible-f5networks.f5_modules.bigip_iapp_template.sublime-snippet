@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_iapp_template</tabTrigger>
+	<description>Manages TCL iApp templates on a BIG-IP.</description>
+	<content><![CDATA[
+- name: Manages TCL iApp templates on a BIG-IP.
+  bigip_iapp_template:
+      content: 
+      force: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

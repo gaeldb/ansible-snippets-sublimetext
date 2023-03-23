@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.user</tabTrigger>
+	<description>Manage Users</description>
+	<content><![CDATA[
+- name: Manage Users
+  user:
+      admin: 
+      auth_source: 
+      default_location: 
+      default_organization: 
+      description: 
+      firstname: 
+      lastname: 
+      locale: 
+      locations: 
+      login: 
+      mail: 
+      organizations: 
+      password: 
+      roles: 
+      server_url: 
+      state: 
+      timezone: 
+      user_password: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

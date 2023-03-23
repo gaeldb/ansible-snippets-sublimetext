@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_webcache</tabTrigger>
+	<description>Configure global Web cache settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure global Web cache settings in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_webcache:
+      access_token: 
+      vdom: 
+      wanopt_webcache: 
+]]>
+	</content>
+</snippet>

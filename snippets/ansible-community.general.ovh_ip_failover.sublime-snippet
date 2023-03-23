@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ovh_ip_failover</tabTrigger>
+	<description>Manage OVH IP failover address</description>
+	<content><![CDATA[
+- name: Manage OVH IP failover address
+  ovh_ip_failover:
+      application_key: 
+      application_secret: 
+      consumer_key: 
+      endpoint: 
+      name: 
+      service: 
+      timeout: 
+      wait_completion: 
+      wait_task_completion: 
+]]>
+	</content>
+</snippet>

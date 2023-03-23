@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>servicenow.servicenow.snow_record</tabTrigger>
+	<description>Manage records in ServiceNow</description>
+	<content><![CDATA[
+- name: Manage records in ServiceNow
+  snow_record:
+      attachment: 
+      client_id: 
+      client_secret: 
+      data: 
+      display_value: 
+      exclude_reference_link: 
+      host: 
+      instance: 
+      lookup_field: 
+      number: 
+      password: 
+      state: 
+      suppress_pagination_header: 
+      table: 
+      username: 
+]]>
+	</content>
+</snippet>

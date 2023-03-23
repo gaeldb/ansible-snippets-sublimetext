@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipatopologysegment</tabTrigger>
+	<description>Manage FreeIPA topology segments</description>
+	<content><![CDATA[
+- name: Manage FreeIPA topology segments
+  ipatopologysegment:
+      direction: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      left: 
+      name: 
+      right: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

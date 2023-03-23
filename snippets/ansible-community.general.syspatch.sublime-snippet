@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.syspatch</tabTrigger>
+	<description>Manage OpenBSD system patches</description>
+	<content><![CDATA[
+- name: Manage OpenBSD system patches
+  syspatch:
+      revert: 
+]]>
+	</content>
+</snippet>

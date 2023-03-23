@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_filter_entry</tabTrigger>
+	<description>Manage filter entries in schema templates</description>
+	<content><![CDATA[
+- name: Manage filter entries in schema templates
+  mso_schema_template_filter_entry:
+      arp_flag: 
+      description: 
+      destination_from: 
+      destination_to: 
+      display_name: 
+      entry: 
+      ethertype: 
+      filter: 
+      filter_display_name: 
+      fragments_only: 
+      host: 
+      ip_protocol: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      source_from: 
+      source_to: 
+      state: 
+      stateful: 
+      tcp_session_rules: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

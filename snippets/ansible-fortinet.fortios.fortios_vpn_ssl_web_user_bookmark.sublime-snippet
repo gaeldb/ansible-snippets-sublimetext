@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ssl_web_user_bookmark</tabTrigger>
+	<description>Configure SSL VPN user bookmark in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure SSL VPN user bookmark in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ssl_web_user_bookmark:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ssl_web_user_bookmark: 
+]]>
+	</content>
+</snippet>

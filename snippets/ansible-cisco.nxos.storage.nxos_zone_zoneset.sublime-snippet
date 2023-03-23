@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.storage.nxos_zone_zoneset</tabTrigger>
+	<description>Configuration of zone/zoneset for Cisco NXOS MDS Switches.</description>
+	<content><![CDATA[
+- name: Configuration of zone/zoneset for Cisco NXOS MDS Switches.
+  nxos_zone_zoneset:
+      zone_zoneset_details: 
+]]>
+	</content>
+</snippet>

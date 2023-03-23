@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_content_library_manager</tabTrigger>
+	<description>Create, update and delete VMware content library</description>
+	<content><![CDATA[
+- name: Create, update and delete VMware content library
+  vmware_content_library_manager:
+      datastore_name: 
+      hostname: 
+      library_description: 
+      library_name: 
+      library_type: 
+      password: 
+      port: 
+      protocol: 
+      ssl_thumbprint: 
+      state: 
+      subscription_url: 
+      update_on_demand: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

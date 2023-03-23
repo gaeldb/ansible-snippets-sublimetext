@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psrepository_info</tabTrigger>
+	<description>Gather information about PSRepositories</description>
+	<content><![CDATA[
+- name: Gather information about PSRepositories
+  win_psrepository_info:
+      name: 
+]]>
+	</content>
+</snippet>

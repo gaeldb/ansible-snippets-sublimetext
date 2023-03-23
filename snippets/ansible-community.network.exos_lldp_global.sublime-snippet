@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.exos_lldp_global</tabTrigger>
+	<description>Configure and manage Link Layer Discovery Protocol(LLDP) attributes on EXOS platforms.</description>
+	<content><![CDATA[
+- name: Configure and manage Link Layer Discovery Protocol(LLDP) attributes on EXOS platforms.
+  exos_lldp_global:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

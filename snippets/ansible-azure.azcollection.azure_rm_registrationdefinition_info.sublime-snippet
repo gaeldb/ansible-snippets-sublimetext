@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_registrationdefinition_info</tabTrigger>
+	<description>Get RegistrationDefinition info</description>
+	<content><![CDATA[
+- name: Get RegistrationDefinition info
+  azure_rm_registrationdefinition_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      registration_definition_id: 
+      scope: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

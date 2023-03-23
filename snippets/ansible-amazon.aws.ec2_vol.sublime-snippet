@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vol</tabTrigger>
+	<description>Create and attach a volume, return volume ID and device map</description>
+	<content><![CDATA[
+- name: Create and attach a volume, return volume ID and device map
+  ec2_vol:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delete_on_termination: 
+      device_name: 
+      encrypted: 
+      endpoint_url: 
+      id: 
+      instance: 
+      iops: 
+      kms_key_id: 
+      modify_volume: 
+      multi_attach: 
+      name: 
+      outpost_arn: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      snapshot: 
+      state: 
+      tags: 
+      throughput: 
+      validate_certs: 
+      volume_size: 
+      volume_type: 
+      zone: 
+]]>
+	</content>
+</snippet>

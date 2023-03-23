@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_vgw_info</tabTrigger>
+	<description>Gather information about virtual gateways in AWS</description>
+	<content><![CDATA[
+- name: Gather information about virtual gateways in AWS
+  ec2_vpc_vgw_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filters: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+      vpn_gateway_ids: 
+]]>
+	</content>
+</snippet>

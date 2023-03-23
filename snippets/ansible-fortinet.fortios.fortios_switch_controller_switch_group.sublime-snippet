@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_switch_group</tabTrigger>
+	<description>Configure FortiSwitch switch groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch switch groups in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_switch_group:
+      access_token: 
+      state: 
+      switch_controller_switch_group: 
+      vdom: 
+]]>
+	</content>
+</snippet>

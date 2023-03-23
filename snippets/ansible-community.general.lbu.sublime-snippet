@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lbu</tabTrigger>
+	<description>Local Backup Utility for Alpine Linux</description>
+	<content><![CDATA[
+- name: Local Backup Utility for Alpine Linux
+  lbu:
+      commit: 
+      exclude: 
+      include: 
+]]>
+	</content>
+</snippet>

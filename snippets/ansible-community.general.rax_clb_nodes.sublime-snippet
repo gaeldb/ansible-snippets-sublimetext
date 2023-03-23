@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_clb_nodes</tabTrigger>
+	<description>Add, modify and remove nodes from a Rackspace Cloud Load Balancer</description>
+	<content><![CDATA[
+- name: Add, modify and remove nodes from a Rackspace Cloud Load Balancer
+  rax_clb_nodes:
+      address: 
+      api_key: 
+      auth_endpoint: 
+      condition: 
+      credentials: 
+      env: 
+      identity_type: 
+      load_balancer_id: 
+      node_id: 
+      port: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      type: 
+      username: 
+      validate_certs: 
+      virtualenv: 
+      wait: 
+      wait_timeout: 
+      weight: 
+]]>
+	</content>
+</snippet>

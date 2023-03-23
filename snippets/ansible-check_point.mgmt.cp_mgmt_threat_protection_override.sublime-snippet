@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_protection_override</tabTrigger>
+	<description>Edit existing object using object name or uid.</description>
+	<content><![CDATA[
+- name: Edit existing object using object name or uid.
+  cp_mgmt_threat_protection_override:
+      comments: 
+      details_level: 
+      follow_up: 
+      name: 
+      overrides: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

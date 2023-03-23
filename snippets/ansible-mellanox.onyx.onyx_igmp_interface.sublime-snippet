@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_igmp_interface</tabTrigger>
+	<description>Configures IGMP interface parameters</description>
+	<content><![CDATA[
+- name: Configures IGMP interface parameters
+  onyx_igmp_interface:
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

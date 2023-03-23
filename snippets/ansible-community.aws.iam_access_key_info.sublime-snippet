@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.iam_access_key_info</tabTrigger>
+	<description>fetch information about AWS IAM User access keys</description>
+	<content><![CDATA[
+- name: fetch information about AWS IAM User access keys
+  iam_access_key_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      user_name: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

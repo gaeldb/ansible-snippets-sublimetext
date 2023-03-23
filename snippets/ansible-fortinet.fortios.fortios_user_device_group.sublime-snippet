@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_device_group</tabTrigger>
+	<description>Configure device groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure device groups in Fortinet's FortiOS and FortiGate.
+  fortios_user_device_group:
+      access_token: 
+      state: 
+      user_device_group: 
+      vdom: 
+]]>
+	</content>
+</snippet>

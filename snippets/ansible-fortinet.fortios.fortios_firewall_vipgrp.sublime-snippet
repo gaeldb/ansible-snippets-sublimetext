@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_vipgrp</tabTrigger>
+	<description>Configure IPv4 virtual IP groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv4 virtual IP groups in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_vipgrp:
+      access_token: 
+      firewall_vipgrp: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

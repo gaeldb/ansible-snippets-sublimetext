@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_pg_hba</tabTrigger>
+	<description>Add, remove or modify a rule in a pg_hba file</description>
+	<content><![CDATA[
+- name: Add, remove or modify a rule in a pg_hba file
+  postgresql_pg_hba:
+      address: 
+      attributes: 
+      backup: 
+      backup_file: 
+      contype: 
+      create: 
+      databases: 
+      dest: 
+      group: 
+      method: 
+      mode: 
+      netmask: 
+      options: 
+      order: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+      users: 
+]]>
+	</content>
+</snippet>

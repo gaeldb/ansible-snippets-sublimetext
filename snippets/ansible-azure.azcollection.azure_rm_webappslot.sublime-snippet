@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_webappslot</tabTrigger>
+	<description>Manage Azure Web App slot</description>
+	<content><![CDATA[
+- name: Manage Azure Web App slot
+  azure_rm_webappslot:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      app_settings: 
+      app_state: 
+      append_tags: 
+      auth_source: 
+      auto_swap_slot_name: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      configuration_source: 
+      container_settings: 
+      deployment_source: 
+      frameworks: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      purge_app_settings: 
+      resource_group: 
+      secret: 
+      startup_file: 
+      state: 
+      subscription_id: 
+      swap: 
+      tags: 
+      tenant: 
+      webapp_name: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.webfaction_app</tabTrigger>
+	<description>Add or remove applications on a Webfaction host</description>
+	<content><![CDATA[
+- name: Add or remove applications on a Webfaction host
+  webfaction_app:
+      autostart: 
+      extra_info: 
+      login_name: 
+      login_password: 
+      machine: 
+      name: 
+      port_open: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

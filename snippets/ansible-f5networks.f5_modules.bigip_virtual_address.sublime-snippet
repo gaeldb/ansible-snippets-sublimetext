@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_virtual_address</tabTrigger>
+	<description>Manage LTM virtual addresses on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage LTM virtual addresses on a BIG-IP
+  bigip_virtual_address:
+      address: 
+      arp: 
+      auto_delete: 
+      availability_calculation: 
+      connection_limit: 
+      icmp_echo: 
+      name: 
+      netmask: 
+      partition: 
+      provider: 
+      route_advertisement: 
+      route_domain: 
+      spanning: 
+      state: 
+      traffic_group: 
+]]>
+	</content>
+</snippet>

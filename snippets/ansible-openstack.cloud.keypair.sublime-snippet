@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.keypair</tabTrigger>
+	<description>Add/Delete a keypair from OpenStack</description>
+	<content><![CDATA[
+- name: Add/Delete a keypair from OpenStack
+  keypair:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      name: 
+      public_key: 
+      public_key_file: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

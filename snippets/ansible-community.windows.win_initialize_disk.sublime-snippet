@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_initialize_disk</tabTrigger>
+	<description>Initializes disks on Windows Server</description>
+	<content><![CDATA[
+- name: Initializes disks on Windows Server
+  win_initialize_disk:
+      disk_number: 
+      force: 
+      online: 
+      path: 
+      style: 
+      uniqueid: 
+]]>
+	</content>
+</snippet>

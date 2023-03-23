@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_application_list_obj</tabTrigger>
+	<description>Configure application control lists.</description>
+	<content><![CDATA[
+- name: Configure application control lists.
+  fmgr_application_list_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

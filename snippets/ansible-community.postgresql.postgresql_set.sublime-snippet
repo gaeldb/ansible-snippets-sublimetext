@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_set</tabTrigger>
+	<description>Change a PostgreSQL server configuration parameter</description>
+	<content><![CDATA[
+- name: Change a PostgreSQL server configuration parameter
+  postgresql_set:
+      ca_cert: 
+      db: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      port: 
+      reset: 
+      session_role: 
+      ssl_mode: 
+      trust_input: 
+      value: 
+]]>
+	</content>
+</snippet>

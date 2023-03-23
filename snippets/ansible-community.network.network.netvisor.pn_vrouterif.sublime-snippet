@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_vrouterif</tabTrigger>
+	<description>CLI command to add/remove/modify vrouter-interface.</description>
+	<content><![CDATA[
+- name: CLI command to add/remove/modify vrouter-interface.
+  pn_vrouterif:
+      pn_alias: 
+      pn_assignment: 
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_exclusive: 
+      pn_interface: 
+      pn_interface_ip: 
+      pn_l3port: 
+      pn_nic_enable: 
+      pn_nic_str: 
+      pn_secondary_macs: 
+      pn_vlan: 
+      pn_vrouter_name: 
+      pn_vrrp_adv_int: 
+      pn_vrrp_id: 
+      pn_vrrp_priority: 
+      pn_vxlan: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_partition</tabTrigger>
+	<description>Manage BIG-IP partitions</description>
+	<content><![CDATA[
+- name: Manage BIG-IP partitions
+  bigip_partition:
+      description: 
+      name: 
+      provider: 
+      route_domain: 
+      state: 
+]]>
+	</content>
+</snippet>

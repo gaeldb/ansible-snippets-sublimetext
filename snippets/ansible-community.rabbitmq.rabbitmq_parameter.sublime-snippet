@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_parameter</tabTrigger>
+	<description>Manage RabbitMQ parameters</description>
+	<content><![CDATA[
+- name: Manage RabbitMQ parameters
+  rabbitmq_parameter:
+      component: 
+      name: 
+      node: 
+      state: 
+      value: 
+      vhost: 
+]]>
+	</content>
+</snippet>

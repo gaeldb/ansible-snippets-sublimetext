@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nomad_job</tabTrigger>
+	<description>Launch a Nomad Job</description>
+	<content><![CDATA[
+- name: Launch a Nomad Job
+  nomad_job:
+      client_cert: 
+      client_key: 
+      content: 
+      content_format: 
+      force_start: 
+      host: 
+      name: 
+      namespace: 
+      state: 
+      timeout: 
+      token: 
+      use_ssl: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pipx</tabTrigger>
+	<description>Manages applications installed with pipx</description>
+	<content><![CDATA[
+- name: Manages applications installed with pipx
+  pipx:
+      editable: 
+      executable: 
+      force: 
+      include_injected: 
+      index_url: 
+      inject_packages: 
+      install_deps: 
+      name: 
+      pip_args: 
+      python: 
+      source: 
+      state: 
+]]>
+	</content>
+</snippet>

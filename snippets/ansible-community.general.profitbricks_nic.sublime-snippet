@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.profitbricks_nic</tabTrigger>
+	<description>Create or Remove a NIC</description>
+	<content><![CDATA[
+- name: Create or Remove a NIC
+  profitbricks_nic:
+      datacenter: 
+      lan: 
+      name: 
+      server: 
+      state: 
+      subscription_password: 
+      subscription_user: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_pod_replica</tabTrigger>
+	<description>Manage ActiveDR pod replica links between Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage ActiveDR pod replica links between Pure Storage FlashArrays
+  purefa_pod_replica:
+      api_token: 
+      fa_url: 
+      name: 
+      pause: 
+      state: 
+      target_array: 
+      target_pod: 
+]]>
+	</content>
+</snippet>

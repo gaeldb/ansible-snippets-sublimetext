@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wait_for</tabTrigger>
+	<description>Waits for a condition before continuing</description>
+	<content><![CDATA[
+- name: Waits for a condition before continuing
+  wait_for:
+      active_connection_states: 
+      connect_timeout: 
+      delay: 
+      exclude_hosts: 
+      host: 
+      msg: 
+      path: 
+      port: 
+      search_regex: 
+      sleep: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

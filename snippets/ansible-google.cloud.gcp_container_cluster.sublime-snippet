@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_container_cluster</tabTrigger>
+	<description>Creates a GCP Cluster</description>
+	<content><![CDATA[
+- name: Creates a GCP Cluster
+  gcp_container_cluster:
+      addons_config: 
+      auth_kind: 
+      binary_authorization: 
+      cluster_ipv4_cidr: 
+      database_encryption: 
+      default_max_pods_constraint: 
+      description: 
+      enable_kubernetes_alpha: 
+      enable_tpu: 
+      env_type: 
+      initial_cluster_version: 
+      initial_node_count: 
+      ip_allocation_policy: 
+      kubectl_context: 
+      kubectl_path: 
+      legacy_abac: 
+      location: 
+      locations: 
+      logging_service: 
+      master_auth: 
+      master_authorized_networks_config: 
+      monitoring_service: 
+      name: 
+      network: 
+      network_config: 
+      network_policy: 
+      node_config: 
+      private_cluster_config: 
+      project: 
+      release_channel: 
+      resource_labels: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      shielded_nodes: 
+      state: 
+      subnetwork: 
+]]>
+	</content>
+</snippet>

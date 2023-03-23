@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_security_policy</tabTrigger>
+	<description>Change local security policy settings</description>
+	<content><![CDATA[
+- name: Change local security policy settings
+  win_security_policy:
+      key: 
+      section: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.slxos_l3_interface</tabTrigger>
+	<description>Manage L3 interfaces on Extreme Networks SLX-OS network devices.</description>
+	<content><![CDATA[
+- name: Manage L3 interfaces on Extreme Networks SLX-OS network devices.
+  slxos_l3_interface:
+      aggregate: 
+      ipv4: 
+      ipv6: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

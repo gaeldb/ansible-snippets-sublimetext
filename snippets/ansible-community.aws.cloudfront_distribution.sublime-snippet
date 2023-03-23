@@ -1,0 +1,50 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.cloudfront_distribution</tabTrigger>
+	<description>Create, update and delete AWS CloudFront distributions</description>
+	<content><![CDATA[
+- name: Create, update and delete AWS CloudFront distributions
+  cloudfront_distribution:
+      access_key: 
+      alias: 
+      aliases: 
+      aws_ca_bundle: 
+      aws_config: 
+      cache_behaviors: 
+      caller_reference: 
+      comment: 
+      custom_error_responses: 
+      debug_botocore_endpoint_logs: 
+      default_cache_behavior: 
+      default_origin_domain_name: 
+      default_origin_path: 
+      default_root_object: 
+      distribution_id: 
+      e_tag: 
+      enabled: 
+      endpoint_url: 
+      http_version: 
+      ipv6_enabled: 
+      logging: 
+      origins: 
+      price_class: 
+      profile: 
+      purge_aliases: 
+      purge_cache_behaviors: 
+      purge_custom_error_responses: 
+      purge_origins: 
+      purge_tags: 
+      region: 
+      restrictions: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      viewer_certificate: 
+      wait: 
+      wait_timeout: 
+      web_acl_id: 
+]]>
+	</content>
+</snippet>

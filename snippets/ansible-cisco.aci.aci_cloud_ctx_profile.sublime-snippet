@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_cloud_ctx_profile</tabTrigger>
+	<description>Manage Cloud Context Profile (cloud:CtxProfile)</description>
+	<content><![CDATA[
+- name: Manage Cloud Context Profile (cloud:CtxProfile)
+  aci_cloud_ctx_profile:
+      annotation: 
+      certificate_name: 
+      cloud: 
+      description: 
+      host: 
+      name: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      primary_cidr: 
+      private_key: 
+      region: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

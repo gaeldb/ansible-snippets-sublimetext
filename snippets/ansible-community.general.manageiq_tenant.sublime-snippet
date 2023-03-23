@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_tenant</tabTrigger>
+	<description>Management of tenants in ManageIQ</description>
+	<content><![CDATA[
+- name: Management of tenants in ManageIQ
+  manageiq_tenant:
+      description: 
+      manageiq_connection: 
+      name: 
+      parent: 
+      parent_id: 
+      quotas: 
+      state: 
+]]>
+	</content>
+</snippet>

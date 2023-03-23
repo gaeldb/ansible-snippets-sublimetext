@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>lineinfile</tabTrigger>
+	<description>Manage lines in text files</description>
+	<content><![CDATA[
+- name: Manage lines in text files
+  lineinfile:
+      attributes: 
+      backrefs: 
+      backup: 
+      create: 
+      firstmatch: 
+      group: 
+      insertafter: 
+      insertbefore: 
+      line: 
+      mode: 
+      others: 
+      owner: 
+      path: 
+      regexp: 
+      search_string: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+      validate: 
+]]>
+	</content>
+</snippet>

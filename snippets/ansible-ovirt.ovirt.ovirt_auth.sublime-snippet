@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_auth</tabTrigger>
+	<description>Module to manage authentication to oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage authentication to oVirt/RHV
+  ovirt_auth:
+      ca_file: 
+      compress: 
+      headers: 
+      hostname: 
+      insecure: 
+      kerberos: 
+      ovirt_auth: 
+      password: 
+      state: 
+      timeout: 
+      token: 
+      url: 
+      username: 
+]]>
+	</content>
+</snippet>

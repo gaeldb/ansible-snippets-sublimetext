@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psrepository</tabTrigger>
+	<description>Adds, removes or updates a Windows PowerShell repository.</description>
+	<content><![CDATA[
+- name: Adds, removes or updates a Windows PowerShell repository.
+  win_psrepository:
+      force: 
+      installation_policy: 
+      name: 
+      proxy: 
+      publish_location: 
+      script_publish_location: 
+      script_source_location: 
+      source_location: 
+      state: 
+]]>
+	</content>
+</snippet>

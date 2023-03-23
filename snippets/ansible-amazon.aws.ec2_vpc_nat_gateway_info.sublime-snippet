@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_nat_gateway_info</tabTrigger>
+	<description>Retrieves AWS VPC Managed Nat Gateway details using AWS methods</description>
+	<content><![CDATA[
+- name: Retrieves AWS VPC Managed Nat Gateway details using AWS methods
+  ec2_vpc_nat_gateway_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      filters: 
+      nat_gateway_ids: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

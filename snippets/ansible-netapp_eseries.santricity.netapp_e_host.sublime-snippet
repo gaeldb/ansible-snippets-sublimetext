@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_host</tabTrigger>
+	<description>NetApp E-Series manage eseries hosts</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage eseries hosts
+  netapp_e_host:
+      api_password: 
+      api_url: 
+      api_username: 
+      force_port: 
+      group: 
+      host_type: 
+      log_path: 
+      name: 
+      ports: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

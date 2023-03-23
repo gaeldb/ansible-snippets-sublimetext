@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_launch_config_find</tabTrigger>
+	<description>Find AWS Autoscaling Launch Configurations</description>
+	<content><![CDATA[
+- name: Find AWS Autoscaling Launch Configurations
+  autoscaling_launch_config_find:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      limit: 
+      name_regex: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      sort_order: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

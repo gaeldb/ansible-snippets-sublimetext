@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_initiators</tabTrigger>
+	<description>Manage Element SW initiators</description>
+	<content><![CDATA[
+- name: Manage Element SW initiators
+  na_elementsw_initiators:
+      hostname: 
+      initiators: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

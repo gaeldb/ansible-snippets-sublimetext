@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.seboolean</tabTrigger>
+	<description>Toggles SELinux booleans</description>
+	<content><![CDATA[
+- name: Toggles SELinux booleans
+  seboolean:
+      ignore_selinux_state: 
+      name: 
+      persistent: 
+      state: 
+]]>
+	</content>
+</snippet>

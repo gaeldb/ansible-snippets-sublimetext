@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.github_webhook_info</tabTrigger>
+	<description>Query information about GitHub webhooks</description>
+	<content><![CDATA[
+- name: Query information about GitHub webhooks
+  github_webhook_info:
+      github_url: 
+      password: 
+      repository: 
+      token: 
+      user: 
+]]>
+	</content>
+</snippet>

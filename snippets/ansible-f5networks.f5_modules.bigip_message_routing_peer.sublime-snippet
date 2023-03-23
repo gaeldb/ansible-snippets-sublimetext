@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_message_routing_peer</tabTrigger>
+	<description>Manage peers for routing generic message protocol messages</description>
+	<content><![CDATA[
+- name: Manage peers for routing generic message protocol messages
+  bigip_message_routing_peer:
+      auto_init: 
+      auto_init_interval: 
+      connection_mode: 
+      description: 
+      name: 
+      number_of_connections: 
+      partition: 
+      pool: 
+      provider: 
+      ratio: 
+      state: 
+      transport_config: 
+      type: 
+]]>
+	</content>
+</snippet>

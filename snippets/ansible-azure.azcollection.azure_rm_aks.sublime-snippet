@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_aks</tabTrigger>
+	<description>Manage a managed Azure Container Service (AKS) instance</description>
+	<content><![CDATA[
+- name: Manage a managed Azure Container Service (AKS) instance
+  azure_rm_aks:
+      aad_profile: 
+      ad_user: 
+      addon: 
+      adfs_authority_url: 
+      agent_pool_profiles: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      dns_prefix: 
+      enable_rbac: 
+      kubernetes_version: 
+      linux_profile: 
+      location: 
+      name: 
+      network_profile: 
+      node_resource_group: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      service_principal: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

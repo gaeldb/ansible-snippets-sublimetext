@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elb_target_group_info</tabTrigger>
+	<description>Gather information about ELB target groups in AWS</description>
+	<content><![CDATA[
+- name: Gather information about ELB target groups in AWS
+  elb_target_group_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      collect_targets_health: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      load_balancer_arn: 
+      names: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      target_group_arns: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

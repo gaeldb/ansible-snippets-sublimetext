@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_ogs</tabTrigger>
+	<description>Object Group resource module</description>
+	<content><![CDATA[
+- name: Object Group resource module
+  asa_ogs:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_snapshot</tabTrigger>
+	<description>Module to manage Virtual Machine Snapshots in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage Virtual Machine Snapshots in oVirt/RHV
+  ovirt_snapshot:
+      auth: 
+      description: 
+      disk_id: 
+      disk_name: 
+      disks: 
+      download_image_path: 
+      fetch_nested: 
+      keep_days_old: 
+      nested_attributes: 
+      poll_interval: 
+      snapshot_id: 
+      state: 
+      timeout: 
+      upload_image_path: 
+      use_memory: 
+      vm_name: 
+      wait: 
+]]>
+	</content>
+</snippet>

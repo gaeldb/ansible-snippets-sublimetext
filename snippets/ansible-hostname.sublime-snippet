@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hostname</tabTrigger>
+	<description>Manage hostname</description>
+	<content><![CDATA[
+- name: Manage hostname
+  hostname:
+      name: 
+      use: 
+]]>
+	</content>
+</snippet>

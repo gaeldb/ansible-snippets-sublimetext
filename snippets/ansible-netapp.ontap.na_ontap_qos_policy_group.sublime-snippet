@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_qos_policy_group</tabTrigger>
+	<description>NetApp ONTAP manage policy group in Quality of Service.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage policy group in Quality of Service.
+  na_ontap_qos_policy_group:
+      cert_filepath: 
+      feature_flags: 
+      force: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      is_shared: 
+      key_filepath: 
+      max_throughput: 
+      min_throughput: 
+      name: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

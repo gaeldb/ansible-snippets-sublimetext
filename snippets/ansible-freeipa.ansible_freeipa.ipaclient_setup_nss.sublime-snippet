@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_nss</tabTrigger>
+	<description>Create IPA client NSS database</description>
+	<content><![CDATA[
+- name: Create IPA client NSS database
+  ipaclient_setup_nss:
+      all_ip_addresses: 
+      basedn: 
+      ca_enabled: 
+      dnsok: 
+      domain: 
+      enable_dns_updates: 
+      fixed_primary: 
+      hostname: 
+      ip_addresses: 
+      mkhomedir: 
+      no_dns_sshfp: 
+      no_krb5_offline_passwords: 
+      no_ssh: 
+      no_sshd: 
+      no_sudo: 
+      nosssd_files: 
+      on_master: 
+      permit: 
+      preserve_sssd: 
+      principal: 
+      realm: 
+      request_cert: 
+      servers: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

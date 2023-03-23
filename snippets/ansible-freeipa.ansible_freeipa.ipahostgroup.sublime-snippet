@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipahostgroup</tabTrigger>
+	<description>Manage FreeIPA hostgroups</description>
+	<content><![CDATA[
+- name: Manage FreeIPA hostgroups
+  ipahostgroup:
+      action: 
+      description: 
+      host: 
+      hostgroup: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      membermanager_group: 
+      membermanager_user: 
+      name: 
+      nomembers: 
+      rename: 
+      state: 
+]]>
+	</content>
+</snippet>

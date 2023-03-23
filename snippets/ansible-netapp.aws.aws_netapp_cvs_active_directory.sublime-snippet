@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.aws.aws_netapp_cvs_active_directory</tabTrigger>
+	<description>NetApp AWS CloudVolumes Service Manage Active Directory.</description>
+	<content><![CDATA[
+- name: NetApp AWS CloudVolumes Service Manage Active Directory.
+  aws_netapp_cvs_active_directory:
+      DNS: 
+      api_key: 
+      api_url: 
+      domain: 
+      netBIOS: 
+      password: 
+      region: 
+      secret_key: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

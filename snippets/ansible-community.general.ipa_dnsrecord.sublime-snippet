@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_dnsrecord</tabTrigger>
+	<description>Manage FreeIPA DNS records</description>
+	<content><![CDATA[
+- name: Manage FreeIPA DNS records
+  ipa_dnsrecord:
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      record_name: 
+      record_ttl: 
+      record_type: 
+      record_value: 
+      record_values: 
+      state: 
+      validate_certs: 
+      zone_name: 
+]]>
+	</content>
+</snippet>

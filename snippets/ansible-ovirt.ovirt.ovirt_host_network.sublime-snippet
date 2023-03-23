@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_host_network</tabTrigger>
+	<description>Module to manage host networks in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage host networks in oVirt/RHV
+  ovirt_host_network:
+      auth: 
+      bond: 
+      check: 
+      fetch_nested: 
+      interface: 
+      labels: 
+      name: 
+      nested_attributes: 
+      networks: 
+      poll_interval: 
+      save: 
+      state: 
+      sync_networks: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

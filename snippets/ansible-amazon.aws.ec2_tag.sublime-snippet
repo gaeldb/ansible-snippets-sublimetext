@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_tag</tabTrigger>
+	<description>Create and remove tags on ec2 resources</description>
+	<content><![CDATA[
+- name: Create and remove tags on ec2 resources
+  ec2_tag:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      purge_tags: 
+      region: 
+      resource: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

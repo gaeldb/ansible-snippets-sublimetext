@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_role</tabTrigger>
+	<description>CLI command to create/delete/modify role</description>
+	<content><![CDATA[
+- name: CLI command to create/delete/modify role
+  pn_role:
+      pn_access: 
+      pn_cliswitch: 
+      pn_delete_from_users: 
+      pn_name: 
+      pn_running_config: 
+      pn_scope: 
+      pn_shell: 
+      pn_sudo: 
+      state: 
+]]>
+	</content>
+</snippet>

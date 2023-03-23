@@ -1,0 +1,49 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.redshift</tabTrigger>
+	<description>create, delete, or modify an Amazon Redshift instance</description>
+	<content><![CDATA[
+- name: create, delete, or modify an Amazon Redshift instance
+  redshift:
+      access_key: 
+      allow_version_upgrade: 
+      automated_snapshot_retention_period: 
+      availability_zone: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster_parameter_group_name: 
+      cluster_security_groups: 
+      cluster_subnet_group_name: 
+      cluster_type: 
+      cluster_version: 
+      command: 
+      db_name: 
+      debug_botocore_endpoint_logs: 
+      elastic_ip: 
+      encrypted: 
+      endpoint_url: 
+      enhanced_vpc_routing: 
+      final_cluster_snapshot_identifier: 
+      identifier: 
+      new_cluster_identifier: 
+      node_type: 
+      number_of_nodes: 
+      password: 
+      port: 
+      preferred_maintenance_window: 
+      profile: 
+      publicly_accessible: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      skip_final_cluster_snapshot: 
+      tags: 
+      username: 
+      validate_certs: 
+      vpc_security_group_ids: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

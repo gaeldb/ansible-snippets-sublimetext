@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cifs_acl</tabTrigger>
+	<description>NetApp ONTAP manage cifs-share-access-control</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage cifs-share-access-control
+  na_ontap_cifs_acl:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      permission: 
+      share_name: 
+      state: 
+      use_rest: 
+      user_or_group: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

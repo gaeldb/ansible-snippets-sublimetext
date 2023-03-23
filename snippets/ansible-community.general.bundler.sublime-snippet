@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bundler</tabTrigger>
+	<description>Manage Ruby Gem dependencies with Bundler</description>
+	<content><![CDATA[
+- name: Manage Ruby Gem dependencies with Bundler
+  bundler:
+      binstub_directory: 
+      chdir: 
+      clean: 
+      deployment_mode: 
+      exclude_groups: 
+      executable: 
+      extra_args: 
+      gem_path: 
+      gemfile: 
+      local: 
+      state: 
+      user_install: 
+]]>
+	</content>
+</snippet>

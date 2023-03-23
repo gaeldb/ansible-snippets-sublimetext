@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_load_balancer_info</tabTrigger>
+	<description>Gather information about DigitalOcean load balancers</description>
+	<content><![CDATA[
+- name: Gather information about DigitalOcean load balancers
+  digital_ocean_load_balancer_info:
+      load_balancer_id: 
+      oauth_token: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

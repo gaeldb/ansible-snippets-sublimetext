@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_hotspot20_anqp_3gpp_cellular</tabTrigger>
+	<description>Configure 3GPP public land mobile network (PLMN) in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure 3GPP public land mobile network (PLMN) in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_hotspot20_anqp_3gpp_cellular:
+      access_token: 
+      state: 
+      vdom: 
+      wireless_controller_hotspot20_anqp_3gpp_cellular: 
+]]>
+	</content>
+</snippet>

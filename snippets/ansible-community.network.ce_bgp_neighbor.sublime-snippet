@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_bgp_neighbor</tabTrigger>
+	<description>Manages BGP peer configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages BGP peer configuration on HUAWEI CloudEngine switches.
+  ce_bgp_neighbor:
+      conn_retry_time: 
+      connect_mode: 
+      conventional: 
+      description: 
+      dual_as: 
+      ebgp_max_hop: 
+      fake_as: 
+      hold_time: 
+      is_bfd_block: 
+      is_bfd_enable: 
+      is_ignore: 
+      is_log_change: 
+      is_single_hop: 
+      keep_alive_time: 
+      key_chain_name: 
+      local_if_name: 
+      min_hold_time: 
+      mpls_local_ifnet_disable: 
+      multiplier: 
+      peer_addr: 
+      prepend_fake_as: 
+      prepend_global_as: 
+      pswd_cipher_text: 
+      pswd_type: 
+      remote_as: 
+      route_refresh: 
+      rx_interval: 
+      state: 
+      tcp_MSS: 
+      tx_interval: 
+      valid_ttl_hops: 
+      vrf_name: 
+]]>
+	</content>
+</snippet>

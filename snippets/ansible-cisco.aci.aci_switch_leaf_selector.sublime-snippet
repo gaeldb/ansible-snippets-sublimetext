@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_switch_leaf_selector</tabTrigger>
+	<description>Bind leaf selectors to switch policy leaf profiles (infra:LeafS, infra:NodeBlk, infra:RsAccNodePGrep)</description>
+	<content><![CDATA[
+- name: Bind leaf selectors to switch policy leaf profiles (infra:LeafS, infra:NodeBlk, infra:RsAccNodePGrep)
+  aci_switch_leaf_selector:
+      annotation: 
+      certificate_name: 
+      description: 
+      from: 
+      host: 
+      leaf: 
+      leaf_node_blk: 
+      leaf_node_blk_description: 
+      leaf_profile: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      policy_group: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      to: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

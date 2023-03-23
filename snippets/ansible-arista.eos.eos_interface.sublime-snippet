@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Interface on Arista EOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Interface on Arista EOS network devices
+  eos_interface:
+      aggregate: 
+      delay: 
+      description: 
+      enabled: 
+      mtu: 
+      name: 
+      neighbors: 
+      provider: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

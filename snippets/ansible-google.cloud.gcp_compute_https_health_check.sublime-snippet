@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_https_health_check</tabTrigger>
+	<description>Creates a GCP HttpsHealthCheck</description>
+	<content><![CDATA[
+- name: Creates a GCP HttpsHealthCheck
+  gcp_compute_https_health_check:
+      auth_kind: 
+      check_interval_sec: 
+      description: 
+      env_type: 
+      healthy_threshold: 
+      host: 
+      name: 
+      port: 
+      project: 
+      request_path: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      timeout_sec: 
+      unhealthy_threshold: 
+]]>
+	</content>
+</snippet>

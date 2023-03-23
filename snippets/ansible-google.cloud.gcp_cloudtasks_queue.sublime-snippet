@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_cloudtasks_queue</tabTrigger>
+	<description>Creates a GCP Queue</description>
+	<content><![CDATA[
+- name: Creates a GCP Queue
+  gcp_cloudtasks_queue:
+      app_engine_routing_override: 
+      auth_kind: 
+      env_type: 
+      location: 
+      name: 
+      project: 
+      rate_limits: 
+      retry_config: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      stackdriver_logging_config: 
+      state: 
+      status: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.aerospike_migrations</tabTrigger>
+	<description>Check or wait for migrations between nodes</description>
+	<content><![CDATA[
+- name: Check or wait for migrations between nodes
+  aerospike_migrations:
+      connect_timeout: 
+      consecutive_good_checks: 
+      fail_on_cluster_change: 
+      host: 
+      local_only: 
+      migrate_rx_key: 
+      migrate_tx_key: 
+      min_cluster_size: 
+      port: 
+      sleep_between_checks: 
+      target_cluster_size: 
+      tries_limit: 
+]]>
+	</content>
+</snippet>

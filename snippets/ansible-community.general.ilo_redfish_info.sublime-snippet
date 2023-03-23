@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ilo_redfish_info</tabTrigger>
+	<description>Gathers server information through iLO using Redfish APIs</description>
+	<content><![CDATA[
+- name: Gathers server information through iLO using Redfish APIs
+  ilo_redfish_info:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      password: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

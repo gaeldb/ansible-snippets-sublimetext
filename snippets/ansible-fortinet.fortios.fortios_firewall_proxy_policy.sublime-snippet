@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_proxy_policy</tabTrigger>
+	<description>Configure proxy policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure proxy policies in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_proxy_policy:
+      access_token: 
+      firewall_proxy_policy: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

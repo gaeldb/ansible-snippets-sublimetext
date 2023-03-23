@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.slxos_interface</tabTrigger>
+	<description>Manage Interfaces on Extreme SLX-OS network devices</description>
+	<content><![CDATA[
+- name: Manage Interfaces on Extreme SLX-OS network devices
+  slxos_interface:
+      aggregate: 
+      delay: 
+      description: 
+      enabled: 
+      mtu: 
+      name: 
+      neighbors: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

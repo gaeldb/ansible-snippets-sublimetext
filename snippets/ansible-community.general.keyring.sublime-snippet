@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keyring</tabTrigger>
+	<description>Set or delete a passphrase using the Operating System's native keyring</description>
+	<content><![CDATA[
+- name: Set or delete a passphrase using the Operating System's native keyring
+  keyring:
+      keyring_password: 
+      service: 
+      state: 
+      user_password: 
+      username: 
+]]>
+	</content>
+</snippet>

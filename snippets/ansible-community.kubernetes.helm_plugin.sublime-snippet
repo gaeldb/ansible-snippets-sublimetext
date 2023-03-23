@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.helm_plugin</tabTrigger>
+	<description>Manage Helm plugins</description>
+	<content><![CDATA[
+- name: Manage Helm plugins
+  helm_plugin:
+      binary_path: 
+      context: 
+      kubeconfig: 
+      plugin_name: 
+      plugin_path: 
+      release_namespace: 
+      state: 
+]]>
+	</content>
+</snippet>

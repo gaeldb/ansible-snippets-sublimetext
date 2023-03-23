@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_firewall_policy</tabTrigger>
+	<description>NetApp ONTAP Manage a firewall policy</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage a firewall policy
+  na_ontap_firewall_policy:
+      allow_list: 
+      cert_filepath: 
+      enable: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      logging: 
+      node: 
+      ontapi: 
+      password: 
+      policy: 
+      service: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

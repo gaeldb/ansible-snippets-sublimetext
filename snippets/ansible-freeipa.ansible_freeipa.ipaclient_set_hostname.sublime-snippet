@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_set_hostname</tabTrigger>
+	<description>Backup and set hostname</description>
+	<content><![CDATA[
+- name: Backup and set hostname
+  ipaclient_set_hostname:
+      hostname: 
+]]>
+	</content>
+</snippet>

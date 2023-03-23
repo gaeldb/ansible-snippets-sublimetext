@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>rpm_key</tabTrigger>
+	<description>Adds or removes a gpg key from the rpm db</description>
+	<content><![CDATA[
+- name: Adds or removes a gpg key from the rpm db
+  rpm_key:
+      fingerprint: 
+      key: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

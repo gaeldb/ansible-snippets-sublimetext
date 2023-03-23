@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.iam_server_certificate</tabTrigger>
+	<description>Manage IAM server certificates for use on ELBs and CloudFront</description>
+	<content><![CDATA[
+- name: Manage IAM server certificates for use on ELBs and CloudFront
+  iam_server_certificate:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cert: 
+      cert_chain: 
+      debug_botocore_endpoint_logs: 
+      dup_ok: 
+      endpoint_url: 
+      key: 
+      name: 
+      new_name: 
+      new_path: 
+      path: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

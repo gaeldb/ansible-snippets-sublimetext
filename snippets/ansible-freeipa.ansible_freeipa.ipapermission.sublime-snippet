@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipapermission</tabTrigger>
+	<description>Manage FreeIPA permission</description>
+	<content><![CDATA[
+- name: Manage FreeIPA permission
+  ipapermission:
+      action: 
+      attrs: 
+      bindtype: 
+      extra_target_filter: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      memberof: 
+      name: 
+      no_members: 
+      object_type: 
+      rawfilter: 
+      rename: 
+      right: 
+      state: 
+      subtree: 
+      target: 
+      targetfrom: 
+      targetgroup: 
+      targetto: 
+]]>
+	</content>
+</snippet>

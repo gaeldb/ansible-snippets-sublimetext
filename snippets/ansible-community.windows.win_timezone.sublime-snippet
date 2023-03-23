@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_timezone</tabTrigger>
+	<description>Sets Windows machine timezone</description>
+	<content><![CDATA[
+- name: Sets Windows machine timezone
+  win_timezone:
+      timezone: 
+]]>
+	</content>
+</snippet>

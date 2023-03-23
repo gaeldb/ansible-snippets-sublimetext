@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_lic</tabTrigger>
+	<description>apply authcode to a device/instance</description>
+	<content><![CDATA[
+- name: apply authcode to a device/instance
+  panos_lic:
+      auth_code: 
+      force: 
+      ip_address: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

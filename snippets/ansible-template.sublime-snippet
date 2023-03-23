@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>template</tabTrigger>
+	<description>Template a file out to a target host</description>
+	<content><![CDATA[
+- name: Template a file out to a target host
+  template:
+      attributes: 
+      backup: 
+      block_end_string: 
+      block_start_string: 
+      comment_end_string: 
+      comment_start_string: 
+      dest: 
+      follow: 
+      force: 
+      group: 
+      lstrip_blocks: 
+      mode: 
+      newline_sequence: 
+      output_encoding: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      trim_blocks: 
+      unsafe_writes: 
+      validate: 
+      variable_end_string: 
+      variable_start_string: 
+]]>
+	</content>
+</snippet>

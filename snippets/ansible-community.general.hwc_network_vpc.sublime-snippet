@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_network_vpc</tabTrigger>
+	<description>Creates a Huawei Cloud VPC</description>
+	<content><![CDATA[
+- name: Creates a Huawei Cloud VPC
+  hwc_network_vpc:
+      cidr: 
+      domain: 
+      id: 
+      identity_endpoint: 
+      name: 
+      password: 
+      project: 
+      region: 
+      state: 
+      timeouts: 
+      user: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vsans</tabTrigger>
+	<description>Configures VSANs on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures VSANs on Cisco UCS Manager
+  ucs_vsans:
+      fabric: 
+      fc_zoning: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vlan_id: 
+      vsan_id: 
+]]>
+	</content>
+</snippet>

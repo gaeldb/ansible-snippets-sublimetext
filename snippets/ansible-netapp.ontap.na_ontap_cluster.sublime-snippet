@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cluster</tabTrigger>
+	<description>NetApp ONTAP cluster - create a cluster and add/remove nodes.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP cluster - create a cluster and add/remove nodes.
+  na_ontap_cluster:
+      cert_filepath: 
+      cluster_contact: 
+      cluster_ip_address: 
+      cluster_location: 
+      cluster_name: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      node_name: 
+      ontapi: 
+      password: 
+      single_node_cluster: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

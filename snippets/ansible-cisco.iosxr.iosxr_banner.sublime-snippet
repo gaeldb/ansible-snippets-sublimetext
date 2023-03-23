@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_banner</tabTrigger>
+	<description>Manage multiline banners on Cisco IOS XR devices</description>
+	<content><![CDATA[
+- name: Manage multiline banners on Cisco IOS XR devices
+  iosxr_banner:
+      banner: 
+      provider: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

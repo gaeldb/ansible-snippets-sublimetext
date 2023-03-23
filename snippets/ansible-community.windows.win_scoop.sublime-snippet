@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_scoop</tabTrigger>
+	<description>Manage packages using Scoop</description>
+	<content><![CDATA[
+- name: Manage packages using Scoop
+  win_scoop:
+      architecture: 
+      global: 
+      independent: 
+      name: 
+      no_cache: 
+      purge: 
+      skip_checksum: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.crypttab</tabTrigger>
+	<description>Encrypted Linux block devices</description>
+	<content><![CDATA[
+- name: Encrypted Linux block devices
+  crypttab:
+      backing_device: 
+      name: 
+      opts: 
+      password: 
+      path: 
+      state: 
+]]>
+	</content>
+</snippet>

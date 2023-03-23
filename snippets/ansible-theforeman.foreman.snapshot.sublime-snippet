@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.snapshot</tabTrigger>
+	<description>Manage Snapshots</description>
+	<content><![CDATA[
+- name: Manage Snapshots
+  snapshot:
+      description: 
+      host: 
+      name: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

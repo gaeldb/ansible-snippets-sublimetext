@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.synchronize</tabTrigger>
+	<description>A wrapper around rsync to make common tasks in your playbooks quick and easy</description>
+	<content><![CDATA[
+- name: A wrapper around rsync to make common tasks in your playbooks quick and easy
+  synchronize:
+      archive: 
+      checksum: 
+      compress: 
+      copy_links: 
+      delay_updates: 
+      delete: 
+      dest: 
+      dest_port: 
+      dirs: 
+      existing_only: 
+      group: 
+      link_dest: 
+      links: 
+      mode: 
+      owner: 
+      partial: 
+      perms: 
+      private_key: 
+      recursive: 
+      rsync_opts: 
+      rsync_path: 
+      rsync_timeout: 
+      set_remote_user: 
+      src: 
+      ssh_connection_multiplexing: 
+      times: 
+      use_ssh_args: 
+      verify_host: 
+]]>
+	</content>
+</snippet>

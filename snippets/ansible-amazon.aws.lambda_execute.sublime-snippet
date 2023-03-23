@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.lambda_execute</tabTrigger>
+	<description>Execute an AWS Lambda function</description>
+	<content><![CDATA[
+- name: Execute an AWS Lambda function
+  lambda_execute:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      dry_run: 
+      endpoint_url: 
+      function_arn: 
+      name: 
+      payload: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      tail_log: 
+      validate_certs: 
+      version_qualifier: 
+      wait: 
+]]>
+	</content>
+</snippet>

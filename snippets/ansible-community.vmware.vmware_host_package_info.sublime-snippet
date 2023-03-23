@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_package_info</tabTrigger>
+	<description>Gathers info about available packages on an ESXi host</description>
+	<content><![CDATA[
+- name: Gathers info about available packages on an ESXi host
+  vmware_host_package_info:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

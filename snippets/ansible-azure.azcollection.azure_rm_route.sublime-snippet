@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_route</tabTrigger>
+	<description>Manage Azure route resource</description>
+	<content><![CDATA[
+- name: Manage Azure route resource
+  azure_rm_route:
+      ad_user: 
+      address_prefix: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      next_hop_ip_address: 
+      next_hop_type: 
+      password: 
+      profile: 
+      resource_group: 
+      route_table_name: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

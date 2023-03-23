@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_logbundle_info</tabTrigger>
+	<description>Gathers manifest info for logbundle</description>
+	<content><![CDATA[
+- name: Gathers manifest info for logbundle
+  vmware_host_logbundle_info:
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

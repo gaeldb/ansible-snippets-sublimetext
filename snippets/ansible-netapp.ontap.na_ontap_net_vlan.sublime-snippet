@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_net_vlan</tabTrigger>
+	<description>NetApp ONTAP network VLAN</description>
+	<content><![CDATA[
+- name: NetApp ONTAP network VLAN
+  na_ontap_net_vlan:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      node: 
+      ontapi: 
+      parent_interface: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vlanid: 
+]]>
+	</content>
+</snippet>

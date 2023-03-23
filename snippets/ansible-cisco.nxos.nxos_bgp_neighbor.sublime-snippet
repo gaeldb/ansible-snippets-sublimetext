@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_bgp_neighbor</tabTrigger>
+	<description>(deprecated, removed after 2023-01-27) Manages BGP neighbors configurations.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2023-01-27) Manages BGP neighbors configurations.
+  nxos_bgp_neighbor:
+      asn: 
+      bfd: 
+      capability_negotiation: 
+      connected_check: 
+      description: 
+      dynamic_capability: 
+      ebgp_multihop: 
+      local_as: 
+      log_neighbor_changes: 
+      low_memory_exempt: 
+      maximum_peers: 
+      neighbor: 
+      peer_type: 
+      provider: 
+      pwd: 
+      pwd_type: 
+      remote_as: 
+      remove_private_as: 
+      shutdown: 
+      state: 
+      suppress_4_byte_as: 
+      timers_holdtime: 
+      timers_keepalive: 
+      transport_passive_only: 
+      update_source: 
+      vrf: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_acl_interfaces</tabTrigger>
+	<description>ACL interfaces resource module</description>
+	<content><![CDATA[
+- name: ACL interfaces resource module
+  iosxr_acl_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

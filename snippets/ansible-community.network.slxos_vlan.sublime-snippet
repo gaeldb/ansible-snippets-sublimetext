@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.slxos_vlan</tabTrigger>
+	<description>Manage VLANs on Extreme Networks SLX-OS network devices</description>
+	<content><![CDATA[
+- name: Manage VLANs on Extreme Networks SLX-OS network devices
+  slxos_vlan:
+      aggregate: 
+      delay: 
+      interfaces: 
+      name: 
+      purge: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

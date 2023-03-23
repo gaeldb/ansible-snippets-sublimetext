@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_facts</tabTrigger>
+	<description>Collect facts from Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Collect facts from Mellanox ONYX network devices
+  onyx_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

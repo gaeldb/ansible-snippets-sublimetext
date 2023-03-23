@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.aws.aws_netapp_cvs_filesystems</tabTrigger>
+	<description>NetApp AWS Cloud Volumes Service Manage FileSystem.</description>
+	<content><![CDATA[
+- name: NetApp AWS Cloud Volumes Service Manage FileSystem.
+  aws_netapp_cvs_filesystems:
+      api_key: 
+      api_url: 
+      creationToken: 
+      exportPolicy: 
+      quotaInBytes: 
+      region: 
+      secret_key: 
+      serviceLevel: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

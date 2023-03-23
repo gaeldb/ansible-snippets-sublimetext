@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.netconf_rpc</tabTrigger>
+	<description>Execute operations on NETCONF enabled network devices.</description>
+	<content><![CDATA[
+- name: Execute operations on NETCONF enabled network devices.
+  netconf_rpc:
+      content: 
+      display: 
+      rpc: 
+      xmlns: 
+]]>
+	</content>
+</snippet>

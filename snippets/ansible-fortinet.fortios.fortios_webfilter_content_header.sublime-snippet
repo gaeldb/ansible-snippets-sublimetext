@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_content_header</tabTrigger>
+	<description>Configure content types used by Web filter in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure content types used by Web filter in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_content_header:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_content_header: 
+]]>
+	</content>
+</snippet>

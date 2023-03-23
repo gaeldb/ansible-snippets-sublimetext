@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_cors</tabTrigger>
+	<description>Manage CORS for S3 buckets in AWS</description>
+	<content><![CDATA[
+- name: Manage CORS for S3 buckets in AWS
+  s3_cors:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      rules: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

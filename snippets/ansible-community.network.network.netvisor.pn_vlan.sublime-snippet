@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_vlan</tabTrigger>
+	<description>CLI command to create/delete a VLAN.</description>
+	<content><![CDATA[
+- name: CLI command to create/delete a VLAN.
+  pn_vlan:
+      pn_clipassword: 
+      pn_cliswitch: 
+      pn_cliusername: 
+      pn_description: 
+      pn_ports: 
+      pn_scope: 
+      pn_stats: 
+      pn_untagged_ports: 
+      pn_vlanid: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_aaa_group_info</tabTrigger>
+	<description>Get info for reverse_proxy frontend entry in Sophos UTM</description>
+	<content><![CDATA[
+- name: Get info for reverse_proxy frontend entry in Sophos UTM
+  utm_aaa_group_info:
+      headers: 
+      name: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

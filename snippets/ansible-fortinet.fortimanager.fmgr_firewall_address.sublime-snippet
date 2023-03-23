@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_firewall_address</tabTrigger>
+	<description>Configure IPv4 addresses.</description>
+	<content><![CDATA[
+- name: Configure IPv4 addresses.
+  fmgr_firewall_address:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

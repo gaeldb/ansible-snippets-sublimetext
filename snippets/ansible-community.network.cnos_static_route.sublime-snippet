@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_static_route</tabTrigger>
+	<description>Manage static IP routes on Lenovo CNOS network devices</description>
+	<content><![CDATA[
+- name: Manage static IP routes on Lenovo CNOS network devices
+  cnos_static_route:
+      admin_distance: 
+      aggregate: 
+      description: 
+      interface: 
+      mask: 
+      next_hop: 
+      prefix: 
+      state: 
+      tag: 
+]]>
+	</content>
+</snippet>

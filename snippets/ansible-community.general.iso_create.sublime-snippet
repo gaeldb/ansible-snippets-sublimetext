@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.iso_create</tabTrigger>
+	<description>Generate ISO file with specified files or folders</description>
+	<content><![CDATA[
+- name: Generate ISO file with specified files or folders
+  iso_create:
+      dest_iso: 
+      interchange_level: 
+      joliet: 
+      rock_ridge: 
+      src_files: 
+      udf: 
+      vol_ident: 
+]]>
+	</content>
+</snippet>

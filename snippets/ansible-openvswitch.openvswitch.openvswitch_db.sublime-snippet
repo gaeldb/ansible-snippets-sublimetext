@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openvswitch.openvswitch.openvswitch_db</tabTrigger>
+	<description>Configure open vswitch database.</description>
+	<content><![CDATA[
+- name: Configure open vswitch database.
+  openvswitch_db:
+      col: 
+      key: 
+      record: 
+      state: 
+      table: 
+      timeout: 
+      value: 
+]]>
+	</content>
+</snippet>

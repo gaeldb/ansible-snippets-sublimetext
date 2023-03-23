@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>assemble</tabTrigger>
+	<description>Assemble configuration files from fragments</description>
+	<content><![CDATA[
+- name: Assemble configuration files from fragments
+  assemble:
+      attributes: 
+      backup: 
+      decrypt: 
+      delimiter: 
+      dest: 
+      group: 
+      ignore_hidden: 
+      mode: 
+      owner: 
+      regexp: 
+      remote_src: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      unsafe_writes: 
+      validate: 
+]]>
+	</content>
+</snippet>

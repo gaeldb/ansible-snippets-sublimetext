@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ldap_search</tabTrigger>
+	<description>Search for entries in a LDAP server</description>
+	<content><![CDATA[
+- name: Search for entries in a LDAP server
+  ldap_search:
+      attrs: 
+      bind_dn: 
+      bind_pw: 
+      dn: 
+      filter: 
+      referrals_chasing: 
+      sasl_class: 
+      schema: 
+      scope: 
+      server_uri: 
+      start_tls: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

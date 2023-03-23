@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_say</tabTrigger>
+	<description>Text to speech module for Windows to speak messages and optionally play sounds</description>
+	<content><![CDATA[
+- name: Text to speech module for Windows to speak messages and optionally play sounds
+  win_say:
+      end_sound_path: 
+      msg: 
+      msg_file: 
+      speech_speed: 
+      start_sound_path: 
+      voice: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_object_store</tabTrigger>
+	<description>NetApp ONTAP manage object store config.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage object store config.
+  na_ontap_object_store:
+      access_key: 
+      cert_filepath: 
+      container: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      provider_type: 
+      secret_password: 
+      server: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

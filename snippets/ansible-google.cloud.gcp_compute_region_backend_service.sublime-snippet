@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_backend_service</tabTrigger>
+	<description>Creates a GCP RegionBackendService</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionBackendService
+  gcp_compute_region_backend_service:
+      affinity_cookie_ttl_sec: 
+      auth_kind: 
+      backends: 
+      cdn_policy: 
+      circuit_breakers: 
+      connection_draining: 
+      consistent_hash: 
+      description: 
+      enable_cdn: 
+      env_type: 
+      failover_policy: 
+      health_checks: 
+      load_balancing_scheme: 
+      locality_lb_policy: 
+      log_config: 
+      name: 
+      network: 
+      outlier_detection: 
+      port_name: 
+      project: 
+      protocol: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      session_affinity: 
+      state: 
+      timeout_sec: 
+]]>
+	</content>
+</snippet>

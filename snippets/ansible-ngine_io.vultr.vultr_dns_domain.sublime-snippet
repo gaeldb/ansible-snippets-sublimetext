@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_dns_domain</tabTrigger>
+	<description>Manages DNS domains on Vultr.</description>
+	<content><![CDATA[
+- name: Manages DNS domains on Vultr.
+  vultr_dns_domain:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      name: 
+      server_ip: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

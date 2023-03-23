@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_project_badge</tabTrigger>
+	<description>Manage project badges on GitLab Server</description>
+	<content><![CDATA[
+- name: Manage project badges on GitLab Server
+  gitlab_project_badge:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      image_url: 
+      link_url: 
+      project: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

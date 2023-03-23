@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.lambda_info</tabTrigger>
+	<description>Gathers AWS Lambda function details</description>
+	<content><![CDATA[
+- name: Gathers AWS Lambda function details
+  lambda_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      event_source_arn: 
+      function_name: 
+      profile: 
+      query: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

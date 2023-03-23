@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_evc_mode</tabTrigger>
+	<description>Enable/Disable EVC mode on vCenter</description>
+	<content><![CDATA[
+- name: Enable/Disable EVC mode on vCenter
+  vmware_evc_mode:
+      cluster_name: 
+      datacenter_name: 
+      evc_mode: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

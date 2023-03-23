@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_resource_pool</tabTrigger>
+	<description>Add/remove resource pools to/from vCenter</description>
+	<content><![CDATA[
+- name: Add/remove resource pools to/from vCenter
+  vmware_resource_pool:
+      cluster: 
+      cpu_allocation_shares: 
+      cpu_expandable_reservations: 
+      cpu_limit: 
+      cpu_reservation: 
+      cpu_shares: 
+      datacenter: 
+      esxi_hostname: 
+      hostname: 
+      mem_allocation_shares: 
+      mem_expandable_reservations: 
+      mem_limit: 
+      mem_reservation: 
+      mem_shares: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      resource_pool: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

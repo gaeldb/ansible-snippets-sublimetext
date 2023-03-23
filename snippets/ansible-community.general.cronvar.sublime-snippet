@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cronvar</tabTrigger>
+	<description>Manage variables in crontabs</description>
+	<content><![CDATA[
+- name: Manage variables in crontabs
+  cronvar:
+      backup: 
+      cron_file: 
+      insertafter: 
+      insertbefore: 
+      name: 
+      state: 
+      user: 
+      value: 
+]]>
+	</content>
+</snippet>

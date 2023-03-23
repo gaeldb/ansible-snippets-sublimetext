@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_switch_policy_vpc_protection_group</tabTrigger>
+	<description>Manage switch policy explicit vPC protection groups (fabric:ExplicitGEp, fabric:NodePEp).</description>
+	<content><![CDATA[
+- name: Manage switch policy explicit vPC protection groups (fabric:ExplicitGEp, fabric:NodePEp).
+  aci_switch_policy_vpc_protection_group:
+      annotation: 
+      certificate_name: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      protection_group: 
+      protection_group_id: 
+      state: 
+      switch_1_id: 
+      switch_2_id: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vpc_domain_policy: 
+]]>
+	</content>
+</snippet>

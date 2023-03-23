@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_cpu_class</tabTrigger>
+	<description>CLI command to create/modify/delete cpu-class</description>
+	<content><![CDATA[
+- name: CLI command to create/modify/delete cpu-class
+  pn_cpu_class:
+      pn_cliswitch: 
+      pn_hog_protect: 
+      pn_name: 
+      pn_rate_limit: 
+      pn_scope: 
+      state: 
+]]>
+	</content>
+</snippet>

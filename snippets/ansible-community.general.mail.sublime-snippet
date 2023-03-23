@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mail</tabTrigger>
+	<description>Send an email</description>
+	<content><![CDATA[
+- name: Send an email
+  mail:
+      attach: 
+      bcc: 
+      body: 
+      cc: 
+      charset: 
+      ehlohost: 
+      headers: 
+      host: 
+      password: 
+      port: 
+      secure: 
+      sender: 
+      subject: 
+      subtype: 
+      timeout: 
+      to: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_firewall_service_group</tabTrigger>
+	<description>Configure service groups.</description>
+	<content><![CDATA[
+- name: Configure service groups.
+  fmgr_firewall_service_group:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

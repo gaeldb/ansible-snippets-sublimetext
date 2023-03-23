@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_report_layout</tabTrigger>
+	<description>Report layout configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Report layout configuration in Fortinet's FortiOS and FortiGate.
+  fortios_report_layout:
+      access_token: 
+      report_layout: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

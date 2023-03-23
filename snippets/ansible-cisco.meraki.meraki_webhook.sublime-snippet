@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_webhook</tabTrigger>
+	<description>Manage webhooks configured in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage webhooks configured in the Meraki cloud
+  meraki_webhook:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      name: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      shared_secret: 
+      state: 
+      test: 
+      test_id: 
+      timeout: 
+      url: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      webhook_id: 
+]]>
+	</content>
+</snippet>

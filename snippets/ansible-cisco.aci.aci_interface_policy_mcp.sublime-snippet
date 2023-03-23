@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_mcp</tabTrigger>
+	<description>Manage MCP interface policies (mcp:IfPol)</description>
+	<content><![CDATA[
+- name: Manage MCP interface policies (mcp:IfPol)
+  aci_interface_policy_mcp:
+      admin_state: 
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      mcp: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

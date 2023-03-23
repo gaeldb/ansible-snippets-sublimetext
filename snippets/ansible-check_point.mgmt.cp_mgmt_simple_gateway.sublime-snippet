@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_simple_gateway</tabTrigger>
+	<description>Manages simple-gateway objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages simple-gateway objects on Check Point over Web Services API
+  cp_mgmt_simple_gateway:
+      anti_bot: 
+      anti_virus: 
+      application_control: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      content_awareness: 
+      details_level: 
+      firewall: 
+      firewall_settings: 
+      gateway_version: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      interfaces: 
+      ip_address: 
+      ips: 
+      ipv4_address: 
+      ipv6_address: 
+      logs_settings: 
+      name: 
+      one_time_password: 
+      os_name: 
+      save_logs_locally: 
+      send_alerts_to_server: 
+      send_logs_to_backup_server: 
+      send_logs_to_server: 
+      state: 
+      tags: 
+      threat_emulation: 
+      threat_extraction: 
+      url_filtering: 
+      version: 
+      vpn: 
+      vpn_settings: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

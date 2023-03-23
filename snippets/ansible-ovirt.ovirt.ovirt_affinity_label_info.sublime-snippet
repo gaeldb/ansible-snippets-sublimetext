@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_affinity_label_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV affinity labels</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV affinity labels
+  ovirt_affinity_label_info:
+      auth: 
+      fetch_nested: 
+      host: 
+      name: 
+      nested_attributes: 
+      vm: 
+]]>
+	</content>
+</snippet>

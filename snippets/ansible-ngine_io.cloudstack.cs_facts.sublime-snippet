@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_facts</tabTrigger>
+	<description>Gather facts on instances of Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Gather facts on instances of Apache CloudStack based clouds.
+  cs_facts:
+      filter: 
+      meta_data_host: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_storage_pool</tabTrigger>
+	<description>Manages Primary Storage Pools on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages Primary Storage Pools on Apache CloudStack based clouds.
+  cs_storage_pool:
+      allocation_state: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      capacity_bytes: 
+      capacity_iops: 
+      cluster: 
+      hypervisor: 
+      managed: 
+      name: 
+      pod: 
+      provider: 
+      scope: 
+      state: 
+      storage_tags: 
+      storage_url: 
+      zone: 
+]]>
+	</content>
+</snippet>

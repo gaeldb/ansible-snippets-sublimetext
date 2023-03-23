@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.edgeos.edgeos_facts</tabTrigger>
+	<description>Collect facts from remote devices running EdgeOS</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running EdgeOS
+  edgeos_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

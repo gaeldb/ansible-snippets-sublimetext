@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_vlan</tabTrigger>
+	<description>Manage network VLAN interfaces in a Pure Storage FlashArray</description>
+	<content><![CDATA[
+- name: Manage network VLAN interfaces in a Pure Storage FlashArray
+  purefa_vlan:
+      address: 
+      api_token: 
+      enabled: 
+      fa_url: 
+      name: 
+      state: 
+      subnet: 
+]]>
+	</content>
+</snippet>

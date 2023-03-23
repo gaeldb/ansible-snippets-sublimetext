@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_volume_pair</tabTrigger>
+	<description>NetApp Element Software Volume Pair</description>
+	<content><![CDATA[
+- name: NetApp Element Software Volume Pair
+  na_elementsw_volume_pair:
+      dest_account: 
+      dest_mvip: 
+      dest_password: 
+      dest_username: 
+      dest_volume: 
+      hostname: 
+      mode: 
+      password: 
+      src_account: 
+      src_volume: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

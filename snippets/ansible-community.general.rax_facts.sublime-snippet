@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_facts</tabTrigger>
+	<description>Gather facts for Rackspace Cloud Servers</description>
+	<content><![CDATA[
+- name: Gather facts for Rackspace Cloud Servers
+  rax_facts:
+      address: 
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      id: 
+      identity_type: 
+      name: 
+      region: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

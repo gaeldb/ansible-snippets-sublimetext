@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_net_ifgrp</tabTrigger>
+	<description>NetApp Ontap modify network interface group</description>
+	<content><![CDATA[
+- name: NetApp Ontap modify network interface group
+  na_ontap_net_ifgrp:
+      cert_filepath: 
+      distribution_function: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      mode: 
+      name: 
+      node: 
+      ontapi: 
+      password: 
+      ports: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

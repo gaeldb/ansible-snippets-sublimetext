@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>frr.frr.frr_bgp</tabTrigger>
+	<description>Configure global BGP settings on Free Range Routing(FRR).</description>
+	<content><![CDATA[
+- name: Configure global BGP settings on Free Range Routing(FRR).
+  frr_bgp:
+      config: 
+      operation: 
+]]>
+	</content>
+</snippet>

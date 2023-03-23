@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_san_manager</tabTrigger>
+	<description>Manage OneView SAN Manager resources</description>
+	<content><![CDATA[
+- name: Manage OneView SAN Manager resources
+  oneview_san_manager:
+      api_version: 
+      config: 
+      data: 
+      hostname: 
+      image_streamer_hostname: 
+      password: 
+      state: 
+      username: 
+      validate_etag: 
+]]>
+	</content>
+</snippet>

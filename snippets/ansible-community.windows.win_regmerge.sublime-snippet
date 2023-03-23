@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_regmerge</tabTrigger>
+	<description>Merges the contents of a registry file into the Windows registry</description>
+	<content><![CDATA[
+- name: Merges the contents of a registry file into the Windows registry
+  win_regmerge:
+      compare_key: 
+      path: 
+]]>
+	</content>
+</snippet>

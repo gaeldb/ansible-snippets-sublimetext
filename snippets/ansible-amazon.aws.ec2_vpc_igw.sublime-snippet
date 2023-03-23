@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_igw</tabTrigger>
+	<description>Manage an AWS VPC Internet gateway</description>
+	<content><![CDATA[
+- name: Manage an AWS VPC Internet gateway
+  ec2_vpc_igw:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

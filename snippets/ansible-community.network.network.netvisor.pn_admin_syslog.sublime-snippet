@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_admin_syslog</tabTrigger>
+	<description>CLI command to create/modify/delete admin-syslog</description>
+	<content><![CDATA[
+- name: CLI command to create/modify/delete admin-syslog
+  pn_admin_syslog:
+      pn_cliswitch: 
+      pn_host: 
+      pn_message_format: 
+      pn_name: 
+      pn_port: 
+      pn_scope: 
+      pn_transport: 
+      state: 
+]]>
+	</content>
+</snippet>

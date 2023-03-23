@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ipsec_policy</tabTrigger>
+	<description>Manage IPSec policies on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage IPSec policies on a BIG-IP
+  bigip_ipsec_policy:
+      auth_algorithm: 
+      description: 
+      encrypt_algorithm: 
+      ipcomp: 
+      ipv4_interface: 
+      kb_lifetime: 
+      lifetime: 
+      mode: 
+      name: 
+      partition: 
+      perfect_forward_secrecy: 
+      protocol: 
+      provider: 
+      route_domain: 
+      state: 
+      tunnel_local_address: 
+      tunnel_remote_address: 
+]]>
+	</content>
+</snippet>

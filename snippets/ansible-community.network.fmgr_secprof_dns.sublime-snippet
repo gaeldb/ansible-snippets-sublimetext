@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.fmgr_secprof_dns</tabTrigger>
+	<description>Manage DNS security profiles in FortiManager</description>
+	<content><![CDATA[
+- name: Manage DNS security profiles in FortiManager
+  fmgr_secprof_dns:
+      adom: 
+      block_action: 
+      block_botnet: 
+      comment: 
+      domain_filter_domain_filter_table: 
+      external_ip_blocklist: 
+      ftgd_dns_filters_action: 
+      ftgd_dns_filters_category: 
+      ftgd_dns_filters_log: 
+      ftgd_dns_options: 
+      log_all_domain: 
+      mode: 
+      name: 
+      redirect_portal: 
+      safe_search: 
+      sdns_domain_log: 
+      sdns_ftgd_err_log: 
+      youtube_restrict: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vrf</tabTrigger>
+	<description>Manages global VRF configuration.</description>
+	<content><![CDATA[
+- name: Manages global VRF configuration.
+  nxos_vrf:
+      admin_state: 
+      aggregate: 
+      associated_interfaces: 
+      delay: 
+      description: 
+      interfaces: 
+      name: 
+      provider: 
+      purge: 
+      rd: 
+      state: 
+      vni: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vmlicense</tabTrigger>
+	<description>Update VM license using uploaded file. Reboots immediately if successful in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Update VM license using uploaded file. Reboots immediately if successful in Fortinet's FortiOS and FortiGate.
+  fortios_system_vmlicense:
+      host: 
+      https: 
+      password: 
+      ssl_verify: 
+      system_vmlicense: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

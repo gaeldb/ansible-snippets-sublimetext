@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_dnsfilter_domain_filter</tabTrigger>
+	<description>Configure DNS domain filters in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DNS domain filters in Fortinet's FortiOS and FortiGate.
+  fortios_dnsfilter_domain_filter:
+      access_token: 
+      dnsfilter_domain_filter: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

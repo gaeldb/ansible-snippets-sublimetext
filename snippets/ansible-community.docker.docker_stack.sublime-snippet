@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_stack</tabTrigger>
+	<description>docker stack module</description>
+	<content><![CDATA[
+- name: docker stack module
+  docker_stack:
+      absent_retries: 
+      absent_retries_interval: 
+      compose: 
+      name: 
+      prune: 
+      resolve_image: 
+      state: 
+      with_registry_auth: 
+]]>
+	</content>
+</snippet>

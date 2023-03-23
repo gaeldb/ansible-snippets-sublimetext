@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.auth_source_ldap</tabTrigger>
+	<description>Manage LDAP Authentication Sources</description>
+	<content><![CDATA[
+- name: Manage LDAP Authentication Sources
+  auth_source_ldap:
+      account: 
+      account_password: 
+      attr_firstname: 
+      attr_lastname: 
+      attr_login: 
+      attr_mail: 
+      attr_photo: 
+      base_dn: 
+      groups_base: 
+      host: 
+      ldap_filter: 
+      locations: 
+      name: 
+      onthefly_register: 
+      organizations: 
+      password: 
+      port: 
+      server_type: 
+      server_url: 
+      state: 
+      tls: 
+      use_netgroups: 
+      usergroup_sync: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

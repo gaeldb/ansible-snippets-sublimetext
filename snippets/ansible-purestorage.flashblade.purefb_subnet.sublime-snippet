@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_subnet</tabTrigger>
+	<description>Manage network subnets in a Pure Storage FlashBlade</description>
+	<content><![CDATA[
+- name: Manage network subnets in a Pure Storage FlashBlade
+  purefb_subnet:
+      api_token: 
+      fb_url: 
+      gateway: 
+      mtu: 
+      name: 
+      prefix: 
+      state: 
+      vlan: 
+]]>
+	</content>
+</snippet>

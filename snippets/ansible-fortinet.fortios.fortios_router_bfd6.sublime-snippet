@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_bfd6</tabTrigger>
+	<description>Configure IPv6 BFD in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 BFD in Fortinet's FortiOS and FortiGate.
+  fortios_router_bfd6:
+      access_token: 
+      router_bfd6: 
+      vdom: 
+]]>
+	</content>
+</snippet>

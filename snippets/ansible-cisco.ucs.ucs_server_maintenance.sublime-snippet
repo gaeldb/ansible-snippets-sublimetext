@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_server_maintenance</tabTrigger>
+	<description>Creates Server Maintenance Policy on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Creates Server Maintenance Policy on Cisco UCS Manager
+  ucs_server_maintenance:
+      description: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      trigger_config: 
+      uptime_disr: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

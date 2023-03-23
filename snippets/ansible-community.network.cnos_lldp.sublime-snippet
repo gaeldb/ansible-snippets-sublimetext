@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_lldp</tabTrigger>
+	<description>Manage LLDP configuration on Lenovo CNOS network devices.</description>
+	<content><![CDATA[
+- name: Manage LLDP configuration on Lenovo CNOS network devices.
+  cnos_lldp:
+      state: 
+]]>
+	</content>
+</snippet>

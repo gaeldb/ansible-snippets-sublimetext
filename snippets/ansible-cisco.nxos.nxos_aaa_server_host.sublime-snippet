@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_aaa_server_host</tabTrigger>
+	<description>Manages AAA server host-specific configuration.</description>
+	<content><![CDATA[
+- name: Manages AAA server host-specific configuration.
+  nxos_aaa_server_host:
+      acct_port: 
+      address: 
+      auth_port: 
+      encrypt_type: 
+      host_timeout: 
+      key: 
+      provider: 
+      server_type: 
+      state: 
+      tacacs_port: 
+]]>
+	</content>
+</snippet>

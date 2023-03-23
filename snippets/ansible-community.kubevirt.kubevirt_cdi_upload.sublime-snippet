@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubevirt.kubevirt_cdi_upload</tabTrigger>
+	<description>Upload local VM images to CDI Upload Proxy.</description>
+	<content><![CDATA[
+- name: Upload local VM images to CDI Upload Proxy.
+  kubevirt_cdi_upload:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      host: 
+      kubeconfig: 
+      merge_type: 
+      password: 
+      path: 
+      persist_config: 
+      proxy: 
+      pvc_name: 
+      pvc_namespace: 
+      upload_host: 
+      upload_host_validate_certs: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

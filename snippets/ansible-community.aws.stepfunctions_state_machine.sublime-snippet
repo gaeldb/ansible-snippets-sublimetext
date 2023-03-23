@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.stepfunctions_state_machine</tabTrigger>
+	<description>Manage AWS Step Functions state machines</description>
+	<content><![CDATA[
+- name: Manage AWS Step Functions state machines
+  stepfunctions_state_machine:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      definition: 
+      endpoint_url: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      role_arn: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

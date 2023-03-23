@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_network</tabTrigger>
+	<description>Module for setup of Network Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of Network Avi RESTful Object
+  avi_network:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_ref: 
+      configured_subnets: 
+      controller: 
+      dhcp_enabled: 
+      exclude_discovered_subnets: 
+      ip6_autocfg_enabled: 
+      name: 
+      password: 
+      state: 
+      synced_from_se: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+      vcenter_dvs: 
+      vimgrnw_ref: 
+      vrf_context_ref: 
+]]>
+	</content>
+</snippet>

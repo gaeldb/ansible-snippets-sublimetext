@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_lldp_interface</tabTrigger>
+	<description>Manages INTERFACE LLDP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages INTERFACE LLDP configuration on HUAWEI CloudEngine switches.
+  ce_lldp_interface:
+      dcbx: 
+      eee: 
+      function_lldp_interface_flag: 
+      ifname: 
+      linkaggretxenable: 
+      lldpadminstatus: 
+      lldpenable: 
+      macphytxenable: 
+      manaddrtxenable: 
+      maxframetxenable: 
+      portdesctxenable: 
+      portvlantxenable: 
+      protoidtxenable: 
+      protovlantxenable: 
+      state: 
+      syscaptxenable: 
+      sysdesctxenable: 
+      sysnametxenable: 
+      txinterval: 
+      txprotocolvlanid: 
+      txvlannameid: 
+      type_tlv_disable: 
+      type_tlv_enable: 
+      vlannametxenable: 
+]]>
+	</content>
+</snippet>

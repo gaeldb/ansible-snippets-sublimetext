@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_egress_igw</tabTrigger>
+	<description>Manage an AWS VPC Egress Only Internet gateway</description>
+	<content><![CDATA[
+- name: Manage an AWS VPC Egress Only Internet gateway
+  ec2_vpc_egress_igw:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

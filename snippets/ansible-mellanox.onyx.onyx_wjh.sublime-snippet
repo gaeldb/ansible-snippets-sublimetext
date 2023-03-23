@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_wjh</tabTrigger>
+	<description>Configure what-just-happend module</description>
+	<content><![CDATA[
+- name: Configure what-just-happend module
+  onyx_wjh:
+      auto_export: 
+      clear_group: 
+      enabled: 
+      export_group: 
+      group: 
+]]>
+	</content>
+</snippet>

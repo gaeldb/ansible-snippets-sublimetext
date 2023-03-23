@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ndmp</tabTrigger>
+	<description>NetApp ONTAP NDMP services configuration</description>
+	<content><![CDATA[
+- name: NetApp ONTAP NDMP services configuration
+  na_ontap_ndmp:
+      abort_on_disk_error: 
+      authtype: 
+      backup_log_enable: 
+      cert_filepath: 
+      data_port_range: 
+      debug_enable: 
+      debug_filter: 
+      dump_detailed_stats: 
+      dump_logical_find: 
+      enable: 
+      feature_flags: 
+      fh_dir_retry_interval: 
+      fh_node_retry_interval: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_ctime_enabled: 
+      is_secure_control_connection_enabled: 
+      key_filepath: 
+      offset_map_enable: 
+      ontapi: 
+      password: 
+      per_qtree_exclude_enable: 
+      preferred_interface_role: 
+      restore_vm_cache_size: 
+      secondary_debug_filter: 
+      tcpnodelay: 
+      tcpwinsize: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

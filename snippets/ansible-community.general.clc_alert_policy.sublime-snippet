@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_alert_policy</tabTrigger>
+	<description>Create or Delete Alert Policies at CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Create or Delete Alert Policies at CenturyLink Cloud
+  clc_alert_policy:
+      alert_recipients: 
+      alias: 
+      duration: 
+      id: 
+      metric: 
+      name: 
+      state: 
+      threshold: 
+]]>
+	</content>
+</snippet>

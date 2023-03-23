@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_cli_alias</tabTrigger>
+	<description>Manage CLI aliases on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage CLI aliases on a BIG-IP
+  bigip_cli_alias:
+      command: 
+      description: 
+      name: 
+      partition: 
+      provider: 
+      scope: 
+      state: 
+]]>
+	</content>
+</snippet>

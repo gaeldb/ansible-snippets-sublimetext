@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_rollback</tabTrigger>
+	<description>Rollback Kubernetes (K8S) Deployments and DaemonSets</description>
+	<content><![CDATA[
+- name: Rollback Kubernetes (K8S) Deployments and DaemonSets
+  k8s_rollback:
+      api_key: 
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      field_selectors: 
+      host: 
+      kind: 
+      kubeconfig: 
+      label_selectors: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

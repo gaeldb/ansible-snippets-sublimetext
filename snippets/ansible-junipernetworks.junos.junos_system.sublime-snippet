@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_system</tabTrigger>
+	<description>Manage the system attributes on Juniper JUNOS devices</description>
+	<content><![CDATA[
+- name: Manage the system attributes on Juniper JUNOS devices
+  junos_system:
+      active: 
+      domain_name: 
+      domain_search: 
+      hostname: 
+      name_servers: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

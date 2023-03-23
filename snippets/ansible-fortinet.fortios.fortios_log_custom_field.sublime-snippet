@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_custom_field</tabTrigger>
+	<description>Configure custom log fields in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure custom log fields in Fortinet's FortiOS and FortiGate.
+  fortios_log_custom_field:
+      access_token: 
+      log_custom_field: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

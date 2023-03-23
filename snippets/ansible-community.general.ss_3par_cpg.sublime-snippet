@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ss_3par_cpg</tabTrigger>
+	<description>Manage HPE StoreServ 3PAR CPG</description>
+	<content><![CDATA[
+- name: Manage HPE StoreServ 3PAR CPG
+  ss_3par_cpg:
+      cpg_name: 
+      disk_type: 
+      domain: 
+      growth_increment: 
+      growth_limit: 
+      growth_warning: 
+      high_availability: 
+      raid_type: 
+      secure: 
+      set_size: 
+      state: 
+      storage_system_ip: 
+      storage_system_password: 
+      storage_system_username: 
+]]>
+	</content>
+</snippet>

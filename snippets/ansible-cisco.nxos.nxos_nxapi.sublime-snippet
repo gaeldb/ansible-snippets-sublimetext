@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_nxapi</tabTrigger>
+	<description>Manage NXAPI configuration on an NXOS device.</description>
+	<content><![CDATA[
+- name: Manage NXAPI configuration on an NXOS device.
+  nxos_nxapi:
+      http: 
+      http_port: 
+      https: 
+      https_port: 
+      provider: 
+      sandbox: 
+      ssl_strong_ciphers: 
+      state: 
+      tlsv1_0: 
+      tlsv1_1: 
+      tlsv1_2: 
+]]>
+	</content>
+</snippet>

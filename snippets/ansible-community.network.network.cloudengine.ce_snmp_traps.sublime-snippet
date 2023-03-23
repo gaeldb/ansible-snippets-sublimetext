@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_snmp_traps</tabTrigger>
+	<description>Manages SNMP traps configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages SNMP traps configuration on HUAWEI CloudEngine switches.
+  ce_snmp_traps:
+      feature_name: 
+      interface_number: 
+      interface_type: 
+      port_number: 
+      trap_name: 
+]]>
+	</content>
+</snippet>

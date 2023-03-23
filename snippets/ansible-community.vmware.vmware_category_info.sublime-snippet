@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_category_info</tabTrigger>
+	<description>Gather info about VMware tag categories</description>
+	<content><![CDATA[
+- name: Gather info about VMware tag categories
+  vmware_category_info:
+      hostname: 
+      password: 
+      port: 
+      protocol: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

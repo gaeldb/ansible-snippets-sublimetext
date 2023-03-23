@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.rds_option_group_info</tabTrigger>
+	<description>rds_option_group_info module</description>
+	<content><![CDATA[
+- name: rds_option_group_info module
+  rds_option_group_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      engine_name: 
+      major_engine_version: 
+      marker: 
+      max_records: 
+      option_group_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

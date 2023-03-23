@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_image_info</tabTrigger>
+	<description>Gather info about images using podman</description>
+	<content><![CDATA[
+- name: Gather info about images using podman
+  podman_image_info:
+      executable: 
+      name: 
+]]>
+	</content>
+</snippet>

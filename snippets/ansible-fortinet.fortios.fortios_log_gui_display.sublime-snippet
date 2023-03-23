@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_gui_display</tabTrigger>
+	<description>Configure how log messages are displayed on the GUI in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure how log messages are displayed on the GUI in Fortinet's FortiOS and FortiGate.
+  fortios_log_gui_display:
+      access_token: 
+      log_gui_display: 
+      vdom: 
+]]>
+	</content>
+</snippet>

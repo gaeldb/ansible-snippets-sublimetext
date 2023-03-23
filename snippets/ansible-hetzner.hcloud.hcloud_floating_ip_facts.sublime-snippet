@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_floating_ip_facts</tabTrigger>
+	<description>Gather infos about the Hetzner Cloud Floating IPs.</description>
+	<content><![CDATA[
+- name: Gather infos about the Hetzner Cloud Floating IPs.
+  hcloud_floating_ip_info:
+      api_token: 
+      endpoint: 
+      id: 
+      label_selector: 
+]]>
+	</content>
+</snippet>

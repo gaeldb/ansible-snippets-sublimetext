@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_user</tabTrigger>
+	<description>Manage RabbitMQ users</description>
+	<content><![CDATA[
+- name: Manage RabbitMQ users
+  rabbitmq_user:
+      configure_priv: 
+      force: 
+      node: 
+      password: 
+      permissions: 
+      read_priv: 
+      state: 
+      tags: 
+      update_password: 
+      user: 
+      vhost: 
+      write_priv: 
+]]>
+	</content>
+</snippet>

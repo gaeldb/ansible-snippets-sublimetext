@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.apache2_mod_proxy</tabTrigger>
+	<description>Set and/or get members' attributes of an Apache httpd 2.4 mod_proxy balancer pool</description>
+	<content><![CDATA[
+- name: Set and/or get members' attributes of an Apache httpd 2.4 mod_proxy balancer pool
+  apache2_mod_proxy:
+      balancer_url_suffix: 
+      balancer_vhost: 
+      member_host: 
+      state: 
+      tls: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

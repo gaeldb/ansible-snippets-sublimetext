@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.one_host</tabTrigger>
+	<description>Manages OpenNebula Hosts</description>
+	<content><![CDATA[
+- name: Manages OpenNebula Hosts
+  one_host:
+      api_password: 
+      api_url: 
+      api_username: 
+      cluster_id: 
+      cluster_name: 
+      im_mad_name: 
+      labels: 
+      name: 
+      state: 
+      template: 
+      validate_certs: 
+      vmm_mad_name: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

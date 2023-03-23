@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.django_manage</tabTrigger>
+	<description>Manages a Django application</description>
+	<content><![CDATA[
+- name: Manages a Django application
+  django_manage:
+      ack_venv_creation_deprecation: 
+      apps: 
+      cache_table: 
+      clear: 
+      command: 
+      database: 
+      failfast: 
+      fixtures: 
+      link: 
+      merge: 
+      project_path: 
+      pythonpath: 
+      settings: 
+      skip: 
+      testrunner: 
+      virtualenv: 
+]]>
+	</content>
+</snippet>

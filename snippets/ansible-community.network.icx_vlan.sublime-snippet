@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.icx_vlan</tabTrigger>
+	<description>Manage VLANs on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage VLANs on Ruckus ICX 7000 series switches
+  icx_vlan:
+      aggregate: 
+      associated_interfaces: 
+      associated_tagged: 
+      check_running_config: 
+      delay: 
+      interfaces: 
+      ip_arp_inspection: 
+      ip_dhcp_snooping: 
+      name: 
+      purge: 
+      state: 
+      stp: 
+      tagged: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

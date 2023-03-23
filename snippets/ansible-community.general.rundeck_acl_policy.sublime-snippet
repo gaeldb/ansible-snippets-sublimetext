@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rundeck_acl_policy</tabTrigger>
+	<description>Manage Rundeck ACL policies</description>
+	<content><![CDATA[
+- name: Manage Rundeck ACL policies
+  rundeck_acl_policy:
+      api_version: 
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      http_agent: 
+      name: 
+      policy: 
+      project: 
+      state: 
+      token: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

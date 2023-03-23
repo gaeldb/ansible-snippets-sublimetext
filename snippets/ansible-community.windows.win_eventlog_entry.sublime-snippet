@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_eventlog_entry</tabTrigger>
+	<description>Write entries to Windows event logs</description>
+	<content><![CDATA[
+- name: Write entries to Windows event logs
+  win_eventlog_entry:
+      category: 
+      entry_type: 
+      event_id: 
+      log: 
+      message: 
+      raw_data: 
+      source: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_evpn_bd_vni</tabTrigger>
+	<description>Manages EVPN VXLAN Network Identifier (VNI) on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages EVPN VXLAN Network Identifier (VNI) on HUAWEI CloudEngine switches.
+  ce_evpn_bd_vni:
+      bridge_domain_id: 
+      evpn: 
+      route_distinguisher: 
+      state: 
+      vpn_target_both: 
+      vpn_target_export: 
+      vpn_target_import: 
+]]>
+	</content>
+</snippet>

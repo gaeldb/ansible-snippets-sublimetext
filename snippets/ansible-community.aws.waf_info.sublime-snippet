@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.waf_info</tabTrigger>
+	<description>Retrieve information for WAF ACLs, Rules, Conditions and Filters</description>
+	<content><![CDATA[
+- name: Retrieve information for WAF ACLs, Rules, Conditions and Filters
+  waf_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+      waf_regional: 
+]]>
+	</content>
+</snippet>

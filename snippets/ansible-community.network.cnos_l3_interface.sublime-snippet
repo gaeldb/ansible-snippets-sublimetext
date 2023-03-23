@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_l3_interface</tabTrigger>
+	<description>Manage Layer-3 interfaces on Lenovo CNOS network devices.</description>
+	<content><![CDATA[
+- name: Manage Layer-3 interfaces on Lenovo CNOS network devices.
+  cnos_l3_interface:
+      aggregate: 
+      ipv4: 
+      ipv6: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

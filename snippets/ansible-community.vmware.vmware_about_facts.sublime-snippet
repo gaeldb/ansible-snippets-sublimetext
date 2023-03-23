@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_about_facts</tabTrigger>
+	<description>Provides information about VMware server to which user is connecting to</description>
+	<content><![CDATA[
+- name: Provides information about VMware server to which user is connecting to
+  vmware_about_facts:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

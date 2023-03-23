@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.os_default_template</tabTrigger>
+	<description>Manage Default Template Associations To Operating Systems</description>
+	<content><![CDATA[
+- name: Manage Default Template Associations To Operating Systems
+  os_default_template:
+      operatingsystem: 
+      password: 
+      provisioning_template: 
+      server_url: 
+      state: 
+      template_kind: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

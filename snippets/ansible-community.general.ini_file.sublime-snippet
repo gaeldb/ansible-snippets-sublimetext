@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ini_file</tabTrigger>
+	<description>Tweak settings in INI files</description>
+	<content><![CDATA[
+- name: Tweak settings in INI files
+  ini_file:
+      allow_no_value: 
+      attributes: 
+      backup: 
+      create: 
+      exclusive: 
+      group: 
+      mode: 
+      no_extra_spaces: 
+      option: 
+      owner: 
+      path: 
+      section: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      unsafe_writes: 
+      value: 
+      values: 
+]]>
+	</content>
+</snippet>

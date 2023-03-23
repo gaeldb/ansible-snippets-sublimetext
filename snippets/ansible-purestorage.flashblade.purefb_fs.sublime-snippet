@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_fs</tabTrigger>
+	<description>Manage filesystemon Pure Storage FlashBlade`</description>
+	<content><![CDATA[
+- name: Manage filesystemon Pure Storage FlashBlade`
+  purefb_fs:
+      api_token: 
+      delete_link: 
+      discard_snaps: 
+      eradicate: 
+      fastremove: 
+      fb_url: 
+      group_quota: 
+      hard_limit: 
+      http: 
+      name: 
+      nfs_rules: 
+      nfsv3: 
+      nfsv4: 
+      policy: 
+      policy_state: 
+      promote: 
+      size: 
+      smb: 
+      smb_aclmode: 
+      snapshot: 
+      state: 
+      user_quota: 
+      writable: 
+]]>
+	</content>
+</snippet>

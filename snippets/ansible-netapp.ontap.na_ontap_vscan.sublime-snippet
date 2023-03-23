@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vscan</tabTrigger>
+	<description>NetApp ONTAP Vscan enable/disable.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Vscan enable/disable.
+  na_ontap_vscan:
+      cert_filepath: 
+      enable: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.repository_set</tabTrigger>
+	<description>Enable/disable Red Hat Repositories available through subscriptions</description>
+	<content><![CDATA[
+- name: Enable/disable Red Hat Repositories available through subscriptions
+  repository_set:
+      all_repositories: 
+      label: 
+      name: 
+      organization: 
+      password: 
+      product: 
+      repositories: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

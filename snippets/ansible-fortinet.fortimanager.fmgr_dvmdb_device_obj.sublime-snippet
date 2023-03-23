@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dvmdb_device_obj</tabTrigger>
+	<description>Device table, most attributes are read-only and can only be changed internally. Refer to Device Manager Command module for API to add, d...</description>
+	<content><![CDATA[
+- name: Device table, most attributes are read-only and can only be changed internally. Refer to Device Manager Command module for API to add, d...
+  fmgr_dvmdb_device_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

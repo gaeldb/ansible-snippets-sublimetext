@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_waf_signature</tabTrigger>
+	<description>Hidden table for datasource in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Hidden table for datasource in Fortinet's FortiOS and FortiGate.
+  fortios_waf_signature:
+      access_token: 
+      state: 
+      vdom: 
+      waf_signature: 
+]]>
+	</content>
+</snippet>

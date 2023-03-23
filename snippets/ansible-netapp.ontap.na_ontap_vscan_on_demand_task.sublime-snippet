@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_vscan_on_demand_task</tabTrigger>
+	<description>NetApp ONTAP Vscan on demand task configuration.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Vscan on demand task configuration.
+  na_ontap_vscan_on_demand_task:
+      cert_filepath: 
+      cross_junction: 
+      directory_recursion: 
+      feature_flags: 
+      file_ext_to_exclude: 
+      file_ext_to_include: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      max_file_size: 
+      ontapi: 
+      password: 
+      paths_to_exclude: 
+      report_directory: 
+      report_log_level: 
+      request_timeout: 
+      scan_files_with_no_ext: 
+      scan_paths: 
+      scan_priority: 
+      schedule: 
+      state: 
+      task_name: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

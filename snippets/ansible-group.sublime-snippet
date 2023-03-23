@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>group</tabTrigger>
+	<description>Add or remove groups</description>
+	<content><![CDATA[
+- name: Add or remove groups
+  group:
+      gid: 
+      local: 
+      name: 
+      non_unique: 
+      state: 
+      system: 
+]]>
+	</content>
+</snippet>

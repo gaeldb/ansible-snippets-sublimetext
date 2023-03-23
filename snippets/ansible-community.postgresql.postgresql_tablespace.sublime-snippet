@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_tablespace</tabTrigger>
+	<description>Add or remove PostgreSQL tablespaces from remote hosts</description>
+	<content><![CDATA[
+- name: Add or remove PostgreSQL tablespaces from remote hosts
+  postgresql_tablespace:
+      ca_cert: 
+      db: 
+      location: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      owner: 
+      port: 
+      rename_to: 
+      session_role: 
+      set: 
+      ssl_mode: 
+      state: 
+      tablespace: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

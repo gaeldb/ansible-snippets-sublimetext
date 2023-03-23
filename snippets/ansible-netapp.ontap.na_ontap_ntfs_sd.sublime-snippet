@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ntfs_sd</tabTrigger>
+	<description>NetApp ONTAP create, delete or modify NTFS security descriptor</description>
+	<content><![CDATA[
+- name: NetApp ONTAP create, delete or modify NTFS security descriptor
+  na_ontap_ntfs_sd:
+      cert_filepath: 
+      control_flags_raw: 
+      feature_flags: 
+      group: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      owner: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

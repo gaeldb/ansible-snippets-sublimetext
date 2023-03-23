@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rollbar_deployment</tabTrigger>
+	<description>Notify Rollbar about app deployments</description>
+	<content><![CDATA[
+- name: Notify Rollbar about app deployments
+  rollbar_deployment:
+      comment: 
+      environment: 
+      revision: 
+      rollbar_user: 
+      token: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

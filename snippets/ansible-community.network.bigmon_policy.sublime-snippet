@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.bigmon_policy</tabTrigger>
+	<description>Create and remove a bigmon out-of-band policy.</description>
+	<content><![CDATA[
+- name: Create and remove a bigmon out-of-band policy.
+  bigmon_policy:
+      access_token: 
+      action: 
+      controller: 
+      delivery_packet_count: 
+      duration: 
+      name: 
+      policy_description: 
+      priority: 
+      start_time: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

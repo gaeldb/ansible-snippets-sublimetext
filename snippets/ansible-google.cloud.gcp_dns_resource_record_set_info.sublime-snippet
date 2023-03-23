@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_dns_resource_record_set_info</tabTrigger>
+	<description>Gather info for GCP ResourceRecordSet</description>
+	<content><![CDATA[
+- name: Gather info for GCP ResourceRecordSet
+  gcp_dns_resource_record_set_info:
+      auth_kind: 
+      env_type: 
+      managed_zone: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

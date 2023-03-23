@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>raw</tabTrigger>
+	<description>Executes a low-down and dirty command</description>
+	<content><![CDATA[
+- name: Executes a low-down and dirty command
+  raw:
+      executable: 
+      free_form: 
+]]>
+	</content>
+</snippet>

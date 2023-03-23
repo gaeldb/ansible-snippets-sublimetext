@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>stat</tabTrigger>
+	<description>Retrieve file or file system status</description>
+	<content><![CDATA[
+- name: Retrieve file or file system status
+  stat:
+      checksum_algorithm: 
+      follow: 
+      get_attributes: 
+      get_checksum: 
+      get_mime: 
+      path: 
+]]>
+	</content>
+</snippet>

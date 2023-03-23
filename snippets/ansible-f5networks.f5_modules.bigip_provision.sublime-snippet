@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_provision</tabTrigger>
+	<description>Manage BIG-IP module provisioning</description>
+	<content><![CDATA[
+- name: Manage BIG-IP module provisioning
+  bigip_provision:
+      level: 
+      memory: 
+      module: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

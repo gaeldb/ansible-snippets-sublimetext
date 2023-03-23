@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_accprofile</tabTrigger>
+	<description>Configure access profiles for system administrators in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure access profiles for system administrators in Fortinet's FortiOS and FortiGate.
+  fortios_system_accprofile:
+      access_token: 
+      state: 
+      system_accprofile: 
+      vdom: 
+]]>
+	</content>
+</snippet>

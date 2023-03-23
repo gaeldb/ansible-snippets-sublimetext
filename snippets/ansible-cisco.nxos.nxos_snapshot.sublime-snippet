@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snapshot</tabTrigger>
+	<description>Manage snapshots of the running states of selected features.</description>
+	<content><![CDATA[
+- name: Manage snapshots of the running states of selected features.
+  nxos_snapshot:
+      action: 
+      compare_option: 
+      comparison_results_file: 
+      description: 
+      element_key1: 
+      element_key2: 
+      path: 
+      provider: 
+      row_id: 
+      save_snapshot_locally: 
+      section: 
+      show_command: 
+      snapshot1: 
+      snapshot2: 
+      snapshot_name: 
+]]>
+	</content>
+</snippet>

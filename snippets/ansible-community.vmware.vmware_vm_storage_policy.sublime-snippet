@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vm_storage_policy</tabTrigger>
+	<description>Create vSphere storage policies</description>
+	<content><![CDATA[
+- name: Create vSphere storage policies
+  vmware_vm_storage_policy:
+      description: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      tag_affinity: 
+      tag_category: 
+      tag_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

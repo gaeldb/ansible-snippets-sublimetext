@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_domain</tabTrigger>
+	<description>Create/delete a DNS domain in DigitalOcean</description>
+	<content><![CDATA[
+- name: Create/delete a DNS domain in DigitalOcean
+  digital_ocean_domain:
+      id: 
+      ip: 
+      name: 
+      oauth_token: 
+      state: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

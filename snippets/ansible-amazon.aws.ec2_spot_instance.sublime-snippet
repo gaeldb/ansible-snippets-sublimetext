@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_spot_instance</tabTrigger>
+	<description>Request, stop, reboot or cancel spot instance</description>
+	<content><![CDATA[
+- name: Request, stop, reboot or cancel spot instance
+  ec2_spot_instance:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      client_token: 
+      count: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      interruption: 
+      launch_group: 
+      launch_specification: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      spot_instance_request_ids: 
+      spot_price: 
+      spot_type: 
+      state: 
+      tags: 
+      validate_certs: 
+      zone_group: 
+]]>
+	</content>
+</snippet>

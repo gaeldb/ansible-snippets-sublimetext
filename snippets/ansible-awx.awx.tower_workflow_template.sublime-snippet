@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>awx.awx.tower_workflow_template</tabTrigger>
+	<description>create, update, or destroy Ansible Tower workflow template.</description>
+	<content><![CDATA[
+- name: create, update, or destroy Ansible Tower workflow template.
+  tower_workflow_template:
+      allow_simultaneous: 
+      ask_extra_vars: 
+      ask_inventory: 
+      description: 
+      extra_vars: 
+      inventory: 
+      name: 
+      organization: 
+      schema: 
+      state: 
+      survey: 
+      survey_enabled: 
+      tower_config_file: 
+      tower_host: 
+      tower_password: 
+      tower_username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

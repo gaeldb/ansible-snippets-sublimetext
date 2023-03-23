@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_ospfv3</tabTrigger>
+	<description>ospfv3 resource module</description>
+	<content><![CDATA[
+- name: ospfv3 resource module
+  iosxr_ospfv3:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

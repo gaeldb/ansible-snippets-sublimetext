@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_protected_branch</tabTrigger>
+	<description>Manage protection of existing branches</description>
+	<content><![CDATA[
+- name: Manage protection of existing branches
+  gitlab_protected_branch:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      merge_access_levels: 
+      name: 
+      project: 
+      push_access_level: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

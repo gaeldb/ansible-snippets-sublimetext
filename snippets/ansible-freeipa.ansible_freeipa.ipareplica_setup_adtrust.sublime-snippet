@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_adtrust</tabTrigger>
+	<description>Setup adtrust</description>
+	<content><![CDATA[
+- name: Setup adtrust
+  ipareplica_setup_adtrust:
+      _top_dir: 
+      adtrust_netbios_name: 
+      adtrust_reset_netbios_name: 
+      ccache: 
+      config_master_host_name: 
+      enable_compat: 
+      rid_base: 
+      secondary_rid_base: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>include</tabTrigger>
+	<description>Include a task list</description>
+	<content><![CDATA[
+- name: Include a task list
+  include:
+      free-form: 
+]]>
+	</content>
+</snippet>

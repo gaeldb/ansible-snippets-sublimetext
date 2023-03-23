@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ldap_entry</tabTrigger>
+	<description>Add or remove LDAP entries</description>
+	<content><![CDATA[
+- name: Add or remove LDAP entries
+  ldap_entry:
+      attributes: 
+      bind_dn: 
+      bind_pw: 
+      dn: 
+      objectClass: 
+      recursive: 
+      referrals_chasing: 
+      sasl_class: 
+      server_uri: 
+      start_tls: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

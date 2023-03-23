@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lvg</tabTrigger>
+	<description>Configure LVM volume groups</description>
+	<content><![CDATA[
+- name: Configure LVM volume groups
+  lvg:
+      force: 
+      pesize: 
+      pv_options: 
+      pvresize: 
+      pvs: 
+      state: 
+      vg: 
+      vg_options: 
+]]>
+	</content>
+</snippet>

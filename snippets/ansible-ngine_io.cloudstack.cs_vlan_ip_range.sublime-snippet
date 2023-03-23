@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_vlan_ip_range</tabTrigger>
+	<description>Manages VLAN IP ranges on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages VLAN IP ranges on Apache CloudStack based clouds.
+  cs_vlan_ip_range:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cidr_ipv6: 
+      domain: 
+      end_ip: 
+      end_ipv6: 
+      for_system_vms: 
+      for_virtual_network: 
+      gateway: 
+      gateway_ipv6: 
+      netmask: 
+      network: 
+      physical_network: 
+      pod: 
+      project: 
+      start_ip: 
+      start_ipv6: 
+      state: 
+      vlan: 
+      zone: 
+]]>
+	</content>
+</snippet>

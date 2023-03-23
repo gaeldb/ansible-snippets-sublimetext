@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_facts</tabTrigger>
+	<description>Gets facts about NX-OS switches</description>
+	<content><![CDATA[
+- name: Gets facts about NX-OS switches
+  nxos_facts:
+      gather_network_resources: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

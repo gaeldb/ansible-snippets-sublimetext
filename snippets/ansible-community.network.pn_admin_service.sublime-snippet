@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_admin_service</tabTrigger>
+	<description>CLI command to modify admin-service</description>
+	<content><![CDATA[
+- name: CLI command to modify admin-service
+  pn_admin_service:
+      pn__if: 
+      pn_cliswitch: 
+      pn_icmp: 
+      pn_net_api: 
+      pn_nfs: 
+      pn_snmp: 
+      pn_ssh: 
+      pn_web: 
+      pn_web_log: 
+      pn_web_port: 
+      pn_web_ssl: 
+      pn_web_ssl_port: 
+      state: 
+]]>
+	</content>
+</snippet>

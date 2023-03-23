@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ovh_monthly_billing</tabTrigger>
+	<description>Manage OVH monthly billing</description>
+	<content><![CDATA[
+- name: Manage OVH monthly billing
+  ovh_monthly_billing:
+      application_key: 
+      application_secret: 
+      consumer_key: 
+      endpoint: 
+      instance_id: 
+      project_id: 
+]]>
+	</content>
+</snippet>

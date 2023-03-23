@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.znode</tabTrigger>
+	<description>Create, delete, retrieve, and update znodes using ZooKeeper</description>
+	<content><![CDATA[
+- name: Create, delete, retrieve, and update znodes using ZooKeeper
+  znode:
+      auth_credential: 
+      auth_scheme: 
+      hosts: 
+      name: 
+      op: 
+      recursive: 
+      state: 
+      timeout: 
+      value: 
+]]>
+	</content>
+</snippet>

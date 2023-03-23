@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_net_adapter_feature</tabTrigger>
+	<description>Enable or disable certain network adapters.</description>
+	<content><![CDATA[
+- name: Enable or disable certain network adapters.
+  win_net_adapter_feature:
+      component_id: 
+      interface: 
+      state: 
+]]>
+	</content>
+</snippet>

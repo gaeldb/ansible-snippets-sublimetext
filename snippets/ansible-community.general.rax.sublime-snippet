@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax</tabTrigger>
+	<description>Create / delete an instance in Rackspace Public Cloud</description>
+	<content><![CDATA[
+- name: Create / delete an instance in Rackspace Public Cloud
+  rax:
+      api_key: 
+      auth_endpoint: 
+      auto_increment: 
+      boot_from_volume: 
+      boot_volume: 
+      boot_volume_size: 
+      boot_volume_terminate: 
+      config_drive: 
+      count: 
+      count_offset: 
+      credentials: 
+      disk_config: 
+      env: 
+      exact_count: 
+      extra_client_args: 
+      extra_create_args: 
+      files: 
+      flavor: 
+      group: 
+      identity_type: 
+      image: 
+      instance_ids: 
+      key_name: 
+      meta: 
+      name: 
+      networks: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      user_data: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

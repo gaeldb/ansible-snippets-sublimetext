@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_tenant_site</tabTrigger>
+	<description>Manage tenants with cloud sites.</description>
+	<content><![CDATA[
+- name: Manage tenants with cloud sites.
+  mso_tenant_site:
+      aws_access_key: 
+      aws_account_org: 
+      aws_trusted: 
+      azure_access_type: 
+      azure_active_directory_id: 
+      azure_active_directory_name: 
+      azure_application_id: 
+      azure_credential_name: 
+      azure_subscription_id: 
+      cloud_account: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      secret_key: 
+      security_domains: 
+      site: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

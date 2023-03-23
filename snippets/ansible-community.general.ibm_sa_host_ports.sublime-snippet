@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ibm_sa_host_ports</tabTrigger>
+	<description>Add host ports on IBM Spectrum Accelerate Family storage systems</description>
+	<content><![CDATA[
+- name: Add host ports on IBM Spectrum Accelerate Family storage systems
+  ibm_sa_host_ports:
+      endpoints: 
+      fcaddress: 
+      host: 
+      iscsi_name: 
+      num_of_visible_targets: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

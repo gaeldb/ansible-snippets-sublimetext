@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.easy_install</tabTrigger>
+	<description>Installs Python libraries</description>
+	<content><![CDATA[
+- name: Installs Python libraries
+  easy_install:
+      executable: 
+      name: 
+      state: 
+      virtualenv: 
+      virtualenv_command: 
+      virtualenv_site_packages: 
+]]>
+	</content>
+</snippet>

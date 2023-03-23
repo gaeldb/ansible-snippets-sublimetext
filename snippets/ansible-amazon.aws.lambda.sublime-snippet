@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.lambda</tabTrigger>
+	<description>Manage AWS Lambda functions</description>
+	<content><![CDATA[
+- name: Manage AWS Lambda functions
+  lambda:
+      access_key: 
+      architecture: 
+      aws_ca_bundle: 
+      aws_config: 
+      dead_letter_arn: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      environment_variables: 
+      handler: 
+      kms_key_arn: 
+      memory_size: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      role: 
+      runtime: 
+      s3_bucket: 
+      s3_key: 
+      s3_object_version: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      timeout: 
+      tracing_mode: 
+      validate_certs: 
+      vpc_security_group_ids: 
+      vpc_subnet_ids: 
+      zip_file: 
+]]>
+	</content>
+</snippet>

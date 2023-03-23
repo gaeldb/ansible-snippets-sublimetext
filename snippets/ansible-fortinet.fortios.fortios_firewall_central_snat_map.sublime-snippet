@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_central_snat_map</tabTrigger>
+	<description>Configure central SNAT policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure central SNAT policies in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_central_snat_map:
+      access_token: 
+      firewall_central_snat_map: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.scc_product</tabTrigger>
+	<description>Subscribe SUSE Customer Center Account Products</description>
+	<content><![CDATA[
+- name: Subscribe SUSE Customer Center Account Products
+  scc_product:
+      organization: 
+      password: 
+      scc_account: 
+      scc_product: 
+      server_url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

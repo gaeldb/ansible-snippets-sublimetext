@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_aaa_user</tabTrigger>
+	<description>Manage AAA users (aaa:User)</description>
+	<content><![CDATA[
+- name: Manage AAA users (aaa:User)
+  aci_aaa_user:
+      aaa_password: 
+      aaa_password_lifetime: 
+      aaa_password_update_required: 
+      aaa_user: 
+      annotation: 
+      certificate_name: 
+      clear_password_history: 
+      description: 
+      email: 
+      enabled: 
+      expiration: 
+      expires: 
+      first_name: 
+      host: 
+      last_name: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      phone: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

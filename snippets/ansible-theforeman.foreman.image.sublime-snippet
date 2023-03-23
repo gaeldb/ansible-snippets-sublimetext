@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.image</tabTrigger>
+	<description>Manage Images</description>
+	<content><![CDATA[
+- name: Manage Images
+  image:
+      architecture: 
+      compute_resource: 
+      image_password: 
+      image_username: 
+      name: 
+      operatingsystem: 
+      password: 
+      server_url: 
+      state: 
+      user_data: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

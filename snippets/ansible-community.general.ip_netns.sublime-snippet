@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ip_netns</tabTrigger>
+	<description>Manage network namespaces</description>
+	<content><![CDATA[
+- name: Manage network namespaces
+  ip_netns:
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

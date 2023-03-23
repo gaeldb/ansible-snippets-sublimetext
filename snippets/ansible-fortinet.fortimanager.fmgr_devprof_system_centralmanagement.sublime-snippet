@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_system_centralmanagement</tabTrigger>
+	<description>Configure central management.</description>
+	<content><![CDATA[
+- name: Configure central management.
+  fmgr_devprof_system_centralmanagement:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_event</tabTrigger>
+	<description>Create or delete an event in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Create or delete an event in oVirt/RHV
+  ovirt_event:
+      auth: 
+      cluster: 
+      custom_id: 
+      data_center: 
+      description: 
+      fetch_nested: 
+      host: 
+      id: 
+      nested_attributes: 
+      origin: 
+      poll_interval: 
+      severity: 
+      state: 
+      storage_domain: 
+      template: 
+      timeout: 
+      user: 
+      vm: 
+      wait: 
+]]>
+	</content>
+</snippet>

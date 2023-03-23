@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_autosupport_invoke</tabTrigger>
+	<description>NetApp ONTAP send AutoSupport message</description>
+	<content><![CDATA[
+- name: NetApp ONTAP send AutoSupport message
+  na_ontap_autosupport_invoke:
+      autosupport_message: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      type: 
+      uri: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

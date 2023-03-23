@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_inventory</tabTrigger>
+	<description>Collect information from Pure Storage FlashBlade</description>
+	<content><![CDATA[
+- name: Collect information from Pure Storage FlashBlade
+  purefb_inventory:
+      api_token: 
+      fb_url: 
+]]>
+	</content>
+</snippet>

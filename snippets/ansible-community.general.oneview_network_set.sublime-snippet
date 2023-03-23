@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_network_set</tabTrigger>
+	<description>Manage HPE OneView Network Set resources</description>
+	<content><![CDATA[
+- name: Manage HPE OneView Network Set resources
+  oneview_network_set:
+      api_version: 
+      config: 
+      data: 
+      hostname: 
+      image_streamer_hostname: 
+      password: 
+      state: 
+      username: 
+      validate_etag: 
+]]>
+	</content>
+</snippet>

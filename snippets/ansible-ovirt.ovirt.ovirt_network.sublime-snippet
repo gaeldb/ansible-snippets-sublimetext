@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_network</tabTrigger>
+	<description>Module to manage logical networks in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage logical networks in oVirt/RHV
+  ovirt_network:
+      auth: 
+      clusters: 
+      comment: 
+      data_center: 
+      description: 
+      external_provider: 
+      fetch_nested: 
+      id: 
+      label: 
+      mtu: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      timeout: 
+      vlan_tag: 
+      vm_network: 
+      wait: 
+]]>
+	</content>
+</snippet>

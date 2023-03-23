@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_ntp_policy</tabTrigger>
+	<description>NTP policy configuration for Cisco Intersight</description>
+	<content><![CDATA[
+- name: NTP policy configuration for Cisco Intersight
+  intersight_ntp_policy:
+      api_key_id: 
+      api_private_key: 
+      api_uri: 
+      description: 
+      enable: 
+      name: 
+      ntp_servers: 
+      organization: 
+      state: 
+      tags: 
+      timezone: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

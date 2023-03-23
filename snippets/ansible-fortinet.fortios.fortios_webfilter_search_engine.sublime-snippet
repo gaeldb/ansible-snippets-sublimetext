@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_search_engine</tabTrigger>
+	<description>Configure web filter search engines in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure web filter search engines in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_search_engine:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_search_engine: 
+]]>
+	</content>
+</snippet>

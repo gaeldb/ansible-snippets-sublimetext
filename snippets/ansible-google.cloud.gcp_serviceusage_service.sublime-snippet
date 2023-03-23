@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_serviceusage_service</tabTrigger>
+	<description>Creates a GCP Service</description>
+	<content><![CDATA[
+- name: Creates a GCP Service
+  gcp_serviceusage_service:
+      auth_kind: 
+      disable_dependent_services: 
+      env_type: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

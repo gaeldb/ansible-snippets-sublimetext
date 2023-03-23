@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jira</tabTrigger>
+	<description>Create and modify issues in a JIRA instance</description>
+	<content><![CDATA[
+- name: Create and modify issues in a JIRA instance
+  jira:
+      account_id: 
+      assignee: 
+      attachment: 
+      comment: 
+      comment_visibility: 
+      description: 
+      fields: 
+      inwardissue: 
+      issue: 
+      issuetype: 
+      jql: 
+      linktype: 
+      maxresults: 
+      operation: 
+      outwardissue: 
+      password: 
+      project: 
+      status: 
+      summary: 
+      timeout: 
+      token: 
+      uri: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

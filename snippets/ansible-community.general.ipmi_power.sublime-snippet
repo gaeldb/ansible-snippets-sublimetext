@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipmi_power</tabTrigger>
+	<description>Power management for machine</description>
+	<content><![CDATA[
+- name: Power management for machine
+  ipmi_power:
+      key: 
+      machine: 
+      name: 
+      password: 
+      port: 
+      state: 
+      timeout: 
+      user: 
+]]>
+	</content>
+</snippet>

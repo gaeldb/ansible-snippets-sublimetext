@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.git_config</tabTrigger>
+	<description>Read and write git configuration</description>
+	<content><![CDATA[
+- name: Read and write git configuration
+  git_config:
+      file: 
+      list_all: 
+      name: 
+      repo: 
+      scope: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

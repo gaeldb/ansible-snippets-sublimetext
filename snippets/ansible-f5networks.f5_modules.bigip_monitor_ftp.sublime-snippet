@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_ftp</tabTrigger>
+	<description>Manage FTP monitors on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage FTP monitors on a BIG-IP
+  bigip_monitor_ftp:
+      app_service: 
+      debug: 
+      description: 
+      filename: 
+      interval: 
+      ip: 
+      manual_resume: 
+      mode: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      state: 
+      target_password: 
+      target_username: 
+      time_until_up: 
+      timeout: 
+      up_interval: 
+      update_password: 
+]]>
+	</content>
+</snippet>

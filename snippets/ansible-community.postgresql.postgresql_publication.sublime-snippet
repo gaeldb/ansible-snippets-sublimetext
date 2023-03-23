@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_publication</tabTrigger>
+	<description>Add, update, or remove PostgreSQL publication</description>
+	<content><![CDATA[
+- name: Add, update, or remove PostgreSQL publication
+  postgresql_publication:
+      ca_cert: 
+      cascade: 
+      db: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      owner: 
+      parameters: 
+      port: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      tables: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sapcar_extract</tabTrigger>
+	<description>Manages SAP SAPCAR archives</description>
+	<content><![CDATA[
+- name: Manages SAP SAPCAR archives
+  sapcar_extract:
+      binary_path: 
+      dest: 
+      manifest: 
+      path: 
+      remove: 
+      security_library: 
+      signature: 
+]]>
+	</content>
+</snippet>

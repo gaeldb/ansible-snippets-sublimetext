@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_client_certificate</tabTrigger>
+	<description>NetApp E-Series manage remote server certificates.</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage remote server certificates.
+  na_santricity_client_certificate:
+      api_password: 
+      api_url: 
+      api_username: 
+      certificates: 
+      ssid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_delete_data_center_object</tabTrigger>
+	<description>Delete existing object using object name or uid.</description>
+	<content><![CDATA[
+- name: Delete existing object using object name or uid.
+  cp_mgmt_delete_data_center_object:
+      details_level: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

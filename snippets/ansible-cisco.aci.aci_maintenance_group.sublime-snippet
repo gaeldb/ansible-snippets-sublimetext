@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_maintenance_group</tabTrigger>
+	<description>This creates an ACI maintenance group</description>
+	<content><![CDATA[
+- name: This creates an ACI maintenance group
+  aci_maintenance_group:
+      annotation: 
+      certificate_name: 
+      group: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      policy: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

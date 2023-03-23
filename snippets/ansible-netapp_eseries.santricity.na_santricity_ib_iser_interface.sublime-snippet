@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_ib_iser_interface</tabTrigger>
+	<description>NetApp E-Series manage InfiniBand iSER interface configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage InfiniBand iSER interface configuration
+  na_santricity_ib_iser_interface:
+      address: 
+      api_password: 
+      api_url: 
+      api_username: 
+      channel: 
+      controller: 
+      ssid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

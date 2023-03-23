@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_device_discovery</tabTrigger>
+	<description>Manage BIG-IP devices through BIG-IQ</description>
+	<content><![CDATA[
+- name: Manage BIG-IP devices through BIG-IQ
+  bigiq_device_discovery:
+      access_conflict_policy: 
+      access_group_first_device: 
+      access_group_name: 
+      conflict_policy: 
+      device_address: 
+      device_conflict_policy: 
+      device_password: 
+      device_port: 
+      device_username: 
+      force: 
+      ha_name: 
+      modules: 
+      provider: 
+      state: 
+      statistics: 
+      use_bigiq_sync: 
+      versioned_conflict_policy: 
+]]>
+	</content>
+</snippet>

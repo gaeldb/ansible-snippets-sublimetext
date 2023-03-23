@@ -1,0 +1,50 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_fastl4</tabTrigger>
+	<description>Manages Fast L4 profiles</description>
+	<content><![CDATA[
+- name: Manages Fast L4 profiles
+  bigip_profile_fastl4:
+      client_timeout: 
+      description: 
+      explicit_flow_migration: 
+      hardware_syn_cookie: 
+      idle_timeout: 
+      ip_df_mode: 
+      ip_tos_to_client: 
+      ip_tos_to_server: 
+      ip_ttl_mode: 
+      ip_ttl_v4: 
+      ip_ttl_v6: 
+      keep_alive_interval: 
+      late_binding: 
+      link_qos_to_client: 
+      link_qos_to_server: 
+      loose_close: 
+      loose_initialization: 
+      mss_override: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      pva_acceleration: 
+      reassemble_fragments: 
+      receive_window_size: 
+      reset_on_timeout: 
+      rtt_from_client: 
+      rtt_from_server: 
+      server_sack: 
+      server_timestamp: 
+      state: 
+      syn_cookie_mss: 
+      tcp_close_timeout: 
+      tcp_generate_isn: 
+      tcp_handshake_timeout: 
+      tcp_strip_sack: 
+      tcp_time_wait_timeout: 
+      tcp_timestamp_mode: 
+      tcp_wscale_mode: 
+      timeout_recovery: 
+]]>
+	</content>
+</snippet>

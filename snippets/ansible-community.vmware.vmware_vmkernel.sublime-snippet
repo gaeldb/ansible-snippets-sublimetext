@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vmkernel</tabTrigger>
+	<description>Manages a VMware VMkernel Adapter of an ESXi host.</description>
+	<content><![CDATA[
+- name: Manages a VMware VMkernel Adapter of an ESXi host.
+  vmware_vmkernel:
+      device: 
+      dvswitch_name: 
+      enable_ft: 
+      enable_mgmt: 
+      enable_provisioning: 
+      enable_replication: 
+      enable_replication_nfc: 
+      enable_vmotion: 
+      enable_vsan: 
+      esxi_hostname: 
+      hostname: 
+      mtu: 
+      network: 
+      password: 
+      port: 
+      portgroup_name: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+      vswitch_name: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_lang</tabTrigger>
+	<description>Adds, removes or changes procedural languages with a PostgreSQL database</description>
+	<content><![CDATA[
+- name: Adds, removes or changes procedural languages with a PostgreSQL database
+  postgresql_lang:
+      ca_cert: 
+      cascade: 
+      db: 
+      fail_on_drop: 
+      force_trust: 
+      lang: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      owner: 
+      port: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      trust: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

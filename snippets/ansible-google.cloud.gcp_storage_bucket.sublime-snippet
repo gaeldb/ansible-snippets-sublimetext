@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_storage_bucket</tabTrigger>
+	<description>Creates a GCP Bucket</description>
+	<content><![CDATA[
+- name: Creates a GCP Bucket
+  gcp_storage_bucket:
+      acl: 
+      auth_kind: 
+      cors: 
+      default_event_based_hold: 
+      default_object_acl: 
+      env_type: 
+      labels: 
+      lifecycle: 
+      location: 
+      logging: 
+      metageneration: 
+      name: 
+      owner: 
+      predefined_default_object_acl: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      storage_class: 
+      versioning: 
+      website: 
+]]>
+	</content>
+</snippet>

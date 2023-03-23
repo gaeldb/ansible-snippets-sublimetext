@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_lock_facts</tabTrigger>
+	<description>Manage Azure locks</description>
+	<content><![CDATA[
+- name: Manage Azure locks
+  azure_rm_lock_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      managed_resource_id: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      subscription_id: 
+      tenant: 
+]]>
+	</content>
+</snippet>

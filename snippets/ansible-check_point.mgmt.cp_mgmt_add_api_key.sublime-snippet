@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_add_api_key</tabTrigger>
+	<description>Add API key for administrator, to enable login with it. For the key to be valid publish is needed.</description>
+	<content><![CDATA[
+- name: Add API key for administrator, to enable login with it. For the key to be valid publish is needed.
+  cp_mgmt_add_api_key:
+      admin_name: 
+      admin_uid: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

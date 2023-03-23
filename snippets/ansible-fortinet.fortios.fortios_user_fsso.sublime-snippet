@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_fsso</tabTrigger>
+	<description>Configure Fortinet Single Sign On (FSSO) agents in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Fortinet Single Sign On (FSSO) agents in Fortinet's FortiOS and FortiGate.
+  fortios_user_fsso:
+      access_token: 
+      state: 
+      user_fsso: 
+      vdom: 
+]]>
+	</content>
+</snippet>

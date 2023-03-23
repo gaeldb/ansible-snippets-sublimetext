@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_iptables_config</tabTrigger>
+	<description>Set network IPTables parameters in WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Set network IPTables parameters in WTI OOB and PDU devices
+  cpm_iptables_config:
+      clear: 
+      command: 
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      index: 
+      protocol: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

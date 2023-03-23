@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_prepare</tabTrigger>
+	<description>Prepare IPA server deployment</description>
+	<content><![CDATA[
+- name: Prepare IPA server deployment
+  ipaserver_prepare:
+      _hostname_overridden: 
+      allow_zone_overlap: 
+      auto_forwarders: 
+      auto_reverse: 
+      ca_cert_files: 
+      ca_subject: 
+      dm_password: 
+      domain: 
+      enable_compat: 
+      external_ca: 
+      external_ca_profile: 
+      external_ca_type: 
+      external_cert_files: 
+      force: 
+      forward_policy: 
+      forwarders: 
+      hostname: 
+      ip_addresses: 
+      netbios_name: 
+      no_dnssec_validation: 
+      no_forwarders: 
+      no_host_dns: 
+      no_reverse: 
+      password: 
+      random_serial_numbers: 
+      realm: 
+      reverse_zones: 
+      rid_base: 
+      secondary_rid_base: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      sid_generation_always: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

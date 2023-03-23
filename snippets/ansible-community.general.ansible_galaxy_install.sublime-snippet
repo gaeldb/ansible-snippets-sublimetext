@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ansible_galaxy_install</tabTrigger>
+	<description>Install Ansible roles or collections using ansible-galaxy</description>
+	<content><![CDATA[
+- name: Install Ansible roles or collections using ansible-galaxy
+  ansible_galaxy_install:
+      ack_ansible29: 
+      ack_min_ansiblecore211: 
+      dest: 
+      force: 
+      name: 
+      no_deps: 
+      requirements_file: 
+      type: 
+]]>
+	</content>
+</snippet>

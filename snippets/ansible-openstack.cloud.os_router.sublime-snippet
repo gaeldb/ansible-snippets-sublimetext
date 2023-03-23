@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_router</tabTrigger>
+	<description>Create or delete routers from OpenStack</description>
+	<content><![CDATA[
+- name: Create or delete routers from OpenStack
+  router:
+      admin_state_up: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      enable_snat: 
+      external_fixed_ips: 
+      interface: 
+      interfaces: 
+      name: 
+      network: 
+      project: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

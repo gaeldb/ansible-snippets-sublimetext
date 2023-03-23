@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jenkins_script</tabTrigger>
+	<description>Executes a groovy script in the jenkins instance</description>
+	<content><![CDATA[
+- name: Executes a groovy script in the jenkins instance
+  jenkins_script:
+      args: 
+      password: 
+      script: 
+      timeout: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

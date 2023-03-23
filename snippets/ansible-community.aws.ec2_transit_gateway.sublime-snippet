@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_transit_gateway</tabTrigger>
+	<description>Create and delete AWS Transit Gateways</description>
+	<content><![CDATA[
+- name: Create and delete AWS Transit Gateways
+  ec2_transit_gateway:
+      access_key: 
+      asn: 
+      auto_associate: 
+      auto_attach: 
+      auto_propagate: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      dns_support: 
+      endpoint_url: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      transit_gateway_id: 
+      validate_certs: 
+      vpn_ecmp_support: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

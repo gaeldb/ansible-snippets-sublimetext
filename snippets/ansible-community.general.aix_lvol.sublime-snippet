@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.aix_lvol</tabTrigger>
+	<description>Configure AIX LVM logical volumes</description>
+	<content><![CDATA[
+- name: Configure AIX LVM logical volumes
+  aix_lvol:
+      copies: 
+      lv: 
+      lv_type: 
+      opts: 
+      policy: 
+      pvs: 
+      size: 
+      state: 
+      vg: 
+]]>
+	</content>
+</snippet>

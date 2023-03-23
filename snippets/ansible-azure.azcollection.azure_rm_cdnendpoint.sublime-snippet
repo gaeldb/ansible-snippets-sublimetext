@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_cdnendpoint</tabTrigger>
+	<description>Manage a Azure CDN endpoint</description>
+	<content><![CDATA[
+- name: Manage a Azure CDN endpoint
+  azure_rm_cdnendpoint:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      content_types_to_compress: 
+      is_compression_enabled: 
+      is_http_allowed: 
+      is_https_allowed: 
+      location: 
+      name: 
+      origin_host_header: 
+      origin_path: 
+      origins: 
+      password: 
+      profile: 
+      profile_name: 
+      purge: 
+      purge_content_paths: 
+      query_string_caching_behavior: 
+      resource_group: 
+      secret: 
+      started: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

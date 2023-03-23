@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_dhcp6_server</tabTrigger>
+	<description>Configure DHCPv6 servers in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DHCPv6 servers in Fortinet's FortiOS and FortiGate.
+  fortios_system_dhcp6_server:
+      access_token: 
+      state: 
+      system_dhcp6_server: 
+      vdom: 
+]]>
+	</content>
+</snippet>

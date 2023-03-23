@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_hotspot20_qos_map</tabTrigger>
+	<description>Configure QoS map set in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure QoS map set in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_hotspot20_qos_map:
+      access_token: 
+      state: 
+      vdom: 
+      wireless_controller_hotspot20_qos_map: 
+]]>
+	</content>
+</snippet>

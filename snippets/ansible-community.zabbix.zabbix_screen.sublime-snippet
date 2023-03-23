@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_screen</tabTrigger>
+	<description>Create/update/delete Zabbix screens</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix screens
+  zabbix_screen:
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      screens: 
+      server_url: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

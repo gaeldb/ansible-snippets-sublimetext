@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.awall</tabTrigger>
+	<description>Manage awall policies</description>
+	<content><![CDATA[
+- name: Manage awall policies
+  awall:
+      activate: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

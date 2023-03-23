@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.s3_lifecycle</tabTrigger>
+	<description>Manage S3 bucket lifecycle rules in AWS</description>
+	<content><![CDATA[
+- name: Manage S3 bucket lifecycle rules in AWS
+  s3_lifecycle:
+      abort_incomplete_multipart_upload_days: 
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      expiration_date: 
+      expiration_days: 
+      expire_object_delete_marker: 
+      name: 
+      noncurrent_version_expiration_days: 
+      noncurrent_version_storage_class: 
+      noncurrent_version_transition_days: 
+      noncurrent_version_transitions: 
+      prefix: 
+      profile: 
+      purge_transitions: 
+      region: 
+      rule_id: 
+      secret_key: 
+      session_token: 
+      state: 
+      status: 
+      storage_class: 
+      transition_date: 
+      transition_days: 
+      transitions: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

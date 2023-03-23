@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_mlengine_model</tabTrigger>
+	<description>Creates a GCP Model</description>
+	<content><![CDATA[
+- name: Creates a GCP Model
+  gcp_mlengine_model:
+      auth_kind: 
+      default_version: 
+      description: 
+      env_type: 
+      labels: 
+      name: 
+      online_prediction_console_logging: 
+      online_prediction_logging: 
+      project: 
+      regions: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

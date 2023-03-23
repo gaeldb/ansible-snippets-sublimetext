@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vertica_configuration</tabTrigger>
+	<description>Updates Vertica configuration parameters</description>
+	<content><![CDATA[
+- name: Updates Vertica configuration parameters
+  vertica_configuration:
+      cluster: 
+      db: 
+      login_password: 
+      login_user: 
+      parameter: 
+      port: 
+      value: 
+]]>
+	</content>
+</snippet>

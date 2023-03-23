@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_job</tabTrigger>
+	<description>Module to manage jobs in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage jobs in oVirt/RHV
+  ovirt_job:
+      auth: 
+      description: 
+      fetch_nested: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      steps: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

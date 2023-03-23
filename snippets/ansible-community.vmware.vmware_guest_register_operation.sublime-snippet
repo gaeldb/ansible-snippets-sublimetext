@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_register_operation</tabTrigger>
+	<description>VM inventory registration operation</description>
+	<content><![CDATA[
+- name: VM inventory registration operation
+  vmware_guest_register_operation:
+      cluster: 
+      datacenter: 
+      esxi_hostname: 
+      folder: 
+      hostname: 
+      name: 
+      password: 
+      path: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      resource_pool: 
+      state: 
+      template: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

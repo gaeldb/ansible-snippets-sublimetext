@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>apt</tabTrigger>
+	<description>Manages apt-packages</description>
+	<content><![CDATA[
+- name: Manages apt-packages
+  apt:
+      allow_change_held_packages: 
+      allow_downgrade: 
+      allow_unauthenticated: 
+      autoclean: 
+      autoremove: 
+      cache_valid_time: 
+      clean: 
+      deb: 
+      default_release: 
+      dpkg_options: 
+      fail_on_autoremove: 
+      force: 
+      force_apt_get: 
+      install_recommends: 
+      lock_timeout: 
+      name: 
+      only_upgrade: 
+      policy_rc_d: 
+      purge: 
+      state: 
+      update_cache: 
+      update_cache_retries: 
+      update_cache_retry_max_delay: 
+      upgrade: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_network</tabTrigger>
+	<description>Create / delete an isolated network in Rackspace Public Cloud</description>
+	<content><![CDATA[
+- name: Create / delete an isolated network in Rackspace Public Cloud
+  rax_network:
+      api_key: 
+      auth_endpoint: 
+      cidr: 
+      credentials: 
+      env: 
+      identity_type: 
+      label: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

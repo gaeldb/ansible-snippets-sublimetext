@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_security_rule</tabTrigger>
+	<description>Create security rule policy on PAN-OS devices or Panorama management console.</description>
+	<content><![CDATA[
+- name: Create security rule policy on PAN-OS devices or Panorama management console.
+  panos_security_rule:
+      action: 
+      antivirus: 
+      api_key: 
+      application: 
+      category: 
+      commit: 
+      data_filtering: 
+      description: 
+      destination_ip: 
+      destination_zone: 
+      devicegroup: 
+      file_blocking: 
+      group_profile: 
+      hip_profiles: 
+      ip_address: 
+      log_end: 
+      log_start: 
+      operation: 
+      password: 
+      rule_name: 
+      rule_type: 
+      service: 
+      source_ip: 
+      source_user: 
+      source_zone: 
+      spyware: 
+      tag_name: 
+      url_filtering: 
+      username: 
+      vulnerability: 
+      wildfire_analysis: 
+]]>
+	</content>
+</snippet>

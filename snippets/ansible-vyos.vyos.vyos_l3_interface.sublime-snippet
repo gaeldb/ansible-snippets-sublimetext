@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_l3_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage L3 interfaces on VyOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage L3 interfaces on VyOS network devices
+  vyos_l3_interface:
+      aggregate: 
+      ipv4: 
+      ipv6: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

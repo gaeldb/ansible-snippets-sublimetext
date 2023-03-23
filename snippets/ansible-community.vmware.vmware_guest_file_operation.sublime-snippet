@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_file_operation</tabTrigger>
+	<description>Files operation in a VMware guest operating system without network</description>
+	<content><![CDATA[
+- name: Files operation in a VMware guest operating system without network
+  vmware_guest_file_operation:
+      cluster: 
+      copy: 
+      datacenter: 
+      directory: 
+      fetch: 
+      folder: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+      vm_id: 
+      vm_id_type: 
+      vm_password: 
+      vm_username: 
+]]>
+	</content>
+</snippet>

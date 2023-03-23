@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_eventlog</tabTrigger>
+	<description>Manage Windows event logs</description>
+	<content><![CDATA[
+- name: Manage Windows event logs
+  win_eventlog:
+      category_file: 
+      maximum_size: 
+      message_file: 
+      name: 
+      overflow_action: 
+      parameter_file: 
+      retention_days: 
+      sources: 
+      state: 
+]]>
+	</content>
+</snippet>

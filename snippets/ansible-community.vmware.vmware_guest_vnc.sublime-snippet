@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_vnc</tabTrigger>
+	<description>Manages VNC remote display on virtual machines in vCenter</description>
+	<content><![CDATA[
+- name: Manages VNC remote display on virtual machines in vCenter
+  vmware_guest_vnc:
+      datacenter: 
+      folder: 
+      hostname: 
+      moid: 
+      name: 
+      name_match: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      uuid: 
+      validate_certs: 
+      vnc_ip: 
+      vnc_password: 
+      vnc_port: 
+]]>
+	</content>
+</snippet>

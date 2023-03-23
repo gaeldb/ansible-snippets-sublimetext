@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mysql.mysql_query</tabTrigger>
+	<description>Run MySQL queries</description>
+	<content><![CDATA[
+- name: Run MySQL queries
+  mysql_query:
+      ca_cert: 
+      check_hostname: 
+      client_cert: 
+      client_key: 
+      config_file: 
+      connect_timeout: 
+      login_db: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      named_args: 
+      positional_args: 
+      query: 
+      single_transaction: 
+]]>
+	</content>
+</snippet>

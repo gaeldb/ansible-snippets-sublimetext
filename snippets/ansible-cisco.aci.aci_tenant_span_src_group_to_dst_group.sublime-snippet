@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_tenant_span_src_group_to_dst_group</tabTrigger>
+	<description>Bind SPAN source groups to destination groups (span:SpanLbl)</description>
+	<content><![CDATA[
+- name: Bind SPAN source groups to destination groups (span:SpanLbl)
+  aci_tenant_span_src_group_to_dst_group:
+      annotation: 
+      certificate_name: 
+      description: 
+      dst_group: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      src_group: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

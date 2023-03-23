@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_login</tabTrigger>
+	<description>Log into a Docker registry.</description>
+	<content><![CDATA[
+- name: Log into a Docker registry.
+  docker_login:
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      config_path: 
+      debug: 
+      docker_host: 
+      email: 
+      password: 
+      reauthorize: 
+      registry_url: 
+      ssl_version: 
+      state: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

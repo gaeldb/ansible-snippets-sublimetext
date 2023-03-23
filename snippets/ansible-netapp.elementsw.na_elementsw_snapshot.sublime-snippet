@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_snapshot</tabTrigger>
+	<description>NetApp Element Software Manage Snapshots</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Snapshots
+  na_elementsw_snapshot:
+      account_id: 
+      enable_remote_replication: 
+      expiration_time: 
+      hostname: 
+      name: 
+      password: 
+      retention: 
+      snap_mirror_label: 
+      src_snapshot_id: 
+      src_volume_id: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

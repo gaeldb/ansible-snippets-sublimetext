@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_datastore_maintenancemode</tabTrigger>
+	<description>Place a datastore into maintenance mode</description>
+	<content><![CDATA[
+- name: Place a datastore into maintenance mode
+  vmware_datastore_maintenancemode:
+      cluster_name: 
+      datastore: 
+      datastore_cluster: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

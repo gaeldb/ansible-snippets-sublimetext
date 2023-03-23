@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.sns_topic_info</tabTrigger>
+	<description>sns_topic_info module</description>
+	<content><![CDATA[
+- name: sns_topic_info module
+  sns_topic_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      topic_arn: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

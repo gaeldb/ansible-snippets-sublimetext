@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.profitbricks_volume_attachments</tabTrigger>
+	<description>Attach or detach a volume</description>
+	<content><![CDATA[
+- name: Attach or detach a volume
+  profitbricks_volume_attachments:
+      datacenter: 
+      server: 
+      state: 
+      subscription_password: 
+      subscription_user: 
+      volume: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

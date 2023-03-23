@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_access_list</tabTrigger>
+	<description>Configure access lists in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure access lists in Fortinet's FortiOS and FortiGate.
+  fortios_router_access_list:
+      access_token: 
+      router_access_list: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

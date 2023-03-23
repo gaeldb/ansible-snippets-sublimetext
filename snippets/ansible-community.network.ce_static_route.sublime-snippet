@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_static_route</tabTrigger>
+	<description>Manages static route configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages static route configuration on HUAWEI CloudEngine switches.
+  ce_static_route:
+      aftype: 
+      description: 
+      destvrf: 
+      mask: 
+      next_hop: 
+      nhp_interface: 
+      pref: 
+      prefix: 
+      state: 
+      tag: 
+      vrf: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_bd_subnet</tabTrigger>
+	<description>Manage Subnets (fv:Subnet)</description>
+	<content><![CDATA[
+- name: Manage Subnets (fv:Subnet)
+  aci_bd_subnet:
+      annotation: 
+      bd: 
+      certificate_name: 
+      description: 
+      enable_vip: 
+      gateway: 
+      host: 
+      mask: 
+      name_alias: 
+      nd_prefix_policy: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      preferred: 
+      private_key: 
+      route_profile: 
+      route_profile_l3_out: 
+      scope: 
+      state: 
+      subnet_control: 
+      subnet_name: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

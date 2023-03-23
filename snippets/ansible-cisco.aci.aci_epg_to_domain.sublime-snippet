@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_epg_to_domain</tabTrigger>
+	<description>Bind EPGs to Domains (fv:RsDomAtt)</description>
+	<content><![CDATA[
+- name: Bind EPGs to Domains (fv:RsDomAtt)
+  aci_epg_to_domain:
+      allow_useg: 
+      annotation: 
+      ap: 
+      certificate_name: 
+      deploy_immediacy: 
+      domain: 
+      domain_type: 
+      encap: 
+      encap_mode: 
+      epg: 
+      host: 
+      netflow: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      primary_encap: 
+      private_key: 
+      promiscuous: 
+      resolution_immediacy: 
+      state: 
+      switching_mode: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vm_provider: 
+]]>
+	</content>
+</snippet>

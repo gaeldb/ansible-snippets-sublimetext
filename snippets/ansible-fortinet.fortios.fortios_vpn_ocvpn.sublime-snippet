@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ocvpn</tabTrigger>
+	<description>Configure One-Click VPN settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure One-Click VPN settings in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ocvpn:
+      access_token: 
+      vdom: 
+      vpn_ocvpn: 
+]]>
+	</content>
+</snippet>

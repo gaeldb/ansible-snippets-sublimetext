@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_load_cache</tabTrigger>
+	<description>Load cache file</description>
+	<content><![CDATA[
+- name: Load cache file
+  ipaserver_load_cache:
+      dm_password: 
+]]>
+	</content>
+</snippet>

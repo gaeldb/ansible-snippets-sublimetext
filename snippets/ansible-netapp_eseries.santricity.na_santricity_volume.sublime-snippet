@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_volume</tabTrigger>
+	<description>NetApp E-Series manage storage volumes (standard and thin)</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage storage volumes (standard and thin)
+  na_santricity_volume:
+      api_password: 
+      api_url: 
+      api_username: 
+      cache_without_batteries: 
+      data_assurance_enabled: 
+      name: 
+      owning_controller: 
+      read_ahead_enable: 
+      read_cache_enable: 
+      segment_size_kb: 
+      size: 
+      size_unit: 
+      ssd_cache_enabled: 
+      ssid: 
+      state: 
+      storage_pool_name: 
+      thin_provision: 
+      thin_volume_expansion_policy: 
+      thin_volume_growth_alert_threshold: 
+      thin_volume_max_repo_size: 
+      thin_volume_repo_size: 
+      validate_certs: 
+      volume_metadata: 
+      wait_for_initialization: 
+      workload_metadata: 
+      workload_name: 
+      write_cache_enable: 
+]]>
+	</content>
+</snippet>

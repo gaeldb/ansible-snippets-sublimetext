@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_current_info</tabTrigger>
+	<description>Get the Current Information of a WTI device</description>
+	<content><![CDATA[
+- name: Get the Current Information of a WTI device
+  cpm_current_info:
+      cpm_enddate: 
+      cpm_password: 
+      cpm_startdate: 
+      cpm_url: 
+      cpm_username: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

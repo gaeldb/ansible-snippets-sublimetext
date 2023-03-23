@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vcenter_extension</tabTrigger>
+	<description>Register/deregister vCenter Extensions</description>
+	<content><![CDATA[
+- name: Register/deregister vCenter Extensions
+  vcenter_extension:
+      client_type: 
+      company: 
+      description: 
+      email: 
+      extension_key: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      server_type: 
+      ssl_thumbprint: 
+      state: 
+      url: 
+      username: 
+      validate_certs: 
+      version: 
+      visible: 
+]]>
+	</content>
+</snippet>

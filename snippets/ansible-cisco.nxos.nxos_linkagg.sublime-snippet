@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_linkagg</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage link aggregation groups on Cisco NXOS devices.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage link aggregation groups on Cisco NXOS devices.
+  nxos_linkagg:
+      aggregate: 
+      force: 
+      group: 
+      members: 
+      min_links: 
+      mode: 
+      provider: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

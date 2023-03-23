@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_iis_webapppool</tabTrigger>
+	<description>Configure IIS Web Application Pools</description>
+	<content><![CDATA[
+- name: Configure IIS Web Application Pools
+  win_iis_webapppool:
+      attributes: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>known_hosts</tabTrigger>
+	<description>Add or remove a host from the `known_hosts' file</description>
+	<content><![CDATA[
+- name: Add or remove a host from the `known_hosts' file
+  known_hosts:
+      hash_host: 
+      key: 
+      name: 
+      path: 
+      state: 
+]]>
+	</content>
+</snippet>

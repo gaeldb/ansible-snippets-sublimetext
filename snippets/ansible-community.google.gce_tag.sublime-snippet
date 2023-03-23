@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_tag</tabTrigger>
+	<description>add or remove tag(s) to/from GCE instances</description>
+	<content><![CDATA[
+- name: add or remove tag(s) to/from GCE instances
+  gce_tag:
+      instance_name: 
+      instance_pattern: 
+      pem_file: 
+      project_id: 
+      service_account_email: 
+      state: 
+      tags: 
+      zone: 
+]]>
+	</content>
+</snippet>

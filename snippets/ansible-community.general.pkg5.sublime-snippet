@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pkg5</tabTrigger>
+	<description>Manages packages with the Solaris 11 Image Packaging System</description>
+	<content><![CDATA[
+- name: Manages packages with the Solaris 11 Image Packaging System
+  pkg5:
+      accept_licenses: 
+      be_name: 
+      name: 
+      refresh: 
+      state: 
+]]>
+	</content>
+</snippet>

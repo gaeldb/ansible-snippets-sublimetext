@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_updates</tabTrigger>
+	<description>Download and install Windows updates</description>
+	<content><![CDATA[
+- name: Download and install Windows updates
+  win_updates:
+      blacklist: 
+      category_names: 
+      log_path: 
+      reboot: 
+      reboot_timeout: 
+      server_selection: 
+      state: 
+      use_scheduled_task: 
+      whitelist: 
+]]>
+	</content>
+</snippet>

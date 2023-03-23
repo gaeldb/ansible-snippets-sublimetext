@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_command</tabTrigger>
+	<description>Executes a command on a remote Windows node</description>
+	<content><![CDATA[
+- name: Executes a command on a remote Windows node
+  win_command:
+      chdir: 
+      creates: 
+      free_form: 
+      output_encoding_override: 
+      removes: 
+      stdin: 
+]]>
+	</content>
+</snippet>

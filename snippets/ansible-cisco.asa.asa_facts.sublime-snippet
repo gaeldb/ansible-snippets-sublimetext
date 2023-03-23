@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_facts</tabTrigger>
+	<description>Collect facts from remote devices running Cisco ASA</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Cisco ASA
+  asa_facts:
+      authorize: 
+      context: 
+      gather_network_resources: 
+      gather_subset: 
+      passwords: 
+      provider: 
+]]>
+	</content>
+</snippet>

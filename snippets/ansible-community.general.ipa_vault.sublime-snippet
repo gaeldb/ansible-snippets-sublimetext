@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_vault</tabTrigger>
+	<description>Manage FreeIPA vaults</description>
+	<content><![CDATA[
+- name: Manage FreeIPA vaults
+  ipa_vault:
+      cn: 
+      description: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      ipavaultpublickey: 
+      ipavaultsalt: 
+      ipavaulttype: 
+      replace: 
+      service: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

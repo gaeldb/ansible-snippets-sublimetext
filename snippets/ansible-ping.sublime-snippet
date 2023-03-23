@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ping</tabTrigger>
+	<description>Try to connect to host, verify a usable python and return `pong' on success</description>
+	<content><![CDATA[
+- name: Try to connect to host, verify a usable python and return `pong' on success
+  ping:
+      data: 
+]]>
+	</content>
+</snippet>

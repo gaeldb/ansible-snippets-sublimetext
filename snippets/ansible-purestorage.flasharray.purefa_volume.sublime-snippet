@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_volume</tabTrigger>
+	<description>Manage volumes on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage volumes on Pure Storage FlashArrays
+  purefa_volume:
+      api_token: 
+      bw_qos: 
+      count: 
+      digits: 
+      eradicate: 
+      fa_url: 
+      iops_qos: 
+      move: 
+      name: 
+      overwrite: 
+      rename: 
+      size: 
+      start: 
+      state: 
+      suffix: 
+      target: 
+]]>
+	</content>
+</snippet>

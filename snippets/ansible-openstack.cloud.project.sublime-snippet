@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.project</tabTrigger>
+	<description>Manage OpenStack Projects</description>
+	<content><![CDATA[
+- name: Manage OpenStack Projects
+  project:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      domain_id: 
+      enabled: 
+      interface: 
+      name: 
+      properties: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

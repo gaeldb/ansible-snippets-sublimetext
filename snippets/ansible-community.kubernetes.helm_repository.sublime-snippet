@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.helm_repository</tabTrigger>
+	<description>Manage Helm repositories.</description>
+	<content><![CDATA[
+- name: Manage Helm repositories.
+  helm_repository:
+      binary_path: 
+      repo_name: 
+      repo_password: 
+      repo_state: 
+      repo_url: 
+      repo_username: 
+]]>
+	</content>
+</snippet>

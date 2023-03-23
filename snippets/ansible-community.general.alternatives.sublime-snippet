@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.alternatives</tabTrigger>
+	<description>Manages alternative programs for common commands</description>
+	<content><![CDATA[
+- name: Manages alternative programs for common commands
+  alternatives:
+      link: 
+      name: 
+      path: 
+      priority: 
+      state: 
+      subcommands: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_stack_task_info</tabTrigger>
+	<description>Return information of the tasks on a docker stack</description>
+	<content><![CDATA[
+- name: Return information of the tasks on a docker stack
+  docker_stack_task_info:
+      name: 
+]]>
+	</content>
+</snippet>

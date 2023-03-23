@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_sequence</tabTrigger>
+	<description>Create, drop, or alter a PostgreSQL sequence</description>
+	<content><![CDATA[
+- name: Create, drop, or alter a PostgreSQL sequence
+  postgresql_sequence:
+      ca_cert: 
+      cache: 
+      cascade: 
+      cycle: 
+      data_type: 
+      db: 
+      increment: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      maxvalue: 
+      minvalue: 
+      newschema: 
+      owner: 
+      port: 
+      rename_to: 
+      schema: 
+      sequence: 
+      session_role: 
+      ssl_mode: 
+      start: 
+      state: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

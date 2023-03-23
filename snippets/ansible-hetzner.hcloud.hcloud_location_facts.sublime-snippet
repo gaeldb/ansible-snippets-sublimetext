@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_location_facts</tabTrigger>
+	<description>Gather infos about your Hetzner Cloud locations.</description>
+	<content><![CDATA[
+- name: Gather infos about your Hetzner Cloud locations.
+  hcloud_location_info:
+      api_token: 
+      endpoint: 
+      id: 
+      name: 
+]]>
+	</content>
+</snippet>

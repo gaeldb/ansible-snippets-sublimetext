@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_kms_crypto_key</tabTrigger>
+	<description>Creates a GCP CryptoKey</description>
+	<content><![CDATA[
+- name: Creates a GCP CryptoKey
+  gcp_kms_crypto_key:
+      auth_kind: 
+      env_type: 
+      key_ring: 
+      labels: 
+      name: 
+      project: 
+      purpose: 
+      rotation_period: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      skip_initial_version_creation: 
+      state: 
+      version_template: 
+]]>
+	</content>
+</snippet>

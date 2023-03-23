@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mysql.mysql_info</tabTrigger>
+	<description>Gather information about MySQL servers</description>
+	<content><![CDATA[
+- name: Gather information about MySQL servers
+  mysql_info:
+      ca_cert: 
+      check_hostname: 
+      client_cert: 
+      client_key: 
+      config_file: 
+      connect_timeout: 
+      exclude_fields: 
+      filter: 
+      login_db: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_unix_socket: 
+      login_user: 
+      return_empty_dbs: 
+]]>
+	</content>
+</snippet>

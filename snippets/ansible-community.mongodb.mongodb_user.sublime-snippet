@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_user</tabTrigger>
+	<description>Adds or removes a user from a MongoDB database</description>
+	<content><![CDATA[
+- name: Adds or removes a user from a MongoDB database
+  mongodb_user:
+      auth_mechanism: 
+      connection_options: 
+      create_for_localhost_exception: 
+      database: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      name: 
+      password: 
+      replica_set: 
+      roles: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

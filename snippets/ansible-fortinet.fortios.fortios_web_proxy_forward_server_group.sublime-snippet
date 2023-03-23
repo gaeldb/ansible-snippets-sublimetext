@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_web_proxy_forward_server_group</tabTrigger>
+	<description>Configure a forward server group consisting or multiple forward servers. Supports failover and load balancing in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure a forward server group consisting or multiple forward servers. Supports failover and load balancing in Fortinet's FortiOS and FortiGate.
+  fortios_web_proxy_forward_server_group:
+      access_token: 
+      state: 
+      vdom: 
+      web_proxy_forward_server_group: 
+]]>
+	</content>
+</snippet>

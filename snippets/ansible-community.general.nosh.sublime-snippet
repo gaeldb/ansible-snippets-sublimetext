@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nosh</tabTrigger>
+	<description>Manage services with nosh</description>
+	<content><![CDATA[
+- name: Manage services with nosh
+  nosh:
+      enabled: 
+      name: 
+      preset: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

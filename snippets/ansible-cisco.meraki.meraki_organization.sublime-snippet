@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_organization</tabTrigger>
+	<description>Manage organizations in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage organizations in the Meraki cloud
+  meraki_organization:
+      auth_key: 
+      clone: 
+      delete_confirm: 
+      host: 
+      internal_error_retry_time: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

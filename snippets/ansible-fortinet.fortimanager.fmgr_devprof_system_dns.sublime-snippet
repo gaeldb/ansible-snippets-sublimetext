@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_system_dns</tabTrigger>
+	<description>Configure DNS.</description>
+	<content><![CDATA[
+- name: Configure DNS.
+  fmgr_devprof_system_dns:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

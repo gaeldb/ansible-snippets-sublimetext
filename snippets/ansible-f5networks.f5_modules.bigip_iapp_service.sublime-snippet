@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_iapp_service</tabTrigger>
+	<description>Manages TCL iApp services on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages TCL iApp services on a BIG-IP
+  bigip_iapp_service:
+      description: 
+      device_group: 
+      force: 
+      metadata: 
+      name: 
+      parameters: 
+      partition: 
+      provider: 
+      state: 
+      strict_updates: 
+      template: 
+      traffic_group: 
+]]>
+	</content>
+</snippet>

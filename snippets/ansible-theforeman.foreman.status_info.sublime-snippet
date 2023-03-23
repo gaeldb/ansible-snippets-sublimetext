@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.status_info</tabTrigger>
+	<description>Get status info</description>
+	<content><![CDATA[
+- name: Get status info
+  status_info:
+      password: 
+      server_url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>pause</tabTrigger>
+	<description>Pause playbook execution</description>
+	<content><![CDATA[
+- name: Pause playbook execution
+  pause:
+      echo: 
+      minutes: 
+      prompt: 
+      seconds: 
+]]>
+	</content>
+</snippet>

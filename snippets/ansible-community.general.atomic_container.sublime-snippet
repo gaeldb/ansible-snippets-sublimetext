@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.atomic_container</tabTrigger>
+	<description>Manage the containers on the atomic host platform</description>
+	<content><![CDATA[
+- name: Manage the containers on the atomic host platform
+  atomic_container:
+      backend: 
+      image: 
+      mode: 
+      name: 
+      rootfs: 
+      state: 
+      values: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_amg_role</tabTrigger>
+	<description>NetApp E-Series update the role of a storage array within an Asynchronous Mirror Group (AMG).</description>
+	<content><![CDATA[
+- name: NetApp E-Series update the role of a storage array within an Asynchronous Mirror Group (AMG).
+  netapp_e_amg_role:
+      api_password: 
+      api_url: 
+      api_username: 
+      force: 
+      name: 
+      noSync: 
+      role: 
+      ssid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

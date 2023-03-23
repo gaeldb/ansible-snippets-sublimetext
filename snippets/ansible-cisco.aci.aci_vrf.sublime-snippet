@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_vrf</tabTrigger>
+	<description>Manage contexts or VRFs (fv:Ctx)</description>
+	<content><![CDATA[
+- name: Manage contexts or VRFs (fv:Ctx)
+  aci_vrf:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      match_type: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      policy_control_direction: 
+      policy_control_preference: 
+      port: 
+      preferred_group: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

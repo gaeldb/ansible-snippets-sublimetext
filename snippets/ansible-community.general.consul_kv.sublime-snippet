@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.consul_kv</tabTrigger>
+	<description>Manipulate entries in the key/value store of a consul cluster</description>
+	<content><![CDATA[
+- name: Manipulate entries in the key/value store of a consul cluster
+  consul_kv:
+      cas: 
+      flags: 
+      host: 
+      key: 
+      port: 
+      recurse: 
+      retrieve: 
+      scheme: 
+      session: 
+      state: 
+      token: 
+      validate_certs: 
+      value: 
+]]>
+	</content>
+</snippet>

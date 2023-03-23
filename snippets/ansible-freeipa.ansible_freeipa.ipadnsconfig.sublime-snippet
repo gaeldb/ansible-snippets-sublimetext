@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipadnsconfig</tabTrigger>
+	<description>Manage FreeIPA dnsconfig</description>
+	<content><![CDATA[
+- name: Manage FreeIPA dnsconfig
+  ipadnsconfig:
+      action: 
+      allow_sync_ptr: 
+      forward_policy: 
+      forwarders: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      state: 
+]]>
+	</content>
+</snippet>

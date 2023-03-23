@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.alerta_customer</tabTrigger>
+	<description>Manage customers in Alerta</description>
+	<content><![CDATA[
+- name: Manage customers in Alerta
+  alerta_customer:
+      alerta_url: 
+      api_key: 
+      api_password: 
+      api_username: 
+      customer: 
+      match: 
+      state: 
+]]>
+	</content>
+</snippet>

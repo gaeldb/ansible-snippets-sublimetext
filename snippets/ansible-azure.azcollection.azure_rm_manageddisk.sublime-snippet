@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_manageddisk</tabTrigger>
+	<description>Manage Azure Manage Disks</description>
+	<content><![CDATA[
+- name: Manage Azure Manage Disks
+  azure_rm_manageddisk:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      attach_caching: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      create_option: 
+      disk_size_gb: 
+      location: 
+      lun: 
+      managed_by: 
+      name: 
+      os_type: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      source_uri: 
+      state: 
+      storage_account_type: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      zone: 
+]]>
+	</content>
+</snippet>

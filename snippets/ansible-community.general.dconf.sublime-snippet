@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dconf</tabTrigger>
+	<description>Modify and read dconf database</description>
+	<content><![CDATA[
+- name: Modify and read dconf database
+  dconf:
+      key: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

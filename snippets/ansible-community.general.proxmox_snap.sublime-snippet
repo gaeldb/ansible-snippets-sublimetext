@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox_snap</tabTrigger>
+	<description>Snapshot management of instances in Proxmox VE cluster</description>
+	<content><![CDATA[
+- name: Snapshot management of instances in Proxmox VE cluster
+  proxmox_snap:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      description: 
+      force: 
+      hostname: 
+      snapname: 
+      state: 
+      timeout: 
+      unbind: 
+      validate_certs: 
+      vmid: 
+      vmstate: 
+]]>
+	</content>
+</snippet>

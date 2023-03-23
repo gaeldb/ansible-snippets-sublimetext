@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_user</tabTrigger>
+	<description>Manages users on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages users on Apache CloudStack based clouds.
+  cs_user:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      email: 
+      first_name: 
+      keys_registered: 
+      last_name: 
+      password: 
+      poll_async: 
+      state: 
+      timezone: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_ca</tabTrigger>
+	<description>Setup CA</description>
+	<content><![CDATA[
+- name: Setup CA
+  ipaserver_setup_ca:
+      _ca_subject: 
+      _dirsrv_pkcs12_info: 
+      _http_ca_cert: 
+      _random_serial_numbers: 
+      _subject_base: 
+      auto_forwarders: 
+      ca_signing_algorithm: 
+      ca_subject: 
+      dirsrv_cert_files: 
+      dirsrv_config_file: 
+      dm_password: 
+      domain: 
+      domainlevel: 
+      external_ca: 
+      external_ca_profile: 
+      external_ca_type: 
+      external_cert_files: 
+      hostname: 
+      idmax: 
+      idstart: 
+      ip_addresses: 
+      master_password: 
+      no_hbac_allow: 
+      no_host_dns: 
+      no_pkinit: 
+      no_reverse: 
+      password: 
+      pki_config_override: 
+      realm: 
+      reverse_zones: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

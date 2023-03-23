@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_backupazurevm_info</tabTrigger>
+	<description>Back up an Azure Virtual Machine using Azure Backup Information</description>
+	<content><![CDATA[
+- name: Back up an Azure Virtual Machine using Azure Backup Information
+  azure_rm_backupazurevm_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      recovery_vault_name: 
+      resource_group: 
+      resource_id: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

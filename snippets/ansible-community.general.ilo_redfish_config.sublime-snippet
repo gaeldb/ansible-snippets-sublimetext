@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ilo_redfish_config</tabTrigger>
+	<description>Sets or updates configuration attributes on HPE iLO with Redfish OEM extensions</description>
+	<content><![CDATA[
+- name: Sets or updates configuration attributes on HPE iLO with Redfish OEM extensions
+  ilo_redfish_config:
+      attribute_name: 
+      attribute_value: 
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      password: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

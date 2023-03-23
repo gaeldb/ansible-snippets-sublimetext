@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_unzip</tabTrigger>
+	<description>Unzips compressed files and archives on the Windows node</description>
+	<content><![CDATA[
+- name: Unzips compressed files and archives on the Windows node
+  win_unzip:
+      creates: 
+      delete_archive: 
+      dest: 
+      password: 
+      recurse: 
+      src: 
+]]>
+	</content>
+</snippet>

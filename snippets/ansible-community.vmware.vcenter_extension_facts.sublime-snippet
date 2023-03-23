@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vcenter_extension_facts</tabTrigger>
+	<description>Gather facts vCenter extensions</description>
+	<content><![CDATA[
+- name: Gather facts vCenter extensions
+  vcenter_extension_facts:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_cloud_region</tabTrigger>
+	<description>Manage Cloud Providers Region (cloud:Region)</description>
+	<content><![CDATA[
+- name: Manage Cloud Providers Region (cloud:Region)
+  aci_cloud_region:
+      annotation: 
+      certificate_name: 
+      cloud: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      region: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.role</tabTrigger>
+	<description>Manage Roles</description>
+	<content><![CDATA[
+- name: Manage Roles
+  role:
+      description: 
+      filters: 
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

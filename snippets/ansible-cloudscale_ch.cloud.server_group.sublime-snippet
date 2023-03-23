@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.server_group</tabTrigger>
+	<description>Manages server groups on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages server groups on the cloudscale.ch IaaS service
+  server_group:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      name: 
+      state: 
+      tags: 
+      type: 
+      uuid: 
+      zone: 
+]]>
+	</content>
+</snippet>

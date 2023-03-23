@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_service_info</tabTrigger>
+	<description>Gather information about Windows services</description>
+	<content><![CDATA[
+- name: Gather information about Windows services
+  win_service_info:
+      name: 
+]]>
+	</content>
+</snippet>

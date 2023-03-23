@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_postgresqlconfiguration</tabTrigger>
+	<description>Manage Azure PostgreSQL Configuration</description>
+	<content><![CDATA[
+- name: Manage Azure PostgreSQL Configuration
+  azure_rm_postgresqlconfiguration:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      server_name: 
+      state: 
+      subscription_id: 
+      tenant: 
+      value: 
+]]>
+	</content>
+</snippet>

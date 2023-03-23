@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_syslog_files</tabTrigger>
+	<description>Configure file management syslog module</description>
+	<content><![CDATA[
+- name: Configure file management syslog module
+  onyx_syslog_files:
+      debug: 
+      delete_group: 
+      rotation: 
+      upload_file: 
+      upload_url: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_aaa_server</tabTrigger>
+	<description>Manages AAA server global configuration.</description>
+	<content><![CDATA[
+- name: Manages AAA server global configuration.
+  nxos_aaa_server:
+      deadtime: 
+      directed_request: 
+      encrypt_type: 
+      global_key: 
+      provider: 
+      server_timeout: 
+      server_type: 
+      state: 
+]]>
+	</content>
+</snippet>

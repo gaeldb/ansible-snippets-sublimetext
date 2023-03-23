@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_resourcegroup</tabTrigger>
+	<description>Manage Azure resource groups</description>
+	<content><![CDATA[
+- name: Manage Azure resource groups
+  azure_rm_resourcegroup:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      force_delete_nonempty: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage Interface on Cisco IOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage Interface on Cisco IOS network devices
+  ios_interface:
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      neighbors: 
+      provider: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

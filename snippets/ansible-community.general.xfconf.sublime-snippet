@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.xfconf</tabTrigger>
+	<description>Edit XFCE4 Configurations</description>
+	<content><![CDATA[
+- name: Edit XFCE4 Configurations
+  xfconf:
+      channel: 
+      disable_facts: 
+      force_array: 
+      property: 
+      state: 
+      value: 
+      value_type: 
+]]>
+	</content>
+</snippet>

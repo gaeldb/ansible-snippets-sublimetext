@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_bfd</tabTrigger>
+	<description>Configure BFD in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure BFD in Fortinet's FortiOS and FortiGate.
+  fortios_router_bfd:
+      access_token: 
+      router_bfd: 
+      vdom: 
+]]>
+	</content>
+</snippet>

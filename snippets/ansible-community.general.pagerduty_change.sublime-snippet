@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pagerduty_change</tabTrigger>
+	<description>Track a code or infrastructure change as a PagerDuty change event</description>
+	<content><![CDATA[
+- name: Track a code or infrastructure change as a PagerDuty change event
+  pagerduty_change:
+      environment: 
+      integration_key: 
+      link_text: 
+      link_url: 
+      repo: 
+      revision: 
+      source: 
+      summary: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

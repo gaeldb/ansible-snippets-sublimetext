@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.packet_sshkey</tabTrigger>
+	<description>Create/delete an SSH key in Packet host</description>
+	<content><![CDATA[
+- name: Create/delete an SSH key in Packet host
+  packet_sshkey:
+      auth_token: 
+      fingerprint: 
+      id: 
+      key: 
+      key_file: 
+      label: 
+      state: 
+]]>
+	</content>
+</snippet>

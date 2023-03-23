@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_sqldatabase</tabTrigger>
+	<description>Manage SQL Database instance</description>
+	<content><![CDATA[
+- name: Manage SQL Database instance
+  azure_rm_sqldatabase:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      collation: 
+      create_mode: 
+      edition: 
+      elastic_pool_name: 
+      force_update: 
+      location: 
+      max_size_bytes: 
+      name: 
+      password: 
+      profile: 
+      read_scale: 
+      recovery_services_recovery_point_resource_id: 
+      resource_group: 
+      restore_point_in_time: 
+      sample_name: 
+      secret: 
+      server_name: 
+      sku: 
+      source_database_deletion_date: 
+      source_database_id: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      zone_redundant: 
+]]>
+	</content>
+</snippet>

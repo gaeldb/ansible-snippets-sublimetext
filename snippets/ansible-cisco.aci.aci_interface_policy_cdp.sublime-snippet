@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_cdp</tabTrigger>
+	<description>Manage CDP interface policies (cdp:IfPol)</description>
+	<content><![CDATA[
+- name: Manage CDP interface policies (cdp:IfPol)
+  aci_interface_policy_cdp:
+      admin_state: 
+      annotation: 
+      cdp_policy: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

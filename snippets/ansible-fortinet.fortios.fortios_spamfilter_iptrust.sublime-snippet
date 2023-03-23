@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_spamfilter_iptrust</tabTrigger>
+	<description>Configure AntiSpam IP trust in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure AntiSpam IP trust in Fortinet's FortiOS and FortiGate.
+  fortios_spamfilter_iptrust:
+      access_token: 
+      spamfilter_iptrust: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

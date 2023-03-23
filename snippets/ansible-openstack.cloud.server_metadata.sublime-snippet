@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.server_metadata</tabTrigger>
+	<description>Add/Update/Delete Metadata in Compute Instances from OpenStack</description>
+	<content><![CDATA[
+- name: Add/Update/Delete Metadata in Compute Instances from OpenStack
+  server_metadata:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      meta: 
+      region_name: 
+      server: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

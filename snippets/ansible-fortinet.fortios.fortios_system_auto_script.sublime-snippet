@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_auto_script</tabTrigger>
+	<description>Configure auto script in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure auto script in Fortinet's FortiOS and FortiGate.
+  fortios_system_auto_script:
+      access_token: 
+      state: 
+      system_auto_script: 
+      vdom: 
+]]>
+	</content>
+</snippet>

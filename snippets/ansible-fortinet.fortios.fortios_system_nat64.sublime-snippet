@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_nat64</tabTrigger>
+	<description>Configure NAT64 in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure NAT64 in Fortinet's FortiOS and FortiGate.
+  fortios_system_nat64:
+      access_token: 
+      system_nat64: 
+      vdom: 
+]]>
+	</content>
+</snippet>

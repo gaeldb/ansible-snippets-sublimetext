@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_auth_group</tabTrigger>
+	<description>Configure WAN optimization authentication groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure WAN optimization authentication groups in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_auth_group:
+      access_token: 
+      state: 
+      vdom: 
+      wanopt_auth_group: 
+]]>
+	</content>
+</snippet>

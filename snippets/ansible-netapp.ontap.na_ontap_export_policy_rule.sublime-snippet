@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_export_policy_rule</tabTrigger>
+	<description>NetApp ONTAP manage export policy rules</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage export policy rules
+  na_ontap_export_policy_rule:
+      allow_suid: 
+      anonymous_user_id: 
+      cert_filepath: 
+      client_match: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      protocol: 
+      ro_rule: 
+      rule_index: 
+      rw_rule: 
+      state: 
+      super_user_security: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

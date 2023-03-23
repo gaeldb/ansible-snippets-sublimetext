@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_adserviceprincipal_info</tabTrigger>
+	<description>Get Azure Active Directory service principal info</description>
+	<content><![CDATA[
+- name: Get Azure Active Directory service principal info
+  azure_rm_adserviceprincipal_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      app_id: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      object_id: 
+      password: 
+      profile: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

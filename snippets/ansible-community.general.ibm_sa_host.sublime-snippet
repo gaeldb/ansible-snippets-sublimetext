@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ibm_sa_host</tabTrigger>
+	<description>Adds hosts to or removes them from IBM Spectrum Accelerate Family storage systems</description>
+	<content><![CDATA[
+- name: Adds hosts to or removes them from IBM Spectrum Accelerate Family storage systems
+  ibm_sa_host:
+      cluster: 
+      domain: 
+      endpoints: 
+      host: 
+      iscsi_chap_name: 
+      iscsi_chap_secret: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

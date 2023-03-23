@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_role</tabTrigger>
+	<description>Manage roles</description>
+	<content><![CDATA[
+- name: Manage roles
+  mso_role:
+      description: 
+      display_name: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      read_permissions: 
+      role: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      write_permissions: 
+]]>
+	</content>
+</snippet>

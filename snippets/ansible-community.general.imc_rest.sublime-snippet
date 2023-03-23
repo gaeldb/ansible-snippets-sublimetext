@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.imc_rest</tabTrigger>
+	<description>Manage Cisco IMC hardware through its REST API</description>
+	<content><![CDATA[
+- name: Manage Cisco IMC hardware through its REST API
+  imc_rest:
+      content: 
+      hostname: 
+      password: 
+      path: 
+      protocol: 
+      timeout: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

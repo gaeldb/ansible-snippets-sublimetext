@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_first_class_disk</tabTrigger>
+	<description>Manage VMware vSphere First Class Disks</description>
+	<content><![CDATA[
+- name: Manage VMware vSphere First Class Disks
+  vmware_first_class_disk:
+      datacenter_name: 
+      datastore_name: 
+      disk_name: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      size: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

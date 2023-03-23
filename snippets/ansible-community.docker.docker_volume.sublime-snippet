@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_volume</tabTrigger>
+	<description>Manage Docker volumes</description>
+	<content><![CDATA[
+- name: Manage Docker volumes
+  docker_volume:
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      docker_host: 
+      driver: 
+      driver_options: 
+      labels: 
+      recreate: 
+      ssl_version: 
+      state: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+      volume_name: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>servicenow.servicenow.snow_record_find</tabTrigger>
+	<description>Search for multiple records from ServiceNow</description>
+	<content><![CDATA[
+- name: Search for multiple records from ServiceNow
+  snow_record_find:
+      client_id: 
+      client_secret: 
+      display_value: 
+      exclude_reference_link: 
+      host: 
+      instance: 
+      max_records: 
+      order_by: 
+      password: 
+      query: 
+      return_fields: 
+      suppress_pagination_header: 
+      table: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.deploy</tabTrigger>
+	<description>Trigger a qradar configuration deployment</description>
+	<content><![CDATA[
+- name: Trigger a qradar configuration deployment
+  deploy:
+      type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_shard</tabTrigger>
+	<description>Add or remove shards from a MongoDB Cluster</description>
+	<content><![CDATA[
+- name: Add or remove shards from a MongoDB Cluster
+  mongodb_shard:
+      auth_mechanism: 
+      connection_options: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      mongos_process: 
+      shard: 
+      sharded_databases: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      state: 
+]]>
+	</content>
+</snippet>

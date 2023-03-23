@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.zpool_facts</tabTrigger>
+	<description>Gather facts about ZFS pools</description>
+	<content><![CDATA[
+- name: Gather facts about ZFS pools
+  zpool_facts:
+      name: 
+      parsable: 
+      properties: 
+]]>
+	</content>
+</snippet>

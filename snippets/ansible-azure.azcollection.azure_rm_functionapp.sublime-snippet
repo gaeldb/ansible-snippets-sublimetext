@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_functionapp</tabTrigger>
+	<description>Manage Azure Function Apps</description>
+	<content><![CDATA[
+- name: Manage Azure Function Apps
+  azure_rm_functionapp:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      app_settings: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      container_settings: 
+      location: 
+      name: 
+      password: 
+      plan: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      storage_account: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

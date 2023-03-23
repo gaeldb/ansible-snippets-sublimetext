@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_vrf</tabTrigger>
+	<description>Manages VPN instance on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages VPN instance on HUAWEI CloudEngine switches.
+  ce_vrf:
+      description: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

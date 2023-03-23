@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_lx_package</tabTrigger>
+	<description>Manages Javascript LX packages on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages Javascript LX packages on a BIG-IP
+  bigip_lx_package:
+      package: 
+      provider: 
+      retain_package_file: 
+      state: 
+]]>
+	</content>
+</snippet>

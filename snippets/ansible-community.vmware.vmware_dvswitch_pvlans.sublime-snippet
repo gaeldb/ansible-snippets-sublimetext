@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvswitch_pvlans</tabTrigger>
+	<description>Manage Private VLAN configuration of a Distributed Switch</description>
+	<content><![CDATA[
+- name: Manage Private VLAN configuration of a Distributed Switch
+  vmware_dvswitch_pvlans:
+      hostname: 
+      password: 
+      port: 
+      primary_pvlans: 
+      proxy_host: 
+      proxy_port: 
+      secondary_pvlans: 
+      switch: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.mount</tabTrigger>
+	<description>Control active and configured mount points</description>
+	<content><![CDATA[
+- name: Control active and configured mount points
+  mount:
+      backup: 
+      boot: 
+      dump: 
+      fstab: 
+      fstype: 
+      opts: 
+      passno: 
+      path: 
+      src: 
+      state: 
+]]>
+	</content>
+</snippet>

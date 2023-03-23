@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ntp_options</tabTrigger>
+	<description>Manages NTP options.</description>
+	<content><![CDATA[
+- name: Manages NTP options.
+  nxos_ntp_options:
+      logging: 
+      master: 
+      provider: 
+      state: 
+      stratum: 
+]]>
+	</content>
+</snippet>

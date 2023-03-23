@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_igmp_snooping</tabTrigger>
+	<description>CLI command to modify igmp-snooping</description>
+	<content><![CDATA[
+- name: CLI command to modify igmp-snooping
+  pn_igmp_snooping:
+      pn_cliswitch: 
+      pn_enable: 
+      pn_enable_vlans: 
+      pn_igmpv2_vlans: 
+      pn_igmpv3_vlans: 
+      pn_no_snoop_linklocal_vlans: 
+      pn_query_interval: 
+      pn_query_max_response_time: 
+      pn_scope: 
+      pn_snoop_linklocal_vlans: 
+      pn_vxlan: 
+      state: 
+]]>
+	</content>
+</snippet>

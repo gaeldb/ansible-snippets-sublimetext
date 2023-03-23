@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_access_rule_facts</tabTrigger>
+	<description>Get access-rule objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get access-rule objects facts on Check Point over Web Services API
+  cp_mgmt_access_rule_facts:
+      dereference_group_members: 
+      details_level: 
+      filter: 
+      filter_settings: 
+      hits_settings: 
+      layer: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      package: 
+      show_as_ranges: 
+      show_hits: 
+      show_membership: 
+      use_object_dictionary: 
+      version: 
+]]>
+	</content>
+</snippet>

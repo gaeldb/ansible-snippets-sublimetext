@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.telegram</tabTrigger>
+	<description>Send notifications via telegram</description>
+	<content><![CDATA[
+- name: Send notifications via telegram
+  telegram:
+      api_args: 
+      api_method: 
+      token: 
+]]>
+	</content>
+</snippet>

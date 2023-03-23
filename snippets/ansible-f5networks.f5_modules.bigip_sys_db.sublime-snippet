@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_sys_db</tabTrigger>
+	<description>Manage BIG-IP system database variables</description>
+	<content><![CDATA[
+- name: Manage BIG-IP system database variables
+  bigip_sys_db:
+      key: 
+      provider: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

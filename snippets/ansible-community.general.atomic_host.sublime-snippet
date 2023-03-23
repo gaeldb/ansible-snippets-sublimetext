@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.atomic_host</tabTrigger>
+	<description>Manage the atomic host platform</description>
+	<content><![CDATA[
+- name: Manage the atomic host platform
+  atomic_host:
+      revision: 
+]]>
+	</content>
+</snippet>

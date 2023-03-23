@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_dashboard</tabTrigger>
+	<description>Manage Grafana dashboards</description>
+	<content><![CDATA[
+- name: Manage Grafana dashboards
+  grafana_dashboard:
+      client_cert: 
+      client_key: 
+      commit_message: 
+      dashboard_id: 
+      dashboard_revision: 
+      folder: 
+      grafana_api_key: 
+      org_id: 
+      overwrite: 
+      path: 
+      slug: 
+      state: 
+      uid: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

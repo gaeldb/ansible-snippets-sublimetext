@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_syslog</tabTrigger>
+	<description>Manage system-level syslog settings on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage system-level syslog settings on BIG-IP
+  bigip_device_syslog:
+      auth_priv_from: 
+      auth_priv_to: 
+      console_log: 
+      cron_from: 
+      cron_to: 
+      daemon_from: 
+      daemon_to: 
+      include: 
+      iso_date: 
+      kern_from: 
+      kern_to: 
+      local6_from: 
+      local6_to: 
+      mail_from: 
+      mail_to: 
+      messages_from: 
+      messages_to: 
+      provider: 
+      user_log_from: 
+      user_log_to: 
+]]>
+	</content>
+</snippet>

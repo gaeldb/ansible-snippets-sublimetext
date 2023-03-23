@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_circuit_termination</tabTrigger>
+	<description>Create, update or delete circuit terminations within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete circuit terminations within Netbox
+  netbox_circuit_termination:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

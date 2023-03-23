@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_tenant</tabTrigger>
+	<description>Manage tenants</description>
+	<content><![CDATA[
+- name: Manage tenants
+  mso_tenant:
+      description: 
+      display_name: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      sites: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      users: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

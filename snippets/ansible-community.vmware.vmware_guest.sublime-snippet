@@ -1,0 +1,50 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest</tabTrigger>
+	<description>Manages virtual machines in vCenter</description>
+	<content><![CDATA[
+- name: Manages virtual machines in vCenter
+  vmware_guest:
+      annotation: 
+      cdrom: 
+      cluster: 
+      convert: 
+      customization: 
+      customization_spec: 
+      customvalues: 
+      datacenter: 
+      datastore: 
+      delete_from_inventory: 
+      disk: 
+      esxi_hostname: 
+      folder: 
+      force: 
+      guest_id: 
+      hardware: 
+      hostname: 
+      is_template: 
+      linked_clone: 
+      name: 
+      name_match: 
+      networks: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      resource_pool: 
+      snapshot_src: 
+      state: 
+      state_change_timeout: 
+      template: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+      vapp_properties: 
+      wait_for_customization: 
+      wait_for_customization_timeout: 
+      wait_for_ip_address: 
+      wait_for_ip_address_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_nfs</tabTrigger>
+	<description>NetApp ONTAP NFS status</description>
+	<content><![CDATA[
+- name: NetApp ONTAP NFS status
+  na_ontap_nfs:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      nfsv3: 
+      nfsv3_fsid_change: 
+      nfsv4: 
+      nfsv40_acl: 
+      nfsv40_read_delegation: 
+      nfsv40_referrals: 
+      nfsv40_write_delegation: 
+      nfsv41: 
+      nfsv41_acl: 
+      nfsv41_pnfs: 
+      nfsv41_read_delegation: 
+      nfsv41_referrals: 
+      nfsv41_write_delegation: 
+      nfsv4_fsid_change: 
+      nfsv4_id_domain: 
+      nfsv4_numeric_ids: 
+      ontapi: 
+      password: 
+      service_state: 
+      showmount: 
+      state: 
+      tcp: 
+      tcp_max_xfer_size: 
+      udp: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+      vstorage_state: 
+]]>
+	</content>
+</snippet>

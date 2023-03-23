@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sysupgrade</tabTrigger>
+	<description>Manage OpenBSD system upgrades</description>
+	<content><![CDATA[
+- name: Manage OpenBSD system upgrades
+  sysupgrade:
+      fetch_only: 
+      force: 
+      installurl: 
+      keep_files: 
+      snapshot: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_config_backup_restore</tabTrigger>
+	<description>Backup/restore fortigate configuration</description>
+	<content><![CDATA[
+- name: Backup/restore fortigate configuration
+  fortios_system_config_backup_restore:
+      backup: 
+      commands: 
+      config: 
+      description: 
+      filename: 
+      host: 
+      https: 
+      mkey: 
+      password: 
+      scope: 
+      ssl_verify: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

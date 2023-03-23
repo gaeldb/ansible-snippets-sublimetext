@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_launch_config</tabTrigger>
+	<description>Create or delete AWS Autoscaling Launch Configurations</description>
+	<content><![CDATA[
+- name: Create or delete AWS Autoscaling Launch Configurations
+  autoscaling_launch_config:
+      access_key: 
+      assign_public_ip: 
+      aws_ca_bundle: 
+      aws_config: 
+      classic_link_vpc_id: 
+      classic_link_vpc_security_groups: 
+      debug_botocore_endpoint_logs: 
+      ebs_optimized: 
+      endpoint_url: 
+      image_id: 
+      instance_id: 
+      instance_monitoring: 
+      instance_profile_name: 
+      instance_type: 
+      kernel_id: 
+      key_name: 
+      name: 
+      placement_tenancy: 
+      profile: 
+      ramdisk_id: 
+      region: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      spot_price: 
+      state: 
+      user_data: 
+      user_data_path: 
+      validate_certs: 
+      volumes: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

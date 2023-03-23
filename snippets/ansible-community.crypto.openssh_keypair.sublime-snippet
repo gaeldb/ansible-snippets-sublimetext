@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssh_keypair</tabTrigger>
+	<description>Generate OpenSSH private and public keys</description>
+	<content><![CDATA[
+- name: Generate OpenSSH private and public keys
+  openssh_keypair:
+      attributes: 
+      backend: 
+      comment: 
+      force: 
+      group: 
+      mode: 
+      owner: 
+      passphrase: 
+      path: 
+      private_key_format: 
+      regenerate: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      size: 
+      state: 
+      type: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

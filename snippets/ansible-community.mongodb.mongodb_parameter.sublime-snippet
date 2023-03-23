@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_parameter</tabTrigger>
+	<description>Change an administrative parameter on a MongoDB server</description>
+	<content><![CDATA[
+- name: Change an administrative parameter on a MongoDB server
+  mongodb_parameter:
+      auth_mechanism: 
+      connection_options: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      param: 
+      param_type: 
+      replica_set: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      value: 
+]]>
+	</content>
+</snippet>

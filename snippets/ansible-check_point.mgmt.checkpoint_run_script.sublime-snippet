@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.checkpoint_run_script</tabTrigger>
+	<description>Run scripts on Check Point devices over Web Services API</description>
+	<content><![CDATA[
+- name: Run scripts on Check Point devices over Web Services API
+  checkpoint_run_script:
+      script: 
+      script_name: 
+      targets: 
+]]>
+	</content>
+</snippet>

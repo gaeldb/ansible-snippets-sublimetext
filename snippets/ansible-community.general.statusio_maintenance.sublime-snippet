@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.statusio_maintenance</tabTrigger>
+	<description>Create maintenance windows for your status.io dashboard</description>
+	<content><![CDATA[
+- name: Create maintenance windows for your status.io dashboard
+  statusio_maintenance:
+      all_infrastructure_affected: 
+      api_id: 
+      api_key: 
+      automation: 
+      components: 
+      containers: 
+      desc: 
+      maintenance_id: 
+      maintenance_notify_1_hr: 
+      maintenance_notify_24_hr: 
+      maintenance_notify_72_hr: 
+      maintenance_notify_now: 
+      minutes: 
+      start_date: 
+      start_time: 
+      state: 
+      statuspage: 
+      title: 
+      url: 
+]]>
+	</content>
+</snippet>

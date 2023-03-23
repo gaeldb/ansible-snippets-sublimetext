@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>getent</tabTrigger>
+	<description>A wrapper to the unix getent utility</description>
+	<content><![CDATA[
+- name: A wrapper to the unix getent utility
+  getent:
+      database: 
+      fail_key: 
+      key: 
+      service: 
+      split: 
+]]>
+	</content>
+</snippet>

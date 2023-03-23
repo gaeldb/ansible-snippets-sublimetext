@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.identity_group</tabTrigger>
+	<description>Manage OpenStack Identity Groups</description>
+	<content><![CDATA[
+- name: Manage OpenStack Identity Groups
+  identity_group:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      domain_id: 
+      interface: 
+      name: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

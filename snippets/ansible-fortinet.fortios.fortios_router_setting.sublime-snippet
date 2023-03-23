@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_setting</tabTrigger>
+	<description>Configure router settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure router settings in Fortinet's FortiOS and FortiGate.
+  fortios_router_setting:
+      access_token: 
+      router_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

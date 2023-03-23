@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.config_rule</tabTrigger>
+	<description>Manage AWS Config rule resources</description>
+	<content><![CDATA[
+- name: Manage AWS Config rule resources
+  config_rule:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      execution_frequency: 
+      input_parameters: 
+      name: 
+      profile: 
+      region: 
+      scope: 
+      secret_key: 
+      session_token: 
+      source: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_traps</tabTrigger>
+	<description>Manages SNMP traps.</description>
+	<content><![CDATA[
+- name: Manages SNMP traps.
+  nxos_snmp_traps:
+      group: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

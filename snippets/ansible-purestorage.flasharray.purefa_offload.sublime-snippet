@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_offload</tabTrigger>
+	<description>Create, modify and delete NFS, S3 or Azure offload targets</description>
+	<content><![CDATA[
+- name: Create, modify and delete NFS, S3 or Azure offload targets
+  purefa_offload:
+      access_key: 
+      account: 
+      address: 
+      api_token: 
+      bucket: 
+      container: 
+      fa_url: 
+      initialize: 
+      name: 
+      options: 
+      placement: 
+      protocol: 
+      secret: 
+      share: 
+      state: 
+]]>
+	</content>
+</snippet>

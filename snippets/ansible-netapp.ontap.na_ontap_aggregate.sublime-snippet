@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_aggregate</tabTrigger>
+	<description>NetApp ONTAP manage aggregates.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage aggregates.
+  na_ontap_aggregate:
+      cert_filepath: 
+      disk_count: 
+      disk_size: 
+      disk_size_with_unit: 
+      disk_type: 
+      disks: 
+      feature_flags: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_pool_checks: 
+      is_mirrored: 
+      key_filepath: 
+      mirror_disks: 
+      name: 
+      nodes: 
+      object_store_name: 
+      ontapi: 
+      password: 
+      raid_size: 
+      raid_type: 
+      service_state: 
+      snaplock_type: 
+      spare_pool: 
+      state: 
+      time_out: 
+      unmount_volumes: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      wait_for_online: 
+]]>
+	</content>
+</snippet>

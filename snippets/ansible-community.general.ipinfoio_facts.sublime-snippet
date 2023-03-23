@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipinfoio_facts</tabTrigger>
+	<description>Retrieve IP geolocation facts of a host's IP address</description>
+	<content><![CDATA[
+- name: Retrieve IP geolocation facts of a host's IP address
+  ipinfoio_facts:
+      http_agent: 
+      timeout: 
+]]>
+	</content>
+</snippet>

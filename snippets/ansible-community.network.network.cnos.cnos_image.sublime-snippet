@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_image</tabTrigger>
+	<description>Perform firmware upgrade/download from a remote server on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Perform firmware upgrade/download from a remote server on devices running Lenovo CNOS
+  cnos_image:
+      deviceType: 
+      enablePassword: 
+      host: 
+      imgpath: 
+      imgtype: 
+      outputfile: 
+      password: 
+      protocol: 
+      serverip: 
+      serverpassword: 
+      serverusername: 
+      username: 
+]]>
+	</content>
+</snippet>

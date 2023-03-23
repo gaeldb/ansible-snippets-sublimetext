@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_bgp</tabTrigger>
+	<description>Configure BGP in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure BGP in Fortinet's FortiOS and FortiGate.
+  fortios_router_bgp:
+      access_token: 
+      router_bgp: 
+      vdom: 
+]]>
+	</content>
+</snippet>

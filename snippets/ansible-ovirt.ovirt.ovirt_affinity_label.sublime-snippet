@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_affinity_label</tabTrigger>
+	<description>Module to manage affinity labels in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage affinity labels in oVirt/RHV
+  ovirt_affinity_label:
+      auth: 
+      cluster: 
+      fetch_nested: 
+      hosts: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      timeout: 
+      vms: 
+      wait: 
+]]>
+	</content>
+</snippet>

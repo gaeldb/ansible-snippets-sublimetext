@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_network</tabTrigger>
+	<description>Manages network objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages network objects on Check Point over Web Services API
+  cp_mgmt_network:
+      auto_publish_session: 
+      broadcast: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      mask_length: 
+      mask_length4: 
+      mask_length6: 
+      name: 
+      nat_settings: 
+      state: 
+      subnet: 
+      subnet4: 
+      subnet6: 
+      subnet_mask: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

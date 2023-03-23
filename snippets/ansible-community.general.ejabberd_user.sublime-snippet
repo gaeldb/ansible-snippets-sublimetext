@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ejabberd_user</tabTrigger>
+	<description>Manages users for ejabberd servers</description>
+	<content><![CDATA[
+- name: Manages users for ejabberd servers
+  ejabberd_user:
+      host: 
+      logging: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

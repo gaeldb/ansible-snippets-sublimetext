@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_vpc_security_group_rule</tabTrigger>
+	<description>Creates a resource of Vpc/SecurityGroupRule in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Vpc/SecurityGroupRule in Huawei Cloud
+  hwc_vpc_security_group_rule:
+      description: 
+      direction: 
+      domain: 
+      ethertype: 
+      id: 
+      identity_endpoint: 
+      password: 
+      port_range_max: 
+      port_range_min: 
+      project: 
+      protocol: 
+      region: 
+      remote_group_id: 
+      remote_ip_prefix: 
+      security_group_id: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

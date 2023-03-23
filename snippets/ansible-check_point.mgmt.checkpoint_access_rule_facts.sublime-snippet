@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.checkpoint_access_rule_facts</tabTrigger>
+	<description>Get access rules objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get access rules objects facts on Check Point over Web Services API
+  checkpoint_access_rule_facts:
+      layer: 
+      name: 
+      uid: 
+]]>
+	</content>
+</snippet>

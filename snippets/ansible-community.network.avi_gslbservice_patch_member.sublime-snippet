@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_gslbservice_patch_member</tabTrigger>
+	<description>Avi API Module</description>
+	<content><![CDATA[
+- name: Avi API Module
+  avi_gslbservice_patch_member:
+      api_context: 
+      api_version: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      data: 
+      name: 
+      params: 
+      password: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_maintenance_policy</tabTrigger>
+	<description>Manage firmware maintenance policies</description>
+	<content><![CDATA[
+- name: Manage firmware maintenance policies
+  aci_maintenance_policy:
+      adminst: 
+      annotation: 
+      certificate_name: 
+      graceful: 
+      host: 
+      ignoreCompat: 
+      name: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      runmode: 
+      scheduler: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

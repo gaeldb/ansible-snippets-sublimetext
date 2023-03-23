@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_sshkey</tabTrigger>
+	<description>Scaleway SSH keys management module</description>
+	<content><![CDATA[
+- name: Scaleway SSH keys management module
+  scaleway_sshkey:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      query_parameters: 
+      ssh_pub_key: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

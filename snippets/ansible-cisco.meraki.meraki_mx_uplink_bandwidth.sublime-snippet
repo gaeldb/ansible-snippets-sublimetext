@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_uplink_bandwidth</tabTrigger>
+	<description>Manage uplinks on Meraki MX appliances</description>
+	<content><![CDATA[
+- name: Manage uplinks on Meraki MX appliances
+  meraki_mx_uplink_bandwidth:
+      auth_key: 
+      cellular: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      wan1: 
+      wan2: 
+]]>
+	</content>
+</snippet>

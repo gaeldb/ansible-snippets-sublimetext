@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.routeros.routeros_api</tabTrigger>
+	<description>Ansible module for RouterOS API</description>
+	<content><![CDATA[
+- name: Ansible module for RouterOS API
+  routeros_api:
+      add: 
+      cmd: 
+      hostname: 
+      password: 
+      path: 
+      port: 
+      query: 
+      remove: 
+      ssl: 
+      update: 
+      username: 
+]]>
+	</content>
+</snippet>

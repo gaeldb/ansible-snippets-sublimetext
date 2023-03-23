@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_admin</tabTrigger>
+	<description>Configure admin users in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure admin users in Fortinet's FortiOS and FortiGate.
+  fortios_system_admin:
+      access_token: 
+      state: 
+      system_admin: 
+      vdom: 
+]]>
+	</content>
+</snippet>

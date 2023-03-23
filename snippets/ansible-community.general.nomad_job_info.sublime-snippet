@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.nomad_job_info</tabTrigger>
+	<description>Get Nomad Jobs info</description>
+	<content><![CDATA[
+- name: Get Nomad Jobs info
+  nomad_job_info:
+      client_cert: 
+      client_key: 
+      host: 
+      name: 
+      namespace: 
+      timeout: 
+      token: 
+      use_ssl: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

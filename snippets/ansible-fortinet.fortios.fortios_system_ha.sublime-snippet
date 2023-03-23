@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ha</tabTrigger>
+	<description>Configure HA in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure HA in Fortinet's FortiOS and FortiGate.
+  fortios_system_ha:
+      access_token: 
+      system_ha: 
+      vdom: 
+]]>
+	</content>
+</snippet>

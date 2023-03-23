@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.ironware.ironware_config</tabTrigger>
+	<description>Manage configuration sections on Extreme Ironware devices</description>
+	<content><![CDATA[
+- name: Manage configuration sections on Extreme Ironware devices
+  ironware_config:
+      after: 
+      authorize: 
+      backup: 
+      backup_options: 
+      before: 
+      commit: 
+      config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      save_when: 
+      src: 
+      update: 
+]]>
+	</content>
+</snippet>

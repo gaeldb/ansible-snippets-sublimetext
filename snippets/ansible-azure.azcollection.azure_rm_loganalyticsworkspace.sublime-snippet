@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_loganalyticsworkspace</tabTrigger>
+	<description>Manage Azure Log Analytics workspaces</description>
+	<content><![CDATA[
+- name: Manage Azure Log Analytics workspaces
+  azure_rm_loganalyticsworkspace:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      force: 
+      intelligence_packs: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      retention_in_days: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

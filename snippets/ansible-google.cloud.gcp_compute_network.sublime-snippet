@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_network</tabTrigger>
+	<description>Creates a GCP Network</description>
+	<content><![CDATA[
+- name: Creates a GCP Network
+  gcp_compute_network:
+      auth_kind: 
+      auto_create_subnetworks: 
+      description: 
+      env_type: 
+      mtu: 
+      name: 
+      project: 
+      routing_config: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_logging</tabTrigger>
+	<description>Manage logging on network devices</description>
+	<content><![CDATA[
+- name: Manage logging on network devices
+  nxos_logging:
+      aggregate: 
+      dest: 
+      dest_level: 
+      event: 
+      facility: 
+      facility_level: 
+      facility_link_status: 
+      file_size: 
+      interface: 
+      interface_message: 
+      name: 
+      provider: 
+      purge: 
+      remote_server: 
+      state: 
+      timestamp: 
+      use_vrf: 
+]]>
+	</content>
+</snippet>

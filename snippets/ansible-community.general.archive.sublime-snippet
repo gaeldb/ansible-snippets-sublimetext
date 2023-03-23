@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.archive</tabTrigger>
+	<description>Creates a compressed archive of one or more files or trees</description>
+	<content><![CDATA[
+- name: Creates a compressed archive of one or more files or trees
+  archive:
+      attributes: 
+      dest: 
+      exclude_path: 
+      exclusion_patterns: 
+      force_archive: 
+      format: 
+      group: 
+      mode: 
+      owner: 
+      path: 
+      remove: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

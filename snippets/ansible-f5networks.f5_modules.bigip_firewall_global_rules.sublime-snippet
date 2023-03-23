@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_global_rules</tabTrigger>
+	<description>Manage AFM global rule settings on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage AFM global rule settings on BIG-IP
+  bigip_firewall_global_rules:
+      description: 
+      enforced_policy: 
+      provider: 
+      service_policy: 
+      staged_policy: 
+]]>
+	</content>
+</snippet>

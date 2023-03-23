@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.elb_classic_lb</tabTrigger>
+	<description>Creates, updates or destroys an Amazon ELB</description>
+	<content><![CDATA[
+- name: Creates, updates or destroys an Amazon ELB
+  elb_classic_lb:
+      access_key: 
+      access_logs: 
+      aws_ca_bundle: 
+      aws_config: 
+      connection_draining_timeout: 
+      cross_az_load_balancing: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      health_check: 
+      idle_timeout: 
+      instance_ids: 
+      listeners: 
+      name: 
+      profile: 
+      purge_instance_ids: 
+      purge_listeners: 
+      purge_subnets: 
+      purge_tags: 
+      purge_zones: 
+      region: 
+      scheme: 
+      secret_key: 
+      security_group_ids: 
+      security_group_names: 
+      session_token: 
+      state: 
+      stickiness: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+      zones: 
+]]>
+	</content>
+</snippet>

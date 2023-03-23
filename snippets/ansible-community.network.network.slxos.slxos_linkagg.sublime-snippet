@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.slxos.slxos_linkagg</tabTrigger>
+	<description>Manage link aggregation groups on Extreme Networks SLX-OS network devices</description>
+	<content><![CDATA[
+- name: Manage link aggregation groups on Extreme Networks SLX-OS network devices
+  slxos_linkagg:
+      aggregate: 
+      group: 
+      members: 
+      mode: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

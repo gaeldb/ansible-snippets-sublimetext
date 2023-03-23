@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_drs_group</tabTrigger>
+	<description>Creates vm/host group in a given cluster.</description>
+	<content><![CDATA[
+- name: Creates vm/host group in a given cluster.
+  vmware_drs_group:
+      cluster_name: 
+      datacenter: 
+      group_name: 
+      hostname: 
+      hosts: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+      vms: 
+]]>
+	</content>
+</snippet>

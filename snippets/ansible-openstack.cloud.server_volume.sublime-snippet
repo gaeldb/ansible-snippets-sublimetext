@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.server_volume</tabTrigger>
+	<description>Attach/Detach Volumes from OpenStack VM's</description>
+	<content><![CDATA[
+- name: Attach/Detach Volumes from OpenStack VM's
+  server_volume:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      device: 
+      interface: 
+      region_name: 
+      server: 
+      state: 
+      timeout: 
+      validate_certs: 
+      volume: 
+      wait: 
+]]>
+	</content>
+</snippet>

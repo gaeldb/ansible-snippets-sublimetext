@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_map</tabTrigger>
+	<description>Create/update/delete Zabbix maps</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix maps
+  zabbix_map:
+      data: 
+      default_image: 
+      expand_problem: 
+      height: 
+      highlight: 
+      http_login_password: 
+      http_login_user: 
+      label_type: 
+      login_password: 
+      login_user: 
+      margin: 
+      name: 
+      server_url: 
+      state: 
+      timeout: 
+      validate_certs: 
+      width: 
+]]>
+	</content>
+</snippet>

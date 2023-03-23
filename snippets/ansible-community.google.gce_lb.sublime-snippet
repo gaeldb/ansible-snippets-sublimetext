@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_lb</tabTrigger>
+	<description>create/destroy GCE load-balancer resources</description>
+	<content><![CDATA[
+- name: create/destroy GCE load-balancer resources
+  gce_lb:
+      credentials_file: 
+      external_ip: 
+      httphealthcheck_healthy_count: 
+      httphealthcheck_host: 
+      httphealthcheck_interval: 
+      httphealthcheck_name: 
+      httphealthcheck_path: 
+      httphealthcheck_port: 
+      httphealthcheck_timeout: 
+      httphealthcheck_unhealthy_count: 
+      members: 
+      name: 
+      pem_file: 
+      port_range: 
+      project_id: 
+      protocol: 
+      region: 
+      service_account_email: 
+      state: 
+]]>
+	</content>
+</snippet>

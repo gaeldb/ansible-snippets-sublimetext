@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.one_image_info</tabTrigger>
+	<description>Gather information on OpenNebula images</description>
+	<content><![CDATA[
+- name: Gather information on OpenNebula images
+  one_image_info:
+      api_password: 
+      api_url: 
+      api_username: 
+      ids: 
+      name: 
+]]>
+	</content>
+</snippet>

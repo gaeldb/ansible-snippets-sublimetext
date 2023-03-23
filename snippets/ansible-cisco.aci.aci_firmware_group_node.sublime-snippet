@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_firmware_group_node</tabTrigger>
+	<description>This modules adds and remove nodes from the firmware group</description>
+	<content><![CDATA[
+- name: This modules adds and remove nodes from the firmware group
+  aci_firmware_group_node:
+      annotation: 
+      certificate_name: 
+      group: 
+      host: 
+      name_alias: 
+      node: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

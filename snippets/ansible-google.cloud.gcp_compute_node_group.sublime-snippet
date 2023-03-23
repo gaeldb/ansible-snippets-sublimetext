@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_node_group</tabTrigger>
+	<description>Creates a GCP NodeGroup</description>
+	<content><![CDATA[
+- name: Creates a GCP NodeGroup
+  gcp_compute_node_group:
+      auth_kind: 
+      autoscaling_policy: 
+      description: 
+      env_type: 
+      maintenance_policy: 
+      name: 
+      node_template: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      size: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

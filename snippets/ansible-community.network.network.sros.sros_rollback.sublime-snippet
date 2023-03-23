@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.sros.sros_rollback</tabTrigger>
+	<description>Configure Nokia SR OS rollback</description>
+	<content><![CDATA[
+- name: Configure Nokia SR OS rollback
+  sros_rollback:
+      local_max_checkpoints: 
+      provider: 
+      remote_max_checkpoints: 
+      rescue_location: 
+      rollback_location: 
+      state: 
+]]>
+	</content>
+</snippet>

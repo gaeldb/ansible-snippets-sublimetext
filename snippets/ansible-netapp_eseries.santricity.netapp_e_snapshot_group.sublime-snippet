@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_snapshot_group</tabTrigger>
+	<description>NetApp E-Series manage snapshot groups</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage snapshot groups
+  netapp_e_snapshot_group:
+      api_password: 
+      api_url: 
+      api_username: 
+      base_volume_name: 
+      delete_limit: 
+      full_policy: 
+      name: 
+      repo_pct: 
+      rollback_priority: 
+      ssid: 
+      state: 
+      storage_pool_name: 
+      validate_certs: 
+      warning_threshold: 
+]]>
+	</content>
+</snippet>

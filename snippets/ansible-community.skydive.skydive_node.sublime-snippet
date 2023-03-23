@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.skydive.skydive_node</tabTrigger>
+	<description>Module which add nodes to Skydive topology</description>
+	<content><![CDATA[
+- name: Module which add nodes to Skydive topology
+  skydive_node:
+      host: 
+      metadata: 
+      name: 
+      node_type: 
+      provider: 
+      seed: 
+      state: 
+]]>
+	</content>
+</snippet>

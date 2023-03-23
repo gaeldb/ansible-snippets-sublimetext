@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_platform</tabTrigger>
+	<description>Create or delete platforms within Netbox</description>
+	<content><![CDATA[
+- name: Create or delete platforms within Netbox
+  netbox_platform:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_ips_custom</tabTrigger>
+	<description>Configure IPS custom signature in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS custom signature in Fortinet's FortiOS and FortiGate.
+  fortios_ips_custom:
+      access_token: 
+      ips_custom: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

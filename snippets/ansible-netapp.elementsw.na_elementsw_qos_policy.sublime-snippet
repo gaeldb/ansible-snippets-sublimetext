@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_qos_policy</tabTrigger>
+	<description>NetApp Element Software create/modify/rename/delete QOS Policy</description>
+	<content><![CDATA[
+- name: NetApp Element Software create/modify/rename/delete QOS Policy
+  na_elementsw_qos_policy:
+      from_name: 
+      hostname: 
+      name: 
+      password: 
+      qos: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

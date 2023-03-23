@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.datadog_event</tabTrigger>
+	<description>Posts events to Datadog  service</description>
+	<content><![CDATA[
+- name: Posts events to Datadog  service
+  datadog_event:
+      aggregation_key: 
+      alert_type: 
+      api_host: 
+      api_key: 
+      app_key: 
+      date_happened: 
+      host: 
+      priority: 
+      tags: 
+      text: 
+      title: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

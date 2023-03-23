@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.telnet</tabTrigger>
+	<description>Executes a low-down and dirty telnet command</description>
+	<content><![CDATA[
+- name: Executes a low-down and dirty telnet command
+  telnet:
+      command: 
+      host: 
+      login_prompt: 
+      password: 
+      password_prompt: 
+      pause: 
+      port: 
+      prompts: 
+      send_newline: 
+      timeout: 
+      user: 
+]]>
+	</content>
+</snippet>

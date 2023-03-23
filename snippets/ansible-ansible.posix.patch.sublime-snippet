@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.patch</tabTrigger>
+	<description>Apply patch files using the GNU patch tool</description>
+	<content><![CDATA[
+- name: Apply patch files using the GNU patch tool
+  patch:
+      backup: 
+      basedir: 
+      binary: 
+      dest: 
+      ignore_whitespace: 
+      remote_src: 
+      src: 
+      state: 
+      strip: 
+]]>
+	</content>
+</snippet>

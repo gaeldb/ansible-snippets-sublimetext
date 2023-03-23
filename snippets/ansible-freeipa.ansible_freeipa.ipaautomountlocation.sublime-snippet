@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaautomountlocation</tabTrigger>
+	<description>Manage FreeIPA autommount locations</description>
+	<content><![CDATA[
+- name: Manage FreeIPA autommount locations
+  ipaautomountlocation:
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

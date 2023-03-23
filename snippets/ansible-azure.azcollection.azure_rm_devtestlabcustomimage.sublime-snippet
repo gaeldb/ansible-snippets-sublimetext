@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabcustomimage</tabTrigger>
+	<description>Manage Azure DevTest Lab Custom Image instance</description>
+	<content><![CDATA[
+- name: Manage Azure DevTest Lab Custom Image instance
+  azure_rm_devtestlabcustomimage:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      author: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      description: 
+      lab_name: 
+      linux_os_state: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      source_vm: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      windows_os_state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssh_cert</tabTrigger>
+	<description>Generate OpenSSH host or user certificates.</description>
+	<content><![CDATA[
+- name: Generate OpenSSH host or user certificates.
+  openssh_cert:
+      attributes: 
+      force: 
+      group: 
+      identifier: 
+      ignore_timestamps: 
+      mode: 
+      options: 
+      owner: 
+      path: 
+      pkcs11_provider: 
+      principals: 
+      public_key: 
+      regenerate: 
+      selevel: 
+      serial_number: 
+      serole: 
+      setype: 
+      seuser: 
+      signature_algorithm: 
+      signing_key: 
+      state: 
+      type: 
+      unsafe_writes: 
+      use_agent: 
+      valid_at: 
+      valid_from: 
+      valid_to: 
+]]>
+	</content>
+</snippet>

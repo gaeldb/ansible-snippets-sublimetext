@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_administrator</tabTrigger>
+	<description>Manages administrator objects on Checkpoint over Web Services API</description>
+	<content><![CDATA[
+- name: Manages administrator objects on Checkpoint over Web Services API
+  cp_mgmt_administrator:
+      authentication_method: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      email: 
+      expiration_date: 
+      ignore_errors: 
+      ignore_warnings: 
+      multi_domain_profile: 
+      must_change_password: 
+      name: 
+      password: 
+      password_hash: 
+      permissions_profile: 
+      phone_number: 
+      radius_server: 
+      state: 
+      tacacs_server: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

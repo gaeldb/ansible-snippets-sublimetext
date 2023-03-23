@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_put</tabTrigger>
+	<description>Copy a file from Ansible Controller to a network device</description>
+	<content><![CDATA[
+- name: Copy a file from Ansible Controller to a network device
+  net_put:
+      dest: 
+      mode: 
+      protocol: 
+      src: 
+]]>
+	</content>
+</snippet>

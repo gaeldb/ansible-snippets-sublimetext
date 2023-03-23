@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_netconf</tabTrigger>
+	<description>Configures NetConf sub-system service on Cisco IOS-XR devices</description>
+	<content><![CDATA[
+- name: Configures NetConf sub-system service on Cisco IOS-XR devices
+  iosxr_netconf:
+      netconf_port: 
+      netconf_vrf: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_network_info</tabTrigger>
+	<description>Gather info about podman networks</description>
+	<content><![CDATA[
+- name: Gather info about podman networks
+  podman_network_info:
+      executable: 
+      name: 
+]]>
+	</content>
+</snippet>

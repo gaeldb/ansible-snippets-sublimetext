@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_management_tunnel</tabTrigger>
+	<description>Management tunnel configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Management tunnel configuration in Fortinet's FortiOS and FortiGate.
+  fortios_system_management_tunnel:
+      access_token: 
+      system_management_tunnel: 
+      vdom: 
+]]>
+	</content>
+</snippet>

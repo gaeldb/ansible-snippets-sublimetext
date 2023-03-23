@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_vg</tabTrigger>
+	<description>Manage volume groups on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage volume groups on Pure Storage FlashArrays
+  purefa_vg:
+      api_token: 
+      bw_qos: 
+      count: 
+      digits: 
+      eradicate: 
+      fa_url: 
+      iops_qos: 
+      name: 
+      start: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

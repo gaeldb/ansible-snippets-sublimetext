@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_firewall_group</tabTrigger>
+	<description>Manages firewall groups on Vultr.</description>
+	<content><![CDATA[
+- name: Manages firewall groups on Vultr.
+  vultr_firewall_group:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      name: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

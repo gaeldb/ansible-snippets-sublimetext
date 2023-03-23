@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_wwn_pool</tabTrigger>
+	<description>Configures WWNN or WWPN pools on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures WWNN or WWPN pools on Cisco UCS Manager
+  ucs_wwn_pool:
+      description: 
+      first_addr: 
+      hostname: 
+      last_addr: 
+      name: 
+      order: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      purpose: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.compute_profile</tabTrigger>
+	<description>Manage Compute Profiles</description>
+	<content><![CDATA[
+- name: Manage Compute Profiles
+  compute_profile:
+      compute_attributes: 
+      name: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

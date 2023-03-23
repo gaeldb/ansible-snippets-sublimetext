@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_storage_domain</tabTrigger>
+	<description>Module to manage storage domains in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage storage domains in oVirt/RHV
+  ovirt_storage_domain:
+      auth: 
+      backup: 
+      comment: 
+      critical_space_action_blocker: 
+      data_center: 
+      description: 
+      destroy: 
+      discard_after_delete: 
+      domain_function: 
+      fcp: 
+      fetch_nested: 
+      format: 
+      glusterfs: 
+      host: 
+      id: 
+      iscsi: 
+      localfs: 
+      managed_block_storage: 
+      name: 
+      nested_attributes: 
+      nfs: 
+      poll_interval: 
+      posixfs: 
+      state: 
+      timeout: 
+      wait: 
+      warning_low_space: 
+      wipe_after_delete: 
+]]>
+	</content>
+</snippet>

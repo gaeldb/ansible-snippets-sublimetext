@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.python_requirements_info</tabTrigger>
+	<description>Show python path and assert dependency versions</description>
+	<content><![CDATA[
+- name: Show python path and assert dependency versions
+  python_requirements_info:
+      dependencies: 
+]]>
+	</content>
+</snippet>

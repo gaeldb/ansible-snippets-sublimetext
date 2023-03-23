@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ha_monitor</tabTrigger>
+	<description>Configure HA monitor in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure HA monitor in Fortinet's FortiOS and FortiGate.
+  fortios_system_ha_monitor:
+      access_token: 
+      system_ha_monitor: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_authentication</tabTrigger>
+	<description>Configure authentication in Keycloak</description>
+	<content><![CDATA[
+- name: Configure authentication in Keycloak
+  keycloak_authentication:
+      alias: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      authenticationExecutions: 
+      connection_timeout: 
+      copyFrom: 
+      description: 
+      force: 
+      http_agent: 
+      providerId: 
+      realm: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

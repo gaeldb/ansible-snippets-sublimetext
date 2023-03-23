@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_rule</tabTrigger>
+	<description>Manage AFM Firewall rules</description>
+	<content><![CDATA[
+- name: Manage AFM Firewall rules
+  bigip_firewall_rule:
+      action: 
+      description: 
+      destination: 
+      icmp_message: 
+      irule: 
+      logging: 
+      name: 
+      parent_policy: 
+      parent_rule_list: 
+      partition: 
+      protocol: 
+      provider: 
+      rule_list: 
+      schedule: 
+      source: 
+      state: 
+      status: 
+]]>
+	</content>
+</snippet>

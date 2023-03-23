@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_servicebus_facts</tabTrigger>
+	<description>Get servicebus facts</description>
+	<content><![CDATA[
+- name: Get servicebus facts
+  azure_rm_servicebus_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      namespace: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      show_sas_policies: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      topic: 
+      type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_static_route</tabTrigger>
+	<description>Manipulate static routes on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manipulate static routes on a BIG-IP
+  bigip_static_route:
+      description: 
+      destination: 
+      gateway_address: 
+      mtu: 
+      name: 
+      netmask: 
+      partition: 
+      pool: 
+      provider: 
+      reject: 
+      route_domain: 
+      state: 
+      vlan: 
+]]>
+	</content>
+</snippet>

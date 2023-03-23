@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_pgsched</tabTrigger>
+	<description>Manage protection groups replication schedules on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage protection groups replication schedules on Pure Storage FlashArrays
+  purefa_pgsched:
+      all_for: 
+      api_token: 
+      blackout_end: 
+      blackout_start: 
+      days: 
+      enabled: 
+      fa_url: 
+      name: 
+      per_day: 
+      replicate_at: 
+      replicate_frequency: 
+      schedule: 
+      snap_at: 
+      snap_frequency: 
+      state: 
+      target_all_for: 
+      target_days: 
+      target_per_day: 
+]]>
+	</content>
+</snippet>

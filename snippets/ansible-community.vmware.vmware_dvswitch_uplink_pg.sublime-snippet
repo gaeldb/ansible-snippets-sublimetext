@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvswitch_uplink_pg</tabTrigger>
+	<description>Manage uplink portproup configuration of a Distributed Switch</description>
+	<content><![CDATA[
+- name: Manage uplink portproup configuration of a Distributed Switch
+  vmware_dvswitch_uplink_pg:
+      advanced: 
+      block_all_ports: 
+      description: 
+      hostname: 
+      lacp: 
+      name: 
+      netflow_enabled: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      switch: 
+      username: 
+      validate_certs: 
+      vlan_trunk_range: 
+]]>
+	</content>
+</snippet>

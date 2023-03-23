@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.zypper_repository</tabTrigger>
+	<description>Add and remove Zypper repositories</description>
+	<content><![CDATA[
+- name: Add and remove Zypper repositories
+  zypper_repository:
+      auto_import_keys: 
+      autorefresh: 
+      description: 
+      disable_gpg_check: 
+      enabled: 
+      name: 
+      overwrite_multiple: 
+      priority: 
+      repo: 
+      runrefresh: 
+      state: 
+]]>
+	</content>
+</snippet>

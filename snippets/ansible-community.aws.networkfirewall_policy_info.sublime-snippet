@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.networkfirewall_policy_info</tabTrigger>
+	<description>describe AWS Network Firewall policies</description>
+	<content><![CDATA[
+- name: describe AWS Network Firewall policies
+  networkfirewall_policy_info:
+      access_key: 
+      arn: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

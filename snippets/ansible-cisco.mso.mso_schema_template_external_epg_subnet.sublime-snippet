@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_external_epg_subnet</tabTrigger>
+	<description>Manage External EPG subnets in schema templates</description>
+	<content><![CDATA[
+- name: Manage External EPG subnets in schema templates
+  mso_schema_template_external_epg_subnet:
+      aggregate: 
+      external_epg: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      scope: 
+      state: 
+      subnet: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_static_route_bfd</tabTrigger>
+	<description>Manages static route configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages static route configuration on HUAWEI CloudEngine switches.
+  ce_static_route_bfd:
+      aftype: 
+      bfd_session_name: 
+      commands: 
+      description: 
+      destvrf: 
+      detect_multiplier: 
+      function_flag: 
+      mask: 
+      min_rx_interval: 
+      min_tx_interval: 
+      next_hop: 
+      nhp_interface: 
+      pref: 
+      prefix: 
+      state: 
+      tag: 
+      vrf: 
+]]>
+	</content>
+</snippet>

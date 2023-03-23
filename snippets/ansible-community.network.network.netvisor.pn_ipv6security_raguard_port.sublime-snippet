@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_ipv6security_raguard_port</tabTrigger>
+	<description>CLI command to add/remove ipv6security-raguard-port</description>
+	<content><![CDATA[
+- name: CLI command to add/remove ipv6security-raguard-port
+  pn_ipv6security_raguard_port:
+      pn_cliswitch: 
+      pn_name: 
+      pn_ports: 
+      state: 
+]]>
+	</content>
+</snippet>

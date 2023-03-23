@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_user_role</tabTrigger>
+	<description>Associate OpenStack Identity users and roles</description>
+	<content><![CDATA[
+- name: Associate OpenStack Identity users and roles
+  role_assignment:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      domain: 
+      group: 
+      interface: 
+      project: 
+      region_name: 
+      role: 
+      state: 
+      timeout: 
+      user: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.lb_health_monitor</tabTrigger>
+	<description>Add/Delete a health m nonitor to a pool in the load balancing service from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete a health m nonitor to a pool in the load balancing service from OpenStack Cloud
+  lb_health_monitor:
+      admin_state_up: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      delay: 
+      expected_codes: 
+      http_method: 
+      interface: 
+      max_retries: 
+      max_retries_down: 
+      name: 
+      pool: 
+      region_name: 
+      resp_timeout: 
+      state: 
+      timeout: 
+      type: 
+      url_path: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

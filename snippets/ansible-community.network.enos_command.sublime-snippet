@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.enos_command</tabTrigger>
+	<description>Run arbitrary commands on Lenovo ENOS devices</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on Lenovo ENOS devices
+  enos_command:
+      auth_pass: 
+      authorize: 
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

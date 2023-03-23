@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.okd.k8s</tabTrigger>
+	<description>Manage OpenShift objects</description>
+	<content><![CDATA[
+- name: Manage OpenShift objects
+  k8s:
+      api_key: 
+      api_version: 
+      append_hash: 
+      apply: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      force: 
+      host: 
+      kind: 
+      kubeconfig: 
+      merge_type: 
+      name: 
+      namespace: 
+      password: 
+      persist_config: 
+      proxy: 
+      resource_definition: 
+      src: 
+      state: 
+      username: 
+      validate: 
+      validate_certs: 
+      wait: 
+      wait_condition: 
+      wait_sleep: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

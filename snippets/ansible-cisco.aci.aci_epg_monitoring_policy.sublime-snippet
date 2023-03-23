@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_epg_monitoring_policy</tabTrigger>
+	<description>Manage monitoring policies (mon:EPGPol)</description>
+	<content><![CDATA[
+- name: Manage monitoring policies (mon:EPGPol)
+  aci_epg_monitoring_policy:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      monitoring_policy: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

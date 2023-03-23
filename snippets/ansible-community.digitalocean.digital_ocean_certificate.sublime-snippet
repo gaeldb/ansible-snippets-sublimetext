@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_certificate</tabTrigger>
+	<description>Manage certificates in DigitalOcean</description>
+	<content><![CDATA[
+- name: Manage certificates in DigitalOcean
+  digital_ocean_certificate:
+      certificate_chain: 
+      leaf_certificate: 
+      name: 
+      oauth_token: 
+      private_key: 
+      state: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

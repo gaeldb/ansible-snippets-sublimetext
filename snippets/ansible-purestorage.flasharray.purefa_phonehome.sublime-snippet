@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_phonehome</tabTrigger>
+	<description>Enable or Disable Pure Storage FlashArray Phonehome</description>
+	<content><![CDATA[
+- name: Enable or Disable Pure Storage FlashArray Phonehome
+  purefa_phonehome:
+      api_token: 
+      fa_url: 
+      state: 
+]]>
+	</content>
+</snippet>

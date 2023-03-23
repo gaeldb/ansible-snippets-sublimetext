@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_site_vrf_region_hub_network</tabTrigger>
+	<description>Manage site-local VRF region hub network in schema template</description>
+	<content><![CDATA[
+- name: Manage site-local VRF region hub network in schema template
+  mso_schema_site_vrf_region_hub_network:
+      host: 
+      hub_network: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      region: 
+      schema: 
+      site: 
+      state: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

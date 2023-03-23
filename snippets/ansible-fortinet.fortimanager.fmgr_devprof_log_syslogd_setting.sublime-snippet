@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_log_syslogd_setting</tabTrigger>
+	<description>Global settings for remote syslog server.</description>
+	<content><![CDATA[
+- name: Global settings for remote syslog server.
+  fmgr_devprof_log_syslogd_setting:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

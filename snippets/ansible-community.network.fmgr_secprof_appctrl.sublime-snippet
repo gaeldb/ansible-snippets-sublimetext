@@ -1,0 +1,49 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.fmgr_secprof_appctrl</tabTrigger>
+	<description>Manage application control security profiles</description>
+	<content><![CDATA[
+- name: Manage application control security profiles
+  fmgr_secprof_appctrl:
+      adom: 
+      app_replacemsg: 
+      comment: 
+      deep_app_inspection: 
+      entries: 
+      entries_action: 
+      entries_application: 
+      entries_behavior: 
+      entries_category: 
+      entries_log: 
+      entries_log_packet: 
+      entries_parameters_value: 
+      entries_per_ip_shaper: 
+      entries_popularity: 
+      entries_protocols: 
+      entries_quarantine: 
+      entries_quarantine_expiry: 
+      entries_quarantine_log: 
+      entries_rate_count: 
+      entries_rate_duration: 
+      entries_rate_mode: 
+      entries_rate_track: 
+      entries_risk: 
+      entries_session_ttl: 
+      entries_shaper: 
+      entries_shaper_reverse: 
+      entries_sub_category: 
+      entries_technology: 
+      entries_vendor: 
+      extended_log: 
+      mode: 
+      name: 
+      options: 
+      other_application_action: 
+      other_application_log: 
+      p2p_black_list: 
+      replacemsg_group: 
+      unknown_application_action: 
+      unknown_application_log: 
+]]>
+	</content>
+</snippet>

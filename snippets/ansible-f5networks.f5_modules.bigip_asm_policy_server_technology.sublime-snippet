@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_policy_server_technology</tabTrigger>
+	<description>Manages Server Technology on an ASM policy</description>
+	<content><![CDATA[
+- name: Manages Server Technology on an ASM policy
+  bigip_asm_policy_server_technology:
+      name: 
+      partition: 
+      policy_name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

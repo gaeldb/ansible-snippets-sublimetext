@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_addrgrp6</tabTrigger>
+	<description>Configure IPv6 address groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 address groups in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_addrgrp6:
+      access_token: 
+      firewall_addrgrp6: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

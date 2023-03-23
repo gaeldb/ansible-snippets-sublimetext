@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ipadm_addrprop</tabTrigger>
+	<description>Manage IP address properties on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage IP address properties on Solaris/illumos systems.
+  ipadm_addrprop:
+      addrobj: 
+      property: 
+      state: 
+      temporary: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.aix_inittab</tabTrigger>
+	<description>Manages the inittab on AIX</description>
+	<content><![CDATA[
+- name: Manages the inittab on AIX
+  aix_inittab:
+      action: 
+      command: 
+      insertafter: 
+      name: 
+      runlevel: 
+      state: 
+]]>
+	</content>
+</snippet>

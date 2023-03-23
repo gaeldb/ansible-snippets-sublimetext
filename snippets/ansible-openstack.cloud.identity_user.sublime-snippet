@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.identity_user</tabTrigger>
+	<description>Manage OpenStack Identity Users</description>
+	<content><![CDATA[
+- name: Manage OpenStack Identity Users
+  identity_user:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      default_project: 
+      description: 
+      domain: 
+      email: 
+      enabled: 
+      interface: 
+      name: 
+      password: 
+      region_name: 
+      state: 
+      timeout: 
+      update_password: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

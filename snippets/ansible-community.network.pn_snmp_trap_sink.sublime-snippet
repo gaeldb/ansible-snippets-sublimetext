@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_snmp_trap_sink</tabTrigger>
+	<description>CLI command to create/delete snmp-trap-sink</description>
+	<content><![CDATA[
+- name: CLI command to create/delete snmp-trap-sink
+  pn_snmp_trap_sink:
+      pn_cliswitch: 
+      pn_community: 
+      pn_dest_host: 
+      pn_dest_port: 
+      pn_type: 
+      state: 
+]]>
+	</content>
+</snippet>

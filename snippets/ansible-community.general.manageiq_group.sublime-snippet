@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_group</tabTrigger>
+	<description>Management of groups in ManageIQ</description>
+	<content><![CDATA[
+- name: Management of groups in ManageIQ
+  manageiq_group:
+      belongsto_filters: 
+      belongsto_filters_merge_mode: 
+      description: 
+      managed_filters: 
+      managed_filters_merge_mode: 
+      manageiq_connection: 
+      role: 
+      role_id: 
+      state: 
+      tenant: 
+      tenant_id: 
+]]>
+	</content>
+</snippet>

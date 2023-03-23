@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_fortiguard</tabTrigger>
+	<description>Configure FortiGuard Web Filter service in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGuard Web Filter service in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_fortiguard:
+      access_token: 
+      vdom: 
+      webfilter_fortiguard: 
+]]>
+	</content>
+</snippet>

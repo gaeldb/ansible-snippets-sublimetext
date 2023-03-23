@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>systemd</tabTrigger>
+	<description>Manage systemd units</description>
+	<content><![CDATA[
+- name: Manage systemd units
+  systemd:
+      daemon_reexec: 
+      daemon_reload: 
+      enabled: 
+      force: 
+      masked: 
+      name: 
+      no_block: 
+      scope: 
+      state: 
+]]>
+	</content>
+</snippet>

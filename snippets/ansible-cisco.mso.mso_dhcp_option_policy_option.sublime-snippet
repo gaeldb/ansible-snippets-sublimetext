@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_dhcp_option_policy_option</tabTrigger>
+	<description>Manage DHCP options in a DHCP Option policy.</description>
+	<content><![CDATA[
+- name: Manage DHCP options in a DHCP Option policy.
+  mso_dhcp_option_policy_option:
+      data: 
+      dhcp_option_policy: 
+      host: 
+      id: 
+      login_domain: 
+      name: 
+      output_level: 
+      password: 
+      port: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

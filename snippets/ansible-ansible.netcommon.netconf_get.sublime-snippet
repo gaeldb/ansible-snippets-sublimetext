@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.netconf_get</tabTrigger>
+	<description>Fetch configuration/state data from NETCONF enabled network devices.</description>
+	<content><![CDATA[
+- name: Fetch configuration/state data from NETCONF enabled network devices.
+  netconf_get:
+      display: 
+      filter: 
+      lock: 
+      source: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_qos_adaptive_policy_group</tabTrigger>
+	<description>NetApp ONTAP Adaptive Quality of Service policy group.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Adaptive Quality of Service policy group.
+  na_ontap_qos_adaptive_policy_group:
+      absolute_min_iops: 
+      cert_filepath: 
+      expected_iops: 
+      feature_flags: 
+      force: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      peak_iops: 
+      peak_iops_allocation: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

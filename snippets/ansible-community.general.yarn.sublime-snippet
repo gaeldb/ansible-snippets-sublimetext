@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.yarn</tabTrigger>
+	<description>Manage node.js packages with Yarn</description>
+	<content><![CDATA[
+- name: Manage node.js packages with Yarn
+  yarn:
+      executable: 
+      global: 
+      ignore_scripts: 
+      name: 
+      path: 
+      production: 
+      registry: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

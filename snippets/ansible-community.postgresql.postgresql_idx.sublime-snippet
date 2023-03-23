@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_idx</tabTrigger>
+	<description>Create or drop indexes from a PostgreSQL database</description>
+	<content><![CDATA[
+- name: Create or drop indexes from a PostgreSQL database
+  postgresql_idx:
+      ca_cert: 
+      cascade: 
+      columns: 
+      concurrent: 
+      cond: 
+      db: 
+      idxname: 
+      idxtype: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      port: 
+      schema: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      storage_params: 
+      table: 
+      tablespace: 
+      trust_input: 
+      unique: 
+]]>
+	</content>
+</snippet>

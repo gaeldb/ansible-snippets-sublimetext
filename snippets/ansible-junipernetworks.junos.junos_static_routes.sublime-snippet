@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_static_routes</tabTrigger>
+	<description>Static routes resource module</description>
+	<content><![CDATA[
+- name: Static routes resource module
+  junos_static_routes:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

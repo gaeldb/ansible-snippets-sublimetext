@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_startup</tabTrigger>
+	<description>Manages a system startup information on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages a system startup information on HUAWEI CloudEngine switches.
+  ce_startup:
+      action: 
+      cfg_file: 
+      patch_file: 
+      slot: 
+      software_file: 
+]]>
+	</content>
+</snippet>

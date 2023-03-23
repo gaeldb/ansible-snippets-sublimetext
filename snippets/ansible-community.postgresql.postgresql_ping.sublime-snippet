@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_ping</tabTrigger>
+	<description>Check remote PostgreSQL server availability</description>
+	<content><![CDATA[
+- name: Check remote PostgreSQL server availability
+  postgresql_ping:
+      ca_cert: 
+      db: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      port: 
+      session_role: 
+      ssl_mode: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

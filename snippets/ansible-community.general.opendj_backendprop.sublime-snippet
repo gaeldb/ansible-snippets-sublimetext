@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.opendj_backendprop</tabTrigger>
+	<description>Will update the backend configuration of OpenDJ via the dsconfig set-backend-prop command</description>
+	<content><![CDATA[
+- name: Will update the backend configuration of OpenDJ via the dsconfig set-backend-prop command
+  opendj_backendprop:
+      backend: 
+      hostname: 
+      name: 
+      opendj_bindir: 
+      password: 
+      passwordfile: 
+      port: 
+      state: 
+      username: 
+      value: 
+]]>
+	</content>
+</snippet>

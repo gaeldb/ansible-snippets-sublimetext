@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_test</tabTrigger>
+	<description>Tries to discover IPA server</description>
+	<content><![CDATA[
+- name: Tries to discover IPA server
+  ipaclient_test:
+      all_ip_addresses: 
+      ca_cert_files: 
+      configure_firefox: 
+      domain: 
+      enable_dns_updates: 
+      firefox_dir: 
+      force_ntpd: 
+      hostname: 
+      ip_addresses: 
+      kinit_attempts: 
+      nisdomain: 
+      no_nisdomain: 
+      no_ntp: 
+      ntp_pool: 
+      ntp_servers: 
+      on_master: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

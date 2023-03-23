@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.sysctl</tabTrigger>
+	<description>Manage entries in sysctl.conf.</description>
+	<content><![CDATA[
+- name: Manage entries in sysctl.conf.
+  sysctl:
+      ignoreerrors: 
+      name: 
+      reload: 
+      state: 
+      sysctl_file: 
+      sysctl_set: 
+      value: 
+]]>
+	</content>
+</snippet>

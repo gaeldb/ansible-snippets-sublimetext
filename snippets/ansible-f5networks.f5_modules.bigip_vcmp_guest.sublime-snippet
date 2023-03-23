@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_vcmp_guest</tabTrigger>
+	<description>Manages vCMP guests on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages vCMP guests on a BIG-IP
+  bigip_vcmp_guest:
+      allowed_slots: 
+      cores_per_slot: 
+      delete_virtual_disk: 
+      initial_hotfix: 
+      initial_image: 
+      mgmt_address: 
+      mgmt_network: 
+      mgmt_route: 
+      min_number_of_slots: 
+      name: 
+      number_of_slots: 
+      partition: 
+      provider: 
+      state: 
+      vlans: 
+]]>
+	</content>
+</snippet>

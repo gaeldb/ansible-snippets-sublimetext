@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_aep_to_domain</tabTrigger>
+	<description>Bind AEPs to Physical or Virtual Domains (infra:RsDomP)</description>
+	<content><![CDATA[
+- name: Bind AEPs to Physical or Virtual Domains (infra:RsDomP)
+  aci_aep_to_domain:
+      aep: 
+      annotation: 
+      certificate_name: 
+      domain: 
+      domain_type: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vm_provider: 
+]]>
+	</content>
+</snippet>

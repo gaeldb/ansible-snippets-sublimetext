@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_content_deploy_ovf_template</tabTrigger>
+	<description>Deploy Virtual Machine from ovf template stored in content library.</description>
+	<content><![CDATA[
+- name: Deploy Virtual Machine from ovf template stored in content library.
+  vmware_content_deploy_ovf_template:
+      cluster: 
+      content_library: 
+      datacenter: 
+      datastore: 
+      folder: 
+      host: 
+      hostname: 
+      name: 
+      ovf_template: 
+      password: 
+      port: 
+      protocol: 
+      resource_pool: 
+      storage_provisioning: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

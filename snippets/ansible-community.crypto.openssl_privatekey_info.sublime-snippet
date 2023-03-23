@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_privatekey_info</tabTrigger>
+	<description>Provide information for OpenSSL private keys</description>
+	<content><![CDATA[
+- name: Provide information for OpenSSL private keys
+  openssl_privatekey_info:
+      check_consistency: 
+      content: 
+      passphrase: 
+      path: 
+      return_private_key_data: 
+      select_crypto_backend: 
+]]>
+	</content>
+</snippet>

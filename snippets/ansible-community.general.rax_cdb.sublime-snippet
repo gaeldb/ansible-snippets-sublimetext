@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_cdb</tabTrigger>
+	<description>Create/delete or resize a Rackspace Cloud Databases instance</description>
+	<content><![CDATA[
+- name: Create/delete or resize a Rackspace Cloud Databases instance
+  rax_cdb:
+      api_key: 
+      auth_endpoint: 
+      cdb_type: 
+      cdb_version: 
+      credentials: 
+      env: 
+      flavor: 
+      identity_type: 
+      name: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+      volume: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

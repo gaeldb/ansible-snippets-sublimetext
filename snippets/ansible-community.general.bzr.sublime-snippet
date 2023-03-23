@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bzr</tabTrigger>
+	<description>Deploy software (or files) from bzr branches</description>
+	<content><![CDATA[
+- name: Deploy software (or files) from bzr branches
+  bzr:
+      dest: 
+      executable: 
+      force: 
+      name: 
+      version: 
+]]>
+	</content>
+</snippet>

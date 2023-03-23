@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sysrc</tabTrigger>
+	<description>Manage FreeBSD using sysrc</description>
+	<content><![CDATA[
+- name: Manage FreeBSD using sysrc
+  sysrc:
+      delim: 
+      jail: 
+      name: 
+      path: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_user</tabTrigger>
+	<description>Manage Grafana User</description>
+	<content><![CDATA[
+- name: Manage Grafana User
+  grafana_user:
+      client_cert: 
+      client_key: 
+      email: 
+      is_admin: 
+      login: 
+      name: 
+      password: 
+      state: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

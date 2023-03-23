@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_selfip</tabTrigger>
+	<description>Manage Self-IPs on a BIG-IP system</description>
+	<content><![CDATA[
+- name: Manage Self-IPs on a BIG-IP system
+  bigip_selfip:
+      address: 
+      allow_service: 
+      description: 
+      fw_enforced_policy: 
+      name: 
+      netmask: 
+      partition: 
+      provider: 
+      route_domain: 
+      state: 
+      traffic_group: 
+      vlan: 
+]]>
+	</content>
+</snippet>

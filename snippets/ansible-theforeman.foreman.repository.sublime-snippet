@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.repository</tabTrigger>
+	<description>Manage Repositories</description>
+	<content><![CDATA[
+- name: Manage Repositories
+  repository:
+      ansible_collection_requirements: 
+      auto_enabled: 
+      checksum_type: 
+      content_type: 
+      deb_architectures: 
+      deb_components: 
+      deb_errata_url: 
+      deb_releases: 
+      description: 
+      docker_tags_whitelist: 
+      docker_upstream_name: 
+      download_policy: 
+      gpg_key: 
+      http_proxy: 
+      http_proxy_policy: 
+      ignorable_content: 
+      ignore_global_proxy: 
+      label: 
+      mirror_on_sync: 
+      name: 
+      organization: 
+      password: 
+      product: 
+      server_url: 
+      ssl_ca_cert: 
+      ssl_client_cert: 
+      ssl_client_key: 
+      state: 
+      unprotected: 
+      upstream_password: 
+      upstream_username: 
+      url: 
+      username: 
+      validate_certs: 
+      verify_ssl_on_sync: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_alerts</tabTrigger>
+	<description>Configuration of alerts in ManageIQ</description>
+	<content><![CDATA[
+- name: Configuration of alerts in ManageIQ
+  manageiq_alerts:
+      description: 
+      enabled: 
+      expression: 
+      expression_type: 
+      manageiq_connection: 
+      options: 
+      resource_type: 
+      state: 
+]]>
+	</content>
+</snippet>

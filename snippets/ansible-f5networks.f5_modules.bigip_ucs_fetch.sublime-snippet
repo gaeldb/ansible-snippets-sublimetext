@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ucs_fetch</tabTrigger>
+	<description>Fetches a UCS file from remote nodes</description>
+	<content><![CDATA[
+- name: Fetches a UCS file from remote nodes
+  bigip_ucs_fetch:
+      async_timeout: 
+      backup: 
+      create_on_missing: 
+      dest: 
+      encryption_password: 
+      fail_on_missing: 
+      force: 
+      provider: 
+      src: 
+]]>
+	</content>
+</snippet>

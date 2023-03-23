@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lxc_container</tabTrigger>
+	<description>Manage LXC Containers</description>
+	<content><![CDATA[
+- name: Manage LXC Containers
+  lxc_container:
+      archive: 
+      archive_compression: 
+      archive_path: 
+      backing_store: 
+      clone_name: 
+      clone_snapshot: 
+      config: 
+      container_command: 
+      container_config: 
+      container_log: 
+      container_log_level: 
+      directory: 
+      fs_size: 
+      fs_type: 
+      lv_name: 
+      lxc_path: 
+      name: 
+      state: 
+      template: 
+      template_options: 
+      thinpool: 
+      vg_name: 
+      zfs_root: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_dns_server</tabTrigger>
+	<description>Configure DNS servers in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DNS servers in Fortinet's FortiOS and FortiGate.
+  fortios_system_dns_server:
+      access_token: 
+      state: 
+      system_dns_server: 
+      vdom: 
+]]>
+	</content>
+</snippet>

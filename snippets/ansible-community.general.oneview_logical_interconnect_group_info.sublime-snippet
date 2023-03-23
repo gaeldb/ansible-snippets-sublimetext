@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_logical_interconnect_group_info</tabTrigger>
+	<description>Retrieve information about one or more of the OneView Logical Interconnect Groups</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more of the OneView Logical Interconnect Groups
+  oneview_logical_interconnect_group_info:
+      api_version: 
+      config: 
+      hostname: 
+      image_streamer_hostname: 
+      name: 
+      params: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

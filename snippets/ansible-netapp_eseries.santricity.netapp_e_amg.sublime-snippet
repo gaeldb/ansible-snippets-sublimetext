@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_amg</tabTrigger>
+	<description>NetApp E-Series create, remove, and update asynchronous mirror groups</description>
+	<content><![CDATA[
+- name: NetApp E-Series create, remove, and update asynchronous mirror groups
+  netapp_e_amg:
+      api_password: 
+      api_url: 
+      api_username: 
+      interfaceType: 
+      manualSync: 
+      name: 
+      new_name: 
+      recoveryWarnThresholdMinutes: 
+      repoUtilizationWarnThreshold: 
+      secondaryArrayId: 
+      ssid: 
+      state: 
+      syncIntervalMinutes: 
+      syncWarnThresholdMinutes: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

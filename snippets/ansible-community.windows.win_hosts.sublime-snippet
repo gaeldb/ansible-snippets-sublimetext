@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_hosts</tabTrigger>
+	<description>Manages hosts file entries on Windows.</description>
+	<content><![CDATA[
+- name: Manages hosts file entries on Windows.
+  win_hosts:
+      action: 
+      aliases: 
+      canonical_name: 
+      ip_address: 
+      state: 
+]]>
+	</content>
+</snippet>

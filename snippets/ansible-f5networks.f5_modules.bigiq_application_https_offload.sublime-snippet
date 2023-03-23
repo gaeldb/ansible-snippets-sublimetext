@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_application_https_offload</tabTrigger>
+	<description>Manages BIG-IQ HTTPS offload applications</description>
+	<content><![CDATA[
+- name: Manages BIG-IQ HTTPS offload applications
+  bigiq_application_https_offload:
+      add_analytics: 
+      client_ssl_profile: 
+      description: 
+      inbound_virtual: 
+      name: 
+      provider: 
+      redirect_virtual: 
+      servers: 
+      service_environment: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_files_objects</tabTrigger>
+	<description>Upload, download, and delete objects in Rackspace Cloud Files</description>
+	<content><![CDATA[
+- name: Upload, download, and delete objects in Rackspace Cloud Files
+  rax_files_objects:
+      api_key: 
+      auth_endpoint: 
+      clear_meta: 
+      container: 
+      credentials: 
+      dest: 
+      env: 
+      expires: 
+      identity_type: 
+      meta: 
+      method: 
+      region: 
+      src: 
+      structure: 
+      tenant_id: 
+      tenant_name: 
+      type: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

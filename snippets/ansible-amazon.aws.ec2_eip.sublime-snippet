@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_eip</tabTrigger>
+	<description>manages EC2 elastic IP (EIP) addresses.</description>
+	<content><![CDATA[
+- name: manages EC2 elastic IP (EIP) addresses.
+  ec2_eip:
+      access_key: 
+      allow_reassociation: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      device_id: 
+      endpoint_url: 
+      in_vpc: 
+      private_ip_address: 
+      profile: 
+      public_ip: 
+      public_ipv4_pool: 
+      purge_tags: 
+      region: 
+      release_on_disassociation: 
+      reuse_existing_ip_allowed: 
+      secret_key: 
+      session_token: 
+      state: 
+      tag_name: 
+      tag_value: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_op</tabTrigger>
+	<description>execute arbitrary OP commands on PANW devices (e.g. show interface all)</description>
+	<content><![CDATA[
+- name: execute arbitrary OP commands on PANW devices (e.g. show interface all)
+  panos_op:
+      api_key: 
+      cmd: 
+      ip_address: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

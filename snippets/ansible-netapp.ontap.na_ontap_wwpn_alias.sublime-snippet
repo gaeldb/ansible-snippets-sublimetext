@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_wwpn_alias</tabTrigger>
+	<description>NetApp ONTAP set FCP WWPN Alias</description>
+	<content><![CDATA[
+- name: NetApp ONTAP set FCP WWPN Alias
+  na_ontap_wwpn_alias:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+      wwpn: 
+]]>
+	</content>
+</snippet>

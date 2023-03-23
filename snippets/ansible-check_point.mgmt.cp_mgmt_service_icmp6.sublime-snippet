@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_service_icmp6</tabTrigger>
+	<description>Manages service-icmp6 objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages service-icmp6 objects on Check Point over Web Services API
+  cp_mgmt_service_icmp6:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      icmp_code: 
+      icmp_type: 
+      ignore_errors: 
+      ignore_warnings: 
+      keep_connections_open_after_policy_installation: 
+      name: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

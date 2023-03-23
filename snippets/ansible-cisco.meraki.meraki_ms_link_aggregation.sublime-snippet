@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ms_link_aggregation</tabTrigger>
+	<description>Manage link aggregations on MS switches</description>
+	<content><![CDATA[
+- name: Manage link aggregations on MS switches
+  meraki_ms_link_aggregation:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      lag_id: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      switch_ports: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

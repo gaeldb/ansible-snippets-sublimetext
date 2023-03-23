@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_vrrp</tabTrigger>
+	<description>Manages VRRP interfaces on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages VRRP interfaces on HUAWEI CloudEngine devices.
+  ce_vrrp:
+      admin_flowdown: 
+      admin_ignore_if_down: 
+      admin_interface: 
+      admin_vrid: 
+      advertise_interval: 
+      auth_key: 
+      auth_mode: 
+      fast_resume: 
+      gratuitous_arp_interval: 
+      holding_multiplier: 
+      interface: 
+      is_plain: 
+      preempt_timer_delay: 
+      priority: 
+      recover_delay: 
+      state: 
+      version: 
+      virtual_ip: 
+      vrid: 
+      vrrp_type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_http</tabTrigger>
+	<description>Setup HTTP</description>
+	<content><![CDATA[
+- name: Setup HTTP
+  ipaserver_setup_http:
+      _ca_subject: 
+      _dirsrv_pkcs12_info: 
+      _http_pkcs12_info: 
+      _subject_base: 
+      auto_forwarders: 
+      ca_subject: 
+      dirsrv_cert_files: 
+      dirsrv_config_file: 
+      dm_password: 
+      domain: 
+      domainlevel: 
+      external_cert_files: 
+      hostname: 
+      http_cert_files: 
+      idmax: 
+      idstart: 
+      ip_addresses: 
+      master_password: 
+      no_hbac_allow: 
+      no_host_dns: 
+      no_pkinit: 
+      no_reverse: 
+      no_ui_redirect: 
+      password: 
+      realm: 
+      reverse_zones: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

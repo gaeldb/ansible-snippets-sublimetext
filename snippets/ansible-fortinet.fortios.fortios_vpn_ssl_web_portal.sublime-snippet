@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ssl_web_portal</tabTrigger>
+	<description>Portal in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Portal in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ssl_web_portal:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ssl_web_portal: 
+]]>
+	</content>
+</snippet>

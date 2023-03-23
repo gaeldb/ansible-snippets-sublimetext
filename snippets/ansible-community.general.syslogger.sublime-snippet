@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.syslogger</tabTrigger>
+	<description>Log messages in the syslog</description>
+	<content><![CDATA[
+- name: Log messages in the syslog
+  syslogger:
+      facility: 
+      ident: 
+      log_pid: 
+      msg: 
+      priority: 
+]]>
+	</content>
+</snippet>

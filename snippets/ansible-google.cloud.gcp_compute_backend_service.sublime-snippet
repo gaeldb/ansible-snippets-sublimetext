@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_backend_service</tabTrigger>
+	<description>Creates a GCP BackendService</description>
+	<content><![CDATA[
+- name: Creates a GCP BackendService
+  gcp_compute_backend_service:
+      affinity_cookie_ttl_sec: 
+      auth_kind: 
+      backends: 
+      cdn_policy: 
+      circuit_breakers: 
+      connection_draining: 
+      consistent_hash: 
+      custom_request_headers: 
+      description: 
+      enable_cdn: 
+      env_type: 
+      health_checks: 
+      iap: 
+      load_balancing_scheme: 
+      locality_lb_policy: 
+      log_config: 
+      name: 
+      outlier_detection: 
+      port_name: 
+      project: 
+      protocol: 
+      scopes: 
+      security_policy: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      session_affinity: 
+      state: 
+      timeout_sec: 
+]]>
+	</content>
+</snippet>

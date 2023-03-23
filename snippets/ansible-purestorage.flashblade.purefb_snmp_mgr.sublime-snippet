@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_snmp_mgr</tabTrigger>
+	<description>Configure FlashBlade SNMP Managers</description>
+	<content><![CDATA[
+- name: Configure FlashBlade SNMP Managers
+  purefb_snmp_mgr:
+      api_token: 
+      auth_passphrase: 
+      auth_protocol: 
+      community: 
+      fb_url: 
+      host: 
+      name: 
+      notification: 
+      privacy_passphrase: 
+      privacy_protocol: 
+      state: 
+      user: 
+      version: 
+]]>
+	</content>
+</snippet>

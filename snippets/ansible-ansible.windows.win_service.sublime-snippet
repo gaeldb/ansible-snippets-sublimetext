@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_service</tabTrigger>
+	<description>Manage and query Windows services</description>
+	<content><![CDATA[
+- name: Manage and query Windows services
+  win_service:
+      dependencies: 
+      dependency_action: 
+      description: 
+      desktop_interact: 
+      display_name: 
+      error_control: 
+      failure_actions: 
+      failure_actions_on_non_crash_failure: 
+      failure_command: 
+      failure_reboot_msg: 
+      failure_reset_period_sec: 
+      force_dependent_services: 
+      load_order_group: 
+      name: 
+      password: 
+      path: 
+      pre_shutdown_timeout_ms: 
+      required_privileges: 
+      service_type: 
+      sid_info: 
+      start_mode: 
+      state: 
+      update_password: 
+      username: 
+]]>
+	</content>
+</snippet>

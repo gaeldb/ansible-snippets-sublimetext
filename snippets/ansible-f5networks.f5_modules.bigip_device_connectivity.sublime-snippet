@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_connectivity</tabTrigger>
+	<description>Manages device IP configuration settings for HA on a BIG-IP.</description>
+	<content><![CDATA[
+- name: Manages device IP configuration settings for HA on a BIG-IP.
+  bigip_device_connectivity:
+      cluster_mirroring: 
+      config_sync_ip: 
+      failover_multicast: 
+      mirror_primary_address: 
+      mirror_secondary_address: 
+      multicast_address: 
+      multicast_interface: 
+      multicast_port: 
+      provider: 
+      unicast_failover: 
+]]>
+	</content>
+</snippet>

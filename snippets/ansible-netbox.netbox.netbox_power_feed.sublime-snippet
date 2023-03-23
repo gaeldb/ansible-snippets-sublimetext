@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_power_feed</tabTrigger>
+	<description>Create, update or delete power feeds within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete power feeds within Netbox
+  netbox_power_feed:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

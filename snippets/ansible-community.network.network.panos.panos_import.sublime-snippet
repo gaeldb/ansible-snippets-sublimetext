@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_import</tabTrigger>
+	<description>import file on PAN-OS devices</description>
+	<content><![CDATA[
+- name: import file on PAN-OS devices
+  panos_import:
+      category: 
+      file: 
+      ip_address: 
+      password: 
+      url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

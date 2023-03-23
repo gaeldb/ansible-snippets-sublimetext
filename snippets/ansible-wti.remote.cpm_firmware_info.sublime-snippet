@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_firmware_info</tabTrigger>
+	<description>Get firmware information from WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Get firmware information from WTI OOB and PDU devices
+  cpm_firmware_info:
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

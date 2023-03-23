@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_igmp_snooping</tabTrigger>
+	<description>Configure FortiSwitch IGMP snooping global settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch IGMP snooping global settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_igmp_snooping:
+      access_token: 
+      switch_controller_igmp_snooping: 
+      vdom: 
+]]>
+	</content>
+</snippet>

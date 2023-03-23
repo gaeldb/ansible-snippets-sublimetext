@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.compute_resource</tabTrigger>
+	<description>Manage Compute Resources</description>
+	<content><![CDATA[
+- name: Manage Compute Resources
+  compute_resource:
+      description: 
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      provider: 
+      provider_params: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

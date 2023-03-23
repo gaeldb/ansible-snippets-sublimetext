@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.bgp_validate</tabTrigger>
+	<description>Validate the bgp neighbor state,raise error if it is not in established state</description>
+	<content><![CDATA[
+- name: Validate the bgp neighbor state,raise error if it is not in established state
+  bgp_validate:
+      bgp_neighbors: 
+      show_ip_bgp: 
+      show_ip_intf_brief: 
+]]>
+	</content>
+</snippet>

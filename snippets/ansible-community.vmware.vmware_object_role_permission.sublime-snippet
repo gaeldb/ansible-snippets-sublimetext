@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_object_role_permission</tabTrigger>
+	<description>Manage local roles on an ESXi host</description>
+	<content><![CDATA[
+- name: Manage local roles on an ESXi host
+  vmware_object_role_permission:
+      group: 
+      hostname: 
+      object_name: 
+      object_type: 
+      password: 
+      port: 
+      principal: 
+      proxy_host: 
+      proxy_port: 
+      recursive: 
+      role: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

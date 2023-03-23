@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_eapi</tabTrigger>
+	<description>Manage and configure Arista EOS eAPI.</description>
+	<content><![CDATA[
+- name: Manage and configure Arista EOS eAPI.
+  eos_eapi:
+      config: 
+      http: 
+      http_port: 
+      https: 
+      https_port: 
+      local_http: 
+      local_http_port: 
+      provider: 
+      socket: 
+      state: 
+      timeout: 
+      vrf: 
+]]>
+	</content>
+</snippet>

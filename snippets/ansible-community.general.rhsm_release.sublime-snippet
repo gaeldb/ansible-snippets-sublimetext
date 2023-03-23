@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rhsm_release</tabTrigger>
+	<description>Set or Unset RHSM Release version</description>
+	<content><![CDATA[
+- name: Set or Unset RHSM Release version
+  rhsm_release:
+      release: 
+]]>
+	</content>
+</snippet>

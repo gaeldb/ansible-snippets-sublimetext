@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_smtp</tabTrigger>
+	<description>Configure SMTP for Pure Storage FlashBlade</description>
+	<content><![CDATA[
+- name: Configure SMTP for Pure Storage FlashBlade
+  purefb_smtp:
+      api_token: 
+      domain: 
+      fb_url: 
+      host: 
+]]>
+	</content>
+</snippet>

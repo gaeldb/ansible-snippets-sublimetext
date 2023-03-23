@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vlan_find</tabTrigger>
+	<description>Find VLANs on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Find VLANs on Cisco UCS Manager
+  ucs_vlan_find:
+      fabric: 
+      hostname: 
+      password: 
+      pattern: 
+      port: 
+      proxy: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vlanid: 
+]]>
+	</content>
+</snippet>

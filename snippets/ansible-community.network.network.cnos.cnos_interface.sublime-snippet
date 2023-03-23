@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_interface</tabTrigger>
+	<description>Manage Interface on Lenovo CNOS network devices</description>
+	<content><![CDATA[
+- name: Manage Interface on Lenovo CNOS network devices
+  cnos_interface:
+      aggregate: 
+      delay: 
+      description: 
+      duplex: 
+      enabled: 
+      mtu: 
+      name: 
+      neighbors: 
+      provider: 
+      rx_rate: 
+      speed: 
+      state: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

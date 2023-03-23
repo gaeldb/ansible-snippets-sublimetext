@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.acme_inspect</tabTrigger>
+	<description>Send direct requests to an ACME server</description>
+	<content><![CDATA[
+- name: Send direct requests to an ACME server
+  acme_inspect:
+      account_key_content: 
+      account_key_passphrase: 
+      account_key_src: 
+      account_uri: 
+      acme_directory: 
+      acme_version: 
+      content: 
+      fail_on_acme_error: 
+      method: 
+      request_timeout: 
+      select_crypto_backend: 
+      url: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_fc</tabTrigger>
+	<description>Manage Fibre Channel interface policies (fc:IfPol)</description>
+	<content><![CDATA[
+- name: Manage Fibre Channel interface policies (fc:IfPol)
+  aci_interface_policy_fc:
+      annotation: 
+      certificate_name: 
+      description: 
+      fc_policy: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      port_mode: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_logging</tabTrigger>
+	<description>Manage logging on network devices</description>
+	<content><![CDATA[
+- name: Manage logging on network devices
+  ios_logging:
+      aggregate: 
+      dest: 
+      facility: 
+      level: 
+      name: 
+      provider: 
+      size: 
+      state: 
+]]>
+	</content>
+</snippet>

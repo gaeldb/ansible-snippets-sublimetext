@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keyring_info</tabTrigger>
+	<description>Get a passphrase using the Operating System's native keyring</description>
+	<content><![CDATA[
+- name: Get a passphrase using the Operating System's native keyring
+  keyring_info:
+      keyring_password: 
+      service: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_interface</tabTrigger>
+	<description>Manage Interface on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage Interface on Ruckus ICX 7000 series switches
+  icx_interface:
+      aggregate: 
+      check_running_config: 
+      delay: 
+      description: 
+      enabled: 
+      name: 
+      neighbors: 
+      power: 
+      rx_rate: 
+      speed: 
+      state: 
+      stp: 
+      tx_rate: 
+]]>
+	</content>
+</snippet>

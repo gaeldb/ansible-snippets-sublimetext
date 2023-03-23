@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.librato_annotation</tabTrigger>
+	<description>Create an annotation in librato</description>
+	<content><![CDATA[
+- name: Create an annotation in librato
+  librato_annotation:
+      api_key: 
+      description: 
+      end_time: 
+      links: 
+      name: 
+      source: 
+      start_time: 
+      title: 
+      user: 
+]]>
+	</content>
+</snippet>

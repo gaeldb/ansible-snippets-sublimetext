@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_host</tabTrigger>
+	<description>Manages SNMP host configuration.</description>
+	<content><![CDATA[
+- name: Manages SNMP host configuration.
+  nxos_snmp_host:
+      community: 
+      provider: 
+      snmp_host: 
+      snmp_type: 
+      src_intf: 
+      state: 
+      udp: 
+      v3: 
+      version: 
+      vrf: 
+      vrf_filter: 
+]]>
+	</content>
+</snippet>

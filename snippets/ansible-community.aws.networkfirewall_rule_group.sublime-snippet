@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.networkfirewall_rule_group</tabTrigger>
+	<description>create, delete and modify AWS Network Firewall rule groups</description>
+	<content><![CDATA[
+- name: create, delete and modify AWS Network Firewall rule groups
+  networkfirewall_rule_group:
+      access_key: 
+      arn: 
+      aws_ca_bundle: 
+      aws_config: 
+      capacity: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      domain_list: 
+      endpoint_url: 
+      ip_variables: 
+      name: 
+      port_variables: 
+      profile: 
+      purge_ip_variables: 
+      purge_port_variables: 
+      purge_tags: 
+      region: 
+      rule_list: 
+      rule_order: 
+      rule_strings: 
+      rule_type: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_conditional_command</tabTrigger>
+	<description>Execute a single command based on condition on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Execute a single command based on condition on devices running Lenovo CNOS
+  cnos_conditional_command:
+      clicommand: 
+      condition: 
+      deviceType: 
+      enablePassword: 
+      flag: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

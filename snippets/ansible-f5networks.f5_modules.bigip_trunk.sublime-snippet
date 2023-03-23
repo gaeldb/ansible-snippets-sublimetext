@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_trunk</tabTrigger>
+	<description>Manage trunks on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage trunks on a BIG-IP
+  bigip_trunk:
+      description: 
+      frame_distribution_hash: 
+      interfaces: 
+      lacp_enabled: 
+      lacp_mode: 
+      lacp_timeout: 
+      link_selection_policy: 
+      name: 
+      provider: 
+      qinq_ethertype: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_log_audit_exception</tabTrigger>
+	<description>CLI command to create/delete an audit exception</description>
+	<content><![CDATA[
+- name: CLI command to create/delete an audit exception
+  pn_log_audit_exception:
+      pn_access: 
+      pn_audit_type: 
+      pn_cliswitch: 
+      pn_pattern: 
+      pn_scope: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_ethernet_network</tabTrigger>
+	<description>Manage OneView Ethernet Network resources</description>
+	<content><![CDATA[
+- name: Manage OneView Ethernet Network resources
+  oneview_ethernet_network:
+      api_version: 
+      config: 
+      data: 
+      hostname: 
+      image_streamer_hostname: 
+      password: 
+      state: 
+      username: 
+      validate_etag: 
+]]>
+	</content>
+</snippet>

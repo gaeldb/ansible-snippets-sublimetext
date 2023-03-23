@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_group_with_exclusion_facts</tabTrigger>
+	<description>Get group-with-exclusion objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get group-with-exclusion objects facts on Check Point over Web Services API
+  cp_mgmt_group_with_exclusion_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      show_as_ranges: 
+      version: 
+]]>
+	</content>
+</snippet>

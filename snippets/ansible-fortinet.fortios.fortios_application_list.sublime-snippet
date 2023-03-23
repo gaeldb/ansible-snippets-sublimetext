@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_application_list</tabTrigger>
+	<description>Configure application control lists in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure application control lists in Fortinet's FortiOS and FortiGate.
+  fortios_application_list:
+      access_token: 
+      application_list: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

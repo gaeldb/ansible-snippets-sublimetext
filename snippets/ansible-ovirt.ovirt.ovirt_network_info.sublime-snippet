@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_network_info</tabTrigger>
+	<description>Retrieve information about one or more oVirt/RHV networks</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more oVirt/RHV networks
+  ovirt_network_info:
+      auth: 
+      fetch_nested: 
+      nested_attributes: 
+      pattern: 
+]]>
+	</content>
+</snippet>

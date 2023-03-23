@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_filter</tabTrigger>
+	<description>Manages top level filter objects (vz:Filter)</description>
+	<content><![CDATA[
+- name: Manages top level filter objects (vz:Filter)
+  aci_filter:
+      annotation: 
+      certificate_name: 
+      description: 
+      filter: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

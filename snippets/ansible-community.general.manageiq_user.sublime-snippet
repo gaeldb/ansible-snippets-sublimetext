@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_user</tabTrigger>
+	<description>Management of users in ManageIQ</description>
+	<content><![CDATA[
+- name: Management of users in ManageIQ
+  manageiq_user:
+      email: 
+      group: 
+      manageiq_connection: 
+      name: 
+      password: 
+      state: 
+      update_password: 
+      userid: 
+]]>
+	</content>
+</snippet>

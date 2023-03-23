@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_web_proxy_forward_server</tabTrigger>
+	<description>Configure forward-server addresses in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure forward-server addresses in Fortinet's FortiOS and FortiGate.
+  fortios_web_proxy_forward_server:
+      access_token: 
+      state: 
+      vdom: 
+      web_proxy_forward_server: 
+]]>
+	</content>
+</snippet>

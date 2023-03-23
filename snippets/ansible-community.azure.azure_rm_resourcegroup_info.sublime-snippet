@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_resourcegroup_info</tabTrigger>
+	<description>Get resource group facts</description>
+	<content><![CDATA[
+- name: Get resource group facts
+  azure_rm_resourcegroup_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      list_resources: 
+      name: 
+      password: 
+      profile: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

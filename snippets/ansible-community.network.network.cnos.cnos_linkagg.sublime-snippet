@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_linkagg</tabTrigger>
+	<description>Manage link aggregation groups on Lenovo CNOS devices</description>
+	<content><![CDATA[
+- name: Manage link aggregation groups on Lenovo CNOS devices
+  cnos_linkagg:
+      aggregate: 
+      group: 
+      members: 
+      mode: 
+      provider: 
+      purge: 
+      state: 
+]]>
+	</content>
+</snippet>

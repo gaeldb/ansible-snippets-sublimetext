@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_ip_interface</tabTrigger>
+	<description>Manages L3 attributes for IPv4 and IPv6 interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages L3 attributes for IPv4 and IPv6 interfaces on HUAWEI CloudEngine switches.
+  ce_ip_interface:
+      addr: 
+      interface: 
+      ipv4_type: 
+      mask: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

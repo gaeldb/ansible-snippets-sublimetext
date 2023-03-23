@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_pkg_firewall_policy</tabTrigger>
+	<description>Configure IPv4 policies.</description>
+	<content><![CDATA[
+- name: Configure IPv4 policies.
+  fmgr_pkg_firewall_policy:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_routedomain</tabTrigger>
+	<description>Manage route domains on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage route domains on a BIG-IP
+  bigip_routedomain:
+      bwc_policy: 
+      connection_limit: 
+      description: 
+      flow_eviction_policy: 
+      fw_enforced_policy: 
+      id: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      routing_protocol: 
+      service_policy: 
+      state: 
+      strict: 
+      vlans: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_device</tabTrigger>
+	<description>Manage devices in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage devices in the Meraki cloud
+  meraki_device:
+      address: 
+      auth_key: 
+      host: 
+      hostname: 
+      internal_error_retry_time: 
+      lat: 
+      lldp_cdp_timespan: 
+      lng: 
+      model: 
+      move_map_marker: 
+      net_id: 
+      net_name: 
+      note: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      query: 
+      rate_limit_retry_time: 
+      serial: 
+      state: 
+      tags: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

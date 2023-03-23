@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_schedule_onetime</tabTrigger>
+	<description>Onetime schedule configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Onetime schedule configuration in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_schedule_onetime:
+      access_token: 
+      firewall_schedule_onetime: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

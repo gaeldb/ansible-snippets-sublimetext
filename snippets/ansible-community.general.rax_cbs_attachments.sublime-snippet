@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_cbs_attachments</tabTrigger>
+	<description>Manipulate Rackspace Cloud Block Storage Volume Attachments</description>
+	<content><![CDATA[
+- name: Manipulate Rackspace Cloud Block Storage Volume Attachments
+  rax_cbs_attachments:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      device: 
+      env: 
+      identity_type: 
+      region: 
+      server: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+      volume: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

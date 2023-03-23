@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_dns_zone</tabTrigger>
+	<description>Manage DNS zones on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage DNS zones on BIG-IP
+  bigip_dns_zone:
+      dns_express: 
+      name: 
+      nameservers: 
+      partition: 
+      provider: 
+      state: 
+      tsig_server_key: 
+]]>
+	</content>
+</snippet>

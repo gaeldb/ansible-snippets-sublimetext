@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_roledefinition</tabTrigger>
+	<description>Manage Azure Role Definition</description>
+	<content><![CDATA[
+- name: Manage Azure Role Definition
+  azure_rm_roledefinition:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      assignable_scopes: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      description: 
+      name: 
+      password: 
+      permissions: 
+      profile: 
+      scope: 
+      secret: 
+      state: 
+      subscription_id: 
+      tenant: 
+]]>
+	</content>
+</snippet>

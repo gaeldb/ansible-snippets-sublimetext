@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_ca</tabTrigger>
+	<description>Setup CA</description>
+	<content><![CDATA[
+- name: Setup CA
+  ipareplica_setup_ca:
+      _ca_enabled: 
+      _ca_file: 
+      _ca_subject: 
+      _dirsrv_pkcs12_info: 
+      _kra_enabled: 
+      _kra_host_name: 
+      _pkinit_pkcs12_info: 
+      _random_serial_numbers: 
+      _subject_base: 
+      _top_dir: 
+      ccache: 
+      config_ca_host_name: 
+      config_ips: 
+      config_master_host_name: 
+      config_setup_ca: 
+      dirman_password: 
+      no_pkinit: 
+      pki_config_override: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

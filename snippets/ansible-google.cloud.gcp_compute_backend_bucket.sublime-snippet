@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_backend_bucket</tabTrigger>
+	<description>Creates a GCP BackendBucket</description>
+	<content><![CDATA[
+- name: Creates a GCP BackendBucket
+  gcp_compute_backend_bucket:
+      auth_kind: 
+      bucket_name: 
+      cdn_policy: 
+      description: 
+      enable_cdn: 
+      env_type: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

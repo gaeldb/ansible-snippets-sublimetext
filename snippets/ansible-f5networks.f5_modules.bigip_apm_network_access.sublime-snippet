@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_apm_network_access</tabTrigger>
+	<description>Manage APM Network Access resource</description>
+	<content><![CDATA[
+- name: Manage APM Network Access resource
+  bigip_apm_network_access:
+      allow_local_dns: 
+      allow_local_subnet: 
+      description: 
+      dns_address_space: 
+      dtls: 
+      dtls_port: 
+      excluded_dns_addresses: 
+      excluded_ipv4_adresses: 
+      excluded_ipv6_adresses: 
+      ip_version: 
+      ipv4_address_space: 
+      ipv4_lease_pool: 
+      ipv6_address_space: 
+      ipv6_lease_pool: 
+      name: 
+      partition: 
+      provider: 
+      snat_pool: 
+      split_tunnel: 
+      state: 
+]]>
+	</content>
+</snippet>

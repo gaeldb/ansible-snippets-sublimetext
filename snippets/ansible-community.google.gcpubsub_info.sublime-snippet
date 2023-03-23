@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gcpubsub_info</tabTrigger>
+	<description>List Topics/Subscriptions and Messages from Google PubSub.</description>
+	<content><![CDATA[
+- name: List Topics/Subscriptions and Messages from Google PubSub.
+  gcpubsub_info:
+      credentials_file: 
+      project_id: 
+      service_account_email: 
+      state: 
+      topic: 
+      view: 
+]]>
+	</content>
+</snippet>

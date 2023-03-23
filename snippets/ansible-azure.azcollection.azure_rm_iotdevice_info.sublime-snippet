@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_iotdevice_info</tabTrigger>
+	<description>Facts of Azure IoT hub device</description>
+	<content><![CDATA[
+- name: Facts of Azure IoT hub device
+  azure_rm_iotdevice_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      hub: 
+      hub_policy_key: 
+      hub_policy_name: 
+      module_id: 
+      name: 
+      password: 
+      profile: 
+      query: 
+      secret: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      top: 
+]]>
+	</content>
+</snippet>

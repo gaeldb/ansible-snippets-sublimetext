@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_igmp_interface</tabTrigger>
+	<description>Manages IGMP interface configuration.</description>
+	<content><![CDATA[
+- name: Manages IGMP interface configuration.
+  nxos_igmp_interface:
+      group_timeout: 
+      immediate_leave: 
+      interface: 
+      last_member_qrt: 
+      last_member_query_count: 
+      oif_ps: 
+      oif_routemap: 
+      provider: 
+      querier_timeout: 
+      query_interval: 
+      query_mrt: 
+      report_llg: 
+      restart: 
+      robustness: 
+      startup_query_count: 
+      startup_query_interval: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

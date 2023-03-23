@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_cross_vc_clone</tabTrigger>
+	<description>Cross-vCenter VM/template clone</description>
+	<content><![CDATA[
+- name: Cross-vCenter VM/template clone
+  vmware_guest_cross_vc_clone:
+      destination_datastore: 
+      destination_host: 
+      destination_resource_pool: 
+      destination_vcenter: 
+      destination_vcenter_password: 
+      destination_vcenter_port: 
+      destination_vcenter_username: 
+      destination_vcenter_validate_certs: 
+      destination_vm_folder: 
+      destination_vm_name: 
+      hostname: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

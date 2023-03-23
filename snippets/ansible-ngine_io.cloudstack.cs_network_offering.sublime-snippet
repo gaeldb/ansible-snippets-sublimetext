@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_network_offering</tabTrigger>
+	<description>Manages network offerings on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages network offerings on Apache CloudStack based clouds.
+  cs_network_offering:
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      availability: 
+      conserve_mode: 
+      details: 
+      display_text: 
+      egress_default_policy: 
+      for_vpc: 
+      guest_ip_type: 
+      keepalive_enabled: 
+      max_connections: 
+      name: 
+      network_rate: 
+      persistent: 
+      service_capabilities: 
+      service_offering: 
+      service_providers: 
+      specify_ip_ranges: 
+      specify_vlan: 
+      state: 
+      supported_services: 
+      traffic_type: 
+]]>
+	</content>
+</snippet>

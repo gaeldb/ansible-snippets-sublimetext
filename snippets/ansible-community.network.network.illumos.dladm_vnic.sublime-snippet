@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.dladm_vnic</tabTrigger>
+	<description>Manage VNICs on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage VNICs on Solaris/illumos systems.
+  dladm_vnic:
+      link: 
+      mac: 
+      name: 
+      state: 
+      temporary: 
+      vlan: 
+]]>
+	</content>
+</snippet>

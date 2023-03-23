@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_interface</tabTrigger>
+	<description>configure data-port network interface for DHCP</description>
+	<content><![CDATA[
+- name: configure data-port network interface for DHCP
+  panos_interface:
+      commit: 
+      create_default_route: 
+      if_name: 
+      ip_address: 
+      password: 
+      username: 
+      zone_name: 
+]]>
+	</content>
+</snippet>

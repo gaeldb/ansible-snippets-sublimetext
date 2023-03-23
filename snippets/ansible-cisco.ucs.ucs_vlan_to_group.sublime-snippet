@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vlan_to_group</tabTrigger>
+	<description>Add VLANs to a VLAN Group. Requires VLAN and VLAN Group to already be created on UCS prior to running module.</description>
+	<content><![CDATA[
+- name: Add VLANs to a VLAN Group. Requires VLAN and VLAN Group to already be created on UCS prior to running module.
+  ucs_vlan_to_group:
+      hostname: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vlangroup: 
+      vlanname: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_disk_facts</tabTrigger>
+	<description>Gather facts about disks of given virtual machine</description>
+	<content><![CDATA[
+- name: Gather facts about disks of given virtual machine
+  vmware_guest_disk_facts:
+      datacenter: 
+      folder: 
+      hostname: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

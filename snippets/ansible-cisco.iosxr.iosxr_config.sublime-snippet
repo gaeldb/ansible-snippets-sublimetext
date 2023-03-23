@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_config</tabTrigger>
+	<description>Manage Cisco IOS XR configuration sections</description>
+	<content><![CDATA[
+- name: Manage Cisco IOS XR configuration sections
+  iosxr_config:
+      admin: 
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      comment: 
+      config: 
+      exclusive: 
+      force: 
+      label: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      src: 
+]]>
+	</content>
+</snippet>

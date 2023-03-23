@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.github_key</tabTrigger>
+	<description>Manage GitHub access keys</description>
+	<content><![CDATA[
+- name: Manage GitHub access keys
+  github_key:
+      force: 
+      name: 
+      pubkey: 
+      state: 
+      token: 
+]]>
+	</content>
+</snippet>

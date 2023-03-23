@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.monit</tabTrigger>
+	<description>Manage the state of a program monitored via Monit</description>
+	<content><![CDATA[
+- name: Manage the state of a program monitored via Monit
+  monit:
+      name: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.scap_content</tabTrigger>
+	<description>Manage SCAP content</description>
+	<content><![CDATA[
+- name: Manage SCAP content
+  scap_content:
+      locations: 
+      organizations: 
+      original_filename: 
+      password: 
+      scap_file: 
+      server_url: 
+      state: 
+      title: 
+      updated_title: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

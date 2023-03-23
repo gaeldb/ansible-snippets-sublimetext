@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_pd</tabTrigger>
+	<description>utilize GCE persistent disk resources</description>
+	<content><![CDATA[
+- name: utilize GCE persistent disk resources
+  gce_pd:
+      credentials_file: 
+      delete_on_termination: 
+      detach_only: 
+      disk_type: 
+      external_projects: 
+      image: 
+      image_family: 
+      instance_name: 
+      mode: 
+      name: 
+      pem_file: 
+      project_id: 
+      service_account_email: 
+      size_gb: 
+      snapshot: 
+      state: 
+      zone: 
+]]>
+	</content>
+</snippet>

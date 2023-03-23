@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_privatednsrecordset</tabTrigger>
+	<description>Create, delete and update Private DNS record sets and records</description>
+	<content><![CDATA[
+- name: Create, delete and update Private DNS record sets and records
+  azure_rm_privatednsrecordset:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      record_mode: 
+      record_type: 
+      records: 
+      relative_name: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      time_to_live: 
+      zone_name: 
+]]>
+	</content>
+</snippet>

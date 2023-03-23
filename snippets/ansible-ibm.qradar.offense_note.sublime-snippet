@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.offense_note</tabTrigger>
+	<description>Create or update a QRadar Offense Note</description>
+	<content><![CDATA[
+- name: Create or update a QRadar Offense Note
+  offense_note:
+      id: 
+      note_text: 
+]]>
+	</content>
+</snippet>

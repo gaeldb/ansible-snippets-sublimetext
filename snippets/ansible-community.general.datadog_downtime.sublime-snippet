@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.datadog_downtime</tabTrigger>
+	<description>Manages Datadog downtimes</description>
+	<content><![CDATA[
+- name: Manages Datadog downtimes
+  datadog_downtime:
+      api_host: 
+      api_key: 
+      app_key: 
+      downtime_message: 
+      end: 
+      id: 
+      monitor_id: 
+      monitor_tags: 
+      rrule: 
+      scope: 
+      start: 
+      state: 
+      timezone: 
+]]>
+	</content>
+</snippet>

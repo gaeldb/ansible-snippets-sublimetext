@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_flexcache</tabTrigger>
+	<description>NetApp ONTAP FlexCache - create/delete relationship</description>
+	<content><![CDATA[
+- name: NetApp ONTAP FlexCache - create/delete relationship
+  na_ontap_flexcache:
+      aggr_list: 
+      aggr_list_multiplier: 
+      auto_provision_as: 
+      cert_filepath: 
+      feature_flags: 
+      force_offline: 
+      force_unmount: 
+      hostname: 
+      http_port: 
+      https: 
+      junction_path: 
+      key_filepath: 
+      ontapi: 
+      origin_cluster: 
+      origin_volume: 
+      origin_vserver: 
+      password: 
+      size: 
+      size_unit: 
+      state: 
+      time_out: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volume: 
+      vserver: 
+]]>
+	</content>
+</snippet>

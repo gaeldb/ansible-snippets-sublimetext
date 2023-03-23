@@ -1,0 +1,44 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.subnet</tabTrigger>
+	<description>Manage Subnets</description>
+	<content><![CDATA[
+- name: Manage Subnets
+  subnet:
+      boot_mode: 
+      cidr: 
+      description: 
+      dhcp_proxy: 
+      discovery_proxy: 
+      dns_primary: 
+      dns_proxy: 
+      dns_secondary: 
+      domains: 
+      externalipam_group: 
+      externalipam_proxy: 
+      from_ip: 
+      gateway: 
+      httpboot_proxy: 
+      ipam: 
+      locations: 
+      mask: 
+      mtu: 
+      name: 
+      network: 
+      network_type: 
+      organizations: 
+      parameters: 
+      password: 
+      remote_execution_proxies: 
+      server_url: 
+      state: 
+      template_proxy: 
+      tftp_proxy: 
+      to_ip: 
+      updated_name: 
+      username: 
+      validate_certs: 
+      vlanid: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_wide_ip</tabTrigger>
+	<description>Manages F5 BIG-IP GTM Wide IP</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP GTM Wide IP
+  bigip_gtm_wide_ip:
+      aliases: 
+      irules: 
+      last_resort_pool: 
+      name: 
+      partition: 
+      persist_cidr_ipv4: 
+      persist_cidr_ipv6: 
+      persistence: 
+      persistence_ttl: 
+      pool_lb_method: 
+      pools: 
+      provider: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_route_map</tabTrigger>
+	<description>Configure route maps in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure route maps in Fortinet's FortiOS and FortiGate.
+  fortios_router_route_map:
+      access_token: 
+      router_route_map: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

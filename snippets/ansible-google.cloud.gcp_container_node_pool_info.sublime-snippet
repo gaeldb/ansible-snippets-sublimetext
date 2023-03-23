@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_container_node_pool_info</tabTrigger>
+	<description>Gather info for GCP NodePool</description>
+	<content><![CDATA[
+- name: Gather info for GCP NodePool
+  gcp_container_node_pool_info:
+      auth_kind: 
+      cluster: 
+      env_type: 
+      location: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

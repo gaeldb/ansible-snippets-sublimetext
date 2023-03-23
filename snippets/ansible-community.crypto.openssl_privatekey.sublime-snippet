@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_privatekey</tabTrigger>
+	<description>Generate OpenSSL private keys</description>
+	<content><![CDATA[
+- name: Generate OpenSSL private keys
+  openssl_privatekey:
+      attributes: 
+      backup: 
+      cipher: 
+      curve: 
+      force: 
+      format: 
+      format_mismatch: 
+      group: 
+      mode: 
+      owner: 
+      passphrase: 
+      path: 
+      regenerate: 
+      return_content: 
+      select_crypto_backend: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      size: 
+      state: 
+      type: 
+      unsafe_writes: 
+]]>
+	</content>
+</snippet>

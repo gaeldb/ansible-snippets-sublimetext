@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_static6</tabTrigger>
+	<description>Configure IPv6 static routing tables in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 static routing tables in Fortinet's FortiOS and FortiGate.
+  fortios_router_static6:
+      access_token: 
+      router_static6: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_dos_profile</tabTrigger>
+	<description>Manage AFM DoS profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage AFM DoS profiles on a BIG-IP
+  bigip_firewall_dos_profile:
+      default_whitelist: 
+      description: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+      threshold_sensitivity: 
+]]>
+	</content>
+</snippet>

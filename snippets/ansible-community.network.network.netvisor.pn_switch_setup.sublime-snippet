@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_switch_setup</tabTrigger>
+	<description>CLI command to modify switch-setup</description>
+	<content><![CDATA[
+- name: CLI command to modify switch-setup
+  pn_switch_setup:
+      pn_analytics_store: 
+      pn_banner: 
+      pn_cliswitch: 
+      pn_date: 
+      pn_dns_ip: 
+      pn_dns_secondary_ip: 
+      pn_domain_name: 
+      pn_enable_host_ports: 
+      pn_eula_accepted: 
+      pn_eula_timestamp: 
+      pn_force: 
+      pn_gateway_ip: 
+      pn_gateway_ip6: 
+      pn_in_band_ip: 
+      pn_in_band_ip6: 
+      pn_in_band_ip6_assign: 
+      pn_in_band_netmask: 
+      pn_in_band_netmask_ip6: 
+      pn_loopback_ip: 
+      pn_loopback_ip6: 
+      pn_mgmt_ip: 
+      pn_mgmt_ip6: 
+      pn_mgmt_ip6_assignment: 
+      pn_mgmt_ip_assignment: 
+      pn_mgmt_netmask: 
+      pn_mgmt_netmask_ip6: 
+      pn_motd: 
+      pn_ntp_secondary_server: 
+      pn_ntp_server: 
+      pn_password: 
+      pn_switch_name: 
+      pn_timezone: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elasticbeanstalk_app</tabTrigger>
+	<description>Create, update, and delete an Elastic Beanstalk application</description>
+	<content><![CDATA[
+- name: Create, update, and delete an Elastic Beanstalk application
+  elasticbeanstalk_app:
+      access_key: 
+      app_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      terminate_by_force: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ssl_web_realm</tabTrigger>
+	<description>Realm in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Realm in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ssl_web_realm:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ssl_web_realm: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_snmp_sysinfo</tabTrigger>
+	<description>SNMP system info configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SNMP system info configuration in Fortinet's FortiOS and FortiGate.
+  fortios_system_snmp_sysinfo:
+      access_token: 
+      system_snmp_sysinfo: 
+      vdom: 
+]]>
+	</content>
+</snippet>

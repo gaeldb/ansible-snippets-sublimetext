@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_config</tabTrigger>
+	<description>Manage Cisco IOS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Cisco IOS configuration sections
+  ios_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      defaults: 
+      diff_against: 
+      diff_ignore_lines: 
+      intended_config: 
+      lines: 
+      match: 
+      multiline_delimiter: 
+      parents: 
+      provider: 
+      replace: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

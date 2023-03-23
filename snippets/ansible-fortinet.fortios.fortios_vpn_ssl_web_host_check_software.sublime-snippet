@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ssl_web_host_check_software</tabTrigger>
+	<description>SSL-VPN host check software in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SSL-VPN host check software in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ssl_web_host_check_software:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ssl_web_host_check_software: 
+]]>
+	</content>
+</snippet>

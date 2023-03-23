@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_snmp</tabTrigger>
+	<description>Manipulate general SNMP settings on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manipulate general SNMP settings on a BIG-IP
+  bigip_snmp:
+      agent_authentication_traps: 
+      agent_status_traps: 
+      allowed_addresses: 
+      contact: 
+      device_warning_traps: 
+      location: 
+      provider: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_local_role_facts</tabTrigger>
+	<description>Gather facts about local roles on an ESXi host</description>
+	<content><![CDATA[
+- name: Gather facts about local roles on an ESXi host
+  vmware_local_role_facts:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

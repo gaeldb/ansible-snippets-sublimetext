@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_setup_krb</tabTrigger>
+	<description>Setup KRB</description>
+	<content><![CDATA[
+- name: Setup KRB
+  ipareplica_setup_krb:
+      _pkinit_pkcs12_info: 
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      dirman_password: 
+      no_pkinit: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

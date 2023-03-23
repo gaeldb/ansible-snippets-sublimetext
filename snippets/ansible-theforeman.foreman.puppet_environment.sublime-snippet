@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.puppet_environment</tabTrigger>
+	<description>Manage Puppet Environments</description>
+	<content><![CDATA[
+- name: Manage Puppet Environments
+  puppet_environment:
+      locations: 
+      name: 
+      organizations: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hana_query</tabTrigger>
+	<description>Execute SQL on HANA</description>
+	<content><![CDATA[
+- name: Execute SQL on HANA
+  hana_query:
+      autocommit: 
+      database: 
+      encrypted: 
+      filepath: 
+      host: 
+      instance: 
+      password: 
+      query: 
+      sid: 
+      user: 
+      userstore: 
+]]>
+	</content>
+</snippet>

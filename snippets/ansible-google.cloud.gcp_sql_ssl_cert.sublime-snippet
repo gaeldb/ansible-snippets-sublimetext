@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_sql_ssl_cert</tabTrigger>
+	<description>Creates a GCP SslCert</description>
+	<content><![CDATA[
+- name: Creates a GCP SslCert
+  gcp_sql_ssl_cert:
+      auth_kind: 
+      cert: 
+      cert_serial_number: 
+      common_name: 
+      create_time: 
+      env_type: 
+      expiration_time: 
+      instance: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      sha1_fingerprint: 
+      state: 
+]]>
+	</content>
+</snippet>

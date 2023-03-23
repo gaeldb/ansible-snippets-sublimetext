@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_check</tabTrigger>
+	<description>check if PAN-OS device is ready for configuration</description>
+	<content><![CDATA[
+- name: check if PAN-OS device is ready for configuration
+  panos_check:
+      interval: 
+      ip_address: 
+      password: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_facts</tabTrigger>
+	<description>Get facts about fortios devices (about to be deprecated).</description>
+	<content><![CDATA[
+- name: Get facts about fortios devices (about to be deprecated).
+  fortios_facts:
+      gather_subset: 
+      host: 
+      https: 
+      password: 
+      ssl_verify: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_security_group</tabTrigger>
+	<description>Maintain an EC2 security group</description>
+	<content><![CDATA[
+- name: Maintain an EC2 security group
+  ec2_security_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      group_id: 
+      name: 
+      profile: 
+      purge_rules: 
+      purge_rules_egress: 
+      purge_tags: 
+      region: 
+      rules: 
+      rules_egress: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

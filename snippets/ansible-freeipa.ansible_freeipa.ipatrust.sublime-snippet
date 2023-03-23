@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipatrust</tabTrigger>
+	<description>Manage FreeIPA Domain Trusts.</description>
+	<content><![CDATA[
+- name: Manage FreeIPA Domain Trusts.
+  ipatrust:
+      admin: 
+      base_id: 
+      external: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      password: 
+      range_size: 
+      range_type: 
+      realm: 
+      server: 
+      state: 
+      trust_secret: 
+      trust_type: 
+      two_way: 
+]]>
+	</content>
+</snippet>

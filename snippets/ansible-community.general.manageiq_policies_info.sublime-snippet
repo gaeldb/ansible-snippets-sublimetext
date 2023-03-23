@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_policies_info</tabTrigger>
+	<description>Listing of resource policy_profiles in ManageIQ</description>
+	<content><![CDATA[
+- name: Listing of resource policy_profiles in ManageIQ
+  manageiq_policies_info:
+      manageiq_connection: 
+      resource_id: 
+      resource_name: 
+      resource_type: 
+]]>
+	</content>
+</snippet>

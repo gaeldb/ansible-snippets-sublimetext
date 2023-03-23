@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cluster_peer</tabTrigger>
+	<description>NetApp ONTAP Manage Cluster peering</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage Cluster peering
+  na_ontap_cluster_peer:
+      cert_filepath: 
+      dest_cluster_name: 
+      dest_hostname: 
+      dest_intercluster_lifs: 
+      dest_password: 
+      dest_username: 
+      encryption_protocol_proposed: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      ipspace: 
+      key_filepath: 
+      ontapi: 
+      passphrase: 
+      password: 
+      source_cluster_name: 
+      source_intercluster_lifs: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_fc_network</tabTrigger>
+	<description>Manage OneView Fibre Channel Network resources</description>
+	<content><![CDATA[
+- name: Manage OneView Fibre Channel Network resources
+  oneview_fc_network:
+      api_version: 
+      config: 
+      data: 
+      hostname: 
+      image_streamer_hostname: 
+      password: 
+      state: 
+      username: 
+      validate_etag: 
+]]>
+	</content>
+</snippet>

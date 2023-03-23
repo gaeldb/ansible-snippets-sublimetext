@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pids</tabTrigger>
+	<description>Retrieves process IDs list if the process is running otherwise return empty list</description>
+	<content><![CDATA[
+- name: Retrieves process IDs list if the process is running otherwise return empty list
+  pids:
+      ignore_case: 
+      name: 
+      pattern: 
+]]>
+	</content>
+</snippet>

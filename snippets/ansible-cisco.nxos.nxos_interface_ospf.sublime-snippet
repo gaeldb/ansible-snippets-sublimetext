@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_interface_ospf</tabTrigger>
+	<description>(deprecated, removed after 2022-10-26) Manages configuration of an OSPF interface instance.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-10-26) Manages configuration of an OSPF interface instance.
+  nxos_interface_ospf:
+      area: 
+      bfd: 
+      cost: 
+      dead_interval: 
+      hello_interval: 
+      interface: 
+      message_digest: 
+      message_digest_algorithm_type: 
+      message_digest_encryption_type: 
+      message_digest_key_id: 
+      message_digest_password: 
+      network: 
+      ospf: 
+      passive_interface: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

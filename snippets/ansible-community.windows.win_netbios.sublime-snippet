@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_netbios</tabTrigger>
+	<description>Manage NetBIOS over TCP/IP settings on Windows.</description>
+	<content><![CDATA[
+- name: Manage NetBIOS over TCP/IP settings on Windows.
+  win_netbios:
+      adapter_names: 
+      state: 
+]]>
+	</content>
+</snippet>

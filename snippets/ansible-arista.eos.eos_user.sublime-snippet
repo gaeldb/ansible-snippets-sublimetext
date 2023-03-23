@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_user</tabTrigger>
+	<description>Manage the collection of local users on EOS devices</description>
+	<content><![CDATA[
+- name: Manage the collection of local users on EOS devices
+  eos_user:
+      aggregate: 
+      configured_password: 
+      name: 
+      nopassword: 
+      privilege: 
+      provider: 
+      purge: 
+      role: 
+      sshkey: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

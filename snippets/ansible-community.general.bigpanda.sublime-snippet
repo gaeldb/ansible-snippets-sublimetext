@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bigpanda</tabTrigger>
+	<description>Notify BigPanda about deployments</description>
+	<content><![CDATA[
+- name: Notify BigPanda about deployments
+  bigpanda:
+      component: 
+      deployment_message: 
+      description: 
+      env: 
+      hosts: 
+      owner: 
+      source_system: 
+      state: 
+      token: 
+      url: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

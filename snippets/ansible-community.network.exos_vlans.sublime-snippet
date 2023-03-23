@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.exos_vlans</tabTrigger>
+	<description>Manage VLANs on Extreme Networks EXOS devices.</description>
+	<content><![CDATA[
+- name: Manage VLANs on Extreme Networks EXOS devices.
+  exos_vlans:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

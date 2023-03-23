@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_analytics</tabTrigger>
+	<description>Manage HTTP analytics profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage HTTP analytics profiles on a BIG-IP
+  bigip_profile_analytics:
+      collect_geo: 
+      collect_ip: 
+      collect_max_tps_and_throughput: 
+      collect_page_load_time: 
+      collect_url: 
+      collect_user_agent: 
+      collect_user_sessions: 
+      collected_stats_external_logging: 
+      collected_stats_internal_logging: 
+      description: 
+      external_logging_publisher: 
+      name: 
+      notification_by_email: 
+      notification_by_syslog: 
+      notification_email_addresses: 
+      parent: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

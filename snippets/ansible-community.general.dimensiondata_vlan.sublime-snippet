@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dimensiondata_vlan</tabTrigger>
+	<description>Manage a VLAN in a Cloud Control network domain</description>
+	<content><![CDATA[
+- name: Manage a VLAN in a Cloud Control network domain
+  dimensiondata_vlan:
+      allow_expand: 
+      description: 
+      location: 
+      mcp_password: 
+      mcp_user: 
+      name: 
+      network_domain: 
+      private_ipv4_base_address: 
+      private_ipv4_prefix_size: 
+      region: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_poll_interval: 
+      wait_time: 
+]]>
+	</content>
+</snippet>

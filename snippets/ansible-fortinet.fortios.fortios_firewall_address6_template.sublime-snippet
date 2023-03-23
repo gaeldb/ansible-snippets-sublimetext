@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_address6_template</tabTrigger>
+	<description>Configure IPv6 address templates in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 address templates in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_address6_template:
+      access_token: 
+      firewall_address6_template: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.activation_key</tabTrigger>
+	<description>Manage Activation Keys</description>
+	<content><![CDATA[
+- name: Manage Activation Keys
+  activation_key:
+      auto_attach: 
+      content_overrides: 
+      content_view: 
+      description: 
+      host_collections: 
+      lifecycle_environment: 
+      max_hosts: 
+      name: 
+      new_name: 
+      organization: 
+      password: 
+      purpose_addons: 
+      purpose_role: 
+      purpose_usage: 
+      release_version: 
+      server_url: 
+      service_level: 
+      state: 
+      subscriptions: 
+      unlimited_hosts: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

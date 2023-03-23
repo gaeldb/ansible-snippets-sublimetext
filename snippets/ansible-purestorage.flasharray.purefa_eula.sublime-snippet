@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_eula</tabTrigger>
+	<description>Sign Pure Storage FlashArray EULA</description>
+	<content><![CDATA[
+- name: Sign Pure Storage FlashArray EULA
+  purefa_eula:
+      api_token: 
+      company: 
+      fa_url: 
+      name: 
+      title: 
+]]>
+	</content>
+</snippet>

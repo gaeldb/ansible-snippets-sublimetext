@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_delete_nat_rule</tabTrigger>
+	<description>Delete existing object using object name or uid.</description>
+	<content><![CDATA[
+- name: Delete existing object using object name or uid.
+  cp_mgmt_delete_nat_rule:
+      details_level: 
+      package: 
+      rule_number: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

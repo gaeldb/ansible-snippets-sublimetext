@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_user</tabTrigger>
+	<description>Manages SNMP users for monitoring.</description>
+	<content><![CDATA[
+- name: Manages SNMP users for monitoring.
+  nxos_snmp_user:
+      authentication: 
+      encrypt: 
+      group: 
+      privacy: 
+      provider: 
+      pwd: 
+      state: 
+      user: 
+]]>
+	</content>
+</snippet>

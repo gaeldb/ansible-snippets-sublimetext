@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_cluster</tabTrigger>
+	<description>Manage VMware vSphere clusters</description>
+	<content><![CDATA[
+- name: Manage VMware vSphere clusters
+  vmware_cluster:
+      cluster_name: 
+      datacenter: 
+      drs_default_vm_behavior: 
+      drs_enable_vm_behavior_overrides: 
+      drs_vmotion_rate: 
+      enable_drs: 
+      enable_ha: 
+      enable_vsan: 
+      ha_admission_control_enabled: 
+      ha_failover_level: 
+      ha_host_monitoring: 
+      ha_restart_priority: 
+      ha_vm_failure_interval: 
+      ha_vm_max_failure_window: 
+      ha_vm_max_failures: 
+      ha_vm_min_up_time: 
+      ha_vm_monitoring: 
+      hostname: 
+      ignore_drs: 
+      ignore_ha: 
+      ignore_vsan: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+      vsan_auto_claim_storage: 
+]]>
+	</content>
+</snippet>

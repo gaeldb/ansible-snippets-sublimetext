@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_vpn_community_star</tabTrigger>
+	<description>Manages vpn-community-star objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages vpn-community-star objects on Check Point over Web Services API
+  cp_mgmt_vpn_community_star:
+      auto_publish_session: 
+      center_gateways: 
+      color: 
+      comments: 
+      details_level: 
+      encryption_method: 
+      encryption_suite: 
+      ignore_errors: 
+      ignore_warnings: 
+      ike_phase_1: 
+      ike_phase_2: 
+      mesh_center_gateways: 
+      name: 
+      satellite_gateways: 
+      shared_secrets: 
+      state: 
+      tags: 
+      use_shared_secret: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

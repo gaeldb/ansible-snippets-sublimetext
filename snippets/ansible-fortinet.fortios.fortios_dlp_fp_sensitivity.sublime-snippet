@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_dlp_fp_sensitivity</tabTrigger>
+	<description>Create self-explanatory DLP sensitivity levels to be used when setting sensitivity under config fp-doc-source in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Create self-explanatory DLP sensitivity levels to be used when setting sensitivity under config fp-doc-source in Fortinet's FortiOS and FortiGate.
+  fortios_dlp_fp_sensitivity:
+      access_token: 
+      dlp_fp_sensitivity: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

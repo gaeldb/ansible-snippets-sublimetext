@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_logging</tabTrigger>
+	<description>Manage logging on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage logging on Ruckus ICX 7000 series switches
+  icx_logging:
+      aggregate: 
+      check_running_config: 
+      dest: 
+      facility: 
+      level: 
+      name: 
+      state: 
+      udp_port: 
+]]>
+	</content>
+</snippet>

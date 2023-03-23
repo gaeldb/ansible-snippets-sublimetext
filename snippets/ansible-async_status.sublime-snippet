@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>async_status</tabTrigger>
+	<description>Obtain status of asynchronous task</description>
+	<content><![CDATA[
+- name: Obtain status of asynchronous task
+  async_status:
+      jid: 
+      mode: 
+]]>
+	</content>
+</snippet>

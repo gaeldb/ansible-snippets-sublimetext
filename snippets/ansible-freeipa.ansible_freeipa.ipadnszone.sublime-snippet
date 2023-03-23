@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipadnszone</tabTrigger>
+	<description>Manage FreeIPA dnszone</description>
+	<content><![CDATA[
+- name: Manage FreeIPA dnszone
+  ipadnszone:
+      admin_email: 
+      allow_query: 
+      allow_sync_ptr: 
+      allow_transfer: 
+      default_ttl: 
+      dnssec: 
+      dynamic_update: 
+      expire: 
+      forward_policy: 
+      forwarders: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      minimum: 
+      name: 
+      name_from_ip: 
+      name_server: 
+      nsec3param_rec: 
+      refresh: 
+      retry: 
+      skip_nameserver_check: 
+      skip_overlap_check: 
+      state: 
+      ttl: 
+      update_policy: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_dns_managed_zone_info</tabTrigger>
+	<description>Gather info for GCP ManagedZone</description>
+	<content><![CDATA[
+- name: Gather info for GCP ManagedZone
+  gcp_dns_managed_zone_info:
+      auth_kind: 
+      dns_name: 
+      env_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

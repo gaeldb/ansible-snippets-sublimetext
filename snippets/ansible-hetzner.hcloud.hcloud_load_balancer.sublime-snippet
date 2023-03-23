@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_load_balancer</tabTrigger>
+	<description>Create and manage cloud Load Balancers on the Hetzner Cloud.</description>
+	<content><![CDATA[
+- name: Create and manage cloud Load Balancers on the Hetzner Cloud.
+  hcloud_load_balancer:
+      api_token: 
+      delete_protection: 
+      disable_public_interface: 
+      endpoint: 
+      id: 
+      labels: 
+      load_balancer_type: 
+      location: 
+      name: 
+      network_zone: 
+      state: 
+]]>
+	</content>
+</snippet>

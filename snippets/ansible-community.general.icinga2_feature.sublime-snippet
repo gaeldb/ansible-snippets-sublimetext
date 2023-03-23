@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.icinga2_feature</tabTrigger>
+	<description>Manage Icinga2 feature</description>
+	<content><![CDATA[
+- name: Manage Icinga2 feature
+  icinga2_feature:
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

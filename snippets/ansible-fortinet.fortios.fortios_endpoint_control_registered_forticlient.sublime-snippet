@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_endpoint_control_registered_forticlient</tabTrigger>
+	<description>Registered FortiClient list in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Registered FortiClient list in Fortinet's FortiOS and FortiGate.
+  fortios_endpoint_control_registered_forticlient:
+      access_token: 
+      endpoint_control_registered_forticlient: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_site_bd_l3out</tabTrigger>
+	<description>Manage site-local BD l3out's in schema template</description>
+	<content><![CDATA[
+- name: Manage site-local BD l3out's in schema template
+  mso_schema_site_bd_l3out:
+      bd: 
+      host: 
+      l3out: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      site: 
+      state: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

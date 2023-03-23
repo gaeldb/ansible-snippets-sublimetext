@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_tpu_node</tabTrigger>
+	<description>Creates a GCP Node</description>
+	<content><![CDATA[
+- name: Creates a GCP Node
+  gcp_tpu_node:
+      accelerator_type: 
+      auth_kind: 
+      cidr_block: 
+      description: 
+      env_type: 
+      labels: 
+      name: 
+      network: 
+      project: 
+      scheduling_config: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      tensorflow_version: 
+      use_service_networking: 
+      zone: 
+]]>
+	</content>
+</snippet>

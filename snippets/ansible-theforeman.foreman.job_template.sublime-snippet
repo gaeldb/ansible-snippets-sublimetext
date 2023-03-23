@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.job_template</tabTrigger>
+	<description>Manage Job Templates</description>
+	<content><![CDATA[
+- name: Manage Job Templates
+  job_template:
+      audit_comment: 
+      description_format: 
+      file_name: 
+      job_category: 
+      locations: 
+      locked: 
+      name: 
+      organizations: 
+      password: 
+      provider_type: 
+      server_url: 
+      snippet: 
+      state: 
+      template: 
+      template_inputs: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

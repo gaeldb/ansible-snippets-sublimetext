@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_certificatemanagementprofile</tabTrigger>
+	<description>Module for setup of CertificateManagementProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of CertificateManagementProfile Avi RESTful Object
+  avi_certificatemanagementprofile:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      name: 
+      password: 
+      script_params: 
+      script_path: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

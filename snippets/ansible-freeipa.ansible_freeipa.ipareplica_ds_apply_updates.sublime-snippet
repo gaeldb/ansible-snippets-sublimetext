@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_ds_apply_updates</tabTrigger>
+	<description>DS apply updates</description>
+	<content><![CDATA[
+- name: DS apply updates
+  ipareplica_ds_apply_updates:
+      _ca_enabled: 
+      _ca_file: 
+      _dirsrv_pkcs12_info: 
+      _pkinit_pkcs12_info: 
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      dirman_password: 
+      dirsrv_config_file: 
+      ds_ca_subject: 
+      no_pkinit: 
+      no_ui_redirect: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

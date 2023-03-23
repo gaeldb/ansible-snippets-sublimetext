@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_rest_info</tabTrigger>
+	<description>NetApp ONTAP information gatherer using REST APIs</description>
+	<content><![CDATA[
+- name: NetApp ONTAP information gatherer using REST APIs
+  na_ontap_rest_info:
+      cert_filepath: 
+      feature_flags: 
+      fields: 
+      gather_subset: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      max_records: 
+      ontapi: 
+      parameters: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

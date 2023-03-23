@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_clb</tabTrigger>
+	<description>Create / delete a load balancer in Rackspace Public Cloud</description>
+	<content><![CDATA[
+- name: Create / delete a load balancer in Rackspace Public Cloud
+  rax_clb:
+      algorithm: 
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      env: 
+      identity_type: 
+      meta: 
+      name: 
+      port: 
+      protocol: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      timeout: 
+      type: 
+      username: 
+      validate_certs: 
+      vip_id: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

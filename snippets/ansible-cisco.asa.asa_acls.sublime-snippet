@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.asa.asa_acls</tabTrigger>
+	<description>Access-Lists resource module</description>
+	<content><![CDATA[
+- name: Access-Lists resource module
+  asa_acls:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_maintenance_group_node</tabTrigger>
+	<description>Manage maintenance group nodes</description>
+	<content><![CDATA[
+- name: Manage maintenance group nodes
+  aci_maintenance_group_node:
+      annotation: 
+      certificate_name: 
+      group: 
+      host: 
+      name_alias: 
+      node: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

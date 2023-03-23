@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.checkpoint_object_facts</tabTrigger>
+	<description>Get object facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get object facts on Check Point over Web Services API
+  checkpoint_object_facts:
+      ip_only: 
+      object_filter: 
+      object_type: 
+      uid: 
+]]>
+	</content>
+</snippet>

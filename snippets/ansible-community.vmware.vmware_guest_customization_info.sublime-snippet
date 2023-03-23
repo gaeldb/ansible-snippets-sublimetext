@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_customization_info</tabTrigger>
+	<description>Gather info about VM customization specifications</description>
+	<content><![CDATA[
+- name: Gather info about VM customization specifications
+  vmware_guest_customization_info:
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      spec_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

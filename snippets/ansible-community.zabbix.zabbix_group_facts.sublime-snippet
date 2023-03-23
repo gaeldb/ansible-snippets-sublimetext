@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_group_facts</tabTrigger>
+	<description>Gather information about Zabbix hostgroup</description>
+	<content><![CDATA[
+- name: Gather information about Zabbix hostgroup
+  zabbix_group_info:
+      hostgroup_name: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      server_url: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

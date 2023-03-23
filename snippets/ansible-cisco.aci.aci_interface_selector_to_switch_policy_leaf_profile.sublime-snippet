@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_selector_to_switch_policy_leaf_profile</tabTrigger>
+	<description>Bind interface selector profiles to switch policy leaf profiles (infra:RsAccPortP)</description>
+	<content><![CDATA[
+- name: Bind interface selector profiles to switch policy leaf profiles (infra:RsAccPortP)
+  aci_interface_selector_to_switch_policy_leaf_profile:
+      annotation: 
+      certificate_name: 
+      host: 
+      interface_selector: 
+      leaf_profile: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

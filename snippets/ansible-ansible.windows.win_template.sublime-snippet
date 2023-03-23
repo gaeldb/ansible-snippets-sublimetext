@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_template</tabTrigger>
+	<description>Template a file out to a remote server</description>
+	<content><![CDATA[
+- name: Template a file out to a remote server
+  win_template:
+      backup: 
+      block_end_string: 
+      block_start_string: 
+      dest: 
+      force: 
+      lstrip_blocks: 
+      newline_sequence: 
+      output_encoding: 
+      src: 
+      trim_blocks: 
+      variable_end_string: 
+      variable_start_string: 
+]]>
+	</content>
+</snippet>

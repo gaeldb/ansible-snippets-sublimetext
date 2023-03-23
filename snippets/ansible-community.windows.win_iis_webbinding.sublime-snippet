@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_iis_webbinding</tabTrigger>
+	<description>Configures a IIS Web site binding</description>
+	<content><![CDATA[
+- name: Configures a IIS Web site binding
+  win_iis_webbinding:
+      certificate_hash: 
+      certificate_store_name: 
+      host_header: 
+      ip: 
+      name: 
+      port: 
+      protocol: 
+      ssl_flags: 
+      state: 
+]]>
+	</content>
+</snippet>

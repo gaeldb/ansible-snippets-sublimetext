@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_mlag_config</tabTrigger>
+	<description>Manages MLAG configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages MLAG configuration on HUAWEI CloudEngine switches.
+  ce_mlag_config:
+      dfs_group_id: 
+      eth_trunk_id: 
+      ip_address: 
+      nickname: 
+      peer_link_id: 
+      priority_id: 
+      pseudo_nickname: 
+      pseudo_priority: 
+      state: 
+      vpn_instance_name: 
+]]>
+	</content>
+</snippet>

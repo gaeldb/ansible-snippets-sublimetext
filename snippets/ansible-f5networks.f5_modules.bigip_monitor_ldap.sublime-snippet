@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_ldap</tabTrigger>
+	<description>Manages BIG-IP LDAP monitors</description>
+	<content><![CDATA[
+- name: Manages BIG-IP LDAP monitors
+  bigip_monitor_ldap:
+      base: 
+      chase_referrals: 
+      debug: 
+      description: 
+      filter: 
+      interval: 
+      ip: 
+      mandatory_attributes: 
+      manual_resume: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      security: 
+      state: 
+      target_password: 
+      target_username: 
+      time_until_up: 
+      timeout: 
+      up_interval: 
+      update_password: 
+]]>
+	</content>
+</snippet>

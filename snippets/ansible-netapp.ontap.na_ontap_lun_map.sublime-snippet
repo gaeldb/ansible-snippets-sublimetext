@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_lun_map</tabTrigger>
+	<description>NetApp ONTAP LUN maps</description>
+	<content><![CDATA[
+- name: NetApp ONTAP LUN maps
+  na_ontap_lun_map:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      initiator_group_name: 
+      key_filepath: 
+      lun_id: 
+      ontapi: 
+      password: 
+      path: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

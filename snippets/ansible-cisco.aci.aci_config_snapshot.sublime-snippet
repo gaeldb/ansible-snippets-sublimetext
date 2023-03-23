@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_config_snapshot</tabTrigger>
+	<description>Manage Config Snapshots (config:Snapshot, config:ExportP)</description>
+	<content><![CDATA[
+- name: Manage Config Snapshots (config:Snapshot, config:ExportP)
+  aci_config_snapshot:
+      annotation: 
+      certificate_name: 
+      description: 
+      export_policy: 
+      format: 
+      host: 
+      include_secure: 
+      max_count: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      snapshot: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

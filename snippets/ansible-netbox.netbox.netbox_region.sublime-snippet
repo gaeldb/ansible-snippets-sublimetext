@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_region</tabTrigger>
+	<description>Creates or removes regions from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes regions from Netbox
+  netbox_region:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_system</tabTrigger>
+	<description>Manage the system attributes on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage the system attributes on Ruckus ICX 7000 series switches
+  icx_system:
+      aaa_servers: 
+      check_running_config: 
+      domain_name: 
+      domain_search: 
+      hostname: 
+      name_servers: 
+      state: 
+]]>
+	</content>
+</snippet>

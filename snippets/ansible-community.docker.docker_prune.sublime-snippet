@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_prune</tabTrigger>
+	<description>Allows to prune various docker objects</description>
+	<content><![CDATA[
+- name: Allows to prune various docker objects
+  docker_prune:
+      api_version: 
+      builder_cache: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      containers: 
+      containers_filters: 
+      debug: 
+      docker_host: 
+      images: 
+      images_filters: 
+      networks: 
+      networks_filters: 
+      ssl_version: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+      volumes: 
+      volumes_filters: 
+]]>
+	</content>
+</snippet>

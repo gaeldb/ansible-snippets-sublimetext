@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_security_certificates</tabTrigger>
+	<description>NetApp ONTAP manage security certificates.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage security certificates.
+  na_ontap_security_certificates:
+      cert_filepath: 
+      common_name: 
+      expiry_time: 
+      feature_flags: 
+      hash_function: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_name_if_not_supported: 
+      intermediate_certificates: 
+      key_filepath: 
+      key_size: 
+      name: 
+      ontapi: 
+      password: 
+      private_key: 
+      public_certificate: 
+      signing_request: 
+      state: 
+      svm: 
+      type: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

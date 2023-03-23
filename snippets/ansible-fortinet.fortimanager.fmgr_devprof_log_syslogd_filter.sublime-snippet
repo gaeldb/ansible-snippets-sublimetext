@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_devprof_log_syslogd_filter</tabTrigger>
+	<description>Filters for remote system server.</description>
+	<content><![CDATA[
+- name: Filters for remote system server.
+  fmgr_devprof_log_syslogd_filter:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

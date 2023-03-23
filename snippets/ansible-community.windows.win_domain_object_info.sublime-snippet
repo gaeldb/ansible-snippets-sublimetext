@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_domain_object_info</tabTrigger>
+	<description>Gather information an Active Directory object</description>
+	<content><![CDATA[
+- name: Gather information an Active Directory object
+  win_domain_object_info:
+      domain_password: 
+      domain_server: 
+      domain_username: 
+      filter: 
+      identity: 
+      include_deleted: 
+      ldap_filter: 
+      properties: 
+      search_base: 
+      search_scope: 
+]]>
+	</content>
+</snippet>

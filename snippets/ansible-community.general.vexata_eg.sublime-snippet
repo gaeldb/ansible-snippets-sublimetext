@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vexata_eg</tabTrigger>
+	<description>Manage export groups on Vexata VX100 storage arrays</description>
+	<content><![CDATA[
+- name: Manage export groups on Vexata VX100 storage arrays
+  vexata_eg:
+      array: 
+      ig: 
+      name: 
+      password: 
+      pg: 
+      state: 
+      user: 
+      validate_certs: 
+      vg: 
+]]>
+	</content>
+</snippet>

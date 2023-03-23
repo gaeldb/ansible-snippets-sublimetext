@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_regkey_license</tabTrigger>
+	<description>Manages licenses in a BIG-IQ registration key pool</description>
+	<content><![CDATA[
+- name: Manages licenses in a BIG-IQ registration key pool
+  bigiq_regkey_license:
+      accept_eula: 
+      description: 
+      license_key: 
+      provider: 
+      regkey_pool: 
+      state: 
+]]>
+	</content>
+</snippet>

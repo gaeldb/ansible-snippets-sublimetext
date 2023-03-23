@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.resource_info</tabTrigger>
+	<description>Gather information about resources</description>
+	<content><![CDATA[
+- name: Gather information about resources
+  resource_info:
+      full_details: 
+      organization: 
+      params: 
+      password: 
+      resource: 
+      search: 
+      server_url: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_config_rollback</tabTrigger>
+	<description>Provides rollback and rollback preview functionality (config:ImportP)</description>
+	<content><![CDATA[
+- name: Provides rollback and rollback preview functionality (config:ImportP)
+  aci_config_rollback:
+      annotation: 
+      certificate_name: 
+      compare_export_policy: 
+      compare_snapshot: 
+      description: 
+      export_policy: 
+      fail_on_decrypt: 
+      host: 
+      import_mode: 
+      import_policy: 
+      import_type: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      snapshot: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

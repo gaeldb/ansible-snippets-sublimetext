@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.read_csv</tabTrigger>
+	<description>Read a CSV file</description>
+	<content><![CDATA[
+- name: Read a CSV file
+  read_csv:
+      delimiter: 
+      dialect: 
+      fieldnames: 
+      key: 
+      path: 
+      skipinitialspace: 
+      strict: 
+      unique: 
+]]>
+	</content>
+</snippet>

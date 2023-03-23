@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_nvme</tabTrigger>
+	<description>NetApp ONTAP Manage NVMe Service</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage NVMe Service
+  na_ontap_nvme:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      state: 
+      status_admin: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

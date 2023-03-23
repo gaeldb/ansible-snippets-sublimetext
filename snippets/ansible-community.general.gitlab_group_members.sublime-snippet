@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_group_members</tabTrigger>
+	<description>Manage group members on GitLab Server</description>
+	<content><![CDATA[
+- name: Manage group members on GitLab Server
+  gitlab_group_members:
+      access_level: 
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      gitlab_group: 
+      gitlab_user: 
+      gitlab_users_access: 
+      purge_users: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

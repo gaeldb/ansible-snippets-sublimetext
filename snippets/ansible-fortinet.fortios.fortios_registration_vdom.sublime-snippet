@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_registration_vdom</tabTrigger>
+	<description>Add a VDOM license in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Add a VDOM license in Fortinet's FortiOS and FortiGate.
+  fortios_registration_vdom:
+      host: 
+      https: 
+      password: 
+      registration_vdom: 
+      ssl_verify: 
+      username: 
+      vdom: 
+]]>
+	</content>
+</snippet>

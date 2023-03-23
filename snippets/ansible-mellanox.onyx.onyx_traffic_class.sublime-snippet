@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_traffic_class</tabTrigger>
+	<description>Configures Traffic Class</description>
+	<content><![CDATA[
+- name: Configures Traffic Class
+  onyx_traffic_class:
+      congestion_control: 
+      dcb: 
+      interfaces: 
+      state: 
+      tc: 
+]]>
+	</content>
+</snippet>

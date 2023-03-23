@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_inter_controller</tabTrigger>
+	<description>Configure inter wireless controller operation in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure inter wireless controller operation in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_inter_controller:
+      access_token: 
+      vdom: 
+      wireless_controller_inter_controller: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_httppolicyset</tabTrigger>
+	<description>Module for setup of HTTPPolicySet Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of HTTPPolicySet Avi RESTful Object
+  avi_httppolicyset:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_config_cksum: 
+      controller: 
+      created_by: 
+      description: 
+      http_request_policy: 
+      http_response_policy: 
+      http_security_policy: 
+      is_internal_policy: 
+      name: 
+      password: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

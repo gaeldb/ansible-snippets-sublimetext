@@ -1,0 +1,10 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.crypto_info</tabTrigger>
+	<description>Retrieve cryptographic capabilities</description>
+	<content><![CDATA[
+- name: Retrieve cryptographic capabilities
+  crypto_info:
+]]>
+	</content>
+</snippet>

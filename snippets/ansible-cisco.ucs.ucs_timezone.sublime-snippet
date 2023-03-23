@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_timezone</tabTrigger>
+	<description>Configures timezone on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures timezone on Cisco UCS Manager
+  ucs_timezone:
+      admin_state: 
+      description: 
+      hostname: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      timezone: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_screenshot</tabTrigger>
+	<description>Create a screenshot of the Virtual Machine console.</description>
+	<content><![CDATA[
+- name: Create a screenshot of the Virtual Machine console.
+  vmware_guest_screenshot:
+      cluster: 
+      datacenter: 
+      esxi_hostname: 
+      folder: 
+      hostname: 
+      local_path: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

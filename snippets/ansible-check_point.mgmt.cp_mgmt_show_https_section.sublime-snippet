@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_show_https_section</tabTrigger>
+	<description>Retrieve existing HTTPS Inspection section using section name or uid and layer name.</description>
+	<content><![CDATA[
+- name: Retrieve existing HTTPS Inspection section using section name or uid and layer name.
+  cp_mgmt_show_https_section:
+      details_level: 
+      layer: 
+      name: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

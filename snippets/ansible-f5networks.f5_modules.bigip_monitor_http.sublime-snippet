@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_monitor_http</tabTrigger>
+	<description>Manages F5 BIG-IP LTM HTTP monitors</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP LTM HTTP monitors
+  bigip_monitor_http:
+      description: 
+      interval: 
+      ip: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      receive: 
+      receive_disable: 
+      reverse: 
+      send: 
+      state: 
+      target_password: 
+      target_username: 
+      time_until_up: 
+      timeout: 
+]]>
+	</content>
+</snippet>

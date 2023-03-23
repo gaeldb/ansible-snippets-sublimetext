@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host</tabTrigger>
+	<description>Add, remove, or move an ESXi host to, from, or within vCenter</description>
+	<content><![CDATA[
+- name: Add, remove, or move an ESXi host to, from, or within vCenter
+  vmware_host:
+      add_connected: 
+      cluster_name: 
+      datacenter_name: 
+      esxi_hostname: 
+      esxi_password: 
+      esxi_ssl_thumbprint: 
+      esxi_username: 
+      fetch_ssl_thumbprint: 
+      folder: 
+      force_connection: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      reconnect_disconnected: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

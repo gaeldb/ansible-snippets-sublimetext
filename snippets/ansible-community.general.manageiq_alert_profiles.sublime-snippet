@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_alert_profiles</tabTrigger>
+	<description>Configuration of alert profiles for ManageIQ</description>
+	<content><![CDATA[
+- name: Configuration of alert profiles for ManageIQ
+  manageiq_alert_profiles:
+      alerts: 
+      manageiq_connection: 
+      name: 
+      notes: 
+      resource_type: 
+      state: 
+]]>
+	</content>
+</snippet>

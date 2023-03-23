@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.accessanalyzer_validate_policy_info</tabTrigger>
+	<description>Performs validation of IAM policies</description>
+	<content><![CDATA[
+- name: Performs validation of IAM policies
+  accessanalyzer_validate_policy_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      locale: 
+      policy: 
+      policy_type: 
+      profile: 
+      region: 
+      resource_type: 
+      results_filter: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

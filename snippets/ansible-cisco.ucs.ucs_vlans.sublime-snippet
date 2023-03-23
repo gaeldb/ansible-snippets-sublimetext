@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vlans</tabTrigger>
+	<description>Configures VLANs on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures VLANs on Cisco UCS Manager
+  ucs_vlans:
+      fabric: 
+      hostname: 
+      id: 
+      multicast_policy: 
+      name: 
+      native: 
+      password: 
+      port: 
+      proxy: 
+      sharing: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

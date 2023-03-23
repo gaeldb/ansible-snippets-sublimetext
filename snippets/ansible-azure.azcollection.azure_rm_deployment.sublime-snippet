@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_deployment</tabTrigger>
+	<description>Create or destroy Azure Resource Manager template deployments</description>
+	<content><![CDATA[
+- name: Create or destroy Azure Resource Manager template deployments
+  azure_rm_deployment:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      deployment_mode: 
+      location: 
+      name: 
+      parameters: 
+      parameters_link: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      template: 
+      template_link: 
+      tenant: 
+      wait_for_deployment_completion: 
+      wait_for_deployment_polling_period: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_datastore_cluster_manager</tabTrigger>
+	<description>Manage VMware vSphere datastore cluster's members</description>
+	<content><![CDATA[
+- name: Manage VMware vSphere datastore cluster's members
+  vmware_datastore_cluster_manager:
+      datacenter_name: 
+      datastore_cluster_name: 
+      datastores: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

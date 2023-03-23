@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_mac_pool</tabTrigger>
+	<description>Configures MAC address pools on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures MAC address pools on Cisco UCS Manager
+  ucs_mac_pool:
+      description: 
+      first_addr: 
+      hostname: 
+      last_addr: 
+      name: 
+      order: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

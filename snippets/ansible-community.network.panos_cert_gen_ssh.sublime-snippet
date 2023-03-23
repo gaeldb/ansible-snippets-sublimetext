@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_cert_gen_ssh</tabTrigger>
+	<description>generates a self-signed certificate using SSH protocol with SSH key</description>
+	<content><![CDATA[
+- name: generates a self-signed certificate using SSH protocol with SSH key
+  panos_cert_gen_ssh:
+      cert_cn: 
+      cert_friendly_name: 
+      ip_address: 
+      key_filename: 
+      password: 
+      rsa_nbits: 
+      signed_by: 
+]]>
+	</content>
+</snippet>

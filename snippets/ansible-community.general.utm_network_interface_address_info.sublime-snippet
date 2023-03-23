@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_network_interface_address_info</tabTrigger>
+	<description>Get info for a network/interface_address object</description>
+	<content><![CDATA[
+- name: Get info for a network/interface_address object
+  utm_network_interface_address_info:
+      headers: 
+      name: 
+      state: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

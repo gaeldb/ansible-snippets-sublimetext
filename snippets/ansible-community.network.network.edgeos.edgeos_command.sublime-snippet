@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.edgeos.edgeos_command</tabTrigger>
+	<description>Run one or more commands on EdgeOS devices</description>
+	<content><![CDATA[
+- name: Run one or more commands on EdgeOS devices
+  edgeos_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

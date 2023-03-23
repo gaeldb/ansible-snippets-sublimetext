@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_cdb_database</tabTrigger>
+	<description>Create / delete a database in the Cloud Databases</description>
+	<content><![CDATA[
+- name: Create / delete a database in the Cloud Databases
+  rax_cdb_database:
+      api_key: 
+      auth_endpoint: 
+      cdb_id: 
+      character_set: 
+      collate: 
+      credentials: 
+      env: 
+      identity_type: 
+      name: 
+      region: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

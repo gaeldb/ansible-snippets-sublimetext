@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_partition</tabTrigger>
+	<description>Creates, changes and removes partitions on Windows Server</description>
+	<content><![CDATA[
+- name: Creates, changes and removes partitions on Windows Server
+  win_partition:
+      active: 
+      disk_number: 
+      drive_letter: 
+      gpt_type: 
+      hidden: 
+      mbr_type: 
+      offline: 
+      partition_number: 
+      partition_size: 
+      read_only: 
+      state: 
+]]>
+	</content>
+</snippet>

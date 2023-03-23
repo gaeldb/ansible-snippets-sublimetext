@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ssl_server</tabTrigger>
+	<description>Configure SSL servers in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure SSL servers in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ssl_server:
+      access_token: 
+      firewall_ssl_server: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_dns</tabTrigger>
+	<description>Configure FlashArray DNS settings</description>
+	<content><![CDATA[
+- name: Configure FlashArray DNS settings
+  purefa_dns:
+      api_token: 
+      domain: 
+      fa_url: 
+      nameservers: 
+      state: 
+]]>
+	</content>
+</snippet>

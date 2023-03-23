@@ -1,0 +1,63 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.udm_share</tabTrigger>
+	<description>Manage samba shares on a univention corporate server</description>
+	<content><![CDATA[
+- name: Manage samba shares on a univention corporate server
+  udm_share:
+      directorymode: 
+      group: 
+      host: 
+      name: 
+      nfsCustomSettings: 
+      nfs_hosts: 
+      ou: 
+      owner: 
+      path: 
+      root_squash: 
+      sambaBlockSize: 
+      sambaBlockingLocks: 
+      sambaBrowseable: 
+      sambaCreateMode: 
+      sambaCscPolicy: 
+      sambaCustomSettings: 
+      sambaDirectoryMode: 
+      sambaDirectorySecurityMode: 
+      sambaDosFilemode: 
+      sambaFakeOplocks: 
+      sambaForceCreateMode: 
+      sambaForceDirectoryMode: 
+      sambaForceDirectorySecurityMode: 
+      sambaForceGroup: 
+      sambaForceSecurityMode: 
+      sambaForceUser: 
+      sambaHideFiles: 
+      sambaHideUnreadable: 
+      sambaHostsAllow: 
+      sambaHostsDeny: 
+      sambaInheritAcls: 
+      sambaInheritOwner: 
+      sambaInheritPermissions: 
+      sambaInvalidUsers: 
+      sambaLevel2Oplocks: 
+      sambaLocking: 
+      sambaMSDFSRoot: 
+      sambaName: 
+      sambaNtAclSupport: 
+      sambaOplocks: 
+      sambaPostexec: 
+      sambaPreexec: 
+      sambaPublic: 
+      sambaSecurityMode: 
+      sambaStrictLocking: 
+      sambaVFSObjects: 
+      sambaValidUsers: 
+      sambaWriteList: 
+      sambaWriteable: 
+      state: 
+      subtree_checking: 
+      sync: 
+      writeable: 
+]]>
+	</content>
+</snippet>

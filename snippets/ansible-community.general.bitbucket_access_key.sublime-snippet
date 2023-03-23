@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bitbucket_access_key</tabTrigger>
+	<description>Manages Bitbucket repository access keys</description>
+	<content><![CDATA[
+- name: Manages Bitbucket repository access keys
+  bitbucket_access_key:
+      client_id: 
+      client_secret: 
+      key: 
+      label: 
+      password: 
+      repository: 
+      state: 
+      user: 
+      workspace: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_fwobj_address</tabTrigger>
+	<description>Allows the management of firewall objects in FortiManager</description>
+	<content><![CDATA[
+- name: Allows the management of firewall objects in FortiManager
+  fmgr_fwobj_address:
+      adom: 
+      allow_routing: 
+      associated_interface: 
+      cache_ttl: 
+      color: 
+      comment: 
+      country: 
+      end_ip: 
+      fqdn: 
+      group_members: 
+      group_name: 
+      ipv4: 
+      ipv4addr: 
+      ipv6: 
+      ipv6addr: 
+      mode: 
+      multicast: 
+      name: 
+      obj_id: 
+      start_ip: 
+      visibility: 
+      wildcard: 
+      wildcard_fqdn: 
+]]>
+	</content>
+</snippet>

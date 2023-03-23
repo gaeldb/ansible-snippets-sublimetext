@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_pptp</tabTrigger>
+	<description>Configure PPTP in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure PPTP in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_pptp:
+      access_token: 
+      vdom: 
+      vpn_pptp: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_managed_switch</tabTrigger>
+	<description>Configure FortiSwitch devices that are managed by this FortiGate in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiSwitch devices that are managed by this FortiGate in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_managed_switch:
+      access_token: 
+      state: 
+      switch_controller_managed_switch: 
+      vdom: 
+]]>
+	</content>
+</snippet>

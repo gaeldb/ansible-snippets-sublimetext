@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_lldp_interfaces</tabTrigger>
+	<description>LLDP interfaces resource module</description>
+	<content><![CDATA[
+- name: LLDP interfaces resource module
+  eos_lldp_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

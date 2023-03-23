@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_fortiguard</tabTrigger>
+	<description>Configure FortiGuard services in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGuard services in Fortinet's FortiOS and FortiGate.
+  fortios_system_fortiguard:
+      access_token: 
+      system_fortiguard: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.omapi_host</tabTrigger>
+	<description>Setup OMAPI hosts</description>
+	<content><![CDATA[
+- name: Setup OMAPI hosts
+  omapi_host:
+      ddns: 
+      host: 
+      hostname: 
+      ip: 
+      key: 
+      key_name: 
+      macaddr: 
+      port: 
+      state: 
+      statements: 
+]]>
+	</content>
+</snippet>

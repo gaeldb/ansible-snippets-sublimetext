@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_firewall_sslsshprofile_obj</tabTrigger>
+	<description>Configure SSL/SSH protocol options.</description>
+	<content><![CDATA[
+- name: Configure SSL/SSH protocol options.
+  fmgr_firewall_sslsshprofile_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

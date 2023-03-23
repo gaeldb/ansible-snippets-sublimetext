@@ -1,0 +1,61 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_service</tabTrigger>
+	<description>Manage service configuration in Netscaler</description>
+	<content><![CDATA[
+- name: Manage service configuration in Netscaler
+  netscaler_service:
+      accessdown: 
+      appflowlog: 
+      cacheable: 
+      cachetype: 
+      cip: 
+      cipheader: 
+      cka: 
+      cleartextport: 
+      clttimeout: 
+      cmp: 
+      comment: 
+      customserverid: 
+      disabled: 
+      dnsprofilename: 
+      downstateflush: 
+      graceful: 
+      hashid: 
+      healthmonitor: 
+      httpprofilename: 
+      ip: 
+      ipaddress: 
+      maxbandwidth: 
+      maxclient: 
+      maxreq: 
+      monitor_bindings: 
+      monthreshold: 
+      name: 
+      netprofile: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      pathmonitor: 
+      pathmonitorindv: 
+      port: 
+      processlocal: 
+      rtspsessionidremap: 
+      save_config: 
+      serverid: 
+      servername: 
+      servicetype: 
+      sp: 
+      state: 
+      svrtimeout: 
+      tcpb: 
+      tcpprofilename: 
+      td: 
+      useproxyport: 
+      usip: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

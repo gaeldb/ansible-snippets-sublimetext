@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_role</tabTrigger>
+	<description>Allows administration of Keycloak roles via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak roles via Keycloak API
+  keycloak_role:
+      attributes: 
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      client_id: 
+      connection_timeout: 
+      description: 
+      http_agent: 
+      name: 
+      realm: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

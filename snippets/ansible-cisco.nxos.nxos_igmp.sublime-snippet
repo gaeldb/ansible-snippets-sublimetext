@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_igmp</tabTrigger>
+	<description>Manages IGMP global configuration.</description>
+	<content><![CDATA[
+- name: Manages IGMP global configuration.
+  nxos_igmp:
+      enforce_rtr_alert: 
+      flush_routes: 
+      provider: 
+      restart: 
+      state: 
+]]>
+	</content>
+</snippet>

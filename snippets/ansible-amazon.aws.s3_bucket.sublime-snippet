@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.s3_bucket</tabTrigger>
+	<description>Manage S3 buckets in AWS, DigitalOcean, Ceph, Walrus, FakeS3 and StorageGRID</description>
+	<content><![CDATA[
+- name: Manage S3 buckets in AWS, DigitalOcean, Ceph, Walrus, FakeS3 and StorageGRID
+  s3_bucket:
+      access_key: 
+      acl: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket_key_enabled: 
+      ceph: 
+      debug_botocore_endpoint_logs: 
+      delete_object_ownership: 
+      delete_public_access: 
+      encryption: 
+      encryption_key_id: 
+      endpoint_url: 
+      force: 
+      name: 
+      object_ownership: 
+      policy: 
+      profile: 
+      public_access: 
+      purge_tags: 
+      region: 
+      requester_pays: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_bucket_name: 
+      validate_certs: 
+      versioning: 
+]]>
+	</content>
+</snippet>

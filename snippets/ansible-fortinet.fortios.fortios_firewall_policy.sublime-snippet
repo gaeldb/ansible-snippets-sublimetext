@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_policy</tabTrigger>
+	<description>Configure IPv4 policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv4 policies in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_policy:
+      access_token: 
+      action: 
+      after: 
+      before: 
+      firewall_policy: 
+      self: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

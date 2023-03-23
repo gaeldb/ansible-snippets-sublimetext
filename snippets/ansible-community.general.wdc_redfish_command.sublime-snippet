@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.wdc_redfish_command</tabTrigger>
+	<description>Manages WDC UltraStar Data102 Out-Of-Band controllers using Redfish APIs</description>
+	<content><![CDATA[
+- name: Manages WDC UltraStar Data102 Out-Of-Band controllers using Redfish APIs
+  wdc_redfish_command:
+      auth_token: 
+      baseuri: 
+      category: 
+      command: 
+      ioms: 
+      password: 
+      resource_id: 
+      timeout: 
+      update_creds: 
+      update_image_uri: 
+      username: 
+]]>
+	</content>
+</snippet>

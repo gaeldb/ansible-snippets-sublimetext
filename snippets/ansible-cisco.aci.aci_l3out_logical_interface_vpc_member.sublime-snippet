@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_logical_interface_vpc_member</tabTrigger>
+	<description>Manage Member Node objects (l3extMember:Member)</description>
+	<content><![CDATA[
+- name: Manage Member Node objects (l3extMember:Member)
+  aci_l3out_logical_interface_vpc_member:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      l3out: 
+      logical_interface: 
+      logical_node: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      path_dn: 
+      port: 
+      private_key: 
+      side: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

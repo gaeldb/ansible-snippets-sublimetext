@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_user</tabTrigger>
+	<description>Manage the collection of local users on VyOS device</description>
+	<content><![CDATA[
+- name: Manage the collection of local users on VyOS device
+  vyos_user:
+      aggregate: 
+      configured_password: 
+      full_name: 
+      level: 
+      name: 
+      provider: 
+      purge: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_provider</tabTrigger>
+	<description>Management of provider in ManageIQ</description>
+	<content><![CDATA[
+- name: Management of provider in ManageIQ
+  manageiq_provider:
+      alerts: 
+      api_version: 
+      azure_tenant_id: 
+      host_default_vnc_port_end: 
+      host_default_vnc_port_start: 
+      manageiq_connection: 
+      metrics: 
+      name: 
+      project: 
+      provider: 
+      provider_region: 
+      ssh_keypair: 
+      state: 
+      subscription: 
+      tenant_mapping_enabled: 
+      type: 
+      zone: 
+]]>
+	</content>
+</snippet>

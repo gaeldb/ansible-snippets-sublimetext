@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_extsubnet</tabTrigger>
+	<description>Manage External Subnet objects (l3extSubnet:extsubnet)</description>
+	<content><![CDATA[
+- name: Manage External Subnet objects (l3extSubnet:extsubnet)
+  aci_l3out_extsubnet:
+      annotation: 
+      certificate_name: 
+      description: 
+      extepg: 
+      host: 
+      l3out: 
+      name_alias: 
+      network: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      scope: 
+      state: 
+      subnet_name: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

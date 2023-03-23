@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_info</tabTrigger>
+	<description>Gather information about MongoDB instance.</description>
+	<content><![CDATA[
+- name: Gather information about MongoDB instance.
+  mongodb_info:
+      auth_mechanism: 
+      connection_options: 
+      filter: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+]]>
+	</content>
+</snippet>

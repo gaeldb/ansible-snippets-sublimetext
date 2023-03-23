@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pagerduty_alert</tabTrigger>
+	<description>Trigger, acknowledge or resolve PagerDuty incidents</description>
+	<content><![CDATA[
+- name: Trigger, acknowledge or resolve PagerDuty incidents
+  pagerduty_alert:
+      api_key: 
+      client: 
+      client_url: 
+      desc: 
+      incident_key: 
+      integration_key: 
+      name: 
+      service_id: 
+      service_key: 
+      state: 
+]]>
+	</content>
+</snippet>

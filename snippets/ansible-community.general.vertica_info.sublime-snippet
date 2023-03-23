@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vertica_info</tabTrigger>
+	<description>Gathers Vertica database facts</description>
+	<content><![CDATA[
+- name: Gathers Vertica database facts
+  vertica_info:
+      cluster: 
+      db: 
+      login_password: 
+      login_user: 
+      port: 
+]]>
+	</content>
+</snippet>

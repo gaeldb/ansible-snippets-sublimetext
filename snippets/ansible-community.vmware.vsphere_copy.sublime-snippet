@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vsphere_copy</tabTrigger>
+	<description>Copy a file to a VMware datastore</description>
+	<content><![CDATA[
+- name: Copy a file to a VMware datastore
+  vsphere_copy:
+      datacenter: 
+      datastore: 
+      hostname: 
+      password: 
+      path: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      src: 
+      timeout: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

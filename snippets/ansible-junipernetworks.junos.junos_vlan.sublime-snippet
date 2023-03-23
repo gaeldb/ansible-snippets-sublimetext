@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_vlan</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage VLANs on Juniper JUNOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage VLANs on Juniper JUNOS network devices
+  junos_vlan:
+      active: 
+      aggregate: 
+      description: 
+      filter_input: 
+      filter_output: 
+      interfaces: 
+      l3_interface: 
+      name: 
+      provider: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

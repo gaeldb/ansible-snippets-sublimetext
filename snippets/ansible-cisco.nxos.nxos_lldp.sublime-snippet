@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_lldp</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage LLDP configuration on Cisco NXOS network devices.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage LLDP configuration on Cisco NXOS network devices.
+  nxos_lldp:
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

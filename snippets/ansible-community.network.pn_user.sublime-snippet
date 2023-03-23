@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_user</tabTrigger>
+	<description>CLI command to create/modify/delete user</description>
+	<content><![CDATA[
+- name: CLI command to create/modify/delete user
+  pn_user:
+      pn_cliswitch: 
+      pn_initial_role: 
+      pn_name: 
+      pn_password: 
+      pn_scope: 
+      state: 
+]]>
+	</content>
+</snippet>

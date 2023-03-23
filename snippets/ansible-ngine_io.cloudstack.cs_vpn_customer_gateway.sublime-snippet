@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_vpn_customer_gateway</tabTrigger>
+	<description>Manages site-to-site VPN customer gateway configurations on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages site-to-site VPN customer gateway configurations on Apache CloudStack based clouds.
+  cs_vpn_customer_gateway:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cidrs: 
+      domain: 
+      dpd: 
+      esp_lifetime: 
+      esp_policy: 
+      force_encap: 
+      gateway: 
+      ike_lifetime: 
+      ike_policy: 
+      ipsec_psk: 
+      name: 
+      poll_async: 
+      project: 
+      state: 
+]]>
+	</content>
+</snippet>

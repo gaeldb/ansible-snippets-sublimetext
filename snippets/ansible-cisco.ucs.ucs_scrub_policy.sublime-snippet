@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_scrub_policy</tabTrigger>
+	<description>Manages UCS Scrub Policies on UCS Manager</description>
+	<content><![CDATA[
+- name: Manages UCS Scrub Policies on UCS Manager
+  ucs_scrub_policy:
+      bios_settings_scrub: 
+      description: 
+      disk_scrub: 
+      flex_flash_scrub: 
+      hostname: 
+      name: 
+      org_dn: 
+      password: 
+      persistent_memory_scrub: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

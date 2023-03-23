@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_circuit_type</tabTrigger>
+	<description>Create, update or delete circuit types within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete circuit types within Netbox
+  netbox_circuit_type:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

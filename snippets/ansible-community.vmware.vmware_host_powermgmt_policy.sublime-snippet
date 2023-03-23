@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_powermgmt_policy</tabTrigger>
+	<description>Manages the Power Management Policy of an ESXI host system</description>
+	<content><![CDATA[
+- name: Manages the Power Management Policy of an ESXI host system
+  vmware_host_powermgmt_policy:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      policy: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

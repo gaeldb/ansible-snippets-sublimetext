@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_reload</tabTrigger>
+	<description>Perform switch restart on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Perform switch restart on devices running Lenovo CNOS
+  cnos_reload:
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

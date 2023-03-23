@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_role</tabTrigger>
+	<description>Manage FreeIPA role</description>
+	<content><![CDATA[
+- name: Manage FreeIPA role
+  ipa_role:
+      cn: 
+      description: 
+      group: 
+      host: 
+      hostgroup: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      privilege: 
+      service: 
+      state: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

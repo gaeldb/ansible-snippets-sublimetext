@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.proxmox</tabTrigger>
+	<description>Management of instances in Proxmox VE cluster</description>
+	<content><![CDATA[
+- name: Management of instances in Proxmox VE cluster
+  proxmox:
+      api_host: 
+      api_password: 
+      api_token_id: 
+      api_token_secret: 
+      api_user: 
+      clone: 
+      clone_type: 
+      cores: 
+      cpus: 
+      cpuunits: 
+      description: 
+      disk: 
+      features: 
+      force: 
+      hookscript: 
+      hostname: 
+      ip_address: 
+      memory: 
+      mounts: 
+      nameserver: 
+      netif: 
+      node: 
+      onboot: 
+      ostemplate: 
+      password: 
+      pool: 
+      proxmox_default_behavior: 
+      pubkey: 
+      purge: 
+      searchdomain: 
+      state: 
+      storage: 
+      swap: 
+      tags: 
+      timeout: 
+      unprivileged: 
+      validate_certs: 
+      vmid: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.zfs_delegate_admin</tabTrigger>
+	<description>Manage ZFS delegated administration (user admin privileges)</description>
+	<content><![CDATA[
+- name: Manage ZFS delegated administration (user admin privileges)
+  zfs_delegate_admin:
+      descendents: 
+      everyone: 
+      groups: 
+      local: 
+      name: 
+      permissions: 
+      recursive: 
+      state: 
+      users: 
+]]>
+	</content>
+</snippet>

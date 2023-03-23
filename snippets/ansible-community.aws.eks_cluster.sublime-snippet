@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.eks_cluster</tabTrigger>
+	<description>Manage Elastic Kubernetes Service (EKS) Clusters</description>
+	<content><![CDATA[
+- name: Manage Elastic Kubernetes Service (EKS) Clusters
+  eks_cluster:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      role_arn: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      state: 
+      subnets: 
+      validate_certs: 
+      version: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

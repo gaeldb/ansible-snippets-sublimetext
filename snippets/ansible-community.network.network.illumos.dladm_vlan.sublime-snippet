@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.dladm_vlan</tabTrigger>
+	<description>Manage VLAN interfaces on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage VLAN interfaces on Solaris/illumos systems.
+  dladm_vlan:
+      link: 
+      name: 
+      state: 
+      temporary: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.wafv2_ip_set</tabTrigger>
+	<description>wafv2_ip_set</description>
+	<content><![CDATA[
+- name: wafv2_ip_set
+  wafv2_ip_set:
+      access_key: 
+      addresses: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      description: 
+      endpoint_url: 
+      ip_address_version: 
+      name: 
+      profile: 
+      purge_addresses: 
+      purge_tags: 
+      region: 
+      scope: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

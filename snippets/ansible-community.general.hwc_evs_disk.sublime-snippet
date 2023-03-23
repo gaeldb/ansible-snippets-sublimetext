@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_evs_disk</tabTrigger>
+	<description>Creates a resource of Evs/Disk in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Evs/Disk in Huawei Cloud
+  hwc_evs_disk:
+      availability_zone: 
+      backup_id: 
+      description: 
+      domain: 
+      enable_full_clone: 
+      enable_scsi: 
+      enable_share: 
+      encryption_id: 
+      enterprise_project_id: 
+      id: 
+      identity_endpoint: 
+      image_id: 
+      name: 
+      password: 
+      project: 
+      region: 
+      size: 
+      snapshot_id: 
+      state: 
+      timeouts: 
+      user: 
+      volume_type: 
+]]>
+	</content>
+</snippet>

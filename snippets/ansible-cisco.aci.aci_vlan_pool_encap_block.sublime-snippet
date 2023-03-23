@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_vlan_pool_encap_block</tabTrigger>
+	<description>Manage encap blocks assigned to VLAN pools (fvns:EncapBlk)</description>
+	<content><![CDATA[
+- name: Manage encap blocks assigned to VLAN pools (fvns:EncapBlk)
+  aci_vlan_pool_encap_block:
+      allocation_mode: 
+      annotation: 
+      block_end: 
+      block_name: 
+      block_start: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pool: 
+      pool_allocation_mode: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

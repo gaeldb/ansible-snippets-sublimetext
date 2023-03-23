@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.bitbucket_pipeline_variable</tabTrigger>
+	<description>Manages Bitbucket pipeline variables</description>
+	<content><![CDATA[
+- name: Manages Bitbucket pipeline variables
+  bitbucket_pipeline_variable:
+      client_id: 
+      client_secret: 
+      name: 
+      password: 
+      repository: 
+      secured: 
+      state: 
+      user: 
+      value: 
+      workspace: 
+]]>
+	</content>
+</snippet>

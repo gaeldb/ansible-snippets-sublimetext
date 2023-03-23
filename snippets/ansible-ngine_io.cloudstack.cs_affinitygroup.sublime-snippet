@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_affinitygroup</tabTrigger>
+	<description>Manages affinity groups on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages affinity groups on Apache CloudStack based clouds.
+  cs_affinitygroup:
+      account: 
+      affinity_type: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      description: 
+      domain: 
+      name: 
+      poll_async: 
+      project: 
+      state: 
+]]>
+	</content>
+</snippet>

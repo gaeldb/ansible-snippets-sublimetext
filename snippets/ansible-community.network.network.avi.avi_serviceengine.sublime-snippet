@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_serviceengine</tabTrigger>
+	<description>Module for setup of ServiceEngine Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of ServiceEngine Avi RESTful Object
+  avi_serviceengine:
+      api_context: 
+      api_version: 
+      availability_zone: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_ref: 
+      container_mode: 
+      container_type: 
+      controller: 
+      controller_created: 
+      controller_ip: 
+      data_vnics: 
+      enable_state: 
+      flavor: 
+      host_ref: 
+      hypervisor: 
+      mgmt_vnic: 
+      name: 
+      password: 
+      resources: 
+      se_group_ref: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

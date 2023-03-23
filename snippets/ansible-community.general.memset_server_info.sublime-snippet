@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.memset_server_info</tabTrigger>
+	<description>Retrieve server information</description>
+	<content><![CDATA[
+- name: Retrieve server information
+  memset_server_info:
+      api_key: 
+      name: 
+]]>
+	</content>
+</snippet>

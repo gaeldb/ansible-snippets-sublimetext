@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.os10_command</tabTrigger>
+	<description>Run commands on devices running Dell EMC SmartFabric OS10</description>
+	<content><![CDATA[
+- name: Run commands on devices running Dell EMC SmartFabric OS10
+  os10_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

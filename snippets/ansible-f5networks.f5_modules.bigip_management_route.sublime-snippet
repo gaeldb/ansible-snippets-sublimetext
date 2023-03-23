@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_management_route</tabTrigger>
+	<description>Manage system management routes on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage system management routes on a BIG-IP
+  bigip_management_route:
+      description: 
+      gateway: 
+      name: 
+      network: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

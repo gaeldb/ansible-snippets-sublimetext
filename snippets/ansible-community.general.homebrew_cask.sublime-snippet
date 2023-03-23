@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.homebrew_cask</tabTrigger>
+	<description>Install and uninstall homebrew casks</description>
+	<content><![CDATA[
+- name: Install and uninstall homebrew casks
+  homebrew_cask:
+      accept_external_apps: 
+      greedy: 
+      install_options: 
+      name: 
+      path: 
+      state: 
+      sudo_password: 
+      update_homebrew: 
+      upgrade_all: 
+]]>
+	</content>
+</snippet>

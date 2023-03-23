@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_tcp</tabTrigger>
+	<description>Manage TCP profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage TCP profiles on a BIG-IP
+  bigip_profile_tcp:
+      delayed_acks: 
+      early_retransmit: 
+      idle_timeout: 
+      initial_congestion_window_size: 
+      initial_receive_window_size: 
+      ip_tos_to_client: 
+      nagle: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      proxy_options: 
+      state: 
+      syn_rto_base: 
+      time_wait_recycle: 
+      time_wait_timeout: 
+]]>
+	</content>
+</snippet>

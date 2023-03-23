@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_group_membership</tabTrigger>
+	<description>Manage Windows local group membership</description>
+	<content><![CDATA[
+- name: Manage Windows local group membership
+  win_group_membership:
+      members: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

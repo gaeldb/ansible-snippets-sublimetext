@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_vlan</tabTrigger>
+	<description>Manage VLANs in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage VLANs in the Meraki cloud
+  meraki_mx_vlan:
+      appliance_ip: 
+      auth_key: 
+      dhcp_boot_filename: 
+      dhcp_boot_next_server: 
+      dhcp_boot_options_enabled: 
+      dhcp_handling: 
+      dhcp_lease_time: 
+      dhcp_options: 
+      dhcp_relay_server_ips: 
+      dns_nameservers: 
+      fixed_ip_assignments: 
+      host: 
+      internal_error_retry_time: 
+      name: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      reserved_ip_range: 
+      state: 
+      subnet: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      vlan_id: 
+      vpn_nat_subnet: 
+]]>
+	</content>
+</snippet>

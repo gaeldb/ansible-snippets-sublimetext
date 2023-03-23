@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_domain_facts</tabTrigger>
+	<description>Gather information about DigitalOcean Domains</description>
+	<content><![CDATA[
+- name: Gather information about DigitalOcean Domains
+  digital_ocean_domain_info:
+      domain_name: 
+      oauth_token: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

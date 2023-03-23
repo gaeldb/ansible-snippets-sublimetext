@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_utility_license</tabTrigger>
+	<description>Manage utility licenses on a BIG-IQ</description>
+	<content><![CDATA[
+- name: Manage utility licenses on a BIG-IQ
+  bigiq_utility_license:
+      accept_eula: 
+      license_key: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

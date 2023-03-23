@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_service_profile_association</tabTrigger>
+	<description>Configures Service Profile Association on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures Service Profile Association on Cisco UCS Manager
+  ucs_service_profile_association:
+      hostname: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      restrict_migration: 
+      server_assignment: 
+      server_dn: 
+      server_pool_name: 
+      service_profile_name: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

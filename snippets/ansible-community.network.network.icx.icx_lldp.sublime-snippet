@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_lldp</tabTrigger>
+	<description>Manage LLDP configuration on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage LLDP configuration on Ruckus ICX 7000 series switches
+  icx_lldp:
+      check_running_config: 
+      interfaces: 
+      state: 
+]]>
+	</content>
+</snippet>

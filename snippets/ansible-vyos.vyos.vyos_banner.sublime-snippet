@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_banner</tabTrigger>
+	<description>Manage multiline banners on VyOS devices</description>
+	<content><![CDATA[
+- name: Manage multiline banners on VyOS devices
+  vyos_banner:
+      banner: 
+      provider: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

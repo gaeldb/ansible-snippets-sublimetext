@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_dns_zone</tabTrigger>
+	<description>Manage Windows Server DNS Zones</description>
+	<content><![CDATA[
+- name: Manage Windows Server DNS Zones
+  win_dns_zone:
+      dns_servers: 
+      dynamic_update: 
+      forwarder_timeout: 
+      name: 
+      replication: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

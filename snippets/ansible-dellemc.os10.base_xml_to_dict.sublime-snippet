@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>dellemc.os10.base_xml_to_dict</tabTrigger>
+	<description>Operations for show command output convertion from xml to json format.</description>
+	<content><![CDATA[
+- name: Operations for show command output convertion from xml to json format.
+  base_xml_to_dict:
+      cli_responses: 
+]]>
+	</content>
+</snippet>

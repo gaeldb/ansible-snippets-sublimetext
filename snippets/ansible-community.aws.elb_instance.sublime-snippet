@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elb_instance</tabTrigger>
+	<description>De-registers or registers instances from EC2 ELBs</description>
+	<content><![CDATA[
+- name: De-registers or registers instances from EC2 ELBs
+  elb_instance:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      ec2_elbs: 
+      enable_availability_zone: 
+      endpoint_url: 
+      instance_id: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

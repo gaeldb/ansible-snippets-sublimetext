@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_tools_wait</tabTrigger>
+	<description>Wait for VMware tools to become available</description>
+	<content><![CDATA[
+- name: Wait for VMware tools to become available
+  vmware_guest_tools_wait:
+      folder: 
+      hostname: 
+      moid: 
+      name: 
+      name_match: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      timeout: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

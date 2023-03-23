@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hwc_vpc_route</tabTrigger>
+	<description>Creates a resource of Vpc/Route in Huawei Cloud</description>
+	<content><![CDATA[
+- name: Creates a resource of Vpc/Route in Huawei Cloud
+  hwc_vpc_route:
+      destination: 
+      domain: 
+      id: 
+      identity_endpoint: 
+      next_hop: 
+      password: 
+      project: 
+      region: 
+      state: 
+      type: 
+      user: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,59 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipauser</tabTrigger>
+	<description>Manage FreeIPA users</description>
+	<content><![CDATA[
+- name: Manage FreeIPA users
+  ipauser:
+      action: 
+      carlicense: 
+      certificate: 
+      certmapdata: 
+      city: 
+      departmentnumber: 
+      displayname: 
+      email: 
+      employeenumber: 
+      employeetype: 
+      fax: 
+      first: 
+      fullname: 
+      gid: 
+      homedir: 
+      initials: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      last: 
+      manager: 
+      mobile: 
+      name: 
+      nomembers: 
+      noprivate: 
+      orgunit: 
+      pager: 
+      password: 
+      passwordexpiration: 
+      phone: 
+      postalcode: 
+      preferredlanguage: 
+      preserve: 
+      principal: 
+      principalexpiration: 
+      radius: 
+      radiususer: 
+      random: 
+      shell: 
+      sshpubkey: 
+      state: 
+      title: 
+      uid: 
+      update_password: 
+      userauthtype: 
+      userclass: 
+      users: 
+      userstate: 
+]]>
+	</content>
+</snippet>

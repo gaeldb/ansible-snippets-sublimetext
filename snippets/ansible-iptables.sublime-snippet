@@ -1,0 +1,55 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>iptables</tabTrigger>
+	<description>Modify iptables rules</description>
+	<content><![CDATA[
+- name: Modify iptables rules
+  iptables:
+      action: 
+      chain: 
+      chain_management: 
+      comment: 
+      ctstate: 
+      destination: 
+      destination_port: 
+      destination_ports: 
+      dst_range: 
+      flush: 
+      fragment: 
+      gateway: 
+      gid_owner: 
+      goto: 
+      icmp_type: 
+      in_interface: 
+      ip_version: 
+      jump: 
+      limit: 
+      limit_burst: 
+      log_level: 
+      log_prefix: 
+      match: 
+      match_set: 
+      match_set_flags: 
+      out_interface: 
+      policy: 
+      protocol: 
+      reject_with: 
+      rule_num: 
+      set_counters: 
+      set_dscp_mark: 
+      set_dscp_mark_class: 
+      source: 
+      source_port: 
+      src_range: 
+      state: 
+      syn: 
+      table: 
+      tcp_flags: 
+      to_destination: 
+      to_ports: 
+      to_source: 
+      uid_owner: 
+      wait: 
+]]>
+	</content>
+</snippet>

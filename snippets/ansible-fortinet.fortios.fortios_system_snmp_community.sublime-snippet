@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_snmp_community</tabTrigger>
+	<description>SNMP community configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: SNMP community configuration in Fortinet's FortiOS and FortiGate.
+  fortios_system_snmp_community:
+      access_token: 
+      state: 
+      system_snmp_community: 
+      vdom: 
+]]>
+	</content>
+</snippet>

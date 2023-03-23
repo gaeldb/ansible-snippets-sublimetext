@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_persistence_universal</tabTrigger>
+	<description>Manage universal persistence profiles</description>
+	<content><![CDATA[
+- name: Manage universal persistence profiles
+  bigip_profile_persistence_universal:
+      app_service: 
+      match_across_pools: 
+      match_across_services: 
+      match_across_virtuals: 
+      mirror: 
+      name: 
+      override_connection_limit: 
+      parent: 
+      partition: 
+      provider: 
+      rule: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

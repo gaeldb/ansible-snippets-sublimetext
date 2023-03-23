@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_info_center_trap</tabTrigger>
+	<description>Manages information center trap configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages information center trap configuration on HUAWEI CloudEngine switches.
+  ce_info_center_trap:
+      channel_id: 
+      module_name: 
+      state: 
+      trap_buff_enable: 
+      trap_buff_size: 
+      trap_enable: 
+      trap_level: 
+      trap_time_stamp: 
+]]>
+	</content>
+</snippet>

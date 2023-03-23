@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_ds</tabTrigger>
+	<description>Configure FlashArray Directory Service</description>
+	<content><![CDATA[
+- name: Configure FlashArray Directory Service
+  purefa_ds:
+      aa_group: 
+      api_token: 
+      base_dn: 
+      bind_password: 
+      bind_user: 
+      dstype: 
+      enable: 
+      fa_url: 
+      group_base: 
+      ro_group: 
+      sa_group: 
+      state: 
+      uri: 
+      user_login: 
+      user_object: 
+]]>
+	</content>
+</snippet>

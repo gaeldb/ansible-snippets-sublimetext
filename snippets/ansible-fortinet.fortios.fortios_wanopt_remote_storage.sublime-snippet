@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_remote_storage</tabTrigger>
+	<description>Configure a remote cache device as Web cache storage in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure a remote cache device as Web cache storage in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_remote_storage:
+      access_token: 
+      vdom: 
+      wanopt_remote_storage: 
+]]>
+	</content>
+</snippet>

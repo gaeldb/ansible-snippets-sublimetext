@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_facts</tabTrigger>
+	<description>Collect facts from remote devices running Juniper Junos</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Juniper Junos
+  junos_facts:
+      config_format: 
+      gather_network_resources: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

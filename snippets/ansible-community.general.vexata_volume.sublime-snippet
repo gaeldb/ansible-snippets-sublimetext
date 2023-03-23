@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vexata_volume</tabTrigger>
+	<description>Manage volumes on Vexata VX100 storage arrays</description>
+	<content><![CDATA[
+- name: Manage volumes on Vexata VX100 storage arrays
+  vexata_volume:
+      array: 
+      name: 
+      password: 
+      size: 
+      state: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

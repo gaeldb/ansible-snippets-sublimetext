@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_rpm</tabTrigger>
+	<description>Install patch or feature rpms on Cisco NX-OS devices.</description>
+	<content><![CDATA[
+- name: Install patch or feature rpms on Cisco NX-OS devices.
+  nxos_rpm:
+      aggregate: 
+      file_system: 
+      pkg: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

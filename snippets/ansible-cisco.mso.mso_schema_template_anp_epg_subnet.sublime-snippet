@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_anp_epg_subnet</tabTrigger>
+	<description>Manage EPG subnets in schema templates</description>
+	<content><![CDATA[
+- name: Manage EPG subnets in schema templates
+  mso_schema_template_anp_epg_subnet:
+      anp: 
+      description: 
+      epg: 
+      host: 
+      login_domain: 
+      no_default_gateway: 
+      output_level: 
+      password: 
+      port: 
+      querier: 
+      schema: 
+      scope: 
+      shared: 
+      state: 
+      subnet: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

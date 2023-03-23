@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.apt_rpm</tabTrigger>
+	<description>APT-RPM package manager</description>
+	<content><![CDATA[
+- name: APT-RPM package manager
+  apt_rpm:
+      package: 
+      state: 
+      update_cache: 
+]]>
+	</content>
+</snippet>

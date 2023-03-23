@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_csr_info</tabTrigger>
+	<description>Provide information of OpenSSL Certificate Signing Requests (CSR)</description>
+	<content><![CDATA[
+- name: Provide information of OpenSSL Certificate Signing Requests (CSR)
+  openssl_csr_info:
+      content: 
+      name_encoding: 
+      path: 
+      select_crypto_backend: 
+]]>
+	</content>
+</snippet>

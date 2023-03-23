@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_scheduled_action</tabTrigger>
+	<description>Create, modify and delete ASG scheduled scaling actions</description>
+	<content><![CDATA[
+- name: Create, modify and delete ASG scheduled scaling actions
+  autoscaling_scheduled_action:
+      access_key: 
+      autoscaling_group_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      desired_capacity: 
+      end_time: 
+      endpoint_url: 
+      max_size: 
+      min_size: 
+      profile: 
+      recurrence: 
+      region: 
+      scheduled_action_name: 
+      secret_key: 
+      session_token: 
+      start_time: 
+      state: 
+      time_zone: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_vpn</tabTrigger>
+	<description>Create, modify, and delete EC2 VPN connections</description>
+	<content><![CDATA[
+- name: Create, modify, and delete EC2 VPN connections
+  ec2_vpc_vpn:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      connection_type: 
+      customer_gateway_id: 
+      debug_botocore_endpoint_logs: 
+      delay: 
+      endpoint_url: 
+      filters: 
+      profile: 
+      purge_routes: 
+      purge_tags: 
+      region: 
+      routes: 
+      secret_key: 
+      session_token: 
+      state: 
+      static_only: 
+      tags: 
+      tunnel_options: 
+      validate_certs: 
+      vpn_connection_id: 
+      vpn_gateway_id: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

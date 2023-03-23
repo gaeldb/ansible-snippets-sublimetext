@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_target_pool</tabTrigger>
+	<description>Creates a GCP TargetPool</description>
+	<content><![CDATA[
+- name: Creates a GCP TargetPool
+  gcp_compute_target_pool:
+      auth_kind: 
+      backup_pool: 
+      description: 
+      env_type: 
+      failover_ratio: 
+      health_check: 
+      instances: 
+      name: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      session_affinity: 
+      state: 
+]]>
+	</content>
+</snippet>

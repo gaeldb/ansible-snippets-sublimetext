@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_auditlog</tabTrigger>
+	<description>NetApp E-Series manage audit-log configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage audit-log configuration
+  na_santricity_auditlog:
+      api_password: 
+      api_url: 
+      api_username: 
+      force: 
+      full_policy: 
+      log_level: 
+      max_records: 
+      ssid: 
+      threshold: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

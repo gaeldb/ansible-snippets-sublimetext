@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_file_copy</tabTrigger>
+	<description>Copy a file to a remote cloudengine device over SCP on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Copy a file to a remote cloudengine device over SCP on HUAWEI CloudEngine switches.
+  ce_file_copy:
+      file_system: 
+      local_file: 
+      remote_file: 
+]]>
+	</content>
+</snippet>

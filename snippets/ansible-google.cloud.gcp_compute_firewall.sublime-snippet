@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_firewall</tabTrigger>
+	<description>Creates a GCP Firewall</description>
+	<content><![CDATA[
+- name: Creates a GCP Firewall
+  gcp_compute_firewall:
+      allowed: 
+      auth_kind: 
+      denied: 
+      description: 
+      destination_ranges: 
+      direction: 
+      disabled: 
+      env_type: 
+      log_config: 
+      name: 
+      network: 
+      priority: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      source_ranges: 
+      source_service_accounts: 
+      source_tags: 
+      state: 
+      target_service_accounts: 
+      target_tags: 
+]]>
+	</content>
+</snippet>

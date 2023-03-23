@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_udp</tabTrigger>
+	<description>Manage UDP profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage UDP profiles on a BIG-IP
+  bigip_profile_udp:
+      datagram_load_balancing: 
+      idle_timeout: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_router_multicast6</tabTrigger>
+	<description>Configure IPv6 multicast in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPv6 multicast in Fortinet's FortiOS and FortiGate.
+  fortios_router_multicast6:
+      access_token: 
+      router_multicast6: 
+      vdom: 
+]]>
+	</content>
+</snippet>

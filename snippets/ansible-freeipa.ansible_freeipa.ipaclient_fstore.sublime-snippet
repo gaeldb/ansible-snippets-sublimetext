@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_fstore</tabTrigger>
+	<description>Backup files using IPA client sysrestore</description>
+	<content><![CDATA[
+- name: Backup files using IPA client sysrestore
+  ipaclient_fstore:
+      backup: 
+]]>
+	</content>
+</snippet>

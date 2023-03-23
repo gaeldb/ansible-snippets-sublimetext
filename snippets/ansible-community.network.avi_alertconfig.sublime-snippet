@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_alertconfig</tabTrigger>
+	<description>Module for setup of AlertConfig Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of AlertConfig Avi RESTful Object
+  avi_alertconfig:
+      action_group_ref: 
+      alert_rule: 
+      api_context: 
+      api_version: 
+      autoscale_alert: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      category: 
+      controller: 
+      description: 
+      enabled: 
+      expiry_time: 
+      name: 
+      obj_uuid: 
+      object_type: 
+      password: 
+      recommendation: 
+      rolling_window: 
+      source: 
+      state: 
+      summary: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      threshold: 
+      throttle: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

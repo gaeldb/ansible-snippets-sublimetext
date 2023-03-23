@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_ips_decoder</tabTrigger>
+	<description>Configure IPS decoder in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS decoder in Fortinet's FortiOS and FortiGate.
+  fortios_ips_decoder:
+      access_token: 
+      ips_decoder: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

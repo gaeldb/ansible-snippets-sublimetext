@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_vxlan_gateway</tabTrigger>
+	<description>Manages gateway for the VXLAN network on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages gateway for the VXLAN network on HUAWEI CloudEngine devices.
+  ce_vxlan_gateway:
+      arp_direct_route: 
+      arp_distribute_gateway: 
+      dfs_all_active: 
+      dfs_id: 
+      dfs_peer_ip: 
+      dfs_peer_vpn: 
+      dfs_source_ip: 
+      dfs_source_vpn: 
+      dfs_udp_port: 
+      state: 
+      vbdif_bind_vpn: 
+      vbdif_mac: 
+      vbdif_name: 
+      vpn_instance: 
+      vpn_vni: 
+]]>
+	</content>
+</snippet>

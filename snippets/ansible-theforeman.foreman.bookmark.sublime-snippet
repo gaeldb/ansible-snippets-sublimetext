@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.bookmark</tabTrigger>
+	<description>Manage Bookmarks</description>
+	<content><![CDATA[
+- name: Manage Bookmarks
+  bookmark:
+      controller: 
+      name: 
+      password: 
+      public: 
+      query: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

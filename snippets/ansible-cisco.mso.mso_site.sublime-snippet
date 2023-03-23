@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_site</tabTrigger>
+	<description>Manage sites</description>
+	<content><![CDATA[
+- name: Manage sites
+  mso_site:
+      apic_login_domain: 
+      apic_password: 
+      apic_site_id: 
+      apic_username: 
+      host: 
+      labels: 
+      location: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      site: 
+      state: 
+      timeout: 
+      urls: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

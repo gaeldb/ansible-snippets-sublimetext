@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_data_deduplication</tabTrigger>
+	<description>Module to enable Data Deduplication on a volume.</description>
+	<content><![CDATA[
+- name: Module to enable Data Deduplication on a volume.
+  win_data_deduplication:
+      drive_letter: 
+      settings: 
+      state: 
+]]>
+	</content>
+</snippet>

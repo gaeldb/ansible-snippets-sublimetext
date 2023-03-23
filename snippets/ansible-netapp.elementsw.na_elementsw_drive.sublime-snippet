@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_drive</tabTrigger>
+	<description>NetApp Element Software Manage Node Drives</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Node Drives
+  na_elementsw_drive:
+      drive_ids: 
+      force_during_bin_sync: 
+      force_during_upgrade: 
+      hostname: 
+      node_ids: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

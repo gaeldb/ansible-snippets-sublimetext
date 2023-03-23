@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_owner</tabTrigger>
+	<description>Change an owner of PostgreSQL database object</description>
+	<content><![CDATA[
+- name: Change an owner of PostgreSQL database object
+  postgresql_owner:
+      ca_cert: 
+      db: 
+      fail_on_role: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      new_owner: 
+      obj_name: 
+      obj_type: 
+      port: 
+      reassign_owned_by: 
+      session_role: 
+      ssl_mode: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

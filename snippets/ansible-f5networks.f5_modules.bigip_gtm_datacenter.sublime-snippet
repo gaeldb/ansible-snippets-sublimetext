@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_datacenter</tabTrigger>
+	<description>Manage Datacenter configuration in BIG-IP</description>
+	<content><![CDATA[
+- name: Manage Datacenter configuration in BIG-IP
+  bigip_gtm_datacenter:
+      contact: 
+      description: 
+      location: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

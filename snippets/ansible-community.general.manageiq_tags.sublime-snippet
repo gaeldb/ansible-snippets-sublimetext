@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.manageiq_tags</tabTrigger>
+	<description>Management of resource tags in ManageIQ</description>
+	<content><![CDATA[
+- name: Management of resource tags in ManageIQ
+  manageiq_tags:
+      manageiq_connection: 
+      resource_id: 
+      resource_name: 
+      resource_type: 
+      state: 
+      tags: 
+]]>
+	</content>
+</snippet>

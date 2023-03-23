@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_l3_interfaces</tabTrigger>
+	<description>L3 interfaces resource module</description>
+	<content><![CDATA[
+- name: L3 interfaces resource module
+  ios_l3_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

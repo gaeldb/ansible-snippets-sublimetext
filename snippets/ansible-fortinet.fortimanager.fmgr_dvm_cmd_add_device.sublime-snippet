@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dvm_cmd_add_device</tabTrigger>
+	<description>Add a device to the Device Manager database.</description>
+	<content><![CDATA[
+- name: Add a device to the Device Manager database.
+  fmgr_dvm_cmd_add_device:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

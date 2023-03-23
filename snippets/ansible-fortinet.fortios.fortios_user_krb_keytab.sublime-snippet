@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_krb_keytab</tabTrigger>
+	<description>Configure Kerberos keytab entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Kerberos keytab entries in Fortinet's FortiOS and FortiGate.
+  fortios_user_krb_keytab:
+      access_token: 
+      state: 
+      user_krb_keytab: 
+      vdom: 
+]]>
+	</content>
+</snippet>

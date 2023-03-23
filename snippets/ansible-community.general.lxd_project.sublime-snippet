@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lxd_project</tabTrigger>
+	<description>Manage LXD projects</description>
+	<content><![CDATA[
+- name: Manage LXD projects
+  lxd_project:
+      client_cert: 
+      client_key: 
+      config: 
+      description: 
+      merge_project: 
+      name: 
+      new_name: 
+      snap_url: 
+      state: 
+      trust_password: 
+      url: 
+]]>
+	</content>
+</snippet>

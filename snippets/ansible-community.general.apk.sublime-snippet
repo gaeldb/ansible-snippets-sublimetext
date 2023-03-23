@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.apk</tabTrigger>
+	<description>Manages apk packages</description>
+	<content><![CDATA[
+- name: Manages apk packages
+  apk:
+      available: 
+      name: 
+      no_cache: 
+      repository: 
+      state: 
+      update_cache: 
+      upgrade: 
+      world: 
+]]>
+	</content>
+</snippet>

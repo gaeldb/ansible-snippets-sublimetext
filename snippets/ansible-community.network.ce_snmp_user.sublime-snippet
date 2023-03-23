@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_snmp_user</tabTrigger>
+	<description>Manages SNMP user configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages SNMP user configuration on HUAWEI CloudEngine switches.
+  ce_snmp_user:
+      aaa_local_user: 
+      acl_number: 
+      auth_key: 
+      auth_protocol: 
+      priv_key: 
+      priv_protocol: 
+      remote_engine_id: 
+      user_group: 
+      usm_user_name: 
+]]>
+	</content>
+</snippet>

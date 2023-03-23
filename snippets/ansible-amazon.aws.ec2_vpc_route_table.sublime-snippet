@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_route_table</tabTrigger>
+	<description>Manage route tables for AWS Virtual Private Clouds</description>
+	<content><![CDATA[
+- name: Manage route tables for AWS Virtual Private Clouds
+  ec2_vpc_route_table:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      gateway_id: 
+      lookup: 
+      profile: 
+      propagating_vgw_ids: 
+      purge_routes: 
+      purge_subnets: 
+      purge_tags: 
+      region: 
+      route_table_id: 
+      routes: 
+      secret_key: 
+      session_token: 
+      state: 
+      subnets: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

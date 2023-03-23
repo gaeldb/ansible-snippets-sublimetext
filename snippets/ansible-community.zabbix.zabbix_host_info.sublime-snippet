@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_host_info</tabTrigger>
+	<description>Gather information about Zabbix host</description>
+	<content><![CDATA[
+- name: Gather information about Zabbix host
+  zabbix_host_info:
+      exact_match: 
+      host_inventory: 
+      host_ip: 
+      host_name: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      remove_duplicate: 
+      server_url: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psmodule_info</tabTrigger>
+	<description>Gather information about PowerShell Modules</description>
+	<content><![CDATA[
+- name: Gather information about PowerShell Modules
+  win_psmodule_info:
+      name: 
+      repository: 
+]]>
+	</content>
+</snippet>

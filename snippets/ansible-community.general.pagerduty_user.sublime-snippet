@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pagerduty_user</tabTrigger>
+	<description>Manage a user account on PagerDuty</description>
+	<content><![CDATA[
+- name: Manage a user account on PagerDuty
+  pagerduty_user:
+      access_token: 
+      pd_email: 
+      pd_role: 
+      pd_teams: 
+      pd_user: 
+      state: 
+]]>
+	</content>
+</snippet>

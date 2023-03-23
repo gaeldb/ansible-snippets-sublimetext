@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_dns_nameserver</tabTrigger>
+	<description>Manage LTM DNS nameservers on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage LTM DNS nameservers on a BIG-IP
+  bigip_dns_nameserver:
+      address: 
+      name: 
+      partition: 
+      provider: 
+      route_domain: 
+      service_port: 
+      state: 
+      tsig_key: 
+]]>
+	</content>
+</snippet>

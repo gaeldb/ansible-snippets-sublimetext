@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.icx.icx_banner</tabTrigger>
+	<description>Manage multiline banners on Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Manage multiline banners on Ruckus ICX 7000 series switches
+  icx_banner:
+      banner: 
+      check_running_config: 
+      enterkey: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

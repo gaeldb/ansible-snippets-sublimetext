@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_api</tabTrigger>
+	<description>Create temporary NSS database, call IPA API for remaining enrollment parts</description>
+	<content><![CDATA[
+- name: Create temporary NSS database, call IPA API for remaining enrollment parts
+  ipaclient_api:
+      debug: 
+      hostname: 
+      realm: 
+      servers: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_host</tabTrigger>
+	<description>Manage hosts on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage hosts on Pure Storage FlashArrays
+  purefa_host:
+      api_token: 
+      count: 
+      digits: 
+      fa_url: 
+      host_password: 
+      host_user: 
+      iqn: 
+      lun: 
+      name: 
+      nqn: 
+      personality: 
+      preferred_array: 
+      protocol: 
+      rename: 
+      start: 
+      state: 
+      suffix: 
+      target_password: 
+      target_user: 
+      volume: 
+      wwns: 
+]]>
+	</content>
+</snippet>

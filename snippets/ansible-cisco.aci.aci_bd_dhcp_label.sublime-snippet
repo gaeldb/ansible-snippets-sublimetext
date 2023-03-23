@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_bd_dhcp_label</tabTrigger>
+	<description>Manage DHCP Labels (dhcp:Lbl)</description>
+	<content><![CDATA[
+- name: Manage DHCP Labels (dhcp:Lbl)
+  aci_bd_dhcp_label:
+      annotation: 
+      bd: 
+      certificate_name: 
+      description: 
+      dhcp_label: 
+      dhcp_option: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      scope: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

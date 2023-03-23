@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.codepipeline</tabTrigger>
+	<description>Create or delete AWS CodePipelines</description>
+	<content><![CDATA[
+- name: Create or delete AWS CodePipelines
+  codepipeline:
+      access_key: 
+      artifact_store: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      role_arn: 
+      secret_key: 
+      session_token: 
+      stages: 
+      state: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

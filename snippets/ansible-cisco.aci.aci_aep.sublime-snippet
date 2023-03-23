@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_aep</tabTrigger>
+	<description>Manage attachable Access Entity Profile (AEP) objects (infra:AttEntityP, infra:ProvAcc)</description>
+	<content><![CDATA[
+- name: Manage attachable Access Entity Profile (AEP) objects (infra:AttEntityP, infra:ProvAcc)
+  aci_aep:
+      aep: 
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      infra_vlan: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

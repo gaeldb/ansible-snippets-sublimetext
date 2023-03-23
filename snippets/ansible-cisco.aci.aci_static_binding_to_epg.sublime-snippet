@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_static_binding_to_epg</tabTrigger>
+	<description>Bind static paths to EPGs (fv:RsPathAtt)</description>
+	<content><![CDATA[
+- name: Bind static paths to EPGs (fv:RsPathAtt)
+  aci_static_binding_to_epg:
+      annotation: 
+      ap: 
+      certificate_name: 
+      deploy_immediacy: 
+      description: 
+      encap_id: 
+      epg: 
+      extpaths: 
+      host: 
+      interface: 
+      interface_mode: 
+      interface_type: 
+      leafs: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pod_id: 
+      port: 
+      primary_encap_id: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

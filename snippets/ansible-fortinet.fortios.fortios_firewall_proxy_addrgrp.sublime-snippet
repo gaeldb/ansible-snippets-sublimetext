@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_proxy_addrgrp</tabTrigger>
+	<description>Web proxy address group configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Web proxy address group configuration in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_proxy_addrgrp:
+      access_token: 
+      firewall_proxy_addrgrp: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

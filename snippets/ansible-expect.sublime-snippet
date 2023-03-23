@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>expect</tabTrigger>
+	<description>Executes a command and responds to prompts</description>
+	<content><![CDATA[
+- name: Executes a command and responds to prompts
+  expect:
+      chdir: 
+      command: 
+      creates: 
+      echo: 
+      removes: 
+      responses: 
+      timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_maintenance</tabTrigger>
+	<description>Enables or disables maintenance mode for a secondary member.</description>
+	<content><![CDATA[
+- name: Enables or disables maintenance mode for a secondary member.
+  mongodb_maintenance:
+      auth_mechanism: 
+      connection_options: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      maintenance: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+]]>
+	</content>
+</snippet>

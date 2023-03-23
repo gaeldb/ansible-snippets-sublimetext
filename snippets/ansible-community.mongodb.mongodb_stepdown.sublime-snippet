@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_stepdown</tabTrigger>
+	<description>Step down the MongoDB node from a PRIMARY state.</description>
+	<content><![CDATA[
+- name: Step down the MongoDB node from a PRIMARY state.
+  mongodb_stepdown:
+      auth_mechanism: 
+      connection_options: 
+      force: 
+      interval: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      poll: 
+      secondary_catch_up: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      stepdown_seconds: 
+]]>
+	</content>
+</snippet>

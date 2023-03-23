@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_loadbalancer</tabTrigger>
+	<description>Create, Delete shared loadbalancers in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Create, Delete shared loadbalancers in CenturyLink Cloud
+  clc_loadbalancer:
+      alias: 
+      description: 
+      location: 
+      method: 
+      name: 
+      nodes: 
+      persistence: 
+      port: 
+      state: 
+      status: 
+]]>
+	</content>
+</snippet>

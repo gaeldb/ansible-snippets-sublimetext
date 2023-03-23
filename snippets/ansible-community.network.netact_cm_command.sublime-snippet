@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.netact_cm_command</tabTrigger>
+	<description>Manage network configuration data in Nokia Core and Radio networks</description>
+	<content><![CDATA[
+- name: Manage network configuration data in Nokia Core and Radio networks
+  netact_cm_command:
+      DN: 
+      MR: 
+      WS: 
+      backupPlanName: 
+      createBackupPlan: 
+      extra_opts: 
+      fileFormat: 
+      fileName: 
+      inputFile: 
+      operation: 
+      opsName: 
+      planName: 
+      typeOption: 
+      verbose: 
+]]>
+	</content>
+</snippet>

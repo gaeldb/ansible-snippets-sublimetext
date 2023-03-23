@@ -1,0 +1,54 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.host</tabTrigger>
+	<description>Manage Hosts</description>
+	<content><![CDATA[
+- name: Manage Hosts
+  host:
+      architecture: 
+      build: 
+      comment: 
+      compute_attributes: 
+      compute_profile: 
+      compute_resource: 
+      config_groups: 
+      content_source: 
+      content_view: 
+      domain: 
+      enabled: 
+      environment: 
+      hostgroup: 
+      image: 
+      interfaces_attributes: 
+      ip: 
+      kickstart_repository: 
+      lifecycle_environment: 
+      location: 
+      mac: 
+      managed: 
+      medium: 
+      name: 
+      openscap_proxy: 
+      operatingsystem: 
+      organization: 
+      owner: 
+      owner_group: 
+      parameters: 
+      password: 
+      provision_method: 
+      ptable: 
+      puppet_ca_proxy: 
+      puppet_proxy: 
+      puppetclasses: 
+      pxe_loader: 
+      realm: 
+      root_pass: 
+      server_url: 
+      state: 
+      subnet: 
+      subnet6: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

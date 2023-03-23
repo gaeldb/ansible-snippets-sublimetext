@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_tag</tabTrigger>
+	<description>Module to manage tags in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage tags in oVirt/RHV
+  ovirt_tag:
+      auth: 
+      description: 
+      fetch_nested: 
+      hosts: 
+      id: 
+      name: 
+      nested_attributes: 
+      parent: 
+      poll_interval: 
+      state: 
+      timeout: 
+      vms: 
+      wait: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ddns</tabTrigger>
+	<description>Configure DDNS in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure DDNS in Fortinet's FortiOS and FortiGate.
+  fortios_system_ddns:
+      access_token: 
+      state: 
+      system_ddns: 
+      vdom: 
+]]>
+	</content>
+</snippet>

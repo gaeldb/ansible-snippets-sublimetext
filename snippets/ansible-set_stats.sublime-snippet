@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>set_stats</tabTrigger>
+	<description>Define and display stats for the current ansible run</description>
+	<content><![CDATA[
+- name: Define and display stats for the current ansible run
+  set_stats:
+      aggregate: 
+      data: 
+      per_host: 
+]]>
+	</content>
+</snippet>

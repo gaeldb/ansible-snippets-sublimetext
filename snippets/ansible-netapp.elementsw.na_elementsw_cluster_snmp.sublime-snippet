@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_cluster_snmp</tabTrigger>
+	<description>Configure Element SW Cluster SNMP</description>
+	<content><![CDATA[
+- name: Configure Element SW Cluster SNMP
+  na_elementsw_cluster_snmp:
+      hostname: 
+      networks: 
+      password: 
+      snmp_v3_enabled: 
+      state: 
+      username: 
+      usm_users: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_snmp_location</tabTrigger>
+	<description>Manages SNMP location configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages SNMP location configuration on HUAWEI CloudEngine switches.
+  ce_snmp_location:
+      location: 
+      state: 
+]]>
+	</content>
+</snippet>

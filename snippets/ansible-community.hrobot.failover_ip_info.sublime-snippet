@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.hrobot.failover_ip_info</tabTrigger>
+	<description>Retrieve information on Hetzner's failover IPs</description>
+	<content><![CDATA[
+- name: Retrieve information on Hetzner's failover IPs
+  failover_ip_info:
+      failover_ip: 
+      hetzner_password: 
+      hetzner_user: 
+]]>
+	</content>
+</snippet>

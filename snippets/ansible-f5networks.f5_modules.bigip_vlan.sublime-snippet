@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_vlan</tabTrigger>
+	<description>Manage VLANs on a BIG-IP system</description>
+	<content><![CDATA[
+- name: Manage VLANs on a BIG-IP system
+  bigip_vlan:
+      cmp_hash: 
+      dag_round_robin: 
+      dag_tunnel: 
+      description: 
+      fail_safe: 
+      fail_safe_action: 
+      fail_safe_timeout: 
+      hw_syn_cookie: 
+      interfaces: 
+      mtu: 
+      name: 
+      partition: 
+      provider: 
+      sflow_poll_interval: 
+      sflow_sampling_rate: 
+      source_check: 
+      state: 
+      tag: 
+      tagged_interfaces: 
+      untagged_interfaces: 
+]]>
+	</content>
+</snippet>

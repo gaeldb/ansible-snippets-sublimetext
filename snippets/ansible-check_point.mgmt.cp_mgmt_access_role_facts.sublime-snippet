@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_access_role_facts</tabTrigger>
+	<description>Get access-role objects facts on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Get access-role objects facts on Check Point over Web Services API
+  cp_mgmt_access_role_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      version: 
+]]>
+	</content>
+</snippet>

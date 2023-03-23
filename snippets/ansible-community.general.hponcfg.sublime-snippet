@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hponcfg</tabTrigger>
+	<description>Configure HP iLO interface using hponcfg</description>
+	<content><![CDATA[
+- name: Configure HP iLO interface using hponcfg
+  hponcfg:
+      executable: 
+      minfw: 
+      path: 
+      verbose: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_cloud_cidr</tabTrigger>
+	<description>Manage CIDR under Cloud Context Profile (cloud:Cidr)</description>
+	<content><![CDATA[
+- name: Manage CIDR under Cloud Context Profile (cloud:Cidr)
+  aci_cloud_cidr:
+      address: 
+      annotation: 
+      certificate_name: 
+      cloud_context_profile: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

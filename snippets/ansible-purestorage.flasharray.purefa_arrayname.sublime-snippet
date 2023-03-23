@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_arrayname</tabTrigger>
+	<description>Configure Pure Storage FlashArray array name</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashArray array name
+  purefa_arrayname:
+      api_token: 
+      fa_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

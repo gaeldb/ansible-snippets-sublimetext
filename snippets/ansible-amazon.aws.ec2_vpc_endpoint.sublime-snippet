@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_endpoint</tabTrigger>
+	<description>Create and delete AWS VPC endpoints</description>
+	<content><![CDATA[
+- name: Create and delete AWS VPC endpoints
+  ec2_vpc_endpoint:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      client_token: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      policy: 
+      policy_file: 
+      profile: 
+      purge_tags: 
+      region: 
+      route_table_ids: 
+      secret_key: 
+      service: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_endpoint_id: 
+      vpc_endpoint_security_groups: 
+      vpc_endpoint_subnets: 
+      vpc_endpoint_type: 
+      vpc_id: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

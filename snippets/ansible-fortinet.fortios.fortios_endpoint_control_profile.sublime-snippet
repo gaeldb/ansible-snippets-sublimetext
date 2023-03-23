@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_endpoint_control_profile</tabTrigger>
+	<description>Configure FortiClient endpoint control profiles in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiClient endpoint control profiles in Fortinet's FortiOS and FortiGate.
+  fortios_endpoint_control_profile:
+      access_token: 
+      endpoint_control_profile: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

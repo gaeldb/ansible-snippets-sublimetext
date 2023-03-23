@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_vlans</tabTrigger>
+	<description>VLANs resource module</description>
+	<content><![CDATA[
+- name: VLANs resource module
+  eos_vlans:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

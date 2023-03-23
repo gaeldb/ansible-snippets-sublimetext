@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ldap_passwd</tabTrigger>
+	<description>Set passwords in LDAP</description>
+	<content><![CDATA[
+- name: Set passwords in LDAP
+  ldap_passwd:
+      bind_dn: 
+      bind_pw: 
+      dn: 
+      passwd: 
+      referrals_chasing: 
+      sasl_class: 
+      server_uri: 
+      start_tls: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

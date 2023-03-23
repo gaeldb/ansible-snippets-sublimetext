@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_subscription</tabTrigger>
+	<description>Add, update, or remove PostgreSQL subscription</description>
+	<content><![CDATA[
+- name: Add, update, or remove PostgreSQL subscription
+  postgresql_subscription:
+      ca_cert: 
+      cascade: 
+      connparams: 
+      db: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      owner: 
+      port: 
+      publications: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      subsparams: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

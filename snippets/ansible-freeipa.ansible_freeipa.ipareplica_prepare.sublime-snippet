@@ -1,0 +1,56 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_prepare</tabTrigger>
+	<description>Prepare ipa replica installation</description>
+	<content><![CDATA[
+- name: Prepare ipa replica installation
+  ipareplica_prepare:
+      allow_zone_overlap: 
+      auto_forwarders: 
+      auto_reverse: 
+      ca_cert_files: 
+      dirsrv_cert_files: 
+      dirsrv_cert_name: 
+      dirsrv_pin: 
+      dm_password: 
+      domain: 
+      enable_compat: 
+      force_join: 
+      forward_policy: 
+      forwarders: 
+      hostname: 
+      http_cert_files: 
+      http_cert_name: 
+      http_pin: 
+      ip_addresses: 
+      keytab: 
+      mkhomedir: 
+      netbios_name: 
+      no_dns_sshfp: 
+      no_dnssec_validation: 
+      no_forwarders: 
+      no_host_dns: 
+      no_ntp: 
+      no_reverse: 
+      no_ssh: 
+      no_sshd: 
+      password: 
+      pkinit_cert_files: 
+      pkinit_cert_name: 
+      pkinit_pin: 
+      principal: 
+      realm: 
+      reverse_zones: 
+      rid_base: 
+      secondary_rid_base: 
+      server: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      sid_generation_always: 
+      skip_conncheck: 
+      ssh_trust_dns: 
+]]>
+	</content>
+</snippet>

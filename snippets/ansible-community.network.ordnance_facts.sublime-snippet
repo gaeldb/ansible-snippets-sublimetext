@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ordnance_facts</tabTrigger>
+	<description>Collect facts from Ordnance Virtual Routers over SSH</description>
+	<content><![CDATA[
+- name: Collect facts from Ordnance Virtual Routers over SSH
+  ordnance_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

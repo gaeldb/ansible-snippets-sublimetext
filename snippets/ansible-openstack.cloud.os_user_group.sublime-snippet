@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_user_group</tabTrigger>
+	<description>Associate OpenStack Identity users and groups</description>
+	<content><![CDATA[
+- name: Associate OpenStack Identity users and groups
+  group_assignment:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      group: 
+      interface: 
+      region_name: 
+      state: 
+      timeout: 
+      user: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

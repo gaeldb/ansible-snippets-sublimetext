@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_labels</tabTrigger>
+	<description>Create, Update or Destroy GCE Labels.</description>
+	<content><![CDATA[
+- name: Create, Update or Destroy GCE Labels.
+  gce_labels:
+      credentials_file: 
+      labels: 
+      pem_file: 
+      project_id: 
+      resource_location: 
+      resource_name: 
+      resource_type: 
+      resource_url: 
+      service_account_email: 
+      service_account_permissions: 
+      state: 
+]]>
+	</content>
+</snippet>

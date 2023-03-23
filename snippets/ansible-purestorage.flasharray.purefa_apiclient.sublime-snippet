@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_apiclient</tabTrigger>
+	<description>Manage FlashArray API Clients</description>
+	<content><![CDATA[
+- name: Manage FlashArray API Clients
+  purefa_apiclient:
+      api_token: 
+      enabled: 
+      fa_url: 
+      issuer: 
+      name: 
+      public_key: 
+      role: 
+      state: 
+      token_ttl: 
+]]>
+	</content>
+</snippet>

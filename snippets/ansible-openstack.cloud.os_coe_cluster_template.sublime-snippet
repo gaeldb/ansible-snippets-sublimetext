@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_coe_cluster_template</tabTrigger>
+	<description>Add/Remove COE cluster template from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Remove COE cluster template from OpenStack Cloud
+  coe_cluster_template:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      coe: 
+      dns_nameserver: 
+      docker_storage_driver: 
+      docker_volume_size: 
+      external_network_id: 
+      fixed_network: 
+      fixed_subnet: 
+      flavor_id: 
+      floating_ip_enabled: 
+      http_proxy: 
+      https_proxy: 
+      image_id: 
+      interface: 
+      keypair_id: 
+      labels: 
+      master_flavor_id: 
+      master_lb_enabled: 
+      name: 
+      network_driver: 
+      no_proxy: 
+      public: 
+      region_name: 
+      registry_enabled: 
+      server_type: 
+      state: 
+      timeout: 
+      tls_disabled: 
+      validate_certs: 
+      volume_driver: 
+      wait: 
+]]>
+	</content>
+</snippet>

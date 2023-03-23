@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_test</tabTrigger>
+	<description>IPA replica deployment tests</description>
+	<content><![CDATA[
+- name: IPA replica deployment tests
+  ipareplica_test:
+      auto_forwarders: 
+      auto_reverse: 
+      ca_cert_files: 
+      dirsrv_cert_files: 
+      dirsrv_config_file: 
+      domain: 
+      forward_policy: 
+      forwarders: 
+      hidden_replica: 
+      hostname: 
+      http_cert_files: 
+      ip_addresses: 
+      no_dnssec_validation: 
+      no_forwarders: 
+      no_ntp: 
+      no_pkinit: 
+      no_reverse: 
+      ntp_pool: 
+      ntp_servers: 
+      pkinit_cert_files: 
+      realm: 
+      servers: 
+      setup_adtrust: 
+      setup_ca: 
+      setup_dns: 
+      setup_kra: 
+      skip_mem_check: 
+]]>
+	</content>
+</snippet>

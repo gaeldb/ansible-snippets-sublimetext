@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigiq_regkey_pool</tabTrigger>
+	<description>Manages registration key pools on BIG-IQ</description>
+	<content><![CDATA[
+- name: Manages registration key pools on BIG-IQ
+  bigiq_regkey_pool:
+      description: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

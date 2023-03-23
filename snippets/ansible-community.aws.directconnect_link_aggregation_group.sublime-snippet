@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.directconnect_link_aggregation_group</tabTrigger>
+	<description>Manage Direct Connect LAG bundles</description>
+	<content><![CDATA[
+- name: Manage Direct Connect LAG bundles
+  directconnect_link_aggregation_group:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bandwidth: 
+      connection_id: 
+      debug_botocore_endpoint_logs: 
+      delete_with_disassociation: 
+      endpoint_url: 
+      force_delete: 
+      link_aggregation_group_id: 
+      location: 
+      min_links: 
+      name: 
+      num_connections: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

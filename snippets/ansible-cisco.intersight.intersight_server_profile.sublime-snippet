@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_server_profile</tabTrigger>
+	<description>Server Profile configuration for Cisco Intersight</description>
+	<content><![CDATA[
+- name: Server Profile configuration for Cisco Intersight
+  intersight_server_profile:
+      api_key_id: 
+      api_private_key: 
+      api_uri: 
+      assigned_server: 
+      boot_order_policy: 
+      description: 
+      imc_access_policy: 
+      lan_connectivity_policy: 
+      local_user_policy: 
+      name: 
+      ntp_policy: 
+      organization: 
+      state: 
+      storage_policy: 
+      tags: 
+      target_platform: 
+      use_proxy: 
+      validate_certs: 
+      virtual_media_policy: 
+]]>
+	</content>
+</snippet>

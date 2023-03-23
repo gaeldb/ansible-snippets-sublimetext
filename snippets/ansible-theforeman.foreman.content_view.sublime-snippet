@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.content_view</tabTrigger>
+	<description>Manage Content Views</description>
+	<content><![CDATA[
+- name: Manage Content Views
+  content_view:
+      auto_publish: 
+      components: 
+      composite: 
+      description: 
+      name: 
+      organization: 
+      password: 
+      repositories: 
+      server_url: 
+      solve_dependencies: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

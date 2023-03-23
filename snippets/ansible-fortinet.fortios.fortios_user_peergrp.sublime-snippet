@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_peergrp</tabTrigger>
+	<description>Configure peer groups in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure peer groups in Fortinet's FortiOS and FortiGate.
+  fortios_user_peergrp:
+      access_token: 
+      state: 
+      user_peergrp: 
+      vdom: 
+]]>
+	</content>
+</snippet>

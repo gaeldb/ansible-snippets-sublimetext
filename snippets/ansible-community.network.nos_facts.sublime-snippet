@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.nos_facts</tabTrigger>
+	<description>Collect facts from devices running Extreme NOS</description>
+	<content><![CDATA[
+- name: Collect facts from devices running Extreme NOS
+  nos_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

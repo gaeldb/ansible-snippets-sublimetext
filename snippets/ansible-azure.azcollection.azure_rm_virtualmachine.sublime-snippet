@@ -1,0 +1,65 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualmachine</tabTrigger>
+	<description>Manage Azure virtual machines</description>
+	<content><![CDATA[
+- name: Manage Azure virtual machines
+  azure_rm_virtualmachine:
+      accept_terms: 
+      ad_user: 
+      adfs_authority_url: 
+      admin_password: 
+      admin_username: 
+      allocated: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      availability_set: 
+      boot_diagnostics: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      custom_data: 
+      data_disks: 
+      ephemeral_os_disk: 
+      generalized: 
+      image: 
+      license_type: 
+      location: 
+      managed_disk_type: 
+      name: 
+      network_interface_names: 
+      open_ports: 
+      os_disk_caching: 
+      os_disk_name: 
+      os_disk_size_gb: 
+      os_type: 
+      password: 
+      plan: 
+      profile: 
+      public_ip_allocation_method: 
+      remove_on_absent: 
+      resource_group: 
+      restarted: 
+      secret: 
+      short_hostname: 
+      ssh_password_enabled: 
+      ssh_public_keys: 
+      started: 
+      state: 
+      storage_account_name: 
+      storage_blob_name: 
+      storage_container_name: 
+      subnet_name: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      virtual_network_name: 
+      virtual_network_resource_group: 
+      vm_identity: 
+      vm_size: 
+      winrm: 
+      zones: 
+]]>
+	</content>
+</snippet>

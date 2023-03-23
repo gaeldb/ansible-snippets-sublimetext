@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_server</tabTrigger>
+	<description>Manages virtual servers on Vultr.</description>
+	<content><![CDATA[
+- name: Manages virtual servers on Vultr.
+  vultr_server:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      auto_backup_enabled: 
+      firewall_group: 
+      force: 
+      hostname: 
+      ipv6_enabled: 
+      name: 
+      notify_activate: 
+      os: 
+      plan: 
+      private_network_enabled: 
+      region: 
+      reserved_ip_v4: 
+      snapshot: 
+      ssh_keys: 
+      startup_script: 
+      state: 
+      tag: 
+      user_data: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

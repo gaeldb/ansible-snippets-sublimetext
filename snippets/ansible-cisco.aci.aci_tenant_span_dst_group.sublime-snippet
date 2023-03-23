@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_tenant_span_dst_group</tabTrigger>
+	<description>Manage SPAN destination groups (span:DestGrp)</description>
+	<content><![CDATA[
+- name: Manage SPAN destination groups (span:DestGrp)
+  aci_tenant_span_dst_group:
+      annotation: 
+      certificate_name: 
+      description: 
+      dst_group: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

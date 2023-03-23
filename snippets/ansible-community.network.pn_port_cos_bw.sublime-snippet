@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_port_cos_bw</tabTrigger>
+	<description>CLI command to modify port-cos-bw</description>
+	<content><![CDATA[
+- name: CLI command to modify port-cos-bw
+  pn_port_cos_bw:
+      pn_cliswitch: 
+      pn_cos: 
+      pn_max_bw_limit: 
+      pn_min_bw_guarantee: 
+      pn_port: 
+      pn_weight: 
+      state: 
+]]>
+	</content>
+</snippet>

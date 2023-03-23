@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_config</tabTrigger>
+	<description>Manage docker configs.</description>
+	<content><![CDATA[
+- name: Manage docker configs.
+  docker_config:
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      data: 
+      data_is_b64: 
+      debug: 
+      docker_host: 
+      force: 
+      labels: 
+      name: 
+      ssl_version: 
+      state: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

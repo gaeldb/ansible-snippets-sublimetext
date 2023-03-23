@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_nat_rule</tabTrigger>
+	<description>create a policy NAT rule</description>
+	<content><![CDATA[
+- name: create a policy NAT rule
+  panos_nat_rule:
+      api_key: 
+      commit: 
+      description: 
+      destination_ip: 
+      destination_zone: 
+      devicegroup: 
+      dnat_address: 
+      dnat_port: 
+      ip_address: 
+      operation: 
+      password: 
+      rule_name: 
+      service: 
+      snat_address_type: 
+      snat_bidirectional: 
+      snat_dynamic_address: 
+      snat_interface: 
+      snat_interface_address: 
+      snat_static_address: 
+      snat_type: 
+      source_ip: 
+      source_zone: 
+      tag_name: 
+      to_interface: 
+      username: 
+]]>
+	</content>
+</snippet>

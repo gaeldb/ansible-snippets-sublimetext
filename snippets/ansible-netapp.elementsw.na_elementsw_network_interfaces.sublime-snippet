@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_network_interfaces</tabTrigger>
+	<description>NetApp Element Software Configure Node Network Interfaces</description>
+	<content><![CDATA[
+- name: NetApp Element Software Configure Node Network Interfaces
+  na_elementsw_network_interfaces:
+      bond_10g: 
+      bond_1g: 
+      bond_mode_10g: 
+      bond_mode_1g: 
+      dns_nameservers: 
+      dns_search_domains: 
+      gateway_address_10g: 
+      gateway_address_1g: 
+      hostname: 
+      ip_address_10g: 
+      ip_address_1g: 
+      lacp_10g: 
+      lacp_1g: 
+      method: 
+      mtu_10g: 
+      mtu_1g: 
+      password: 
+      subnet_10g: 
+      subnet_1g: 
+      username: 
+      virtual_network_tag: 
+]]>
+	</content>
+</snippet>

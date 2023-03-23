@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_sslprofile</tabTrigger>
+	<description>Module for setup of SSLProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of SSLProfile Avi RESTful Object
+  avi_sslprofile:
+      accepted_ciphers: 
+      accepted_versions: 
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cipher_enums: 
+      controller: 
+      description: 
+      dhparam: 
+      enable_ssl_session_reuse: 
+      name: 
+      password: 
+      prefer_client_cipher_ordering: 
+      send_close_notify: 
+      ssl_rating: 
+      ssl_session_timeout: 
+      state: 
+      tags: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      type: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_template</tabTrigger>
+	<description>Create/update/delete/dump Zabbix template</description>
+	<content><![CDATA[
+- name: Create/update/delete/dump Zabbix template
+  zabbix_template:
+      clear_templates: 
+      dump_format: 
+      http_login_password: 
+      http_login_user: 
+      link_templates: 
+      login_password: 
+      login_user: 
+      macros: 
+      omit_date: 
+      server_url: 
+      state: 
+      template_groups: 
+      template_json: 
+      template_name: 
+      template_xml: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

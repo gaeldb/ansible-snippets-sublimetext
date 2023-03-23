@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_user_federation</tabTrigger>
+	<description>Allows administration of Keycloak user federations via Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak user federations via Keycloak API
+  keycloak_user_federation:
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      config: 
+      connection_timeout: 
+      http_agent: 
+      id: 
+      mappers: 
+      name: 
+      parent_id: 
+      provider_id: 
+      provider_type: 
+      realm: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

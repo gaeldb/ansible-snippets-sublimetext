@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_dscp_map</tabTrigger>
+	<description>CLI command to create/delete dscp-map</description>
+	<content><![CDATA[
+- name: CLI command to create/delete dscp-map
+  pn_dscp_map:
+      pn_cliswitch: 
+      pn_name: 
+      pn_scope: 
+      state: 
+]]>
+	</content>
+</snippet>

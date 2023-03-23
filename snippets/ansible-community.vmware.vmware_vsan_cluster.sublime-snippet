@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vsan_cluster</tabTrigger>
+	<description>Configure VSAN clustering on an ESXi host</description>
+	<content><![CDATA[
+- name: Configure VSAN clustering on an ESXi host
+  vmware_vsan_cluster:
+      cluster_uuid: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_tunnel</tabTrigger>
+	<description>Manage tunnels on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage tunnels on a BIG-IP
+  bigip_tunnel:
+      auto_last_hop: 
+      description: 
+      key: 
+      local_address: 
+      mode: 
+      mtu: 
+      name: 
+      partition: 
+      profile: 
+      provider: 
+      remote_address: 
+      secondary_address: 
+      state: 
+      tos: 
+      traffic_group: 
+      transparent: 
+      use_pmtu: 
+]]>
+	</content>
+</snippet>

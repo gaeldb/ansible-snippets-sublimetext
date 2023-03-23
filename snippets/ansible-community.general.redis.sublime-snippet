@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.redis</tabTrigger>
+	<description>Various redis commands, replica and flush</description>
+	<content><![CDATA[
+- name: Various redis commands, replica and flush
+  redis:
+      ca_certs: 
+      command: 
+      db: 
+      flush_mode: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      master_host: 
+      master_port: 
+      name: 
+      replica_mode: 
+      tls: 
+      validate_certs: 
+      value: 
+]]>
+	</content>
+</snippet>

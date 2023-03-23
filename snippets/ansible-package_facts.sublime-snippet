@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>package_facts</tabTrigger>
+	<description>Package information as facts</description>
+	<content><![CDATA[
+- name: Package information as facts
+  package_facts:
+      manager: 
+      strategy: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,47 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_bgp_neighbor_af</tabTrigger>
+	<description>Manages BGP address-family's neighbors configuration.</description>
+	<content><![CDATA[
+- name: Manages BGP address-family's neighbors configuration.
+  nxos_bgp_neighbor_af:
+      additional_paths_receive: 
+      additional_paths_send: 
+      advertise_map_exist: 
+      advertise_map_non_exist: 
+      afi: 
+      allowas_in: 
+      allowas_in_max: 
+      as_override: 
+      asn: 
+      default_originate: 
+      default_originate_route_map: 
+      disable_peer_as_check: 
+      filter_list_in: 
+      filter_list_out: 
+      max_prefix_interval: 
+      max_prefix_limit: 
+      max_prefix_threshold: 
+      max_prefix_warning: 
+      neighbor: 
+      next_hop_self: 
+      next_hop_third_party: 
+      prefix_list_in: 
+      prefix_list_out: 
+      provider: 
+      rewrite_evpn_rt_asn: 
+      route_map_in: 
+      route_map_out: 
+      route_reflector_client: 
+      safi: 
+      send_community: 
+      soft_reconfiguration_in: 
+      soo: 
+      state: 
+      suppress_inactive: 
+      unsuppress_map: 
+      vrf: 
+      weight: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_status</tabTrigger>
+	<description>Validates the status of the cluster.</description>
+	<content><![CDATA[
+- name: Validates the status of the cluster.
+  mongodb_status:
+      auth_mechanism: 
+      connection_options: 
+      interval: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      poll: 
+      replica_set: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+]]>
+	</content>
+</snippet>

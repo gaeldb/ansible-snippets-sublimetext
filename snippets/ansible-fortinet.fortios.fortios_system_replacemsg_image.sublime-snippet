@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_replacemsg_image</tabTrigger>
+	<description>Configure replacement message images in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure replacement message images in Fortinet's FortiOS and FortiGate.
+  fortios_system_replacemsg_image:
+      access_token: 
+      state: 
+      system_replacemsg_image: 
+      vdom: 
+]]>
+	</content>
+</snippet>

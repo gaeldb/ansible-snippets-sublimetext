@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pkgutil</tabTrigger>
+	<description>OpenCSW package management on Solaris</description>
+	<content><![CDATA[
+- name: OpenCSW package management on Solaris
+  pkgutil:
+      force: 
+      name: 
+      site: 
+      state: 
+      update_catalog: 
+]]>
+	</content>
+</snippet>

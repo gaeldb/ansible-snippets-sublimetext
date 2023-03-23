@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_migrate_vmk</tabTrigger>
+	<description>Migrate a VMK interface from VSS to VDS</description>
+	<content><![CDATA[
+- name: Migrate a VMK interface from VSS to VDS
+  vmware_migrate_vmk:
+      current_portgroup_name: 
+      current_switch_name: 
+      device: 
+      esxi_hostname: 
+      hostname: 
+      migrate_portgroup_name: 
+      migrate_switch_name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

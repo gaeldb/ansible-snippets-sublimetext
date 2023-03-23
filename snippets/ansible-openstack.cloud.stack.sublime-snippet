@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.stack</tabTrigger>
+	<description>Add/Remove Heat Stack</description>
+	<content><![CDATA[
+- name: Add/Remove Heat Stack
+  stack:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      environment: 
+      interface: 
+      name: 
+      parameters: 
+      region_name: 
+      rollback: 
+      state: 
+      tag: 
+      template: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

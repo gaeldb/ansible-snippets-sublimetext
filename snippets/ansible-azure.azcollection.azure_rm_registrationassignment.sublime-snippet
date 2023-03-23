@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_registrationassignment</tabTrigger>
+	<description>Manage Azure RegistrationAssignment instance</description>
+	<content><![CDATA[
+- name: Manage Azure RegistrationAssignment instance
+  azure_rm_registrationassignment:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      password: 
+      profile: 
+      properties: 
+      registration_assignment_id: 
+      scope: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

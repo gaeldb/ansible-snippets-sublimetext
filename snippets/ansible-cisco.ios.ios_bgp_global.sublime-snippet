@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_bgp_global</tabTrigger>
+	<description>Global BGP resource module</description>
+	<content><![CDATA[
+- name: Global BGP resource module
+  ios_bgp_global:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

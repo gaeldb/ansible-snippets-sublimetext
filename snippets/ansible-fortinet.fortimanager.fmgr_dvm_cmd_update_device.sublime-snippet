@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dvm_cmd_update_device</tabTrigger>
+	<description>Refresh the FGFM connection and system information of a device.</description>
+	<content><![CDATA[
+- name: Refresh the FGFM connection and system information of a device.
+  fmgr_dvm_cmd_update_device:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

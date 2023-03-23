@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jboss</tabTrigger>
+	<description>Deploy applications to JBoss</description>
+	<content><![CDATA[
+- name: Deploy applications to JBoss
+  jboss:
+      deploy_path: 
+      deployment: 
+      src: 
+      state: 
+]]>
+	</content>
+</snippet>

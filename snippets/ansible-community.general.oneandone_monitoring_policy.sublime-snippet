@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneandone_monitoring_policy</tabTrigger>
+	<description>Configure 1&1 monitoring policy</description>
+	<content><![CDATA[
+- name: Configure 1&1 monitoring policy
+  oneandone_monitoring_policy:
+      add_ports: 
+      add_processes: 
+      add_servers: 
+      agent: 
+      api_url: 
+      auth_token: 
+      description: 
+      email: 
+      monitoring_policy: 
+      name: 
+      ports: 
+      processes: 
+      remove_ports: 
+      remove_processes: 
+      remove_servers: 
+      state: 
+      thresholds: 
+      update_ports: 
+      update_processes: 
+      wait: 
+      wait_interval: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

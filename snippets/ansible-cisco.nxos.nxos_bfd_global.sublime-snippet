@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_bfd_global</tabTrigger>
+	<description>Bidirectional Forwarding Detection (BFD) global-level configuration</description>
+	<content><![CDATA[
+- name: Bidirectional Forwarding Detection (BFD) global-level configuration
+  nxos_bfd_global:
+      echo_interface: 
+      echo_rx_interval: 
+      fabricpath_interval: 
+      fabricpath_slow_timer: 
+      fabricpath_vlan: 
+      interval: 
+      ipv4_echo_rx_interval: 
+      ipv4_interval: 
+      ipv4_slow_timer: 
+      ipv6_echo_rx_interval: 
+      ipv6_interval: 
+      ipv6_slow_timer: 
+      provider: 
+      slow_timer: 
+      startup_timer: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_gslb_service</tabTrigger>
+	<description>Manage gslb service entities in Netscaler.</description>
+	<content><![CDATA[
+- name: Manage gslb service entities in Netscaler.
+  netscaler_gslb_service:
+      appflowlog: 
+      cip: 
+      cipheader: 
+      clttimeout: 
+      cnameentry: 
+      comment: 
+      downstateflush: 
+      hashid: 
+      healthmonitor: 
+      ipaddress: 
+      maxaaausers: 
+      maxbandwidth: 
+      maxclient: 
+      monitor_bindings: 
+      monthreshold: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      port: 
+      publicip: 
+      publicport: 
+      save_config: 
+      servername: 
+      servicename: 
+      servicetype: 
+      sitename: 
+      sitepersistence: 
+      siteprefix: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

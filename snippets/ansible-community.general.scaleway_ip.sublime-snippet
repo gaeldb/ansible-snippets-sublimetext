@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_ip</tabTrigger>
+	<description>Scaleway IP management module</description>
+	<content><![CDATA[
+- name: Scaleway IP management module
+  scaleway_ip:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      id: 
+      organization: 
+      query_parameters: 
+      region: 
+      reverse: 
+      server: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

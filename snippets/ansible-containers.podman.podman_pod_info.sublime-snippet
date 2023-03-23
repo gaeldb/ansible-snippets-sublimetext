@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_pod_info</tabTrigger>
+	<description>Gather info about podman pods</description>
+	<content><![CDATA[
+- name: Gather info about podman pods
+  podman_pod_info:
+      executable: 
+      name: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_pester</tabTrigger>
+	<description>Run Pester tests on Windows hosts</description>
+	<content><![CDATA[
+- name: Run Pester tests on Windows hosts
+  win_pester:
+      output_file: 
+      output_format: 
+      path: 
+      tags: 
+      test_parameters: 
+      version: 
+]]>
+	</content>
+</snippet>

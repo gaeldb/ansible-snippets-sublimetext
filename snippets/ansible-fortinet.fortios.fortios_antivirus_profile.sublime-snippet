@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_antivirus_profile</tabTrigger>
+	<description>Configure AntiVirus profiles in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure AntiVirus profiles in Fortinet's FortiOS and FortiGate.
+  fortios_antivirus_profile:
+      access_token: 
+      antivirus_profile: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ldap_client</tabTrigger>
+	<description>NetApp ONTAP LDAP client</description>
+	<content><![CDATA[
+- name: NetApp ONTAP LDAP client
+  na_ontap_ldap_client:
+      ad_domain: 
+      base_dn: 
+      base_scope: 
+      bind_as_cifs_server: 
+      bind_dn: 
+      bind_password: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ldap_servers: 
+      min_bind_level: 
+      name: 
+      ontapi: 
+      password: 
+      port: 
+      preferred_ad_servers: 
+      query_timeout: 
+      referral_enabled: 
+      schema: 
+      session_security: 
+      state: 
+      use_rest: 
+      use_start_tls: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

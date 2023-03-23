@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.directconnect_confirm_connection</tabTrigger>
+	<description>Confirms the creation of a hosted DirectConnect connection</description>
+	<content><![CDATA[
+- name: Confirms the creation of a hosted DirectConnect connection
+  directconnect_confirm_connection:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      connection_id: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

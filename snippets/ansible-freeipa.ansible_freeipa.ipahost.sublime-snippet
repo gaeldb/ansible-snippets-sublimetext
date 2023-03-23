@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipahost</tabTrigger>
+	<description>Manage FreeIPA hosts</description>
+	<content><![CDATA[
+- name: Manage FreeIPA hosts
+  ipahost:
+      action: 
+      allow_create_keytab_group: 
+      allow_create_keytab_host: 
+      allow_create_keytab_hostgroup: 
+      allow_create_keytab_user: 
+      allow_retrieve_keytab_group: 
+      allow_retrieve_keytab_host: 
+      allow_retrieve_keytab_hostgroup: 
+      allow_retrieve_keytab_user: 
+      auth_ind: 
+      certificate: 
+      description: 
+      force: 
+      hosts: 
+      ip_address: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      locality: 
+      location: 
+      mac_address: 
+      managedby_host: 
+      name: 
+      ok_as_delegate: 
+      ok_to_auth_as_delegate: 
+      os: 
+      password: 
+      platform: 
+      principal: 
+      random: 
+      requires_pre_auth: 
+      reverse: 
+      sshpubkey: 
+      state: 
+      update_dns: 
+      update_password: 
+      userclass: 
+]]>
+	</content>
+</snippet>

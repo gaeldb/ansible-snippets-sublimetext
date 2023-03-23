@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_tos_based_priority</tabTrigger>
+	<description>Configure Type of Service (ToS) based priority table to set network traffic priorities in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Type of Service (ToS) based priority table to set network traffic priorities in Fortinet's FortiOS and FortiGate.
+  fortios_system_tos_based_priority:
+      access_token: 
+      state: 
+      system_tos_based_priority: 
+      vdom: 
+]]>
+	</content>
+</snippet>

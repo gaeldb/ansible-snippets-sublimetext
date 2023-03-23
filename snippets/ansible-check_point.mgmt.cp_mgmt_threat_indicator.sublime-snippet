@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_indicator</tabTrigger>
+	<description>Manages threat-indicator objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages threat-indicator objects on Check Point over Web Services API
+  cp_mgmt_threat_indicator:
+      action: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      ignore_errors: 
+      ignore_warnings: 
+      name: 
+      observables: 
+      observables_raw_data: 
+      profile_overrides: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

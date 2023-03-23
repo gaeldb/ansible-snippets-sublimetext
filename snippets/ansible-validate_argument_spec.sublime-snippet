@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>validate_argument_spec</tabTrigger>
+	<description>Validate role argument specs.</description>
+	<content><![CDATA[
+- name: Validate role argument specs.
+  validate_argument_spec:
+      argument_spec: 
+      provided_arguments: 
+]]>
+	</content>
+</snippet>

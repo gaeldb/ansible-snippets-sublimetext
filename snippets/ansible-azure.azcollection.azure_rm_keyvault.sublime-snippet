@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_keyvault</tabTrigger>
+	<description>Manage Key Vault instance</description>
+	<content><![CDATA[
+- name: Manage Key Vault instance
+  azure_rm_keyvault:
+      access_policies: 
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      enable_soft_delete: 
+      enabled_for_deployment: 
+      enabled_for_disk_encryption: 
+      enabled_for_template_deployment: 
+      location: 
+      password: 
+      profile: 
+      recover_mode: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      vault_name: 
+      vault_tenant: 
+]]>
+	</content>
+</snippet>

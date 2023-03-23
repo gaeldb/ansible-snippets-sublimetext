@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.infinity</tabTrigger>
+	<description>Manage Infinity IPAM using Rest API</description>
+	<content><![CDATA[
+- name: Manage Infinity IPAM using Rest API
+  infinity:
+      action: 
+      ip_address: 
+      network_address: 
+      network_family: 
+      network_id: 
+      network_location: 
+      network_name: 
+      network_size: 
+      network_type: 
+      password: 
+      server_ip: 
+      username: 
+]]>
+	</content>
+</snippet>

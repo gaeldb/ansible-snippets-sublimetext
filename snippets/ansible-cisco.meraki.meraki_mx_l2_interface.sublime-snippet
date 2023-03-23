@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_l2_interface</tabTrigger>
+	<description>Configure MX layer 2 interfaces</description>
+	<content><![CDATA[
+- name: Configure MX layer 2 interfaces
+  meraki_mx_l2_interface:
+      access_policy: 
+      allowed_vlans: 
+      auth_key: 
+      drop_untagged_traffic: 
+      enabled: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      number: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      port_type: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+      vlan: 
+]]>
+	</content>
+</snippet>

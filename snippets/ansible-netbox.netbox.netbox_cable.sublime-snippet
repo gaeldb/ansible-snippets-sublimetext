@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_cable</tabTrigger>
+	<description>Create, update or delete cables within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete cables within Netbox
+  netbox_cable:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

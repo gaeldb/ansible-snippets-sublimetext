@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.webfaction_site</tabTrigger>
+	<description>Add or remove a website on a Webfaction host</description>
+	<content><![CDATA[
+- name: Add or remove a website on a Webfaction host
+  webfaction_site:
+      host: 
+      https: 
+      login_name: 
+      login_password: 
+      name: 
+      site_apps: 
+      state: 
+      subdomains: 
+]]>
+	</content>
+</snippet>

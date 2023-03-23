@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_set</tabTrigger>
+	<description>Execute arbitrary commands on a PAN-OS device using XPath and element</description>
+	<content><![CDATA[
+- name: Execute arbitrary commands on a PAN-OS device using XPath and element
+  panos_set:
+      command: 
+      element: 
+      ip_address: 
+      password: 
+      username: 
+      xpath: 
+]]>
+	</content>
+</snippet>

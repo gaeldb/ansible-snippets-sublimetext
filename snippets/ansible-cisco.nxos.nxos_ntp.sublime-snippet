@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ntp</tabTrigger>
+	<description>Manages core NTP configuration.</description>
+	<content><![CDATA[
+- name: Manages core NTP configuration.
+  nxos_ntp:
+      key_id: 
+      peer: 
+      prefer: 
+      provider: 
+      server: 
+      source_addr: 
+      source_int: 
+      state: 
+      vrf_name: 
+]]>
+	</content>
+</snippet>

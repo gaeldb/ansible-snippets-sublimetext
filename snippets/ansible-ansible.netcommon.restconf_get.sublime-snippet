@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.restconf_get</tabTrigger>
+	<description>Fetch configuration/state data from RESTCONF enabled devices.</description>
+	<content><![CDATA[
+- name: Fetch configuration/state data from RESTCONF enabled devices.
+  restconf_get:
+      content: 
+      output: 
+      path: 
+]]>
+	</content>
+</snippet>

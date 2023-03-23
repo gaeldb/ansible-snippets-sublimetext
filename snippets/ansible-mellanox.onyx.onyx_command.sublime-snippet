@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_command</tabTrigger>
+	<description>Run commands on remote devices running Mellanox ONYX</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Mellanox ONYX
+  onyx_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

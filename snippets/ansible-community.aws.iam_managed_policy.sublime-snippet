@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.iam_managed_policy</tabTrigger>
+	<description>Manage User Managed IAM policies</description>
+	<content><![CDATA[
+- name: Manage User Managed IAM policies
+  iam_managed_policy:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      make_default: 
+      only_version: 
+      policy: 
+      policy_description: 
+      policy_name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

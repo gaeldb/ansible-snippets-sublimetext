@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.autoscaling_policy</tabTrigger>
+	<description>Create or delete AWS scaling policies for Autoscaling groups</description>
+	<content><![CDATA[
+- name: Create or delete AWS scaling policies for Autoscaling groups
+  autoscaling_policy:
+      access_key: 
+      adjustment_type: 
+      asg_name: 
+      aws_ca_bundle: 
+      aws_config: 
+      cooldown: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      estimated_instance_warmup: 
+      metric_aggregation: 
+      min_adjustment_step: 
+      name: 
+      policy_type: 
+      profile: 
+      region: 
+      scaling_adjustment: 
+      secret_key: 
+      session_token: 
+      state: 
+      step_adjustments: 
+      target_tracking_config: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

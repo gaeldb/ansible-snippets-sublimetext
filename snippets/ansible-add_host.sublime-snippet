@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>add_host</tabTrigger>
+	<description>Add a host (and alternatively a group) to the ansible-playbook in-memory inventory</description>
+	<content><![CDATA[
+- name: Add a host (and alternatively a group) to the ansible-playbook in-memory inventory
+  add_host:
+      groups: 
+      name: 
+]]>
+	</content>
+</snippet>

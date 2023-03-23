@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.wafv2_web_acl</tabTrigger>
+	<description>Create and delete WAF Web ACLs</description>
+	<content><![CDATA[
+- name: Create and delete WAF Web ACLs
+  wafv2_web_acl:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cloudwatch_metrics: 
+      custom_response_bodies: 
+      debug_botocore_endpoint_logs: 
+      default_action: 
+      description: 
+      endpoint_url: 
+      metric_name: 
+      name: 
+      profile: 
+      purge_rules: 
+      purge_tags: 
+      region: 
+      rules: 
+      sampled_requests: 
+      scope: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

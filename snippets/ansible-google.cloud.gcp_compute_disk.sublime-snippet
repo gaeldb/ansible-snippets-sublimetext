@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_disk</tabTrigger>
+	<description>Creates a GCP Disk</description>
+	<content><![CDATA[
+- name: Creates a GCP Disk
+  gcp_compute_disk:
+      auth_kind: 
+      description: 
+      disk_encryption_key: 
+      env_type: 
+      labels: 
+      licenses: 
+      name: 
+      physical_block_size_bytes: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      size_gb: 
+      source_image: 
+      source_image_encryption_key: 
+      source_snapshot: 
+      source_snapshot_encryption_key: 
+      state: 
+      type: 
+      zone: 
+]]>
+	</content>
+</snippet>

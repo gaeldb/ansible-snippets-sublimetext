@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wanopt_profile</tabTrigger>
+	<description>Configure WAN optimization profiles in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure WAN optimization profiles in Fortinet's FortiOS and FortiGate.
+  fortios_wanopt_profile:
+      access_token: 
+      state: 
+      vdom: 
+      wanopt_profile: 
+]]>
+	</content>
+</snippet>

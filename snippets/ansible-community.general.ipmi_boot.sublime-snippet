@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipmi_boot</tabTrigger>
+	<description>Management of order of boot devices</description>
+	<content><![CDATA[
+- name: Management of order of boot devices
+  ipmi_boot:
+      bootdev: 
+      key: 
+      name: 
+      password: 
+      persistent: 
+      port: 
+      state: 
+      uefiboot: 
+      user: 
+]]>
+	</content>
+</snippet>

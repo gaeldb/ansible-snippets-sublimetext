@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_fabric_local</tabTrigger>
+	<description>CLI command to modify fabric-local</description>
+	<content><![CDATA[
+- name: CLI command to modify fabric-local
+  pn_fabric_local:
+      pn_cliswitch: 
+      pn_control_network: 
+      pn_fabric_advertisement_network: 
+      pn_fabric_network: 
+      pn_vlan: 
+      state: 
+]]>
+	</content>
+</snippet>

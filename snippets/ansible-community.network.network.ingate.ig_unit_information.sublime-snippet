@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.ingate.ig_unit_information</tabTrigger>
+	<description>Get unit information from an Ingate SBC.</description>
+	<content><![CDATA[
+- name: Get unit information from an Ingate SBC.
+  ig_unit_information:
+      client: 
+]]>
+	</content>
+</snippet>

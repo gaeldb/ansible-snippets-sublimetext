@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_config</tabTrigger>
+	<description>Manage BIG-IP configuration sections</description>
+	<content><![CDATA[
+- name: Manage BIG-IP configuration sections
+  bigip_config:
+      merge_content: 
+      provider: 
+      reset: 
+      save: 
+      verify: 
+]]>
+	</content>
+</snippet>

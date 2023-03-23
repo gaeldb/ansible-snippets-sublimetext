@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_affinity_packet_redistribution</tabTrigger>
+	<description>Configure packet redistribution in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure packet redistribution in Fortinet's FortiOS and FortiGate.
+  fortios_system_affinity_packet_redistribution:
+      access_token: 
+      state: 
+      system_affinity_packet_redistribution: 
+      vdom: 
+]]>
+	</content>
+</snippet>

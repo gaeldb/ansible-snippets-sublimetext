@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_computer_description</tabTrigger>
+	<description>Set windows description, owner and organization</description>
+	<content><![CDATA[
+- name: Set windows description, owner and organization
+  win_computer_description:
+      description: 
+      organization: 
+      owner: 
+]]>
+	</content>
+</snippet>

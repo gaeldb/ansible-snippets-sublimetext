@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.logentries_msg</tabTrigger>
+	<description>Send a message to logentries</description>
+	<content><![CDATA[
+- name: Send a message to logentries
+  logentries_msg:
+      api: 
+      msg: 
+      port: 
+      token: 
+]]>
+	</content>
+</snippet>

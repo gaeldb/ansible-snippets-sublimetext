@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_https_health_check_info</tabTrigger>
+	<description>Gather info for GCP HttpsHealthCheck</description>
+	<content><![CDATA[
+- name: Gather info for GCP HttpsHealthCheck
+  gcp_compute_https_health_check_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

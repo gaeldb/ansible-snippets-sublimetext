@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_ntp</tabTrigger>
+	<description>Manage NTP general configurations and ntp keys configurations on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage NTP general configurations and ntp keys configurations on Mellanox ONYX network devices
+  onyx_ntp:
+      authenticate_state: 
+      ntp_authentication_keys: 
+      state: 
+      trusted_keys: 
+]]>
+	</content>
+</snippet>

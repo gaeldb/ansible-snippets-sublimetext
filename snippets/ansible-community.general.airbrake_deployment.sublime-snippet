@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.airbrake_deployment</tabTrigger>
+	<description>Notify airbrake about app deployments</description>
+	<content><![CDATA[
+- name: Notify airbrake about app deployments
+  airbrake_deployment:
+      environment: 
+      project_id: 
+      project_key: 
+      repo: 
+      revision: 
+      url: 
+      user: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

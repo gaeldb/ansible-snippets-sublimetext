@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_datastore_cluster</tabTrigger>
+	<description>Manage VMware vSphere datastore clusters</description>
+	<content><![CDATA[
+- name: Manage VMware vSphere datastore clusters
+  vmware_datastore_cluster:
+      automation_level: 
+      datacenter_name: 
+      datastore_cluster_name: 
+      enable_io_loadbalance: 
+      enable_sdrs: 
+      folder: 
+      hostname: 
+      keep_vmdks_together: 
+      loadbalance_interval: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

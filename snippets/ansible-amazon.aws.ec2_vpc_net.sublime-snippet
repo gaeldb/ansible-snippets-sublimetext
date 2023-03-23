@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_vpc_net</tabTrigger>
+	<description>Configure AWS Virtual Private Clouds</description>
+	<content><![CDATA[
+- name: Configure AWS Virtual Private Clouds
+  ec2_vpc_net:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cidr_block: 
+      debug_botocore_endpoint_logs: 
+      dhcp_opts_id: 
+      dns_hostnames: 
+      dns_support: 
+      endpoint_url: 
+      ipv6_cidr: 
+      multi_ok: 
+      name: 
+      profile: 
+      purge_cidrs: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      tenancy: 
+      validate_certs: 
+      vpc_id: 
+]]>
+	</content>
+</snippet>

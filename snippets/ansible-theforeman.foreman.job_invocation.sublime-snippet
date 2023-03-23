@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.job_invocation</tabTrigger>
+	<description>Invoke Remote Execution Jobs</description>
+	<content><![CDATA[
+- name: Invoke Remote Execution Jobs
+  job_invocation:
+      bookmark: 
+      command: 
+      concurrency_control: 
+      execution_timeout_interval: 
+      inputs: 
+      job_template: 
+      password: 
+      randomized_ordering: 
+      recurrence: 
+      scheduling: 
+      search_query: 
+      server_url: 
+      ssh: 
+      targeting_type: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

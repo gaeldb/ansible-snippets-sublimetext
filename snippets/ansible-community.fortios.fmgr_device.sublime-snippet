@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_device</tabTrigger>
+	<description>Add or remove device from FortiManager.</description>
+	<content><![CDATA[
+- name: Add or remove device from FortiManager.
+  fmgr_device:
+      adom: 
+      blind_add: 
+      device_ip: 
+      device_password: 
+      device_serial: 
+      device_unique_name: 
+      device_username: 
+      mode: 
+]]>
+	</content>
+</snippet>

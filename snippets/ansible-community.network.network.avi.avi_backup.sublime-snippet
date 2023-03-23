@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_backup</tabTrigger>
+	<description>Module for setup of Backup Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of Backup Avi RESTful Object
+  avi_backup:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      backup_config_ref: 
+      controller: 
+      file_name: 
+      local_file_url: 
+      password: 
+      remote_file_url: 
+      scheduler_ref: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      timestamp: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

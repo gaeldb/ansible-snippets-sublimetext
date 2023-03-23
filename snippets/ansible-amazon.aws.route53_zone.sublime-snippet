@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.route53_zone</tabTrigger>
+	<description>add or delete Route53 zones</description>
+	<content><![CDATA[
+- name: add or delete Route53 zones
+  route53_zone:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      comment: 
+      debug_botocore_endpoint_logs: 
+      delegation_set_id: 
+      endpoint_url: 
+      hosted_zone_id: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      validate_certs: 
+      vpc_id: 
+      vpc_region: 
+      zone: 
+]]>
+	</content>
+</snippet>

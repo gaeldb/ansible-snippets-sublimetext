@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_interfaces</tabTrigger>
+	<description>Junos Interfaces resource module</description>
+	<content><![CDATA[
+- name: Junos Interfaces resource module
+  junos_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

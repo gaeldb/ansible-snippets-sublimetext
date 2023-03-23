@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_save_config</tabTrigger>
+	<description>Save Netscaler configuration.</description>
+	<content><![CDATA[
+- name: Save Netscaler configuration.
+  netscaler_save_config:
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

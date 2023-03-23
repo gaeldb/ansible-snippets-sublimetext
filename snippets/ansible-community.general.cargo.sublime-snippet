@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.cargo</tabTrigger>
+	<description>Manage Rust packages with cargo</description>
+	<content><![CDATA[
+- name: Manage Rust packages with cargo
+  cargo:
+      name: 
+      path: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

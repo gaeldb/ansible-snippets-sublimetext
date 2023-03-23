@@ -1,0 +1,44 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_scheduled_task</tabTrigger>
+	<description>Manage scheduled tasks</description>
+	<content><![CDATA[
+- name: Manage scheduled tasks
+  win_scheduled_task:
+      actions: 
+      allow_demand_start: 
+      allow_hard_terminate: 
+      author: 
+      compatibility: 
+      date: 
+      delete_expired_task_after: 
+      description: 
+      disallow_start_if_on_batteries: 
+      display_name: 
+      enabled: 
+      execution_time_limit: 
+      group: 
+      hidden: 
+      logon_type: 
+      multiple_instances: 
+      name: 
+      password: 
+      path: 
+      priority: 
+      restart_count: 
+      restart_interval: 
+      run_level: 
+      run_only_if_idle: 
+      run_only_if_network_available: 
+      source: 
+      start_when_available: 
+      state: 
+      stop_if_going_on_batteries: 
+      triggers: 
+      update_password: 
+      username: 
+      version: 
+      wake_to_run: 
+]]>
+	</content>
+</snippet>

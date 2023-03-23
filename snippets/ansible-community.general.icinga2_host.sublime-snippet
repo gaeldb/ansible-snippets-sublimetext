@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.icinga2_host</tabTrigger>
+	<description>Manage a host in Icinga2</description>
+	<content><![CDATA[
+- name: Manage a host in Icinga2
+  icinga2_host:
+      check_command: 
+      client_cert: 
+      client_key: 
+      display_name: 
+      force: 
+      force_basic_auth: 
+      http_agent: 
+      ip: 
+      name: 
+      state: 
+      template: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+      variables: 
+      zone: 
+]]>
+	</content>
+</snippet>

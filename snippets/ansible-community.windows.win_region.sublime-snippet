@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_region</tabTrigger>
+	<description>Set the region and format settings</description>
+	<content><![CDATA[
+- name: Set the region and format settings
+  win_region:
+      copy_settings: 
+      format: 
+      location: 
+      unicode_language: 
+]]>
+	</content>
+</snippet>

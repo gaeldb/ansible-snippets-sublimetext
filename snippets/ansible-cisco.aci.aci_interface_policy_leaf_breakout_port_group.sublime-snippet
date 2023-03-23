@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_leaf_breakout_port_group</tabTrigger>
+	<description>Manage fabric interface policy leaf breakout port group (infra:BrkoutPortGrp)</description>
+	<content><![CDATA[
+- name: Manage fabric interface policy leaf breakout port group (infra:BrkoutPortGrp)
+  aci_interface_policy_leaf_breakout_port_group:
+      annotation: 
+      breakout_map: 
+      breakout_port_group: 
+      certificate_name: 
+      description: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

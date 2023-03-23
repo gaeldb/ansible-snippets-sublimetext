@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>splunk.es.splunk_correlation_search_info</tabTrigger>
+	<description>Manage Splunk Enterprise Security Correlation Searches</description>
+	<content><![CDATA[
+- name: Manage Splunk Enterprise Security Correlation Searches
+  correlation_search_info:
+      name: 
+]]>
+	</content>
+</snippet>

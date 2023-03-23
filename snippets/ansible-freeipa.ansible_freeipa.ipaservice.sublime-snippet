@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaservice</tabTrigger>
+	<description>Manage FreeIPA service</description>
+	<content><![CDATA[
+- name: Manage FreeIPA service
+  ipaservice:
+      action: 
+      allow_create_keytab_group: 
+      allow_create_keytab_host: 
+      allow_create_keytab_hostgroup: 
+      allow_create_keytab_user: 
+      allow_retrieve_keytab_group: 
+      allow_retrieve_keytab_host: 
+      allow_retrieve_keytab_hostgroup: 
+      allow_retrieve_keytab_user: 
+      auth_ind: 
+      certificate: 
+      delete_continue: 
+      force: 
+      host: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      netbiosname: 
+      ok_as_delegate: 
+      ok_to_auth_as_delegate: 
+      pac_type: 
+      principal: 
+      requires_pre_auth: 
+      skip_host_check: 
+      smb: 
+      state: 
+]]>
+	</content>
+</snippet>

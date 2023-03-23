@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pamd</tabTrigger>
+	<description>Manage PAM Modules</description>
+	<content><![CDATA[
+- name: Manage PAM Modules
+  pamd:
+      backup: 
+      control: 
+      module_arguments: 
+      module_path: 
+      name: 
+      new_control: 
+      new_module_path: 
+      new_type: 
+      path: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

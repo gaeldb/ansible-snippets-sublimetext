@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_msg</tabTrigger>
+	<description>Sends a message to logged in users on Windows hosts</description>
+	<content><![CDATA[
+- name: Sends a message to logged in users on Windows hosts
+  win_msg:
+      display_seconds: 
+      msg: 
+      to: 
+      wait: 
+]]>
+	</content>
+</snippet>

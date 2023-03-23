@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_firewall_info</tabTrigger>
+	<description>Gather information about DigitalOcean firewalls</description>
+	<content><![CDATA[
+- name: Gather information about DigitalOcean firewalls
+  digital_ocean_firewall_info:
+      name: 
+      oauth_token: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

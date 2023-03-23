@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_run_ips_update</tabTrigger>
+	<description>Runs IPS database update. If "package-path" is not provided server will try to get the latest package from the User Center.</description>
+	<content><![CDATA[
+- name: Runs IPS database update. If "package-path" is not provided server will try to get the latest package from the User Center.
+  cp_mgmt_run_ips_update:
+      package_path: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

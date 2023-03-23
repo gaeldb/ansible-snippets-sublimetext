@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.directconnect_gateway</tabTrigger>
+	<description>Manage AWS Direct Connect gateway</description>
+	<content><![CDATA[
+- name: Manage AWS Direct Connect gateway
+  directconnect_gateway:
+      access_key: 
+      amazon_asn: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      direct_connect_gateway_id: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      virtual_gateway_id: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

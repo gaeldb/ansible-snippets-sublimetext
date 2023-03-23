@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vc_infraprofile_info</tabTrigger>
+	<description>List and Export VMware vCenter infra profile configs.</description>
+	<content><![CDATA[
+- name: List and Export VMware vCenter infra profile configs.
+  vmware_vc_infraprofile_info:
+      api: 
+      config_path: 
+      decryption_key: 
+      description: 
+      encryption_key: 
+      hostname: 
+      password: 
+      port: 
+      profiles: 
+      protocol: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

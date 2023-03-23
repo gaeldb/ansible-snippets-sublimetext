@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_target_ssl_proxy</tabTrigger>
+	<description>Creates a GCP TargetSslProxy</description>
+	<content><![CDATA[
+- name: Creates a GCP TargetSslProxy
+  gcp_compute_target_ssl_proxy:
+      auth_kind: 
+      description: 
+      env_type: 
+      name: 
+      project: 
+      proxy_header: 
+      scopes: 
+      service: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      ssl_certificates: 
+      ssl_policy: 
+      state: 
+]]>
+	</content>
+</snippet>

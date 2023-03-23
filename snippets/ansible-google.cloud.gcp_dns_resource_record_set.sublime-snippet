@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_dns_resource_record_set</tabTrigger>
+	<description>Creates a GCP ResourceRecordSet</description>
+	<content><![CDATA[
+- name: Creates a GCP ResourceRecordSet
+  gcp_dns_resource_record_set:
+      auth_kind: 
+      env_type: 
+      managed_zone: 
+      name: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      target: 
+      ttl: 
+      type: 
+]]>
+	</content>
+</snippet>

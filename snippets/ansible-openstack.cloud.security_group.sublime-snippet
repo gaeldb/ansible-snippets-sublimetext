@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.security_group</tabTrigger>
+	<description>Add/Delete security groups from an OpenStack cloud.</description>
+	<content><![CDATA[
+- name: Add/Delete security groups from an OpenStack cloud.
+  security_group:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      interface: 
+      name: 
+      project: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

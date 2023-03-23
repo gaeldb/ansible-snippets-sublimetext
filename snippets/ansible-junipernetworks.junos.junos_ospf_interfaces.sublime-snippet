@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_ospf_interfaces</tabTrigger>
+	<description>OSPF Interfaces Resource Module.</description>
+	<content><![CDATA[
+- name: OSPF Interfaces Resource Module.
+  junos_ospf_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

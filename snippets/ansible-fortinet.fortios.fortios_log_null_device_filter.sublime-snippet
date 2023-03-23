@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_null_device_filter</tabTrigger>
+	<description>Filters for null device logging in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Filters for null device logging in Fortinet's FortiOS and FortiGate.
+  fortios_log_null_device_filter:
+      access_token: 
+      log_null_device_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

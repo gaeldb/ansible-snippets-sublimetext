@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_ssh_command</tabTrigger>
+	<description>NetApp ONTAP Run any cli command over plain SSH using paramiko.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Run any cli command over plain SSH using paramiko.
+  na_ontap_ssh_command:
+      accept_unknown_host_keys: 
+      cert_filepath: 
+      command: 
+      exclude_lines: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      include_lines: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      privilege: 
+      service_processor: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

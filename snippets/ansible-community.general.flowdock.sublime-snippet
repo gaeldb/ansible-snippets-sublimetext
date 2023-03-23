@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.flowdock</tabTrigger>
+	<description>Send a message to a flowdock</description>
+	<content><![CDATA[
+- name: Send a message to a flowdock
+  flowdock:
+      external_user_name: 
+      from_address: 
+      from_name: 
+      link: 
+      msg: 
+      project: 
+      reply_to: 
+      source: 
+      subject: 
+      tags: 
+      token: 
+      type: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

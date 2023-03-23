@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_mysqlserver</tabTrigger>
+	<description>Manage MySQL Server instance</description>
+	<content><![CDATA[
+- name: Manage MySQL Server instance
+  azure_rm_mysqlserver:
+      ad_user: 
+      adfs_authority_url: 
+      admin_password: 
+      admin_username: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      create_mode: 
+      enforce_ssl: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      storage_mb: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      version: 
+]]>
+	</content>
+</snippet>

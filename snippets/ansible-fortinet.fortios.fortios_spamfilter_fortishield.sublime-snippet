@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_spamfilter_fortishield</tabTrigger>
+	<description>Configure FortiGuard - AntiSpam in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiGuard - AntiSpam in Fortinet's FortiOS and FortiGate.
+  fortios_spamfilter_fortishield:
+      access_token: 
+      spamfilter_fortishield: 
+      vdom: 
+]]>
+	</content>
+</snippet>

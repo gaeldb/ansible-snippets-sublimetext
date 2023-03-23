@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mas</tabTrigger>
+	<description>Manage Mac App Store applications with mas-cli</description>
+	<content><![CDATA[
+- name: Manage Mac App Store applications with mas-cli
+  mas:
+      id: 
+      state: 
+      upgrade_all: 
+]]>
+	</content>
+</snippet>

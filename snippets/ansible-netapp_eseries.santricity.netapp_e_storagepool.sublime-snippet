@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_storagepool</tabTrigger>
+	<description>NetApp E-Series manage volume groups and disk pools</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage volume groups and disk pools
+  netapp_e_storagepool:
+      api_password: 
+      api_url: 
+      api_username: 
+      criteria_drive_count: 
+      criteria_drive_interface_type: 
+      criteria_drive_min_size: 
+      criteria_drive_require_da: 
+      criteria_drive_require_fde: 
+      criteria_drive_type: 
+      criteria_min_usable_capacity: 
+      criteria_size_unit: 
+      erase_secured_drives: 
+      name: 
+      raid_level: 
+      remove_volumes: 
+      reserve_drive_count: 
+      secure_pool: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

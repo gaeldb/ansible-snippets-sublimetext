@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.webfaction_domain</tabTrigger>
+	<description>Add or remove domains and subdomains on Webfaction</description>
+	<content><![CDATA[
+- name: Add or remove domains and subdomains on Webfaction
+  webfaction_domain:
+      login_name: 
+      login_password: 
+      name: 
+      state: 
+      subdomains: 
+]]>
+	</content>
+</snippet>

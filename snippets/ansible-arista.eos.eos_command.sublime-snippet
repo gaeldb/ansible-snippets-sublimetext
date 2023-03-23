@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_command</tabTrigger>
+	<description>Run arbitrary commands on an Arista EOS device</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on an Arista EOS device
+  eos_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

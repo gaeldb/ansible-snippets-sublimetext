@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.utm_aaa_group</tabTrigger>
+	<description>Create, update or destroy an aaa group object in Sophos UTM</description>
+	<content><![CDATA[
+- name: Create, update or destroy an aaa group object in Sophos UTM
+  utm_aaa_group:
+      adirectory_groups: 
+      adirectory_groups_sids: 
+      backend_match: 
+      comment: 
+      dynamic: 
+      edirectory_groups: 
+      headers: 
+      ipsec_dn: 
+      ldap_attribute: 
+      ldap_attribute_value: 
+      members: 
+      name: 
+      network: 
+      radius_groups: 
+      state: 
+      tacacs_groups: 
+      utm_host: 
+      utm_port: 
+      utm_protocol: 
+      utm_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

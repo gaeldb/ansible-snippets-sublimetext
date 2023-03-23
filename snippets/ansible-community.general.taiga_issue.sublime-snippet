@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.taiga_issue</tabTrigger>
+	<description>Creates/deletes an issue in a Taiga Project Management Platform</description>
+	<content><![CDATA[
+- name: Creates/deletes an issue in a Taiga Project Management Platform
+  taiga_issue:
+      attachment: 
+      attachment_description: 
+      description: 
+      issue_type: 
+      priority: 
+      project: 
+      severity: 
+      state: 
+      status: 
+      subject: 
+      tags: 
+      taiga_host: 
+]]>
+	</content>
+</snippet>

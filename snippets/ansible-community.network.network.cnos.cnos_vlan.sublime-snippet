@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_vlan</tabTrigger>
+	<description>Manage VLANs on CNOS network devices</description>
+	<content><![CDATA[
+- name: Manage VLANs on CNOS network devices
+  cnos_vlan:
+      aggregate: 
+      associated_interfaces: 
+      delay: 
+      interfaces: 
+      name: 
+      provider: 
+      purge: 
+      state: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

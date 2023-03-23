@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_poolgroup</tabTrigger>
+	<description>Module for setup of PoolGroup Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of PoolGroup Avi RESTful Object
+  avi_poolgroup:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_config_cksum: 
+      cloud_ref: 
+      controller: 
+      created_by: 
+      deployment_policy_ref: 
+      description: 
+      fail_action: 
+      implicit_priority_labels: 
+      members: 
+      min_servers: 
+      name: 
+      password: 
+      priority_labels_ref: 
+      service_metadata: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

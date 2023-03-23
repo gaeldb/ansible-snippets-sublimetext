@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_ospfv3</tabTrigger>
+	<description>OSPFv3 resource module</description>
+	<content><![CDATA[
+- name: OSPFv3 resource module
+  nxos_ospfv3:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

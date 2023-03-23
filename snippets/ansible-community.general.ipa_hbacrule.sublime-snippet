@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_hbacrule</tabTrigger>
+	<description>Manage FreeIPA HBAC rule</description>
+	<content><![CDATA[
+- name: Manage FreeIPA HBAC rule
+  ipa_hbacrule:
+      cn: 
+      description: 
+      host: 
+      hostcategory: 
+      hostgroup: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      service: 
+      servicecategory: 
+      servicegroup: 
+      sourcehost: 
+      sourcehostcategory: 
+      sourcehostgroup: 
+      state: 
+      user: 
+      usercategory: 
+      usergroup: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

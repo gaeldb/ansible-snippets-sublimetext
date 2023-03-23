@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_fcoe_network_info</tabTrigger>
+	<description>Retrieve the information about one or more of the OneView FCoE Networks</description>
+	<content><![CDATA[
+- name: Retrieve the information about one or more of the OneView FCoE Networks
+  oneview_fcoe_network_info:
+      api_version: 
+      config: 
+      hostname: 
+      image_streamer_hostname: 
+      name: 
+      params: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

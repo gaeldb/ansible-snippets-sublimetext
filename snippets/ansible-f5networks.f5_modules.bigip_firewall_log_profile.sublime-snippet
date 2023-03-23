@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_log_profile</tabTrigger>
+	<description>Manages AFM logging profiles configured in the system</description>
+	<content><![CDATA[
+- name: Manages AFM logging profiles configured in the system
+  bigip_firewall_log_profile:
+      description: 
+      dos_protection: 
+      ip_intelligence: 
+      name: 
+      partition: 
+      port_misuse: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

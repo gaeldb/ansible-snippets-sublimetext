@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_lldp</tabTrigger>
+	<description>Manages LLDP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages LLDP configuration on HUAWEI CloudEngine switches.
+  ce_lldp:
+      bind_name: 
+      fast_count: 
+      hold_multiplier: 
+      interval: 
+      lldpenable: 
+      management_address: 
+      mdn_notification_interval: 
+      mdnstatus: 
+      notification_interval: 
+      restart_delay: 
+      state: 
+      transmit_delay: 
+]]>
+	</content>
+</snippet>

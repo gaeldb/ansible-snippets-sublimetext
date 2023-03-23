@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>splunk.es.data_input_network</tabTrigger>
+	<description>Manage Splunk Data Inputs of type TCP or UDP</description>
+	<content><![CDATA[
+- name: Manage Splunk Data Inputs of type TCP or UDP
+  data_input_network:
+      connection_host: 
+      datatype: 
+      host: 
+      index: 
+      name: 
+      protocol: 
+      queue: 
+      rawTcpDoneTimeout: 
+      restrictToHost: 
+      source: 
+      sourcetype: 
+      ssl: 
+      state: 
+]]>
+	</content>
+</snippet>

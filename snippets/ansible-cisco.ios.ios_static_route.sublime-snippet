@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_static_route</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage static IP routes on Cisco IOS network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage static IP routes on Cisco IOS network devices
+  ios_static_route:
+      admin_distance: 
+      aggregate: 
+      interface: 
+      mask: 
+      name: 
+      next_hop: 
+      prefix: 
+      provider: 
+      state: 
+      tag: 
+      track: 
+      vrf: 
+]]>
+	</content>
+</snippet>

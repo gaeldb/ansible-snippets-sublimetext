@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_migrate</tabTrigger>
+	<description>Migrate Bridge Domains (BDs) and EPGs between templates</description>
+	<content><![CDATA[
+- name: Migrate Bridge Domains (BDs) and EPGs between templates
+  mso_schema_template_migrate:
+      bds: 
+      epgs: 
+      host: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      state: 
+      target_schema: 
+      target_template: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

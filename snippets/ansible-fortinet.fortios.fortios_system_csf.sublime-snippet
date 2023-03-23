@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_csf</tabTrigger>
+	<description>Add this FortiGate to a Security Fabric or set up a new Security Fabric on this FortiGate in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Add this FortiGate to a Security Fabric or set up a new Security Fabric on this FortiGate in Fortinet's FortiOS and FortiGate.
+  fortios_system_csf:
+      access_token: 
+      system_csf: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_server_action</tabTrigger>
+	<description>Perform actions on Compute Instances from OpenStack</description>
+	<content><![CDATA[
+- name: Perform actions on Compute Instances from OpenStack
+  server_action:
+      action: 
+      admin_password: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      image: 
+      interface: 
+      region_name: 
+      server: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

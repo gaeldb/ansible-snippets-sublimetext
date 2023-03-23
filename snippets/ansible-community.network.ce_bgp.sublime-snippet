@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_bgp</tabTrigger>
+	<description>Manages BGP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages BGP configuration on HUAWEI CloudEngine switches.
+  ce_bgp:
+      as_number: 
+      as_path_limit: 
+      bgp_rid_auto_sel: 
+      check_first_as: 
+      clear_interval: 
+      confed_id_number: 
+      confed_nonstanded: 
+      confed_peer_as_num: 
+      conn_retry_time: 
+      default_af_type: 
+      ebgp_if_sensitive: 
+      gr_peer_reset: 
+      graceful_restart: 
+      hold_interval: 
+      hold_time: 
+      is_shutdown: 
+      keep_all_routes: 
+      keepalive_time: 
+      memory_limit: 
+      min_hold_time: 
+      router_id: 
+      state: 
+      suppress_interval: 
+      time_wait_for_rib: 
+      vrf_name: 
+      vrf_rid_auto_sel: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_firewall_schedule</tabTrigger>
+	<description>Manage BIG-IP AFM schedule configurations</description>
+	<content><![CDATA[
+- name: Manage BIG-IP AFM schedule configurations
+  bigip_firewall_schedule:
+      daily_hour_end: 
+      daily_hour_start: 
+      date_valid_end: 
+      date_valid_start: 
+      days_of_week: 
+      description: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

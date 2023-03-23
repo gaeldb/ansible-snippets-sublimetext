@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_interface_config</tabTrigger>
+	<description>Set network interface parameters in WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Set network interface parameters in WTI OOB and PDU devices
+  cpm_interface_config:
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      interface: 
+      ipv4address: 
+      ipv4dhcpdefgateway: 
+      ipv4dhcpenable: 
+      ipv4dhcphostname: 
+      ipv4dhcplease: 
+      ipv4dhcpobdns: 
+      ipv4dhcpupdns: 
+      ipv4gateway: 
+      ipv4netmask: 
+      ipv6address: 
+      ipv6gateway: 
+      ipv6subnetprefix: 
+      negotiation: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

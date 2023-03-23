@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.selinux</tabTrigger>
+	<description>Change policy and state of SELinux</description>
+	<content><![CDATA[
+- name: Change policy and state of SELinux
+  selinux:
+      configfile: 
+      policy: 
+      state: 
+      update_kernel_param: 
+]]>
+	</content>
+</snippet>

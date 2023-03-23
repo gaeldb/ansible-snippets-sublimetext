@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.volume</tabTrigger>
+	<description>Manages volumes on the cloudscale.ch IaaS service.</description>
+	<content><![CDATA[
+- name: Manages volumes on the cloudscale.ch IaaS service.
+  volume:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      name: 
+      server_uuids: 
+      size_gb: 
+      state: 
+      tags: 
+      type: 
+      uuid: 
+      zone: 
+]]>
+	</content>
+</snippet>

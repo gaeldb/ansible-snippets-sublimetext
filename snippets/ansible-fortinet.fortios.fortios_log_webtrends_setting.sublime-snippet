@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_webtrends_setting</tabTrigger>
+	<description>Settings for WebTrends in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Settings for WebTrends in Fortinet's FortiOS and FortiGate.
+  fortios_log_webtrends_setting:
+      access_token: 
+      log_webtrends_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

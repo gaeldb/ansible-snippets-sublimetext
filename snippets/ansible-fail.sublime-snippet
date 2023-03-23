@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fail</tabTrigger>
+	<description>Fail with custom message</description>
+	<content><![CDATA[
+- name: Fail with custom message
+  fail:
+      msg: 
+]]>
+	</content>
+</snippet>

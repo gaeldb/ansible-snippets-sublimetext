@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.compute_attribute</tabTrigger>
+	<description>Manage Compute Attributes</description>
+	<content><![CDATA[
+- name: Manage Compute Attributes
+  compute_attribute:
+      compute_profile: 
+      compute_resource: 
+      password: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+      vm_attrs: 
+]]>
+	</content>
+</snippet>

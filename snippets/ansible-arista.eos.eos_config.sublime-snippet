@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_config</tabTrigger>
+	<description>Manage Arista EOS configuration sections</description>
+	<content><![CDATA[
+- name: Manage Arista EOS configuration sections
+  eos_config:
+      after: 
+      backup: 
+      backup_options: 
+      before: 
+      defaults: 
+      diff_against: 
+      diff_ignore_lines: 
+      intended_config: 
+      lines: 
+      match: 
+      parents: 
+      provider: 
+      replace: 
+      running_config: 
+      save_when: 
+      src: 
+]]>
+	</content>
+</snippet>

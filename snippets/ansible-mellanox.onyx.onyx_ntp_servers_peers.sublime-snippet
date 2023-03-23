@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_ntp_servers_peers</tabTrigger>
+	<description>Configures NTP peers and servers parameters</description>
+	<content><![CDATA[
+- name: Configures NTP peers and servers parameters
+  onyx_ntp_servers_peers:
+      ntpdate: 
+      peer: 
+      server: 
+]]>
+	</content>
+</snippet>

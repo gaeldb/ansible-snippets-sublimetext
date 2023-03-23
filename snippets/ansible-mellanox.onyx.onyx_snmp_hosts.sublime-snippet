@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_snmp_hosts</tabTrigger>
+	<description>Configures SNMP host parameters</description>
+	<content><![CDATA[
+- name: Configures SNMP host parameters
+  onyx_snmp_hosts:
+      hosts: 
+]]>
+	</content>
+</snippet>

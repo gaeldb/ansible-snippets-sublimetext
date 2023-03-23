@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_bd</tabTrigger>
+	<description>Manage Bridge Domains (BDs) in schema templates</description>
+	<content><![CDATA[
+- name: Manage Bridge Domains (BDs) in schema templates
+  mso_schema_template_bd:
+      arp_flooding: 
+      bd: 
+      dhcp_policy: 
+      display_name: 
+      host: 
+      intersite_bum_traffic: 
+      ipv6_unknown_multicast_flooding: 
+      layer2_stretch: 
+      layer2_unknown_unicast: 
+      layer3_multicast: 
+      login_domain: 
+      multi_destination_flooding: 
+      optimize_wan_bandwidth: 
+      output_level: 
+      password: 
+      port: 
+      schema: 
+      state: 
+      subnets: 
+      template: 
+      timeout: 
+      unknown_multicast_flooding: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      virtual_mac_address: 
+      vrf: 
+]]>
+	</content>
+</snippet>

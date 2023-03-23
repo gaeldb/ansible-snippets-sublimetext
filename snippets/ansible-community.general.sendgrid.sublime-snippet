@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sendgrid</tabTrigger>
+	<description>Sends an email with the SendGrid API</description>
+	<content><![CDATA[
+- name: Sends an email with the SendGrid API
+  sendgrid:
+      api_key: 
+      attachments: 
+      bcc: 
+      body: 
+      cc: 
+      from_address: 
+      from_name: 
+      headers: 
+      html_body: 
+      password: 
+      subject: 
+      to_addresses: 
+      username: 
+]]>
+	</content>
+</snippet>

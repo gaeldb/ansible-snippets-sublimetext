@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_iothub</tabTrigger>
+	<description>Manage Azure IoT hub</description>
+	<content><![CDATA[
+- name: Manage Azure IoT hub
+  azure_rm_iothub:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      enable_file_upload_notifications: 
+      event_endpoint: 
+      ip_filters: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      routes: 
+      routing_endpoints: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      unit: 
+]]>
+	</content>
+</snippet>

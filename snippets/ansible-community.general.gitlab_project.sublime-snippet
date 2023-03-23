@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_project</tabTrigger>
+	<description>Creates/updates/deletes GitLab Projects</description>
+	<content><![CDATA[
+- name: Creates/updates/deletes GitLab Projects
+  gitlab_project:
+      allow_merge_on_skipped_pipeline: 
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      avatar_path: 
+      ci_config_path: 
+      default_branch: 
+      description: 
+      group: 
+      import_url: 
+      initialize_with_readme: 
+      issues_enabled: 
+      lfs_enabled: 
+      merge_method: 
+      merge_requests_enabled: 
+      name: 
+      only_allow_merge_if_all_discussions_are_resolved: 
+      only_allow_merge_if_pipeline_succeeds: 
+      packages_enabled: 
+      path: 
+      remove_source_branch_after_merge: 
+      shared_runners_enabled: 
+      snippets_enabled: 
+      squash_option: 
+      state: 
+      username: 
+      validate_certs: 
+      visibility: 
+      wiki_enabled: 
+]]>
+	</content>
+</snippet>

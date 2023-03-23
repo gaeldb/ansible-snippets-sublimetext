@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.riak</tabTrigger>
+	<description>This module handles some common Riak operations</description>
+	<content><![CDATA[
+- name: This module handles some common Riak operations
+  riak:
+      command: 
+      config_dir: 
+      http_conn: 
+      target_node: 
+      validate_certs: 
+      wait_for_handoffs: 
+      wait_for_ring: 
+      wait_for_service: 
+]]>
+	</content>
+</snippet>

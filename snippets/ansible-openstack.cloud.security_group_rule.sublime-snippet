@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.security_group_rule</tabTrigger>
+	<description>Add/Delete rule from an existing security group</description>
+	<content><![CDATA[
+- name: Add/Delete rule from an existing security group
+  security_group_rule:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      direction: 
+      ethertype: 
+      interface: 
+      port_range_max: 
+      port_range_min: 
+      project: 
+      protocol: 
+      region_name: 
+      remote_group: 
+      remote_ip_prefix: 
+      security_group: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

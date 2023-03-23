@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_plugin</tabTrigger>
+	<description>Manage Grafana plugins via grafana-cli</description>
+	<content><![CDATA[
+- name: Manage Grafana plugins via grafana-cli
+  grafana_plugin:
+      grafana_plugin_url: 
+      grafana_plugins_dir: 
+      grafana_repo: 
+      name: 
+      state: 
+      version: 
+]]>
+	</content>
+</snippet>

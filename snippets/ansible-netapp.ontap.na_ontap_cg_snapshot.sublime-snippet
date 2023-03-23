@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_cg_snapshot</tabTrigger>
+	<description>NetApp ONTAP manage consistency group snapshot</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage consistency group snapshot
+  na_ontap_cg_snapshot:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      snapmirror_label: 
+      snapshot: 
+      state: 
+      timeout: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volumes: 
+      vserver: 
+]]>
+	</content>
+</snippet>

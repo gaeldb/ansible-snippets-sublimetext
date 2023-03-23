@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>unarchive</tabTrigger>
+	<description>Unpacks an archive after (optionally) copying it from the local machine</description>
+	<content><![CDATA[
+- name: Unpacks an archive after (optionally) copying it from the local machine
+  unarchive:
+      attributes: 
+      copy: 
+      creates: 
+      decrypt: 
+      dest: 
+      exclude: 
+      extra_opts: 
+      group: 
+      include: 
+      io_buffer_size: 
+      keep_newer: 
+      list_files: 
+      mode: 
+      owner: 
+      remote_src: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      unsafe_writes: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

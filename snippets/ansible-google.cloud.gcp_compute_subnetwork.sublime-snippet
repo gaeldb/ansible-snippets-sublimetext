@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_subnetwork</tabTrigger>
+	<description>Creates a GCP Subnetwork</description>
+	<content><![CDATA[
+- name: Creates a GCP Subnetwork
+  gcp_compute_subnetwork:
+      auth_kind: 
+      description: 
+      env_type: 
+      ip_cidr_range: 
+      name: 
+      network: 
+      private_ip_google_access: 
+      private_ipv6_google_access: 
+      project: 
+      region: 
+      scopes: 
+      secondary_ip_ranges: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

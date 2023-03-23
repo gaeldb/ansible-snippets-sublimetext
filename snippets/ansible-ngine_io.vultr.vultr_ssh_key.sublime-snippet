@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_ssh_key</tabTrigger>
+	<description>Manages ssh keys on Vultr.</description>
+	<content><![CDATA[
+- name: Manages ssh keys on Vultr.
+  vultr_ssh_key:
+      api_account: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      name: 
+      ssh_key: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

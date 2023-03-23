@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_alert</tabTrigger>
+	<description>Manage alerts in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage alerts in the Meraki cloud
+  meraki_alert:
+      alerts: 
+      auth_key: 
+      default_destinations: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

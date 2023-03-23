@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_shell</tabTrigger>
+	<description>Run commands via the MongoDB shell.</description>
+	<content><![CDATA[
+- name: Run commands via the MongoDB shell.
+  mongodb_shell:
+      additional_args: 
+      db: 
+      debug: 
+      eval: 
+      file: 
+      idempotent: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      mongo_cmd: 
+      nodb: 
+      norc: 
+      quiet: 
+      split_char: 
+      stringify: 
+      transform: 
+]]>
+	</content>
+</snippet>

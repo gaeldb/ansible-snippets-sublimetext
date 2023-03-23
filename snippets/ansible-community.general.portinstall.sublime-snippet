@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.portinstall</tabTrigger>
+	<description>Installing packages from FreeBSD's ports system</description>
+	<content><![CDATA[
+- name: Installing packages from FreeBSD's ports system
+  portinstall:
+      name: 
+      state: 
+      use_packages: 
+]]>
+	</content>
+</snippet>

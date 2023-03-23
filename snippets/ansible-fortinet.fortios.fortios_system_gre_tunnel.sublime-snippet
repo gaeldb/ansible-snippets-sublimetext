@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_gre_tunnel</tabTrigger>
+	<description>Configure GRE tunnel in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure GRE tunnel in Fortinet's FortiOS and FortiGate.
+  fortios_system_gre_tunnel:
+      access_token: 
+      state: 
+      system_gre_tunnel: 
+      vdom: 
+]]>
+	</content>
+</snippet>

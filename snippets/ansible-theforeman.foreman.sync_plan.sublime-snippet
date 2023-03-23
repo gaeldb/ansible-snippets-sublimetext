@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.sync_plan</tabTrigger>
+	<description>Manage Sync Plans</description>
+	<content><![CDATA[
+- name: Manage Sync Plans
+  sync_plan:
+      cron_expression: 
+      description: 
+      enabled: 
+      interval: 
+      name: 
+      organization: 
+      password: 
+      products: 
+      server_url: 
+      state: 
+      sync_date: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

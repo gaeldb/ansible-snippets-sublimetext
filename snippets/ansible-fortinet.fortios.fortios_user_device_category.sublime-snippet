@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_device_category</tabTrigger>
+	<description>Configure device categories in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure device categories in Fortinet's FortiOS and FortiGate.
+  fortios_user_device_category:
+      access_token: 
+      state: 
+      user_device_category: 
+      vdom: 
+]]>
+	</content>
+</snippet>

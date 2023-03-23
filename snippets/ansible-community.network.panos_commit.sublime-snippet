@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_commit</tabTrigger>
+	<description>commit firewall's candidate configuration</description>
+	<content><![CDATA[
+- name: commit firewall's candidate configuration
+  panos_commit:
+      commit_changes_by: 
+      commit_vsys: 
+      description: 
+      interval: 
+      ip_address: 
+      password: 
+      sync: 
+      timeout: 
+      username: 
+]]>
+	</content>
+</snippet>

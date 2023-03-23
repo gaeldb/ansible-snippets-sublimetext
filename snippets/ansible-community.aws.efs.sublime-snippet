@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.efs</tabTrigger>
+	<description>create and maintain EFS file systems</description>
+	<content><![CDATA[
+- name: create and maintain EFS file systems
+  efs:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      encrypt: 
+      endpoint_url: 
+      id: 
+      kms_key_id: 
+      name: 
+      performance_mode: 
+      profile: 
+      provisioned_throughput_in_mibps: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      targets: 
+      throughput_mode: 
+      transition_to_ia: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

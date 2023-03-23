@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_category</tabTrigger>
+	<description>Manage VMware categories</description>
+	<content><![CDATA[
+- name: Manage VMware categories
+  vmware_category:
+      associable_object_types: 
+      category_cardinality: 
+      category_description: 
+      category_name: 
+      hostname: 
+      new_category_name: 
+      password: 
+      port: 
+      protocol: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

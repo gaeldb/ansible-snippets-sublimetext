@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_domain_to_encap_pool</tabTrigger>
+	<description>Bind Domain to Encap Pools (infra:RsVlanNs)</description>
+	<content><![CDATA[
+- name: Bind Domain to Encap Pools (infra:RsVlanNs)
+  aci_domain_to_encap_pool:
+      annotation: 
+      certificate_name: 
+      domain: 
+      domain_type: 
+      host: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pool: 
+      pool_allocation_mode: 
+      pool_type: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vm_provider: 
+]]>
+	</content>
+</snippet>

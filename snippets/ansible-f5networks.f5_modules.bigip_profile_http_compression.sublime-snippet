@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_http_compression</tabTrigger>
+	<description>Manage HTTP compression profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage HTTP compression profiles on a BIG-IP
+  bigip_profile_http_compression:
+      buffer_size: 
+      description: 
+      gzip_level: 
+      gzip_memory_level: 
+      gzip_window_size: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

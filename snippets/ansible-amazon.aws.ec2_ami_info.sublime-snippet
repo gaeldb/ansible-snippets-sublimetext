@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_ami_info</tabTrigger>
+	<description>Gather information about ec2 AMIs</description>
+	<content><![CDATA[
+- name: Gather information about ec2 AMIs
+  ec2_ami_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      describe_image_attributes: 
+      endpoint_url: 
+      executable_users: 
+      filters: 
+      image_ids: 
+      owners: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

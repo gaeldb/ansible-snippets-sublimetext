@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_global_parameter</tabTrigger>
+	<description>Manage RabbitMQ global parameters</description>
+	<content><![CDATA[
+- name: Manage RabbitMQ global parameters
+  rabbitmq_global_parameter:
+      name: 
+      node: 
+      state: 
+      value: 
+]]>
+	</content>
+</snippet>

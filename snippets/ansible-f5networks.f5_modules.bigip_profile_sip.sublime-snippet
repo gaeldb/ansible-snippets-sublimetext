@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_sip</tabTrigger>
+	<description>Manage SIP profiles on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage SIP profiles on a BIG-IP
+  bigip_profile_sip:
+      community: 
+      description: 
+      dialog_aware: 
+      enable_sip_firewall: 
+      insert_record_route_header: 
+      insert_via_header: 
+      log_profile: 
+      log_publisher: 
+      max_size: 
+      name: 
+      parent: 
+      partition: 
+      provider: 
+      secure_via_header: 
+      security: 
+      state: 
+      terminate_on_bye: 
+      user_via_header: 
+]]>
+	</content>
+</snippet>

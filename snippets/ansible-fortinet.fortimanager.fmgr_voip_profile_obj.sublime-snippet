@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_voip_profile_obj</tabTrigger>
+	<description>Configure VoIP profiles.</description>
+	<content><![CDATA[
+- name: Configure VoIP profiles.
+  fmgr_voip_profile_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

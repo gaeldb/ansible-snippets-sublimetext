@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vswitch</tabTrigger>
+	<description>Manage a VMware Standard Switch to an ESXi host.</description>
+	<content><![CDATA[
+- name: Manage a VMware Standard Switch to an ESXi host.
+  vmware_vswitch:
+      esxi_hostname: 
+      hostname: 
+      mtu: 
+      nics: 
+      number_of_ports: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      switch: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

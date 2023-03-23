@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_certificate_setting</tabTrigger>
+	<description>VPN certificate setting in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: VPN certificate setting in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_certificate_setting:
+      access_token: 
+      vdom: 
+      vpn_certificate_setting: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_audit_policy_system</tabTrigger>
+	<description>Used to make changes to the system wide Audit Policy</description>
+	<content><![CDATA[
+- name: Used to make changes to the system wide Audit Policy
+  win_audit_policy_system:
+      audit_type: 
+      category: 
+      subcategory: 
+]]>
+	</content>
+</snippet>

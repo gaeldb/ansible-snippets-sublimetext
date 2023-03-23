@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_ntp_auth</tabTrigger>
+	<description>Manages NTP authentication configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages NTP authentication configuration on HUAWEI CloudEngine switches.
+  ce_ntp_auth:
+      auth_mode: 
+      auth_pwd: 
+      auth_type: 
+      authentication: 
+      key_id: 
+      state: 
+      trusted_key: 
+]]>
+	</content>
+</snippet>

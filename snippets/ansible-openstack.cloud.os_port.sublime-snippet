@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_port</tabTrigger>
+	<description>Add/Update/Delete ports from an OpenStack cloud.</description>
+	<content><![CDATA[
+- name: Add/Update/Delete ports from an OpenStack cloud.
+  port:
+      admin_state_up: 
+      allowed_address_pairs: 
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      device_id: 
+      device_owner: 
+      extra_dhcp_opts: 
+      fixed_ips: 
+      interface: 
+      mac_address: 
+      name: 
+      network: 
+      no_security_groups: 
+      port_security_enabled: 
+      region_name: 
+      security_groups: 
+      state: 
+      timeout: 
+      validate_certs: 
+      vnic_type: 
+      wait: 
+]]>
+	</content>
+</snippet>

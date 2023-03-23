@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.application_autoscaling_policy</tabTrigger>
+	<description>Manage Application Auto Scaling Scaling Policies</description>
+	<content><![CDATA[
+- name: Manage Application Auto Scaling Scaling Policies
+  application_autoscaling_policy:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      maximum_tasks: 
+      minimum_tasks: 
+      override_task_capacity: 
+      policy_name: 
+      policy_type: 
+      profile: 
+      region: 
+      resource_id: 
+      scalable_dimension: 
+      secret_key: 
+      service_namespace: 
+      session_token: 
+      state: 
+      step_scaling_policy_configuration: 
+      target_tracking_scaling_policy_configuration: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

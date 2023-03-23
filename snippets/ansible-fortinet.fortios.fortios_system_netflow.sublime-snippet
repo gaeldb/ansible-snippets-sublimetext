@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_netflow</tabTrigger>
+	<description>Configure NetFlow in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure NetFlow in Fortinet's FortiOS and FortiGate.
+  fortios_system_netflow:
+      access_token: 
+      system_netflow: 
+      vdom: 
+]]>
+	</content>
+</snippet>

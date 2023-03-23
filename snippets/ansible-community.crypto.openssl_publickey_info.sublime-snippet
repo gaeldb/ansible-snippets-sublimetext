@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_publickey_info</tabTrigger>
+	<description>Provide information for OpenSSL public keys</description>
+	<content><![CDATA[
+- name: Provide information for OpenSSL public keys
+  openssl_publickey_info:
+      content: 
+      path: 
+      select_crypto_backend: 
+]]>
+	</content>
+</snippet>

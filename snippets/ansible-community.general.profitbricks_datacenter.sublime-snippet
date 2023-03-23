@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.profitbricks_datacenter</tabTrigger>
+	<description>Create or destroy a ProfitBricks Virtual Datacenter</description>
+	<content><![CDATA[
+- name: Create or destroy a ProfitBricks Virtual Datacenter
+  profitbricks_datacenter:
+      description: 
+      location: 
+      name: 
+      state: 
+      subscription_password: 
+      subscription_user: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

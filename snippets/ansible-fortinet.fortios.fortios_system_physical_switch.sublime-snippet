@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_physical_switch</tabTrigger>
+	<description>Configure physical switches in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure physical switches in Fortinet's FortiOS and FortiGate.
+  fortios_system_physical_switch:
+      access_token: 
+      state: 
+      system_physical_switch: 
+      vdom: 
+]]>
+	</content>
+</snippet>

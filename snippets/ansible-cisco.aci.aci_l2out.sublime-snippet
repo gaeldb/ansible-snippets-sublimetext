@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l2out</tabTrigger>
+	<description>Manage Layer2 Out (L2Out) objects.</description>
+	<content><![CDATA[
+- name: Manage Layer2 Out (L2Out) objects.
+  aci_l2out:
+      annotation: 
+      bd: 
+      certificate_name: 
+      description: 
+      domain: 
+      host: 
+      l2out: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vlan: 
+]]>
+	</content>
+</snippet>

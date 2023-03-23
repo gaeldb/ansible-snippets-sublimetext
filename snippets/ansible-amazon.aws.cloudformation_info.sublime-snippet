@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.cloudformation_info</tabTrigger>
+	<description>Obtain information about an AWS CloudFormation stack</description>
+	<content><![CDATA[
+- name: Obtain information about an AWS CloudFormation stack
+  cloudformation_info:
+      access_key: 
+      all_facts: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      stack_change_sets: 
+      stack_events: 
+      stack_name: 
+      stack_policy: 
+      stack_resources: 
+      stack_template: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

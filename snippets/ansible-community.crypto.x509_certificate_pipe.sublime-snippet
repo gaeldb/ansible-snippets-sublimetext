@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.x509_certificate_pipe</tabTrigger>
+	<description>Generate and/or check OpenSSL certificates</description>
+	<content><![CDATA[
+- name: Generate and/or check OpenSSL certificates
+  x509_certificate_pipe:
+      content: 
+      csr_content: 
+      csr_path: 
+      entrust_api_client_cert_key_path: 
+      entrust_api_client_cert_path: 
+      entrust_api_key: 
+      entrust_api_specification_path: 
+      entrust_api_user: 
+      entrust_cert_type: 
+      entrust_not_after: 
+      entrust_requester_email: 
+      entrust_requester_name: 
+      entrust_requester_phone: 
+      force: 
+      ignore_timestamps: 
+      ownca_content: 
+      ownca_create_authority_key_identifier: 
+      ownca_create_subject_key_identifier: 
+      ownca_digest: 
+      ownca_not_after: 
+      ownca_not_before: 
+      ownca_path: 
+      ownca_privatekey_content: 
+      ownca_privatekey_passphrase: 
+      ownca_privatekey_path: 
+      ownca_version: 
+      privatekey_content: 
+      privatekey_passphrase: 
+      privatekey_path: 
+      provider: 
+      select_crypto_backend: 
+      selfsigned_create_subject_key_identifier: 
+      selfsigned_digest: 
+      selfsigned_not_after: 
+      selfsigned_not_before: 
+      selfsigned_version: 
+]]>
+	</content>
+</snippet>

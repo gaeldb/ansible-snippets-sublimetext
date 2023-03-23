@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_team</tabTrigger>
+	<description>Manage Grafana Teams</description>
+	<content><![CDATA[
+- name: Manage Grafana Teams
+  grafana_team:
+      client_cert: 
+      client_key: 
+      email: 
+      enforce_members: 
+      grafana_api_key: 
+      members: 
+      name: 
+      state: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_authentication_scheme</tabTrigger>
+	<description>Configure Authentication Schemes in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Authentication Schemes in Fortinet's FortiOS and FortiGate.
+  fortios_authentication_scheme:
+      access_token: 
+      authentication_scheme: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

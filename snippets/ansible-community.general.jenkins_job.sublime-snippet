@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jenkins_job</tabTrigger>
+	<description>Manage jenkins jobs</description>
+	<content><![CDATA[
+- name: Manage jenkins jobs
+  jenkins_job:
+      config: 
+      enabled: 
+      name: 
+      password: 
+      state: 
+      token: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

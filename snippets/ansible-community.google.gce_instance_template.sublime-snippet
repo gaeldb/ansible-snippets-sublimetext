@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_instance_template</tabTrigger>
+	<description>create or destroy instance templates of Compute Engine of GCP.</description>
+	<content><![CDATA[
+- name: create or destroy instance templates of Compute Engine of GCP.
+  gce_instance_template:
+      automatic_restart: 
+      can_ip_forward: 
+      credentials_file: 
+      description: 
+      disk_auto_delete: 
+      disk_type: 
+      disks: 
+      disks_gce_struct: 
+      external_ip: 
+      image: 
+      image_family: 
+      metadata: 
+      name: 
+      network: 
+      nic_gce_struct: 
+      pem_file: 
+      preemptible: 
+      project_id: 
+      service_account_email: 
+      service_account_permissions: 
+      size: 
+      source: 
+      state: 
+      subnetwork: 
+      subnetwork_region: 
+      tags: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.postgresql.postgresql_user</tabTrigger>
+	<description>Create, alter, or remove a user (role) from a PostgreSQL server instance</description>
+	<content><![CDATA[
+- name: Create, alter, or remove a user (role) from a PostgreSQL server instance
+  postgresql_user:
+      ca_cert: 
+      comment: 
+      conn_limit: 
+      db: 
+      encrypted: 
+      expires: 
+      fail_on_user: 
+      groups: 
+      login_host: 
+      login_password: 
+      login_unix_socket: 
+      login_user: 
+      name: 
+      no_password_changes: 
+      password: 
+      port: 
+      priv: 
+      role_attr_flags: 
+      session_role: 
+      ssl_mode: 
+      state: 
+      trust_input: 
+]]>
+	</content>
+</snippet>

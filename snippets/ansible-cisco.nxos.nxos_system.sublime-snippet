@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_system</tabTrigger>
+	<description>Manage the system attributes on Cisco NXOS devices</description>
+	<content><![CDATA[
+- name: Manage the system attributes on Cisco NXOS devices
+  nxos_system:
+      domain_lookup: 
+      domain_name: 
+      domain_search: 
+      hostname: 
+      name_servers: 
+      provider: 
+      state: 
+      system_mtu: 
+]]>
+	</content>
+</snippet>

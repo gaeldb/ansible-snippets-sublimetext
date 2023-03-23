@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.ipadm_if</tabTrigger>
+	<description>Manage IP interfaces  on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage IP interfaces  on Solaris/illumos systems.
+  ipadm_if:
+      name: 
+      state: 
+      temporary: 
+]]>
+	</content>
+</snippet>

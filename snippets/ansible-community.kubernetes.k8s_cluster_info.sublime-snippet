@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.kubernetes.k8s_cluster_info</tabTrigger>
+	<description>Describe Kubernetes (K8s) cluster, APIs available and their respective versions</description>
+	<content><![CDATA[
+- name: Describe Kubernetes (K8s) cluster, APIs available and their respective versions
+  k8s_cluster_info:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      host: 
+      invalidate_cache: 
+      kubeconfig: 
+      password: 
+      persist_config: 
+      proxy: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

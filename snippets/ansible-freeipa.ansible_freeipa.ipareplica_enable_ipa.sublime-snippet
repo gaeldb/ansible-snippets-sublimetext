@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_enable_ipa</tabTrigger>
+	<description>Enable IPA</description>
+	<content><![CDATA[
+- name: Enable IPA
+  ipareplica_enable_ipa:
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      hidden_replica: 
+      hostname: 
+      setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

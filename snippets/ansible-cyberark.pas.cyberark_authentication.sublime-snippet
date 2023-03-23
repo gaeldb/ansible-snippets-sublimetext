@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cyberark.pas.cyberark_authentication</tabTrigger>
+	<description>CyberArk Authentication using PAS Web Services SDK.</description>
+	<content><![CDATA[
+- name: CyberArk Authentication using PAS Web Services SDK.
+  cyberark_authentication:
+      api_base_url: 
+      connection_number: 
+      cyberark_session: 
+      new_password: 
+      password: 
+      state: 
+      use_radius_authentication: 
+      use_shared_logon_authentication: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

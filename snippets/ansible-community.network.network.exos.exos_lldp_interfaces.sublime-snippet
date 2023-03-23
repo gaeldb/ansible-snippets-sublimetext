@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.exos.exos_lldp_interfaces</tabTrigger>
+	<description>Manage link layer discovery protocol (LLDP) attributes of interfaces on EXOS platforms.</description>
+	<content><![CDATA[
+- name: Manage link layer discovery protocol (LLDP) attributes of interfaces on EXOS platforms.
+  exos_lldp_interfaces:
+      config: 
+      state: 
+]]>
+	</content>
+</snippet>

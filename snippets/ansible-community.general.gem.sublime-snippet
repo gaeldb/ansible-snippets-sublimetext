@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gem</tabTrigger>
+	<description>Manage Ruby gems</description>
+	<content><![CDATA[
+- name: Manage Ruby gems
+  gem:
+      bindir: 
+      build_flags: 
+      env_shebang: 
+      executable: 
+      force: 
+      gem_source: 
+      include_dependencies: 
+      include_doc: 
+      install_dir: 
+      name: 
+      norc: 
+      pre_release: 
+      repository: 
+      state: 
+      user_install: 
+      version: 
+]]>
+	</content>
+</snippet>

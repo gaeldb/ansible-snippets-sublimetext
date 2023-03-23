@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>group_by</tabTrigger>
+	<description>Create Ansible groups based on facts</description>
+	<content><![CDATA[
+- name: Create Ansible groups based on facts
+  group_by:
+      key: 
+      parents: 
+]]>
+	</content>
+</snippet>

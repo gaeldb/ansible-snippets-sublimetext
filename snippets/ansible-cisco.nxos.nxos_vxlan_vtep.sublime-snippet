@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vxlan_vtep</tabTrigger>
+	<description>Manages VXLAN Network Virtualization Endpoint (NVE).</description>
+	<content><![CDATA[
+- name: Manages VXLAN Network Virtualization Endpoint (NVE).
+  nxos_vxlan_vtep:
+      description: 
+      global_ingress_replication_bgp: 
+      global_mcast_group_L2: 
+      global_mcast_group_L3: 
+      global_suppress_arp: 
+      host_reachability: 
+      interface: 
+      multisite_border_gateway_interface: 
+      provider: 
+      shutdown: 
+      source_interface: 
+      source_interface_hold_down_time: 
+      state: 
+]]>
+	</content>
+</snippet>

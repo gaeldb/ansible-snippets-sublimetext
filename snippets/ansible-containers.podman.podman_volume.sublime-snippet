@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_volume</tabTrigger>
+	<description>Manage Podman volumes</description>
+	<content><![CDATA[
+- name: Manage Podman volumes
+  podman_volume:
+      debug: 
+      driver: 
+      executable: 
+      label: 
+      name: 
+      options: 
+      recreate: 
+      state: 
+]]>
+	</content>
+</snippet>

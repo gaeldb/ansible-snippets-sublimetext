@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_replicaset</tabTrigger>
+	<description>Initialises a MongoDB replicaset.</description>
+	<content><![CDATA[
+- name: Initialises a MongoDB replicaset.
+  mongodb_replicaset:
+      arbiter_at_index: 
+      auth_mechanism: 
+      chaining_allowed: 
+      connection_options: 
+      election_timeout_millis: 
+      heartbeat_timeout_secs: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      members: 
+      protocol_version: 
+      replica_set: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      validate: 
+]]>
+	</content>
+</snippet>

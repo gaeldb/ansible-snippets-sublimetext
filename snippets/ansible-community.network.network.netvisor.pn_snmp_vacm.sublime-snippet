@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netvisor.pn_snmp_vacm</tabTrigger>
+	<description>CLI command to create/modify/delete snmp-vacm</description>
+	<content><![CDATA[
+- name: CLI command to create/modify/delete snmp-vacm
+  pn_snmp_vacm:
+      pn_auth: 
+      pn_cliswitch: 
+      pn_oid_restrict: 
+      pn_priv: 
+      pn_user_name: 
+      pn_user_type: 
+      state: 
+]]>
+	</content>
+</snippet>

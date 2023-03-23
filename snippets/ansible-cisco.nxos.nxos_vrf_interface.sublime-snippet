@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vrf_interface</tabTrigger>
+	<description>Manages interface specific VRF configuration.</description>
+	<content><![CDATA[
+- name: Manages interface specific VRF configuration.
+  nxos_vrf_interface:
+      interface: 
+      provider: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

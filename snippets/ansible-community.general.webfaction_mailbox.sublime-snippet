@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.webfaction_mailbox</tabTrigger>
+	<description>Add or remove mailboxes on Webfaction</description>
+	<content><![CDATA[
+- name: Add or remove mailboxes on Webfaction
+  webfaction_mailbox:
+      login_name: 
+      login_password: 
+      mailbox_name: 
+      mailbox_password: 
+      state: 
+]]>
+	</content>
+</snippet>

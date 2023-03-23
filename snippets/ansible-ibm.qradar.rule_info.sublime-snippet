@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ibm.qradar.rule_info</tabTrigger>
+	<description>Obtain information about one or many QRadar Rules, with filter options</description>
+	<content><![CDATA[
+- name: Obtain information about one or many QRadar Rules, with filter options
+  rule_info:
+      id: 
+      name: 
+      origin: 
+      owner: 
+      type: 
+]]>
+	</content>
+</snippet>

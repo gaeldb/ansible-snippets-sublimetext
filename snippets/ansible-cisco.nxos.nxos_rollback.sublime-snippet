@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_rollback</tabTrigger>
+	<description>Set a checkpoint or rollback to a checkpoint.</description>
+	<content><![CDATA[
+- name: Set a checkpoint or rollback to a checkpoint.
+  nxos_rollback:
+      checkpoint_file: 
+      provider: 
+      rollback_to: 
+]]>
+	</content>
+</snippet>

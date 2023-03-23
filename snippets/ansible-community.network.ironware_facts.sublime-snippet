@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ironware_facts</tabTrigger>
+	<description>Collect facts from devices running Extreme Ironware</description>
+	<content><![CDATA[
+- name: Collect facts from devices running Extreme Ironware
+  ironware_facts:
+      authorize: 
+      gather_subset: 
+      provider: 
+]]>
+	</content>
+</snippet>

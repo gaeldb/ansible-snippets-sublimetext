@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pkg5_publisher</tabTrigger>
+	<description>Manages Solaris 11 Image Packaging System publishers</description>
+	<content><![CDATA[
+- name: Manages Solaris 11 Image Packaging System publishers
+  pkg5_publisher:
+      enabled: 
+      mirror: 
+      name: 
+      origin: 
+      state: 
+      sticky: 
+]]>
+	</content>
+</snippet>

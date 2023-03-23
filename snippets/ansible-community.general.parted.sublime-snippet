@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.parted</tabTrigger>
+	<description>Configure block device partitions</description>
+	<content><![CDATA[
+- name: Configure block device partitions
+  parted:
+      align: 
+      device: 
+      flags: 
+      fs_type: 
+      label: 
+      name: 
+      number: 
+      part_end: 
+      part_start: 
+      part_type: 
+      resize: 
+      state: 
+      unit: 
+]]>
+	</content>
+</snippet>

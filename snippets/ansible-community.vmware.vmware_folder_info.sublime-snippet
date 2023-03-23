@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_folder_info</tabTrigger>
+	<description>Provides information about folders in a datacenter</description>
+	<content><![CDATA[
+- name: Provides information about folders in a datacenter
+  vmware_folder_info:
+      datacenter: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_affinity_group</tabTrigger>
+	<description>Module to manage affinity groups in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage affinity groups in oVirt/RHV
+  ovirt_affinity_group:
+      auth: 
+      cluster: 
+      description: 
+      fetch_nested: 
+      host_enforcing: 
+      host_rule: 
+      hosts: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      timeout: 
+      vm_enforcing: 
+      vm_rule: 
+      vms: 
+      wait: 
+]]>
+	</content>
+</snippet>

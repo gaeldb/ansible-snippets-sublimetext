@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_mdn_interface</tabTrigger>
+	<description>Manages MDN configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages MDN configuration on HUAWEI CloudEngine switches.
+  ce_mdn_interface:
+      ifname: 
+      lldpenable: 
+      mdnstatus: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_command</tabTrigger>
+	<description>Run commands on remote devices running Cisco IOS XR</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Cisco IOS XR
+  iosxr_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

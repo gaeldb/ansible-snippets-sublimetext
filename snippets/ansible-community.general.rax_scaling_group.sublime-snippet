@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_scaling_group</tabTrigger>
+	<description>Manipulate Rackspace Cloud Autoscale Groups</description>
+	<content><![CDATA[
+- name: Manipulate Rackspace Cloud Autoscale Groups
+  rax_scaling_group:
+      api_key: 
+      auth_endpoint: 
+      config_drive: 
+      cooldown: 
+      credentials: 
+      disk_config: 
+      env: 
+      files: 
+      flavor: 
+      identity_type: 
+      image: 
+      key_name: 
+      loadbalancers: 
+      max_entities: 
+      meta: 
+      min_entities: 
+      name: 
+      networks: 
+      region: 
+      server_name: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      user_data: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

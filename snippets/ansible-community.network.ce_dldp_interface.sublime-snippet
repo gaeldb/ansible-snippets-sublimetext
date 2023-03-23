@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_dldp_interface</tabTrigger>
+	<description>Manages interface DLDP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages interface DLDP configuration on HUAWEI CloudEngine switches.
+  ce_dldp_interface:
+      enable: 
+      interface: 
+      local_mac: 
+      mode_enable: 
+      reset: 
+      state: 
+]]>
+	</content>
+</snippet>

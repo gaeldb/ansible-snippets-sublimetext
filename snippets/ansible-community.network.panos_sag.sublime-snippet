@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.panos_sag</tabTrigger>
+	<description>Create a static address group.</description>
+	<content><![CDATA[
+- name: Create a static address group.
+  panos_sag:
+      api_key: 
+      commit: 
+      description: 
+      devicegroup: 
+      ip_address: 
+      operation: 
+      password: 
+      sag_match_filter: 
+      sag_name: 
+      tags: 
+      username: 
+]]>
+	</content>
+</snippet>

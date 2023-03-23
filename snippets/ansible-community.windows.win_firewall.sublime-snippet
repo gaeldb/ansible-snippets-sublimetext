@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_firewall</tabTrigger>
+	<description>Enable or disable the Windows Firewall</description>
+	<content><![CDATA[
+- name: Enable or disable the Windows Firewall
+  win_firewall:
+      inbound_action: 
+      outbound_action: 
+      profiles: 
+      state: 
+]]>
+	</content>
+</snippet>

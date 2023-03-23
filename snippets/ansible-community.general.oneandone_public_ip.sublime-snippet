@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneandone_public_ip</tabTrigger>
+	<description>Configure 1&1 public IPs</description>
+	<content><![CDATA[
+- name: Configure 1&1 public IPs
+  oneandone_public_ip:
+      api_url: 
+      auth_token: 
+      datacenter: 
+      public_ip_id: 
+      reverse_dns: 
+      state: 
+      type: 
+      wait: 
+      wait_interval: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

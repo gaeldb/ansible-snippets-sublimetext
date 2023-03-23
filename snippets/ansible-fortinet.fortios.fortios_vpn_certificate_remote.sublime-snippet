@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_certificate_remote</tabTrigger>
+	<description>Remote certificate as a PEM file in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Remote certificate as a PEM file in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_certificate_remote:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_certificate_remote: 
+]]>
+	</content>
+</snippet>

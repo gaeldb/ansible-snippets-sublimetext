@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_local_in_policy</tabTrigger>
+	<description>Configure user defined IPv4 local-in policies in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure user defined IPv4 local-in policies in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_local_in_policy:
+      access_token: 
+      firewall_local_in_policy: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

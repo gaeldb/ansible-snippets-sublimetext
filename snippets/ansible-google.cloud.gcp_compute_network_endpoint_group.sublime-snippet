@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_network_endpoint_group</tabTrigger>
+	<description>Creates a GCP NetworkEndpointGroup</description>
+	<content><![CDATA[
+- name: Creates a GCP NetworkEndpointGroup
+  gcp_compute_network_endpoint_group:
+      auth_kind: 
+      default_port: 
+      description: 
+      env_type: 
+      name: 
+      network: 
+      network_endpoint_type: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      subnetwork: 
+      zone: 
+]]>
+	</content>
+</snippet>

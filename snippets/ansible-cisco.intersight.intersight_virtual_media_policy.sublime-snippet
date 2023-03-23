@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.intersight.intersight_virtual_media_policy</tabTrigger>
+	<description>Virtual Media policy configuration for Cisco Intersight</description>
+	<content><![CDATA[
+- name: Virtual Media policy configuration for Cisco Intersight
+  intersight_virtual_media_policy:
+      api_key_id: 
+      api_private_key: 
+      api_uri: 
+      cdd_virtual_media: 
+      descrption: 
+      enable: 
+      encryption: 
+      hdd_virtual_media: 
+      low_power_usb: 
+      name: 
+      organization: 
+      state: 
+      tags: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

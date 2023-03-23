@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_mgmt_interface</tabTrigger>
+	<description>NetApp E-Series management interface configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series management interface configuration
+  netapp_e_mgmt_interface:
+      address: 
+      api_password: 
+      api_url: 
+      api_username: 
+      channel: 
+      config_method: 
+      controller: 
+      dns_address: 
+      dns_address_backup: 
+      dns_config_method: 
+      gateway: 
+      log_path: 
+      name: 
+      ntp_address: 
+      ntp_address_backup: 
+      ntp_config_method: 
+      ssh: 
+      ssid: 
+      state: 
+      subnet_mask: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

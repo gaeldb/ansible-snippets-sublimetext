@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sensu_handler</tabTrigger>
+	<description>Manages Sensu handler configuration</description>
+	<content><![CDATA[
+- name: Manages Sensu handler configuration
+  sensu_handler:
+      command: 
+      filter: 
+      filters: 
+      handle_flapping: 
+      handle_silenced: 
+      handlers: 
+      mutator: 
+      name: 
+      pipe: 
+      severities: 
+      socket: 
+      state: 
+      timeout: 
+      type: 
+]]>
+	</content>
+</snippet>

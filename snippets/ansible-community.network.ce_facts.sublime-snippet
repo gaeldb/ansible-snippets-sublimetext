@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_facts</tabTrigger>
+	<description>Gets facts about HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Gets facts about HUAWEI CloudEngine switches.
+  ce_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

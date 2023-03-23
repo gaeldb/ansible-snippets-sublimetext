@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.route53</tabTrigger>
+	<description>add or delete entries in Amazons Route 53 DNS service</description>
+	<content><![CDATA[
+- name: add or delete entries in Amazons Route 53 DNS service
+  route53:
+      access_key: 
+      alias: 
+      alias_evaluate_target_health: 
+      alias_hosted_zone_id: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      failover: 
+      geo_location: 
+      health_check: 
+      hosted_zone_id: 
+      identifier: 
+      overwrite: 
+      private_zone: 
+      profile: 
+      record: 
+      region: 
+      retry_interval: 
+      secret_key: 
+      session_token: 
+      state: 
+      ttl: 
+      type: 
+      validate_certs: 
+      value: 
+      vpc_id: 
+      wait: 
+      wait_timeout: 
+      weight: 
+      zone: 
+]]>
+	</content>
+</snippet>

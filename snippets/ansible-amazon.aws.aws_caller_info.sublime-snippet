@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.aws_caller_info</tabTrigger>
+	<description>Get information about the user and account being used to make AWS calls</description>
+	<content><![CDATA[
+- name: Get information about the user and account being used to make AWS calls
+  aws_caller_info:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

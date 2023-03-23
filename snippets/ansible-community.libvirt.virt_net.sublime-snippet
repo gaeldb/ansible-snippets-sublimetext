@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.libvirt.virt_net</tabTrigger>
+	<description>Manage libvirt network configuration</description>
+	<content><![CDATA[
+- name: Manage libvirt network configuration
+  virt_net:
+      autostart: 
+      command: 
+      name: 
+      state: 
+      uri: 
+      xml: 
+]]>
+	</content>
+</snippet>

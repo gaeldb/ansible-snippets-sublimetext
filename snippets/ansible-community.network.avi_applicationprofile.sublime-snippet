@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_applicationprofile</tabTrigger>
+	<description>Module for setup of ApplicationProfile Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of ApplicationProfile Avi RESTful Object
+  avi_applicationprofile:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cloud_config_cksum: 
+      controller: 
+      created_by: 
+      description: 
+      dns_service_profile: 
+      dos_rl_profile: 
+      http_profile: 
+      name: 
+      password: 
+      preserve_client_ip: 
+      preserve_client_port: 
+      sip_service_profile: 
+      state: 
+      tcp_app_profile: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      type: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

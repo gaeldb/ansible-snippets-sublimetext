@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.ecs_certificate</tabTrigger>
+	<description>Request SSL/TLS certificates with the Entrust Certificate Services (ECS) API</description>
+	<content><![CDATA[
+- name: Request SSL/TLS certificates with the Entrust Certificate Services (ECS) API
+  ecs_certificate:
+      additional_emails: 
+      backup: 
+      cert_expiry: 
+      cert_lifetime: 
+      cert_type: 
+      client_id: 
+      csr: 
+      ct_log: 
+      custom_fields: 
+      eku: 
+      end_user_key_storage_agreement: 
+      entrust_api_client_cert_key_path: 
+      entrust_api_client_cert_path: 
+      entrust_api_key: 
+      entrust_api_specification_path: 
+      entrust_api_user: 
+      force: 
+      full_chain_path: 
+      org: 
+      ou: 
+      path: 
+      remaining_days: 
+      request_type: 
+      requester_email: 
+      requester_name: 
+      requester_phone: 
+      subject_alt_name: 
+      tracking_id: 
+      tracking_info: 
+]]>
+	</content>
+</snippet>

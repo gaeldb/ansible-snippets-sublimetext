@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_volume_info</tabTrigger>
+	<description>Retrieve facts about Docker volumes</description>
+	<content><![CDATA[
+- name: Retrieve facts about Docker volumes
+  docker_volume_info:
+      api_version: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      debug: 
+      docker_host: 
+      name: 
+      ssl_version: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

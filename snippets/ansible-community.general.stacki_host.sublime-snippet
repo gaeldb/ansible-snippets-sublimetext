@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.stacki_host</tabTrigger>
+	<description>Add or remove host to stacki front-end</description>
+	<content><![CDATA[
+- name: Add or remove host to stacki front-end
+  stacki_host:
+      appliance: 
+      force_install: 
+      name: 
+      network: 
+      prim_intf: 
+      prim_intf_ip: 
+      prim_intf_mac: 
+      rack: 
+      rank: 
+      stacki_endpoint: 
+      stacki_password: 
+      stacki_user: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.ironware.ironware_command</tabTrigger>
+	<description>Run arbitrary commands on Extreme IronWare devices</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on Extreme IronWare devices
+  ironware_command:
+      authorize: 
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

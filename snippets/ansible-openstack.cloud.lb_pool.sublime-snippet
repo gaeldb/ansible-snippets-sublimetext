@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.lb_pool</tabTrigger>
+	<description>Add/Delete a pool in the load balancing service from OpenStack Cloud</description>
+	<content><![CDATA[
+- name: Add/Delete a pool in the load balancing service from OpenStack Cloud
+  lb_pool:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      interface: 
+      lb_algorithm: 
+      listener: 
+      loadbalancer: 
+      name: 
+      protocol: 
+      region_name: 
+      state: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

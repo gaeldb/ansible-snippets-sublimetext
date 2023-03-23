@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>pip</tabTrigger>
+	<description>Manages Python library dependencies</description>
+	<content><![CDATA[
+- name: Manages Python library dependencies
+  pip:
+      chdir: 
+      editable: 
+      executable: 
+      extra_args: 
+      name: 
+      requirements: 
+      state: 
+      umask: 
+      version: 
+      virtualenv: 
+      virtualenv_command: 
+      virtualenv_python: 
+      virtualenv_site_packages: 
+]]>
+	</content>
+</snippet>

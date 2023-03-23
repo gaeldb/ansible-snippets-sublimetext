@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mssql_db</tabTrigger>
+	<description>Add or remove MSSQL databases from a remote host</description>
+	<content><![CDATA[
+- name: Add or remove MSSQL databases from a remote host
+  mssql_db:
+      autocommit: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      name: 
+      state: 
+      target: 
+]]>
+	</content>
+</snippet>

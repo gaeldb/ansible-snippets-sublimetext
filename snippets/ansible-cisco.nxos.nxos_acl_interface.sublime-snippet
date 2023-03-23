@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_acl_interface</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manages applying ACLs to interfaces.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manages applying ACLs to interfaces.
+  nxos_acl_interface:
+      direction: 
+      interface: 
+      name: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

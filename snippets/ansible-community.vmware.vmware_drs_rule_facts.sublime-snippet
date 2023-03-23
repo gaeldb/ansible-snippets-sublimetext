@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_drs_rule_facts</tabTrigger>
+	<description>Gathers facts about DRS rule on the given cluster</description>
+	<content><![CDATA[
+- name: Gathers facts about DRS rule on the given cluster
+  vmware_drs_rule_facts:
+      cluster_name: 
+      datacenter: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

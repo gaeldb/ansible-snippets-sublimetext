@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_powerstate</tabTrigger>
+	<description>Manages power states of host systems in vCenter</description>
+	<content><![CDATA[
+- name: Manages power states of host systems in vCenter
+  vmware_host_powerstate:
+      cluster_name: 
+      esxi_hostname: 
+      force: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      timeout: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

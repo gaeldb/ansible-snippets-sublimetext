@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_get_url</tabTrigger>
+	<description>Downloads file from HTTP, HTTPS, or FTP to node</description>
+	<content><![CDATA[
+- name: Downloads file from HTTP, HTTPS, or FTP to node
+  win_get_url:
+      checksum: 
+      checksum_algorithm: 
+      checksum_url: 
+      client_cert: 
+      client_cert_password: 
+      dest: 
+      follow_redirects: 
+      force: 
+      force_basic_auth: 
+      headers: 
+      http_agent: 
+      maximum_redirection: 
+      proxy_password: 
+      proxy_url: 
+      proxy_use_default_credential: 
+      proxy_username: 
+      url: 
+      url_method: 
+      url_password: 
+      url_timeout: 
+      url_username: 
+      use_default_credential: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

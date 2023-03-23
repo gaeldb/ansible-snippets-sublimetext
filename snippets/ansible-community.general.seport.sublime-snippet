@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.seport</tabTrigger>
+	<description>Manages SELinux network port type definitions</description>
+	<content><![CDATA[
+- name: Manages SELinux network port type definitions
+  seport:
+      ignore_selinux_state: 
+      local: 
+      ports: 
+      proto: 
+      reload: 
+      setype: 
+      state: 
+]]>
+	</content>
+</snippet>

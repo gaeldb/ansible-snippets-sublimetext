@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_ip_address</tabTrigger>
+	<description>Creates or removes IP addresses from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes IP addresses from Netbox
+  netbox_ip_address:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

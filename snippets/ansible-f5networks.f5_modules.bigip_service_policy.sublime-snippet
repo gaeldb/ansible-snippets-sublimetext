@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_service_policy</tabTrigger>
+	<description>Manages service policies on a BIG-IP.</description>
+	<content><![CDATA[
+- name: Manages service policies on a BIG-IP.
+  bigip_service_policy:
+      description: 
+      name: 
+      partition: 
+      port_misuse_policy: 
+      provider: 
+      state: 
+      timer_policy: 
+]]>
+	</content>
+</snippet>

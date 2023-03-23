@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipatopologysuffix</tabTrigger>
+	<description>Verify FreeIPA topology suffix</description>
+	<content><![CDATA[
+- name: Verify FreeIPA topology suffix
+  ipatopologysuffix:
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

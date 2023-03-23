@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_load_balancer_service</tabTrigger>
+	<description>Create and manage the services of cloud Load Balancers on the Hetzner Cloud.</description>
+	<content><![CDATA[
+- name: Create and manage the services of cloud Load Balancers on the Hetzner Cloud.
+  hcloud_load_balancer_service:
+      api_token: 
+      destination_port: 
+      endpoint: 
+      health_check: 
+      http: 
+      listen_port: 
+      load_balancer: 
+      protocol: 
+      proxyprotocol: 
+      state: 
+]]>
+	</content>
+</snippet>

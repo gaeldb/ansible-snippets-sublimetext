@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.vdirect_commit</tabTrigger>
+	<description>Commits pending configuration changes on Radware devices</description>
+	<content><![CDATA[
+- name: Commits pending configuration changes on Radware devices
+  vdirect_commit:
+      apply: 
+      devices: 
+      save: 
+      sync: 
+      validate_certs: 
+      vdirect_http_port: 
+      vdirect_https_port: 
+      vdirect_ip: 
+      vdirect_password: 
+      vdirect_secondary_ip: 
+      vdirect_timeout: 
+      vdirect_use_ssl: 
+      vdirect_user: 
+      vdirect_wait: 
+]]>
+	</content>
+</snippet>

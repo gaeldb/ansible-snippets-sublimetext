@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>gluster.gluster.geo_rep</tabTrigger>
+	<description>Manage geo-replication sessions</description>
+	<content><![CDATA[
+- name: Manage geo-replication sessions
+  geo_rep:
+      action: 
+      changelog_log_level: 
+      checkpoint: 
+      force: 
+      georepuser: 
+      gluster_log_file: 
+      gluster_log_level: 
+      ignore_deletes: 
+      log_file: 
+      log_level: 
+      log_rsync_performance: 
+      mastervol: 
+      meta_volume_mnt: 
+      rsync_command: 
+      rsync_options: 
+      slavevol: 
+      ssh_command: 
+      sync_acls: 
+      sync_jobs: 
+      sync_xattrs: 
+      timeout: 
+      use_meta_volume: 
+      use_tarssh: 
+      volume_id: 
+]]>
+	</content>
+</snippet>

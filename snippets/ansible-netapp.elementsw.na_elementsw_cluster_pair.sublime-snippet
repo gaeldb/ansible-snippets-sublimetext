@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_cluster_pair</tabTrigger>
+	<description>NetApp Element Software Manage Cluster Pair</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Cluster Pair
+  na_elementsw_cluster_pair:
+      dest_mvip: 
+      dest_password: 
+      dest_username: 
+      hostname: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_mac_sync_settings</tabTrigger>
+	<description>Configure global MAC synchronization settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure global MAC synchronization settings in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_mac_sync_settings:
+      access_token: 
+      switch_controller_mac_sync_settings: 
+      vdom: 
+]]>
+	</content>
+</snippet>

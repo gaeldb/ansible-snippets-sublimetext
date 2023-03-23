@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_cluster</tabTrigger>
+	<description>Create, Delete and Modify Host Cluster on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete and Modify Host Cluster on Infinibox
+  infini_cluster:
+      name: 
+      password: 
+      state: 
+      system: 
+      user: 
+]]>
+	</content>
+</snippet>

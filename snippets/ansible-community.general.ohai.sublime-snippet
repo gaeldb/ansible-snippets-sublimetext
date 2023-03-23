@@ -1,0 +1,10 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ohai</tabTrigger>
+	<description>Returns inventory data from `Ohai'</description>
+	<content><![CDATA[
+- name: Returns inventory data from `Ohai'
+  ohai:
+]]>
+	</content>
+</snippet>

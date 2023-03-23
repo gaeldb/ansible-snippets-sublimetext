@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_proxy</tabTrigger>
+	<description>Configure FlashArray phonehome HTTPs proxy settings</description>
+	<content><![CDATA[
+- name: Configure FlashArray phonehome HTTPs proxy settings
+  purefa_proxy:
+      api_token: 
+      fa_url: 
+      host: 
+      port: 
+      state: 
+]]>
+	</content>
+</snippet>

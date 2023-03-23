@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_banner</tabTrigger>
+	<description>Configure Pure Storage FlashArray GUI and SSH MOTD message</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashArray GUI and SSH MOTD message
+  purefa_banner:
+      api_token: 
+      banner: 
+      fa_url: 
+      state: 
+]]>
+	</content>
+</snippet>

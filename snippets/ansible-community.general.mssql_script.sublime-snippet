@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.mssql_script</tabTrigger>
+	<description>Execute SQL scripts on a MSSQL database</description>
+	<content><![CDATA[
+- name: Execute SQL scripts on a MSSQL database
+  mssql_script:
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      name: 
+      output: 
+      params: 
+      script: 
+]]>
+	</content>
+</snippet>

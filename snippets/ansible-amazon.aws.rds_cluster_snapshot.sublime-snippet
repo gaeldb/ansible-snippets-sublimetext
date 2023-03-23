@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.rds_cluster_snapshot</tabTrigger>
+	<description>Manage Amazon RDS snapshots of DB clusters</description>
+	<content><![CDATA[
+- name: Manage Amazon RDS snapshots of DB clusters
+  rds_cluster_snapshot:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      copy_tags: 
+      db_cluster_identifier: 
+      db_cluster_snapshot_identifier: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      source_db_cluster_snapshot_identifier: 
+      source_region: 
+      state: 
+      tags: 
+      validate_certs: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_function</tabTrigger>
+	<description>Scaleway Function management</description>
+	<content><![CDATA[
+- name: Scaleway Function management
+  scaleway_function:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      description: 
+      environment_variables: 
+      function_timeout: 
+      handler: 
+      max_scale: 
+      memory_limit: 
+      min_scale: 
+      name: 
+      namespace_id: 
+      privacy: 
+      query_parameters: 
+      redeploy: 
+      region: 
+      runtime: 
+      secret_environment_variables: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_sleep_time: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

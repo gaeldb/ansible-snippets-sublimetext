@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>sysvinit</tabTrigger>
+	<description>Manage SysV services.</description>
+	<content><![CDATA[
+- name: Manage SysV services.
+  sysvinit:
+      arguments: 
+      daemonize: 
+      enabled: 
+      name: 
+      pattern: 
+      runlevels: 
+      sleep: 
+      state: 
+]]>
+	</content>
+</snippet>

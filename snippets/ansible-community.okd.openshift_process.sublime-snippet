@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.okd.openshift_process</tabTrigger>
+	<description>Process an OpenShift template.openshift.io/v1 Template</description>
+	<content><![CDATA[
+- name: Process an OpenShift template.openshift.io/v1 Template
+  openshift_process:
+      api_key: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      context: 
+      host: 
+      kubeconfig: 
+      name: 
+      namespace: 
+      namespace_target: 
+      parameter_file: 
+      parameters: 
+      password: 
+      persist_config: 
+      proxy: 
+      resource_definition: 
+      src: 
+      state: 
+      username: 
+      validate_certs: 
+      wait: 
+      wait_condition: 
+      wait_sleep: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

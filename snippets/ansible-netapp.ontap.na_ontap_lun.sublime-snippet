@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_lun</tabTrigger>
+	<description>NetApp ONTAP manage LUNs</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage LUNs
+  na_ontap_lun:
+      cert_filepath: 
+      feature_flags: 
+      flexvol_name: 
+      force_remove: 
+      force_remove_fenced: 
+      force_resize: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      os_type: 
+      password: 
+      qos_policy_group: 
+      san_application_template: 
+      size: 
+      size_unit: 
+      space_allocation: 
+      space_reserve: 
+      state: 
+      use_exact_size: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

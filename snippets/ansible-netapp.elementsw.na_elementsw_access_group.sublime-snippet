@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.elementsw.na_elementsw_access_group</tabTrigger>
+	<description>NetApp Element Software Manage Access Groups</description>
+	<content><![CDATA[
+- name: NetApp Element Software Manage Access Groups
+  na_elementsw_access_group:
+      account_id: 
+      attributes: 
+      from_name: 
+      hostname: 
+      initiators: 
+      name: 
+      password: 
+      state: 
+      username: 
+      virtual_network_id: 
+      virtual_network_tags: 
+      volumes: 
+]]>
+	</content>
+</snippet>

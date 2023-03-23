@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.kibana_plugin</tabTrigger>
+	<description>Manage Kibana plugins</description>
+	<content><![CDATA[
+- name: Manage Kibana plugins
+  kibana_plugin:
+      allow_root: 
+      force: 
+      name: 
+      plugin_bin: 
+      plugin_dir: 
+      state: 
+      timeout: 
+      url: 
+      version: 
+]]>
+	</content>
+</snippet>

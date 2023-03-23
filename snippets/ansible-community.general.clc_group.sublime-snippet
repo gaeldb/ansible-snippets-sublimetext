@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_group</tabTrigger>
+	<description>Create/delete Server Groups at Centurylink Cloud</description>
+	<content><![CDATA[
+- name: Create/delete Server Groups at Centurylink Cloud
+  clc_group:
+      description: 
+      location: 
+      name: 
+      parent: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

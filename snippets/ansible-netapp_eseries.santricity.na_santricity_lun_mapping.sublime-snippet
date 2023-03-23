@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_lun_mapping</tabTrigger>
+	<description>NetApp E-Series manage lun mappings</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage lun mappings
+  na_santricity_lun_mapping:
+      api_password: 
+      api_url: 
+      api_username: 
+      lun: 
+      ssid: 
+      state: 
+      target: 
+      validate_certs: 
+      volume_name: 
+]]>
+	</content>
+</snippet>

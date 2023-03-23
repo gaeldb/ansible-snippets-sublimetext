@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_user_right</tabTrigger>
+	<description>Manage Windows User Rights</description>
+	<content><![CDATA[
+- name: Manage Windows User Rights
+  win_user_right:
+      action: 
+      name: 
+      users: 
+]]>
+	</content>
+</snippet>

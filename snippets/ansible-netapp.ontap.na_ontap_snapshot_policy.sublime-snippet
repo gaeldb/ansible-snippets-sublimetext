@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_snapshot_policy</tabTrigger>
+	<description>NetApp ONTAP manage Snapshot Policy</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage Snapshot Policy
+  na_ontap_snapshot_policy:
+      cert_filepath: 
+      comment: 
+      count: 
+      enabled: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      prefix: 
+      schedule: 
+      snapmirror_label: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

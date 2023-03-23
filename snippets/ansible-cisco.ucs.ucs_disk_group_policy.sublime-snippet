@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_disk_group_policy</tabTrigger>
+	<description>Configures disk group policies on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures disk group policies on Cisco UCS Manager
+  ucs_disk_group_policy:
+      configuration_mode: 
+      description: 
+      drive_type: 
+      hostname: 
+      manual_disks: 
+      min_drive_size: 
+      name: 
+      num_ded_hot_spares: 
+      num_drives: 
+      num_glob_hot_spares: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      raid_level: 
+      state: 
+      use_proxy: 
+      use_remaining_disks: 
+      use_ssl: 
+      username: 
+      virtual_drive: 
+]]>
+	</content>
+</snippet>

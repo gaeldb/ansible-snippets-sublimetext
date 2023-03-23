@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ftd_configuration</tabTrigger>
+	<description>Manages configuration on Cisco FTD devices over REST API</description>
+	<content><![CDATA[
+- name: Manages configuration on Cisco FTD devices over REST API
+  ftd_configuration:
+      data: 
+      filters: 
+      operation: 
+      path_params: 
+      query_params: 
+      register_as: 
+]]>
+	</content>
+</snippet>

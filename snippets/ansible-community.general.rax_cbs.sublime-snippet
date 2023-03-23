@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rax_cbs</tabTrigger>
+	<description>Manipulate Rackspace Cloud Block Storage Volumes</description>
+	<content><![CDATA[
+- name: Manipulate Rackspace Cloud Block Storage Volumes
+  rax_cbs:
+      api_key: 
+      auth_endpoint: 
+      credentials: 
+      description: 
+      env: 
+      identity_type: 
+      image: 
+      meta: 
+      name: 
+      region: 
+      size: 
+      snapshot_id: 
+      state: 
+      tenant_id: 
+      tenant_name: 
+      username: 
+      validate_certs: 
+      volume_type: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

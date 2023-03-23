@@ -1,0 +1,58 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ali_instance</tabTrigger>
+	<description>Create, Start, Stop, Restart or Terminate an Instance in ECS; Add or Remove Instance to/from a Security Group</description>
+	<content><![CDATA[
+- name: Create, Start, Stop, Restart or Terminate an Instance in ECS; Add or Remove Instance to/from a Security Group
+  ali_instance:
+      alicloud_access_key: 
+      alicloud_assume_role: 
+      alicloud_assume_role_arn: 
+      alicloud_assume_role_session_expiration: 
+      alicloud_assume_role_session_name: 
+      alicloud_region: 
+      alicloud_secret_key: 
+      alicloud_security_token: 
+      allocate_public_ip: 
+      auto_renew: 
+      auto_renew_period: 
+      availability_zone: 
+      count: 
+      count_tag: 
+      description: 
+      dry_run: 
+      ecs_role_name: 
+      force: 
+      host_name: 
+      image_id: 
+      include_data_disks: 
+      instance_charge_type: 
+      instance_ids: 
+      instance_name: 
+      instance_type: 
+      internet_charge_type: 
+      key_name: 
+      max_bandwidth_in: 
+      max_bandwidth_out: 
+      password: 
+      period: 
+      period_unit: 
+      profile: 
+      purge_tags: 
+      ram_role_name: 
+      security_groups: 
+      shared_credentials_file: 
+      spot_price_limit: 
+      spot_strategy: 
+      state: 
+      system_disk_category: 
+      system_disk_description: 
+      system_disk_name: 
+      system_disk_size: 
+      tags: 
+      unique_suffix: 
+      user_data: 
+      vswitch_id: 
+]]>
+	</content>
+</snippet>

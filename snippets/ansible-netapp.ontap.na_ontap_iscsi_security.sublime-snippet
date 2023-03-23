@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_iscsi_security</tabTrigger>
+	<description>NetApp ONTAP Manage iscsi security.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Manage iscsi security.
+  na_ontap_iscsi_security:
+      address_ranges: 
+      auth_type: 
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      inbound_password: 
+      inbound_username: 
+      initiator: 
+      key_filepath: 
+      ontapi: 
+      outbound_password: 
+      outbound_username: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

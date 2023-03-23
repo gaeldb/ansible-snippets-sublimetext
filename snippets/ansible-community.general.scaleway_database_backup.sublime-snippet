@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.scaleway_database_backup</tabTrigger>
+	<description>Scaleway database backups management module</description>
+	<content><![CDATA[
+- name: Scaleway database backups management module
+  scaleway_database_backup:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      database_name: 
+      expires_at: 
+      id: 
+      instance_id: 
+      name: 
+      query_parameters: 
+      region: 
+      state: 
+      validate_certs: 
+      wait: 
+      wait_sleep_time: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

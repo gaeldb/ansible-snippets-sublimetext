@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_qos</tabTrigger>
+	<description>Configures QoS</description>
+	<content><![CDATA[
+- name: Configures QoS
+  onyx_qos:
+      interfaces: 
+      rewrite_dscp: 
+      rewrite_pcp: 
+      trust: 
+]]>
+	</content>
+</snippet>

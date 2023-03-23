@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_quota_policy</tabTrigger>
+	<description>NetApp Ontap create, assign, rename or delete quota policy</description>
+	<content><![CDATA[
+- name: NetApp Ontap create, assign, rename or delete quota policy
+  na_ontap_quota_policy:
+      auto_assign: 
+      cert_filepath: 
+      feature_flags: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

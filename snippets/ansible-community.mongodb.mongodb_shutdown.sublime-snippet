@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.mongodb.mongodb_shutdown</tabTrigger>
+	<description>Cleans up all database resources and then terminates the mongod/mongos process.</description>
+	<content><![CDATA[
+- name: Cleans up all database resources and then terminates the mongod/mongos process.
+  mongodb_shutdown:
+      auth_mechanism: 
+      connection_options: 
+      force: 
+      login_database: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_user: 
+      ssl: 
+      ssl_ca_certs: 
+      ssl_cert_reqs: 
+      ssl_certfile: 
+      ssl_crlfile: 
+      ssl_keyfile: 
+      ssl_pem_passphrase: 
+      timeout: 
+]]>
+	</content>
+</snippet>

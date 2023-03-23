@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_snmp_users</tabTrigger>
+	<description>Configures SNMP User parameters</description>
+	<content><![CDATA[
+- name: Configures SNMP User parameters
+  onyx_snmp_users:
+      users: 
+]]>
+	</content>
+</snippet>

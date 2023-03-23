@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psrepository_copy</tabTrigger>
+	<description>Copies registered PSRepositories to other user profiles</description>
+	<content><![CDATA[
+- name: Copies registered PSRepositories to other user profiles
+  win_psrepository_copy:
+      exclude: 
+      exclude_profiles: 
+      name: 
+      profiles: 
+      source: 
+]]>
+	</content>
+</snippet>

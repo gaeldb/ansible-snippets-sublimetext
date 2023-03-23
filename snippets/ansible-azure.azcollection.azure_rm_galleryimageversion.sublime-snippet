@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_galleryimageversion</tabTrigger>
+	<description>Manage Azure SIG Image Version instance</description>
+	<content><![CDATA[
+- name: Manage Azure SIG Image Version instance
+  azure_rm_galleryimageversion:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      gallery_image_name: 
+      gallery_name: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      publishing_profile: 
+      resource_group: 
+      secret: 
+      state: 
+      storage_profile: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

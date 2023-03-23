@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_front_port</tabTrigger>
+	<description>Create, update or delete front ports within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete front ports within Netbox
+  netbox_front_port:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_certificate_local</tabTrigger>
+	<description>Local keys and certificates in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Local keys and certificates in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_certificate_local:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_certificate_local: 
+]]>
+	</content>
+</snippet>

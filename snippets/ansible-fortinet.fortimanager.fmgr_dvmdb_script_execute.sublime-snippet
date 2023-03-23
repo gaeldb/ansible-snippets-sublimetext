@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_dvmdb_script_execute</tabTrigger>
+	<description>Run script.</description>
+	<content><![CDATA[
+- name: Run script.
+  fmgr_dvmdb_script_execute:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

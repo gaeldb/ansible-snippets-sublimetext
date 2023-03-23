@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_showrun</tabTrigger>
+	<description>Collect the current running configuration on devices running on CNOS</description>
+	<content><![CDATA[
+- name: Collect the current running configuration on devices running on CNOS
+  cnos_showrun:
+      deviceType: 
+      enablePassword: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

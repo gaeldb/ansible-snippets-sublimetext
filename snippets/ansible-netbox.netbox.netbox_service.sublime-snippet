@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_service</tabTrigger>
+	<description>Creates or removes service from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes service from Netbox
+  netbox_service:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

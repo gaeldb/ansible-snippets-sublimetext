@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.rabbitmq.rabbitmq_binding</tabTrigger>
+	<description>Manage rabbitMQ bindings</description>
+	<content><![CDATA[
+- name: Manage rabbitMQ bindings
+  rabbitmq_binding:
+      arguments: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      destination: 
+      destination_type: 
+      login_host: 
+      login_password: 
+      login_port: 
+      login_protocol: 
+      login_user: 
+      name: 
+      routing_key: 
+      state: 
+      vhost: 
+]]>
+	</content>
+</snippet>

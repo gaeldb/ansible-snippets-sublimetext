@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>copy</tabTrigger>
+	<description>Copy files to remote locations</description>
+	<content><![CDATA[
+- name: Copy files to remote locations
+  copy:
+      attributes: 
+      backup: 
+      checksum: 
+      content: 
+      decrypt: 
+      dest: 
+      directory_mode: 
+      follow: 
+      force: 
+      group: 
+      local_follow: 
+      mode: 
+      owner: 
+      remote_src: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      src: 
+      unsafe_writes: 
+      validate: 
+]]>
+	</content>
+</snippet>

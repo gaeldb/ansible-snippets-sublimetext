@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.okd.openshift_auth</tabTrigger>
+	<description>Authenticate to OpenShift clusters which require an explicit login step</description>
+	<content><![CDATA[
+- name: Authenticate to OpenShift clusters which require an explicit login step
+  openshift_auth:
+      api_key: 
+      ca_cert: 
+      host: 
+      password: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

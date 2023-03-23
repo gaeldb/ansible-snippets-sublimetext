@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_service_manager</tabTrigger>
+	<description>Manage services on a given ESXi host</description>
+	<content><![CDATA[
+- name: Manage services on a given ESXi host
+  vmware_host_service_manager:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      service_name: 
+      service_policy: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

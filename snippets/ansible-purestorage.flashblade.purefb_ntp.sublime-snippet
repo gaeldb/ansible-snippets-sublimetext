@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_ntp</tabTrigger>
+	<description>Configure Pure Storage FlashBlade NTP settings</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashBlade NTP settings
+  purefb_ntp:
+      api_token: 
+      fb_url: 
+      ntp_servers: 
+      state: 
+]]>
+	</content>
+</snippet>

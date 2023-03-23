@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.hrobot.failover_ip</tabTrigger>
+	<description>Manage Hetzner's failover IPs</description>
+	<content><![CDATA[
+- name: Manage Hetzner's failover IPs
+  failover_ip:
+      failover_ip: 
+      hetzner_password: 
+      hetzner_user: 
+      state: 
+      timeout: 
+      value: 
+]]>
+	</content>
+</snippet>

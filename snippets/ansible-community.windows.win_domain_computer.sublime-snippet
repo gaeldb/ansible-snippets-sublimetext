@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_domain_computer</tabTrigger>
+	<description>Manage computers in Active Directory</description>
+	<content><![CDATA[
+- name: Manage computers in Active Directory
+  win_domain_computer:
+      description: 
+      dns_hostname: 
+      domain_password: 
+      domain_server: 
+      domain_username: 
+      enabled: 
+      managed_by: 
+      name: 
+      odj_blob_path: 
+      offline_domain_join: 
+      ou: 
+      sam_account_name: 
+      state: 
+]]>
+	</content>
+</snippet>

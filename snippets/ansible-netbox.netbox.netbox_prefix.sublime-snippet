@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_prefix</tabTrigger>
+	<description>Creates or removes prefixes from Netbox</description>
+	<content><![CDATA[
+- name: Creates or removes prefixes from Netbox
+  netbox_prefix:
+      data: 
+      first_available: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

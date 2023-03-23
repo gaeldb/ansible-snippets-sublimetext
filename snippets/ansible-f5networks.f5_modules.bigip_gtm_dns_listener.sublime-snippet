@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_dns_listener</tabTrigger>
+	<description>Configures the BIG-IP DNS system to answer TCP or UDP DNS requests</description>
+	<content><![CDATA[
+- name: Configures the BIG-IP DNS system to answer TCP or UDP DNS requests
+  bigip_gtm_dns_listener:
+      address: 
+      advertise: 
+      auto_lasthop: 
+      description: 
+      disabled_vlans: 
+      enabled_vlans: 
+      fallback_persistence: 
+      ip_protocol: 
+      irules: 
+      last_hop_pool: 
+      mask: 
+      name: 
+      partition: 
+      pool: 
+      port: 
+      provider: 
+      source_port: 
+      state: 
+      translate_address: 
+      translate_port: 
+]]>
+	</content>
+</snippet>

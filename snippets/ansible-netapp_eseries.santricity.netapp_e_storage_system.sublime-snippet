@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_storage_system</tabTrigger>
+	<description>NetApp E-Series Web Services Proxy manage storage arrays</description>
+	<content><![CDATA[
+- name: NetApp E-Series Web Services Proxy manage storage arrays
+  netapp_e_storage_system:
+      api_password: 
+      api_url: 
+      api_username: 
+      array_password: 
+      array_status_timeout_sec: 
+      array_wwn: 
+      controller_addresses: 
+      enable_trace: 
+      meta_tags: 
+      ssid: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

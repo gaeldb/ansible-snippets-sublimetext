@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vhba_template</tabTrigger>
+	<description>Configures vHBA templates on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures vHBA templates on Cisco UCS Manager
+  ucs_vhba_template:
+      description: 
+      fabric: 
+      hostname: 
+      max_data: 
+      name: 
+      org_dn: 
+      password: 
+      pin_group: 
+      port: 
+      proxy: 
+      qos_policy: 
+      redundancy_type: 
+      state: 
+      stats_policy: 
+      template_type: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vsan: 
+      wwpn_pool: 
+]]>
+	</content>
+</snippet>

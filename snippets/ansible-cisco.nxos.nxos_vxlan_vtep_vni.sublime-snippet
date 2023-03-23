@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vxlan_vtep_vni</tabTrigger>
+	<description>Creates a Virtual Network Identifier member (VNI)</description>
+	<content><![CDATA[
+- name: Creates a Virtual Network Identifier member (VNI)
+  nxos_vxlan_vtep_vni:
+      assoc_vrf: 
+      ingress_replication: 
+      interface: 
+      multicast_group: 
+      multisite_ingress_replication: 
+      peer_list: 
+      provider: 
+      state: 
+      suppress_arp: 
+      suppress_arp_disable: 
+      vni: 
+]]>
+	</content>
+</snippet>

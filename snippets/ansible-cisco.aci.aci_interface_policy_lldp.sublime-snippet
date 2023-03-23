@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_lldp</tabTrigger>
+	<description>Manage LLDP interface policies (lldp:IfPol)</description>
+	<content><![CDATA[
+- name: Manage LLDP interface policies (lldp:IfPol)
+  aci_interface_policy_lldp:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      lldp_policy: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      receive_state: 
+      state: 
+      timeout: 
+      transmit_state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ms_storm_control</tabTrigger>
+	<description>Manage storm control configuration on a switch in the Meraki cloud</description>
+	<content><![CDATA[
+- name: Manage storm control configuration on a switch in the Meraki cloud
+  meraki_ms_storm_control:
+      auth_key: 
+      broadcast_threshold: 
+      host: 
+      internal_error_retry_time: 
+      multicast_threshold: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      unknown_unicast_threshold: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

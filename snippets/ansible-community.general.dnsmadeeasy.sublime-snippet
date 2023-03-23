@@ -1,0 +1,37 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dnsmadeeasy</tabTrigger>
+	<description>Interface with dnsmadeeasy.com (a DNS hosting service)</description>
+	<content><![CDATA[
+- name: Interface with dnsmadeeasy.com (a DNS hosting service)
+  dnsmadeeasy:
+      account_key: 
+      account_secret: 
+      autoFailover: 
+      contactList: 
+      domain: 
+      failover: 
+      httpFile: 
+      httpFqdn: 
+      httpQueryString: 
+      ip1: 
+      ip2: 
+      ip3: 
+      ip4: 
+      ip5: 
+      maxEmails: 
+      monitor: 
+      port: 
+      protocol: 
+      record_name: 
+      record_ttl: 
+      record_type: 
+      record_value: 
+      sandbox: 
+      sensitivity: 
+      state: 
+      systemDescription: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

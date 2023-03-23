@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.identity_group_info</tabTrigger>
+	<description>Retrieve info about one or more OpenStack groups</description>
+	<content><![CDATA[
+- name: Retrieve info about one or more OpenStack groups
+  identity_group_info:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      domain: 
+      filters: 
+      interface: 
+      name: 
+      region_name: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

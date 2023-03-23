@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.iso_customize</tabTrigger>
+	<description>Add/remove/change files in ISO file</description>
+	<content><![CDATA[
+- name: Add/remove/change files in ISO file
+  iso_customize:
+      add_files: 
+      delete_files: 
+      dest_iso: 
+      src_iso: 
+]]>
+	</content>
+</snippet>

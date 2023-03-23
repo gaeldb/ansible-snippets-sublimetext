@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_video</tabTrigger>
+	<description>Modify video card configurations of specified virtual machine in given vCenter infrastructure</description>
+	<content><![CDATA[
+- name: Modify video card configurations of specified virtual machine in given vCenter infrastructure
+  vmware_guest_video:
+      datacenter: 
+      display_number: 
+      enable_3D: 
+      folder: 
+      gather_video_facts: 
+      hostname: 
+      memory_3D_mb: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      renderer_3D: 
+      use_auto_detect: 
+      username: 
+      uuid: 
+      validate_certs: 
+      video_memory_mb: 
+]]>
+	</content>
+</snippet>

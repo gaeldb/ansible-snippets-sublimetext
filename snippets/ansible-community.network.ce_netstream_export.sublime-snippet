@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_netstream_export</tabTrigger>
+	<description>Manages netstream export on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages netstream export on HUAWEI CloudEngine switches.
+  ce_netstream_export:
+      as_option: 
+      bgp_nexthop: 
+      host_ip: 
+      host_port: 
+      host_vpn: 
+      source_ip: 
+      state: 
+      type: 
+      version: 
+]]>
+	</content>
+</snippet>

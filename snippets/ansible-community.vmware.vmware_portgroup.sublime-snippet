@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_portgroup</tabTrigger>
+	<description>Create a VMware portgroup</description>
+	<content><![CDATA[
+- name: Create a VMware portgroup
+  vmware_portgroup:
+      cluster_name: 
+      hostname: 
+      hosts: 
+      password: 
+      port: 
+      portgroup: 
+      proxy_host: 
+      proxy_port: 
+      security: 
+      state: 
+      switch: 
+      teaming: 
+      traffic_shaping: 
+      username: 
+      validate_certs: 
+      vlan_id: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_zone</tabTrigger>
+	<description>Manage OpenStack DNS zones</description>
+	<content><![CDATA[
+- name: Manage OpenStack DNS zones
+  dns_zone:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      description: 
+      email: 
+      interface: 
+      masters: 
+      name: 
+      region_name: 
+      state: 
+      timeout: 
+      ttl: 
+      validate_certs: 
+      wait: 
+      zone_type: 
+]]>
+	</content>
+</snippet>

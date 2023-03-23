@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_iothub_info</tabTrigger>
+	<description>Get IoT Hub facts</description>
+	<content><![CDATA[
+- name: Get IoT Hub facts
+  azure_rm_iothub_info:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      list_consumer_groups: 
+      list_keys: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      show_endpoint_health: 
+      show_quota_metrics: 
+      show_stats: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      test_route_message: 
+]]>
+	</content>
+</snippet>

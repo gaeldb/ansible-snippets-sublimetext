@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_group</tabTrigger>
+	<description>Creates/updates/deletes GitLab Groups</description>
+	<content><![CDATA[
+- name: Creates/updates/deletes GitLab Groups
+  gitlab_group:
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      auto_devops_enabled: 
+      avatar_path: 
+      description: 
+      name: 
+      parent: 
+      path: 
+      project_creation_level: 
+      require_two_factor_authentication: 
+      state: 
+      subgroup_creation_level: 
+      validate_certs: 
+      visibility: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_ips_settings</tabTrigger>
+	<description>Configure IPS VDOM parameter in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IPS VDOM parameter in Fortinet's FortiOS and FortiGate.
+  fortios_ips_settings:
+      access_token: 
+      ips_settings: 
+      vdom: 
+]]>
+	</content>
+</snippet>

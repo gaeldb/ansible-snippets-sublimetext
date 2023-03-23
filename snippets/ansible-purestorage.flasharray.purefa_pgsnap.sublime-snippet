@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_pgsnap</tabTrigger>
+	<description>Manage protection group snapshots on Pure Storage FlashArrays</description>
+	<content><![CDATA[
+- name: Manage protection group snapshots on Pure Storage FlashArrays
+  purefa_pgsnap:
+      api_token: 
+      apply_retention: 
+      eradicate: 
+      fa_url: 
+      name: 
+      now: 
+      offload: 
+      overwrite: 
+      remote: 
+      restore: 
+      state: 
+      suffix: 
+      target: 
+]]>
+	</content>
+</snippet>

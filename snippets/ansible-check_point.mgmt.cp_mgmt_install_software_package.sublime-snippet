@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_install_software_package</tabTrigger>
+	<description>Installs the software package on target machines.</description>
+	<content><![CDATA[
+- name: Installs the software package on target machines.
+  cp_mgmt_install_software_package:
+      cluster_installation_settings: 
+      concurrency_limit: 
+      method: 
+      name: 
+      package_location: 
+      targets: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

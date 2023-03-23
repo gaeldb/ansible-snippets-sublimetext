@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lxd_container</tabTrigger>
+	<description>Manage LXD instances</description>
+	<content><![CDATA[
+- name: Manage LXD instances
+  lxd_container:
+      architecture: 
+      client_cert: 
+      client_key: 
+      config: 
+      devices: 
+      ephemeral: 
+      force_stop: 
+      ignore_volatile_options: 
+      name: 
+      profiles: 
+      project: 
+      snap_url: 
+      source: 
+      state: 
+      target: 
+      timeout: 
+      trust_password: 
+      type: 
+      url: 
+      wait_for_container: 
+      wait_for_ipv4_addresses: 
+]]>
+	</content>
+</snippet>

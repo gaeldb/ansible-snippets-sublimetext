@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_igroup</tabTrigger>
+	<description>NetApp ONTAP iSCSI or FC igroup configuration</description>
+	<content><![CDATA[
+- name: NetApp ONTAP iSCSI or FC igroup configuration
+  na_ontap_igroup:
+      bind_portset: 
+      cert_filepath: 
+      feature_flags: 
+      force_remove_initiator: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      initiator_group_type: 
+      initiators: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      os_type: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

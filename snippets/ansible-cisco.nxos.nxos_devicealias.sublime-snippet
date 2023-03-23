@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_devicealias</tabTrigger>
+	<description>Configuration of device alias for Cisco NXOS MDS Switches.</description>
+	<content><![CDATA[
+- name: Configuration of device alias for Cisco NXOS MDS Switches.
+  nxos_devicealias:
+      da: 
+      distribute: 
+      mode: 
+      rename: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_verify_policy</tabTrigger>
+	<description>Verifies the policy of the selected package.</description>
+	<content><![CDATA[
+- name: Verifies the policy of the selected package.
+  cp_mgmt_verify_policy:
+      policy_package: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

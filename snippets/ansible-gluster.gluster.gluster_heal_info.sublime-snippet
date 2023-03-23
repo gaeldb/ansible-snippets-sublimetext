@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>gluster.gluster.gluster_heal_info</tabTrigger>
+	<description>Gather information on self-heal or rebalance status</description>
+	<content><![CDATA[
+- name: Gather information on self-heal or rebalance status
+  gluster_heal_info:
+      name: 
+      status_filter: 
+]]>
+	</content>
+</snippet>

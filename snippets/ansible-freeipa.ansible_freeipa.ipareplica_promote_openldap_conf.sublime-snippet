@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipareplica_promote_openldap_conf</tabTrigger>
+	<description>Promote openldap.conf</description>
+	<content><![CDATA[
+- name: Promote openldap.conf
+  ipareplica_promote_openldap_conf:
+      _top_dir: 
+      ccache: 
+      config_master_host_name: 
+      config_setup_ca: 
+      setup_kra: 
+      subject_base: 
+]]>
+	</content>
+</snippet>

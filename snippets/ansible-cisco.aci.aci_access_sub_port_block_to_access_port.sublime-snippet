@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_access_sub_port_block_to_access_port</tabTrigger>
+	<description>Manage sub port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:SubPortBlk)</description>
+	<content><![CDATA[
+- name: Manage sub port blocks of Fabric interface policy leaf profile interface selectors (infra:HPortS, infra:SubPortBlk)
+  aci_access_sub_port_block_to_access_port:
+      access_port_selector: 
+      annotation: 
+      certificate_name: 
+      from_card: 
+      from_port: 
+      from_sub_port: 
+      host: 
+      leaf_interface_profile: 
+      leaf_port_blk: 
+      leaf_port_blk_description: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      to_card: 
+      to_port: 
+      to_sub_port: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

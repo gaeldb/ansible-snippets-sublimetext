@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wait_for_connection</tabTrigger>
+	<description>Waits until remote system is reachable/usable</description>
+	<content><![CDATA[
+- name: Waits until remote system is reachable/usable
+  wait_for_connection:
+      connect_timeout: 
+      delay: 
+      sleep: 
+      timeout: 
+]]>
+	</content>
+</snippet>

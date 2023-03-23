@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.sl_vm</tabTrigger>
+	<description>Create or cancel a virtual instance in SoftLayer</description>
+	<content><![CDATA[
+- name: Create or cancel a virtual instance in SoftLayer
+  sl_vm:
+      cpus: 
+      datacenter: 
+      dedicated: 
+      disks: 
+      domain: 
+      flavor: 
+      hostname: 
+      hourly: 
+      image_id: 
+      instance_id: 
+      local_disk: 
+      memory: 
+      nic_speed: 
+      os_code: 
+      post_uri: 
+      private: 
+      private_vlan: 
+      public_vlan: 
+      ssh_keys: 
+      state: 
+      tags: 
+      wait: 
+      wait_time: 
+]]>
+	</content>
+</snippet>

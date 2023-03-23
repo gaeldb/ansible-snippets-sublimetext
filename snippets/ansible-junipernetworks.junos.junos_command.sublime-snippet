@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_command</tabTrigger>
+	<description>Run arbitrary commands on an Juniper JUNOS device</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on an Juniper JUNOS device
+  junos_command:
+      commands: 
+      display: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      rpcs: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

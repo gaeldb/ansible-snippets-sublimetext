@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.subscription_manifest</tabTrigger>
+	<description>Manage Subscription Manifests</description>
+	<content><![CDATA[
+- name: Manage Subscription Manifests
+  subscription_manifest:
+      manifest_path: 
+      organization: 
+      password: 
+      repository_url: 
+      server_url: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

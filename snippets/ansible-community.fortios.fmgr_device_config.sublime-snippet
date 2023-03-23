@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.fortios.fmgr_device_config</tabTrigger>
+	<description>Edit device configurations</description>
+	<content><![CDATA[
+- name: Edit device configurations
+  fmgr_device_config:
+      adom: 
+      device_hostname: 
+      device_unique_name: 
+      install_config: 
+      interface: 
+      interface_allow_access: 
+      interface_ip: 
+]]>
+	</content>
+</snippet>

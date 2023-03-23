@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>infinidat.infinibox.infini_export</tabTrigger>
+	<description>Create, Delete or Modify NFS Exports on Infinibox</description>
+	<content><![CDATA[
+- name: Create, Delete or Modify NFS Exports on Infinibox
+  infini_export:
+      client_list: 
+      filesystem: 
+      name: 
+      password: 
+      state: 
+      system: 
+      user: 
+]]>
+	</content>
+</snippet>

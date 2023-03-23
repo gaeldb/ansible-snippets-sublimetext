@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.mso.mso_schema_template_anp_epg</tabTrigger>
+	<description>Manage Endpoint Groups (EPGs) in schema templates</description>
+	<content><![CDATA[
+- name: Manage Endpoint Groups (EPGs) in schema templates
+  mso_schema_template_anp_epg:
+      anp: 
+      bd: 
+      display_name: 
+      epg: 
+      host: 
+      intersite_multicast_source: 
+      intra_epg_isolation: 
+      login_domain: 
+      output_level: 
+      password: 
+      port: 
+      preferred_group: 
+      proxy_arp: 
+      schema: 
+      state: 
+      subnets: 
+      template: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      useg_epg: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

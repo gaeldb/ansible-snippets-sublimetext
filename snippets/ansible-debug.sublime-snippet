@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>debug</tabTrigger>
+	<description>Print statements during execution</description>
+	<content><![CDATA[
+- name: Print statements during execution
+  debug:
+      msg: 
+      var: 
+      verbosity: 
+]]>
+	</content>
+</snippet>

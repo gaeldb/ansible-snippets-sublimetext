@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_ssl_certificate</tabTrigger>
+	<description>Import/Delete certificates from BIG-IP</description>
+	<content><![CDATA[
+- name: Import/Delete certificates from BIG-IP
+  bigip_ssl_certificate:
+      content: 
+      issuer_cert: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

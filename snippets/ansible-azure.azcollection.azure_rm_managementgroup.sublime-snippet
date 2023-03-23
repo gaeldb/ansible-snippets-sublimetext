@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_managementgroup</tabTrigger>
+	<description>Manage Azure ManagementGroup instance</description>
+	<content><![CDATA[
+- name: Manage Azure ManagementGroup instance
+  azure_rm_managementgroup:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      group_id: 
+      id: 
+      name: 
+      password: 
+      profile: 
+      properties: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      type: 
+]]>
+	</content>
+</snippet>

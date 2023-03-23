@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_smu</tabTrigger>
+	<description>(deprecated, removed after 2022-10-01) Perform SMUs on Cisco NX-OS devices.</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-10-01) Perform SMUs on Cisco NX-OS devices.
+  nxos_smu:
+      file_system: 
+      pkg: 
+      provider: 
+]]>
+	</content>
+</snippet>

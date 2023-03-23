@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvs_portgroup_facts</tabTrigger>
+	<description>Gathers facts DVS portgroup configurations</description>
+	<content><![CDATA[
+- name: Gathers facts DVS portgroup configurations
+  vmware_dvs_portgroup_facts:
+      datacenter: 
+      dvswitch: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      show_network_policy: 
+      show_port_policy: 
+      show_teaming_policy: 
+      show_vlan_info: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_vrf</tabTrigger>
+	<description>Manage the VRF definitions on Juniper JUNOS devices</description>
+	<content><![CDATA[
+- name: Manage the VRF definitions on Juniper JUNOS devices
+  junos_vrf:
+      active: 
+      aggregate: 
+      description: 
+      interfaces: 
+      name: 
+      provider: 
+      rd: 
+      state: 
+      table_label: 
+      target: 
+]]>
+	</content>
+</snippet>

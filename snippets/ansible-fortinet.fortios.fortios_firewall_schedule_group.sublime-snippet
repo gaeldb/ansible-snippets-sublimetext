@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_schedule_group</tabTrigger>
+	<description>Schedule group configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Schedule group configuration in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_schedule_group:
+      access_token: 
+      firewall_schedule_group: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cyberark.pas.cyberark_account</tabTrigger>
+	<description>Module for CyberArk Account object creation, deletion, and modification using PAS Web Services SDK.</description>
+	<content><![CDATA[
+- name: Module for CyberArk Account object creation, deletion, and modification using PAS Web Services SDK.
+  cyberark_account:
+      address: 
+      api_base_url: 
+      cyberark_session: 
+      identified_by: 
+      logging_file: 
+      logging_level: 
+      name: 
+      new_secret: 
+      platform_account_properties: 
+      platform_id: 
+      remote_machines_access: 
+      safe: 
+      secret: 
+      secret_management: 
+      secret_type: 
+      state: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

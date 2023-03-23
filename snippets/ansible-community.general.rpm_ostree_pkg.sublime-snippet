@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rpm_ostree_pkg</tabTrigger>
+	<description>Install or uninstall overlay additional packages</description>
+	<content><![CDATA[
+- name: Install or uninstall overlay additional packages
+  rpm_ostree_pkg:
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

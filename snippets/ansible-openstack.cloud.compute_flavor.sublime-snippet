@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.compute_flavor</tabTrigger>
+	<description>Manage OpenStack compute flavors</description>
+	<content><![CDATA[
+- name: Manage OpenStack compute flavors
+  compute_flavor:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      disk: 
+      ephemeral: 
+      extra_specs: 
+      flavorid: 
+      interface: 
+      is_public: 
+      name: 
+      ram: 
+      region_name: 
+      rxtx_factor: 
+      state: 
+      swap: 
+      timeout: 
+      validate_certs: 
+      vcpus: 
+      wait: 
+]]>
+	</content>
+</snippet>

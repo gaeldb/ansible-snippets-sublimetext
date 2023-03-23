@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_volume</tabTrigger>
+	<description>Manages volumes on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages volumes on Apache CloudStack based clouds.
+  cs_volume:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      custom_id: 
+      device_id: 
+      disk_offering: 
+      display_volume: 
+      domain: 
+      force: 
+      format: 
+      max_iops: 
+      min_iops: 
+      mode: 
+      name: 
+      poll_async: 
+      project: 
+      shrink_ok: 
+      size: 
+      snapshot: 
+      state: 
+      tags: 
+      url: 
+      vm: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.waf_rule</tabTrigger>
+	<description>Create and delete WAF Rules</description>
+	<content><![CDATA[
+- name: Create and delete WAF Rules
+  waf_rule:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      conditions: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      metric_name: 
+      name: 
+      profile: 
+      purge_conditions: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+      waf_regional: 
+]]>
+	</content>
+</snippet>

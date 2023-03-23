@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_virtualnetworkgateway</tabTrigger>
+	<description>Manage Azure virtual network gateways</description>
+	<content><![CDATA[
+- name: Manage Azure virtual network gateways
+  azure_rm_virtualnetworkgateway:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      bgp_settings: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      enable_bgp: 
+      gateway_type: 
+      ip_configurations: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      sku: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      virtual_network: 
+      vpn_type: 
+]]>
+	</content>
+</snippet>

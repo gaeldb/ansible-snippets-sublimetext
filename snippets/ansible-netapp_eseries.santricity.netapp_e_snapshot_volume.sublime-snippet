@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.netapp_e_snapshot_volume</tabTrigger>
+	<description>NetApp E-Series manage snapshot volumes.</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage snapshot volumes.
+  netapp_e_snapshot_volume:
+      api_password: 
+      api_url: 
+      api_username: 
+      full_threshold: 
+      name: 
+      repo_percentage: 
+      snapshot_image_id: 
+      ssid: 
+      state: 
+      storage_pool_name: 
+      validate_certs: 
+      view_mode: 
+]]>
+	</content>
+</snippet>

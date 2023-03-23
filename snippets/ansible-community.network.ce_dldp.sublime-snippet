@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_dldp</tabTrigger>
+	<description>Manages global DLDP configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages global DLDP configuration on HUAWEI CloudEngine switches.
+  ce_dldp:
+      auth_mode: 
+      auth_pwd: 
+      enable: 
+      reset: 
+      time_internal: 
+      work_mode: 
+]]>
+	</content>
+</snippet>

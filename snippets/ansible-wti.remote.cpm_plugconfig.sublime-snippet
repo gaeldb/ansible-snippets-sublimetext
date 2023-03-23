@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_plugconfig</tabTrigger>
+	<description>Get and Set Plug Parameters on WTI OOB and PDU power devices</description>
+	<content><![CDATA[
+- name: Get and Set Plug Parameters on WTI OOB and PDU power devices
+  cpm_plugconfig:
+      cpm_action: 
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      plug_bootdelay: 
+      plug_bootpriority: 
+      plug_default: 
+      plug_id: 
+      plug_name: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

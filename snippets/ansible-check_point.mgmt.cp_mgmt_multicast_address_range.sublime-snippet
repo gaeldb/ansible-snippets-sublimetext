@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_multicast_address_range</tabTrigger>
+	<description>Manages multicast-address-range objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages multicast-address-range objects on Check Point over Web Services API
+  cp_mgmt_multicast_address_range:
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      ip_address: 
+      ip_address_first: 
+      ip_address_last: 
+      ipv4_address: 
+      ipv4_address_first: 
+      ipv4_address_last: 
+      ipv6_address: 
+      ipv6_address_first: 
+      ipv6_address_last: 
+      name: 
+      state: 
+      tags: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

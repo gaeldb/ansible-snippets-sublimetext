@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_psscript_info</tabTrigger>
+	<description>Gather information about installed PowerShell Scripts</description>
+	<content><![CDATA[
+- name: Gather information about installed PowerShell Scripts
+  win_psscript_info:
+      name: 
+      repository: 
+]]>
+	</content>
+</snippet>

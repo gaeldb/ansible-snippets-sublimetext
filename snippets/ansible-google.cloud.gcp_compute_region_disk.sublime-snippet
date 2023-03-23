@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_region_disk</tabTrigger>
+	<description>Creates a GCP RegionDisk</description>
+	<content><![CDATA[
+- name: Creates a GCP RegionDisk
+  gcp_compute_region_disk:
+      auth_kind: 
+      description: 
+      disk_encryption_key: 
+      env_type: 
+      labels: 
+      licenses: 
+      name: 
+      physical_block_size_bytes: 
+      project: 
+      region: 
+      replica_zones: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      size_gb: 
+      source_snapshot: 
+      source_snapshot_encryption_key: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

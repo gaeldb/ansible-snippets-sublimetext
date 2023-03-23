@@ -1,0 +1,48 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_virtual_server</tabTrigger>
+	<description>Manage LTM virtual servers on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage LTM virtual servers on a BIG-IP
+  bigip_virtual_server:
+      address_translation: 
+      bypass_module_checks: 
+      check_profiles: 
+      clone_pools: 
+      default_persistence_profile: 
+      description: 
+      destination: 
+      disabled_vlans: 
+      enabled_vlans: 
+      fallback_persistence_profile: 
+      firewall_enforced_policy: 
+      firewall_staged_policy: 
+      insert_metadata: 
+      ip_intelligence_policy: 
+      ip_protocol: 
+      irules: 
+      mask: 
+      metadata: 
+      mirror: 
+      name: 
+      partition: 
+      policies: 
+      pool: 
+      port: 
+      port_translation: 
+      profiles: 
+      provider: 
+      rate_limit: 
+      rate_limit_dst_mask: 
+      rate_limit_mode: 
+      rate_limit_src_mask: 
+      security_log_profiles: 
+      security_nat_policy: 
+      snat: 
+      source: 
+      source_port: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

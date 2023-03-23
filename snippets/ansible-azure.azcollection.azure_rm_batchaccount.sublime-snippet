@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_batchaccount</tabTrigger>
+	<description>Manages a Batch Account on Azure</description>
+	<content><![CDATA[
+- name: Manages a Batch Account on Azure
+  azure_rm_batchaccount:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      auto_storage_account: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      key_vault: 
+      location: 
+      name: 
+      password: 
+      pool_allocation_mode: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

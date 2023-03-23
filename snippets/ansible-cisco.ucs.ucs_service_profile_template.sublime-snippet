@@ -1,0 +1,50 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_service_profile_template</tabTrigger>
+	<description>Configures Service Profile Templates on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures Service Profile Templates on Cisco UCS Manager
+  ucs_service_profile_template:
+      bios_policy: 
+      boot_policy: 
+      description: 
+      graphics_card_policy: 
+      host_firmware_package: 
+      hostname: 
+      ipmi_access_profile: 
+      iqn_pool: 
+      kvm_mgmt_policy: 
+      lan_connectivity_policy: 
+      local_disk_policy: 
+      maintenance_policy: 
+      mgmt_inband_pool_name: 
+      mgmt_interface_mode: 
+      mgmt_ip_pool: 
+      mgmt_ip_state: 
+      mgmt_vnet_name: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      power_control_policy: 
+      power_state: 
+      power_sync_policy: 
+      proxy: 
+      san_connectivity_policy: 
+      scrub_policy: 
+      server_pool: 
+      server_pool_qualification: 
+      sol_policy: 
+      state: 
+      storage_profile: 
+      template_type: 
+      threshold_policy: 
+      use_proxy: 
+      use_ssl: 
+      user_label: 
+      username: 
+      uuid_pool: 
+      vmedia_policy: 
+]]>
+	</content>
+</snippet>

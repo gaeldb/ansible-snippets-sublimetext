@@ -1,0 +1,10 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_dotnet_ngen</tabTrigger>
+	<description>Runs ngen to recompile DLLs after .NET  updates</description>
+	<content><![CDATA[
+- name: Runs ngen to recompile DLLs after .NET  updates
+  win_dotnet_ngen:
+]]>
+	</content>
+</snippet>

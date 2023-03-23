@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vcenter_settings_info</tabTrigger>
+	<description>Gather info vCenter settings</description>
+	<content><![CDATA[
+- name: Gather info vCenter settings
+  vmware_vcenter_settings_info:
+      hostname: 
+      password: 
+      port: 
+      properties: 
+      proxy_host: 
+      proxy_port: 
+      schema: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rhevm</tabTrigger>
+	<description>RHEV/oVirt automation</description>
+	<content><![CDATA[
+- name: RHEV/oVirt automation
+  rhevm:
+      boot_order: 
+      cd_drive: 
+      cluster: 
+      cpu_share: 
+      datacenter: 
+      del_prot: 
+      disks: 
+      ifaces: 
+      image: 
+      insecure_api: 
+      mempol: 
+      name: 
+      osver: 
+      password: 
+      port: 
+      server: 
+      state: 
+      timeout: 
+      type: 
+      user: 
+      vm_ha: 
+      vmcpu: 
+      vmhost: 
+      vmmem: 
+]]>
+	</content>
+</snippet>

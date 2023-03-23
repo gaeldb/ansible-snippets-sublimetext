@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>arista.eos.eos_acls</tabTrigger>
+	<description>ACLs resource module</description>
+	<content><![CDATA[
+- name: ACLs resource module
+  eos_acls:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

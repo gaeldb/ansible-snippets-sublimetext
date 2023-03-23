@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_gir</tabTrigger>
+	<description>Trigger a graceful removal or insertion (GIR) of the switch.</description>
+	<content><![CDATA[
+- name: Trigger a graceful removal or insertion (GIR) of the switch.
+  nxos_gir:
+      provider: 
+      state: 
+      system_mode_maintenance: 
+      system_mode_maintenance_dont_generate_profile: 
+      system_mode_maintenance_on_reload_reset_reason: 
+      system_mode_maintenance_shutdown: 
+      system_mode_maintenance_timeout: 
+]]>
+	</content>
+</snippet>

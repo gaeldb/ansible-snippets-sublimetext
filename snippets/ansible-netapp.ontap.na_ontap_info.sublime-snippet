@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_info</tabTrigger>
+	<description>NetApp information gatherer</description>
+	<content><![CDATA[
+- name: NetApp information gatherer
+  na_ontap_info:
+      cert_filepath: 
+      continue_on_error: 
+      desired_attributes: 
+      feature_flags: 
+      gather_subset: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      max_records: 
+      ontapi: 
+      password: 
+      query: 
+      state: 
+      summary: 
+      use_native_zapi_tags: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volume_move_target_aggr_info: 
+      vserver: 
+]]>
+	</content>
+</snippet>

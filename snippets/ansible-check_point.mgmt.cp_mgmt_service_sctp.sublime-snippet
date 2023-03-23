@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_service_sctp</tabTrigger>
+	<description>Manages service-sctp objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages service-sctp objects on Check Point over Web Services API
+  cp_mgmt_service_sctp:
+      aggressive_aging: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      details_level: 
+      groups: 
+      ignore_errors: 
+      ignore_warnings: 
+      keep_connections_open_after_policy_installation: 
+      match_for_any: 
+      name: 
+      port: 
+      session_timeout: 
+      source_port: 
+      state: 
+      sync_connections_on_cluster: 
+      tags: 
+      use_default_session_timeout: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

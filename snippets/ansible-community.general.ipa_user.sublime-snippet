@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_user</tabTrigger>
+	<description>Manage FreeIPA users</description>
+	<content><![CDATA[
+- name: Manage FreeIPA users
+  ipa_user:
+      displayname: 
+      gidnumber: 
+      givenname: 
+      homedirectory: 
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      krbpasswordexpiration: 
+      loginshell: 
+      mail: 
+      password: 
+      sn: 
+      sshpubkey: 
+      state: 
+      telephonenumber: 
+      title: 
+      uid: 
+      uidnumber: 
+      update_password: 
+      userauthtype: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

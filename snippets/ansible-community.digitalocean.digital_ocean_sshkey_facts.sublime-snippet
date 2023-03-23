@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_sshkey_facts</tabTrigger>
+	<description>DigitalOcean SSH keys facts</description>
+	<content><![CDATA[
+- name: DigitalOcean SSH keys facts
+  digital_ocean_sshkey_facts:
+      oauth_token: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

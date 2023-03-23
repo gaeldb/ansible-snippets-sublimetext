@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.udm_dns_record</tabTrigger>
+	<description>Manage dns entries on a univention corporate server</description>
+	<content><![CDATA[
+- name: Manage dns entries on a univention corporate server
+  udm_dns_record:
+      data: 
+      name: 
+      state: 
+      type: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_monitor_external</tabTrigger>
+	<description>Manages external GTM monitors on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages external GTM monitors on a BIG-IP
+  bigip_gtm_monitor_external:
+      arguments: 
+      external_program: 
+      interval: 
+      ip: 
+      name: 
+      parent: 
+      partition: 
+      port: 
+      provider: 
+      state: 
+      timeout: 
+      variables: 
+]]>
+	</content>
+</snippet>

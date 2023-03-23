@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_inet_proxy</tabTrigger>
+	<description>Manages proxy settings for WinINet and Internet Explorer</description>
+	<content><![CDATA[
+- name: Manages proxy settings for WinINet and Internet Explorer
+  win_inet_proxy:
+      auto_config_url: 
+      auto_detect: 
+      bypass: 
+      connection: 
+      proxy: 
+]]>
+	</content>
+</snippet>

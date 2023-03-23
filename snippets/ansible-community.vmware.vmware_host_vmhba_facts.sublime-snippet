@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_vmhba_facts</tabTrigger>
+	<description>Gathers facts about vmhbas available on the given ESXi host</description>
+	<content><![CDATA[
+- name: Gathers facts about vmhbas available on the given ESXi host
+  vmware_host_vmhba_facts:
+      cluster_name: 
+      esxi_hostname: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

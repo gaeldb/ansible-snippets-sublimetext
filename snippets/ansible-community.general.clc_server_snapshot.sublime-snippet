@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_server_snapshot</tabTrigger>
+	<description>Create, Delete and Restore server snapshots in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Create, Delete and Restore server snapshots in CenturyLink Cloud
+  clc_server_snapshot:
+      expiration_days: 
+      server_ids: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

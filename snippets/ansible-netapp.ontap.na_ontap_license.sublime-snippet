@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_license</tabTrigger>
+	<description>NetApp ONTAP protocol and feature licenses</description>
+	<content><![CDATA[
+- name: NetApp ONTAP protocol and feature licenses
+  na_ontap_license:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      license_codes: 
+      license_names: 
+      ontapi: 
+      password: 
+      remove_expired: 
+      remove_unused: 
+      serial_number: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

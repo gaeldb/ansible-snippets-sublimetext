@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.volume_backup</tabTrigger>
+	<description>Add/Delete Volume backup</description>
+	<content><![CDATA[
+- name: Add/Delete Volume backup
+  volume_backup:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      display_description: 
+      display_name: 
+      force: 
+      incremental: 
+      interface: 
+      metadata: 
+      region_name: 
+      snapshot: 
+      state: 
+      timeout: 
+      validate_certs: 
+      volume: 
+      wait: 
+]]>
+	</content>
+</snippet>

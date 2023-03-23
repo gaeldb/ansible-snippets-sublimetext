@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.lxca_cmms</tabTrigger>
+	<description>Custom module for lxca cmms inventory utility</description>
+	<content><![CDATA[
+- name: Custom module for lxca cmms inventory utility
+  lxca_cmms:
+      auth_url: 
+      chassis: 
+      command_options: 
+      login_password: 
+      login_user: 
+      uuid: 
+]]>
+	</content>
+</snippet>

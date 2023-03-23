@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_asm_policy_import</tabTrigger>
+	<description>Manage BIG-IP ASM policy imports</description>
+	<content><![CDATA[
+- name: Manage BIG-IP ASM policy imports
+  bigip_asm_policy_import:
+      base64: 
+      encoding: 
+      force: 
+      inline: 
+      name: 
+      parent_policy: 
+      partition: 
+      policy_type: 
+      provider: 
+      retain_inheritance_settings: 
+      source: 
+]]>
+	</content>
+</snippet>

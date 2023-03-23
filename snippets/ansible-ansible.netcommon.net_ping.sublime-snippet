@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_ping</tabTrigger>
+	<description>Tests reachability using ping from a network device</description>
+	<content><![CDATA[
+- name: Tests reachability using ping from a network device
+  net_ping:
+      count: 
+      dest: 
+      source: 
+      state: 
+      vrf: 
+]]>
+	</content>
+</snippet>

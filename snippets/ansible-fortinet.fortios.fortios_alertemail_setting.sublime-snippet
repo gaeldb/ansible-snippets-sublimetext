@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_alertemail_setting</tabTrigger>
+	<description>Configure alert email settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure alert email settings in Fortinet's FortiOS and FortiGate.
+  fortios_alertemail_setting:
+      access_token: 
+      alertemail_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

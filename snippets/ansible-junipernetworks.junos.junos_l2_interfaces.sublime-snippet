@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>junipernetworks.junos.junos_l2_interfaces</tabTrigger>
+	<description>L2 interfaces resource module</description>
+	<content><![CDATA[
+- name: L2 interfaces resource module
+  junos_l2_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

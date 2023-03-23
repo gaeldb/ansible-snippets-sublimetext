@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_global_assignment</tabTrigger>
+	<description>Manages global-assignment objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages global-assignment objects on Check Point over Web Services API
+  cp_mgmt_global_assignment:
+      auto_publish_session: 
+      dependent_domain: 
+      details_level: 
+      global_access_policy: 
+      global_domain: 
+      global_threat_prevention_policy: 
+      ignore_errors: 
+      ignore_warnings: 
+      manage_protection_actions: 
+      state: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

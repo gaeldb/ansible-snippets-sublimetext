@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_pop3</tabTrigger>
+	<description>POP3 server entry configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: POP3 server entry configuration in Fortinet's FortiOS and FortiGate.
+  fortios_user_pop3:
+      access_token: 
+      state: 
+      user_pop3: 
+      vdom: 
+]]>
+	</content>
+</snippet>

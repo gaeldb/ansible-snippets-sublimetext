@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_auto_logon</tabTrigger>
+	<description>Adds or Sets auto logon registry keys.</description>
+	<content><![CDATA[
+- name: Adds or Sets auto logon registry keys.
+  win_auto_logon:
+      logon_count: 
+      password: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

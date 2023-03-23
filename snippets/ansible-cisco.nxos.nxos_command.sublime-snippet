@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_command</tabTrigger>
+	<description>Run arbitrary command on Cisco NXOS devices</description>
+	<content><![CDATA[
+- name: Run arbitrary command on Cisco NXOS devices
+  nxos_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

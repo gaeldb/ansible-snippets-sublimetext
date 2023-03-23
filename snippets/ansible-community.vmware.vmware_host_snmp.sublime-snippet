@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_host_snmp</tabTrigger>
+	<description>Configures SNMP on an ESXi host system</description>
+	<content><![CDATA[
+- name: Configures SNMP on an ESXi host system
+  vmware_host_snmp:
+      community: 
+      hostname: 
+      hw_source: 
+      log_level: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      send_trap: 
+      snmp_port: 
+      state: 
+      trap_filter: 
+      trap_targets: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

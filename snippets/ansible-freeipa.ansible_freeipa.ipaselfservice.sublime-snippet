@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaselfservice</tabTrigger>
+	<description>Manage FreeIPA selfservices</description>
+	<content><![CDATA[
+- name: Manage FreeIPA selfservices
+  ipaselfservice:
+      action: 
+      attribute: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      permission: 
+      state: 
+]]>
+	</content>
+</snippet>

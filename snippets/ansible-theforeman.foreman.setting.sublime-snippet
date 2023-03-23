@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.setting</tabTrigger>
+	<description>Manage Settings</description>
+	<content><![CDATA[
+- name: Manage Settings
+  setting:
+      name: 
+      password: 
+      server_url: 
+      username: 
+      validate_certs: 
+      value: 
+]]>
+	</content>
+</snippet>

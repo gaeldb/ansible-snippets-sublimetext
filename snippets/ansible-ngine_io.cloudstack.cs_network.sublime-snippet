@@ -1,0 +1,43 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_network</tabTrigger>
+	<description>Manages networks on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages networks on Apache CloudStack based clouds.
+  cs_network:
+      account: 
+      acl: 
+      acl_type: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      cidr_ipv6: 
+      clean_up: 
+      display_text: 
+      domain: 
+      end_ip: 
+      end_ipv6: 
+      gateway: 
+      gateway_ipv6: 
+      isolated_pvlan: 
+      name: 
+      netmask: 
+      network_domain: 
+      network_offering: 
+      poll_async: 
+      project: 
+      start_ip: 
+      start_ipv6: 
+      state: 
+      subdomain_access: 
+      tags: 
+      vlan: 
+      vpc: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_servicebustopic</tabTrigger>
+	<description>Manage Azure Service Bus</description>
+	<content><![CDATA[
+- name: Manage Azure Service Bus
+  azure_rm_servicebustopic:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      auto_delete_on_idle_in_seconds: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      default_message_time_to_live_seconds: 
+      duplicate_detection_time_in_seconds: 
+      enable_batched_operations: 
+      enable_express: 
+      enable_partitioning: 
+      max_size_in_mb: 
+      name: 
+      namespace: 
+      password: 
+      profile: 
+      requires_duplicate_detection: 
+      resource_group: 
+      secret: 
+      state: 
+      status: 
+      subscription_id: 
+      support_ordering: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

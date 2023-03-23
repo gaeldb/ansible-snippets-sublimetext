@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_api_info</tabTrigger>
+	<description>Retrieve information about the oVirt/RHV API</description>
+	<content><![CDATA[
+- name: Retrieve information about the oVirt/RHV API
+  ovirt_api_info:
+      auth: 
+      fetch_nested: 
+      nested_attributes: 
+]]>
+	</content>
+</snippet>

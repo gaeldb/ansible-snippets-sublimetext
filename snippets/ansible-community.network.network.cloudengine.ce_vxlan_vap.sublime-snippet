@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_vxlan_vap</tabTrigger>
+	<description>Manages VXLAN virtual access point on HUAWEI CloudEngine Devices.</description>
+	<content><![CDATA[
+- name: Manages VXLAN virtual access point on HUAWEI CloudEngine Devices.
+  ce_vxlan_vap:
+      bind_vlan_id: 
+      bridge_domain_id: 
+      ce_vid: 
+      encapsulation: 
+      l2_sub_interface: 
+      pe_vid: 
+      state: 
+]]>
+	</content>
+</snippet>

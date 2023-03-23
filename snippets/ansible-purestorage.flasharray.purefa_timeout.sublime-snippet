@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_timeout</tabTrigger>
+	<description>Configure Pure Storage FlashArray GUI idle timeout</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashArray GUI idle timeout
+  purefa_timeout:
+      api_token: 
+      fa_url: 
+      state: 
+      timeout: 
+]]>
+	</content>
+</snippet>

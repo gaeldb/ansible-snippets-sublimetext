@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_vxlan_arp</tabTrigger>
+	<description>Manages ARP attributes of VXLAN on HUAWEI CloudEngine devices.</description>
+	<content><![CDATA[
+- name: Manages ARP attributes of VXLAN on HUAWEI CloudEngine devices.
+  ce_vxlan_arp:
+      arp_collect_host: 
+      arp_suppress: 
+      bridge_domain_id: 
+      evn_bgp: 
+      evn_peer_ip: 
+      evn_reflect_client: 
+      evn_server: 
+      evn_source_ip: 
+      host_collect_protocol: 
+      state: 
+      vbdif_name: 
+]]>
+	</content>
+</snippet>

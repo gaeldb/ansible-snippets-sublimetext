@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_storage</tabTrigger>
+	<description>Configure logical storage in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure logical storage in Fortinet's FortiOS and FortiGate.
+  fortios_system_storage:
+      access_token: 
+      state: 
+      system_storage: 
+      vdom: 
+]]>
+	</content>
+</snippet>

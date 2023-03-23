@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_nitro_request</tabTrigger>
+	<description>Issue Nitro API requests to a Netscaler instance.</description>
+	<content><![CDATA[
+- name: Issue Nitro API requests to a Netscaler instance.
+  netscaler_nitro_request:
+      action: 
+      args: 
+      attributes: 
+      expected_nitro_errorcode: 
+      filter: 
+      instance_id: 
+      instance_ip: 
+      instance_name: 
+      name: 
+      nitro_auth_token: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_user: 
+      nsip: 
+      operation: 
+      resource: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

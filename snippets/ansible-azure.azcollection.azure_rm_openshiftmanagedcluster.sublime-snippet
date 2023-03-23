@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_openshiftmanagedcluster</tabTrigger>
+	<description>Manage Azure Red Hat OpenShift Managed Cluster instance</description>
+	<content><![CDATA[
+- name: Manage Azure Red Hat OpenShift Managed Cluster instance
+  azure_rm_openshiftmanagedcluster:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      api_server_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      cluster_profile: 
+      ingress_profiles: 
+      location: 
+      master_profile: 
+      name: 
+      network_profile: 
+      password: 
+      profile: 
+      provisioning_state: 
+      resource_group: 
+      secret: 
+      service_principal_profile: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      worker_profiles: 
+]]>
+	</content>
+</snippet>

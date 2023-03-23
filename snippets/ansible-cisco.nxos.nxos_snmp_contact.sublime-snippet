@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_snmp_contact</tabTrigger>
+	<description>Manages SNMP contact info.</description>
+	<content><![CDATA[
+- name: Manages SNMP contact info.
+  nxos_snmp_contact:
+      contact: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

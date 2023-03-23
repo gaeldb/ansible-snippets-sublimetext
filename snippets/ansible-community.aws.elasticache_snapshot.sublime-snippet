@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.elasticache_snapshot</tabTrigger>
+	<description>Manage cache snapshots in Amazon ElastiCache</description>
+	<content><![CDATA[
+- name: Manage cache snapshots in Amazon ElastiCache
+  elasticache_snapshot:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bucket: 
+      cluster_id: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      replication_id: 
+      secret_key: 
+      session_token: 
+      state: 
+      target: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.listen_ports_facts</tabTrigger>
+	<description>Gather facts on processes listening on TCP and UDP ports</description>
+	<content><![CDATA[
+- name: Gather facts on processes listening on TCP and UDP ports
+  listen_ports_facts:
+      command: 
+      include_non_listening: 
+]]>
+	</content>
+</snippet>

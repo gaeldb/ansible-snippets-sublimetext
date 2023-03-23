@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_dnszone</tabTrigger>
+	<description>Manage Azure DNS zones</description>
+	<content><![CDATA[
+- name: Manage Azure DNS zones
+  azure_rm_dnszone:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      name: 
+      password: 
+      profile: 
+      registration_virtual_networks: 
+      resolution_virtual_networks: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+      type: 
+]]>
+	</content>
+</snippet>

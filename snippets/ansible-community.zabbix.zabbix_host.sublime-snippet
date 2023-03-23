@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_host</tabTrigger>
+	<description>Create/update/delete Zabbix hosts</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix hosts
+  zabbix_host:
+      ca_cert: 
+      description: 
+      force: 
+      host_groups: 
+      host_name: 
+      http_login_password: 
+      http_login_user: 
+      interfaces: 
+      inventory_mode: 
+      inventory_zabbix: 
+      ipmi_authtype: 
+      ipmi_password: 
+      ipmi_privilege: 
+      ipmi_username: 
+      link_templates: 
+      login_password: 
+      login_user: 
+      macros: 
+      proxy: 
+      server_url: 
+      state: 
+      status: 
+      tags: 
+      timeout: 
+      tls_accept: 
+      tls_connect: 
+      tls_psk: 
+      tls_psk_identity: 
+      tls_subject: 
+      validate_certs: 
+      visible_name: 
+]]>
+	</content>
+</snippet>

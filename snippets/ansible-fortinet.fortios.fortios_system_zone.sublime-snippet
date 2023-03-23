@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_zone</tabTrigger>
+	<description>Configure zones to group two or more interfaces. When a zone is created you can configure policies for the zone instead of individual interfaces in the zone in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure zones to group two or more interfaces. When a zone is created you can configure policies for the zone instead of individual interfaces in the zone in Fortinet's FortiOS and FortiGate.
+  fortios_system_zone:
+      access_token: 
+      state: 
+      system_zone: 
+      vdom: 
+]]>
+	</content>
+</snippet>

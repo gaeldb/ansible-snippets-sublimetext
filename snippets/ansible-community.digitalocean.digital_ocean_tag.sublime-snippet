@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_tag</tabTrigger>
+	<description>Create and remove tag(s) to DigitalOcean resource.</description>
+	<content><![CDATA[
+- name: Create and remove tag(s) to DigitalOcean resource.
+  digital_ocean_tag:
+      name: 
+      oauth_token: 
+      resource_id: 
+      resource_type: 
+      state: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.panos.panos_match_rule</tabTrigger>
+	<description>Test for match against a security rule on PAN-OS devices or Panorama management console.</description>
+	<content><![CDATA[
+- name: Test for match against a security rule on PAN-OS devices or Panorama management console.
+  panos_match_rule:
+      api_key: 
+      application: 
+      category: 
+      destination_ip: 
+      destination_port: 
+      destination_zone: 
+      ip_address: 
+      password: 
+      protocol: 
+      rule_type: 
+      source_ip: 
+      source_port: 
+      source_user: 
+      source_zone: 
+      to_interface: 
+      username: 
+      vsys_id: 
+]]>
+	</content>
+</snippet>

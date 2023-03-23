@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_switch_controller_virtual_port_pool</tabTrigger>
+	<description>Configure virtual pool in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure virtual pool in Fortinet's FortiOS and FortiGate.
+  fortios_switch_controller_virtual_port_pool:
+      access_token: 
+      state: 
+      switch_controller_virtual_port_pool: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.cloudstack.cs_resourcelimit</tabTrigger>
+	<description>Manages resource limits on Apache CloudStack based clouds.</description>
+	<content><![CDATA[
+- name: Manages resource limits on Apache CloudStack based clouds.
+  cs_resourcelimit:
+      account: 
+      api_http_method: 
+      api_key: 
+      api_region: 
+      api_secret: 
+      api_timeout: 
+      api_url: 
+      api_verify_ssl_cert: 
+      domain: 
+      limit: 
+      project: 
+      resource_type: 
+]]>
+	</content>
+</snippet>

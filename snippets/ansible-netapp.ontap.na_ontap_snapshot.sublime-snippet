@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_snapshot</tabTrigger>
+	<description>NetApp ONTAP manage Snapshots</description>
+	<content><![CDATA[
+- name: NetApp ONTAP manage Snapshots
+  na_ontap_snapshot:
+      async_bool: 
+      cert_filepath: 
+      comment: 
+      feature_flags: 
+      from_name: 
+      hostname: 
+      http_port: 
+      https: 
+      ignore_owners: 
+      key_filepath: 
+      ontapi: 
+      password: 
+      snapmirror_label: 
+      snapshot: 
+      snapshot_instance_uuid: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      volume: 
+      vserver: 
+]]>
+	</content>
+</snippet>

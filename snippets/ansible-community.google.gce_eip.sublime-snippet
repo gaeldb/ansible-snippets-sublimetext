@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_eip</tabTrigger>
+	<description>Create or Destroy Global or Regional External IP addresses.</description>
+	<content><![CDATA[
+- name: Create or Destroy Global or Regional External IP addresses.
+  gce_eip:
+      credentials_file: 
+      name: 
+      pem_file: 
+      project_id: 
+      region: 
+      service_account_email: 
+      service_account_permissions: 
+      state: 
+]]>
+	</content>
+</snippet>

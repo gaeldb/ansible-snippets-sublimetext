@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.illumos.ipadm_prop</tabTrigger>
+	<description>Manage protocol properties on Solaris/illumos systems.</description>
+	<content><![CDATA[
+- name: Manage protocol properties on Solaris/illumos systems.
+  ipadm_prop:
+      property: 
+      protocol: 
+      state: 
+      temporary: 
+      value: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_vnc</tabTrigger>
+	<description>Enable or Disable VNC port for installed apps</description>
+	<content><![CDATA[
+- name: Enable or Disable VNC port for installed apps
+  purefa_vnc:
+      api_token: 
+      fa_url: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

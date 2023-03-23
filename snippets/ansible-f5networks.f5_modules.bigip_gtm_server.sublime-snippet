@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_server</tabTrigger>
+	<description>Manages F5 BIG-IP GTM servers</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP GTM servers
+  bigip_gtm_server:
+      availability_requirements: 
+      datacenter: 
+      devices: 
+      iquery_options: 
+      limits: 
+      link_discovery: 
+      monitors: 
+      name: 
+      partition: 
+      prober_fallback: 
+      prober_pool: 
+      prober_preference: 
+      provider: 
+      server_type: 
+      state: 
+      virtual_server_discovery: 
+]]>
+	</content>
+</snippet>

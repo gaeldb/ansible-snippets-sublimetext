@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_group</tabTrigger>
+	<description>Module to manage groups in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage groups in oVirt/RHV
+  ovirt_group:
+      auth: 
+      authz_name: 
+      fetch_nested: 
+      name: 
+      namespace: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

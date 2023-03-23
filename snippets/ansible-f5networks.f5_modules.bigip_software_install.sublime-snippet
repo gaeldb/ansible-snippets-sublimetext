@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_software_install</tabTrigger>
+	<description>Install software images on a BIG-IP</description>
+	<content><![CDATA[
+- name: Install software images on a BIG-IP
+  bigip_software_install:
+      block_device_image: 
+      image: 
+      provider: 
+      state: 
+      type: 
+      volume: 
+]]>
+	</content>
+</snippet>

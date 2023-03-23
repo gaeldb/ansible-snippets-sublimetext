@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_user_ldap</tabTrigger>
+	<description>Configure LDAP server entries in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure LDAP server entries in Fortinet's FortiOS and FortiGate.
+  fortios_user_ldap:
+      access_token: 
+      state: 
+      user_ldap: 
+      vdom: 
+]]>
+	</content>
+</snippet>

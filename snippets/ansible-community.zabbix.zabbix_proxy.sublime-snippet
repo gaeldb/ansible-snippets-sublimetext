@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_proxy</tabTrigger>
+	<description>Create/delete/get/update Zabbix proxies</description>
+	<content><![CDATA[
+- name: Create/delete/get/update Zabbix proxies
+  zabbix_proxy:
+      ca_cert: 
+      description: 
+      http_login_password: 
+      http_login_user: 
+      interface: 
+      login_password: 
+      login_user: 
+      proxy_address: 
+      proxy_name: 
+      server_url: 
+      state: 
+      status: 
+      timeout: 
+      tls_accept: 
+      tls_connect: 
+      tls_psk: 
+      tls_psk_identity: 
+      tls_subject: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

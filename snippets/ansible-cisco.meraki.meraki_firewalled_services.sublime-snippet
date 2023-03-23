@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_firewalled_services</tabTrigger>
+	<description>Edit firewall policies for administrative network services</description>
+	<content><![CDATA[
+- name: Edit firewall policies for administrative network services
+  meraki_firewalled_services:
+      access: 
+      allowed_ips: 
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      service: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

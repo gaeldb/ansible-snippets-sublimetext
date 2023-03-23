@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_content_deploy_template</tabTrigger>
+	<description>Deploy Virtual Machine from template stored in content library.</description>
+	<content><![CDATA[
+- name: Deploy Virtual Machine from template stored in content library.
+  vmware_content_deploy_template:
+      cluster: 
+      content_library: 
+      datacenter: 
+      datastore: 
+      datastore_cluster: 
+      folder: 
+      host: 
+      hostname: 
+      name: 
+      password: 
+      port: 
+      protocol: 
+      resource_pool: 
+      state: 
+      template: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

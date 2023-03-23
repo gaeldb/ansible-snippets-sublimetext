@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_autoscalelaunchconfig</tabTrigger>
+	<description>Module for setup of AutoScaleLaunchConfig Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of AutoScaleLaunchConfig Avi RESTful Object
+  avi_autoscalelaunchconfig:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      image_id: 
+      mesos: 
+      name: 
+      openstack: 
+      password: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      use_external_asg: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

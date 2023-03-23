@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.sros_command</tabTrigger>
+	<description>Run commands on remote devices running Nokia SR OS</description>
+	<content><![CDATA[
+- name: Run commands on remote devices running Nokia SR OS
+  sros_command:
+      commands: 
+      interval: 
+      match: 
+      provider: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

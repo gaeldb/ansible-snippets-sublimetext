@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_firewall_rule</tabTrigger>
+	<description>Windows firewall automation</description>
+	<content><![CDATA[
+- name: Windows firewall automation
+  win_firewall_rule:
+      action: 
+      description: 
+      direction: 
+      enabled: 
+      group: 
+      icmp_type_code: 
+      localip: 
+      localport: 
+      name: 
+      profiles: 
+      program: 
+      protocol: 
+      remoteip: 
+      remoteport: 
+      service: 
+      state: 
+]]>
+	</content>
+</snippet>

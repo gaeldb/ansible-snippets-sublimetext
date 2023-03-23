@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pkgin</tabTrigger>
+	<description>Package manager for SmartOS, NetBSD, et al</description>
+	<content><![CDATA[
+- name: Package manager for SmartOS, NetBSD, et al
+  pkgin:
+      clean: 
+      force: 
+      full_upgrade: 
+      name: 
+      state: 
+      update_cache: 
+      upgrade: 
+]]>
+	</content>
+</snippet>

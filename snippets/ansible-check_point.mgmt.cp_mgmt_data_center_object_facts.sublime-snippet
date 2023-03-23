@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_data_center_object_facts</tabTrigger>
+	<description>Get data-center-object objects facts on Checkpoint over Web Services API</description>
+	<content><![CDATA[
+- name: Get data-center-object objects facts on Checkpoint over Web Services API
+  cp_mgmt_data_center_object_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      show_membership: 
+      version: 
+]]>
+	</content>
+</snippet>

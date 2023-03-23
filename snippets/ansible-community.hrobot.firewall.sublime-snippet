@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.hrobot.firewall</tabTrigger>
+	<description>Manage Hetzner's dedicated server firewall</description>
+	<content><![CDATA[
+- name: Manage Hetzner's dedicated server firewall
+  firewall:
+      hetzner_password: 
+      hetzner_user: 
+      port: 
+      rules: 
+      server_ip: 
+      state: 
+      timeout: 
+      update_timeout: 
+      wait_delay: 
+      wait_for_configured: 
+      whitelist_hos: 
+]]>
+	</content>
+</snippet>

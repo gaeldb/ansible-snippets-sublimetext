@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_schedule_recurring</tabTrigger>
+	<description>Recurring schedule configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Recurring schedule configuration in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_schedule_recurring:
+      access_token: 
+      firewall_schedule_recurring: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

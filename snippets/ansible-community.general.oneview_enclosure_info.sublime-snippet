@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.oneview_enclosure_info</tabTrigger>
+	<description>Retrieve information about one or more Enclosures</description>
+	<content><![CDATA[
+- name: Retrieve information about one or more Enclosures
+  oneview_enclosure_info:
+      api_version: 
+      config: 
+      hostname: 
+      image_streamer_hostname: 
+      name: 
+      options: 
+      params: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

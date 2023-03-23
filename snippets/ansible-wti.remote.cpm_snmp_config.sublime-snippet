@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_snmp_config</tabTrigger>
+	<description>Set network IPTables parameters in WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Set network IPTables parameters in WTI OOB and PDU devices
+  cpm_snmp_config:
+      authpass: 
+      authpriv: 
+      authproto: 
+      clear: 
+      contact: 
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      enable: 
+      index: 
+      interface: 
+      location: 
+      privpass: 
+      privproto: 
+      protocol: 
+      readonly: 
+      rocommunity: 
+      rwcommunity: 
+      systemname: 
+      use_https: 
+      use_proxy: 
+      username: 
+      validate_certs: 
+      version: 
+]]>
+	</content>
+</snippet>

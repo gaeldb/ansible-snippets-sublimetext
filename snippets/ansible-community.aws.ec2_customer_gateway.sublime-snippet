@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_customer_gateway</tabTrigger>
+	<description>Manage an AWS customer gateway</description>
+	<content><![CDATA[
+- name: Manage an AWS customer gateway
+  ec2_customer_gateway:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      bgp_asn: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      ip_address: 
+      name: 
+      profile: 
+      region: 
+      routing: 
+      secret_key: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

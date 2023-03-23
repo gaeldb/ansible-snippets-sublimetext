@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_device_auth</tabTrigger>
+	<description>Manage system authentication on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage system authentication on a BIG-IP
+  bigip_device_auth:
+      accounting: 
+      authentication: 
+      protocol_name: 
+      provider: 
+      secret: 
+      servers: 
+      service_name: 
+      state: 
+      type: 
+      update_secret: 
+      use_for_auth: 
+]]>
+	</content>
+</snippet>

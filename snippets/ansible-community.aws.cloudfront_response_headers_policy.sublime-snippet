@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.cloudfront_response_headers_policy</tabTrigger>
+	<description>Create, update and delete response headers policies to be used in a Cloudfront distribution</description>
+	<content><![CDATA[
+- name: Create, update and delete response headers policies to be used in a Cloudfront distribution
+  cloudfront_response_headers_policy:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      comment: 
+      cors_config: 
+      custom_headers_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      region: 
+      secret_key: 
+      security_headers_config: 
+      session_token: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

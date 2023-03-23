@@ -1,0 +1,42 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_snapmirror</tabTrigger>
+	<description>NetApp ONTAP or ElementSW Manage SnapMirror</description>
+	<content><![CDATA[
+- name: NetApp ONTAP or ElementSW Manage SnapMirror
+  na_ontap_snapmirror:
+      cert_filepath: 
+      connection_type: 
+      destination_path: 
+      destination_volume: 
+      destination_vserver: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      identity_preserve: 
+      initialize: 
+      key_filepath: 
+      max_transfer_rate: 
+      ontapi: 
+      password: 
+      policy: 
+      relationship_info_only: 
+      relationship_state: 
+      relationship_type: 
+      schedule: 
+      source_hostname: 
+      source_password: 
+      source_path: 
+      source_snapshot: 
+      source_username: 
+      source_volume: 
+      source_vserver: 
+      state: 
+      update: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

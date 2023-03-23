@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.restconf_config</tabTrigger>
+	<description>Handles create, update, read and delete of configuration data on RESTCONF enabled devices.</description>
+	<content><![CDATA[
+- name: Handles create, update, read and delete of configuration data on RESTCONF enabled devices.
+  restconf_config:
+      content: 
+      format: 
+      method: 
+      path: 
+]]>
+	</content>
+</snippet>

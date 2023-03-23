@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netbox.netbox.netbox_device</tabTrigger>
+	<description>Create, update or delete devices within Netbox</description>
+	<content><![CDATA[
+- name: Create, update or delete devices within Netbox
+  netbox_device:
+      data: 
+      netbox_token: 
+      netbox_url: 
+      query_params: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

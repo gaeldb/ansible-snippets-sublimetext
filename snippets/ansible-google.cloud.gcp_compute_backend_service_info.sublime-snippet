@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_backend_service_info</tabTrigger>
+	<description>Gather info for GCP BackendService</description>
+	<content><![CDATA[
+- name: Gather info for GCP BackendService
+  gcp_compute_backend_service_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

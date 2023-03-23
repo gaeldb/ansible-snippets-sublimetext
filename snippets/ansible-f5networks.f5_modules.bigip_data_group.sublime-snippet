@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_data_group</tabTrigger>
+	<description>Manage data groups on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manage data groups on a BIG-IP
+  bigip_data_group:
+      delete_data_group_file: 
+      description: 
+      external_file_name: 
+      internal: 
+      name: 
+      partition: 
+      provider: 
+      records: 
+      records_src: 
+      separator: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

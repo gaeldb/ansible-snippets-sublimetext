@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mx_site_to_site_firewall</tabTrigger>
+	<description>Manage MX appliance firewall rules for site-to-site VPNs</description>
+	<content><![CDATA[
+- name: Manage MX appliance firewall rules for site-to-site VPNs
+  meraki_mx_site_to_site_firewall:
+      auth_key: 
+      host: 
+      internal_error_retry_time: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      rules: 
+      state: 
+      syslog_default_rule: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

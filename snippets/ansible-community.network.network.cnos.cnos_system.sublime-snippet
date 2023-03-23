@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_system</tabTrigger>
+	<description>Manage the system attributes on Lenovo CNOS devices</description>
+	<content><![CDATA[
+- name: Manage the system attributes on Lenovo CNOS devices
+  cnos_system:
+      domain_name: 
+      domain_search: 
+      hostname: 
+      lookup_enabled: 
+      lookup_source: 
+      name_servers: 
+      state: 
+]]>
+	</content>
+</snippet>

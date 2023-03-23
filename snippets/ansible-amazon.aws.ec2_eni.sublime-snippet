@@ -1,0 +1,39 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_eni</tabTrigger>
+	<description>Create and optionally attach an Elastic Network Interface (ENI) to an instance</description>
+	<content><![CDATA[
+- name: Create and optionally attach an Elastic Network Interface (ENI) to an instance
+  ec2_eni:
+      access_key: 
+      allow_reassignment: 
+      attached: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      delete_on_termination: 
+      description: 
+      device_index: 
+      endpoint_url: 
+      eni_id: 
+      force_detach: 
+      instance_id: 
+      name: 
+      private_ip_address: 
+      profile: 
+      purge_secondary_private_ip_addresses: 
+      purge_tags: 
+      region: 
+      secondary_private_ip_address_count: 
+      secondary_private_ip_addresses: 
+      secret_key: 
+      security_groups: 
+      session_token: 
+      source_dest_check: 
+      state: 
+      subnet_id: 
+      tags: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

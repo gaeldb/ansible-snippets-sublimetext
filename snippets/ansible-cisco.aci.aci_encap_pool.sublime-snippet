@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_encap_pool</tabTrigger>
+	<description>Manage encap pools (fvns:VlanInstP, fvns:VxlanInstP, fvns:VsanInstP)</description>
+	<content><![CDATA[
+- name: Manage encap pools (fvns:VlanInstP, fvns:VxlanInstP, fvns:VsanInstP)
+  aci_encap_pool:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      pool: 
+      pool_allocation_mode: 
+      pool_type: 
+      port: 
+      private_key: 
+      state: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

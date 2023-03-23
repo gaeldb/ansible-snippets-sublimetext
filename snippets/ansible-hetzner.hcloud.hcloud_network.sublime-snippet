@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>hetzner.hcloud.hcloud_network</tabTrigger>
+	<description>Create and manage cloud Networks on the Hetzner Cloud.</description>
+	<content><![CDATA[
+- name: Create and manage cloud Networks on the Hetzner Cloud.
+  hcloud_network:
+      api_token: 
+      delete_protection: 
+      endpoint: 
+      id: 
+      ip_range: 
+      labels: 
+      name: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>vyos.vyos.vyos_config</tabTrigger>
+	<description>Manage VyOS configuration on remote device</description>
+	<content><![CDATA[
+- name: Manage VyOS configuration on remote device
+  vyos_config:
+      backup: 
+      backup_options: 
+      comment: 
+      config: 
+      lines: 
+      match: 
+      provider: 
+      save: 
+      src: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_profile_persistence_cookie</tabTrigger>
+	<description>Manage cookie persistence profiles on BIG-IP</description>
+	<content><![CDATA[
+- name: Manage cookie persistence profiles on BIG-IP
+  bigip_profile_persistence_cookie:
+      always_send: 
+      cookie_encryption: 
+      cookie_method: 
+      cookie_name: 
+      description: 
+      encrypt_cookie_pool_name: 
+      encryption_passphrase: 
+      expiration: 
+      http_only: 
+      match_across_pools: 
+      match_across_services: 
+      match_across_virtuals: 
+      name: 
+      override_connection_limit: 
+      parent: 
+      partition: 
+      provider: 
+      secure: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

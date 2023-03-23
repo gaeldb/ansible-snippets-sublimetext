@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_privatekey_pipe</tabTrigger>
+	<description>Generate OpenSSL private keys without disk access</description>
+	<content><![CDATA[
+- name: Generate OpenSSL private keys without disk access
+  openssl_privatekey_pipe:
+      cipher: 
+      content: 
+      content_base64: 
+      curve: 
+      format: 
+      format_mismatch: 
+      passphrase: 
+      regenerate: 
+      return_current_key: 
+      select_crypto_backend: 
+      size: 
+      type: 
+]]>
+	</content>
+</snippet>

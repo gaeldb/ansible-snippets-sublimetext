@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_mr_rf_profile</tabTrigger>
+	<description>Manage RF profiles for Meraki wireless networks</description>
+	<content><![CDATA[
+- name: Manage RF profiles for Meraki wireless networks
+  meraki_mr_rf_profile:
+      ap_band_settings: 
+      auth_key: 
+      band_selection_type: 
+      client_balancing_enabled: 
+      five_ghz_settings: 
+      host: 
+      internal_error_retry_time: 
+      min_bitrate_type: 
+      name: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      profile_id: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      two_four_ghz_settings: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_acl</tabTrigger>
+	<description>Manages base ACL configuration on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages base ACL configuration on HUAWEI CloudEngine switches.
+  ce_acl:
+      acl_description: 
+      acl_name: 
+      acl_num: 
+      acl_step: 
+      frag_type: 
+      log_flag: 
+      rule_action: 
+      rule_description: 
+      rule_id: 
+      rule_name: 
+      source_ip: 
+      src_mask: 
+      state: 
+      time_range: 
+      vrf_name: 
+]]>
+	</content>
+</snippet>

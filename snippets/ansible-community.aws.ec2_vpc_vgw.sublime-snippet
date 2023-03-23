@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ec2_vpc_vgw</tabTrigger>
+	<description>Create and delete AWS VPN Virtual Gateways</description>
+	<content><![CDATA[
+- name: Create and delete AWS VPN Virtual Gateways
+  ec2_vpc_vgw:
+      access_key: 
+      asn: 
+      aws_ca_bundle: 
+      aws_config: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      name: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      session_token: 
+      state: 
+      tags: 
+      type: 
+      validate_certs: 
+      vpc_id: 
+      vpn_gateway_id: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

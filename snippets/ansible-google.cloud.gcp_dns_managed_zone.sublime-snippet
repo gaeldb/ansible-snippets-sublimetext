@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_dns_managed_zone</tabTrigger>
+	<description>Creates a GCP ManagedZone</description>
+	<content><![CDATA[
+- name: Creates a GCP ManagedZone
+  gcp_dns_managed_zone:
+      auth_kind: 
+      description: 
+      dns_name: 
+      dnssec_config: 
+      env_type: 
+      forwarding_config: 
+      labels: 
+      name: 
+      name_server_set: 
+      peering_config: 
+      private_visibility_config: 
+      project: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+      visibility: 
+]]>
+	</content>
+</snippet>

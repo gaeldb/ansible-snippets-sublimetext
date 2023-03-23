@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.google.gce_mig</tabTrigger>
+	<description>Create, Update or Destroy a Managed Instance Group (MIG).</description>
+	<content><![CDATA[
+- name: Create, Update or Destroy a Managed Instance Group (MIG).
+  gce_mig:
+      autoscaling: 
+      credentials_file: 
+      name: 
+      named_ports: 
+      pem_file: 
+      project_id: 
+      recreate_instances: 
+      service_account_email: 
+      service_account_permissions: 
+      size: 
+      state: 
+      template: 
+      zone: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.netcommon.net_banner</tabTrigger>
+	<description>(deprecated, removed after 2022-06-01) Manage multiline banners on network devices</description>
+	<content><![CDATA[
+- name: (deprecated, removed after 2022-06-01) Manage multiline banners on network devices
+  net_banner:
+      banner: 
+      state: 
+      text: 
+]]>
+	</content>
+</snippet>

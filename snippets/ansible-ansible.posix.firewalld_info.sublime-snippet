@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.posix.firewalld_info</tabTrigger>
+	<description>Gather information about firewalld</description>
+	<content><![CDATA[
+- name: Gather information about firewalld
+  firewalld_info:
+      active_zones: 
+      zones: 
+]]>
+	</content>
+</snippet>

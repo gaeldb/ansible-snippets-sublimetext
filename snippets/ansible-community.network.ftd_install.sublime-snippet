@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ftd_install</tabTrigger>
+	<description>Installs FTD pkg image on the firewall</description>
+	<content><![CDATA[
+- name: Installs FTD pkg image on the firewall
+  ftd_install:
+      console_ip: 
+      console_password: 
+      console_port: 
+      console_username: 
+      device_gateway: 
+      device_hostname: 
+      device_ip: 
+      device_model: 
+      device_netmask: 
+      device_new_password: 
+      device_password: 
+      device_sudo_password: 
+      device_username: 
+      dns_server: 
+      force_install: 
+      image_file_location: 
+      image_version: 
+      rommon_file_location: 
+      search_domains: 
+]]>
+	</content>
+</snippet>

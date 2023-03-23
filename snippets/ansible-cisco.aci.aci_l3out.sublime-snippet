@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out</tabTrigger>
+	<description>Manage Layer 3 Outside (L3Out) objects (l3ext:Out)</description>
+	<content><![CDATA[
+- name: Manage Layer 3 Outside (L3Out) objects (l3ext:Out)
+  aci_l3out:
+      annotation: 
+      asn: 
+      certificate_name: 
+      description: 
+      domain: 
+      dscp: 
+      host: 
+      l3out: 
+      l3protocol: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      route_control: 
+      state: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+      vrf: 
+]]>
+	</content>
+</snippet>

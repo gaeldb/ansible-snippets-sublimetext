@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_dvswitch</tabTrigger>
+	<description>Create or remove a Distributed Switch</description>
+	<content><![CDATA[
+- name: Create or remove a Distributed Switch
+  vmware_dvswitch:
+      contact: 
+      datacenter_name: 
+      description: 
+      discovery_operation: 
+      discovery_proto: 
+      folder: 
+      health_check: 
+      hostname: 
+      mtu: 
+      multicast_filtering_mode: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      state: 
+      switch_name: 
+      switch_version: 
+      uplink_prefix: 
+      uplink_quantity: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_tempfile</tabTrigger>
+	<description>Creates temporary files and directories</description>
+	<content><![CDATA[
+- name: Creates temporary files and directories
+  win_tempfile:
+      path: 
+      prefix: 
+      state: 
+      suffix: 
+]]>
+	</content>
+</snippet>

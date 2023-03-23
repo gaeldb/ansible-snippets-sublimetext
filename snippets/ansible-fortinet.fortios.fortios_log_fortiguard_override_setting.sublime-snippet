@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_fortiguard_override_setting</tabTrigger>
+	<description>Override global FortiCloud logging settings for this VDOM in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Override global FortiCloud logging settings for this VDOM in Fortinet's FortiOS and FortiGate.
+  fortios_log_fortiguard_override_setting:
+      access_token: 
+      log_fortiguard_override_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

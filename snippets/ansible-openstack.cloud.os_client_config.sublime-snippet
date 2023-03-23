@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.os_client_config</tabTrigger>
+	<description>Get OpenStack Client config</description>
+	<content><![CDATA[
+- name: Get OpenStack Client config
+  config:
+      clouds: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaserver_setup_adtrust</tabTrigger>
+	<description>Setup trust ad</description>
+	<content><![CDATA[
+- name: Setup trust ad
+  ipaserver_setup_adtrust:
+      adtrust_netbios_name: 
+      adtrust_reset_netbios_name: 
+      enable_compat: 
+      hostname: 
+      rid_base: 
+      secondary_rid_base: 
+      setup_adtrust: 
+      setup_ca: 
+]]>
+	</content>
+</snippet>

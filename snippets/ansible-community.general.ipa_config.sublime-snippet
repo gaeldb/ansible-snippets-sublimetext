@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ipa_config</tabTrigger>
+	<description>Manage Global FreeIPA Configuration Settings</description>
+	<content><![CDATA[
+- name: Manage Global FreeIPA Configuration Settings
+  ipa_config:
+      ipa_host: 
+      ipa_pass: 
+      ipa_port: 
+      ipa_prot: 
+      ipa_timeout: 
+      ipa_user: 
+      ipaconfigstring: 
+      ipadefaultemaildomain: 
+      ipadefaultloginshell: 
+      ipadefaultprimarygroup: 
+      ipagroupsearchfields: 
+      ipahomesrootdir: 
+      ipakrbauthzdata: 
+      ipamaxusernamelength: 
+      ipapwdexpadvnotify: 
+      ipasearchrecordslimit: 
+      ipasearchtimelimit: 
+      ipaselinuxusermaporder: 
+      ipauserauthtype: 
+      ipausersearchfields: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

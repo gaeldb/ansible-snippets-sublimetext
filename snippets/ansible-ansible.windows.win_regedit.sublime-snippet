@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_regedit</tabTrigger>
+	<description>Add, change, or remove registry keys and values</description>
+	<content><![CDATA[
+- name: Add, change, or remove registry keys and values
+  win_regedit:
+      data: 
+      delete_key: 
+      hive: 
+      name: 
+      path: 
+      state: 
+      type: 
+]]>
+	</content>
+</snippet>

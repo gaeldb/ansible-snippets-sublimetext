@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_log_publisher</tabTrigger>
+	<description>Manages log publishers on a BIG-IP</description>
+	<content><![CDATA[
+- name: Manages log publishers on a BIG-IP
+  bigip_log_publisher:
+      description: 
+      destinations: 
+      name: 
+      partition: 
+      provider: 
+      state: 
+]]>
+	</content>
+</snippet>

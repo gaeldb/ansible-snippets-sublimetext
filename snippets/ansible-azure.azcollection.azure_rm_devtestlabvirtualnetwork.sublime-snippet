@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>azure.azcollection.azure_rm_devtestlabvirtualnetwork</tabTrigger>
+	<description>Manage Azure DevTest Lab Virtual Network instance</description>
+	<content><![CDATA[
+- name: Manage Azure DevTest Lab Virtual Network instance
+  azure_rm_devtestlabvirtualnetwork:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      append_tags: 
+      auth_source: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      description: 
+      lab_name: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      resource_group: 
+      secret: 
+      state: 
+      subscription_id: 
+      tags: 
+      tenant: 
+]]>
+	</content>
+</snippet>

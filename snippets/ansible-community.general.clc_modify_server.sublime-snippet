@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.clc_modify_server</tabTrigger>
+	<description>Modify servers in CenturyLink Cloud</description>
+	<content><![CDATA[
+- name: Modify servers in CenturyLink Cloud
+  clc_modify_server:
+      alert_policy_id: 
+      alert_policy_name: 
+      anti_affinity_policy_id: 
+      anti_affinity_policy_name: 
+      cpu: 
+      memory: 
+      server_ids: 
+      state: 
+      wait: 
+]]>
+	</content>
+</snippet>

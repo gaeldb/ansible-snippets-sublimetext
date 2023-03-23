@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_file</tabTrigger>
+	<description>Creates, touches or removes files or directories</description>
+	<content><![CDATA[
+- name: Creates, touches or removes files or directories
+  win_file:
+      path: 
+      state: 
+]]>
+	</content>
+</snippet>

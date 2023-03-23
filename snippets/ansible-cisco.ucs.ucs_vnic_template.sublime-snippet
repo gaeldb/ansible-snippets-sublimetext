@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_vnic_template</tabTrigger>
+	<description>Configures vNIC templates on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures vNIC templates on Cisco UCS Manager
+  ucs_vnic_template:
+      cdn_name: 
+      cdn_source: 
+      description: 
+      fabric: 
+      hostname: 
+      mac_pool: 
+      mtu: 
+      name: 
+      network_control_policy: 
+      org_dn: 
+      password: 
+      peer_redundancy_template: 
+      pin_group: 
+      port: 
+      proxy: 
+      qos_policy: 
+      redundancy_type: 
+      state: 
+      stats_policy: 
+      target: 
+      template_type: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      vlans_list: 
+]]>
+	</content>
+</snippet>

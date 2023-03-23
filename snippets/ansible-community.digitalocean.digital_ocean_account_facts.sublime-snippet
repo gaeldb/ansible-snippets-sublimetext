@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_account_facts</tabTrigger>
+	<description>Gather information about DigitalOcean User account</description>
+	<content><![CDATA[
+- name: Gather information about DigitalOcean User account
+  digital_ocean_account_info:
+      oauth_token: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

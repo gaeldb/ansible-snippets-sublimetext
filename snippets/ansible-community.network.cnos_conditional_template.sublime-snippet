@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.cnos_conditional_template</tabTrigger>
+	<description>Manage switch configuration using templates based on condition on devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Manage switch configuration using templates based on condition on devices running Lenovo CNOS
+  cnos_conditional_template:
+      commandfile: 
+      condition: 
+      deviceType: 
+      enablePassword: 
+      flag: 
+      host: 
+      outputfile: 
+      password: 
+      username: 
+]]>
+	</content>
+</snippet>

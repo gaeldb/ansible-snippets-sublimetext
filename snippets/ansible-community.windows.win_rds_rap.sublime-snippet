@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.windows.win_rds_rap</tabTrigger>
+	<description>Manage Resource Authorization Policies (RAP) on a Remote Desktop Gateway server</description>
+	<content><![CDATA[
+- name: Manage Resource Authorization Policies (RAP) on a Remote Desktop Gateway server
+  win_rds_rap:
+      allowed_ports: 
+      computer_group: 
+      computer_group_type: 
+      description: 
+      name: 
+      state: 
+      user_groups: 
+]]>
+	</content>
+</snippet>

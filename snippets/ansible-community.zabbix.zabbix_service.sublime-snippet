@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_service</tabTrigger>
+	<description>Create/update/delete Zabbix service</description>
+	<content><![CDATA[
+- name: Create/update/delete Zabbix service
+  zabbix_service:
+      algorithm: 
+      calculate_sla: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      name: 
+      parent: 
+      server_url: 
+      sla: 
+      state: 
+      timeout: 
+      trigger_host: 
+      trigger_name: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

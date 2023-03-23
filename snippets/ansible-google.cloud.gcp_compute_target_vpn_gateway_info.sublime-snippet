@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_target_vpn_gateway_info</tabTrigger>
+	<description>Gather info for GCP TargetVpnGateway</description>
+	<content><![CDATA[
+- name: Gather info for GCP TargetVpnGateway
+  gcp_compute_target_vpn_gateway_info:
+      auth_kind: 
+      env_type: 
+      filters: 
+      project: 
+      region: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+]]>
+	</content>
+</snippet>

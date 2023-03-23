@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cnos.cnos_facts</tabTrigger>
+	<description>Collect facts from remote devices running Lenovo CNOS</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Lenovo CNOS
+  cnos_facts:
+      auth_pass: 
+      authorize: 
+      gather_subset: 
+]]>
+	</content>
+</snippet>

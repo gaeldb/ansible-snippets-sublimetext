@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ssl_ssh_profile</tabTrigger>
+	<description>Configure SSL/SSH protocol options in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure SSL/SSH protocol options in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ssl_ssh_profile:
+      access_token: 
+      firewall_ssl_ssh_profile: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

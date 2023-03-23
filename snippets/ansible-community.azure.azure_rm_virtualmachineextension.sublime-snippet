@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.azure.azure_rm_virtualmachineextension</tabTrigger>
+	<description>Managed Azure Virtual Machine extension</description>
+	<content><![CDATA[
+- name: Managed Azure Virtual Machine extension
+  azure_rm_virtualmachineextension:
+      ad_user: 
+      adfs_authority_url: 
+      api_profile: 
+      auth_source: 
+      auto_upgrade_minor_version: 
+      cert_validation_mode: 
+      client_id: 
+      cloud_environment: 
+      location: 
+      name: 
+      password: 
+      profile: 
+      protected_settings: 
+      publisher: 
+      resource_group: 
+      secret: 
+      settings: 
+      state: 
+      subscription_id: 
+      tenant: 
+      type_handler_version: 
+      virtual_machine_extension_type: 
+      virtual_machine_name: 
+]]>
+	</content>
+</snippet>

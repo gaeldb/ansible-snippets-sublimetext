@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.openssl_csr_pipe</tabTrigger>
+	<description>Generate OpenSSL Certificate Signing Request (CSR)</description>
+	<content><![CDATA[
+- name: Generate OpenSSL Certificate Signing Request (CSR)
+  openssl_csr_pipe:
+      authority_cert_issuer: 
+      authority_cert_serial_number: 
+      authority_key_identifier: 
+      basic_constraints: 
+      basic_constraints_critical: 
+      common_name: 
+      content: 
+      country_name: 
+      create_subject_key_identifier: 
+      crl_distribution_points: 
+      digest: 
+      email_address: 
+      extended_key_usage: 
+      extended_key_usage_critical: 
+      key_usage: 
+      key_usage_critical: 
+      locality_name: 
+      name_constraints_critical: 
+      name_constraints_excluded: 
+      name_constraints_permitted: 
+      ocsp_must_staple: 
+      ocsp_must_staple_critical: 
+      organization_name: 
+      organizational_unit_name: 
+      privatekey_content: 
+      privatekey_passphrase: 
+      privatekey_path: 
+      select_crypto_backend: 
+      state_or_province_name: 
+      subject: 
+      subject_alt_name: 
+      subject_alt_name_critical: 
+      subject_key_identifier: 
+      subject_ordered: 
+      use_common_name_for_san: 
+      version: 
+]]>
+	</content>
+</snippet>

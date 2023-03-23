@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_hsrp_interfaces</tabTrigger>
+	<description>HSRP interfaces resource module</description>
+	<content><![CDATA[
+- name: HSRP interfaces resource module
+  nxos_hsrp_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

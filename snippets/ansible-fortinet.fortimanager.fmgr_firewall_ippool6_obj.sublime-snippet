@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortimanager.fmgr_firewall_ippool6_obj</tabTrigger>
+	<description>Configure IPv6 IP pools.</description>
+	<content><![CDATA[
+- name: Configure IPv6 IP pools.
+  fmgr_firewall_ippool6_obj:
+      loose_validation: 
+      method: 
+      params: 
+      url_params: 
+      workspace_locking_adom: 
+      workspace_locking_timeout: 
+]]>
+	</content>
+</snippet>

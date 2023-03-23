@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_poolgroupdeploymentpolicy</tabTrigger>
+	<description>Module for setup of PoolGroupDeploymentPolicy Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of PoolGroupDeploymentPolicy Avi RESTful Object
+  avi_poolgroupdeploymentpolicy:
+      api_context: 
+      api_version: 
+      auto_disable_old_prod_pools: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      description: 
+      evaluation_duration: 
+      name: 
+      password: 
+      rules: 
+      scheme: 
+      state: 
+      target_test_traffic_ratio: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      test_traffic_ratio_rampup: 
+      url: 
+      username: 
+      uuid: 
+      webhook_ref: 
+]]>
+	</content>
+</snippet>

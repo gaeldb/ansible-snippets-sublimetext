@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipasmartcard_server_validate_ca_certs</tabTrigger>
+	<description>Validate CA certs</description>
+	<content><![CDATA[
+- name: Validate CA certs
+  ipasmartcard_server_validate_ca_certs:
+      ca_cert_files: 
+]]>
+	</content>
+</snippet>

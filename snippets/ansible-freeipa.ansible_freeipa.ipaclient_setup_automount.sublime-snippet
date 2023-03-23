@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_automount</tabTrigger>
+	<description>Setup automount for IPA client</description>
+	<content><![CDATA[
+- name: Setup automount for IPA client
+  ipaclient_setup_automount:
+      automount_location: 
+      servers: 
+      sssd: 
+]]>
+	</content>
+</snippet>

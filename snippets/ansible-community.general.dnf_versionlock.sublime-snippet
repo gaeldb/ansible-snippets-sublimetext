@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.dnf_versionlock</tabTrigger>
+	<description>Locks package versions in `dnf' based systems</description>
+	<content><![CDATA[
+- name: Locks package versions in `dnf' based systems
+  dnf_versionlock:
+      name: 
+      raw: 
+      state: 
+]]>
+	</content>
+</snippet>

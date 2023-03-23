@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_export</tabTrigger>
+	<description>Manage FlashArray File System Exports</description>
+	<content><![CDATA[
+- name: Manage FlashArray File System Exports
+  purefa_export:
+      api_token: 
+      directory: 
+      fa_url: 
+      filesystem: 
+      name: 
+      nfs_policy: 
+      smb_policy: 
+      state: 
+]]>
+	</content>
+</snippet>

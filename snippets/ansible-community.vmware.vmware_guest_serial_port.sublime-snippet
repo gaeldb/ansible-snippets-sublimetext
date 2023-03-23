@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_guest_serial_port</tabTrigger>
+	<description>Manage serial ports on an existing VM</description>
+	<content><![CDATA[
+- name: Manage serial ports on an existing VM
+  vmware_guest_serial_port:
+      backings: 
+      hostname: 
+      moid: 
+      name: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      use_instance_uuid: 
+      username: 
+      uuid: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_service_processor_network</tabTrigger>
+	<description>NetApp ONTAP service processor network</description>
+	<content><![CDATA[
+- name: NetApp ONTAP service processor network
+  na_ontap_service_processor_network:
+      address_type: 
+      cert_filepath: 
+      dhcp: 
+      feature_flags: 
+      gateway_ip_address: 
+      hostname: 
+      http_port: 
+      https: 
+      ip_address: 
+      is_enabled: 
+      key_filepath: 
+      netmask: 
+      node: 
+      ontapi: 
+      password: 
+      prefix_length: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      wait_for_completion: 
+]]>
+	</content>
+</snippet>

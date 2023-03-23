@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_vtp_version</tabTrigger>
+	<description>Manages VTP version configuration.</description>
+	<content><![CDATA[
+- name: Manages VTP version configuration.
+  nxos_vtp_version:
+      provider: 
+      version: 
+]]>
+	</content>
+</snippet>

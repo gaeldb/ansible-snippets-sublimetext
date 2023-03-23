@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ufw</tabTrigger>
+	<description>Manage firewall with UFW</description>
+	<content><![CDATA[
+- name: Manage firewall with UFW
+  ufw:
+      comment: 
+      default: 
+      delete: 
+      direction: 
+      from_ip: 
+      from_port: 
+      insert: 
+      insert_relative_to: 
+      interface: 
+      interface_in: 
+      interface_out: 
+      log: 
+      logging: 
+      name: 
+      proto: 
+      route: 
+      rule: 
+      state: 
+      to_ip: 
+      to_port: 
+]]>
+	</content>
+</snippet>

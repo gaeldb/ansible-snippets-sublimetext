@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>f5networks.f5_modules.bigip_gtm_pool</tabTrigger>
+	<description>Manages F5 BIG-IP GTM pools</description>
+	<content><![CDATA[
+- name: Manages F5 BIG-IP GTM pools
+  bigip_gtm_pool:
+      alternate_lb_method: 
+      availability_requirements: 
+      fallback_ip: 
+      fallback_lb_method: 
+      max_answers_returned: 
+      members: 
+      monitors: 
+      name: 
+      partition: 
+      preferred_lb_method: 
+      provider: 
+      state: 
+      ttl: 
+      type: 
+]]>
+	</content>
+</snippet>

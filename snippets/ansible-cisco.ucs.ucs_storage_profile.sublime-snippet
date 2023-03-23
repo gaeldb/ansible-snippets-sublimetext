@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ucs.ucs_storage_profile</tabTrigger>
+	<description>Configures storage profiles on Cisco UCS Manager</description>
+	<content><![CDATA[
+- name: Configures storage profiles on Cisco UCS Manager
+  ucs_storage_profile:
+      description: 
+      hostname: 
+      local_luns: 
+      name: 
+      org_dn: 
+      password: 
+      port: 
+      proxy: 
+      state: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+]]>
+	</content>
+</snippet>

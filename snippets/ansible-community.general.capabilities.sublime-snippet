@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.capabilities</tabTrigger>
+	<description>Manage Linux capabilities</description>
+	<content><![CDATA[
+- name: Manage Linux capabilities
+  capabilities:
+      capability: 
+      path: 
+      state: 
+]]>
+	</content>
+</snippet>

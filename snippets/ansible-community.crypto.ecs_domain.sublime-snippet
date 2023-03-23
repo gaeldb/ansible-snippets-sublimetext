@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.ecs_domain</tabTrigger>
+	<description>Request validation of a domain with the Entrust Certificate Services (ECS) API</description>
+	<content><![CDATA[
+- name: Request validation of a domain with the Entrust Certificate Services (ECS) API
+  ecs_domain:
+      client_id: 
+      domain_name: 
+      entrust_api_client_cert_key_path: 
+      entrust_api_client_cert_path: 
+      entrust_api_key: 
+      entrust_api_specification_path: 
+      entrust_api_user: 
+      verification_email: 
+      verification_method: 
+]]>
+	</content>
+</snippet>

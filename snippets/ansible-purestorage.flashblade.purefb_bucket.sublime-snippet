@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_bucket</tabTrigger>
+	<description>Manage Object Store Buckets on a  Pure Storage FlashBlade.</description>
+	<content><![CDATA[
+- name: Manage Object Store Buckets on a  Pure Storage FlashBlade.
+  purefb_bucket:
+      account: 
+      api_token: 
+      eradicate: 
+      fb_url: 
+      name: 
+      state: 
+      versioning: 
+]]>
+	</content>
+</snippet>

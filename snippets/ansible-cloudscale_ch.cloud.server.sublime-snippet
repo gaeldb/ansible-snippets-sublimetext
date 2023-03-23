@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cloudscale_ch.cloud.server</tabTrigger>
+	<description>Manages servers on the cloudscale.ch IaaS service</description>
+	<content><![CDATA[
+- name: Manages servers on the cloudscale.ch IaaS service
+  server:
+      api_timeout: 
+      api_token: 
+      api_url: 
+      bulk_volume_size_gb: 
+      flavor: 
+      force: 
+      image: 
+      name: 
+      password: 
+      server_groups: 
+      ssh_keys: 
+      state: 
+      tags: 
+      use_ipv6: 
+      use_private_network: 
+      use_public_network: 
+      user_data: 
+      uuid: 
+      volume_size_gb: 
+      zone: 
+]]>
+	</content>
+</snippet>

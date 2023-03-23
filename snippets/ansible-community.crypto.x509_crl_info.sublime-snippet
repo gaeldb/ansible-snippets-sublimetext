@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.crypto.x509_crl_info</tabTrigger>
+	<description>Retrieve information on Certificate Revocation Lists (CRLs)</description>
+	<content><![CDATA[
+- name: Retrieve information on Certificate Revocation Lists (CRLs)
+  x509_crl_info:
+      content: 
+      list_revoked_certificates: 
+      name_encoding: 
+      path: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_vdom_radius_server</tabTrigger>
+	<description>Configure a RADIUS server to use as a RADIUS Single Sign On (RSSO) server for this VDOM in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure a RADIUS server to use as a RADIUS Single Sign On (RSSO) server for this VDOM in Fortinet's FortiOS and FortiGate.
+  fortios_system_vdom_radius_server:
+      access_token: 
+      state: 
+      system_vdom_radius_server: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_network</tabTrigger>
+	<description>Manage Docker networks</description>
+	<content><![CDATA[
+- name: Manage Docker networks
+  docker_network:
+      api_version: 
+      appends: 
+      attachable: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      connected: 
+      debug: 
+      docker_host: 
+      driver: 
+      driver_options: 
+      enable_ipv6: 
+      force: 
+      internal: 
+      ipam_config: 
+      ipam_driver: 
+      ipam_driver_options: 
+      labels: 
+      name: 
+      scope: 
+      ssl_version: 
+      state: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flashblade.purefb_bucket_replica</tabTrigger>
+	<description>Manage bucket replica links between Pure Storage FlashBlades</description>
+	<content><![CDATA[
+- name: Manage bucket replica links between Pure Storage FlashBlades
+  purefb_bucket_replica:
+      api_token: 
+      credential: 
+      fb_url: 
+      name: 
+      paused: 
+      state: 
+      target: 
+      target_bucket: 
+]]>
+	</content>
+</snippet>

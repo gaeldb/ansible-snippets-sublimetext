@@ -1,0 +1,34 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>containers.podman.podman_pod</tabTrigger>
+	<description>Manage Podman pods</description>
+	<content><![CDATA[
+- name: Manage Podman pods
+  podman_pod:
+      add_host: 
+      cgroup_parent: 
+      debug: 
+      dns: 
+      dns_opt: 
+      dns_search: 
+      executable: 
+      hostname: 
+      infra: 
+      infra_command: 
+      infra_conmon_pidfile: 
+      infra_image: 
+      ip: 
+      label: 
+      label_file: 
+      mac_address: 
+      name: 
+      network: 
+      no_hosts: 
+      pod_id_file: 
+      publish: 
+      recreate: 
+      share: 
+      state: 
+]]>
+	</content>
+</snippet>

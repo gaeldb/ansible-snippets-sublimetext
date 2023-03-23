@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.hipchat</tabTrigger>
+	<description>Send a message to Hipchat</description>
+	<content><![CDATA[
+- name: Send a message to Hipchat
+  hipchat:
+      api: 
+      color: 
+      msg: 
+      msg_format: 
+      msg_from: 
+      notify: 
+      room: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

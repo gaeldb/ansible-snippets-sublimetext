@@ -1,0 +1,56 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.grafana.grafana_datasource</tabTrigger>
+	<description>Manage Grafana datasources</description>
+	<content><![CDATA[
+- name: Manage Grafana datasources
+  grafana_datasource:
+      access: 
+      additional_json_data: 
+      additional_secure_json_data: 
+      aws_access_key: 
+      aws_assume_role_arn: 
+      aws_auth_type: 
+      aws_credentials_profile: 
+      aws_custom_metrics_namespaces: 
+      aws_default_region: 
+      aws_secret_key: 
+      basic_auth_password: 
+      basic_auth_user: 
+      client_cert: 
+      client_key: 
+      database: 
+      ds_type: 
+      ds_url: 
+      enforce_secure_data: 
+      es_version: 
+      grafana_api_key: 
+      interval: 
+      is_default: 
+      max_concurrent_shard_requests: 
+      name: 
+      org_id: 
+      password: 
+      sslmode: 
+      state: 
+      time_field: 
+      time_interval: 
+      tls_ca_cert: 
+      tls_client_cert: 
+      tls_client_key: 
+      tls_skip_verify: 
+      trends: 
+      tsdb_resolution: 
+      tsdb_version: 
+      url: 
+      url_password: 
+      url_username: 
+      use_proxy: 
+      user: 
+      validate_certs: 
+      with_credentials: 
+      zabbix_password: 
+      zabbix_user: 
+]]>
+	</content>
+</snippet>

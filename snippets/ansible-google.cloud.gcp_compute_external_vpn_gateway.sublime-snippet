@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>google.cloud.gcp_compute_external_vpn_gateway</tabTrigger>
+	<description>Creates a GCP ExternalVpnGateway</description>
+	<content><![CDATA[
+- name: Creates a GCP ExternalVpnGateway
+  gcp_compute_external_vpn_gateway:
+      auth_kind: 
+      description: 
+      env_type: 
+      interfaces: 
+      name: 
+      project: 
+      redundancy_type: 
+      scopes: 
+      service_account_contents: 
+      service_account_email: 
+      service_account_file: 
+      state: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.supervisorctl</tabTrigger>
+	<description>Manage the state of a program or group of programs running via supervisord</description>
+	<content><![CDATA[
+- name: Manage the state of a program or group of programs running via supervisord
+  supervisorctl:
+      config: 
+      name: 
+      password: 
+      server_url: 
+      signal: 
+      state: 
+      supervisorctl_path: 
+      username: 
+]]>
+	</content>
+</snippet>

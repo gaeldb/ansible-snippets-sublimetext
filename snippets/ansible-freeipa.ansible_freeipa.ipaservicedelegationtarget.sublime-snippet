@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaservicedelegationtarget</tabTrigger>
+	<description>Manage FreeIPA servicedelegationtarget</description>
+	<content><![CDATA[
+- name: Manage FreeIPA servicedelegationtarget
+  ipaservicedelegationtarget:
+      action: 
+      ipaadmin_password: 
+      ipaadmin_principal: 
+      ipaapi_context: 
+      ipaapi_ldap_cache: 
+      name: 
+      principal: 
+      state: 
+]]>
+	</content>
+</snippet>

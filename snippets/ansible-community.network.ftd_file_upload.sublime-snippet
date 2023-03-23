@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ftd_file_upload</tabTrigger>
+	<description>Uploads files to Cisco FTD devices over HTTP(S)</description>
+	<content><![CDATA[
+- name: Uploads files to Cisco FTD devices over HTTP(S)
+  ftd_file_upload:
+      file_to_upload: 
+      operation: 
+      register_as: 
+]]>
+	</content>
+</snippet>

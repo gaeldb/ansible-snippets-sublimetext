@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_administrator_facts</tabTrigger>
+	<description>Get administrator objects facts on Checkpoint over Web Services API</description>
+	<content><![CDATA[
+- name: Get administrator objects facts on Checkpoint over Web Services API
+  cp_mgmt_administrator_facts:
+      details_level: 
+      limit: 
+      name: 
+      offset: 
+      order: 
+      version: 
+]]>
+	</content>
+</snippet>

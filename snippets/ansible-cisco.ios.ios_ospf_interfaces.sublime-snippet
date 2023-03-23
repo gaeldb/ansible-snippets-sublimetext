@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.ios.ios_ospf_interfaces</tabTrigger>
+	<description>OSPF_Interfaces resource module</description>
+	<content><![CDATA[
+- name: OSPF_Interfaces resource module
+  ios_ospf_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

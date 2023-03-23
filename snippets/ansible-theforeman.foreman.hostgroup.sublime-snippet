@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.hostgroup</tabTrigger>
+	<description>Manage Hostgroups</description>
+	<content><![CDATA[
+- name: Manage Hostgroups
+  hostgroup:
+      architecture: 
+      compute_profile: 
+      compute_resource: 
+      config_groups: 
+      content_source: 
+      content_view: 
+      description: 
+      domain: 
+      environment: 
+      kickstart_repository: 
+      lifecycle_environment: 
+      locations: 
+      medium: 
+      name: 
+      openscap_proxy: 
+      operatingsystem: 
+      organization: 
+      organizations: 
+      parameters: 
+      parent: 
+      password: 
+      ptable: 
+      puppet_ca_proxy: 
+      puppet_proxy: 
+      puppetclasses: 
+      pxe_loader: 
+      realm: 
+      root_pass: 
+      server_url: 
+      state: 
+      subnet: 
+      subnet6: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

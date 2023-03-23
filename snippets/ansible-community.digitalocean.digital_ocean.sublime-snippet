@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean</tabTrigger>
+	<description>Create/delete a droplet/SSH_key in DigitalOcean</description>
+	<content><![CDATA[
+- name: Create/delete a droplet/SSH_key in DigitalOcean
+  digital_ocean:
+      api_token: 
+      backups_enabled: 
+      command: 
+      id: 
+      image_id: 
+      ipv6: 
+      name: 
+      private_networking: 
+      region_id: 
+      size_id: 
+      ssh_key_ids: 
+      ssh_pub_key: 
+      state: 
+      unique_name: 
+      user_data: 
+      virtio: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

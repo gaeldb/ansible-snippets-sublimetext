@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.zabbix.zabbix_group</tabTrigger>
+	<description>Create/delete Zabbix host groups</description>
+	<content><![CDATA[
+- name: Create/delete Zabbix host groups
+  zabbix_group:
+      host_groups: 
+      http_login_password: 
+      http_login_user: 
+      login_password: 
+      login_user: 
+      server_url: 
+      state: 
+      timeout: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

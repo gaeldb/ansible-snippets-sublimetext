@@ -1,0 +1,30 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>openstack.cloud.baremetal_node_introspection</tabTrigger>
+	<description>Introspect Ironic nodes</description>
+	<content><![CDATA[
+- name: Introspect Ironic nodes
+  baremetal_node_introspection:
+      api_timeout: 
+      auth: 
+      auth_type: 
+      availability_zone: 
+      ca_cert: 
+      client_cert: 
+      client_key: 
+      cloud: 
+      concurrency: 
+      interface: 
+      ironic_url: 
+      max_retries: 
+      node_timeout: 
+      node_uuids: 
+      quiet: 
+      region_name: 
+      retry_timeout: 
+      timeout: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

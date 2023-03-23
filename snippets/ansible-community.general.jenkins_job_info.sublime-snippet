@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jenkins_job_info</tabTrigger>
+	<description>Get information about Jenkins jobs</description>
+	<content><![CDATA[
+- name: Get information about Jenkins jobs
+  jenkins_job_info:
+      color: 
+      glob: 
+      name: 
+      password: 
+      token: 
+      url: 
+      user: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

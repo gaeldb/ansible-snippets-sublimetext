@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_svm_options</tabTrigger>
+	<description>NetApp ONTAP Modify SVM Options</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Modify SVM Options
+  na_ontap_svm_options:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      name: 
+      ontapi: 
+      password: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      value: 
+      vserver: 
+]]>
+	</content>
+</snippet>

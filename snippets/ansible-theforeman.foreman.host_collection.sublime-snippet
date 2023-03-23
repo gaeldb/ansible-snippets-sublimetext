@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>theforeman.foreman.host_collection</tabTrigger>
+	<description>Manage Host Collections</description>
+	<content><![CDATA[
+- name: Manage Host Collections
+  host_collection:
+      description: 
+      name: 
+      organization: 
+      password: 
+      server_url: 
+      state: 
+      updated_name: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

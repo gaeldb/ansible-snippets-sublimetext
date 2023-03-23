@@ -1,0 +1,32 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.ecs_task</tabTrigger>
+	<description>Run, start or stop a task in ECS</description>
+	<content><![CDATA[
+- name: Run, start or stop a task in ECS
+  ecs_task:
+      access_key: 
+      aws_ca_bundle: 
+      aws_config: 
+      cluster: 
+      container_instances: 
+      count: 
+      debug_botocore_endpoint_logs: 
+      endpoint_url: 
+      launch_type: 
+      network_configuration: 
+      operation: 
+      overrides: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      started_by: 
+      tags: 
+      task: 
+      task_definition: 
+      validate_certs: 
+      wait: 
+]]>
+	</content>
+</snippet>

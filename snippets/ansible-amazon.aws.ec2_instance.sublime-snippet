@@ -1,0 +1,54 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>amazon.aws.ec2_instance</tabTrigger>
+	<description>Create & manage EC2 instances</description>
+	<content><![CDATA[
+- name: Create & manage EC2 instances
+  ec2_instance:
+      aap_callback: 
+      access_key: 
+      availability_zone: 
+      aws_ca_bundle: 
+      aws_config: 
+      count: 
+      cpu_credit_specification: 
+      cpu_options: 
+      debug_botocore_endpoint_logs: 
+      detailed_monitoring: 
+      ebs_optimized: 
+      endpoint_url: 
+      exact_count: 
+      filters: 
+      hibernation_options: 
+      iam_instance_profile: 
+      image: 
+      image_id: 
+      instance_ids: 
+      instance_initiated_shutdown_behavior: 
+      instance_type: 
+      key_name: 
+      launch_template: 
+      metadata_options: 
+      name: 
+      network: 
+      placement_group: 
+      profile: 
+      purge_tags: 
+      region: 
+      secret_key: 
+      security_group: 
+      security_groups: 
+      session_token: 
+      state: 
+      tags: 
+      tenancy: 
+      termination_protection: 
+      user_data: 
+      validate_certs: 
+      volumes: 
+      vpc_subnet_id: 
+      wait: 
+      wait_timeout: 
+]]>
+	</content>
+</snippet>

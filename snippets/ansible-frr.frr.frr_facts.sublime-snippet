@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>frr.frr.frr_facts</tabTrigger>
+	<description>Collect facts from remote devices running Free Range Routing (FRR).</description>
+	<content><![CDATA[
+- name: Collect facts from remote devices running Free Range Routing (FRR).
+  frr_facts:
+      gather_subset: 
+]]>
+	</content>
+</snippet>

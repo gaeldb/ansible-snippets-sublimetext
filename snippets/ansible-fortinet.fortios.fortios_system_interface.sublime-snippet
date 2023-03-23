@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_interface</tabTrigger>
+	<description>Configure interfaces in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure interfaces in Fortinet's FortiOS and FortiGate.
+  fortios_system_interface:
+      access_token: 
+      state: 
+      system_interface: 
+      vdom: 
+]]>
+	</content>
+</snippet>

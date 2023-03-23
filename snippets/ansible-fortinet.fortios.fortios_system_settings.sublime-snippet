@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_settings</tabTrigger>
+	<description>Configure VDOM settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure VDOM settings in Fortinet's FortiOS and FortiGate.
+  fortios_system_settings:
+      access_token: 
+      system_settings: 
+      vdom: 
+]]>
+	</content>
+</snippet>

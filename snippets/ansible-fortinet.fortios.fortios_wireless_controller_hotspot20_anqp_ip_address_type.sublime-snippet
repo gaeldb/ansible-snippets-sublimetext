@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_wireless_controller_hotspot20_anqp_ip_address_type</tabTrigger>
+	<description>Configure IP address type availability in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure IP address type availability in Fortinet's FortiOS and FortiGate.
+  fortios_wireless_controller_hotspot20_anqp_ip_address_type:
+      access_token: 
+      state: 
+      vdom: 
+      wireless_controller_hotspot20_anqp_ip_address_type: 
+]]>
+	</content>
+</snippet>

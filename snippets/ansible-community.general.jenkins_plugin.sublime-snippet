@@ -1,0 +1,41 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.jenkins_plugin</tabTrigger>
+	<description>Add or remove Jenkins plugin</description>
+	<content><![CDATA[
+- name: Add or remove Jenkins plugin
+  jenkins_plugin:
+      attributes: 
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      group: 
+      http_agent: 
+      jenkins_home: 
+      latest_plugins_url_segments: 
+      mode: 
+      name: 
+      owner: 
+      selevel: 
+      serole: 
+      setype: 
+      seuser: 
+      state: 
+      timeout: 
+      unsafe_writes: 
+      update_json_url_segment: 
+      updates_expiration: 
+      updates_url: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      validate_certs: 
+      version: 
+      versioned_plugins_url_segments: 
+      with_dependencies: 
+]]>
+	</content>
+</snippet>

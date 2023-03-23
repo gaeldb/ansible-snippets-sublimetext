@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.rocketchat</tabTrigger>
+	<description>Send notifications to Rocket Chat</description>
+	<content><![CDATA[
+- name: Send notifications to Rocket Chat
+  rocketchat:
+      attachments: 
+      channel: 
+      color: 
+      domain: 
+      icon_emoji: 
+      icon_url: 
+      link_names: 
+      msg: 
+      protocol: 
+      token: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>wti.remote.cpm_snmp_info</tabTrigger>
+	<description>Get network SNMP parameters from WTI OOB and PDU devices</description>
+	<content><![CDATA[
+- name: Get network SNMP parameters from WTI OOB and PDU devices
+  cpm_snmp_info:
+      cpm_password: 
+      cpm_url: 
+      cpm_username: 
+      interface: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

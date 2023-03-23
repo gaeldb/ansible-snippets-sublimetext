@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_vpn_ipsec_concentrator</tabTrigger>
+	<description>Concentrator configuration in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Concentrator configuration in Fortinet's FortiOS and FortiGate.
+  fortios_vpn_ipsec_concentrator:
+      access_token: 
+      state: 
+      vdom: 
+      vpn_ipsec_concentrator: 
+]]>
+	</content>
+</snippet>

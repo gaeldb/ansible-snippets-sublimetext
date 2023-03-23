@@ -1,0 +1,18 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ansible.windows.win_shell</tabTrigger>
+	<description>Execute shell commands on target hosts</description>
+	<content><![CDATA[
+- name: Execute shell commands on target hosts
+  win_shell:
+      chdir: 
+      creates: 
+      executable: 
+      free_form: 
+      no_profile: 
+      output_encoding_override: 
+      removes: 
+      stdin: 
+]]>
+	</content>
+</snippet>

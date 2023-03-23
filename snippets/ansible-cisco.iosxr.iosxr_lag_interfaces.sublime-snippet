@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.iosxr.iosxr_lag_interfaces</tabTrigger>
+	<description>LAG interfaces resource module</description>
+	<content><![CDATA[
+- name: LAG interfaces resource module
+  iosxr_lag_interfaces:
+      config: 
+      running_config: 
+      state: 
+]]>
+	</content>
+</snippet>

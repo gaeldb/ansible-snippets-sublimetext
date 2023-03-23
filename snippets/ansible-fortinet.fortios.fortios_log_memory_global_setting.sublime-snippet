@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_memory_global_setting</tabTrigger>
+	<description>Global settings for memory logging in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Global settings for memory logging in Fortinet's FortiOS and FortiGate.
+  fortios_log_memory_global_setting:
+      access_token: 
+      log_memory_global_setting: 
+      vdom: 
+]]>
+	</content>
+</snippet>

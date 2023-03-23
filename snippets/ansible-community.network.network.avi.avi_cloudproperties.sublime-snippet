@@ -1,0 +1,28 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_cloudproperties</tabTrigger>
+	<description>Module for setup of CloudProperties Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of CloudProperties Avi RESTful Object
+  avi_cloudproperties:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      cc_props: 
+      cc_vtypes: 
+      controller: 
+      hyp_props: 
+      info: 
+      password: 
+      state: 
+      tenant: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

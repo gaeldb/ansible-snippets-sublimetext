@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.homebrew</tabTrigger>
+	<description>Package manager for Homebrew</description>
+	<content><![CDATA[
+- name: Package manager for Homebrew
+  homebrew:
+      install_options: 
+      name: 
+      path: 
+      state: 
+      update_homebrew: 
+      upgrade_all: 
+      upgrade_options: 
+]]>
+	</content>
+</snippet>

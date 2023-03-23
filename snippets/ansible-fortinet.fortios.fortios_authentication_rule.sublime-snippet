@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_authentication_rule</tabTrigger>
+	<description>Configure Authentication Rules in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure Authentication Rules in Fortinet's FortiOS and FortiGate.
+  fortios_authentication_rule:
+      access_token: 
+      authentication_rule: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.icx_command</tabTrigger>
+	<description>Run arbitrary commands on remote Ruckus ICX 7000 series switches</description>
+	<content><![CDATA[
+- name: Run arbitrary commands on remote Ruckus ICX 7000 series switches
+  icx_command:
+      commands: 
+      interval: 
+      match: 
+      retries: 
+      wait_for: 
+]]>
+	</content>
+</snippet>

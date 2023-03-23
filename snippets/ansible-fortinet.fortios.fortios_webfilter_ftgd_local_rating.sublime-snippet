@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_webfilter_ftgd_local_rating</tabTrigger>
+	<description>Configure local FortiGuard Web Filter local ratings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure local FortiGuard Web Filter local ratings in Fortinet's FortiOS and FortiGate.
+  fortios_webfilter_ftgd_local_rating:
+      access_token: 
+      state: 
+      vdom: 
+      webfilter_ftgd_local_rating: 
+]]>
+	</content>
+</snippet>

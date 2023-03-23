@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_mlag_ipl</tabTrigger>
+	<description>Manage IPL (inter-peer link) on Mellanox ONYX network devices</description>
+	<content><![CDATA[
+- name: Manage IPL (inter-peer link) on Mellanox ONYX network devices
+  onyx_mlag_ipl:
+      name: 
+      peer_address: 
+      state: 
+      vlan_interface: 
+]]>
+	</content>
+</snippet>

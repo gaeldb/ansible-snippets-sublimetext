@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_api_version</tabTrigger>
+	<description>Avi API Version Module</description>
+	<content><![CDATA[
+- name: Avi API Version Module
+  avi_api_version:
+      api_context: 
+      api_version: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      password: 
+      tenant: 
+      tenant_uuid: 
+      username: 
+]]>
+	</content>
+</snippet>

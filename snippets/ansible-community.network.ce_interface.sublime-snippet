@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.ce_interface</tabTrigger>
+	<description>Manages physical attributes of interfaces on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Manages physical attributes of interfaces on HUAWEI CloudEngine switches.
+  ce_interface:
+      admin_state: 
+      description: 
+      interface: 
+      interface_type: 
+      l2sub: 
+      mode: 
+      state: 
+]]>
+	</content>
+</snippet>

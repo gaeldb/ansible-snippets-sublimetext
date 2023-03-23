@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_l3out_route_tag_policy</tabTrigger>
+	<description>Manage route tag policies (l3ext:RouteTagPol)</description>
+	<content><![CDATA[
+- name: Manage route tag policies (l3ext:RouteTagPol)
+  aci_l3out_route_tag_policy:
+      annotation: 
+      certificate_name: 
+      description: 
+      host: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      rtp: 
+      state: 
+      tag: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

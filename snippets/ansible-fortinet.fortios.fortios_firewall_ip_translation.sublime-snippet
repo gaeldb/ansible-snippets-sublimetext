@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_ip_translation</tabTrigger>
+	<description>Configure firewall IP-translation in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure firewall IP-translation in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_ip_translation:
+      access_token: 
+      firewall_ip_translation: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

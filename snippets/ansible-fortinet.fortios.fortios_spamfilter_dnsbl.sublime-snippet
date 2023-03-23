@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_spamfilter_dnsbl</tabTrigger>
+	<description>Configure AntiSpam DNSBL/ORBL in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure AntiSpam DNSBL/ORBL in Fortinet's FortiOS and FortiGate.
+  fortios_spamfilter_dnsbl:
+      access_token: 
+      spamfilter_dnsbl: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

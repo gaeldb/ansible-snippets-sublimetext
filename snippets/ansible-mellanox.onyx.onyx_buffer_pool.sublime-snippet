@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>mellanox.onyx.onyx_buffer_pool</tabTrigger>
+	<description>Configures Buffer Pool</description>
+	<content><![CDATA[
+- name: Configures Buffer Pool
+  onyx_buffer_pool:
+      memory_percent: 
+      name: 
+      pool_type: 
+      switch_priority: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp_eseries.santricity.na_santricity_nvme_interface</tabTrigger>
+	<description>NetApp E-Series manage NVMe interface configuration</description>
+	<content><![CDATA[
+- name: NetApp E-Series manage NVMe interface configuration
+  na_santricity_nvme_interface:
+      address: 
+      api_password: 
+      api_url: 
+      api_username: 
+      channel: 
+      config_method: 
+      controller: 
+      gateway: 
+      mtu: 
+      speed: 
+      ssid: 
+      state: 
+      subnet_mask: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

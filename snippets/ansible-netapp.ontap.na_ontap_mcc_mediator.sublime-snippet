@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_mcc_mediator</tabTrigger>
+	<description>NetApp ONTAP Add and Remove MetroCluster Mediator</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Add and Remove MetroCluster Mediator
+  na_ontap_mcc_mediator:
+      cert_filepath: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      mediator_address: 
+      mediator_password: 
+      mediator_user: 
+      ontapi: 
+      password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

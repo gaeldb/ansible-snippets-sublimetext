@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_web_proxy_explicit</tabTrigger>
+	<description>Configure explicit Web proxy settings in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure explicit Web proxy settings in Fortinet's FortiOS and FortiGate.
+  fortios_web_proxy_explicit:
+      access_token: 
+      vdom: 
+      web_proxy_explicit: 
+]]>
+	</content>
+</snippet>

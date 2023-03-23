@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.netscaler_cs_action</tabTrigger>
+	<description>Manage content switching actions</description>
+	<content><![CDATA[
+- name: Manage content switching actions
+  netscaler_cs_action:
+      comment: 
+      name: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      save_config: 
+      state: 
+      targetlbvserver: 
+      targetvserver: 
+      targetvserverexpr: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

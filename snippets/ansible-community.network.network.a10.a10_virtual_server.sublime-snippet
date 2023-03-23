@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.a10.a10_virtual_server</tabTrigger>
+	<description>Manage A10 Networks AX/SoftAX/Thunder/vThunder devices' virtual servers.</description>
+	<content><![CDATA[
+- name: Manage A10 Networks AX/SoftAX/Thunder/vThunder devices' virtual servers.
+  a10_virtual_server:
+      client_cert: 
+      client_key: 
+      force: 
+      force_basic_auth: 
+      host: 
+      http_agent: 
+      partition: 
+      password: 
+      state: 
+      url: 
+      url_password: 
+      url_username: 
+      use_gssapi: 
+      use_proxy: 
+      username: 
+      validate_certs: 
+      virtual_server: 
+      virtual_server_ip: 
+      virtual_server_ports: 
+      virtual_server_status: 
+      write_config: 
+]]>
+	</content>
+</snippet>

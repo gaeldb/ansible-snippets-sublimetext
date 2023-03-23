@@ -1,0 +1,29 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.avi_dnspolicy</tabTrigger>
+	<description>Module for setup of DnsPolicy Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of DnsPolicy Avi RESTful Object
+  avi_dnspolicy:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      controller: 
+      created_by: 
+      description: 
+      name: 
+      password: 
+      rule: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

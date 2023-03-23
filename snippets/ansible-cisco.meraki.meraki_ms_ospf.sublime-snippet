@@ -1,0 +1,31 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.meraki.meraki_ms_ospf</tabTrigger>
+	<description>Manage OSPF configuration on MS switches</description>
+	<content><![CDATA[
+- name: Manage OSPF configuration on MS switches
+  meraki_ms_ospf:
+      areas: 
+      auth_key: 
+      dead_timer: 
+      enabled: 
+      hello_timer: 
+      host: 
+      internal_error_retry_time: 
+      md5_authentication_enabled: 
+      md5_authentication_key: 
+      net_id: 
+      net_name: 
+      org_id: 
+      org_name: 
+      output_format: 
+      output_level: 
+      rate_limit_retry_time: 
+      state: 
+      timeout: 
+      use_https: 
+      use_proxy: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

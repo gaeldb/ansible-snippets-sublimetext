@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.pn_ipv6security_raguard</tabTrigger>
+	<description>CLI command to create/modify/delete ipv6security-raguard</description>
+	<content><![CDATA[
+- name: CLI command to create/modify/delete ipv6security-raguard
+  pn_ipv6security_raguard:
+      pn_access_list: 
+      pn_cliswitch: 
+      pn_device: 
+      pn_name: 
+      pn_prefix_list: 
+      pn_router_priority: 
+      state: 
+]]>
+	</content>
+</snippet>

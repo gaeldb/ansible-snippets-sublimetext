@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.portage</tabTrigger>
+	<description>Package manager for Gentoo</description>
+	<content><![CDATA[
+- name: Package manager for Gentoo
+  portage:
+      backtrack: 
+      changed_use: 
+      deep: 
+      depclean: 
+      getbinpkg: 
+      getbinpkgonly: 
+      jobs: 
+      keepgoing: 
+      loadavg: 
+      newuse: 
+      nodeps: 
+      noreplace: 
+      oneshot: 
+      onlydeps: 
+      package: 
+      quiet: 
+      quietbuild: 
+      quietfail: 
+      state: 
+      sync: 
+      update: 
+      usepkg: 
+      usepkgonly: 
+      verbose: 
+      withbdeps: 
+]]>
+	</content>
+</snippet>

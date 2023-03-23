@@ -1,0 +1,25 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.ibm_sa_domain</tabTrigger>
+	<description>Manages domains on IBM Spectrum Accelerate Family storage systems</description>
+	<content><![CDATA[
+- name: Manages domains on IBM Spectrum Accelerate Family storage systems
+  ibm_sa_domain:
+      domain: 
+      endpoints: 
+      hard_capacity: 
+      ldap_id: 
+      max_cgs: 
+      max_dms: 
+      max_mirrors: 
+      max_pools: 
+      max_volumes: 
+      password: 
+      perf_class: 
+      size: 
+      soft_capacity: 
+      state: 
+      username: 
+]]>
+	</content>
+</snippet>

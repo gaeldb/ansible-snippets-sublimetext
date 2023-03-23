@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.vmware.vmware_vm_vss_dvs_migrate</tabTrigger>
+	<description>Migrates a virtual machine from a standard vswitch to distributed</description>
+	<content><![CDATA[
+- name: Migrates a virtual machine from a standard vswitch to distributed
+  vmware_vm_vss_dvs_migrate:
+      dvportgroup_name: 
+      hostname: 
+      password: 
+      port: 
+      proxy_host: 
+      proxy_port: 
+      username: 
+      validate_certs: 
+      vm_name: 
+]]>
+	</content>
+</snippet>

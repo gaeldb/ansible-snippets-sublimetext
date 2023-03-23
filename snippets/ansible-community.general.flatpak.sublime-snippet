@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.flatpak</tabTrigger>
+	<description>Manage flatpaks</description>
+	<content><![CDATA[
+- name: Manage flatpaks
+  flatpak:
+      executable: 
+      method: 
+      name: 
+      no_dependencies: 
+      remote: 
+      state: 
+]]>
+	</content>
+</snippet>

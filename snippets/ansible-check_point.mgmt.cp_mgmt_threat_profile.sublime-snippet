@@ -1,0 +1,38 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>check_point.mgmt.cp_mgmt_threat_profile</tabTrigger>
+	<description>Manages threat-profile objects on Check Point over Web Services API</description>
+	<content><![CDATA[
+- name: Manages threat-profile objects on Check Point over Web Services API
+  cp_mgmt_threat_profile:
+      activate_protections_by_extended_attributes: 
+      active_protections_performance_impact: 
+      active_protections_severity: 
+      anti_bot: 
+      anti_virus: 
+      auto_publish_session: 
+      color: 
+      comments: 
+      confidence_level_high: 
+      confidence_level_low: 
+      confidence_level_medium: 
+      deactivate_protections_by_extended_attributes: 
+      details_level: 
+      ignore_errors: 
+      ignore_warnings: 
+      indicator_overrides: 
+      ips: 
+      ips_settings: 
+      malicious_mail_policy_settings: 
+      name: 
+      overrides: 
+      state: 
+      tags: 
+      threat_emulation: 
+      use_extended_attributes: 
+      use_indicators: 
+      version: 
+      wait_for_task: 
+]]>
+	</content>
+</snippet>

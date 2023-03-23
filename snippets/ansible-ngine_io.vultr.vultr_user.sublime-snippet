@@ -1,0 +1,24 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ngine_io.vultr.vultr_user</tabTrigger>
+	<description>Manages users on Vultr.</description>
+	<content><![CDATA[
+- name: Manages users on Vultr.
+  vultr_user:
+      acls: 
+      api_account: 
+      api_enabled: 
+      api_endpoint: 
+      api_key: 
+      api_retries: 
+      api_retry_max_delay: 
+      api_timeout: 
+      email: 
+      force: 
+      name: 
+      password: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

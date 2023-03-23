@@ -1,0 +1,19 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.nxos.nxos_user</tabTrigger>
+	<description>Manage the collection of local users on Nexus devices</description>
+	<content><![CDATA[
+- name: Manage the collection of local users on Nexus devices
+  nxos_user:
+      aggregate: 
+      configured_password: 
+      name: 
+      provider: 
+      purge: 
+      roles: 
+      sshkey: 
+      state: 
+      update_password: 
+]]>
+	</content>
+</snippet>

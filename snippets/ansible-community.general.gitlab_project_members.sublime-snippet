@@ -1,0 +1,23 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.gitlab_project_members</tabTrigger>
+	<description>Manage project members on GitLab Server</description>
+	<content><![CDATA[
+- name: Manage project members on GitLab Server
+  gitlab_project_members:
+      access_level: 
+      api_job_token: 
+      api_oauth_token: 
+      api_password: 
+      api_token: 
+      api_url: 
+      api_username: 
+      gitlab_user: 
+      gitlab_users_access: 
+      project: 
+      purge_users: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

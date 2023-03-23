@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_firewall_vip</tabTrigger>
+	<description>Configure virtual IP for IPv4 in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure virtual IP for IPv4 in Fortinet's FortiOS and FortiGate.
+  fortios_firewall_vip:
+      access_token: 
+      firewall_vip: 
+      state: 
+      vdom: 
+]]>
+	</content>
+</snippet>

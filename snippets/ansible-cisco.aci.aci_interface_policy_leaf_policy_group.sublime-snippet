@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_interface_policy_leaf_policy_group</tabTrigger>
+	<description>Manage fabric interface policy leaf policy groups (infra:AccBndlGrp, infra:AccPortGrp)</description>
+	<content><![CDATA[
+- name: Manage fabric interface policy leaf policy groups (infra:AccBndlGrp, infra:AccPortGrp)
+  aci_interface_policy_leaf_policy_group:
+      aep: 
+      annotation: 
+      cdp_policy: 
+      certificate_name: 
+      description: 
+      egress_data_plane_policing_policy: 
+      fibre_channel_interface_policy: 
+      host: 
+      ingress_data_plane_policing_policy: 
+      l2_interface_policy: 
+      lag_type: 
+      link_level_policy: 
+      lldp_policy: 
+      mcp_policy: 
+      monitoring_policy: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      policy_group: 
+      port: 
+      port_channel_policy: 
+      port_security_policy: 
+      priority_flow_control_policy: 
+      private_key: 
+      slow_drain_policy: 
+      state: 
+      storm_control_interface_policy: 
+      stp_interface_policy: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

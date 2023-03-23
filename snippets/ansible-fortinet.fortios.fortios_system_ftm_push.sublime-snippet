@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_system_ftm_push</tabTrigger>
+	<description>Configure FortiToken Mobile push services in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Configure FortiToken Mobile push services in Fortinet's FortiOS and FortiGate.
+  fortios_system_ftm_push:
+      access_token: 
+      system_ftm_push: 
+      vdom: 
+]]>
+	</content>
+</snippet>

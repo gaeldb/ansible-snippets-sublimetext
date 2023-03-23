@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_nic</tabTrigger>
+	<description>Module to manage network interfaces of Virtual Machines in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage network interfaces of Virtual Machines in oVirt/RHV
+  ovirt_nic:
+      auth: 
+      fetch_nested: 
+      id: 
+      interface: 
+      linked: 
+      mac_address: 
+      name: 
+      nested_attributes: 
+      network: 
+      poll_interval: 
+      profile: 
+      state: 
+      template: 
+      template_version: 
+      timeout: 
+      vm: 
+      wait: 
+]]>
+	</content>
+</snippet>

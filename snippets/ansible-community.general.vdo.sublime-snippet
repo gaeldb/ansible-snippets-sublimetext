@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.vdo</tabTrigger>
+	<description>Module to control VDO</description>
+	<content><![CDATA[
+- name: Module to control VDO
+  vdo:
+      ackthreads: 
+      activated: 
+      biothreads: 
+      blockmapcachesize: 
+      compression: 
+      cputhreads: 
+      deduplication: 
+      device: 
+      emulate512: 
+      force: 
+      growphysical: 
+      indexmem: 
+      indexmode: 
+      logicalsize: 
+      logicalthreads: 
+      name: 
+      physicalthreads: 
+      readcache: 
+      readcachesize: 
+      running: 
+      slabsize: 
+      state: 
+      writepolicy: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_dns</tabTrigger>
+	<description>NetApp ONTAP Create, delete, modify DNS servers.</description>
+	<content><![CDATA[
+- name: NetApp ONTAP Create, delete, modify DNS servers.
+  na_ontap_dns:
+      cert_filepath: 
+      domains: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      nameservers: 
+      ontapi: 
+      password: 
+      skip_validation: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

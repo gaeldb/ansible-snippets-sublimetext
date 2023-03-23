@@ -1,0 +1,46 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.docker.docker_swarm</tabTrigger>
+	<description>Manage Swarm cluster</description>
+	<content><![CDATA[
+- name: Manage Swarm cluster
+  docker_swarm:
+      advertise_addr: 
+      api_version: 
+      autolock_managers: 
+      ca_cert: 
+      ca_force_rotate: 
+      client_cert: 
+      client_key: 
+      debug: 
+      default_addr_pool: 
+      dispatcher_heartbeat_period: 
+      docker_host: 
+      election_tick: 
+      force: 
+      heartbeat_tick: 
+      join_token: 
+      keep_old_snapshots: 
+      labels: 
+      listen_addr: 
+      log_entries_for_slow_followers: 
+      name: 
+      node_cert_expiry: 
+      node_id: 
+      remote_addrs: 
+      rotate_manager_token: 
+      rotate_worker_token: 
+      signing_ca_cert: 
+      signing_ca_key: 
+      snapshot_interval: 
+      ssl_version: 
+      state: 
+      subnet_size: 
+      task_history_retention_limit: 
+      timeout: 
+      tls: 
+      tls_hostname: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

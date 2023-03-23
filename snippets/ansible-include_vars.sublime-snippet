@@ -1,0 +1,20 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>include_vars</tabTrigger>
+	<description>Load variables from files, dynamically within a task</description>
+	<content><![CDATA[
+- name: Load variables from files, dynamically within a task
+  include_vars:
+      depth: 
+      dir: 
+      extensions: 
+      file: 
+      files_matching: 
+      free-form: 
+      hash_behaviour: 
+      ignore_files: 
+      ignore_unknown_extensions: 
+      name: 
+]]>
+	</content>
+</snippet>

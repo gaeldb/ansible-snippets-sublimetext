@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.keycloak_client_rolemapping</tabTrigger>
+	<description>Allows administration of Keycloak client_rolemapping with the Keycloak API</description>
+	<content><![CDATA[
+- name: Allows administration of Keycloak client_rolemapping with the Keycloak API
+  keycloak_client_rolemapping:
+      auth_client_id: 
+      auth_client_secret: 
+      auth_keycloak_url: 
+      auth_password: 
+      auth_realm: 
+      auth_username: 
+      cid: 
+      client_id: 
+      connection_timeout: 
+      gid: 
+      group_name: 
+      http_agent: 
+      realm: 
+      roles: 
+      state: 
+      token: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

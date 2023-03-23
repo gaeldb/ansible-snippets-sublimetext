@@ -1,0 +1,13 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>fortinet.fortios.fortios_log_syslogd_override_filter</tabTrigger>
+	<description>Override filters for remote system server in Fortinet's FortiOS and FortiGate.</description>
+	<content><![CDATA[
+- name: Override filters for remote system server in Fortinet's FortiOS and FortiGate.
+  fortios_log_syslogd_override_filter:
+      access_token: 
+      log_syslogd_override_filter: 
+      vdom: 
+]]>
+	</content>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>netapp.ontap.na_ontap_user</tabTrigger>
+	<description>NetApp ONTAP user configuration and management</description>
+	<content><![CDATA[
+- name: NetApp ONTAP user configuration and management
+  na_ontap_user:
+      applications: 
+      authentication_method: 
+      authentication_password: 
+      authentication_protocol: 
+      cert_filepath: 
+      engine_id: 
+      feature_flags: 
+      hostname: 
+      http_port: 
+      https: 
+      key_filepath: 
+      lock_user: 
+      name: 
+      ontapi: 
+      password: 
+      privacy_password: 
+      privacy_protocol: 
+      remote_switch_ipaddress: 
+      role_name: 
+      set_password: 
+      state: 
+      use_rest: 
+      username: 
+      validate_certs: 
+      vserver: 
+]]>
+	</content>
+</snippet>

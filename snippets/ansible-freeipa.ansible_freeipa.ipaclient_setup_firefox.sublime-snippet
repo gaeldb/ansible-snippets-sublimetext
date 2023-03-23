@@ -1,0 +1,12 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>freeipa.ansible_freeipa.ipaclient_setup_firefox</tabTrigger>
+	<description>Setup firefox for IPA client</description>
+	<content><![CDATA[
+- name: Setup firefox for IPA client
+  ipaclient_setup_firefox:
+      domain: 
+      firefox_dir: 
+]]>
+	</content>
+</snippet>

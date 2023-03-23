@@ -1,0 +1,40 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>cisco.aci.aci_filter_entry</tabTrigger>
+	<description>Manage filter entries (vz:Entry)</description>
+	<content><![CDATA[
+- name: Manage filter entries (vz:Entry)
+  aci_filter_entry:
+      annotation: 
+      arp_flag: 
+      certificate_name: 
+      description: 
+      dst_port: 
+      dst_port_end: 
+      dst_port_start: 
+      entry: 
+      ether_type: 
+      filter: 
+      host: 
+      icmp6_msg_type: 
+      icmp_msg_type: 
+      ip_protocol: 
+      name_alias: 
+      output_level: 
+      output_path: 
+      owner_key: 
+      owner_tag: 
+      password: 
+      port: 
+      private_key: 
+      state: 
+      stateful: 
+      tenant: 
+      timeout: 
+      use_proxy: 
+      use_ssl: 
+      username: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

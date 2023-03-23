@@ -1,0 +1,16 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>purestorage.flasharray.purefa_syslog</tabTrigger>
+	<description>Configure Pure Storage FlashArray syslog settings</description>
+	<content><![CDATA[
+- name: Configure Pure Storage FlashArray syslog settings
+  purefa_syslog:
+      address: 
+      api_token: 
+      fa_url: 
+      port: 
+      protocol: 
+      state: 
+]]>
+	</content>
+</snippet>

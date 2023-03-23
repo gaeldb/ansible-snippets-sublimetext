@@ -1,0 +1,35 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.avi.avi_scheduler</tabTrigger>
+	<description>Module for setup of Scheduler Avi RESTful Object</description>
+	<content><![CDATA[
+- name: Module for setup of Scheduler Avi RESTful Object
+  avi_scheduler:
+      api_context: 
+      api_version: 
+      avi_api_patch_op: 
+      avi_api_update_method: 
+      avi_credentials: 
+      avi_disable_session_cache_as_fact: 
+      backup_config_ref: 
+      controller: 
+      enabled: 
+      end_date_time: 
+      frequency: 
+      frequency_unit: 
+      name: 
+      password: 
+      run_mode: 
+      run_script_ref: 
+      scheduler_action: 
+      start_date_time: 
+      state: 
+      tenant: 
+      tenant_ref: 
+      tenant_uuid: 
+      url: 
+      username: 
+      uuid: 
+]]>
+	</content>
+</snippet>

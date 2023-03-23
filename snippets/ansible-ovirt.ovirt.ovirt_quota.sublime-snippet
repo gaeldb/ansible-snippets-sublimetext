@@ -1,0 +1,27 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>ovirt.ovirt.ovirt_quota</tabTrigger>
+	<description>Module to manage datacenter quotas in oVirt/RHV</description>
+	<content><![CDATA[
+- name: Module to manage datacenter quotas in oVirt/RHV
+  ovirt_quota:
+      auth: 
+      cluster_grace: 
+      cluster_threshold: 
+      clusters: 
+      data_center: 
+      description: 
+      fetch_nested: 
+      id: 
+      name: 
+      nested_attributes: 
+      poll_interval: 
+      state: 
+      storage_grace: 
+      storage_threshold: 
+      storages: 
+      timeout: 
+      wait: 
+]]>
+	</content>
+</snippet>

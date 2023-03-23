@@ -1,0 +1,11 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.cloudengine.ce_link_status</tabTrigger>
+	<description>Get interface link status on HUAWEI CloudEngine switches.</description>
+	<content><![CDATA[
+- name: Get interface link status on HUAWEI CloudEngine switches.
+  ce_link_status:
+      interface: 
+]]>
+	</content>
+</snippet>

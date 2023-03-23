@@ -1,0 +1,33 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.aws.api_gateway</tabTrigger>
+	<description>Manage AWS API Gateway APIs</description>
+	<content><![CDATA[
+- name: Manage AWS API Gateway APIs
+  api_gateway:
+      access_key: 
+      api_id: 
+      aws_ca_bundle: 
+      aws_config: 
+      cache_enabled: 
+      cache_size: 
+      debug_botocore_endpoint_logs: 
+      deploy_desc: 
+      endpoint_type: 
+      endpoint_url: 
+      profile: 
+      region: 
+      secret_key: 
+      session_token: 
+      stage: 
+      stage_canary_settings: 
+      stage_variables: 
+      state: 
+      swagger_dict: 
+      swagger_file: 
+      swagger_text: 
+      tracing_enabled: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

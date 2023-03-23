@@ -1,0 +1,45 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.network.network.netscaler.netscaler_gslb_vserver</tabTrigger>
+	<description>Configure gslb vserver entities in Netscaler.</description>
+	<content><![CDATA[
+- name: Configure gslb vserver entities in Netscaler.
+  netscaler_gslb_vserver:
+      appflowlog: 
+      backuplbmethod: 
+      comment: 
+      considereffectivestate: 
+      disabled: 
+      disableprimaryondown: 
+      dnsrecordtype: 
+      domain_bindings: 
+      dynamicweight: 
+      lbmethod: 
+      mir: 
+      name: 
+      netmask: 
+      nitro_pass: 
+      nitro_protocol: 
+      nitro_timeout: 
+      nitro_user: 
+      nsip: 
+      persistenceid: 
+      persistencetype: 
+      persistmask: 
+      save_config: 
+      service_bindings: 
+      servicetype: 
+      sobackupaction: 
+      somethod: 
+      sopersistence: 
+      sopersistencetimeout: 
+      sothreshold: 
+      state: 
+      timeout: 
+      tolerance: 
+      v6netmasklen: 
+      v6persistmasklen: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

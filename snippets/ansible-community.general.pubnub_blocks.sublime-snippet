@@ -1,0 +1,22 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.pubnub_blocks</tabTrigger>
+	<description>PubNub blocks management module</description>
+	<content><![CDATA[
+- name: PubNub blocks management module
+  pubnub_blocks:
+      account: 
+      application: 
+      cache: 
+      changes: 
+      description: 
+      email: 
+      event_handlers: 
+      keyset: 
+      name: 
+      password: 
+      state: 
+      validate_certs: 
+]]>
+	</content>
+</snippet>

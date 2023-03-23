@@ -1,0 +1,17 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.general.circonus_annotation</tabTrigger>
+	<description>Create an annotation in circonus</description>
+	<content><![CDATA[
+- name: Create an annotation in circonus
+  circonus_annotation:
+      api_key: 
+      category: 
+      description: 
+      duration: 
+      start: 
+      stop: 
+      title: 
+]]>
+	</content>
+</snippet>

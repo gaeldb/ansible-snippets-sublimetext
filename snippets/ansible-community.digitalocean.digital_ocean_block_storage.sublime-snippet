@@ -1,0 +1,21 @@
+<snippet>
+	<scope>source.ansible,source.yaml</scope>
+	<tabTrigger>community.digitalocean.digital_ocean_block_storage</tabTrigger>
+	<description>Create/destroy or attach/detach Block Storage volumes in DigitalOcean</description>
+	<content><![CDATA[
+- name: Create/destroy or attach/detach Block Storage volumes in DigitalOcean
+  digital_ocean_block_storage:
+      block_size: 
+      command: 
+      description: 
+      droplet_id: 
+      oauth_token: 
+      region: 
+      snapshot_id: 
+      state: 
+      timeout: 
+      validate_certs: 
+      volume_name: 
+]]>
+	</content>
+</snippet>
